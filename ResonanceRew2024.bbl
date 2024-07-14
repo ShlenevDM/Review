@@ -7,9 +7,183 @@
 \cyr\cyrd\cyra\cyrt\cyra\ %
 \cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
+
+\bibitem{Duncan:1995}
+\selectlanguageifdefined{english}
+\BibEmph{{Thompson}~C., {Duncan}~R.~C.} {The soft gamma repeaters as very
+  strongly magnetized neutron stars - I. Radiative mechanism for outbursts}~//
+  \BibEmph{Mon. Not. Roy. Astron. Soc.}
+\newblock 1995.
+\newblock Vol. 275.
+\newblock P.~255--300.
+
+\bibitem{Thompson:1996}
+\selectlanguageifdefined{english}
+\BibEmph{{Thompson}~C., {Duncan}~R.~C.} {The soft gamma repeaters as very
+  strongly magnetized neutron stars. II. Quiescent neutrino, X-Ray, and Alfven
+  wave emission}~// \BibEmph{Astrophys. J.}
+\newblock 1996.
+\newblock Vol. 473.
+\newblock P.~322--342.
+
+\bibitem{Lyutikov:2002}
+\selectlanguageifdefined{english}
+\BibEmph{Thompson~C., Lyutikov~M., Kulkarni~S.~R.} {Electrodynamics of
+  magnetars: implications for the persistent x-ray emission and spindown of the
+  soft gamma repeaters and anomalous x-ray pulsars}~// \BibEmph{Astrophys. J.}
+\newblock 2002.
+\newblock Vol. 574, no.~1.
+\newblock P.~332--355.
+
+\bibitem{RCh:2008}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~Д.~А., Чистяков~М.~В.} {Влияние фотон-нейтринных процессов на
+  остывание магнитара}~// \BibEmph{ЖЭТФ.}
+\newblock {2008}.
+\newblock {\cyr\CYRT.} {134}, {\cyr\textnumero}~{4}.
+\newblock {\cyr\CYRS.}~{627--636}.
+
+\bibitem{Johnson:1949}
+\selectlanguageifdefined{english}
+\BibEmph{{Johnson}~M.~H., {Lippmann}~B.~A.} {Motion in a constant magnetic
+  field}~// \BibEmph{Physical Review}.
+\newblock 1949.
+\newblock Vol.~76, no.~6.
+\newblock P.~828--832.
+
+\bibitem{Akhiezer:1965}
+\selectlanguageifdefined{russian}
+\BibEmph{Ахиезер~А.~И., Берестецкий~В.~Б.} Квантовая электродинамика.
+\newblock Москва: Физматгиз, 1959.
+\newblock 656~{\cyr\cyrs.}
+
+\bibitem{Sokolov:1968}
+\selectlanguageifdefined{russian}
+\BibEmph{Соколов~А.~А., Тернов~И.~М.} Синхротронное излучение.
+\newblock М.: Наука, 1966.
+\newblock 228~{\cyr\cyrs.}
+
+\bibitem{Melrose:1983a}
+\selectlanguageifdefined{english}
+\BibEmph{Melrose~D.~B., Parle~A.~J.} {Quantum electrodynamics in strong
+  magnetic fields. I Electron States}~// \BibEmph{Aust. J. Phys.}
+\newblock 1983.
+\newblock Vol.~36.
+\newblock P.~755--774.
+
+\bibitem{Sokolov:1986}
+\selectlanguageifdefined{russian}
+\BibEmph{Соколов~А.~А., Тернов~И.~М.} Релятивистский электрон.
+\newblock Москва: Наука, 1983.
+\newblock 304~{\cyr\cyrs.}
+
+\bibitem{KM_Book_2003}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A.~V., Mikheev~N.~V.} Electroweak processes in external
+  electromagnetic fields.
+\newblock New York: Springer-Verlag, 2003.
+\newblock 120~p.
+
+\bibitem{Bhattacharya:2004}
+\selectlanguageifdefined{english}
+\BibEmph{Bhattacharya~K., Pal~P.~B.} {Inverse beta decay of arbitrarily
+  polarized neutrons in a magnetic field}~// \BibEmph{Pramana J. Phys.}
+\newblock 2004.
+\newblock Vol.~62.
+\newblock P.~1041--1058.
+
+\bibitem{Balantsev:2011}
+\selectlanguageifdefined{english}
+\BibEmph{Balantsev~I.~A., Popov~{\relax Yu}.~V., Studenikin~A.~I.} {On the
+  problem of relativistic particles motion in strong magnetic field and dense
+  matter}~// \BibEmph{J. Phys.}
+\newblock 2011.
+\newblock Vol. A44.
+\newblock P.~255301 (1--13).
+
+\bibitem{KM_Book_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A., Mikheev~N.} {Electroweak processes in external active
+  media}.
+\newblock 2013.
+\newblock Vol.~252.
+\newblock P.~pp 1--271.
+
+\bibitem{Canuto:1975}
+\selectlanguageifdefined{english}
+\BibEmph{Canuto~V.} Quantum processes in strong magnetic fields~//
+  \BibEmph{Ann. N. Y. Acad. Sci.}
+\newblock 1975.
+\newblock Vol. 257, no.~1.
+\newblock P.~108--126.
+
+\bibitem{Harding:1991}
+\selectlanguageifdefined{english}
+\BibEmph{{Harding}~A.~K., {Daugherty}~J.~K.} {Cyclotron Resonant Scattering and
+  Absorption}~// \BibEmph{Astrophys. J.}
+\newblock 1991.
+\newblock Vol. 374.
+\newblock P.~687--699.
+
+\bibitem{Suh:1999}
+\selectlanguageifdefined{english}
+\BibEmph{{Suh}~I.-S., {Mathews}~G.~J.} {Weak reaction freeze-out constraints on
+  primordial magnetic fields}~// \BibEmph{Phys. rev. D}.
+\newblock 1999.
+\newblock Vol.~59, no.~12.
+\newblock P.~123002.
+
+\bibitem{Gonthier:2000}
+\selectlanguageifdefined{english}
+\BibEmph{{Gonthier}~P.~L., {Harding}~A.~K., {Baring}~M.~G. et~al.} {Compton
+  Scattering in Ultrastrong Magnetic Fields: Numerical and Analytical Behavior
+  in the Relativistic Regime}~// \BibEmph{Astrophys. J.}
+\newblock 2000.
+\newblock Vol. 540, no.~2.
+\newblock P.~907--922.
+
+\bibitem{Jones:2010}
+\selectlanguageifdefined{english}
+\BibEmph{{Jones}~P.~B.} {Electron-positron bremsstrahlung and pair creation in
+  very high magnetic fields}~// \BibEmph{Mon. Not. Roy. Astron. Soc.}
+\newblock 2010.
+\newblock Vol. 409, no.~4.
+\newblock P.~1719--1727.
+
+\bibitem{Melrose:2020}
+\selectlanguageifdefined{english}
+\BibEmph{{Melrose}~D.~B.} {Quantum kinetic theory for unmagnetized and
+  magnetized plasmas}~// \BibEmph{Rev. Mod. Plasma Phys.}
+\newblock 2020.
+\newblock Vol.~4, no.~8.
+
+\bibitem{Melrose:1983}
+\selectlanguageifdefined{english}
+\BibEmph{Melrose~D.~B., Parle~A.~J.} {Quantum electrodynamics in strong
+  magnetic fields. I Electron States}~// \BibEmph{Aust. J. Phys.}
+\newblock 1983.
+\newblock Vol.~36.
+\newblock P.~755--774.
+
+\bibitem{Graziani:1993}
+\selectlanguageifdefined{english}
+\BibEmph{{Graziani}~C.} {Strong-Field Cyclotron Scattering. I. Scattering
+  Amplitudes and Natural Line Width}~// \BibEmph{Astrophys. J.}
+\newblock 1993.
+\newblock Vol. 412.
+\newblock P.~351--362.
+
+\bibitem{Gonthier:2014}
+\selectlanguageifdefined{english}
+\BibEmph{Gonthier~P.~L., Baring~M.~G., Eiles~M.~T. et~al.} {Compton scattering
+  in strong magnetic fields: Spin-dependent influences at the cyclotron
+  resonance}~// \BibEmph{Phys. Rev.}
+\newblock 2014.
+\newblock Vol. D90, no.~4.
+\newblock P.~043014.
 
 \end{thebibliography}
