@@ -47,6 +47,66 @@
 \newblock {\cyr\CYRT.} {134}, {\cyr\textnumero}~{4}.
 \newblock {\cyr\CYRS.}~{627--636}.
 
+\bibitem{Bisnovatyi:1979}
+\selectlanguageifdefined{russian}
+\BibEmph{Бисноватый-Коган~Г.~С., Чечеткин~В.~М.} {Неравновесные оболочки
+  нейтронных звезд, их роль в поддержании рентгеновского излучения и
+  нуклеосинтезе}~// \BibEmph{Усп. физ. наук}.
+\newblock {1979}.
+\newblock {\cyr\CYRT.} {127}, {\cyr\textnumero}~{2}.
+\newblock {\cyr\CYRS.}~{263--296}.
+
+\bibitem{Kouveliotou:1998ze}
+\selectlanguageifdefined{english}
+\BibEmph{Kouveliotou~C. et~al.} {An X-ray pulsar with a superstrong magnetic
+  field in the soft gamma-ray repeater SGR 1806-20.}~// \BibEmph{Nature}.
+\newblock 1998.
+\newblock Vol. 393.
+\newblock P.~235--237.
+
+\bibitem{Kouveliotou:1998fd}
+\selectlanguageifdefined{english}
+\BibEmph{Kouveliotou~C., Strohmayer~T., Hurley~K. et~al.} {Discovery of a
+  magnetar associated with the soft gamma repeater SGR 1900+14}~//
+  \BibEmph{Astrophys. J.}
+\newblock 1999.
+\newblock Vol. 510.
+\newblock P.~L115--118.
+
+\bibitem{Gavriil:2002mc}
+\selectlanguageifdefined{english}
+\BibEmph{Gavriil~F.~P., Kaspi~V.~M., Woods~P.~M.} {Magnetar - like x-ray bursts
+  from an anomalous x-ray pulsar}~// \BibEmph{Nature}.
+\newblock 2002.
+\newblock Vol. 419.
+\newblock P.~142--144.
+
+\bibitem{Ibrahim:2002zw}
+\selectlanguageifdefined{english}
+\BibEmph{Ibrahim~A.~I., Safi-Harb~S., Swank~J.~H. et~al.} {Discovery of
+  cyclotron resonance features in the soft gamma repeater SGR 1806-20}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2002.
+\newblock Vol. 574.
+\newblock P.~L51--L55.
+
+\bibitem{Ibrahim:2002zy}
+\selectlanguageifdefined{english}
+\BibEmph{Ibrahim~A.~I., Swank~J.~H., Parke~W.} {New evidence for proton
+  cyclotron resonance in a magnetar strength field from SGR 1806-20}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2003.
+\newblock Vol. 584.
+\newblock P.~L17--L22.
+
+\bibitem{Olausen:2013bpa}
+\selectlanguageifdefined{english}
+\BibEmph{Olausen~S.~A., Kaspi~V.~M.} {The McGill magnetar catalog}~//
+  \BibEmph{Astrophys. J. Suppl.}
+\newblock 2014.
+\newblock Vol. 212, no.~1.
+\newblock P.~6.
+
 \bibitem{Johnson:1949}
 \selectlanguageifdefined{english}
 \BibEmph{{Johnson}~M.~H., {Lippmann}~B.~A.} {Motion in a constant magnetic
@@ -185,5 +245,12 @@
 \newblock 2014.
 \newblock Vol. D90, no.~4.
 \newblock P.~043014.
+
+\bibitem{Gradshtein}
+\selectlanguageifdefined{russian}
+\BibEmph{Градштейн~И.~С., Рыжик~И.~М.} Таблицы интегралов, сумм, рядов и
+  произведений.
+\newblock Москва: Гос. изд-во физ.-мат. лит., 1963.
+\newblock 1108~{\cyr\cyrs.}
 
 \end{thebibliography}
