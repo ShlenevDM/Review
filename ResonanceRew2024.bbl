@@ -253,4 +253,12 @@
 \newblock Москва: Гос. изд-во физ.-мат. лит., 1963.
 \newblock 1108~{\cyr\cyrs.}
 
+\bibitem{Schwinger:1951}
+\selectlanguageifdefined{english}
+\BibEmph{Schwinger~J.} On Gauge Invariance and Vacuum Polarization~//
+  \BibEmph{Phys. Rev.}
+\newblock 1951. "--- Jun.
+\newblock Vol.~82.
+\newblock P.~664--679.
+
 \end{thebibliography}
