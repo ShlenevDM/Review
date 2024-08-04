@@ -253,6 +253,31 @@
 \newblock Москва: Гос. изд-во физ.-мат. лит., 1963.
 \newblock 1108~{\cyr\cyrs.}
 
+\bibitem{Shabad:1988}
+\selectlanguageifdefined{russian}
+\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
+  внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
+  калибровочных полях''}.
+\newblock 1988.
+\newblock {\cyr\CYRT.} {192}.
+\newblock {\cyr\CYRS.}~5--152.
+
+\bibitem{Chistyakov:2009}
+\selectlanguageifdefined{english}
+\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A.} {Compton effect in strongly
+  magnetized plasma}~// \BibEmph{Int. J. Mod. Phys.}
+\newblock 2009.
+\newblock Vol. A24.
+\newblock P.~3995--4008.
+
+\bibitem{Beloborodov:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Beloborodov}~A.~M., {Thompson}~C.} {Corona of magnetars}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2007.
+\newblock Vol. 657, no.~2.
+\newblock P.~967--993.
+
 \bibitem{Schwinger:1951}
 \selectlanguageifdefined{english}
 \BibEmph{Schwinger~J.} On Gauge Invariance and Vacuum Polarization~//
@@ -260,5 +285,13 @@
 \newblock 1951. "--- Jun.
 \newblock Vol.~82.
 \newblock P.~664--679.
+
+\bibitem{Jancovici:1969}
+\selectlanguageifdefined{english}
+\BibEmph{{Jancovici}~B.} Radiative Correction to the Ground-State Energy of an
+  Electron in an Intense Magnetic Field~// \BibEmph{Phys. Rev.}
+\newblock 1969.
+\newblock Vol. 187.
+\newblock P.~2275--2276.
 
 \end{thebibliography}

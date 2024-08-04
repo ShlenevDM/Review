@@ -3,11 +3,12 @@
 \ifpdf
 \usepackage{cmap}
 \pdfcompresslevel=9
-\usepackage[pdftex]{color, graphicx}
+\usepackage{graphicx}
+\graphicspath{{image/}}
 \usepackage{epstopdf}
 \usepackage[pdftex, colorlinks=false, pdfstartview=FitH, hypertexnames=false, unicode, bookmarks=false]{hyperref} 
 \else
-\usepackage[dvips]{color, graphicx}
+
 \usepackage[hypertex, colorlinks=false, unicode]{hyperref}
 \fi
 
@@ -16,11 +17,15 @@
 
 \usepackage{indentfirst}
 
+
+
 \usepackage[cp1251]{inputenc}
 \usepackage[T2A]{fontenc}
 \usepackage{textcomp}
 \usepackage[english,russian]{babel}
-% \ifpdf\usepackage{epstopdf}\fi
+
+
+
 \usepackage{bm}
 \usepackage{amsmath,amssymb,amsbsy} 
 \usepackage{comment}
@@ -28,8 +33,6 @@
 \def\mprl{\mbox{\tiny $\|$}}
 \def\th{\mbox{th}}
 
-\usepackage{graphicx}
-\graphicspath{{Pics/}}
 \def\beq{\begin{eqnarray}}
 \def\eeq{\end{eqnarray}}
 \def\ee{\varepsilon}
@@ -106,7 +109,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Представление решений уравнения Дирака во внешнем магнитном поле.}
+\section{Фермионы и фотоны во внешнем магнитном поле}
+В данной главе рассмотрим описание частиц во внешнем постоянном магнитном поле, направленном вдоль оси $z$. 
 \input{Chapter1}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

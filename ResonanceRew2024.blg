@@ -14,9 +14,9 @@ Database file #1: Bib.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 
 Here's how much of BibTeX's memory you used:
- Cites:                31 out of 750
- Fields:             1532 out of 5000
- Hash table:        18618 out of 19000
- Strings:            1246 out of 19000
- Free string pool:  13672 out of 65000
+ Cites:                35 out of 750
+ Fields:             1736 out of 5000
+ Hash table:        18613 out of 19000
+ Strings:            1276 out of 19000
+ Free string pool:  14266 out of 65000
  Wizard functions:   3568 out of 6000
