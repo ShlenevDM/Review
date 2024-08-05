@@ -41,7 +41,7 @@
 
 \bibitem{RCh:2008}
 \selectlanguageifdefined{russian}
-\BibEmph{Румянцев~.~., Чистяков~.~.} {Влияние фотон-нейтринных процессов на
+\BibEmph{Румянцев~Д.~А., Чистяков~М.~В.} {Влияние фотон-нейтринных процессов на
   остывание магнитара}~// \BibEmph{ЖЭТФ.}
 \newblock {2008}.
 \newblock {\cyr\CYRT.} {134}, {\cyr\textnumero}~{4}.
@@ -49,9 +49,9 @@
 
 \bibitem{Bisnovatyi:1979}
 \selectlanguageifdefined{russian}
-\BibEmph{Бисноватый-Коган~.~., Чечеткин~.~.} {Неравновесные оболочки нейтронных
-  звезд, их роль в поддержании рентгеновского излучения и нуклеосинтезе}~//
-  \BibEmph{Усп. физ. наук}.
+\BibEmph{Бисноватый-Коган~Г.~С., Чечеткин~В.~М.} {Неравновесные оболочки
+  нейтронных звезд, их роль в поддержании рентгеновского излучения и
+  нуклеосинтезе}~// \BibEmph{Усп. физ. наук}.
 \newblock {1979}.
 \newblock {\cyr\CYRT.} {127}, {\cyr\textnumero}~{2}.
 \newblock {\cyr\CYRS.}~{263--296}.
@@ -117,7 +117,7 @@
 
 \bibitem{Sokolov:1986}
 \selectlanguageifdefined{russian}
-\BibEmph{Соколов~.~., Тернов~.~.} Релятивистский электрон.
+\BibEmph{Соколов~А.~А., Тернов~И.~М.} Релятивистский электрон.
 \newblock Москва: Наука, 1983.
 \newblock 304~{\cyr\cyrs.}
 
@@ -163,19 +163,20 @@
 
 \bibitem{Sokolov:1968}
 \selectlanguageifdefined{russian}
-\BibEmph{Соколов~.~., Тернов~.~.} Синхротронное излучение.
+\BibEmph{Соколов~А.~А., Тернов~И.~М.} Синхротронное излучение.
 \newblock М.: Наука, 1966.
 \newblock 228~{\cyr\cyrs.}
 
 \bibitem{Peskin:1995}
 \selectlanguageifdefined{russian}
-\BibEmph{Пескин~., Шредер~.} Введение в квантовую теорию поля.
+\BibEmph{Пескин~М., Шредер~Д.} Введение в квантовую теорию поля.
 \newblock Ижевск: РХД, 2001.
 \newblock 784~{\cyr\cyrs.}
 
 \bibitem{Landau:1989}
 \selectlanguageifdefined{russian}
-\BibEmph{Ландау~.~., Лифшиц~.~.} Квантовая механика. Нерелятивисткая теория.
+\BibEmph{Ландау~Л.~Д., Лифшиц~Е.~М.} Квантовая механика. Нерелятивисткая
+  теория.
 \newblock Москва: Наука, 1989.
 \newblock 768~{\cyr\cyrs.}
 
@@ -246,14 +247,14 @@
 
 \bibitem{Gradshtein}
 \selectlanguageifdefined{russian}
-\BibEmph{Градштейн~.~., Рыжик~.~.} Таблицы интегралов, сумм, рядов и
+\BibEmph{Градштейн~И.~С., Рыжик~И.~М.} Таблицы интегралов, сумм, рядов и
   произведений.
 \newblock Москва: Гос. изд-во физ.-мат. лит., 1963.
 \newblock 1108~{\cyr\cyrs.}
 
 \bibitem{Shabad:1988}
 \selectlanguageifdefined{russian}
-\BibEmph{Шабад~.~.} Поляризация вакуума и квантового релятивистского газа во
+\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
   внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
   калибровочных полях''}.
 \newblock 1988.
@@ -291,5 +292,64 @@
 \newblock 1969.
 \newblock Vol. 187.
 \newblock P.~2275--2276.
+
+\bibitem{MGU}
+\selectlanguageifdefined{russian}
+\BibEmph{Борисов~А.~В., Вшивцев~А.~С., Жуковский~В.~Ч., Эминов~П.~А.} {Фотоны и
+  лептоны во внешних полях при конечных температуре и плотности}~//
+  \BibEmph{УФН}.
+\newblock {1997}.
+\newblock {\cyr\CYRT.} {167}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{241--267}.
+
+\bibitem{Zhukovskii:1994}
+\selectlanguageifdefined{russian}
+\BibEmph{Жуковский~В.~Ч., Мидодашвили~П.~Г., Эминов~П.~А.} {Мнимая часть
+  массового оператора электрона в постоянном поле при конечной температуре и
+  плотности}~// \BibEmph{Журн. эксперим. и теор. физ.}
+\newblock {1994}.
+\newblock {\cyr\CYRT.} {106}, {\cyr\textnumero}~{4}.
+\newblock {\cyr\CYRS.}~{929--935}.
+
+\bibitem{Weldon:1983}
+\selectlanguageifdefined{english}
+\BibEmph{Weldon~H.~A.} {Simple rules for discontinuities in finite temperature
+  Field Theory}~// \BibEmph{Phys. Rev.}
+\newblock 1983.
+\newblock Vol. D28.
+\newblock P.~2007--2037.
+
+\bibitem{Batalin:1971}
+\selectlanguageifdefined{russian}
+\BibEmph{Баталин~И.~А., Шабад~A.~E.} {Функция Грина фотона в постоянном
+  однородном электромагнитном поле общего вида}~// \BibEmph{ЖЭТФ}.
+\newblock {1971}.
+\newblock {\cyr\CYRT.}~{60}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{894--900}.
+
+\bibitem{Rojas1979r}
+\selectlanguageifdefined{russian}
+\BibEmph{Перес~Рохас~У.} {Поляризационный оператор электрон-позитронного газа в
+  постоянном внешнем магнитном поле}~// \BibEmph{ЖЭТФ}.
+\newblock {1979}.
+\newblock {\cyr\CYRT.}~{76}, {\cyr\textnumero}~{1}.
+\newblock {\cyr\CYRS.}~{3--17}.
+
+\bibitem{Rojas1982}
+\selectlanguageifdefined{english}
+\BibEmph{Peres~Rojas~H., Shabad~A.~E.} {Absorption and dispersion of
+  electromagnetic eigenwaves of electron-positron plasma in a strong magnetic
+  field}~// \BibEmph{Ann. Phys. (N.Y.)}.
+\newblock 1982.
+\newblock Vol. 138.
+\newblock P.~1--35.
+
+\bibitem{MRCh:2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Михеев~Н.~В., Румянцев~Д.~А., Чистяков~М.~В.} {Фоторождение нейтрино
+  на электроне в плотной замагниченной среде}~// \BibEmph{ЖЭТФ.}
+\newblock {2014}.
+\newblock {\cyr\CYRT.} {146}, {\cyr\textnumero}~{2}.
+\newblock {\cyr\CYRS.}~{289--296}.
 
 \end{thebibliography}
