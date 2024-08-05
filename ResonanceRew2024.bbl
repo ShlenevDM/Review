@@ -41,7 +41,7 @@
 
 \bibitem{RCh:2008}
 \selectlanguageifdefined{russian}
-\BibEmph{Румянцев~Д.~А., Чистяков~М.~В.} {Влияние фотон-нейтринных процессов на
+\BibEmph{Румянцев~.~., Чистяков~.~.} {Влияние фотон-нейтринных процессов на
   остывание магнитара}~// \BibEmph{ЖЭТФ.}
 \newblock {2008}.
 \newblock {\cyr\CYRT.} {134}, {\cyr\textnumero}~{4}.
@@ -49,9 +49,9 @@
 
 \bibitem{Bisnovatyi:1979}
 \selectlanguageifdefined{russian}
-\BibEmph{Бисноватый-Коган~Г.~С., Чечеткин~В.~М.} {Неравновесные оболочки
-  нейтронных звезд, их роль в поддержании рентгеновского излучения и
-  нуклеосинтезе}~// \BibEmph{Усп. физ. наук}.
+\BibEmph{Бисноватый-Коган~.~., Чечеткин~.~.} {Неравновесные оболочки нейтронных
+  звезд, их роль в поддержании рентгеновского излучения и нуклеосинтезе}~//
+  \BibEmph{Усп. физ. наук}.
 \newblock {1979}.
 \newblock {\cyr\CYRT.} {127}, {\cyr\textnumero}~{2}.
 \newblock {\cyr\CYRS.}~{263--296}.
@@ -117,13 +117,13 @@
 
 \bibitem{Akhiezer:1965}
 \selectlanguageifdefined{russian}
-\BibEmph{Ахиезер~А.~И., Берестецкий~В.~Б.} Квантовая электродинамика.
+\BibEmph{Ахиезер~.~., Берестецкий~.~.} Квантовая электродинамика.
 \newblock Москва: Физматгиз, 1959.
 \newblock 656~{\cyr\cyrs.}
 
 \bibitem{Sokolov:1968}
 \selectlanguageifdefined{russian}
-\BibEmph{Соколов~А.~А., Тернов~И.~М.} Синхротронное излучение.
+\BibEmph{Соколов~.~., Тернов~.~.} Синхротронное излучение.
 \newblock М.: Наука, 1966.
 \newblock 228~{\cyr\cyrs.}
 
@@ -137,7 +137,7 @@
 
 \bibitem{Sokolov:1986}
 \selectlanguageifdefined{russian}
-\BibEmph{Соколов~А.~А., Тернов~И.~М.} Релятивистский электрон.
+\BibEmph{Соколов~.~., Тернов~.~.} Релятивистский электрон.
 \newblock Москва: Наука, 1983.
 \newblock 304~{\cyr\cyrs.}
 
@@ -173,89 +173,22 @@
 \newblock Vol.~252.
 \newblock P.~pp 1--271.
 
-\bibitem{Canuto:1975}
-\selectlanguageifdefined{english}
-\BibEmph{Canuto~V.} Quantum processes in strong magnetic fields~//
-  \BibEmph{Ann. N. Y. Acad. Sci.}
-\newblock 1975.
-\newblock Vol. 257, no.~1.
-\newblock P.~108--126.
-
-\bibitem{Harding:1991}
-\selectlanguageifdefined{english}
-\BibEmph{{Harding}~A.~K., {Daugherty}~J.~K.} {Cyclotron Resonant Scattering and
-  Absorption}~// \BibEmph{Astrophys. J.}
-\newblock 1991.
-\newblock Vol. 374.
-\newblock P.~687--699.
-
-\bibitem{Suh:1999}
-\selectlanguageifdefined{english}
-\BibEmph{{Suh}~I.-S., {Mathews}~G.~J.} {Weak reaction freeze-out constraints on
-  primordial magnetic fields}~// \BibEmph{Phys. rev. D}.
-\newblock 1999.
-\newblock Vol.~59, no.~12.
-\newblock P.~123002.
-
-\bibitem{Gonthier:2000}
-\selectlanguageifdefined{english}
-\BibEmph{{Gonthier}~P.~L., {Harding}~A.~K., {Baring}~M.~G. et~al.} {Compton
-  Scattering in Ultrastrong Magnetic Fields: Numerical and Analytical Behavior
-  in the Relativistic Regime}~// \BibEmph{Astrophys. J.}
-\newblock 2000.
-\newblock Vol. 540, no.~2.
-\newblock P.~907--922.
-
-\bibitem{Jones:2010}
-\selectlanguageifdefined{english}
-\BibEmph{{Jones}~P.~B.} {Electron-positron bremsstrahlung and pair creation in
-  very high magnetic fields}~// \BibEmph{Mon. Not. Roy. Astron. Soc.}
-\newblock 2010.
-\newblock Vol. 409, no.~4.
-\newblock P.~1719--1727.
-
-\bibitem{Melrose:2020}
-\selectlanguageifdefined{english}
-\BibEmph{{Melrose}~D.~B.} {Quantum kinetic theory for unmagnetized and
-  magnetized plasmas}~// \BibEmph{Rev. Mod. Plasma Phys.}
-\newblock 2020.
-\newblock Vol.~4, no.~8.
-
-\bibitem{Melrose:1983}
-\selectlanguageifdefined{english}
-\BibEmph{Melrose~D.~B., Parle~A.~J.} {Quantum electrodynamics in strong
-  magnetic fields. I Electron States}~// \BibEmph{Aust. J. Phys.}
-\newblock 1983.
-\newblock Vol.~36.
-\newblock P.~755--774.
-
-\bibitem{Graziani:1993}
-\selectlanguageifdefined{english}
-\BibEmph{{Graziani}~C.} {Strong-Field Cyclotron Scattering. I. Scattering
-  Amplitudes and Natural Line Width}~// \BibEmph{Astrophys. J.}
-\newblock 1993.
-\newblock Vol. 412.
-\newblock P.~351--362.
-
-\bibitem{Gonthier:2014}
-\selectlanguageifdefined{english}
-\BibEmph{Gonthier~P.~L., Baring~M.~G., Eiles~M.~T. et~al.} {Compton scattering
-  in strong magnetic fields: Spin-dependent influences at the cyclotron
-  resonance}~// \BibEmph{Phys. Rev.}
-\newblock 2014.
-\newblock Vol. D90, no.~4.
-\newblock P.~043014.
+\bibitem{Peskin:1995}
+\selectlanguageifdefined{russian}
+\BibEmph{Пескин~., Шредер~.} Введение в квантовую теорию поля.
+\newblock Ижевск: РХД, 2001.
+\newblock 784~{\cyr\cyrs.}
 
 \bibitem{Gradshtein}
 \selectlanguageifdefined{russian}
-\BibEmph{Градштейн~И.~С., Рыжик~И.~М.} Таблицы интегралов, сумм, рядов и
+\BibEmph{Градштейн~.~., Рыжик~.~.} Таблицы интегралов, сумм, рядов и
   произведений.
 \newblock Москва: Гос. изд-во физ.-мат. лит., 1963.
 \newblock 1108~{\cyr\cyrs.}
 
 \bibitem{Shabad:1988}
 \selectlanguageifdefined{russian}
-\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
+\BibEmph{Шабад~.~.} Поляризация вакуума и квантового релятивистского газа во
   внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
   калибровочных полях''}.
 \newblock 1988.
