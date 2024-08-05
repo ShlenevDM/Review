@@ -11,5 +11,9 @@
    устранения.
 6. Заключение.
 
+<<<<<<< Updated upstream
 Ярков написал это
  
+=======
+conflict!
+>>>>>>> Stashed changes
