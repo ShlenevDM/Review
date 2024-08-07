@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  7 AUG 2024 10:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  7 AUG 2024 10:38
 entering extended mode
 **ResonanceRew2024.tex
 (C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.tex
@@ -549,10 +549,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ments/GitHub/Review/image/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf>]
 [10] [11]
 
-LaTeX Warning: Citation `Tsai:1974' on page 12 undefined on input line 64.
+LaTeX Warning: Citation `Tsai:1974' on page 12 undefined on input line 63.
 
 
-LaTeX Warning: Citation `Skobelev:1975' on page 12 undefined on input line 64.
+LaTeX Warning: Citation `Skobelev:1975' on page 12 undefined on input line 63.
 
 [12]) (C:\Users\a12l\Documents\GitHub\Review\Chapter3.tex)
 (C:\Users\a12l\Documents\GitHub\Review\Chapter4.tex)
@@ -607,7 +607,7 @@ e1/public/cm-super/sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/cm-super/sfrm1440.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /cm-super/sfti1440.pfb>
-Output written on ResonanceRew2024.pdf (18 pages, 423176 bytes).
+Output written on ResonanceRew2024.pdf (18 pages, 423221 bytes).
 PDF statistics:
  368 PDF objects out of 1000 (max. 8388607)
  107 named destinations out of 1000 (max. 500000)
