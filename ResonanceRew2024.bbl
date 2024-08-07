@@ -252,31 +252,6 @@
 \newblock Москва: Гос. изд-во физ.-мат. лит., 1963.
 \newblock 1108~{\cyr\cyrs.}
 
-\bibitem{Shabad:1988}
-\selectlanguageifdefined{russian}
-\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
-  внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
-  калибровочных полях''}.
-\newblock 1988.
-\newblock {\cyr\CYRT.} {192}.
-\newblock {\cyr\CYRS.}~5--152.
-
-\bibitem{Chistyakov:2009}
-\selectlanguageifdefined{english}
-\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A.} {Compton effect in strongly
-  magnetized plasma}~// \BibEmph{Int. J. Mod. Phys.}
-\newblock 2009.
-\newblock Vol. A24.
-\newblock P.~3995--4008.
-
-\bibitem{Beloborodov:2007}
-\selectlanguageifdefined{english}
-\BibEmph{{Beloborodov}~A.~M., {Thompson}~C.} {Corona of magnetars}~//
-  \BibEmph{Astrophys. J.}
-\newblock 2007.
-\newblock Vol. 657, no.~2.
-\newblock P.~967--993.
-
 \bibitem{Schwinger:1951}
 \selectlanguageifdefined{english}
 \BibEmph{Schwinger~J.} On Gauge Invariance and Vacuum Polarization~//
@@ -284,6 +259,14 @@
 \newblock 1951. "--- Jun.
 \newblock Vol.~82.
 \newblock P.~664--679.
+
+\bibitem{Ritus1969}
+\selectlanguageifdefined{russian}
+\BibEmph{Ритус~В.~И.} {Радиационные эффекты и их усиление в интенсивном
+  электромагнитном поле}~// \BibEmph{ЖЭТФ.}
+\newblock {1969}.
+\newblock {\cyr\CYRT.}~{57}, {\cyr\textnumero}~{6}.
+\newblock {\cyr\CYRS.}~{2176–2188}.
 
 \bibitem{Jancovici:1969}
 \selectlanguageifdefined{english}
@@ -319,6 +302,15 @@
 \newblock Vol. D28.
 \newblock P.~2007--2037.
 
+\bibitem{Shabad:1988}
+\selectlanguageifdefined{russian}
+\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
+  внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
+  калибровочных полях''}.
+\newblock 1988.
+\newblock {\cyr\CYRT.} {192}.
+\newblock {\cyr\CYRS.}~5--152.
+
 \bibitem{Batalin:1971}
 \selectlanguageifdefined{russian}
 \BibEmph{Баталин~И.~А., Шабад~A.~E.} {Функция Грина фотона в постоянном
@@ -327,29 +319,20 @@
 \newblock {\cyr\CYRT.}~{60}, {\cyr\textnumero}~{3}.
 \newblock {\cyr\CYRS.}~{894--900}.
 
-\bibitem{Rojas1979r}
-\selectlanguageifdefined{russian}
-\BibEmph{Перес~Рохас~У.} {Поляризационный оператор электрон-позитронного газа в
-  постоянном внешнем магнитном поле}~// \BibEmph{ЖЭТФ}.
-\newblock {1979}.
-\newblock {\cyr\CYRT.}~{76}, {\cyr\textnumero}~{1}.
-\newblock {\cyr\CYRS.}~{3--17}.
-
-\bibitem{Rojas1982}
+\bibitem{Chistyakov:2009}
 \selectlanguageifdefined{english}
-\BibEmph{Peres~Rojas~H., Shabad~A.~E.} {Absorption and dispersion of
-  electromagnetic eigenwaves of electron-positron plasma in a strong magnetic
-  field}~// \BibEmph{Ann. Phys. (N.Y.)}.
-\newblock 1982.
-\newblock Vol. 138.
-\newblock P.~1--35.
+\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A.} {Compton effect in strongly
+  magnetized plasma}~// \BibEmph{Int. J. Mod. Phys.}
+\newblock 2009.
+\newblock Vol. A24.
+\newblock P.~3995--4008.
 
-\bibitem{MRCh:2014}
-\selectlanguageifdefined{russian}
-\BibEmph{Михеев~Н.~В., Румянцев~Д.~А., Чистяков~М.~В.} {Фоторождение нейтрино
-  на электроне в плотной замагниченной среде}~// \BibEmph{ЖЭТФ.}
-\newblock {2014}.
-\newblock {\cyr\CYRT.} {146}, {\cyr\textnumero}~{2}.
-\newblock {\cyr\CYRS.}~{289--296}.
+\bibitem{Beloborodov:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Beloborodov}~A.~M., {Thompson}~C.} {Corona of magnetars}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2007.
+\newblock Vol. 657, no.~2.
+\newblock P.~967--993.
 
 \end{thebibliography}
