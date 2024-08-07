@@ -1,0 +1,39 @@
+\subsection{Пропагатор фотона}
+
+Поляризационные и дисперсионные свойства фотона определяются поляризационным оператором фотона ${\cal P}_{\alpha\beta}$, явный вид которого может быть получен из результатов работ~\cite{Shabad:1988,Tsai:1974,Batalin:1971,Skobelev:1975}. Для анализа свойств поляризационного оператора удобно разложить ${\cal P}_{\alpha\beta}$ по базису из 4-векторов~\cite{Batalin:1971}, построенного из тензора электромагнитного поля и 4-вектора импульса фотона~$q_\alpha$:
+\begin{equation}
+\begin{gathered}
+\label{eq:basis}
+b_{\mu}^{(1)} = (\varphi q)_\mu, \qquad
+b_{\mu}^{(2)} = (\tilde \varphi q)_\mu, 
+\\
+b_{\mu}^{(3)} = q^2 \, (\Lambda q)_\mu - q_\mu \, q^2_{\mbox{\tiny $\bot$}}, 
+\qquad b_{\mu}^{(4)} = q_\mu, 
+\end{gathered}
+\end{equation}
+
+\noindent являющихся собственными векторами поляризационного оператора в постоянном 
+однородном магнитном поле. При этом $(b^{(1)} b^{*(1)}) = -q^2_{\mprp}$, 
+$(b^{(2)} b^{*(2)}) = -q^2_{\mprl}$, $(b^{(3)} b^{*(3)}) = -q^2 q^2_{\mprl} 
+q^2_{\mprp}$, $(b^{(4)} b^{*(4)}) = q^2$.  
+
+Пропагатор фотона можно разложить  по собственным векторам $r_\alpha^{(\lambda)}$ поляризационного оператора в замагниченной плазме:
+\begin{equation}\label{eq:InvGcFourier}
+G_{\alpha\beta}(x)=\int \frac{\dd^4q}{(2\pi)^4}G_{\alpha \beta}(q) e^{-\ii qx}\,
+\end{equation}
+\begin{equation}\label{eq:GcFourier}
+G_{\alpha\beta}(q)=\sum_{\lambda=1}^{3}\frac{r_\alpha^{(\lambda)}r^{(\lambda)}_\beta}{(r^{(\lambda)})^2}\cdot \frac{1}{q^2-{\cal P}^{(\lambda)}(q)}\, ,
+\end{equation}
+
+В замагниченной плазме ${\cal P}_{\alpha \beta}$ уже не будет диагональным в базисе из векторов~(\ref{eq:basis}), поэтому его удобно разложить  по собственным векторам 
+$r_{\alpha}^{(\lambda)}$ в замагниченной плазме с соответствующими собственными 
+значениями ${\cal P}^{(\lambda)}$~\cite{Rojas1979r,Rojas1982,Shabad:1988,MRCh:2014}:
+%
+\beq
+\label{eq:Pab10}
+{\cal P}_{\alpha \beta} = \sum_{\lambda = 1}^{3} 
+{\cal P}^{(\lambda)} \, \frac{r_{\alpha}^{(\lambda)} 
+	(r_{\beta}^{(\lambda)})^{*}}{(r^{(\lambda)})^2} \, , \quad 
+r_{\beta}^{(\lambda)} = \sum\limits_{i = 1}^{3} A_i^{(\lambda)} \, b_{\beta}^{(i)} \, , 
+\eeq
+\noindent где  $A_i^{(\lambda)}$ некоторые комплексные коэффициенты.
