@@ -311,6 +311,14 @@
 \newblock {\cyr\CYRT.} {192}.
 \newblock {\cyr\CYRS.}~5--152.
 
+\bibitem{Tsai:1974}
+\selectlanguageifdefined{english}
+\BibEmph{Tsai~W.~Y.} {Vacuum polarization in homogeneous magnetic fields}~//
+  \BibEmph{Phys. Rev.}
+\newblock 1974.
+\newblock Vol. D10, no.~8.
+\newblock P.~2699--2702.
+
 \bibitem{Batalin:1971}
 \selectlanguageifdefined{russian}
 \BibEmph{Баталин~И.~А., Шабад~A.~E.} {Функция Грина фотона в постоянном
@@ -318,6 +326,47 @@
 \newblock {1971}.
 \newblock {\cyr\CYRT.}~{60}, {\cyr\textnumero}~{3}.
 \newblock {\cyr\CYRS.}~{894--900}.
+
+\bibitem{Skobelev:1975}
+\selectlanguageifdefined{russian}
+\BibEmph{Скобелев~В.~В.} {Поляризационный оператор фотона в сверхсильном
+  магнитном поле}~// \BibEmph{{Изв. вузов. Физика}}.
+\newblock {1975}.
+\newblock {\cyr\textnumero}~{10}.
+\newblock {\cyr\CYRS.}~{142--143}.
+
+\bibitem{Rojas1979r}
+\selectlanguageifdefined{russian}
+\BibEmph{Перес~Рохас~У.} {Поляризационный оператор электрон-позитронного газа в
+  постоянном внешнем магнитном поле}~// \BibEmph{ЖЭТФ}.
+\newblock {1979}.
+\newblock {\cyr\CYRT.}~{76}, {\cyr\textnumero}~{1}.
+\newblock {\cyr\CYRS.}~{3--17}.
+
+\bibitem{Rojas1982}
+\selectlanguageifdefined{english}
+\BibEmph{Peres~Rojas~H., Shabad~A.~E.} {Absorption and dispersion of
+  electromagnetic eigenwaves of electron-positron plasma in a strong magnetic
+  field}~// \BibEmph{Ann. Phys. (N.Y.)}.
+\newblock 1982.
+\newblock Vol. 138.
+\newblock P.~1--35.
+
+\bibitem{MRCh:2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Михеев~Н.~В., Румянцев~Д.~А., Чистяков~М.~В.} {Фоторождение нейтрино
+  на электроне в плотной замагниченной среде}~// \BibEmph{ЖЭТФ.}
+\newblock {2014}.
+\newblock {\cyr\CYRT.} {146}, {\cyr\textnumero}~{2}.
+\newblock {\cyr\CYRS.}~{289--296}.
+
+\bibitem{Beloborodov:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Beloborodov}~A.~M., {Thompson}~C.} {Corona of magnetars}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2007.
+\newblock Vol. 657, no.~2.
+\newblock P.~967--993.
 
 \bibitem{Chistyakov:2009}
 \selectlanguageifdefined{english}
@@ -327,12 +376,28 @@
 \newblock Vol. A24.
 \newblock P.~3995--4008.
 
-\bibitem{Beloborodov:2007}
+\bibitem{Adler:1971}
 \selectlanguageifdefined{english}
-\BibEmph{{Beloborodov}~A.~M., {Thompson}~C.} {Corona of magnetars}~//
-  \BibEmph{Astrophys. J.}
-\newblock 2007.
-\newblock Vol. 657, no.~2.
-\newblock P.~967--993.
+\BibEmph{{Adler}~S.~L.} {Photon splitting and photon dispersion in a strong
+  magnetic field.}~// \BibEmph{Annals of Physics}.
+\newblock 1971.
+\newblock Vol.~67.
+\newblock P.~599--647.
+
+\bibitem{Mushtukov:2016}
+\selectlanguageifdefined{english}
+\BibEmph{Mushtukov~A.~A., Nagirner~D.~I., Poutanen~J.} {Compton scattering
+  S-matrix and cross section in strong magnetic field}~// \BibEmph{Phys. Rev.}
+\newblock 2016.
+\newblock Vol. D93, no.~10.
+\newblock P.~105003.
+
+\bibitem{RCh05}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~Д.~А., Чистяков~М.~В.} {Влияние сильно замагниченной плазмы
+  на процесс расщепления фотона}~// \BibEmph{ЖЭТФ.}
+\newblock {2005}.
+\newblock {\cyr\CYRT.} {128}, {\cyr\textnumero}~{4}.
+\newblock {\cyr\CYRS.}~{740--751}.
 
 \end{thebibliography}
