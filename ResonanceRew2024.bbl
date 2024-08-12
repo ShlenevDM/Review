@@ -400,4 +400,61 @@
 \newblock {\cyr\CYRT.} {128}, {\cyr\textnumero}~{4}.
 \newblock {\cyr\CYRS.}~{740--751}.
 
+\bibitem{Rumyantsev:2017}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~Д.~А., Шленев~Д.~М., Ярков~А.~А.} {Резонансы в
+  комптоноподобных процессах рассеяния во внешней замагниченной среде}~//
+  \BibEmph{ЖЭТФ.}
+\newblock {2017}.
+\newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{483--494}.
+
+\bibitem{Akhiezer:1965}
+\selectlanguageifdefined{russian}
+\BibEmph{Ахиезер~А.~И., Берестецкий~В.~Б.} Квантовая электродинамика.
+\newblock Москва: Физматгиз, 1959.
+\newblock 656~{\cyr\cyrs.}
+
+\bibitem{Melrose:1983}
+\selectlanguageifdefined{english}
+\BibEmph{Melrose~D.~B., Parle~A.~J.} {Quantum electrodynamics in strong
+  magnetic fields. I Electron States}~// \BibEmph{Aust. J. Phys.}
+\newblock 1983.
+\newblock Vol.~36.
+\newblock P.~755--774.
+
+\bibitem{Rumyantsev:2012}
+\selectlanguageifdefined{english}
+\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A., Stus'~N.~S.} {Photon splitting and
+  Compton scattering in strongly magnetized hot plasma}~// \BibEmph{Phys. Rev.}
+\newblock 2012.
+\newblock Vol. D86.
+\newblock P.~043007.
+
+\bibitem{Pavlov:1991}
+\selectlanguageifdefined{english}
+\BibEmph{{Pavlov}~G.~G., {Bezchastnov}~V.~G., {Meszaros}~P., {Alexander}~S.~G.}
+  {Radiative widths and splitting of cyclotron lines in superstrong magnetic
+  fields}~// \BibEmph{Astrophys. J.}
+\newblock 1991.
+\newblock Vol. 380.
+\newblock P.~541--549.
+
+\bibitem{Baier:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Baier}~V.~N., {Katkov}~V.~M.} {Pair creation by a photon in a strong
+  magnetic field}~// \BibEmph{Phys. Rev.}
+\newblock 2007.
+\newblock Vol. D75, no.~7.
+\newblock P.~073009.
+
+\bibitem{Kuznetsov:2015}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A.~V., Rumyantsev~D.~A., Shlenev~D.~M.} {Generalized
+  two-point tree-level amplitude $j f \to j'f'$ in a magnetized medium}~//
+  \BibEmph{Int. J. Mod. Phys.}
+\newblock 2015.
+\newblock Vol. A30, no.~11.
+\newblock P.~1550049.
+
 \end{thebibliography}
