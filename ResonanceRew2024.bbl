@@ -409,20 +409,6 @@
 \newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
 \newblock {\cyr\CYRS.}~{483--494}.
 
-\bibitem{Akhiezer:1965}
-\selectlanguageifdefined{russian}
-\BibEmph{Ахиезер~А.~И., Берестецкий~В.~Б.} Квантовая электродинамика.
-\newblock Москва: Физматгиз, 1959.
-\newblock 656~{\cyr\cyrs.}
-
-\bibitem{Melrose:1983}
-\selectlanguageifdefined{english}
-\BibEmph{Melrose~D.~B., Parle~A.~J.} {Quantum electrodynamics in strong
-  magnetic fields. I Electron States}~// \BibEmph{Aust. J. Phys.}
-\newblock 1983.
-\newblock Vol.~36.
-\newblock P.~755--774.
-
 \bibitem{Rumyantsev:2012}
 \selectlanguageifdefined{english}
 \BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A., Stus'~N.~S.} {Photon splitting and

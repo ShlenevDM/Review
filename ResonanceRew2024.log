@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  12 AUG 2024 15:07
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  12 AUG 2024 22:50
 entering extended mode
 **ResonanceRew2024.tex
 (C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.tex
@@ -1106,10 +1106,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9015 strings out of 494045
- 128860 string characters out of 3145973
- 210806 words of memory out of 3000000
- 11824 multiletter control sequences out of 15000+200000
+ 9011 strings out of 494045
+ 128796 string characters out of 3145973
+ 210735 words of memory out of 3000000
+ 11822 multiletter control sequences out of 15000+200000
  27749 words of font info for 79 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  42i,14n,24p,5379b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1142,9 +1142,9 @@ lic/cm-super/sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 -super/sfrm1440.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-su
 per/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super
 /sfti1440.pfb>
-Output written on ResonanceRew2024.pdf (43 pages, 809953 bytes).
+Output written on ResonanceRew2024.pdf (43 pages, 809491 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
- 213 named destinations out of 1000 (max. 500000)
+ 793 PDF objects out of 1000 (max. 8388607)
+ 211 named destinations out of 1000 (max. 500000)
  193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
