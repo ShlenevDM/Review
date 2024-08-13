@@ -400,6 +400,22 @@
 \newblock {\cyr\CYRT.} {128}, {\cyr\textnumero}~{4}.
 \newblock {\cyr\CYRS.}~{740--751}.
 
+\bibitem{Herold:1979}
+\selectlanguageifdefined{english}
+\BibEmph{Herold~H.} {Compton and Thomson scattering in strong magnetic
+  fields}~// \BibEmph{Phys. Rev.}
+\newblock 1979.
+\newblock Vol. D19.
+\newblock P.~2868.
+
+\bibitem{Bulik:1997}
+\selectlanguageifdefined{english}
+\BibEmph{{Bulik}~T., {Miller}~M.~C.} {Spectral effects of the vacuum resonance
+  in soft gamma-ray repeaters}~// \BibEmph{Mon. Not. R. Astron. Soc.}
+\newblock 1997.
+\newblock Vol. 288, no.~3.
+\newblock P.~596--608.
+
 \bibitem{Rumyantsev:2017}
 \selectlanguageifdefined{russian}
 \BibEmph{Румянцев~Д.~А., Шленев~Д.~М., Ярков~А.~А.} {Резонансы в
