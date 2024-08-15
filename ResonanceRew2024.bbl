@@ -408,6 +408,40 @@
 \newblock Vol. D19.
 \newblock P.~2868.
 
+\bibitem{Melrose:1983III}
+\selectlanguageifdefined{english}
+\BibEmph{{Melrose}~D.~B., {Parle}~A.~J.} {Quantum Electrodynamics in Strong
+  Magnetic Fields III. Electron-photon interactions}~// \BibEmph{Aust. J.
+  Phys.}
+\newblock 1983.
+\newblock Vol.~36.
+\newblock P.~799.
+
+\bibitem{Daugherty:1986}
+\selectlanguageifdefined{english}
+\BibEmph{{Daugherty}~J.~K., {Harding}~A.~K.} {Compton Scattering in Strong
+  Magnetic Fields}~// \BibEmph{{Astrophys. J.}}
+\newblock 1986.
+\newblock Vol. 309.
+\newblock P.~362.
+
+\bibitem{Bussard:1986}
+\selectlanguageifdefined{english}
+\BibEmph{{Bussard}~R.~W., {Alexander}~S.~B., {Meszaros}~P.} {One- and
+  two-photon Compton scattering in strong magnetic fields}~// \BibEmph{Phys.
+  Rev. D}.
+\newblock 1986.
+\newblock Vol.~34.
+\newblock P.~440--451.
+
+\bibitem{Canuto:1971}
+\selectlanguageifdefined{english}
+\BibEmph{Canuto~V., Lodenquai~J., Ruderman~M.} Thomson Scattering in a Strong
+  Magnetic Field~// \BibEmph{Phys. Rev. D}.
+\newblock 1971.
+\newblock Vol.~3.
+\newblock P.~2303--2308.
+
 \bibitem{Bulik:1997}
 \selectlanguageifdefined{english}
 \BibEmph{{Bulik}~T., {Miller}~M.~C.} {Spectral effects of the vacuum resonance
