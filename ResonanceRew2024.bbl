@@ -410,15 +410,6 @@
 \newblock Vol. 219.
 \newblock P.~L105--L110.
 
-\bibitem{Wheaton1979}
-\selectlanguageifdefined{english}
-\BibEmph{{Wheaton}~W.~A., {Doty}~J.~P., {Primini}~F.~A., et~al.} An absorption
-  feature in the spectrum of the pulsed hard X-ray flux from 4U0115 + 63~//
-  \BibEmph{Nature}.
-\newblock 1979.
-\newblock Vol. 282.
-\newblock P.~240--243.
-
 \bibitem{Makishima1990}
 \selectlanguageifdefined{english}
 \BibEmph{{Makishima}~K., {Mihara}~T., {Ishida}~M., et~al.} Discovery of a
@@ -436,6 +427,14 @@
 \newblock 1995.
 \newblock Vol. 438.
 \newblock P.~L25--L28.
+
+\bibitem{Mihara:1990}
+\selectlanguageifdefined{english}
+\BibEmph{Mihara~T., Makishima~K., Ohashi~T. et~al.} New observations of the
+  cyclotron absorption feature in Hercules X–1~// \BibEmph{Nature}.
+\newblock 1990.
+\newblock Vol. 346.
+\newblock P.~250--252.
 
 \bibitem{Canuto:1971}
 \selectlanguageifdefined{english}
