@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  1 SEP 2024 22:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  11 SEP 2024 20:48
 entering extended mode
 **ResonanceRew2024.tex
 (C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.tex
@@ -294,10 +294,32 @@ Package: cite 2010/09/10  v 5.3
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks21
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+\everycr=\toks22
+\minrowclearance=\skip49
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\cp1251.def"
 File: cp1251.def 1999/11/16 v1.0d Input encoding file
@@ -409,7 +431,7 @@ Language: english 2005/03/30 v3.3o English support from the babel system
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count110
-\U@D=\dimen117
+\U@D=\dimen119
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -436,47 +458,47 @@ Excluding comment 'comment')
 LaTeX Warning: Label `eq:sigma1' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 84.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    ... okay on input line 84.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
-\scratchdimen=\dimen118
+\scratchdimen=\dimen120
 \scratchbox=\box28
 \nofMPsegments=\count112
 \nofMParguments=\count113
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks25
 \MPscratchCnt=\count114
-\MPscratchDim=\dimen119
+\MPscratchDim=\dimen121
 \MPnumerator=\count115
 \makeMPintoPDFobject=\count116
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks26
 )
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 82.
+Package hyperref Info: Link coloring OFF on input line 84.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -485,28 +507,28 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count117
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+LaTeX Font Info:    Try loading font information for U+msa on input line 87.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+LaTeX Font Info:    Try loading font information for U+msb on input line 87.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 
-Package hyperref Warning: Ignoring empty anchor on input line 96.
-
-
 Package hyperref Warning: Ignoring empty anchor on input line 98.
 
 
 Package hyperref Warning: Ignoring empty anchor on input line 100.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 102.
 
 [1
 
@@ -518,13 +540,13 @@ Overfull \hbox (41.34201pt too wide) in paragraph at lines 7--13
  []
 
 [2] [3])
-Overfull \hbox (5.18666pt too wide) in paragraph at lines 39--110
+Overfull \hbox (5.18666pt too wide) in paragraph at lines 39--112
 \T2A/cmr/m/n/14.4 да-ют-ся раз-лич-ные ме-то-ды пред-став-ле-ния ре-ше-ния урав
 -не-ния Ди-ра-ка во внеш-
  []
 
 (C:\Users\a12l\Documents\GitHub\Review\Chapter2.tex [4] [5]
-Overfull \hbox (7.45706pt too wide) in paragraph at lines 54--55
+Overfull \hbox (7.45706pt too wide) in paragraph at lines 52--53
 \T2A/cmr/m/n/14.4 го со-сто-я-ния ча-стиц в от-дель-но-сти, ко-то-рые бу-дут им
 еть лоренц-инвариантную
  []
@@ -540,22 +562,20 @@ ted-to.pdf>
 (epstopdf)                    size: 21609 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/DispFirst2ColOnly2Pla
 smas-eps-converted-to.pdf image/DispFirst2ColOnly2Plasmas.eps>
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf, id=236, 258.9675pt x 179
+<image/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf, id=237, 258.9675pt x 179
 .67125pt>
 File: image/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf Graphic file (type p
 df)
  <use image/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf>
 Package pdftex.def Info: image/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf u
-sed on input line 177.
+sed on input line 182.
 (pdftex.def)             Requested size: 258.96684pt x 179.67079pt.
- [15])
-(C:\Users\a12l\Documents\GitHub\Review\Chapter4_1.tex)
-(C:\Users\a12l\Documents\GitHub\Review\Chapter4_2.tex [16 <C:/Users/a12l/Docume
-nts/GitHub/Review/image/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf>]
-[17] [18] [19]
+ [15 <C:/Users/a12l/Documents/GitHub/Review/image/DispFirst2ColOnly2Plasmas-eps
+-converted-to.pdf>]) (C:\Users\a12l\Documents\GitHub\Review\Chapter4_1.tex)
+(C:\Users\a12l\Documents\GitHub\Review\Chapter4_2.tex [16] [17] [18]
 Package epstopdf Info: Source file: <image/Chapter_4/fig1_1.eps>
 (epstopdf)                    date: 2014-12-08 17:01:50
 (epstopdf)                    size: 517812 bytes
@@ -568,13 +588,14 @@ converted-to.pdf image/Chapter_4/fig1_1.eps>
 (epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/fig1_1-eps-converted-to.pdf, id=332, 272.01625pt x 97.36375pt>
+<image/Chapter_4/fig1_1-eps-converted-to.pdf, id=325, 272.01625pt x 97.36375pt>
 File: image/Chapter_4/fig1_1-eps-converted-to.pdf Graphic file (type pdf)
 <use image/Chapter_4/fig1_1-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/fig1_1-eps-converted-to.pdf used on in
 put line 68.
 (pdftex.def)             Requested size: 284.52756pt x 101.84718pt.
-
+ [19 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/fig1_1-eps-converte
+d-to.pdf>]
 Overfull \hbox (23.1332pt too wide) in alignment at lines 78--91
  [][][] []
  []
@@ -588,8 +609,7 @@ L/cmm/m/it/14.4 p[] \OT1/cmr/m/n/14.4 = (\OML/cmm/m/it/14.4 E[]; \OT1/cmr/bx/n/
 ергии-импульса
  []
 
-[20 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/fig1_1-eps-converted
--to.pdf>]
+
 Overfull \hbox (8.50943pt too wide) in paragraph at lines 115--118
 []\T2A/cmr/m/n/14.4 С уче-том этих за-ме-ча-ний, под-ста-вим ре-ше-ния ([]10[])
 , фурье-образы то-ков ([]54[]),
@@ -602,7 +622,7 @@ Overfull \hbox (6.02115pt too wide) in paragraph at lines 115--118
 14.4 d\OML/cmm/m/it/14.4 X[]\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.4 X[]$
  []
 
-[21] [22]
+[20] [21]
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovX
 1Ground.eps>
 (epstopdf)                    date: 2023-05-24 19:33:23
@@ -617,7 +637,7 @@ htukovX1Ground.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf, id=401
+<image/Chapter_4/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf, id=394
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -640,7 +660,7 @@ htukovX2Ground.eps>
 (epstopdf)             \includegraphics on input line 201.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf, id=403
+<image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf, id=396
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -663,7 +683,7 @@ htukovX3Ground.eps>
 (epstopdf)             \includegraphics on input line 202.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf, id=405
+<image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf, id=398
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -686,7 +706,7 @@ htukovO1Ground.eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf, id=409
+<image/Chapter_4/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf, id=402
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -709,7 +729,7 @@ htukovO2Ground.eps>
 (epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf, id=411
+<image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf, id=404
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -732,7 +752,7 @@ htukovO3Ground.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf, id=413
+<image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf, id=406
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -742,42 +762,42 @@ Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-
 converted-to.pdf used on input line 210.
 (pdftex.def)             Requested size: 145.11052pt x 104.77115pt.
 
-[23 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs005Mush
-tukovX1Ground-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/imag
-e/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf> <C:/Users/a
-12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs005MushtukovX3Ground-e
-ps-converted-to.pdf>] [24 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_
+[22] [23 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs00
+5MushtukovX1Ground-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review
+/image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf> <C:/Us
+ers/a12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs005MushtukovX3Gro
+und-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_
 4/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf> <C:/Users/a12l/Docume
 nts/GitHub/Review/image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-convert
 ed-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs
 005MushtukovO3Ground-eps-converted-to.pdf>])
 (C:\Users\a12l\Documents\GitHub\Review\Chapter4_3.tex)
 (C:\Users\a12l\Documents\GitHub\Review\Chapter5.tex)
-(C:\Users\a12l\Documents\GitHub\Review\conclusion.tex) [25
+(C:\Users\a12l\Documents\GitHub\Review\conclusion.tex) [24
 
 ]
-(C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.bbl [26] [27] [28]
-[29] [30] [31])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
- [32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
+(C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.bbl [25] [26] [27]
+[28] [29] [30])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+ [31]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
 
 (C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 146.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 148.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8880 strings out of 494045
- 124928 string characters out of 3145973
- 202594 words of memory out of 3000000
- 11744 multiletter control sequences out of 15000+200000
+ 9019 strings out of 494045
+ 126823 string characters out of 3145973
+ 205342 words of memory out of 3000000
+ 11873 multiletter control sequences out of 15000+200000
  27749 words of font info for 79 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 42i,12n,24p,4015b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,13n,24p,4015b,457s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
@@ -806,9 +826,9 @@ lic/cm-super/sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /cm-super/sfrm1440.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm
 -super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-su
 per/sfti1440.pfb>
-Output written on ResonanceRew2024.pdf (32 pages, 588025 bytes).
+Output written on ResonanceRew2024.pdf (31 pages, 587723 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
+ 603 PDF objects out of 1000 (max. 8388607)
  170 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

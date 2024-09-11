@@ -7,15 +7,12 @@
 	\partial_{\alpha}\partial_{\rho}) \, G^{\rho}_{\phantom{x}\beta}(x) + 
 	\int d^4 x'\, {\cal P}^{(\lambda)}_{\alpha\rho} (x - x') \, 
 	G^{\rho}_{\phantom{x}\beta}(x)
-	\nonumber =
-	\\
-	&& = g_{\alpha\beta}\delta(x_0)\delta(x_1)\delta(x_2)\delta(x_3),
+	\nonumber= g_{\alpha\beta}\delta^4(x),
 	\label{eq:2}
 \end{eqnarray}
 %                                                                                         \frac{(\varphi q)_\mu}{\sqrt{q^2_\perp}}
 где ${\cal P}^{(\lambda)}_{\alpha \beta} (x - x')$ -- поляризационный оператор 
-фотона в магнитном поле и плазме. $q^{\alpha} = (\omega,\, {\bf k})$ -- 4-вектор 
-импульса фотона. Решения уравнения~(\ref{eq:WaveEq}) удобно представить в виде 
+фотона в магнитном поле и плазме. Решения уравнения~(\ref{eq:WaveEq}) удобно представить в виде 
 разложения по собственным векторам и собственным значениям поляризационного 
 оператора ${\cal P}_{\alpha\beta}(q)$. 
 
@@ -39,7 +36,15 @@ b_{\mu}^{(3)} = q^2 \, (\Lambda q)_\mu - q_\mu \, q^2_{\mbox{\tiny $\bot$}},
 где $\tilde{\varphi}_{\alpha\beta}=\frac{1}{2}\varepsilon_{\alpha\beta\mu\nu} 
 \varphi^{\mu\nu}$, $\Lambda_{\alpha \beta} = (\varphi\varphi)_{\alpha\beta},  
 \widetilde \Lambda_{\alpha \beta} = 
-(\widetilde\varphi\widetilde\varphi)_{\alpha\beta}$.
+(\widetilde\varphi\widetilde\varphi)_{\alpha\beta}$, а также вектора $b_\mu^{(\lambda)}$ \textcolor{red}{имеют следующую нормировку}:
+\begin{equation}\begin{aligned}
+	(b^{(1)} b^{*(1)})  = -q^2_{\mprp}& \,, \, \,
+	(b^{(2)} b^{*(2)}) = -q^2_{\mprl}\,,\\
+	(b^{(3)} b^{*(3)})  = -q^2 q^2_{\mprl},  
+	q^2_{\mprp}& \,, \, \,
+	(b^{(4)} b^{*(4)}) = q^2\,.
+\end{aligned}\end{equation}
+
 В системе отсчета, где имеется только магнитное поле $\bf B$, направленное 
 вдоль третьей оси, 4-векторы с индексами $\bot$ и $\parallel$ относятся 
 к подпространствам Евклида \{1, 2\} и Минковского \{0, 3\} соответственно.
