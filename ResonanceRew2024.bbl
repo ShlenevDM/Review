@@ -302,14 +302,13 @@
 \newblock Vol. D28.
 \newblock P.~2007--2037.
 
-\bibitem{Shabad:1988}
+\bibitem{Batalin:1971}
 \selectlanguageifdefined{russian}
-\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
-  внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
-  калибровочных полях''}.
-\newblock 1988.
-\newblock {\cyr\CYRT.} {192}.
-\newblock {\cyr\CYRS.}~5--152.
+\BibEmph{Баталин~И.~А., Шабад~A.~E.} {Функция Грина фотона в постоянном
+  однородном электромагнитном поле общего вида}~// \BibEmph{ЖЭТФ}.
+\newblock {1971}.
+\newblock {\cyr\CYRT.}~{60}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{894--900}.
 
 \bibitem{Tsai:1974}
 \selectlanguageifdefined{english}
@@ -319,14 +318,6 @@
 \newblock Vol. D10, no.~8.
 \newblock P.~2699--2702.
 
-\bibitem{Batalin:1971}
-\selectlanguageifdefined{russian}
-\BibEmph{Баталин~И.~А., Шабад~A.~E.} {Функция Грина фотона в постоянном
-  однородном электромагнитном поле общего вида}~// \BibEmph{ЖЭТФ}.
-\newblock {1971}.
-\newblock {\cyr\CYRT.}~{60}, {\cyr\textnumero}~{3}.
-\newblock {\cyr\CYRS.}~{894--900}.
-
 \bibitem{Skobelev:1975}
 \selectlanguageifdefined{russian}
 \BibEmph{Скобелев~В.~В.} {Поляризационный оператор фотона в сверхсильном
@@ -334,6 +325,22 @@
 \newblock {1975}.
 \newblock {\cyr\textnumero}~{10}.
 \newblock {\cyr\CYRS.}~{142--143}.
+
+\bibitem{Melrose:1976}
+\selectlanguageifdefined{english}
+\BibEmph{{Melrose}~D.~B., {Stoneham}~R.~J.} {Vacuum polarization and photon
+  propagation in a magnetic field}~// \BibEmph{Nuovo Cimento A Serie}.
+\newblock 1976.
+\newblock Vol.~32, no.~4.
+\newblock P.~435--447.
+
+\bibitem{Urrutia:1977}
+\selectlanguageifdefined{english}
+\BibEmph{Urrutia~L.~F.} Vacuum polarization in parallel homogeneous electric
+  and magnetic fields~// \BibEmph{Phys. Rev. D}.
+\newblock 1978. "--- Apr.
+\newblock Vol.~17.
+\newblock P.~1977--1984.
 
 \bibitem{Rojas1979r}
 \selectlanguageifdefined{russian}
@@ -351,6 +358,40 @@
 \newblock 1982.
 \newblock Vol. 138.
 \newblock P.~1--35.
+
+\bibitem{Shabad:1988}
+\selectlanguageifdefined{russian}
+\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
+  внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
+  калибровочных полях''}.
+\newblock 1988.
+\newblock {\cyr\CYRT.} {192}.
+\newblock {\cyr\CYRS.}~5--152.
+
+\bibitem{Schubert:2000}
+\selectlanguageifdefined{english}
+\BibEmph{{Schubert}~C.} {Vacuum polarisation tensors in constant
+  electromagnetic fields: Part I}~// \BibEmph{Nuclear Physics B}.
+\newblock 2000.
+\newblock Vol. 585, no.~1.
+\newblock P.~407--428.
+
+\bibitem{Hattori:2013}
+\selectlanguageifdefined{english}
+\BibEmph{{Hattori}~K., {Itakura}~K.} {Vacuum birefringence in strong magnetic
+  fields: (I) Photon polarization tensor with all the Landau levels}~//
+  \BibEmph{Annals of Physics}.
+\newblock 2013.
+\newblock Vol. 330.
+\newblock P.~23--54.
+
+\bibitem{Karbstein:2013}
+\selectlanguageifdefined{english}
+\BibEmph{{Karbstein}~F.} {Photon polarization tensor in a homogeneous magnetic
+  or electric field}~// \BibEmph{Phys. Rev. D}.
+\newblock 2013.
+\newblock Vol.~88, no.~8.
+\newblock P.~085033.
 
 \bibitem{MRCh:2014}
 \selectlanguageifdefined{russian}
