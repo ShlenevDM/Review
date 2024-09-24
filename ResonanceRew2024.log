@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  17 SEP 2024 19:03
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  24 SEP 2024 19:01
 entering extended mode
 **ResonanceRew2024.tex
 (C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.tex
@@ -455,6 +455,9 @@ LaTeX Info: Redefining \bm on input line 204.
 Excluding comment 'comment')
 (C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.aux
 
+LaTeX Warning: Label `eq:L' multiply defined.
+
+
 LaTeX Warning: Label `eq:sigma1' multiply defined.
 
 )
@@ -577,6 +580,11 @@ sed on input line 182.
  [16 <C:/Users/a12l/Documents/GitHub/Review/image/DispFirst2ColOnly2Plasmas-eps
 -converted-to.pdf>]) (C:\Users\a12l\Documents\GitHub\Review\Chapter4_1.tex)
 (C:\Users\a12l\Documents\GitHub\Review\Chapter4_2.tex [17] [18] [19]
+Overfull \hbox (8.99094pt too wide) in paragraph at lines 61--64
+\T2A/cmr/m/n/14.4 В част-но-сти лагран-жи-ан элек-тро-маг-нит-но-го вза-и-мо-де
+й-ствия мо-жет быть пред-
+ []
+
 Package epstopdf Info: Source file: <image/Chapter_4/fig1_1.eps>
 (epstopdf)                    date: 2014-12-08 17:01:50
 (epstopdf)                    size: 517812 bytes
@@ -586,22 +594,22 @@ f>
 (epstopdf)                    size: 9557 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/fig1_1-eps-
 converted-to.pdf image/Chapter_4/fig1_1.eps>
-(epstopdf)             \includegraphics on input line 68.
+(epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
 <image/Chapter_4/fig1_1-eps-converted-to.pdf, id=333, 272.01625pt x 97.36375pt>
 File: image/Chapter_4/fig1_1-eps-converted-to.pdf Graphic file (type pdf)
 <use image/Chapter_4/fig1_1-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/fig1_1-eps-converted-to.pdf used on in
-put line 68.
+put line 71.
 (pdftex.def)             Requested size: 284.52756pt x 101.84718pt.
 
-Overfull \hbox (23.1332pt too wide) in alignment at lines 78--91
+Overfull \hbox (23.1332pt too wide) in alignment at lines 81--94
  [][][] []
  []
 
 
-Overfull \hbox (6.07033pt too wide) in paragraph at lines 93--101
+Overfull \hbox (6.07033pt too wide) in paragraph at lines 96--104
 \T2A/cmr/m/n/14.4 Здесь $\OML/cmm/m/it/14.4 p[] \OT1/cmr/m/n/14.4 = (\OML/cmm/m
 /it/14.4 E[]; \OT1/cmr/bx/n/14.4 p\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 и $\OM
 L/cmm/m/it/14.4 p[] \OT1/cmr/m/n/14.4 = (\OML/cmm/m/it/14.4 E[]; \OT1/cmr/bx/n/
@@ -611,14 +619,14 @@ L/cmm/m/it/14.4 p[] \OT1/cmr/m/n/14.4 = (\OML/cmm/m/it/14.4 E[]; \OT1/cmr/bx/n/
 
 [20 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/fig1_1-eps-converted
 -to.pdf>]
-Overfull \hbox (8.50943pt too wide) in paragraph at lines 115--118
+Overfull \hbox (8.50943pt too wide) in paragraph at lines 118--121
 []\T2A/cmr/m/n/14.4 С уче-том этих за-ме-ча-ний, под-ста-вим ре-ше-ния ([]10[])
-, фурье-образы то-ков ([]54[]),
+, фурье-образы то-ков ([]55[]),
  []
 
 
-Overfull \hbox (6.02115pt too wide) in paragraph at lines 115--118
-\T2A/cmr/m/n/14.4 про-па-га-тор ([]23[]) в ([]53[]). Про-ин-те-гри-ро-вав по-лу
+Overfull \hbox (6.02115pt too wide) in paragraph at lines 118--121
+\T2A/cmr/m/n/14.4 про-па-га-тор ([]23[]) в ([]54[]). Про-ин-те-гри-ро-вав по-лу
 -чен-ный ре-зуль-тат по $\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.4 X[]\OT1/cmr/m/n/
 14.4 d\OML/cmm/m/it/14.4 X[]\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.4 X[]$
  []
@@ -635,7 +643,7 @@ Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovX
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
 Os005MushtukovX1Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
 htukovX1Ground.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
 <image/Chapter_4/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf, id=402
@@ -645,7 +653,7 @@ aphic file (type pdf)
 
 <use image/Chapter_4/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovX1Ground-eps-
-converted-to.pdf used on input line 200.
+converted-to.pdf used on input line 203.
 (pdftex.def)             Requested size: 145.11052pt x 104.77115pt.
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovX
 2Ground.eps>
@@ -658,7 +666,7 @@ Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovX
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
 Os005MushtukovX2Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
 htukovX2Ground.eps>
-(epstopdf)             \includegraphics on input line 201.
+(epstopdf)             \includegraphics on input line 204.
 Package epstopdf Info: Output file is already uptodate.
 
 <image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf, id=404
@@ -668,7 +676,7 @@ aphic file (type pdf)
 
 <use image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-
-converted-to.pdf used on input line 201.
+converted-to.pdf used on input line 204.
 (pdftex.def)             Requested size: 145.11052pt x 104.77115pt.
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovX
 3Ground.eps>
@@ -681,7 +689,7 @@ Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovX
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
 Os005MushtukovX3Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
 htukovX3Ground.eps>
-(epstopdf)             \includegraphics on input line 202.
+(epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
 
 <image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf, id=406
@@ -691,7 +699,7 @@ aphic file (type pdf)
 
 <use image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-
-converted-to.pdf used on input line 202.
+converted-to.pdf used on input line 205.
 (pdftex.def)             Requested size: 145.11052pt x 104.77115pt.
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovO
 1Ground.eps>
@@ -704,7 +712,7 @@ Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovO
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
 Os005MushtukovO1Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
 htukovO1Ground.eps>
-(epstopdf)             \includegraphics on input line 208.
+(epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
 
 <image/Chapter_4/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf, id=410
@@ -714,7 +722,7 @@ aphic file (type pdf)
 
 <use image/Chapter_4/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovO1Ground-eps-
-converted-to.pdf used on input line 208.
+converted-to.pdf used on input line 211.
 (pdftex.def)             Requested size: 145.11052pt x 104.77115pt.
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovO
 2Ground.eps>
@@ -727,7 +735,7 @@ Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovO
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
 Os005MushtukovO2Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
 htukovO2Ground.eps>
-(epstopdf)             \includegraphics on input line 209.
+(epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 
 <image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf, id=412
@@ -737,7 +745,7 @@ aphic file (type pdf)
 
 <use image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-
-converted-to.pdf used on input line 209.
+converted-to.pdf used on input line 212.
 (pdftex.def)             Requested size: 145.11052pt x 104.77115pt.
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovO
 3Ground.eps>
@@ -750,7 +758,7 @@ Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovO
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
 Os005MushtukovO3Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
 htukovO3Ground.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 
 <image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf, id=414
@@ -760,14 +768,14 @@ aphic file (type pdf)
 
 <use image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-
-converted-to.pdf used on input line 210.
+converted-to.pdf used on input line 213.
 (pdftex.def)             Requested size: 145.11052pt x 104.77115pt.
 
-[23 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs005Mush
-tukovX1Ground-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/imag
-e/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf> <C:/Users/a
-12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs005MushtukovX3Ground-e
-ps-converted-to.pdf>] [24 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_
+[23] [24 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs00
+5MushtukovX1Ground-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review
+/image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf> <C:/Us
+ers/a12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs005MushtukovX3Gro
+und-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_
 4/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf> <C:/Users/a12l/Docume
 nts/GitHub/Review/image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-convert
 ed-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs
@@ -792,8 +800,8 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9032 strings out of 494045
- 127013 string characters out of 3145973
+ 9033 strings out of 494045
+ 127024 string characters out of 3145973
  206523 words of memory out of 3000000
  11878 multiletter control sequences out of 15000+200000
  27749 words of font info for 79 fonts, out of 3000000 for 9000
@@ -827,9 +835,9 @@ lic/cm-super/sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /cm-super/sfrm1440.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm
 -super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-su
 per/sfti1440.pfb>
-Output written on ResonanceRew2024.pdf (32 pages, 592152 bytes).
+Output written on ResonanceRew2024.pdf (32 pages, 591740 bytes).
 PDF statistics:
- 616 PDF objects out of 1000 (max. 8388607)
- 178 named destinations out of 1000 (max. 500000)
+ 617 PDF objects out of 1000 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
