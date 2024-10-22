@@ -167,7 +167,7 @@ A^{(\lambda')}_{\mu'} (Y) = \frac{e^{\ii(q'Y)}}{\sqrt{2q'_0 V}} \, \varepsilon^{
 \begin{eqnarray}
 %\nonumber
 \label{eq:S2}                                  
-{\cal S}^{s^{\,\prime} s}_{\gamma^{(\lambda)} e\to \gamma^{(\lambda')} e'} = \frac{\ii (2\pi)^3 
+{\cal S}^{s^{\,\prime} s}_{\gamma^{(\lambda)} e\to \gamma^{(\lambda')} e} = \frac{\ii (2\pi)^3 
 	\delta^{(3)}_{0,y,z} (P - p^{\, \prime} - q^{\, \prime})}
 {\sqrt{2q_0 V 2q^{\, \prime}_0 V 2 E_{\ell} L_y L_z 2 E^{\, \prime}_{\ell'}L_y L_z}}\, 
 {\cal M}^{s^{\, \prime} s}_{\gamma^{(\lambda)} e\to \gamma^{(\lambda')} e'} \, , 
@@ -181,7 +181,7 @@ A^{(\lambda')}_{\mu'} (Y) = \frac{e^{\ii(q'Y)}}{\sqrt{2q'_0 V}} \, \varepsilon^{
 \begin{eqnarray}
 \label{eq:M12a}                                  
 %\nonumber
-&&{\cal M}^{s^{\, \prime} s}_{\gamma^{(\lambda)} e\to \gamma^{(\lambda')} e'} \simeq \ii e^2 \varepsilon^{(\lambda')}_{\, \mu'}(q') \varepsilon^{(\lambda)}_{\mu}(q) 
+&&{\cal M}^{s^{\, \prime} s}_{\gamma^{(\lambda)} e_\ell\to \gamma^{(\lambda')} e_{\ell'}} \simeq \ii e^2 \varepsilon^{(\lambda')}_{\, \mu'}(q') \varepsilon^{(\lambda)}_{\mu}(q) 
 %\times 
 %\\
 %\nonumber  
@@ -192,7 +192,7 @@ A^{(\lambda')}_{\mu'} (Y) = \frac{e^{\ii(q'Y)}}{\sqrt{2q'_0 V}} \, \varepsilon^{
 \nonumber  
 &&\times \frac{\bar \phi^{s'}_{p', \ell'} (Y_1) \gamma_{\mu'} \phi^{s''}_{P, n} (Y_1) 
 	\bar \phi^{s''}_{P, n} (X_1) \gamma_{\mu}  \phi^{s}_{p, \ell} (X_1)}
-{P^{2}_{\mprl} - M_n^2 + \ii\, \Im^{s''}_\Sigma (P)} + 
+{P^{2}_{\mprl} - M_n^2 + \ii P_0 \Gamma^{s''}_n/2} + 
 \\ [3mm]
 \nonumber  
 &&+ (\varepsilon^{(\lambda)}_\mu (q), \gamma_\mu, P, q \leftrightarrow \varepsilon^{(\lambda')}_{\mu'}(q'), \gamma_{\mu'}, P', -q')\, ,
@@ -201,6 +201,144 @@ A^{(\lambda')}_{\mu'} (Y) = \frac{e^{\ii(q'Y)}}{\sqrt{2q'_0 V}} \, \varepsilon^{
 
 Обсудим, при каких условиях амплитуда~(\ref{eq:M12a}) будет иметь резонансный характер. Если выполняется условие $\ell,\ell'\geqslant n$, то в этом случае у пропагатора фермиона существуют полюс, соответствующий тому, что виртуальная частица становится реальной, то есть выполняется равенство $P^{2}_{\mprl} - M_n^2 = 0$. При условии $\ell,\ell'<n$ полюса, отвечающие за резонансы в пропагаторе, отсутствуют и резонанс на виртуальном фермионе не наблюдается. Кроме того, кинематический анализ показывает, что вблизи первых циклотронных резонансов основной вклад в амплитуду процесса $jf\to j'f'$ будет давать только первая диаграмма.
 
+Как было показано в работе~\cite{RumShlenYar:2017}, в случае, когда ширина поглощения электрона $\Gamma_n$ достаточно мала, то амплитуда комптоновского процесса факторизуется двумя одновершинными процессами. Этот факт даёт возможность значительно упростить вычисление сечения, что приводит, например, к возможности построения аналитического решения уравнения переноса. Кратко опишем этот метод ниже. Действительно, в области резонанса, где выполняется условие $P_0\Gamma^{s''}_n\ll \left|P^2\mprl-M_n^2\right|$ соответствующая часть в~(\ref{eq:M12a}) может быть заменена $\delta$-функцией:
+\begin{equation}\nonumber
+	\left|\frac{1}{P^2_{\mprl}-M_n^2-\ii P_0\Gamma^{s''}_n/2}\right|^2
+	\simeq\frac{2\pi}{P_0\Gamma_n^{s''}} \delta(P^2_{\mprl}-M_n^2).
+\end{equation}
+В таком случае квадрат парциальных амплитуд будет выглядеть следующим образом
+\beq
+\label{eq:delta_f}
+&&|{\cal M}^{s^{\, \prime} s}_{\gamma^{(\lambda)} e_\ell \to \gamma^{(\lambda')} e_{\ell'}}|^2 \simeq  \sum\limits_{s'' = \pm 1} \sum\limits_{n=0}^{\infty} \;  
+\frac{\pi}{P_0 \; \Gamma_n^{s''}} \; \delta (P^{2}_{\mprl} - M_n^2) \times 
+\\
+\nonumber  
+&&\times \left | 
+\int \dd X_1 \dd Y_1 \bar \phi^{s'}_{p'\ell'} (Y_1) \phi^{s''}_{P, n} (Y_1) \bar \phi^{s''}_{P, n} (X_1) \phi^{s}_{p \ell} (X_1) \right |^2  \, .
+\eeq
+С учетом~(\ref{eq:delta_f}) квадрат $S$-матричного элемента процесса 
+$jf \to j^{\, \prime} f^{\, \prime}$ факторизуется двумя одновершинными подпроцессами
+%
+\beq
+\label{eq:S2factor}
+&&\sum\limits_{s, s' = \pm 1} \frac{|{\cal S}^{s^{\,\prime} s}_{\gamma^{(\lambda)} e_\ell \to \gamma^{(\lambda')} e_{\ell'}}|^2}{\tau} = 
+\sum\limits_{s, s', s'' = \pm 1} 
+\sum\limits_{n=0}^{\infty} \; \frac{(2\pi)^3 \delta^{(3)}_{0,y,z} (P - p^{\, \prime} - q^{\, \prime})}
+{2q_0 L_x 2q^{\, \prime}_0 V 2 E_{\ell} L_y L_z 2 E^{\, \prime}_{\ell'}L_y L_z} \times
+\\[3mm]
+\nonumber  
+&&\times 
+\int \frac{\dd p^{\, \prime \prime}_y \dd p^{\, \prime \prime}_z}{(2 E''_n)^2 (2 \pi)^2 \; \Gamma_n^{s''}} \, 
+(2\pi)^3 \, \delta^{(3)}_{0,y,z} (P - p'') 
+|{\cal M}^{s^{\, \prime} s''}_{e_n\to \gamma^{(\lambda')} e_{\ell'}}|^2 \; |{\cal M}^{s'' s}_{\gamma^{(\lambda)} e_\ell \to e_n}|^2   \, .
+\eeq
+
+Здесь мы воспользовались свойством $\delta$ - функции:
+%
+\begin{eqnarray}
+	\label{eq:delta_prop}
+	\delta (P^2_{\mprl} - M^2_n) = \frac{1}{2 E''_n} \, \delta (P_0 - E''_n) \, , 
+\end{eqnarray}
+%
+\noindent где $E''_n = \sqrt{p^{\, \prime \prime 2}_z + M^2_n}$. 
+
+
+Если теперь ввести   $S$-матричный элемент поглощения электрона следующим образом
+\beq
+%\nonumber
+\label{eq:Sjf}                                  
+{\cal S}^{s^{\,\prime \prime} s}_{\gamma^{(\lambda)} e_\ell \to e_n} = 
+\frac{\ii (2\pi)^3 
+	\delta^{(3)}_{0,y,z} (P - p^{\, \prime \prime})}
+{\sqrt{2q_0 V 2 E_{\ell} L_y L_z 2 E^{''}_{n} L_y L_z}}\, 
+{\cal M}^{s'' s}_{\gamma e_\ell \to e_n} \, ,
+\eeq
+с учетом того, что
+\begin{equation}
+	\left|\delta^{(3)}_{0,y,z}(P-p'')\right|^2=\frac{1}{(2\pi)^2}\delta_{0,y,z}^{(3)}(P-p'')\tau L_y L_z \, ,
+\end{equation}
+нетрудно видеть, что выражение~(\ref{eq:S2factor}) 
+можно представить в факторизованом виде:
+%
+\beq
+\label{eq:S2factor1}
+\sum\limits_{s, s' = \pm 1} \frac{|{\cal S}^{s^{\,\prime} s}_{{\gamma^{(\lambda)} e_\ell \to \gamma^{(\lambda')} e_{\ell'}}}|^2}{\tau} = 
+\sum\limits_{s, s', s'' = \pm 1} 
+\sum\limits_{n=0}^{\infty} \;  \int \frac{\dd p^{\, \prime \prime}_y 
+	\dd p^{\, \prime \prime}_z}{(2 \pi)^2 \; \Gamma_n^{s''}} \,  
+\frac{|{\cal S}^{s^{\,\prime \prime} s}_{\gamma^{(\lambda)} e_\ell \to e_n}|^2}{\tau} \, 
+\frac{|{\cal S}^{s^{\,\prime} s''}_{ e_n \to \gamma^{(\lambda')} e_{\ell'}}|^2}{\tau} \, .
+\eeq
+\noindent Здесь соответствующая амплитуда ${\cal M}^{s'' s}_{\gamma^{(\lambda)} e_\ell \to e_n}$ одновершинного процесса записывается следующим образом:
+%
+\beq
+\label{eq:amplonever} 
+{\cal M}^{s'' s}_{\gamma^{(\lambda)} e_\ell \to e_n} =  \frac{\exp{[-\ii q_x (p_y + p_y^{\,\prime \prime})/(2\beta)]}}{\sqrt{M_{\ell} M_n (M_{\ell} + m) 
+		(M_n + m)}} 
+\left [ \frac{q_y+\ii q_x}{\sqrt{q_{\mprp}^2}} \right ]^{n-\ell} {\cal T}^{s'' s}_{V} \, ,
+\eeq
+
+$S$-матричный элемент для процесса рождения электрона $\gamma \to e\gamma$ может быть получен из матричного элемента процесса поглощения фотона следующим образом 
+$S_{e_n \to \gamma^{(\lambda')} e_{\ell'}}=S_{\gamma^{(\lambda)} e_\ell \to e_n}(q\to q', E_\ell \to E'_{\ell'})$.
+
+Таким образом, для получения амплитуды комптоновского процесса вблизи резонанса в случае узкого пика, достаточно вычислить величины
+${\cal T}^{s'' s}_{V}$. Данные величины для вершин скалярного, псевдоскалярного, векторного и аксиально-векторного типов были вычислены в работе~\cite{RumShlenYar:2017}. Они выражаются через  
+лоренц-коварианты и инварианты~  в подпространстве~$\{0, 3\}$:
+
+\begin{equation}
+	\label{eq:K1}
+	{\cal K}_{1\alpha} = \sqrt{\frac{2}{(p\widetilde \Lambda p^{\, \prime \prime}) + 
+			M_\ell M_{n}}} \left \{M_\ell (\widetilde \Lambda p^{\, \prime \prime})_\alpha + 
+	M_{n} (\widetilde \Lambda p)_\alpha  \right \}\, ,
+\end{equation}
+%
+\begin{equation}
+	{\cal K}_{2\alpha} = \sqrt{\frac{2}{(p\widetilde \Lambda p^{\, \prime \prime}) + 
+			M_\ell M_{n}}} \left \{M_\ell (\widetilde \varphi p^{\, \prime \prime})_\alpha + 
+	M_{n} (\widetilde \varphi p)_\alpha  \right \}\, ,
+	\label{eq:K2}
+\end{equation}
+
+\begin{equation}
+	\label{eq:K3}
+	{\cal K}_{3} = \sqrt{2\left [(p\widetilde \Lambda p^{\, \prime \prime}) + 
+		M_\ell M_{n} \right]} \, ,  
+\end{equation}
+%
+\begin{equation}
+	\label{eq:K4}
+	{\cal K}_4 = 
+	- \sqrt{\frac{2}{(p\widetilde \Lambda p^{\, \prime \prime}) + M_\ell M_{n}}}\, 
+	(p\widetilde \varphi p^{\, \prime \prime}) \, .
+\end{equation}
+
+При вычислениях было использовано соотношение:
+%
+\begin{equation}
+	\label{eq:Ilnnl}
+	\begin{aligned}
+		\frac{1}{\sqrt{\pi}}\int \dd Z& \, \eee^{-Z^2}  
+		H_n \!\! \left (Z + \frac{q_y + \ii q_x}{2\sqrt{\beta}} \right )   
+		H_{\ell} \!\! \left (Z - \frac{q_y - \ii q_x}{2\sqrt{\beta}} \right ) =
+		\\
+		\nonumber
+		&= 2^{(n+\ell)/2} \sqrt{n ! \, \ell !} 
+		\left [\frac{q_y + \ii q_x}{\sqrt{q^2_{\mprp}}} \right ]^{n-\ell} 
+		\eee^{{q^2_{\mprp}}/{(4\beta)}} 
+		{\cal I}_{n, \ell} \!\! \left (\frac{q^{2}_{\mprp}}{2 \beta} \right ) \, , 
+	\end{aligned}
+\end{equation}
+\noindent где для $n \geqslant \ell$
+%
+\begin{eqnarray}
+	\nonumber
+	&&{\cal I}_{n, \ell} (x) = \sqrt{\frac{\ell !}{n !}} \; \eee^{-x/2} x^{(n-\ell)/2} L_\ell^{n-\ell} (x) \, ,
+	\\
+	&&{\cal I}_{\ell, n} (x) = (-1)^{n-\ell} {\cal I}_{n, \ell} (x) \, ,
+	\label{eq:Inl}
+\end{eqnarray}
+\noindent и $L^k_n (x)$ -- обобщенные полиномы Лагерра~\cite{Gradshtein}.
+Далее в работе будет использовано обозначение ${\cal I}_{n, \ell}\equiv{\cal I}_{n, \ell} \left(\frac{q_\perp^2}{2\beta}\right)$ и для определенности рассматриваются электроны, для которых знак заряда $\eta=-1$.
 
 \textcolor{red}{Для астрофизических приложений удобно использовать коэффициент поглощения -- вероятность перехода за счёт тех или иных процессов, который для комптоновского процесса был определен, например, в работе~\cite{Chistyakov:2009}:
 \begin{eqnarray}\label{eq:WabsStrongB}

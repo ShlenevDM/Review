@@ -570,6 +570,15 @@
 \newblock Vol. A30, no.~11.
 \newblock P.~1550049.
 
+\bibitem{RumShlenYar:2017}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~Д.~А., Шленев~Д.~М., Ярков~А.~А.} {Резонансы в
+  комптоноподобных процессах рассеяния во внешней замагниченной среде}~//
+  \BibEmph{ЖЭТФ.}
+\newblock {2017}.
+\newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{483--494}.
+
 \bibitem{Chistyakov:2009}
 \selectlanguageifdefined{english}
 \BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A.} {Compton effect in strongly
