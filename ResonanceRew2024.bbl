@@ -595,4 +595,14 @@
 \newblock {\cyr\CYRT.}~4.
 \newblock 720~{\cyr\cyrs.}
 
+\bibitem{Schwarm:2017}
+\selectlanguageifdefined{english}
+\BibEmph{{Schwarm}~F.~W., {Sch{\"o}nherr}~G., {Falkner}~S. et~al.} {Cyclotron
+  resonant scattering feature simulations. I. Thermally averaged cyclotron
+  scattering cross sections, mean free photon-path tables, and electron
+  momentum sampling}~// \BibEmph{AA}.
+\newblock 2017.
+\newblock Vol. 597.
+\newblock P.~A3.
+
 \end{thebibliography}
