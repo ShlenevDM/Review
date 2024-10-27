@@ -544,6 +544,31 @@
 \newblock Vol.~34.
 \newblock P.~440--451.
 
+\bibitem{Ozel:2001}
+\selectlanguageifdefined{english}
+\BibEmph{{\"O}zel~F.} Surface Emission Properties of Strongly Magnetic Neutron
+  Stars~// \BibEmph{The Astrophysical Journal}.
+\newblock 2001.
+\newblock Vol. 563, no.~1.
+\newblock P.~276.
+
+\bibitem{Zavlin:1996}
+\selectlanguageifdefined{english}
+\BibEmph{{Zavlin}~V.~E., {Pavlov}~G.~G., {Shibanov}~Y.~A.} {Model neutron star
+  atmospheres with low magnetic fields. I. Atmospheres in radiative
+  equilibrium.}~// \BibEmph{A\&A}.
+\newblock 1996.
+\newblock Vol. 315.
+\newblock P.~141--152.
+
+\bibitem{Lyubarsky:2002}
+\selectlanguageifdefined{english}
+\BibEmph{{Lyubarsky}~Y.~E.} {On the X-ray spectra of soft gamma repeaters}~//
+  \BibEmph{MNRAS}.
+\newblock 2002.
+\newblock Vol. 332, no.~1.
+\newblock P.~199--204.
+
 \bibitem{Daugherty:1989}
 \selectlanguageifdefined{english}
 \BibEmph{{Daugherty}~J.~K., {Harding}~A.~K.} {Comptonization of Thermal Photons
@@ -604,5 +629,14 @@
 \newblock 2017.
 \newblock Vol. 597.
 \newblock P.~A3.
+
+\bibitem{Kuznetsov:2015}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A.~V., Rumyantsev~D.~A., Shlenev~D.~M.} {Generalized
+  two-point tree-level amplitude $j f \to j'f'$ in a magnetized medium}~//
+  \BibEmph{Int. J. Mod. Phys.}
+\newblock 2015.
+\newblock Vol. A30, no.~11.
+\newblock P.~1550049.
 
 \end{thebibliography}
