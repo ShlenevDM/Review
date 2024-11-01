@@ -569,6 +569,65 @@
 \newblock Vol. 332, no.~1.
 \newblock P.~199--204.
 
+\bibitem{Alexander:1991}
+\selectlanguageifdefined{english}
+\BibEmph{{Alexander}~S.~G., {Meszaros}~P.} {Cyclotron Harmonics in Accreting
+  Pulsars and Gamma-Ray Bursters: Effect of Two-Photon Processes}~//
+  \BibEmph{Astrophys. J.}
+\newblock 1991.
+\newblock Vol. 372.
+\newblock P.~565.
+
+\bibitem{Araya:1999}
+\selectlanguageifdefined{english}
+\BibEmph{{Araya}~R.~A., {Harding}~A.~K.} {Cyclotron Line Features from
+  Near-critical Magnetic Fields: The Effect of Optical Depth and Plasma
+  Geometry}~// \BibEmph{Astrophys. J.}
+\newblock 1999.
+\newblock Vol. 517, no.~1.
+\newblock P.~334--354.
+
+\bibitem{Ho:2001}
+\selectlanguageifdefined{english}
+\BibEmph{{Ho}~W. C.~G., {Lai}~D.} {Atmospheres and spectra of strongly
+  magnetized neutron stars}~// \BibEmph{MNRAS}.
+\newblock 2001.
+\newblock Vol. 327, no.~4.
+\newblock P.~1081--1096.
+
+\bibitem{Lyutikov:2006}
+\selectlanguageifdefined{english}
+\BibEmph{{Lyutikov}~M., {Gavriil}~F.~P.} {Resonant cyclotron scattering and
+  Comptonization in neutron star magnetospheres}~// \BibEmph{MNRAS}.
+\newblock 2006.
+\newblock Vol. 368, no.~2.
+\newblock P.~690--706.
+
+\bibitem{Schonherr:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Sch{\"o}nherr}~G., {Wilms}~J., {Kretschmar}~P. et~al.} {A model for
+  cyclotron resonance scattering features}~// \BibEmph{A{\&}A}.
+\newblock 2007.
+\newblock Vol. 472, no.~2.
+\newblock P.~353--365.
+
+\bibitem{Nishimura:2008}
+\selectlanguageifdefined{english}
+\BibEmph{{Nishimura}~O.} {Formation Mechanism for Broad and Shallow Profiles of
+  Cyclotron Lines in Accreting X-Ray Pulsars}~// \BibEmph{Astrophys. J.}
+\newblock 2008.
+\newblock Vol. 672, no.~2.
+\newblock P.~1127--1136.
+
+\bibitem{Suleimanov:2009}
+\selectlanguageifdefined{english}
+\BibEmph{{Suleimanov}~V., {Potekhin}~A.~Y., {Werner}~K.} {Models of magnetized
+  neutron star atmospheres: thin atmospheres and partially ionized hydrogen
+  atmospheres with vacuum polarization}~// \BibEmph{A\&A}.
+\newblock 2009.
+\newblock Vol. 500, no.~2.
+\newblock P.~891--899.
+
 \bibitem{Daugherty:1989}
 \selectlanguageifdefined{english}
 \BibEmph{{Daugherty}~J.~K., {Harding}~A.~K.} {Comptonization of Thermal Photons

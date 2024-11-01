@@ -11,12 +11,17 @@ Reallocated glb_str_end (elt_size=4) to 10 items from 0.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Bib.bib
+Repeated entry---line 2098 of file Bib.bib
+ : @article{Potekhin:2004
+ :                       ,
+I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 
 Here's how much of BibTeX's memory you used:
- Cites:                76 out of 750
- Fields:             3827 out of 5000
- Hash table:        18558 out of 19000
- Strings:            1556 out of 19000
- Free string pool:  20851 out of 65000
+ Cites:                83 out of 750
+ Fields:             4184 out of 5000
+ Hash table:        18545 out of 19000
+ Strings:            1601 out of 19000
+ Free string pool:  22126 out of 65000
  Wizard functions:   3568 out of 6000
+(There was 1 error message)
