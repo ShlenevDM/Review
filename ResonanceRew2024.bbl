@@ -628,6 +628,15 @@
 \newblock Vol. 500, no.~2.
 \newblock P.~891--899.
 
+\bibitem{Baring:2018}
+\selectlanguageifdefined{english}
+\BibEmph{Wadiasingh~Z., Baring~M.~G., Gonthier~P.~L., Harding~A.~K.} {Resonant
+  Inverse Compton Scattering Spectra from Highly-magnetized Neutron Stars}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2018.
+\newblock Vol. 854, no.~2.
+\newblock P.~98.
+
 \bibitem{Daugherty:1989}
 \selectlanguageifdefined{english}
 \BibEmph{{Daugherty}~J.~K., {Harding}~A.~K.} {Comptonization of Thermal Photons

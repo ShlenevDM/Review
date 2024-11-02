@@ -18,10 +18,10 @@ I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 
 Here's how much of BibTeX's memory you used:
- Cites:                83 out of 750
- Fields:             4184 out of 5000
- Hash table:        18545 out of 19000
- Strings:            1601 out of 19000
- Free string pool:  22126 out of 65000
+ Cites:                84 out of 750
+ Fields:             4235 out of 5000
+ Hash table:        18544 out of 19000
+ Strings:            1608 out of 19000
+ Free string pool:  22326 out of 65000
  Wizard functions:   3568 out of 6000
 (There was 1 error message)
