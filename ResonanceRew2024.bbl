@@ -628,6 +628,25 @@
 \newblock Vol. 500, no.~2.
 \newblock P.~891--899.
 
+\bibitem{Fernandez:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Fern{\'a}ndez}~R., {Thompson}~C.} {Resonant Cyclotron Scattering in
+  Three Dimensions and the Quiescent Nonthermal X-ray Emission of Magnetars}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2007.
+\newblock Vol. 660, no.~1.
+\newblock P.~615--640.
+
+\bibitem{Nobili:2008}
+\selectlanguageifdefined{english}
+\BibEmph{Nobili~L., Turolla~R., Zane~S.} {X-ray spectra from magnetar
+  candidates – II. Resonant cross-sections for electron–photon scattering in
+  the relativistic regime}~// \BibEmph{Monthly Notices of the Royal
+  Astronomical Society}.
+\newblock 2008.
+\newblock Vol. 389, no.~2.
+\newblock P.~989--1000.
+
 \bibitem{Baring:2018}
 \selectlanguageifdefined{english}
 \BibEmph{Wadiasingh~Z., Baring~M.~G., Gonthier~P.~L., Harding~A.~K.} {Resonant
@@ -636,6 +655,14 @@
 \newblock 2018.
 \newblock Vol. 854, no.~2.
 \newblock P.~98.
+
+\bibitem{Beloborodov:2013}
+\selectlanguageifdefined{english}
+\BibEmph{{Beloborodov}~A.~M.} {On the Mechanism of Hard X-Ray Emission from
+  Magnetars}~// \BibEmph{Astrophys. J.}
+\newblock 2013.
+\newblock Vol. 762, no.~1.
+\newblock P.~13.
 
 \bibitem{Daugherty:1989}
 \selectlanguageifdefined{english}
