@@ -1,0 +1,631 @@
+\newpage                                                                                                              
+\chapter{Решение кинетического уравнения с учетом резонансного комптоновского рассеяния}
+\label{sec:intro}
+
+\section{Введение}
+
+%Из-за сложного поведения коэффициента поглощения фотона в комптоновском процессе вблизи резонанса задача о переносе излучения становится нетривиальной.
+%Определенный прогресс в решении этой задачи для сильно замагниченной плазмы был достигнут в диффузном приближении~\cite{Nagel:1981}, где было показано, что циклотронные резонансы приводят к эффекту поглощения в спектре излучения, которое значительно зависит от температуры и плотности плазмы. Совместный учет как анизотропии среды, так и эффектом комптонизации (множественное комптоновское рассеяние) в статье~\cite{Meszaros:1985} показал, что некогерентность рассеяния вблизи резонансов значительно влияет на излучение и форму импульсов, нежели анизотропия. Аналогичный метод был использован и в работе~\cite{Kaminker:1982} в приближении холодной плазмы ($T\ll m$) с учетом поляризации вакуума для случая, когда когерентное комптоновское рассеяние является доминирующим. В работе~\cite{Alexander:1989} были развиты численные методы для решения задачи переноса с учетом такого нелинейного эффекта как индуцированное резонансное комптоновское рассеяние, которое может вносить существенный вклад в коэффициент поглощения фотона.  Для неоднородных значений температур, плотности плазмы и магнитного поля излучающей области исследования проводились в ряде работ~\cite{Burnard:1990,Meszaros:1983,Harding:1984,Nishimura:2015}. 
+Есть несколько способов решения задачи переноса излучения. Один из них заключается в решении системы интегро-дифференциальных уравнений, соответствующих уравнению Больцмана. В работах~\cite{Nagel:1981,Kaminker:1982,Meszaros:1985,Alexander:1991,Nishimura:2008} для решения системы уравнений переноса использовался численный метод, который заключается в том, что интегрально-дифференциальные уравнения преобразуются в систему разностных выражений и квадратурных сумм с дискретизированными переменными, которая далее решается методом Фотрие~\cite{Mihalas:1985}.
+
+С другой стороны, для решения задачи переноса излучения с учетом резонансного комптоновского процесса также активно используется метод Монте-Карло (см., например~\cite{Yahel:1979,Araya:1999,Nobili:2008,Fernandez:2011,Taverna:2014,Mustukov:2021,Mushtukov:2022}), который является достаточно мощным инструментом для решения сложных задач. 
+
+Из-за сложного поведения коэффициента поглощения фотона в комптоновском процессе вблизи резонанса задача о переносе излучения становится нетривиальной. Одним из упрощений этой задачи является выбор геометрии излучающей области. Представление излучающей поверхности в виде бесконечной плиты является хорошим приближением к поверхности нейтронной звезды~\cite{Meszaros:1983,Harding:1984,Nishimura:2015}. С другой стороны, цилиндрическая геометрия является более подходящей для аккреционной колонки в целом~\cite{Basko:1976}. Однако спектр, наблюдаемый в области циклотронных частот излучения акрецирующих рентгеновских пульсаров, имеет более широкий профиль с заниженными значениями, чем рассчитанные теоретически с использованием данных геометрий. Поэтому в работе~\cite{Nishimura:2008} было предложено результирующий спектр излучающей области представить в виде суммы спектров, получаемых из различных циклотронных областей, каждая из которых имеет цилиндрическую геометрию с однородной плотностью, температурой и магнитным полем. 
+
+\textcolor{red}{Если предположить, что в изменение спектра излучения вклад вносит только резонансный комптоновский процесс, то можно воспользоваться дельта-функциональным приближением. Поэтому в настоящей главе рассматривается решение кинетического уравнения Больцмана для нахождения функции распределения цилиндрической колонки электронной плазмы, однородной в поперечном к магнитному полю направлении,  в относительно сильном магнитном поле с учетом резонансного комптоновского рассеяния. Для случая дельта-функционального приближения представлено решение для магнитного поля $B=0.023 B_e\simeq10^{12}$ Гс и температур $T\simeq 11.5$~кэВ в аналитическом виде, на основе которого рассчитывается модификация спектра чернотельного излучения в результате комптоновского процесса.}
+
+\label{sec:preparation}
+\section{Решение кинетического уравнения вблизи резонанса}
+
+Рассмотрим достаточно узкую цилиндрическую колонку с осью, направленной вдоль магнитного поля (магнитное поле $B\lesssim B_e$ направлено вдоль оси~$z$), содержащую равновесную плазму электронов при температуре $T\ll m$. Через колонку в точке $z=0$ поддерживается стационарный поток фотонов с некоторой функцией распределения $f_{0\omega}^{(\lambda)}(x)$. Для упрощения задачи предположим, что магнитное поле и температура внутри этой колонки постоянны, а изменением функции распределения в направлении, поперечном к направлению магнитного поля, можно пренебречь. В таком случае  кинетическое уравнение будет иметь вид:
+\begin{equation} 
+\begin{aligned}\label{Kineq:Gen}
+\frac{\partial f_\omega^{(\lambda)}(z, x)}{\partial z}&=\sum_{\lambda'=1}^{2} \int dW_{\lambda\to\lambda'}\{f_{E'}(1-f_E)f^{(\lambda')}_{\omega'}(z, x') (1+f_\omega^{(\lambda)}(z, x))-
+\\
+&-f_E (1-f_{E'}) f_\omega^{(\lambda)}(z,x)(1+f^{(\lambda')}_{\omega'}(z, x'))
+	\}\, .
+\end{aligned}
+\end{equation}
+
+Здесь $x = \cos \theta$, $x' = \cos \theta'$ ($\theta$, $\theta'$ -- угол между направлением магнитного поля и импульсами начального и конечного фотонов), $\lambda, \lambda'=1,2$ поляризационные состояния фотонов,   $f^{(\lambda)}_\omega(z, x)$ и $f^{(\lambda')}_{\omega'}(z, x')$ -- функции распределения начального и конечного фотонов с энергиями $\omega$ и $ \omega'$ соответственно,\linebreak $dW_{\lambda \to \lambda'}$ -- коэффициент поглощения фотона, который может быть получен \linebreak из Главы 1, $f_E = 1/[\exp(E/T)+1]$ и $f_{E'} = 1/[\exp(E'/T)+1]$ --  равновесные функции распределения начального и конечного электронов с нулевым химическим потенциалом, $E$ и $E'$~-- энергии начального и конечного электронов.
+
+Даже если величина напряженности магнитного поля меньше критического значения $B\lesssim B_e$, то электроны преимущественно будут занимать основной уровень Ландау для относительно низких температур $T\ll m$. Действительно, для параметров среды $B=10^{12}$ Гс и $T=5$ кэВ, выделяя из концентрации электронов
+\begin{equation}
+n_e = \frac{\beta}{(2 \pi)^2} \sum \limits^{\infty}_{\ell=0} (2-\delta_{\ell,0}) \int \limits^{\infty}_{-\infty} \frac{\dd p_z}{\exp\left[\frac{1}{T}\sqrt{m^2+p_z^2+2\beta\ell}\right]+1}
+\end{equation}
+относительный вклад высших уровней  по отношению к основному уровню Ландау:
+
+\begin{equation}\nonumber
+\begin{gathered}
+\frac{n_e|_{\ell=1,2\ldots}}{n_e|_{\ell=0}}\simeq 0.234 \, ,
+\end{gathered}
+\end{equation}
+получим, что электроны занимают преимущественно основной уровень Ландау.
+
+Естественно ожидать, что при такой температуре электроны в плазме будут нерелятивистскими, поэтому энергии начального и конечного фотона будут близкими друг к другу.
+Таким образом,воспользовавшись методикой, развитой в работах~\cite{Kompaneets:1957,Lubarsky:1988}, правую часть уравнения (\ref{Kineq:Gen}) можно разложить \linebreak по величине $\Delta\omega=\omega-\omega'\ll\omega$:
+\begin{equation}\label{eq:KinSerDeltaw}
+	\begin{aligned}
+		&\frac{\partial f^{(\lambda)}_\omega(z,x)}{\partial z} = \frac{1}{x} \sum_{\lambda'=1}^{2} \int_{-1}^{1}dx'\varphi_\omega^{\lambda\lambda'}(x,x') (f^{(\lambda')}_{\omega}(z,x')-f^{(\lambda)}_\omega(z,x)) -
+		\\
+		&- \frac{1}{x} \sum_{\lambda'=1}^{2} \int_{-1}^{1}dx'\varphi_\omega^{\lambda\lambda'}(x,x') 
+		\left[
+		T \frac{\partial f_\omega^{(\lambda')}(z,x')}{\partial \omega} + f_\omega^{(\lambda')}(z,x')
+		\right]\frac{\Delta \omega}{T}+
+		\\
+		&+ \frac{1}{2x} \sum_{\lambda'=1}^{2} \int_{-1}^{1}dx'\varphi_\omega^{\lambda\lambda'}(x,x') 
+		\bigg[
+		T^2 \frac{\partial^2 f_\omega^{(\lambda')}(z,x')}{\partial \omega^2}+
+		\\		
+		&+ 2T \frac{\partial f_\omega^{(\lambda')}(z,x')}{\partial \omega}+f_\omega^{(\lambda')}(z,x')
+		\bigg]\frac{(\Delta\omega)^2}{T^2}
+		\,  ,
+	\end{aligned}
+\end{equation}
+ где
+\begin{equation}
+\begin{aligned}
+\omega'=\frac{1}{1-x'^2}\left\{E- p_z x'+\omega(1- x x')-\sqrt{\left[E-p_z x'+\omega(1- x x')\right]^2-2\beta\left(1-x'^2\right)}\right\}.
+\end{aligned}
+\end{equation}
+%
+%
+%\begin{equation}
+%\begin{aligned}
+%\omega' =& \frac{1}{1-x'^2}\bigg(m+\omega(1-x x')-
+%\\		
+%-& \sqrt{(m+\omega(1-x x'))^2 - 2\beta (1-x'^2)}\bigg)\simeq\omega_{\text{res}}\simeq \beta/m\, ,
+%\end{aligned}
+%\end{equation}
+
+\newpage
+Функции $\varphi_\omega^{\lambda\lambda'}(x,x')$ в случае, когда масса электрона является максимальным параметром задачи, могут быть получены из результатов Главы 1 и представлены в следующем виде:
+\begin{equation}\label{eq:Varphi}
+\begin{aligned}
+&\varphi_\omega^{11}(x,x')\simeq \rho \left(\frac{\beta^2}{m^2}\frac{1}{\Delta^-} +\frac{\left[\omega-\beta/m\right]^2}{\Delta^+}\right)\, ,
+\\
+&\varphi_\omega^{12}(x,x')\simeq \rho \omega^2 \left(
+\frac{x'^2}{\Delta^-} + \frac{\omega - \beta/m}{2m \Delta^+}
+\right)	\, ,
+\\
+&
+\varphi_\omega^{22}(x,x')\simeq \rho \frac{\omega^4}{4m^2}
+\left(
+\frac{4m^4x^2 x'^2 }{\beta^2 \Delta^-} + \frac{1}{\Delta^+}
+\right)\, ,
+\\
+&
+\varphi_\omega^{21}(x,x')\simeq \rho \omega^2
+\left(
+\frac{x^2}{\Delta^-} + \frac{\omega - \beta/m}{2m \Delta^+}
+\right)\, ,
+\end{aligned}
+\end{equation}
+где
+\begin{equation}
+\rho = \frac{n_e}{8\pi} e^4 \left(\frac{\sqrt{m^2+\beta} + m}{\sqrt{m^2+\beta}}\right)\simeq \frac{n_e}{2\pi}e^4\, ,
+\end{equation}
+
+\begin{equation}
+\Delta^\pm = \left[\omega^2(1-x^2)+2 \omega m - 2\beta\right]^2 + \left(\frac{E_1{''} \Gamma^\pm_1}{2}\right)^2 \, ,
+\end{equation}
+$\Gamma^\pm_1$ -- полная ширина поглощения электрона, находящегося на первом уровне Ландау, для двух возможных поляризационных состояний. Она может быть получена из результатов работы~\cite{KM_Book_2003} и представлена в следующем виде:
+\begin{equation}
+E_1''\Gamma_1^{\pm} \simeq \frac{e^2\beta^2}{\pi M_1}\frac{1}{M_1\pm m} \int_{0}^{\zeta}\dd x e^{-x} \frac{1-\zeta x}{\sqrt{x^2-\zeta x+1}},
+\end{equation}
+где $\zeta=\frac{M_1^2+m^2}{\beta}$. 
+
+Уравнение~(\ref{eq:KinSerDeltaw}) относительно переменной $z$ удобно представить в виде:
+\begin{equation}\label{eq:GenSolve}
+	\frac{\dd f^{(\lambda)}_\omega(z,x)}{\dd z} =
+	-{\cal \chi}_\omega^{(\lambda)}(x) f^{(\lambda)}_\omega(z,x) + F^{(\lambda)}_\omega(z,x),
+\end{equation}
+где 
+\begin{equation}
+	{\cal \chi}_\omega^{(\lambda)}(x) = \frac{1}{x} \int_{-1}^{1} \dd x' \left\{\varphi^{\lambda 1}_\omega(x,x')+\varphi^{\lambda 2}_\omega(x,x')\right\}\, ,
+\end{equation}
+
+\begin{equation}
+	\begin{aligned}
+		&F_\omega^{(\lambda)}(z,x)= \frac{1}{x} \sum_{\lambda'=1}^{2} \int_{-1}^{1}\dd x'\varphi_\omega^{\lambda\lambda'}(x,x') f^{(\lambda')}_{\omega}(z,x') -
+		\\
+		&- \frac{1}{x} \sum_{\lambda'=1}^{2} \int_{-1}^{1}\dd x'\varphi_\omega^{\lambda\lambda'}(x,x') 
+		\left[
+		T \frac{\partial f_\omega^{(\lambda')}(z,x')}{\partial \omega} + f_\omega^{(\lambda')}(z,x')
+		\right]\frac{\Delta \omega}{T}+
+		\\
+		&+ \frac{1}{2x} \sum_{\lambda'=1}^{2} \int_{-1}^{1}\dd x'\varphi_\omega^{\lambda\lambda'}(x,x') 
+		\bigg[
+		T^2 \frac{\partial^2 f_\omega^{(\lambda')}(z,x')}{\partial \omega^2}+
+		\\		
+		&+ 2T \frac{\partial f_\omega^{(\lambda')}(z,x')}{\partial \omega}+f_\omega^{(\lambda')}(z,x')
+		\bigg]\frac{(\Delta\omega)^2}{T^2}
+		\,  .
+	\end{aligned}
+\end{equation}
+
+Формальное решение уравнения~(\ref{eq:GenSolve}) выглядит в следующем виде:
+\begin{equation}
+	f^{(\lambda)}_\omega(z,x)= f^{(\lambda)}_{0\omega}(x) e^{-{\cal \chi}_\omega^{(\lambda)}(x)z}+\int_{0}^{z}\dd z' e^{-{\cal \chi}_\omega^{(\lambda)}(x)(z-z')} F_\omega^{(\lambda)}(z',x) 
+\end{equation}
+где $f^{(\lambda)}_{0\omega}(x)$ -- функция распределения фотонов при значении \mbox{$z=0$}, которую будем полагать равновесной $f^{(\lambda)}_{0\omega}(x)=f_{0\omega}=\left[e^{\omega/T}-1\right]^{-1}$.
+В результате уравнение (\ref{eq:KinSerDeltaw}) перепишем следующим образом:
+\begin{equation}\label{FormSol}
+\begin{aligned}
+&f_\omega^{(\lambda)}(z,x)=f_{0\omega} 	e^{-{\cal \chi}_\omega^{(\lambda)}(x)\cdot z} + \frac{1}{x}\int_{0}^{z}dz'\int_{-1}^{1}dx' e^{-{\cal \chi}_\omega^{(\lambda)}(x)\cdot (z-z')}\times 
+\\
+&\times\varphi_\omega^{\lambda 	\lambda'}(x,x')\bigg(f_\omega^{(\lambda')}(z',x') - \frac{\Delta \omega}{T}
+\left[
+T \frac{\partial f_\omega^{(\lambda')}(z',x')}{\partial \omega} + f_\omega^{(\lambda')}(z',x')
+\right]+
+\\
+&+ \frac{1}{2}\frac{(\Delta \omega)^2}{T^2}
+\left[
+T^2 \frac{\partial^2 f_\omega^{(\lambda')}(z',x')}{\partial \omega^2} + 2T \frac{\partial f_\omega^{(\lambda')}(z',x')}{\partial \omega}+f_\omega^{(\lambda')}(z',x')
+\right]\bigg)\, .
+\end{aligned}	
+\end{equation}
+
+
+Далее разложим функцию распределения фотонов по полиномам Лежандра ${\cal P}_\ell(x)$ относительно переменной $x$:
+
+\begin{equation}\label{eq:fSerLegender}
+f_\omega^{(\lambda)}(z, x) = \sum_{\ell = 0}^{\infty} A_\ell^{(\lambda)}(z,\omega) {\cal P}_\ell(x)\, ,
+\end{equation}
+
+Подставляя (\ref{eq:fSerLegender}) в (\ref{FormSol}) и применяя к полученному выражению преобразование Лапласа относительно переменной $z$, получим систему дифференциальных уравнений второго порядка относительно переменной $\omega$:
+\begin{equation}\label{eq:SysEqALapX}
+\begin{aligned}
+&\sum_{\ell' = 0}^{\infty} \overline{A}_{\ell'}^{(\lambda)}(s,\omega) {\cal P}_{\ell'}(x) = \frac{f_{0\omega}}{s+{\cal \chi}^{(\lambda)}_\omega(x)}+
+\sum_{\ell'=0}^{\infty}\int_{-1}^{1}\dd x'\frac{1}{x} \frac{{\cal P}_{\ell'}(x')}{s+{\cal \chi}_\omega^{(\lambda)}(x)} \times
+\\
+&\times\varphi_\omega^{\lambda\lambda'}(x,x')\bigg( \overline{A}_{\ell'}^{(\lambda')}(s,\omega) - \frac{\Delta \omega}{T}
+\left[
+T \frac{\partial \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega} + \overline{A}_{\ell'}^{(\lambda')}(s,\omega)
+\right]+
+\\
+&+ \frac{1}{2}\frac{(\Delta \omega)^2}{T^2}
+\left[
+T^2 \frac{\partial^2 \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega^2} + 2T \frac{\partial \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega}+\overline{A}_{\ell'}^{(\lambda')}(s,\omega)
+\right]\bigg)\, ,
+\end{aligned}
+\end{equation}
+где 
+
+\begin{equation}\label{lapA}
+\overline{A}_{\ell'}^{(\lambda)}(s,\omega)=\int_{0}^{\infty} A^{(\lambda)}_{\ell'}(z,\omega) e^{-sz}dz\, .
+\end{equation}
+
+Домножая на ${\cal P}_\ell(x)$, с учетом
+ортогональности полиномов Лежандра:
+
+\begin{equation}
+\int_{-1}^{1}\dd x {\cal P}_\ell(x) {\cal P}{_\ell'}(x)=\frac{2}{2\ell+1}\delta_{\ell \ell'}\, ,
+\end{equation}
+проинтегрируем выражение~(\ref{eq:SysEqALapX}) по $x$. В итоге получим следующую систему уравнений для нахождения коэффициентов $\overline{A}_\ell^{(\lambda)}$:
+
+
+\begin{equation}\label{eq:SysEqALap}
+\begin{aligned}
+\frac{2}{2 \ell +1} &\overline{A}_\ell^{(\lambda)}(s,\omega) = \int_{-1}^{1} \frac{f_{0\omega}}{s+{\cal \chi}^{(\lambda)}_\omega(x)}{\cal P}_\ell(x)\dd x+
+\sum_{\ell'=0}^{\infty}\int_{-1}^{1}\dd x'\int_{-1}^{1}\frac{\dd x}{x} \frac{{\cal P}_\ell(x) {\cal P}_{\ell'}(x')}{s+{\cal \chi}_\omega^{(\lambda)}(x)} \times
+\\
+&\times\varphi_\omega^{\lambda\lambda'}(x,x')\bigg( \overline{A}_{\ell'}^{(\lambda')}(s,\omega) - \frac{\Delta \omega}{T}
+\left[
+T \frac{\partial \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega} + \overline{A}_{\ell'}^{(\lambda')}(s,\omega)
+\right]+
+\\
+&+ \frac{1}{2}\frac{(\Delta \omega)^2}{T^2}
+\left[
+T^2 \frac{\partial^2 \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega^2} + 2T \frac{\partial \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega}+\overline{A}_{\ell'}^{(\lambda')}(s,\omega)
+\right]\bigg)\, .
+\end{aligned}
+\end{equation}
+
+
+%Используя тот факт, что полиномы Лежандра ${\cal P}_\ell(x)$ -- ортогональные функции с нормой
+%\begin{equation}
+%\int_{-1}^{1}\dd x {\cal P}_\ell(x) {\cal P}{_\ell'}(x)=\frac{2}{2\ell+1}\delta_{\ell \ell'}\, ,
+%\end{equation}
+%достаточно просто выполнить в выражении~\ref{eq:SysEqALap}. Как результат, можно получить следующую систему уравнений
+%
+%\begin{equation}\label{eq:SysAPart}
+%	\begin{aligned}		
+%	\frac{2}{2 \ell +1} &\overline{A}_\ell^{(\lambda)}(s,\omega)= \int_{-1}^{1} \frac{f_{0\omega}}{s+{\cal \chi}^{(\lambda)}_\omega(x)}{\cal P}_\ell(x)\dd x +
+%		\\
+%		&+2\bigg( J_\ell^{\lambda 1}(s,\omega)\overline{A}_{0}^{(1)}(s,\omega) - \Delta J_\ell^{\lambda 1}(s,\omega)
+%		\left[
+%		T \frac{\partial \overline{A}_{0}^{(1)}(s,\omega)}{\partial \omega} + \overline{A}_{0}^{(1)}(s,\omega)
+%		\right]+
+%		\\
+%		&+ \frac{1}{2}\Delta^2 J_\ell^{\lambda 1}(s,\omega)
+%		\left[
+%		T^2 \frac{\partial^2 \overline{A}_{0}^{(1)}(s,\omega)}{\partial \omega^2} + 2T \frac{\partial \overline{A}_{0}^{(1)}(s,\omega)}{\partial \omega}+\overline{A}_{0}^{(1)}(s,\omega)
+%		\right]\bigg)+
+%		\\
+%		&+\frac{2}{3}\bigg( J_\ell^{\lambda 2}(s,\omega)\overline{A}_{0}^{(2)}(s,\omega) - \Delta J_\ell^{\lambda 2}(s,\omega)
+%		\left[
+%		T \frac{\partial \overline{A}_{0}^{(2)}(s,\omega)}{\partial \omega} + \overline{A}_{0}^{(2)}(s,\omega)
+%		\right]+
+%		\\
+%		&+ \frac{1}{2}\Delta^2 J_\ell^{\lambda 2}(s,\omega)
+%		\left[
+%		T^2 \frac{\partial^2 \overline{A}_{0}^{(2)}(s,\omega)}{\partial \omega^2} + 2T \frac{\partial \overline{A}_{0}^{(2)}(s,\omega)}{\partial \omega}+\overline{A}_{0}^{(2)}(s,\omega)
+%		\right]\bigg)+
+%			\\
+%		&+\frac{4}{15}\bigg( J_\ell^{\lambda 2}(s,\omega)\overline{A}_{2}^{(2)}(s,\omega) - \Delta J_\ell^{\lambda 2}(x,s,\omega)
+%		\left[
+%		T \frac{\partial \overline{A}_{2}^{(2)}(s,\omega)}{\partial \omega} + \overline{A}_{2}^{(2)}(s,\omega)
+%		\right]+
+%		\\
+%		&+ \frac{1}{2}\Delta^2 J_\ell^{\lambda 2}(s,\omega)
+%		\left[
+%		T^2 \frac{\partial^2 \overline{A}_{2}^{(2)}(s,\omega)}{\partial \omega^2} + 2T \frac{\partial \overline{A}_{2}^{(2)}(s,\omega)}{\partial \omega}+\overline{A}_{2}^{(2)}(s,\omega)
+%		\right]\bigg)\, ,
+%	\end{aligned}
+%\end{equation}
+%где 
+%\begin{equation}
+%	J_\ell^{\lambda\lambda'}(s,\omega) =\int_{-1}^{1}\dd x'\int_{-1}^{1}\dd x \frac{1}{x} \frac{{\cal P}_\ell(x)}{s+\chi_\omega^{(\lambda)}(x)} \varphi^{\lambda \lambda '}_\omega(x,x')\, ,
+%\end{equation}
+%\begin{equation}
+%\Delta J_\ell^{\lambda\lambda'}(s,\omega) =\int_{-1}^{1}\dd x'\int_{-1}^{1}\dd x \frac{1}{x} \frac{{\cal P}_\ell(x)}{s+\chi_\omega^{(\lambda)}(x)} \varphi^{\lambda \lambda '}_\omega(x,x')\frac{\Delta\omega}{T}\, ,
+%\end{equation}
+%\begin{equation}
+%\Delta^2J_\ell^{\lambda\lambda'}(s,\omega) =\int_{-1}^{1}\dd x'\int_{-1}^{1}\dd x \frac{1}{x} \frac{{\cal P}_\ell(x)}{s+\chi_\omega^{(\lambda)}(x)} \varphi^{\lambda \lambda '}_\omega(x,x')\left(\frac{\Delta\omega}{T}\right)^2\, ,
+%\end{equation}
+%которые для энергий фотонов, близких к резонансной $\omega_{\text{res}}\simeq\beta/m$
+%\begin{equation}\label{eq:J11}
+%	J_\ell^{11}(s,\omega) \simeq \int_{-1}^{1}\dd x \frac{1}{x} \frac{{\cal P}_\ell(x)}{s+\chi_\omega^{(1)}(x)} \frac{\beta^2}{m^2}\frac{\rho}{\Delta^-}\, ,
+%\end{equation}
+%\begin{equation}
+%	J_\ell^{12}(s,\omega) \simeq \int_{-1}^{1}\dd x \frac{1}{x} \frac{{\cal P}_\ell(x)}{s+\chi_\omega^{(1)}(x)} 
+%	\frac{\rho\omega^2}{\Delta^-}\, ,
+%\end{equation}
+%\begin{equation}
+%	J_\ell^{22}(s,\omega) \simeq \int_{-1}^{1}\dd x \frac{1}{x} \frac{{\cal P}_\ell(x)}{s+\chi_\omega^{(2)}(x)}
+%	\frac{\rho \omega^4 m^2 x^2 }{\beta^2 \Delta^-}\, ,
+%\end{equation}
+%\begin{equation}
+%	J_\ell^{21}(s,\omega) \simeq \int_{-1}^{1}\dd x \frac{1}{x} \frac{{\cal P}_\ell(x)}{s+\chi_\omega^{(2)}(x)}
+%	\frac{\rho \omega^2x^2}{\Delta^-}\, ,
+%\end{equation}
+%\begin{equation}
+%	\Delta J_\ell^{\lambda \lambda'}(s,\omega)\simeq J_\ell^{\lambda \lambda'}(x,s,\omega) \frac{\omega-\beta/m}{T}
+%\end{equation}
+%\begin{equation}
+%	\Delta J_\ell^{\lambda \lambda'}(s,\omega)\simeq J_\ell^{\lambda \lambda'}(x,s,\omega) \left(\frac{\omega-\beta/m}{T}\right)^2
+%\end{equation}
+%\begin{equation}
+%\chi^{(1)}_\omega(x)\simeq \frac{2\rho}{x\Delta^-} \left(\frac{\beta^2}{m^2}+\frac{\omega^2}{3}\right)
+%\end{equation}
+%\begin{equation}\label{eq:Chi2}
+%\chi^{(2)}_\omega(x)\simeq\frac{2\rho \omega^2 x}{\Delta^-} \left(\frac{\omega^2 m^2}{3\beta^2 } + 1\right)
+%\end{equation}
+%
+%
+%В правую часть системы уравнений (\ref{eq:SysEqALap}) входят лишь коэффициенты $A_0^{(1)}(s,\omega),A_2^{(1)}(s,\omega),A_0^{(2)}(s,\omega),A_2^{(2)}(s,\omega)$, поэтому для определения всех коэффициентов необходимо решить лишь систему дифференциальных уравнейний, состоящей из 4-х уравненй. Полученные решения с учетом (\ref{eq:J11}--\ref{eq:Chi2}) решают задачу о нахождении функции распределения фотонов. После применения обратного преобразования Лапласа, окончательная функция распределения фотонов поляризации $\lambda$ можно представить в следующем виде
+%\begin{equation}
+%f_\omega^{(\lambda)}(z, x) = \frac{1}{2\pi i}\sum_{\ell=0}^{\infty} 
+%P_\ell(x)\int_{\sigma-i\infty}^{\sigma + i \infty}ds \cdot e^{sz} \overline{A}^{(\lambda)}_\ell(s,x,\omega)\, ,
+%\end{equation}
+%где интеграл берется в комплексной плоскости по прямой $\text{Re} \, s = \sigma$
+%
+%Рассмотрим решение системы уравнений~\ref{eq:SysAPart} для напряженности магнитного поля $B=10^{12}$~Гс и $T=5$~КэВ. Данное решение представляет некоторые численные сложности. С другой стороны, результаты исследования, проведенные в первой главе, показывают, что резонансный пик становится тем уже, чем меньше магнитное поле. Поэтому используем дельта-функциональное приближение функций $\varphi_\omega^{\lambda\lambda'}(x,x')$:
+%\begin{equation}
+%\begin{aligned}
+%	\frac{1}{\Delta^-}&=\frac{1}{(\omega^2(1-x^2)+2 \omega m - 2\beta)^2 + \left(\frac{E_n{''} \Gamma^\pm}{2}\right)^2}\simeq
+%	\\
+%	&\simeq \frac{2\pi}{E_n''\Gamma_n^-} \delta(\omega^2(1-x^2)+2 \omega m - 2\beta)=\frac{2\pi}{E_n''\Gamma^-}\sum_{x_i}\frac{\delta(x-x_i)}{2 |x_i| \omega^2} \, .
+%\end{aligned}
+%\end{equation} 
+%где 
+%\begin{equation}
+%x_i = \pm \sqrt{\frac{\omega^2+2\omega m - 2\beta}{\omega^2}}\, .
+%\end{equation}
+%
+%В таком случае имеем 
+%\begin{equation}\label{eq:Jll0}
+% J_\ell^{(\lambda\lambda')}(x,s,\omega) \simeq \sum_{x_i}J_0^{(\lambda\lambda')}(s,\omega) {\cal P}_\ell(x_i)\, ,
+%\end{equation}
+%
+%\begin{equation}\label{eq:J110}
+%J_0^{11}(s,\omega) \simeq\frac{\beta^2}{\omega^2m^2}\frac{\pi \rho }{E_n''\Gamma_n^-}\sum_{x_i}\frac{1}{|x_i|}\frac{1}{x_i s+\frac{8\rho}{(E_n''\Gamma_n^-)^2} \left(\frac{\beta^2}{m^2}+\frac{\omega^2}{3}\right)} \, ,
+%\end{equation}
+%\begin{equation}
+%J_0^{12}(s,\omega) \simeq \frac{\pi\rho}{E_n\Gamma_n}\sum_{x_i}\frac{1}{|x_i|} \frac{1}{s x_i+\frac{8\rho}{(E_n''\Gamma_n^-)^2} \left(\frac{\beta^2}{m^2}+\frac{\omega^2}{3}\right)} 
+%\, ,
+%\end{equation}
+%\begin{equation}
+%J_0^{22}(s,\omega) \simeq\frac{\pi\rho\omega^2}{\beta^2 E_n\Gamma_n^-}\sum_{x_i}\frac{x_i}{|x_i|} \frac{1}{s+\frac{8\rho \omega^2 x_i}{(E_n\Gamma_n^-)^2} \left(\frac{\omega^2 m^2}{3\beta^2 } + 1\right)}
+%\, ,
+%\end{equation}
+%\begin{equation}\label{eq:21J210}
+%J_0^{21}(s,\omega) \simeq\frac{\pi\rho }{E_n''\Gamma_n^-}\sum_{x_i}\frac{x_i}{|x_i|} \frac{1}{s+\frac{8\rho \omega^2 x_i}{(E_n\Gamma_n^-)^2} \left(\frac{\omega^2 m^2}{3\beta^2 } + 1\right)}
+%\, ,
+%\end{equation}
+%
+%Интегрирование по $\dd x$ производилось в конечных пределах, то функции~\ref{eq:J110}--\ref{eq:21J210} будут отличны от нуля при условии $|x_i|<1$, что накладывает на частоту условие $\omega<\beta/m$. С другой стороны необходимо выполнение условия $\omega^2+2\omega m-2\beta>0$, что приводит к условиб $\omega>\beta/m$.
+%
+%\section{Снятие интеграла по $p_z$ с помощью дельта-функционального приближения}
+%Функции $\varphi_\omega^{\lambda\lambda'}(x,x')$ вблизи резонанса могут быть представлены следующим образом
+%\begin{equation}
+%\begin{aligned}
+%&\varphi_\omega^{11}(x,x')\simeq  \frac{\beta^2}{m^2}\frac{2\rho_0\pi}{\omega |x| E_1''\Gamma^-_1} \, ,
+%\\
+%&\varphi_\omega^{12}(x,x')\simeq \omega^2 x'^2 \frac{\rho_0\pi}{\omega |x| E_1''\Gamma^-_1}	\, ,
+%\\
+%&
+%\varphi_\omega^{22}(x,x')\simeq  \frac{\omega^4 m^2 x^2 x'^2}{\beta^2}\frac{2\rho_0\pi}{\omega |x| E_1''\Gamma^-_1}\, ,
+%\\
+%&
+%\varphi_\omega^{21}(x,x')\simeq  \omega^2 x^2 \frac{2\rho_0\pi}{\omega |x| E_1''\Gamma^-_1}\, ,
+%\end{aligned}
+%\end{equation}
+%где
+%\begin{equation}
+%\rho_0 = \frac{\beta}{(2\pi)^3}f_{E_0}\, .
+%\end{equation}
+%
+%Функции ${\cal \chi}_\omega^{(\lambda)}$ перепишутся следующим образом
+%\begin{equation}
+%{\cal \chi}_\omega^{(1)}(x) \simeq \frac{2\rho_0}{x} \frac{  2\pi}{\omega |x| E_1''\Gamma^-_1} \left(\frac{\beta^2}{m^2}+\frac{\omega^2}{3}\right)\, .
+%\end{equation}
+%\begin{equation}
+%	{\cal \chi}_\omega^{(2)}(x) \simeq \frac{2\rho_0}{x} \frac{  2\pi \omega^2 x^2}{\omega |x| E_1''\Gamma^-_1} \left(1+\frac{m^2\omega^2}{3\beta^2}\right)\, .
+%\end{equation}
+
+\newpage
+
+Подставим функции~(\ref{eq:Varphi}) в~(\ref{eq:SysEqALap}) и проинтегрируем получившийся результат по $x'$. Таким образом, с учетом $\Delta\omega\simeq \omega -\beta/m$, получим следующую систему уравнений для нахождения коэффициентов $\overline{A}_\ell^{(\lambda)}$:
+
+\begin{equation}\label{eq:SysAPart}
+\begin{aligned}		
+\frac{2}{2 \ell +1} &\overline{A}_\ell^{(\lambda)}(s,\omega)= f_{0\omega} {\cal J}_\ell^{(\lambda)}(s,\omega) +
+\\
+&+2\bigg( J_\ell^{\lambda 1}(s,\omega)\overline{A}_{0}^{(1)}(s,\omega) - \frac{\Delta\omega}{T} J_\ell^{\lambda 1}(s,\omega)
+\left[
+T \frac{\partial \overline{A}_{0}^{(1)}(s,\omega)}{\partial \omega} + \overline{A}_{0}^{(1)}(s,\omega)
+\right]+
+\\
+&+ \frac{1}{2}\left(\frac{\Delta\omega}{T}\right)^2 J_\ell^{\lambda 1}(s,\omega)
+\left[
+T^2 \frac{\partial^2 \overline{A}_{0}^{(1)}(s,\omega)}{\partial \omega^2} + 2T \frac{\partial \overline{A}_{0}^{(1)}(s,\omega)}{\partial \omega}+\overline{A}_{0}^{(1)}(s,\omega)
+\right]\bigg)+
+\\
+&+\frac{2}{3}\bigg( J_\ell^{\lambda 2}(s,\omega)\overline{A}_{0}^{(2)}(s,\omega) - \frac{\Delta\omega}{T} J_\ell^{\lambda 2}(s,\omega)
+\left[
+T \frac{\partial \overline{A}_{0}^{(2)}(s,\omega)}{\partial \omega} + \overline{A}_{0}^{(2)}(s,\omega)
+\right]+
+\\
+&+ \frac{1}{2}\left(\frac{\Delta\omega}{T}\right)^2 J_\ell^{\lambda 2}(s,\omega)
+\left[
+T^2 \frac{\partial^2 \overline{A}_{0}^{(2)}(s,\omega)}{\partial \omega^2} + 2T \frac{\partial \overline{A}_{0}^{(2)}(s,\omega)}{\partial \omega}+\overline{A}_{0}^{(2)}(s,\omega)
+\right]\bigg)+
+\\
+&+\frac{4}{15}\bigg( J_\ell^{\lambda 2}(s,\omega)\overline{A}_{2}^{(2)}(s,\omega) - \frac{\Delta\omega}{T} J_\ell^{\lambda 2}(x,s,\omega)
+\left[
+T \frac{\partial \overline{A}_{2}^{(2)}(s,\omega)}{\partial \omega} + \overline{A}_{2}^{(2)}(s,\omega)
+\right]+
+\\
+&+ \frac{1}{2}\left(\frac{\Delta\omega}{T}\right)^2 J_\ell^{\lambda 2}(s,\omega)
+\left[
+T^2 \frac{\partial^2 \overline{A}_{2}^{(2)}(s,\omega)}{\partial \omega^2} + 2T \frac{\partial \overline{A}_{2}^{(2)}(s,\omega)}{\partial \omega}+\overline{A}_{2}^{(2)}(s,\omega)
+\right]\bigg)\, ,
+\end{aligned}
+\end{equation}
+где 
+\begin{equation}\label{eq:J01}
+{\cal J}_\ell^{(\lambda)}(s,\omega)=\int_{-1}^{1} \frac{{\cal P}_\ell(x)\dd x}{s+{\cal \chi}^{(\lambda)}_\omega(x)},
+\end{equation}
+
+\begin{equation}\label{eq:Jll}
+J_\ell^{\lambda\lambda'}(s,\omega) =\int_{-1}^{1}\dd x'\int_{-1}^{1}\dd x \frac{1}{x} \frac{{\cal P}_\ell(x)}{s+\chi_\omega^{(\lambda)}(x)} \varphi^{\lambda \lambda '}_\omega(x,x')\, .
+\end{equation}
+
+%которые для энергий фотонов, близких к резонансной $\omega_{\text{res}}\simeq\beta/m$
+%\begin{equation}\label{eq:J11}
+%J_\ell^{11}(s,\omega) \simeq 2\rho_0 \frac{\beta^2}{m^2} \frac{\pi}{\omega E_1''\Gamma^-_1}\int_{-1}^{1}\dd x  \frac{{\cal P}_\ell(x)}{s x |x| +2\rho_0 \frac{2\pi}{\omega E_1''\Gamma^-_1}\left(\frac{\beta^2}{m^2}+\frac{\omega^2}{3}\right)}\, ,
+%\end{equation}
+%\begin{equation}
+%J_\ell^{12}(s,\omega) \simeq J_\ell^{11}\frac{\omega^2 m^2}{\beta^2}\, ,
+%\end{equation}
+%\begin{equation}
+%J_\ell^{21}(s,\omega) \simeq 2\rho_0 \omega \frac{\pi}{ E_1''\Gamma^-_1}\int_{-1}^{1}\dd x \frac{x{\cal P}_\ell(x)}{s |x|+2\rho_0 \frac{  2\pi \omega x}{E_1''\Gamma^-_1} \left(1+\frac{m^2\omega^2}{3\beta^2}\right)}\, ,
+%\end{equation}
+%\begin{equation}
+%J_\ell^{22}(s,\omega) \simeq J_\ell^{21}\frac{\omega^2 m^2}{\beta^2}\, ,
+%\end{equation}
+
+В правую часть системы уравнений (\ref{eq:SysAPart}) входят лишь коэффициенты $A_0^{(1)}(s,\omega),A_0^{(2)}(s,\omega),A_2^{(2)}(s,\omega)$, поэтому для определения всех коэффициентов необходимо решить лишь систему дифференциальных уравнений, состоящую из 3-х уравнений. 
+
+%Следует также отметить, что $J^{21}_2=J^{22}_2={\cal J}_2^{(2)}=0$. 
+%Окончательно получаем:
+%\begin{equation}\label{eq:SysAPart0}
+%\begin{aligned}		
+%2 \overline{A}_0^{(1)}(s,\omega)&=f_{0\omega} {\cal J}_0^{(1)}(s,\omega)
+%+2 J_0^{1 1}(s,\omega)\bigg[\overline{F}^{(1)}_0 (s,\omega)+
+%\\
+%&+\frac{2}{3}\frac{\omega^2 m^2}{\beta^2}\overline{F}^{(2)}_0 (s,\omega)
+%+\frac{4}{15}\frac{\omega^2 m^2}{\beta^2}\overline{F}^{(2)}_2 (s,\omega)\bigg]\, ,
+%\end{aligned}
+%\end{equation}
+%
+%\begin{equation}
+%\begin{aligned}		
+%2 \overline{A}_0^{(2)}(s,\omega)&=f_{0\omega} {\cal J}_0^{(2)}(s,\omega)
+%+2 J_0^{2 1}(s,\omega)\bigg[\overline{F}^{(1)}_0 (s,\omega)+
+%\\
+%&+\frac{2}{3}\frac{\omega^2 m^2}{\beta^2}\overline{F}^{(2)}_0 (s,\omega)
+%+\frac{4}{15}\frac{\omega^2 m^2}{\beta^2}\overline{F}^{(2)}_2 (s,\omega)\bigg]\, ,
+%\end{aligned}
+%\end{equation}
+%
+%\begin{equation}\label{eq:SysAPart0end}
+%\begin{aligned}		
+%\overline{A}_2^{(2)}(s,\omega)&= 0
+%\end{aligned}
+%\end{equation}
+%где 
+%
+%\begin{equation}
+%	\begin{aligned}
+%	\overline{F}^{(\lambda)}_\ell (s,\omega) &=  \overline{A}_{0}^{(1)}(s,\omega) - \frac{\Delta\omega}{T}
+%	\left[
+%	T \frac{\partial \overline{A}_{0}^{(1)}(s,\omega)}{\partial \omega} + \overline{A}_{0}^{(1)}(s,\omega)
+%	\right]+
+%	\\
+%	&+ \frac{1}{2}\left(\frac{\Delta \omega}{T}\right)^2
+%	\left[
+%	T^2 \frac{\partial^2 \overline{A}_{0}^{(1)}(s,\omega)}{\partial \omega^2} + 2T \frac{\partial \overline{A}_{0}^{(1)}(s,\omega)}{\partial \omega}+\overline{A}_{0}^{(1)}(s,\omega)
+%	\right]\, .
+%	\end{aligned}
+%\end{equation}
+
+Нахождение коэффициентов $\overline{A}_\ell^{(\lambda)}$ из системы (\ref{eq:SysAPart}) с учетом~(\ref{eq:J01})--(\ref{eq:Jll}) позволяет решить задачу о расчете функции распределения фотонов в терминах образов по Лапласу по переменной $z$. После применения обратного преобразования Лапласа окончательно функцию распределения фотонов поляризации~$\lambda$ можно представить в следующем виде:
+\begin{equation}
+f_\omega^{(\lambda)}(z, x) = \frac{1}{2\pi i}\sum_{\ell=0}^{\infty} 
+P_\ell(x)\int_{\sigma-i\infty}^{\sigma + i \infty}ds \cdot e^{sz} \overline{A}^{(\lambda)}_\ell(s,\omega)\, ,
+\end{equation}
+где интеграл берется в комплексной плоскости по прямой $\text{Re} \, s = \sigma$
+\section{Численный анализ}
+Решение системы уравнений~(\ref{eq:SysAPart}) представляет определенные вычислительные трудности в окрестности резонансов. С другой стороны, результаты исследования, проведенные в Главе 1, показывают, что резонансный пик становится тем уже, чем меньше магнитное поле. Поэтому в узкой области резонанса удобно воспользоваться дельта-функциональным приближением функций $\varphi_\omega^{\lambda\lambda'}(x,x')$, т.е. представить часть выражений~(\ref{eq:Varphi}), содержащую $1/\Delta^-$, в виде:
+
+\begin{equation}\label{eq:DeltaMDelta}
+\begin{aligned}
+\frac{1}{\Delta^-}&=\frac{1}{(\omega^2(1-x^2)+2 \omega m - 2\beta)^2 + \left(\frac{E_n{''} \Gamma^\pm}{2}\right)^2}\simeq
+\\
+&\simeq \frac{2\pi}{E_n''\Gamma_n^-} \delta(\omega^2(1-x^2)+2 \omega m - 2\beta)=\frac{2\pi}{E_n''\Gamma^-}\sum_{\sigma=\pm1}\frac{\delta(x-x_\sigma)}{2 |x_\sigma| \omega^2} \, ,
+\end{aligned}
+\end{equation} 
+где 
+\begin{equation}\label{eq:xi}
+x_\sigma = \sigma \sqrt{\frac{\omega^2+2\omega m - 2\beta}{\omega^2}}\, .
+\end{equation}
+
+В таком случае имеем: 
+
+\begin{equation}\label{eq:J110}
+J_\ell^{11}(s,\omega) \simeq\frac{\beta^2}{\omega^2m^2}\frac{\pi \rho }{E_n''\Gamma_n^-}\sum_{\sigma=\pm1}\frac{1}{|x_\sigma|}\frac{{\cal P}_\ell(x_\sigma)}{x_\sigma s+\frac{8\rho}{(E_n''\Gamma_n^-)^2} \left(\frac{\beta^2}{m^2}+\frac{\omega^2}{3}\right)} \, ,
+\end{equation}
+\begin{equation}
+J_\ell^{12}(s,\omega) \simeq \frac{\pi\rho}{E_n\Gamma_n}\sum_{\sigma=\pm1}\frac{1}{|x_\sigma|} \frac{{\cal P}_\ell(x_\sigma)}{s x_\sigma+\frac{8\rho}{(E_n''\Gamma_n^-)^2} \left(\frac{\beta^2}{m^2}+\frac{\omega^2}{3}\right)} 
+\, ,
+\end{equation}
+\begin{equation}
+J_\ell^{22}(s,\omega) \simeq\frac{\pi\rho\omega^2}{\beta E_n\Gamma_n^-}\sum_{\sigma=\pm1}\frac{x_\sigma}{|x_\sigma|} \frac{{\cal P}_\ell(x_\sigma)}{s+\frac{8\rho \omega^2 x_\sigma}{(E_n\Gamma_n^-)^2} \left(\frac{\omega^2 m^2}{3\beta^2 } + 1\right)}
+\, ,
+\end{equation}
+\begin{equation}\label{eq:21J210}
+J_\ell^{21}(s,\omega) \simeq\frac{\pi\rho }{E_n''\Gamma_n^-}\sum_{\sigma=\pm1}\frac{x_\sigma}{|x_\sigma|} \frac{{\cal P}_\ell(x_\sigma)}{s+\frac{8\rho \omega^2 x_\sigma}{(E_n\Gamma_n^-)^2} \left(\frac{\omega^2 m^2}{3\beta^2 } + 1\right)}
+\, .
+\end{equation}
+%
+%С учетом того, что в нашем приближении $\Delta \omega \simeq \omega-\beta/m$, функции~(\ref{eq:Jll})--(\ref{eq:SysAP}) будут выглядеть следующим образом:
+%\begin{equation}
+%	\Delta J_\ell^{\lambda\lambda'}(s,\omega)\simeq\frac{\Delta\omega}{T}J_\ell^{\lambda\lambda'}(s,\omega)\, ,
+%\end{equation}
+%\begin{equation}\label{eq:simeqDelta2J}
+%	\Delta^2 J_\ell^{\lambda\lambda'}(s,\omega)\simeq\frac{(\Delta\omega)^2}{T^2}J_\ell^{\lambda\lambda'}(s,\omega)\, .
+%\end{equation}
+
+Следует отметить, что функции~(\ref{eq:J110})--(\ref{eq:21J210}) ограничены в области 
+\begin{equation}
+\sqrt{m^2+2\beta}-m<\omega<\beta/m\, ,
+\end{equation}
+поскольку, c одной стороны, интегрирование дельта-функций по $x$ происходит в ограниченных пределах, с другой стороны, подкоренное выражение в~(\ref{eq:xi}) должно быть положительным.
+
+В качестве иллюстрации выберем величины магнитного\linebreak поля $B=10^{12}$~Гс и температуры $T\simeq11.5$~кэВ, характерные для радиопульсаров. Для данных параметров возможен циклотронный резонанс на частоте $\omega\simeq11.5$ кэВ. Для астрофизических приложений будет удобно использовать спектральную плотность мощности~\cite{Landau:2002}:
+\begin{equation}\label{eq:PowerSpectra}
+	R_\omega^{(\lambda)}(z, x)=\frac{\omega^3}{4\pi^3} f_\omega^{(\lambda)}(z, x)\, .
+\end{equation}
+
+Будем полагать, что только резонансная область комптоновского процесса вносит изменение в функцию распределения фотона, поэтому в нерезонансной области $\omega \notin[\sqrt{m^2+2\beta}-m,\beta/m]$ коэффициенты $\overline{A}^{(\lambda)}_\ell(s,\omega)$ будут выражаться следующим образом:
+\begin{equation}
+	\overline{A}_0^{(\lambda)}(s,\omega)=\frac{f_{0\omega}}{s},
+\end{equation}
+\begin{equation}
+	\overline{A}_\ell^{(\lambda)}(s,\omega)=0, \, \, \ell>0.
+\end{equation}
+
+Численный анализ уравнения уравнения~(\ref{eq:SysAPart}) показывает, что коэффициенты $\overline{A}^{(\lambda)}_\ell(s,\omega)$ для $\ell>2$ имеют пренебрежимо малые значения для обеих~мод. 
+%Уравнение~\ref{eq:SysAPart} решалось для дискретных значений \linebreak $-3.6\,\, 10^{-4} \text{см}^{-1} <\textrm{Im}(s)<3,6\,\, 10^{-4} \text{см}^{-1}$ с шагом дискретизации $\Delta s=0.1$. Действительная часть переменной $s$ выбиралась для обхода полюсов  выражений~(\ref{eq:J110})--(\ref{eq:21J210}). 
+
+На рис.~\ref{fig:Transf1zkx24cm2}--\ref{fig:Transf2zkx240cm2} представлены численные результаты отношения спектральной плотности мощности~(\ref{eq:PowerSpectra}) к спектральной плотности мощности излучения черного тела:
+\begin{equation}\label{eq:BlackPowerSpectra}
+	R_0(\omega)=\frac{\omega^3}{4\pi^3} \frac{1}{\exp[\omega/T]-1}\, ,
+\end{equation}
+для различных значений $z$ колонки вещества и углов $\theta$ между импульсом фотона и направлением магнитного поля как для моды 1, так и для моды 2. Выбор пределов изменения переменной $z$ обусловлено тем, что в приближении дипольного магнитного поля изменения незначительны:
+\begin{equation}\label{eq:dipole}
+	B=B_s \left(\frac{R_s}{R_s+z_r}\right)^3\, ,
+\end{equation}
+где $B_s$ -- магнитное поле поверхности нейтронной звезды, а $z_r$ радиальное расстояние от полярной шапки. Действительно, если положить $R_s=10$ км, то  на расстоянии $z_r=240$ см напряженность магнитного поля примет значение $B\simeq0.999 B_s$. Из уравнения~(\ref{eq:dipole}) также следует, что если рассматривать область, которая будет намного выше поверхности звезды, то характерные размеры пространства, в котором магнитное поле практически не изменяется, будет еще больше.
+
+Как видно из рис.~\ref{fig:Transf1zkx24cm2}, для магнитного поля $B=10^{12}$ Гс при значении $z\simeq24$ см для фотона моды 1 имеются незначительные изменения спектра по сравнению со спектром излучения черного тела, кроме границы резонансной области $\omega\simeq 11$ кэВ. С увеличением расстояния от координаты $z=0$ с равновесной функции распределения до $z\simeq120$ см (см. рис.~\ref{fig:Transf1zkx120cm2}), увеличивается и спектральная плотность. На границе резонансной области $\omega\sim 11$ кэВ спектральная плотность резко повышается. На значении  $z\simeq 240$ см (см. рис.~\ref{fig:Transf1zkx240cm2}) комптоновский процесс приводит к значительному уменьшению спектра во всей резонансной области, кроме узкой области вблизи $\omega\simeq 11$~кэВ, где наблюдается значительная модификация спектра в виде резонансных пиков. Следует осторожно относиться к результатам в окрестности $\omega=\beta/m$, поскольку здесь имеется особая точка, которая может приводить к некорректным численным результатам, что требует отдельного исследования. Спектр для фотона моды 1 практически не зависит от угла импульса фотона по отношению к магнитному полю.
+\newpage
+
+Также спектр был построен и для фотона моды 2 (см. рис.~\ref{fig:Transf2z24cm}--~\ref{fig:Transf2zkx240cm2}). Анализ полученных результатов позволяет заключить, что спектр для фотона моды~2 значительно изменяется во всей резонансной области по сравнению с излучением черного тела.  Вблизи порога $\omega\simeq 11$~кэВ для фотонов, которые распространяются под углами, близкими к направлению магнитного поля, спектр уменьшается. С другой стороны наблюдается увеличение спектра вблизи порога для фотонов, распространяющихся поперек магнитного поля. При координате $z\simeq120$ см (см. рис.~\ref{fig:Transf2zkx120cm}--\ref{fig:Transf2zkx120cm2}) наблюдается увеличение спектральной плоскости в более низкоэнергетической части рассматриваемой области и более ярко выраженная модификация спектра вблизи границы резонансной области $\omega\simeq 11$~кэВ.  Таким образом, в отличие от фотоны моды 1, спектр фотона моды 2 существенно зависит от угла между импульсом фотона и направлением магнитного поля. Для значение координаты $z\simeq 240$ см колонки(см. рис. ~\ref{fig:Transf1zkx240cm2}) спектральная плотность меньше, чем для черного тела, кроме узкой области вблизи $\omega\simeq 11$~кэВ для фотонов, распространяющихся поперек магнитного поля. С другой стороны, для фотонов, распространяющихся по направлениям, близким к направлению магнитного поля, как видно из рис.~\ref{fig:Transf2zkx240cm}, существуют области энергий фотона, при которых спектр отрицательный. По-видимому, для фотонов, распространяющихся вдоль магнитного поля, существуют области энергий, при которых дельта-функциональное приближение~(\ref{eq:DeltaMDelta}) неприменимо, что требует отдельного исследования.
+
+%где 
+%\begin{equation}
+%	\zeta=\frac{2\rho}{(E_n\Gamma^-_n)^2}\simeq 12.4\times 10^{-9}\text{эВ}^{-1}
+%\end{equation}
+\newpage
+
+\begin{figure}\centering
+	\includegraphics[width=1\linewidth,clip]{TransfMode1z24cmx90.eps}
+	\caption{Отношение спектральной плотности мощности~(\ref{eq:PowerSpectra}) к спектральной плотности мощности чернотельного излучения~(\ref{eq:BlackPowerSpectra}) для моды 1 при $z=24$ см.}\label{fig:Transf1zkx24cm2}
+\end{figure}
+
+\begin{figure}\centering
+	\includegraphics[width=1\linewidth,clip]{TransfMode1z120cmx90.eps}
+	\caption{Отношение спектральной плотности мощности~(\ref{eq:PowerSpectra}) к спектральной плотности мощности чернотельного излучения~(\ref{eq:BlackPowerSpectra}) для моды 1 при $z=120$ см.}\label{fig:Transf1zkx120cm2}
+\end{figure}
+
+\begin{figure}\centering
+	\includegraphics[width=1\linewidth,clip]{TransfMode1z240cmx90.eps}
+	\caption{Отношение спектральной плотности мощности~(\ref{eq:PowerSpectra}) к спектральной плотности мощности чернотельного излучения~(\ref{eq:BlackPowerSpectra}) для моды 1 при $z=240$ см.}\label{fig:Transf1zkx240cm2}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}\centering
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z24cmx0.eps}	\\
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z24cmx30.eps}
+	\caption{Отношение спектральной плотности мощности~(\ref{eq:PowerSpectra}) к спектральной плотности мощности чернотельного излучения~(\ref{eq:BlackPowerSpectra}) для моды 2 при $z=24$ см.}\label{fig:Transf2z24cm}
+\end{figure}
+
+\begin{figure}\centering
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z24cmx60.eps}	\\
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z24cmx90.eps}
+	\caption{Отношение спектральной плотности мощности~(\ref{eq:PowerSpectra}) к спектральной плотности мощности чернотельного излучения~(\ref{eq:BlackPowerSpectra}) для моды 2 при $z=24$ см.}\label{fig:Transf2zkx24cm2}
+\end{figure}
+
+\begin{figure}\centering
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z120cmx0.eps}	\\
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z120cmx30.eps}
+	\caption{Отношение спектральной плотности мощности~(\ref{eq:PowerSpectra}) к спектральной плотности мощности чернотельного излучения~(\ref{eq:BlackPowerSpectra}) для моды 2 при $z=120$ см.}\label{fig:Transf2zkx120cm}
+\end{figure}
+
+\begin{figure}\centering
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z120cmx60.eps}	\\
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z120cmx90.eps}
+	\caption{Отношение спектральной плотности мощности~(\ref{eq:PowerSpectra}) к спектральной плотности мощности чернотельного излучения~(\ref{eq:BlackPowerSpectra}) для моды 2 при $z=120$ см.}\label{fig:Transf2zkx120cm2}
+\end{figure}
+
+\begin{figure}\centering
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z240cmx0.eps}	\\
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z240cmx30.eps}
+	\caption{Отношение спектральной плотности мощности~(\ref{eq:PowerSpectra}) к спектральной плотности мощности чернотельного излучения~(\ref{eq:BlackPowerSpectra}) для моды 2 при $z=240$ см.}\label{fig:Transf2zkx240cm}
+\end{figure}
+
+\begin{figure}\centering
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z240cmx60.eps}	\\
+	\includegraphics[width=1\linewidth,clip]{TransfMode2z240cmx90.eps}
+	\caption{Отношение спектральной плотности мощности~(\ref{eq:PowerSpectra}) к спектральной плотности мощности чернотельного излучения~(\ref{eq:BlackPowerSpectra}) для моды 2 при $z=240$ см.}\label{fig:Transf2zkx240cm2}
+\end{figure}
+\clearpage
+\section{Выводы}
+Рассмотрено решение кинетического уравнения для нахождения функции распределения фотонов двух возможных поляризаций в равновесной нерелятивистской $e^+e^-$ плазме в относительно сильном магнитном поле с учетом резонанса на виртуальном электроне.
+Использованием преобразования Лапласа и разложения функции распределения по полиномам Лежандра задача сведена к решению системы дифференциальных уравнений на определение коэффициентов этого разложения. Решение представлено в виде интеграла на комплексной плоскости. Для значений магнитного поля $B=10^{12}$ Гс и $T\simeq11$ кэВ вычислена спектральная плотность мощности. Следует обратить внимание, что для моды 1 в резонансной области при $z\lesssim 120$ см спектр практически совпадает со спектром черного тела, в то время как для моды 2 претерпевает существенные изменения. Это может говорить о том что мода 1 при таких условиях практически не выходит из состояния равновесия, тогда как поведение фотона моды 2 будет являться существенно неравновесным. Данный вывод согласуется с результатами предыдущих исследований (см., например,~\cite{Lubarsky:1988}). На границе резонансной области имеются особенности, которые могут оказать существенное влияние на объяснение ряда астрофизических явлений. Этот анализ выходит за рамки настоящей диссертации.
+
+Полученные результаты могут быть использованы для построения спектра излучения аккреционной колонки. Для этого следует разделить аккреционную колонку на малые области (см., например, \cite{Nishimura:2008}) с постоянным значением магнитного поля и температуры. Результирующий спектр может быть найден, как сумма вкладов этих малых областей. 

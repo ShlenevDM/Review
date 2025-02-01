@@ -1,0 +1,1332 @@
+\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
+\ifx\undefined\href\def\href#1#2{#2}\else\fi
+\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
+\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
+\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
+\cyr\cyrd\cyra\cyrt\cyra\ %
+\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
+\begin{thebibliography}{100}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+
+\bibitem{Gunn:1969}
+\selectlanguageifdefined{english}
+\BibEmph{{Gunn}~J.~E., {Ostriker}~J.~P.} {Magnetic Dipole Radiation from
+  Pulsars}~// \BibEmph{Nature}.
+\newblock 1969.
+\newblock Vol. 221, no. 5179.
+\newblock P.~454--456.
+
+\bibitem{Pacini:1970}
+\selectlanguageifdefined{english}
+\BibEmph{{Pacini}~F.} {The Nature of Pulsar Radiation}~// \BibEmph{Nature}.
+\newblock 1970.
+\newblock Vol. 226, no. 5246.
+\newblock P.~622--624.
+
+\bibitem{Kim:2023}
+\selectlanguageifdefined{english}
+\BibEmph{{Kim}~V., {Umirbayeva}~A., {Aimuratov}~Y.} {Estimates of the Surface
+  Magnetic Field Strength of Radio Pulsars}~// \BibEmph{Universe}.
+\newblock 2023.
+\newblock Vol.~9, no.~7.
+\newblock P.~334.
+
+\bibitem{Alexander:2020}
+\selectlanguageifdefined{english}
+\BibEmph{{Philippov}~A., {Timokhin}~A., {Spitkovsky}~A.} {Origin of Pulsar
+  Radio Emission}~// \BibEmph{Phys. Rev. Lett.}
+\newblock 2020.
+\newblock Vol. 124, no.~24.
+\newblock P.~245101.
+
+\bibitem{Trumper:1977}
+\selectlanguageifdefined{english}
+\BibEmph{Tr{\"u}mper~J., Pietsch~W., Reppin~C., Sacco~B.} {Evidence for Strong
+  Cyclotron Emission in the Hard X-Ray Spectrum of Her X-1}~// Eighth Texas
+  Symposium on Relativistic Astrophysics~/ Ed. by M.~D.~Papagiannis.
+\newblock Vol.~302.
+\newblock 1977.
+\newblock P.~538.
+
+\bibitem{Staubert:2019}
+\selectlanguageifdefined{english}
+\BibEmph{{Staubert, R.}, {Tr\"umper, J.}, {Kendziorra, E.} et~al.} Cyclotron
+  lines in highly magnetized neutron stars~// \BibEmph{Astronomy ${\&}$
+  Astrophysics}.
+\newblock 2019.
+\newblock Vol. 622.
+\newblock P.~A61.
+
+\bibitem{Mitrofanov:1982}
+\selectlanguageifdefined{english}
+\BibEmph{Mitrofanov~I.~G., Pavlov~G.~G.} {Magnetic field strongly reduces
+  critical luminosity of neutron stars and degenerate dwarfs}~// \BibEmph{Mon.
+  Not. Roy. Astron. Soc.}
+\newblock 1982.
+\newblock Vol. 200, no.~4.
+\newblock P.~1033--1037.
+
+\bibitem{Duncan:1992}
+\selectlanguageifdefined{english}
+\BibEmph{{Duncan}~R.~C., {Thompson}~C.} {Formation of very strongly magnetized
+  neutron stars - Implications for gamma-ray bursts}~// \BibEmph{Astrophys. J.}
+\newblock 1992.
+\newblock Vol. 392, no.~1.
+\newblock P.~L9--L13.
+
+\bibitem{Thompson:1995}
+\selectlanguageifdefined{english}
+\BibEmph{{Thompson}~C., {Duncan}~R.~C.} {The soft gamma repeaters as very
+  strongly magnetized neutron stars - I. Radiative mechanism for outbursts}~//
+  \BibEmph{Mon. Not. Roy. Astron. Soc.}
+\newblock 1995.
+\newblock Vol. 275.
+\newblock P.~255--300.
+
+\bibitem{Thompson:1996}
+\selectlanguageifdefined{english}
+\BibEmph{{Thompson}~C., {Duncan}~R.~C.} {The soft gamma repeaters as very
+  strongly magnetized neutron stars. II. Quiescent neutrino, X-Ray, and Alfven
+  wave emission}~// \BibEmph{Astrophys. J.}
+\newblock 1996.
+\newblock Vol. 473.
+\newblock P.~322--342.
+
+\bibitem{DongLai:2001}
+\selectlanguageifdefined{english}
+\BibEmph{Lai~D.} Matter in strong magnetic fields~// \BibEmph{Rev. Mod. Phys.}
+\newblock 2001.
+\newblock Vol.~73.
+\newblock P.~629--662.
+
+\bibitem{Lyutikov:2002}
+\selectlanguageifdefined{english}
+\BibEmph{Thompson~C., Lyutikov~M., Kulkarni~S.~R.} {Electrodynamics of
+  magnetars: implications for the persistent x-ray emission and spindown of the
+  soft gamma repeaters and anomalous x-ray pulsars}~// \BibEmph{Astrophys. J.}
+\newblock 2002.
+\newblock Vol. 574, no.~1.
+\newblock P.~332--355.
+
+\bibitem{Kouveliotou:1998ze}
+\selectlanguageifdefined{english}
+\BibEmph{Kouveliotou~C. et~al.} {An X-ray pulsar with a superstrong magnetic
+  field in the soft gamma-ray repeater SGR 1806-20.}~// \BibEmph{Nature}.
+\newblock 1998.
+\newblock Vol. 393.
+\newblock P.~235--237.
+
+\bibitem{Kouveliotou:1998fd}
+\selectlanguageifdefined{english}
+\BibEmph{Kouveliotou~C., Strohmayer~T., Hurley~K. et~al.} {Discovery of a
+  magnetar associated with the soft gamma repeater SGR 1900+14}~//
+  \BibEmph{Astrophys. J.}
+\newblock 1999.
+\newblock Vol. 510.
+\newblock P.~L115--118.
+
+\bibitem{Gavriil:2002mc}
+\selectlanguageifdefined{english}
+\BibEmph{Gavriil~F.~P., Kaspi~V.~M., Woods~P.~M.} {Magnetar - like x-ray bursts
+  from an anomalous x-ray pulsar}~// \BibEmph{Nature}.
+\newblock 2002.
+\newblock Vol. 419.
+\newblock P.~142--144.
+
+\bibitem{Ibrahim:2002zw}
+\selectlanguageifdefined{english}
+\BibEmph{Ibrahim~A.~I., Safi-Harb~S., Swank~J.~H. et~al.} {Discovery of
+  cyclotron resonance features in the soft gamma repeater SGR 1806-20}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2002.
+\newblock Vol. 574.
+\newblock P.~L51--L55.
+
+\bibitem{Ibrahim:2002zy}
+\selectlanguageifdefined{english}
+\BibEmph{Ibrahim~A.~I., Swank~J.~H., Parke~W.} {New evidence for proton
+  cyclotron resonance in a magnetar strength field from SGR 1806-20}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2003.
+\newblock Vol. 584.
+\newblock P.~L17--L22.
+
+\bibitem{Olausen:2013bpa}
+\selectlanguageifdefined{english}
+\BibEmph{Olausen~S.~A., Kaspi~V.~M.} {The McGill magnetar catalog}~//
+  \BibEmph{Astrophys. J. Suppl.}
+\newblock 2014.
+\newblock Vol. 212, no.~1.
+\newblock P.~6.
+
+\bibitem{vanParad:1995}
+\selectlanguageifdefined{english}
+\BibEmph{{van Paradijs}~J., {Taam}~R.~E., {van den Heuvel}~E.~P.~J.} {On the
+  nature of the 'anomalous' 6-s X-ray pulsars}~// \BibEmph{A\&A}.
+\newblock 1995.
+\newblock Vol. 299.
+\newblock P.~L41.
+
+\bibitem{Mazets:1979}
+\selectlanguageifdefined{english}
+\BibEmph{{Mazets}~E.~P., {Golenetskij}~S.~V., {Guryan}~Y.~A.} {Soft gamma-ray
+  bursts from the source B1900+14}~// \BibEmph{Soviet Astronomy Letters}.
+\newblock 1979.
+\newblock Vol.~5.
+\newblock P.~343.
+
+\bibitem{Mereghetti:1995}
+\selectlanguageifdefined{english}
+\BibEmph{{Mereghetti}~S., {Stella}~L.} {The Very Low Mass X-Ray Binary Pulsars:
+  A New Class of Sources?}~// \BibEmph{Astrophys. J.~L}.
+\newblock 1995.
+\newblock Vol. 442.
+\newblock P.~L17.
+
+\bibitem{Yakovlev:2004}
+\selectlanguageifdefined{english}
+\BibEmph{{Yakovlev}~D.~G., {Pethick}~C.~J.} {Neutron Star Cooling}~//
+  \BibEmph{Annu. Rev. Astron. \& Astrophys.}
+\newblock 2004.
+\newblock Vol.~42, no.~1.
+\newblock P.~169--210.
+
+\bibitem{Younes:2021}
+\selectlanguageifdefined{english}
+\BibEmph{{Younes}~G., {Baring}~M.~G., {Kouveliotou}~C. et~al.} {Broadband X-ray
+  burst spectroscopy of the fast-radio-burst-emitting Galactic magnetar}~//
+  \BibEmph{Nature Astronomy}.
+\newblock 2021.
+\newblock Vol.~5.
+\newblock P.~408--413.
+
+\bibitem{Hurley:1999}
+\selectlanguageifdefined{english}
+\BibEmph{{Hurley}~K., {Kouveliotou}~C., {Woods}~P. et~al.} {Reactivation and
+  Precise Interplanetary Network Localization of the Soft Gamma Repeater SGR
+  1900+14}~// \BibEmph{Astrophys. J.~L}.
+\newblock 1999.
+\newblock Vol. 510, no.~2.
+\newblock P.~L107--L109.
+
+\bibitem{Hurley:1999b}
+\selectlanguageifdefined{english}
+\BibEmph{{Hurley}~K., {Cline}~T., {Mazets}~E. et~al.} {A giant periodic flare
+  from the soft {\ensuremath{\gamma}}-ray repeater SGR1900+14}~//
+  \BibEmph{Nature}.
+\newblock 1999.
+\newblock Vol. 397, no. 6714.
+\newblock P.~41--43.
+
+\bibitem{Hurley:2005}
+\selectlanguageifdefined{english}
+\BibEmph{{Hurley}~K., {Boggs}~S.~E., {Smith}~D.~M. et~al.} {An exceptionally
+  bright flare from SGR 1806-20 and the origins of short-duration
+  {\ensuremath{\gamma}}-ray bursts}~// \BibEmph{Nature}.
+\newblock 2005.
+\newblock Vol. 434, no. 7037.
+\newblock P.~1098--1103.
+
+\bibitem{Kaspi:2017}
+\selectlanguageifdefined{english}
+\BibEmph{Kaspi~V.~M., Beloborodov~A.~M.} Magnetars~// \BibEmph{Annu. Rev.
+  Astron. \& Astrophys.}
+\newblock 2017.
+\newblock Vol.~55, no.~1.
+\newblock P.~261--301.
+
+\bibitem{Duncan:1995}
+\selectlanguageifdefined{english}
+\BibEmph{{Thompson}~C., {Duncan}~R.~C.} {The soft gamma repeaters as very
+  strongly magnetized neutron stars - I. Radiative mechanism for outbursts}~//
+  \BibEmph{Mon. Not. Roy. Astron. Soc.}
+\newblock 1995.
+\newblock Vol. 275.
+\newblock P.~255--300.
+
+\bibitem{KuzMih:2000}
+\selectlanguageifdefined{russian}
+\BibEmph{Кузнецов~А.~В., Михеев~М.~В.} {Взаимодействие нейтрино с сильно
+  замагниченной электрон-позитронной плазмой}~// \BibEmph{ЖЭТФ}.
+\newblock {2000}.
+\newblock {\cyr\CYRT.} {118}, {\cyr\textnumero}~{4}.
+\newblock {\cyr\CYRS.}~{863--876}.
+
+\bibitem{Bisnovatyi:1979}
+\selectlanguageifdefined{russian}
+\BibEmph{Бисноватый-Коган~Г.~С., Чечеткин~В.~М.} {Неравновесные оболочки
+  нейтронных звезд, их роль в поддержании рентгеновского излучения и
+  нуклеосинтезе}~// \BibEmph{Усп. физ. наук}.
+\newblock {1979}.
+\newblock {\cyr\CYRT.} {127}, {\cyr\textnumero}~{2}.
+\newblock {\cyr\CYRS.}~{263--296}.
+
+\bibitem{Sokolov:1968}
+\selectlanguageifdefined{russian}
+\BibEmph{Соколов~А.~А., Тернов~И.~М.} Синхротронное излучение.
+\newblock М.: Наука, 1966.
+\newblock 228~{\cyr\cyrs.}
+
+\bibitem{Miller:1995}
+\selectlanguageifdefined{english}
+\BibEmph{Miller~M.~C.} {Constraints on hydrostatic models of soft gamma-ray
+  repeaters}~// \BibEmph{Astrophys. J. Lett.}
+\newblock 1995.
+\newblock Vol. 448.
+\newblock P.~L29.
+
+\bibitem{Bulik:1997}
+\selectlanguageifdefined{english}
+\BibEmph{{Bulik}~T., {Miller}~M.~C.} {Spectral effects of the vacuum resonance
+  in soft gamma-ray repeaters}~// \BibEmph{Mon. Not. Roy. Astron. Soc.}
+\newblock 1997.
+\newblock Vol. 288, no.~3.
+\newblock P.~596--608.
+
+\bibitem{Suleimanov:2007it}
+\selectlanguageifdefined{english}
+\BibEmph{Suleimanov~V., Werner~K.} {Importance of Compton scattering for
+  radiation spectra of isolated neutron stars with weak magnetic fields}~//
+  \BibEmph{Astron. {$\&$} Astrophys.}
+\newblock 2007.
+\newblock P.~661--668.
+
+\bibitem{Nobili:2008}
+\selectlanguageifdefined{english}
+\BibEmph{Nobili~L., Turolla~R., Zane~S.} {X-ray spectra from magnetar
+  candidates – II. Resonant cross-sections for electron–photon scattering in
+  the relativistic regime}~// \BibEmph{Monthly Notices of the Royal
+  Astronomical Society}.
+\newblock 2008.
+\newblock Vol. 389, no.~2.
+\newblock P.~989--1000.
+
+\bibitem{Taverna:2014}
+\selectlanguageifdefined{english}
+\BibEmph{Taverna~R., Muleri~F., Turolla~R. et~al.} {Probing magnetar
+  magnetosphere through X-ray polarization measurements}~// \BibEmph{Mon. Not.
+  Roy. Astron. Soc.}
+\newblock 2014.
+\newblock Vol. 438, no.~2.
+\newblock P.~1686--1697.
+
+\bibitem{Thompson:2002}
+\selectlanguageifdefined{english}
+\BibEmph{{Thompson}~C., {Lyutikov}~M., {Kulkarni}~S.~R.} {Electrodynamics of
+  Magnetars: Implications for the Persistent X-Ray Emission and Spin-down of
+  the Soft Gamma Repeaters and Anomalous X-Ray Pulsars}~// \BibEmph{Astrophys.
+  J.}
+\newblock 2002.
+\newblock Vol. 574, no.~1.
+\newblock P.~332--355.
+
+\bibitem{Rea:2008}
+\selectlanguageifdefined{english}
+\BibEmph{{Rea}~N., {Zane}~S., {Turolla}~R. et~al.} {Resonant Cyclotron
+  Scattering in Magnetars' Emission}~// \BibEmph{Astrophys. J.}
+\newblock 2008.
+\newblock Vol. 686, no.~2.
+\newblock P.~1245--1260.
+
+\bibitem{Daugherty:1986}
+\selectlanguageifdefined{english}
+\BibEmph{{Daugherty}~J.~K., {Harding}~A.~K.} {Compton Scattering in Strong
+  Magnetic Fields}~// \BibEmph{{Astrophys. J.}}
+\newblock 1986.
+\newblock Vol. 309.
+\newblock P.~362.
+
+\bibitem{Baring:2018}
+\selectlanguageifdefined{english}
+\BibEmph{Baring~M.~G., Harding~A.~K.} {Modeling the Non-Thermal X-ray Tail
+  Emission of Anomalous X-ray Pulsars}~// \BibEmph{AIP Conference Proceedings}.
+\newblock 2008.
+\newblock Vol. 968, no.~1.
+\newblock P.~93--100.
+
+\bibitem{Sturrock:1971}
+\selectlanguageifdefined{english}
+\BibEmph{Sturrock~C.~A.} {A model of pulsars}~// \BibEmph{Astrophys. J.}
+\newblock 1971.
+\newblock Vol. 164.
+\newblock P.~529--556.
+
+\bibitem{Medin:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Medin}~Z., {Lai}~D.} {Condensed surfaces of magnetic neutron stars,
+  thermal surface emission, and particle acceleration above pulsar polar
+  caps}~// \BibEmph{Mon. Not. Roy. Astron. Soc.}
+\newblock 2007.
+\newblock Vol. 382, no.~4.
+\newblock P.~1833--1852.
+
+\bibitem{Rumyantsev:2013}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~Д.~А.} {Резонансный механизм рождения $e^+e^-$-пар в сильном
+  магнитном поле}~// \BibEmph{Ядерная физика}.
+\newblock 2013.
+\newblock {\cyr\CYRT.}~76, {\cyr\textnumero}~12.
+\newblock {\cyr\CYRS.}~1605--1609.
+
+\bibitem{Herold:1979}
+\selectlanguageifdefined{english}
+\BibEmph{Herold~H.} {Compton and Thomson scattering in strong magnetic
+  fields}~// \BibEmph{Phys. Rev.}
+\newblock 1979.
+\newblock Vol. D19.
+\newblock P.~2868.
+
+\bibitem{Melrose:1983}
+\selectlanguageifdefined{english}
+\BibEmph{Melrose~D.~B., Parle~A.~J.} {Quantum electrodynamics in strong
+  magnetic fields. I Electron States}~// \BibEmph{Aust. J. Phys.}
+\newblock 1983.
+\newblock Vol.~36.
+\newblock P.~755--774.
+
+\bibitem{Harding:2000}
+\selectlanguageifdefined{english}
+\BibEmph{Gonthier~P.~L., Harding~A.~C., Baring~M.~G. et~al.} {Compton
+  Scattering in Ultrastrong Magnetic Fields: Numerical and Analytical Behavior
+  in the Relativistic Regime}~// \BibEmph{Astrophys.J.}
+\newblock 2000.
+\newblock Vol. 540.
+\newblock P.~907.
+
+\bibitem{Chistyakov:2009}
+\selectlanguageifdefined{english}
+\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A.} {Compton effect in strongly
+  magnetized plasma}~// \BibEmph{Int. J. Mod. Phys.}
+\newblock 2009.
+\newblock Vol. A24.
+\newblock P.~3995--4008.
+
+\bibitem{Rumyantsev:2012}
+\selectlanguageifdefined{english}
+\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A., Stus'~N.~S.} {Photon splitting and
+  Compton scattering in strongly magnetized hot plasma}~// \BibEmph{Phys. Rev.}
+\newblock 2012.
+\newblock Vol. D86.
+\newblock P.~043007.
+
+\bibitem{Gonthier:2014}
+\selectlanguageifdefined{english}
+\BibEmph{Gonthier~P.~L., Baring~M.~G., Eiles~M.~T. et~al.} {Compton scattering
+  in strong magnetic fields: Spin-dependent influences at the cyclotron
+  resonance}~// \BibEmph{Phys. Rev.}
+\newblock 2014.
+\newblock Vol. D90, no.~4.
+\newblock P.~043014.
+
+\bibitem{Mushtukov:2016}
+\selectlanguageifdefined{english}
+\BibEmph{Mushtukov~A.~A., Nagirner~D.~I., Poutanen~J.} {Compton scattering
+  S-matrix and cross section in strong magnetic field}~// \BibEmph{Phys. Rev.}
+\newblock 2016.
+\newblock Vol. D93, no.~10.
+\newblock P.~105003.
+
+\bibitem{Rumyantsev:2017}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~Д.~А., Шленев~Д.~М., Ярков~А.~А.} {Резонансы в
+  комптоноподобных процессах рассеяния во внешней замагниченной среде}~//
+  \BibEmph{ЖЭТФ.}
+\newblock {2017}.
+\newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{483--494}.
+
+\bibitem{Wadiasingh:2018}
+\selectlanguageifdefined{english}
+\BibEmph{Wadiasingh~Z., Baring~M.~G., Gonthier~P.~L., Harding~A.~K.} {Resonant
+  Inverse Compton Scattering Spectra from Highly-magnetized Neutron Stars}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2018.
+\newblock Vol. 854, no.~2.
+\newblock P.~98.
+
+\bibitem{Kostenko:2018}
+\selectlanguageifdefined{english}
+\BibEmph{{Kostenko}~A., {Thompson}~C.} {QED Phenomena in an Ultrastrong
+  Magnetic Field. I. Electron-Photon Scattering, Pair Creation, and
+  Annihilation}~// \BibEmph{Astrophys. J.}
+\newblock 2018.
+\newblock Vol. 869, no.~1.
+\newblock P.~44 (1--19).
+
+\bibitem{Klepikov:1954}
+\selectlanguageifdefined{russian}
+\BibEmph{Клепиков~Н.~П.} {Излучение фотонов и электрон-позитронных пар в
+  магнитном поле}~// \BibEmph{ЖЭТФ.}
+\newblock {1954}.
+\newblock {\cyr\CYRT.}~{26}, {\cyr\textnumero}~{1}.
+\newblock {\cyr\CYRS.}~{19--34}.
+
+\bibitem{Erber:1966}
+\selectlanguageifdefined{english}
+\BibEmph{ERBER~T.} High-Energy Electromagnetic Conversion Processes in Intense
+  Magnetic Fields~// \BibEmph{Rev. Mod. Phys.}
+\newblock 1966.
+\newblock Vol.~38.
+\newblock P.~626--659.
+
+\bibitem{Daugherty:1983}
+\selectlanguageifdefined{english}
+\BibEmph{Daugherty~J.~K.} {Pair production in superstrong magnetic fields}~//
+  \BibEmph{Astrophys. J.}
+\newblock 1983.
+\newblock Vol. 273.
+\newblock P.~761--773.
+
+\bibitem{Shabad:1988}
+\selectlanguageifdefined{russian}
+\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
+  внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
+  калибровочных полях''}.
+\newblock 1988.
+\newblock {\cyr\CYRT.} {192}.
+\newblock {\cyr\CYRS.}~5--152.
+
+\bibitem{Chistyakov_gee:2001}
+\selectlanguageifdefined{russian}
+\BibEmph{Михеев~Н.~В., М.В.~Ч.} {Затухание фотона в результате рождения
+  электрон-позитронной пары в сильном магнитном поле}~// \BibEmph{Письма в
+  журн. эксперим. и теор. физ.}
+\newblock {2001}.
+\newblock {\cyr\CYRT.}~{73}, {\cyr\textnumero}~{12}.
+\newblock {\cyr\CYRS.}~{726--730}.
+
+\bibitem{Lubarsky:1988}
+\selectlanguageifdefined{russian}
+\BibEmph{Любарский~Ю.~Э.} {Комптонизация в сверхсильном магнитном поле.~I}~//
+  \BibEmph{Астрофизика}.
+\newblock 1988.
+\newblock {\cyr\CYRT.}~28, {\cyr\textnumero}~1.
+
+\bibitem{Basko:1975}
+\selectlanguageifdefined{english}
+\BibEmph{{Basko}~M.~M., {Sunyaev}~R.~A.} {Radiative transfer in a strong
+  magnetic field and accreting X-ray pulsars.}~// \BibEmph{Astron. \&
+  Astrophys.}
+\newblock 1975.
+\newblock Vol.~42, no.~3.
+\newblock P.~311--321.
+
+\bibitem{Basko:1976}
+\selectlanguageifdefined{english}
+\BibEmph{{Basko}~M.~M., {Sunyaev}~R.~A.} {The limiting luminosity of accreting
+  neutron stars with magnetic fields.}~// \BibEmph{Mon. Not. Roy. Astron. Soc.}
+\newblock 1976.
+\newblock Vol. 175.
+\newblock P.~395--417.
+
+\bibitem{Nagel:1981}
+\selectlanguageifdefined{english}
+\BibEmph{{Nagel}~W.} {Radiative transfer in a strongly magnetized plasma. I -
+  Effects of anisotropy. II - Effects of Comptonization}~// \BibEmph{Astrophys.
+  J.}
+\newblock 1981.
+\newblock Vol. 251.
+\newblock P.~278--296.
+
+\bibitem{Kaminker:1982}
+\selectlanguageifdefined{english}
+\BibEmph{Kaminker~A.~D., Pavlov~G.~G., Shibanov~Y.~A.} {Radiation from a
+  strongly-magnetized plasma: the case of predominant scattering}~//
+  \BibEmph{Astrophys. Space Sci.}
+\newblock 1982.
+\newblock Vol.~86, no.~2.
+\newblock P.~249--297.
+
+\bibitem{Yahel:1979}
+\selectlanguageifdefined{english}
+\BibEmph{Yahel~R.~Z.} {Cyclotron line formation in the atmosphere of a
+  mgnetized neutron star}~// \BibEmph{Astrophys. J.}
+\newblock 1979.
+\newblock Vol. 229.
+\newblock P.~L73--L79.
+
+\bibitem{Araya:1999}
+\selectlanguageifdefined{english}
+\BibEmph{Araya~R.~A., Harding~A.~K.} Cyclotron Line Features from Near-critical
+  Magnetic Fields: The Effect of Optical Depth and Plasma Geometry~//
+  \BibEmph{Astrophys. J.}
+\newblock 1999.
+\newblock Vol. 517, no.~1.
+\newblock P.~334.
+
+\bibitem{Fernandez:2007}
+\selectlanguageifdefined{english}
+\BibEmph{Fernandez~R., Thompson~C.} Resonant Cyclotron Scattering in Three
+  Dimensions and the Quiescent Nonthermal X-ray Emission of Magnetars~//
+  \BibEmph{Astrophys. J.}
+\newblock 2007.
+\newblock Vol. 660, no.~1.
+\newblock P.~615.
+
+\bibitem{Mushtukov:2022}
+\selectlanguageifdefined{english}
+\BibEmph{Mushtukov~A., Markozov~I., Suleimanov~V. et~al.} {Statistical features
+  of multiple Compton scattering in a strong magnetic field}~// \BibEmph{Phys.
+  Rev. D}.
+\newblock 2022.
+\newblock Vol. 105.
+\newblock P.~103027.
+
+\bibitem{Burnard:1990}
+\selectlanguageifdefined{english}
+\BibEmph{{Burnard}~D.~J., {Klein}~R.~I., {Arons}~J.} {Continuum radiative
+  transfer in the polar columns of accretion powered pulsars - Incoherent
+  scattering}~// \BibEmph{Astrophys. J.}
+\newblock 1990.
+\newblock Vol. 349.
+\newblock P.~262--273.
+
+\bibitem{Mushtukov:2012}
+\selectlanguageifdefined{english}
+\BibEmph{Mushtukov~A.~A., Nagirner~D.~I., Poutanen~J.} Relativistic kinetic
+  equation for Compton scattering of polarized radiation in a strong magnetic
+  field~// \BibEmph{Phys. Rev. D}.
+\newblock 2012.
+\newblock Vol.~85.
+\newblock P.~103002.
+
+\bibitem{YarkovJoPCSComp:2020}
+\selectlanguageifdefined{english}
+\BibEmph{Chistyakov~M.~V., Rumuyantsev~D.~A., Yarkov~A.~A.} {Effect of a
+  strongly magnetized plasma on the resonant photon scattering process}~//
+  \BibEmph{{J. Phys.: Conf. Ser.}}
+\newblock 2020.
+\newblock Vol. 1690.
+\newblock P.~012015.
+
+\bibitem{YarkovPhotDampPAN:2022}
+\selectlanguageifdefined{english}
+\BibEmph{Yarkov~A.~A., Rumyantsev~D.~A.} {Photon Damping in a Strongly
+  Magnetized Plasma}~// \BibEmph{{Physics of Atomic Nuclei}}.
+\newblock 2022.
+\newblock Vol.~{85}, no.~9.
+\newblock P.~{1566--1569}.
+
+\bibitem{YarkovPhotFE:2023}
+\selectlanguageifdefined{russian}
+\BibEmph{Ярков~A.~A., Румянцев~Д.~A.} {Решение кинетического уравнения с учетом
+  резонанса в комптоновском процессе в замагниченной среде}~// \BibEmph{{Письма
+  в ЭЧАЯ}}.
+\newblock 2023.
+\newblock {\cyr\CYRT.}~{20}, {\cyr\textnumero} 3(248).
+\newblock {\cyr\CYRS.}~{422--427}.
+
+\bibitem{YarkovRadTransf:2023}
+\selectlanguageifdefined{english}
+\BibEmph{Yarkov~A.~A., Rumyantsev~D.~A.} {Radiation Transfer in a Strong
+  Magnetic Field with Resonance Effects Taken into Account}~//
+  \BibEmph{{Physics of Atomic Nuclei}}.
+\newblock 2023.
+\newblock Vol.~{80}, no.~5.
+\newblock P.~{890--893}.
+
+\bibitem{YarkovYaGTU:2020}
+\selectlanguageifdefined{russian}
+\BibEmph{Ярков~А.~А., Румянцев~Д.~А., Чистяков~М.~В.} {Учет конечной ширины
+  поглощения электрона в комптоноподобном процессе в замагниченной среде }~//
+  {Сборник материалов 73-й Всероссийской научно-технической конференции
+  студентов, магистрантов и аспирантов высших учебных заведений с международным
+  участием.}
+\newblock Ярославский государственный технический университет, 2020.
+\newblock {\cyr\CYRS.}~335--339.
+
+\bibitem{KMU_2018}
+\selectlanguageifdefined{russian}
+\BibEmph{Ярков~А.~А., Румянцев~Д.~А.} {Учёт конечной ширины поглощения
+  электрона в комптоновском процессе в замагниченной среде}~// {XV конференция
+  молодых ученых ``Фундаментальные и прикладные космические исследования''}.
+\newblock М.: ИКИ РАН, 2018.
+\newblock {\cyr\CYRS.}~133.
+
+\bibitem{YarkovYargu:2020}
+\selectlanguageifdefined{russian}
+\BibEmph{Ярков~А.~А.} {Влияние сильно замагниченной плазмы на процесс
+  резонансного рассеяния фотона}~// \BibEmph{{Физика, техника и технология
+  сложных систем}}.
+\newblock 2020.
+\newblock {\cyr\CYRS.}~73.
+
+\bibitem{KM_Book_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A., Mikheev~N.} {Electroweak processes in external active
+  media}.
+\newblock 2013.
+\newblock Vol.~252.
+\newblock P.~pp 1--271.
+
+\bibitem{Berestetskii:1989}
+\selectlanguageifdefined{russian}
+\BibEmph{Берестецкий~В.~Б., Лифшиц~Е.~М., Питаевский~Л.~П.} Квантовая
+  электродинамика.
+\newblock Москва: Наука, 1989.
+\newblock 728~{\cyr\cyrs.}
+
+\bibitem{Truemper1978}
+\selectlanguageifdefined{english}
+\BibEmph{{Tr\"{u}mper}~J., {Pietsch}~W., {Reppin}~C. et~al.} Evidence for
+  strong cyclotron line emission in the hard X-ray spectrum of Hercules X-1~//
+  \BibEmph{Astrophys. J.}
+\newblock 1978.
+\newblock Vol. 219.
+\newblock P.~L105--L110.
+
+\bibitem{Makishima1990}
+\selectlanguageifdefined{english}
+\BibEmph{{Makishima}~K., {Mihara}~T., {Ishida}~M., et~al.} Discovery of a
+  prominent cyclotron absorption feature from the transient X-ray pulsar X0331
+  + 53~// \BibEmph{Astrophys. J. Lett.}
+\newblock 1990.
+\newblock Vol. 365.
+\newblock P.~L59--L62.
+
+\bibitem{Grove1995}
+\selectlanguageifdefined{english}
+\BibEmph{{Grove}~J.~E., {Strickman}~M.~S., {Johnson}~W.~N., et~al.} The soft
+  gamma-ray spectrum of A0535+26: Detection of an absorption feature at 110 keV
+  by OSSE~// \BibEmph{Astrophys. J. Lett.}
+\newblock 1995.
+\newblock Vol. 438.
+\newblock P.~L25--L28.
+
+\bibitem{Mihara:1990}
+\selectlanguageifdefined{english}
+\BibEmph{Mihara~T., Makishima~K., Ohashi~T. et~al.} New observations of the
+  cyclotron absorption feature in Hercules X–1~// \BibEmph{Nature}.
+\newblock 1990.
+\newblock Vol. 346.
+\newblock P.~250--252.
+
+\bibitem{Canuto:1971}
+\selectlanguageifdefined{english}
+\BibEmph{Canuto~V., Lodenquai~J., Ruderman~M.} Thomson Scattering in a Strong
+  Magnetic Field~// \BibEmph{Phys. Rev. D}.
+\newblock 1971.
+\newblock Vol.~3.
+\newblock P.~2303--2308.
+
+\bibitem{Gnedin1973}
+\selectlanguageifdefined{russian}
+\BibEmph{{Гнедин}~Ю.~Н., {Сюняев}~Р.~А.} Рассеяние излучения на тепловых
+  электронах в магнитном поле~// \BibEmph{Журн. эксперим. и теор. физ.}
+\newblock 1973.
+\newblock {\cyr\CYRT.}~65, {\cyr\textnumero}~1.
+\newblock {\cyr\CYRS.}~102.
+
+\bibitem{Borner1979}
+\selectlanguageifdefined{english}
+\BibEmph{{Borner}~G., {M$\acute{e}$sz$\acute{a}$ros}~P.} Classical calculation
+  of Thomson cross-sections in the presence of a strong magnetic field~//
+  \BibEmph{Plasma Phys.}
+\newblock 1979.
+\newblock Vol.~21, no.~4.
+\newblock P.~357.
+
+\bibitem{Ventura:1979}
+\selectlanguageifdefined{english}
+\BibEmph{{Ventura}~J.} Scattering of light in a strongly magnetized plasma~//
+  \BibEmph{Phys. Rev.}
+\newblock 1979.
+\newblock Vol. D19.
+\newblock P.~1684--1695.
+
+\bibitem{Melrose:1983III}
+\selectlanguageifdefined{english}
+\BibEmph{{Melrose}~D.~B., {Parle}~A.~J.} {Quantum Electrodynamics in Strong
+  Magnetic Fields III. Electron-photon interactions}~// \BibEmph{Aust. J.
+  Phys.}
+\newblock 1983.
+\newblock Vol.~36.
+\newblock P.~799.
+
+\bibitem{Bussard:1986}
+\selectlanguageifdefined{english}
+\BibEmph{{Bussard}~R.~W., {Alexander}~S.~B., {Meszaros}~P.} {One- and
+  two-photon Compton scattering in strong magnetic fields}~// \BibEmph{Phys.
+  Rev. D}.
+\newblock 1986.
+\newblock Vol.~34.
+\newblock P.~440--451.
+
+\bibitem{Ozel:2001}
+\selectlanguageifdefined{english}
+\BibEmph{{\"O}zel~F.} Surface Emission Properties of Strongly Magnetic Neutron
+  Stars~// \BibEmph{The Astrophysical Journal}.
+\newblock 2001.
+\newblock Vol. 563, no.~1.
+\newblock P.~276.
+
+\bibitem{Zavlin:1996}
+\selectlanguageifdefined{english}
+\BibEmph{{Zavlin}~V.~E., {Pavlov}~G.~G., {Shibanov}~Y.~A.} {Model neutron star
+  atmospheres with low magnetic fields. I. Atmospheres in radiative
+  equilibrium.}~// \BibEmph{A\&A}.
+\newblock 1996.
+\newblock Vol. 315.
+\newblock P.~141--152.
+
+\bibitem{Alexander:1991}
+\selectlanguageifdefined{english}
+\BibEmph{{Alexander}~S.~G., {Meszaros}~P.} {Cyclotron Harmonics in Accreting
+  Pulsars and Gamma-Ray Bursters: Effect of Two-Photon Processes}~//
+  \BibEmph{Astrophys. J.}
+\newblock 1991.
+\newblock Vol. 372.
+\newblock P.~565.
+
+\bibitem{Ho:2001}
+\selectlanguageifdefined{english}
+\BibEmph{{Ho}~W. C.~G., {Lai}~D.} {Atmospheres and spectra of strongly
+  magnetized neutron stars}~// \BibEmph{MNRAS}.
+\newblock 2001.
+\newblock Vol. 327, no.~4.
+\newblock P.~1081--1096.
+
+\bibitem{Lyutikov:2006}
+\selectlanguageifdefined{english}
+\BibEmph{{Lyutikov}~M., {Gavriil}~F.~P.} {Resonant cyclotron scattering and
+  Comptonization in neutron star magnetospheres}~// \BibEmph{MNRAS}.
+\newblock 2006.
+\newblock Vol. 368, no.~2.
+\newblock P.~690--706.
+
+\bibitem{Potekhin:2004}
+\selectlanguageifdefined{english}
+\BibEmph{Potekhin~A.~Y., Lai~D., Chabrier~G., Ho~W. C.~G.} Electromagnetic
+  Polarization in Partially Ionized Plasmas with Strong Magnetic Fields and
+  Neutron Star Atmosphere Models~// \BibEmph{The Astrophysical Journal}.
+\newblock 2004. "--- sep.
+\newblock Vol. 612, no.~2.
+\newblock P.~1034.
+
+\bibitem{Schonherr:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Sch{\"o}nherr}~G., {Wilms}~J., {Kretschmar}~P. et~al.} {A model for
+  cyclotron resonance scattering features}~// \BibEmph{A{\&}A}.
+\newblock 2007.
+\newblock Vol. 472, no.~2.
+\newblock P.~353--365.
+
+\bibitem{Nishimura:2008}
+\selectlanguageifdefined{english}
+\BibEmph{{Nishimura}~O.} {Formation Mechanism for Broad and Shallow Profiles of
+  Cyclotron Lines in Accreting X-Ray Pulsars}~// \BibEmph{Astrophys. J.}
+\newblock 2008.
+\newblock Vol. 672, no.~2.
+\newblock P.~1127--1136.
+
+\bibitem{Suleimanov:2009}
+\selectlanguageifdefined{english}
+\BibEmph{{Suleimanov}~V., {Potekhin}~A.~Y., {Werner}~K.} {Models of magnetized
+  neutron star atmospheres: thin atmospheres and partially ionized hydrogen
+  atmospheres with vacuum polarization}~// \BibEmph{A\&A}.
+\newblock 2009.
+\newblock Vol. 500, no.~2.
+\newblock P.~891--899.
+
+\bibitem{Beloborodov:2013}
+\selectlanguageifdefined{english}
+\BibEmph{{Beloborodov}~A.~M.} {On the Mechanism of Hard X-Ray Emission from
+  Magnetars}~// \BibEmph{Astrophys. J.}
+\newblock 2013.
+\newblock Vol. 762, no.~1.
+\newblock P.~13.
+
+\bibitem{Daugherty:1989}
+\selectlanguageifdefined{english}
+\BibEmph{{Daugherty}~J.~K., {Harding}~A.~K.} {Comptonization of Thermal Photons
+  by Relativistic Electron Beams}~// \BibEmph{Astrophys. J.}
+\newblock 1989.
+\newblock Vol. 336.
+\newblock P.~861.
+
+\bibitem{Gonthier:2000}
+\selectlanguageifdefined{english}
+\BibEmph{{Gonthier}~P.~L., {Harding}~A.~K., {Baring}~M.~G. et~al.} {Compton
+  Scattering in Ultrastrong Magnetic Fields: Numerical and Analytical Behavior
+  in the Relativistic Regime}~// \BibEmph{Astrophys. J.}
+\newblock 2000.
+\newblock Vol. 540, no.~2.
+\newblock P.~907--922.
+
+\bibitem{Harding:1991}
+\selectlanguageifdefined{english}
+\BibEmph{{Harding}~A.~K., {Daugherty}~J.~K.} {Cyclotron Resonant Scattering and
+  Absorption}~// \BibEmph{Astrophys. J.}
+\newblock 1991.
+\newblock Vol. 374.
+\newblock P.~687--699.
+
+\bibitem{KuzRumSav:2014}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A.~V., Rumyantsev~D.~A., Savin~V.~N.} {Creation of
+  electron-positron pairs at excited Landau levels by neutrino in a strong
+  magnetic field}~// \BibEmph{Int. J. Mod. Phys.}
+\newblock 2014.
+\newblock Vol. A29, no.~26.
+\newblock P.~1450136.
+
+\bibitem{KuzRumShlen:2015v}
+\selectlanguageifdefined{russian}
+\BibEmph{Кузнецов~А.~В., Румянцев~Д.~А., Шленев~Д.~М.} {Обобщённая древесная
+  амплитуда рассеяния в замагниченной среде}~// \BibEmph{Вестник Ярославского
+  государственного университета им. П.Г.Демидова. Серия Естественные и
+  технические науки}.
+\newblock {2015}.
+\newblock {\cyr\textnumero}~{1}.
+\newblock {\cyr\CYRS.}~{16--26}.
+
+\bibitem{Sokolov:1986}
+\selectlanguageifdefined{russian}
+\BibEmph{Соколов~А.~А., Тернов~И.~М.} Релятивистский электрон.
+\newblock Москва: Наука, 1983.
+\newblock 304~{\cyr\cyrs.}
+
+\bibitem{Melrose:1983a}
+\selectlanguageifdefined{english}
+\BibEmph{Melrose~D.~B., Parle~A.~J.} {Quantum electrodynamics in strong
+  magnetic fields. I Electron States}~// \BibEmph{Aust. J. Phys.}
+\newblock 1983.
+\newblock Vol.~36.
+\newblock P.~755--774.
+
+\bibitem{KM_Book_2003}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A.~V., Mikheev~N.~V.} Electroweak processes in external
+  electromagnetic fields.
+\newblock New York: Springer-Verlag, 2003.
+\newblock 120~p.
+
+\bibitem{Bhattacharya:2004}
+\selectlanguageifdefined{english}
+\BibEmph{Bhattacharya~K., Pal~P.~B.} {Inverse beta decay of arbitrarily
+  polarized neutrons in a magnetic field}~// \BibEmph{Pramana J. Phys.}
+\newblock 2004.
+\newblock Vol.~62.
+\newblock P.~1041--1058.
+
+\bibitem{Balantsev:2011}
+\selectlanguageifdefined{english}
+\BibEmph{Balantsev~I.~A., Popov~{\relax Yu}.~V., Studenikin~A.~I.} {On the
+  problem of relativistic particles motion in strong magnetic field and dense
+  matter}~// \BibEmph{J. Phys.}
+\newblock 2011.
+\newblock Vol. A44.
+\newblock P.~255301 (1--13).
+
+\bibitem{Johnson:1949}
+\selectlanguageifdefined{english}
+\BibEmph{{Johnson}~M.~H., {Lippmann}~B.~A.} {Motion in a constant magnetic
+  field}~// \BibEmph{Physical Review}.
+\newblock 1949.
+\newblock Vol.~76, no.~6.
+\newblock P.~828--832.
+
+\bibitem{Peskin:1995}
+\selectlanguageifdefined{russian}
+\BibEmph{Пескин~М., Шредер~Д.} Введение в квантовую теорию поля.
+\newblock Ижевск: РХД, 2001.
+\newblock 784~{\cyr\cyrs.}
+
+\bibitem{Landau:1989}
+\selectlanguageifdefined{russian}
+\BibEmph{Ландау~Л.~Д., Лифшиц~Е.~М.} Квантовая механика. Нерелятивисткая
+  теория.
+\newblock Москва: Наука, 1989.
+\newblock 768~{\cyr\cyrs.}
+
+\bibitem{Canuto:1975}
+\selectlanguageifdefined{english}
+\BibEmph{Canuto~V.} Quantum processes in strong magnetic fields~//
+  \BibEmph{Ann. N. Y. Acad. Sci.}
+\newblock 1975.
+\newblock Vol. 257, no.~1.
+\newblock P.~108--126.
+
+\bibitem{Suh:1999}
+\selectlanguageifdefined{english}
+\BibEmph{{Suh}~I.-S., {Mathews}~G.~J.} {Weak reaction freeze-out constraints on
+  primordial magnetic fields}~// \BibEmph{Phys. rev. D}.
+\newblock 1999.
+\newblock Vol.~59, no.~12.
+\newblock P.~123002.
+
+\bibitem{Jones:2010}
+\selectlanguageifdefined{english}
+\BibEmph{{Jones}~P.~B.} {Electron-positron bremsstrahlung and pair creation in
+  very high magnetic fields}~// \BibEmph{Mon. Not. Roy. Astron. Soc.}
+\newblock 2010.
+\newblock Vol. 409, no.~4.
+\newblock P.~1719--1727.
+
+\bibitem{Melrose:2020}
+\selectlanguageifdefined{english}
+\BibEmph{{Melrose}~D.~B.} {Quantum kinetic theory for unmagnetized and
+  magnetized plasmas}~// \BibEmph{Rev. Mod. Plasma Phys.}
+\newblock 2020.
+\newblock Vol.~4, no.~8.
+
+\bibitem{Graziani:1993}
+\selectlanguageifdefined{english}
+\BibEmph{{Graziani}~C.} {Strong-Field Cyclotron Scattering. I. Scattering
+  Amplitudes and Natural Line Width}~// \BibEmph{Astrophys. J.}
+\newblock 1993.
+\newblock Vol. 412.
+\newblock P.~351--362.
+
+\bibitem{Gradshtein}
+\selectlanguageifdefined{russian}
+\BibEmph{Градштейн~И.~С., Рыжик~И.~М.} Таблицы интегралов, сумм, рядов и
+  произведений.
+\newblock Москва: Гос. изд-во физ.-мат. лит., 1963.
+\newblock 1108~{\cyr\cyrs.}
+
+\bibitem{Beloborodov:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Beloborodov}~A.~M., {Thompson}~C.} {Corona of magnetars}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2007.
+\newblock Vol. 657, no.~2.
+\newblock P.~967--993.
+
+\bibitem{KuzRumShlen:2015}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A.~V., Rumyantsev~D.~A., Shlenev~D.~M.} {Generalized
+  two-point tree-level amplitude $j f \to j'f'$ in a magnetized medium}~//
+  \BibEmph{Int. J. Mod. Phys.}
+\newblock 2015.
+\newblock Vol. A30, no.~11.
+\newblock P.~1550049.
+
+\bibitem{Weldon:1983}
+\selectlanguageifdefined{english}
+\BibEmph{Weldon~H.~A.} {Simple rules for discontinuities in finite temperature
+  Field Theory}~// \BibEmph{Phys. Rev.}
+\newblock 1983.
+\newblock Vol. D28.
+\newblock P.~2007--2037.
+
+\bibitem{RumShlenYar:2017}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~Д.~А., Шленев~Д.~М., Ярков~А.~А.} {Резонансы в
+  комптоноподобных процессах рассеяния во внешней замагниченной среде}~//
+  \BibEmph{ЖЭТФ.}
+\newblock {2017}.
+\newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{483--494}.
+
+\bibitem{Schwarm:2017}
+\selectlanguageifdefined{english}
+\BibEmph{{Schwarm}~F.~W., {Sch{\"o}nherr}~G., {Falkner}~S. et~al.} {Cyclotron
+  resonant scattering feature simulations. I. Thermally averaged cyclotron
+  scattering cross sections, mean free photon-path tables, and electron
+  momentum sampling}~// \BibEmph{A\&A}.
+\newblock 2017.
+\newblock Vol. 597.
+\newblock P.~A3.
+
+\bibitem{Pavlov:1991}
+\selectlanguageifdefined{english}
+\BibEmph{{Pavlov}~G.~G., {Bezchastnov}~V.~G., {Meszaros}~P., {Alexander}~S.~G.}
+  {Radiative widths and splitting of cyclotron lines in superstrong magnetic
+  fields}~// \BibEmph{Astrophys. J.}
+\newblock 1991.
+\newblock Vol. 380.
+\newblock P.~541--549.
+
+\bibitem{Baier:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Baier}~V.~N., {Katkov}~V.~M.} {Pair creation by a photon in a strong
+  magnetic field}~// \BibEmph{Phys. Rev.}
+\newblock 2007.
+\newblock Vol. D75, no.~7.
+\newblock P.~073009.
+
+\bibitem{Kuznetsov:2015}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A.~V., Rumyantsev~D.~A., Shlenev~D.~M.} {Generalized
+  two-point tree-level amplitude $j f \to j'f'$ in a magnetized medium}~//
+  \BibEmph{Int. J. Mod. Phys.}
+\newblock 2015.
+\newblock Vol. A30, no.~11.
+\newblock P.~1550049.
+
+\bibitem{Philippov_2020}
+\selectlanguageifdefined{english}
+\BibEmph{Philippov~A., Timokhin~A., Spitkovsky~A.} Origin of Pulsar Radio
+  Emission~// \BibEmph{Phys. Rev. Lett.}
+\newblock 2020.
+\newblock Vol. 124, no.~24.
+\newblock P.~245101.
+
+\bibitem{Tademaru:1973}
+\selectlanguageifdefined{english}
+\BibEmph{Tademaru~E.} {On the energy spectrum of relativistic electrons in the
+  crab nebula}~// \BibEmph{Astrophys. J.}
+\newblock 1973.
+\newblock Vol. 183.
+\newblock P.~625--635.
+
+\bibitem{Boyan}
+\selectlanguageifdefined{english}
+\BibEmph{Boyanovsky~D., de~Vega~H.~J., Lee~D.-S. et~al.} Fermion damping in a
+  fermion-scalar plasma~// \BibEmph{Phys. Rev. D}.
+\newblock 1999.
+\newblock Vol.~59.
+\newblock P.~105001.
+
+\bibitem{Landau:2001}
+\selectlanguageifdefined{russian}
+\BibEmph{Ландау~Л.~Д., Лифшиц~Е.~М., Питаевский~Л.~П.} Теоретическая физика: ч.
+  2. Статистическая физика. Теория конденсированного состояния.
+\newblock Физматлит, 2001.
+\newblock {\cyr\CYRT.}~IX.
+\newblock 496~{\cyr\cyrs.}
+
+\bibitem{HBG:1997}
+\selectlanguageifdefined{english}
+\BibEmph{Harding~A.~C., Baring~M.~G., Gonthier~P.~L.} {Photon Splitting
+  Cascades in Gamma-Ray Pulsars and the Spectrum of PSR1509-58}~//
+  \BibEmph{Astrophys.J.}
+\newblock 1997.
+\newblock Vol. 476.
+\newblock P.~246.
+
+\bibitem{Meszaros:1985}
+\selectlanguageifdefined{english}
+\BibEmph{{Meszaros}~P., {Nagel}~W.} {X-ray pulsar models. II. Comptonized
+  spectra and pulse shapes.}~// \BibEmph{Astrophys. J.}
+\newblock 1985.
+\newblock Vol. 299.
+\newblock P.~138--153.
+
+\bibitem{Mihalas:1985}
+\selectlanguageifdefined{english}
+\BibEmph{Mihalas~D.} The computation of radiation transport using feautrier
+  variables I. Static media~// \BibEmph{J. Comput. Phys.}
+\newblock 1985.
+\newblock Vol.~57, no.~1.
+\newblock P.~1--25.
+
+\bibitem{Fernandez:2011}
+\selectlanguageifdefined{english}
+\BibEmph{Fernandez~R., Davis~S.~W.} {The X-ray polarization signature of
+  quiescent magnetars: effect of magnetospheric scattering and vacuum
+  polarization}~// \BibEmph{Astrophys. J.}
+\newblock 2011.
+\newblock Vol. 730, no.~2.
+\newblock P.~21--.
+
+\bibitem{Mustukov:2021}
+\selectlanguageifdefined{english}
+\BibEmph{Mushtukov~A.~A., Suleimanov~V.~F., Tsygankov~S.~S.,
+  Portegies~Zwart~S.} {Spectrum formation in X-ray pulsars at very low mass
+  accretion rate: Monte Carlo approach}~// \BibEmph{Mon. Not. Roy. Astron.
+  Soc.}
+\newblock 2021.
+\newblock Vol. 503, no.~4.
+\newblock P.~5193--5203.
+
+\bibitem{Meszaros:1983}
+\selectlanguageifdefined{english}
+\BibEmph{{Meszaros}~P., {Harding}~A.~K., {Kirk}~J.~G., {Galloway}~D.~J.}
+  {Accreting X-ray pulsar atmospheres heated by Coulomb deceleration of
+  protons}~// \BibEmph{Astrophys. J.}
+\newblock 1983.
+\newblock Vol. 266.
+\newblock P.~L33--L37.
+
+\bibitem{Harding:1984}
+\selectlanguageifdefined{english}
+\BibEmph{{Harding}~A.~K., {Meszaros}~P., {Kirk}~J.~G., {Galloway}~D.~J.}
+  {Self-consistent models for Coulomb-heated X-ray pulsar atmospheres.}~//
+  \BibEmph{Astrophys. J.}
+\newblock 1984.
+\newblock Vol. 278.
+\newblock P.~369--381.
+
+\bibitem{Nishimura:2015}
+\selectlanguageifdefined{english}
+\BibEmph{{Nishimura}~O.} {Properties of Cyclotron Lines in a Line-forming
+  Region Injected by an Anisotropic Continuum in Accreting X-ray Pulsars}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2015.
+\newblock Vol. 807, no.~2.
+\newblock P.~164.
+
+\bibitem{Kompaneets:1957}
+\selectlanguageifdefined{russian}
+\BibEmph{Компанеец~А.~С.} {Об установлении теплового равновесия между квантами
+  и электронами}~// \BibEmph{ЖЭТФ}.
+\newblock 1957.
+\newblock {\cyr\CYRT.}~31, {\cyr\textnumero}~5.
+\newblock {\cyr\CYRS.}~876.
+
+\bibitem{Landau:2002}
+\selectlanguageifdefined{russian}
+\BibEmph{Ландау~Л.~Д., Лифшиц~Е.~М., Питаевский~Л.} Квантовая электродникамика.
+\newblock 4 {\cyr\cyri\cyrz\cyrd.}
+\newblock Москва: ФИЗМАТЛИТ, 2002.
+\newblock {\cyr\CYRT.}~4.
+\newblock 720~{\cyr\cyrs.}
+
+\bibitem{Schwinger:1951}
+\selectlanguageifdefined{english}
+\BibEmph{Schwinger~J.} On Gauge Invariance and Vacuum Polarization~//
+  \BibEmph{Phys. Rev.}
+\newblock 1951. "--- Jun.
+\newblock Vol.~82.
+\newblock P.~664--679.
+
+\bibitem{Ritus1969}
+\selectlanguageifdefined{russian}
+\BibEmph{Ритус~В.~И.} {Радиационные эффекты и их усиление в интенсивном
+  электромагнитном поле}~// \BibEmph{ЖЭТФ.}
+\newblock {1969}.
+\newblock {\cyr\CYRT.}~{57}, {\cyr\textnumero}~{6}.
+\newblock {\cyr\CYRS.}~{2176–2188}.
+
+\bibitem{Jancovici:1969}
+\selectlanguageifdefined{english}
+\BibEmph{{Jancovici}~B.} Radiative Correction to the Ground-State Energy of an
+  Electron in an Intense Magnetic Field~// \BibEmph{Phys. Rev.}
+\newblock 1969.
+\newblock Vol. 187.
+\newblock P.~2275--2276.
+
+\bibitem{MGU}
+\selectlanguageifdefined{russian}
+\BibEmph{Борисов~А.~В., Вшивцев~А.~С., Жуковский~В.~Ч., Эминов~П.~А.} {Фотоны и
+  лептоны во внешних полях при конечных температуре и плотности}~//
+  \BibEmph{УФН}.
+\newblock {1997}.
+\newblock {\cyr\CYRT.} {167}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{241--267}.
+
+\bibitem{Zhukovskii:1994}
+\selectlanguageifdefined{russian}
+\BibEmph{Жуковский~В.~Ч., Мидодашвили~П.~Г., Эминов~П.~А.} {Мнимая часть
+  массового оператора электрона в постоянном поле при конечной температуре и
+  плотности}~// \BibEmph{Журн. эксперим. и теор. физ.}
+\newblock {1994}.
+\newblock {\cyr\CYRT.} {106}, {\cyr\textnumero}~{4}.
+\newblock {\cyr\CYRS.}~{929--935}.
+
+\bibitem{Latal:86}
+\selectlanguageifdefined{english}
+\BibEmph{{Latal}~H.~G.} {Cyclotron radiation in strong magnetic fields}~//
+  \BibEmph{Astrophys. J.}
+\newblock 1986.
+\newblock Vol. 309.
+\newblock P.~372--382.
+
+\bibitem{Kaminker:1992a}
+\selectlanguageifdefined{english}
+\BibEmph{{Kaminker}~A.~D., {Levenfish}~K.~P., {Yakovlev}~D.~G. et~al.}
+  {Neutrino emissivity from e$^{-}$ synchrotron and e$^{-}$e$^{+}$ annihilation
+  processes in a strong magnetic field: General formalism and nonrelativistic
+  limit}~// \BibEmph{Phys. Rev.}
+\newblock 1992.
+\newblock Vol. {D46}.
+\newblock P.~3256--3264.
+
+\bibitem{Kaminker:1992b}
+\selectlanguageifdefined{english}
+\BibEmph{{Kaminker}~A.~D., {Gnedin}~O.~Y., {Yakovlev}~D.~G. et~al.} {Neutrino
+  emissivity from e$^{-}$e$^{+}$ annihilation in a strong magnetic field: Hot,
+  nondegenerate plasma}~// \BibEmph{Phys. Rev.}
+\newblock 1992.
+\newblock Vol. {D46}.
+\newblock P.~4133--4139.
+
+\bibitem{Tsai:1974}
+\selectlanguageifdefined{english}
+\BibEmph{Tsai~W.~Y.} {Vacuum polarization in homogeneous magnetic fields}~//
+  \BibEmph{Phys. Rev.}
+\newblock 1974.
+\newblock Vol. D10, no.~8.
+\newblock P.~2699--2702.
+
+\bibitem{Batalin:1971}
+\selectlanguageifdefined{russian}
+\BibEmph{Баталин~И.~А., Шабад~A.~E.} {Функция Грина фотона в постоянном
+  однородном электромагнитном поле общего вида}~// \BibEmph{ЖЭТФ}.
+\newblock {1971}.
+\newblock {\cyr\CYRT.}~{60}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{894--900}.
+
+\bibitem{Skobelev:1975}
+\selectlanguageifdefined{russian}
+\BibEmph{Скобелев~В.~В.} {Поляризационный оператор фотона в сверхсильном
+  магнитном поле}~// \BibEmph{{Изв. вузов. Физика}}.
+\newblock {1975}.
+\newblock {\cyr\textnumero}~{10}.
+\newblock {\cyr\CYRS.}~{142--143}.
+
+\bibitem{Rojas1979r}
+\selectlanguageifdefined{russian}
+\BibEmph{Перес~Рохас~У.} {Поляризационный оператор электрон-позитронного газа в
+  постоянном внешнем магнитном поле}~// \BibEmph{ЖЭТФ}.
+\newblock {1979}.
+\newblock {\cyr\CYRT.}~{76}, {\cyr\textnumero}~{1}.
+\newblock {\cyr\CYRS.}~{3--17}.
+
+\bibitem{Rojas1982}
+\selectlanguageifdefined{english}
+\BibEmph{Peres~Rojas~H., Shabad~A.~E.} {Absorption and dispersion of
+  electromagnetic eigenwaves of electron-positron plasma in a strong magnetic
+  field}~// \BibEmph{Ann. Phys. (N.Y.)}.
+\newblock 1982.
+\newblock Vol. 138.
+\newblock P.~1--35.
+
+\bibitem{MRCh:2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Михеев~Н.~В., Румянцев~Д.~А., Чистяков~М.~В.} {Фоторождение нейтрино
+  на электроне в плотной замагниченной среде}~// \BibEmph{ЖЭТФ.}
+\newblock {2014}.
+\newblock {\cyr\CYRT.} {146}, {\cyr\textnumero}~{2}.
+\newblock {\cyr\CYRS.}~{289--296}.
+
+\bibitem{Rojas1979}
+\selectlanguageifdefined{english}
+\BibEmph{Peres~Rojas~H., Shabad~A.~E.} {Polarization of relativistic electron
+  and positron gas in a strong magnetic field. Propagation of electromagnetic
+  waves}~// \BibEmph{Ann. Phys. (N.Y.)}.
+\newblock 1979.
+\newblock Vol. 121, no.~2.
+\newblock P.~432--464.
+
+\bibitem{Adler:1971}
+\selectlanguageifdefined{english}
+\BibEmph{{Adler}~S.~L.} {Photon splitting and photon dispersion in a strong
+  magnetic field.}~// \BibEmph{Annals of Physics}.
+\newblock 1971.
+\newblock Vol.~67.
+\newblock P.~599--647.
+
+\bibitem{Mushtukov:2015qul}
+\selectlanguageifdefined{english}
+\BibEmph{Mushtukov~A.~A., Nagirner~D.~I., Poutanen~J.} {Compton scattering
+  S-matrix and cross section in strong magnetic field}~// \BibEmph{Phys. Rev.}
+\newblock 2016.
+\newblock Vol. D93, no.~10.
+\newblock P.~105003.
+
+\bibitem{RCh05}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~Д.~А., Чистяков~М.~В.} {Влияние сильно замагниченной плазмы
+  на процесс расщепления фотона}~// \BibEmph{ЖЭТФ.}
+\newblock {2005}.
+\newblock {\cyr\CYRT.} {128}, {\cyr\textnumero}~{4}.
+\newblock {\cyr\CYRS.}~{740--751}.
+
+\end{thebibliography}

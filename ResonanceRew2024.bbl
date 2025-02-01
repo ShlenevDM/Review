@@ -39,6 +39,12 @@
 \newblock Vol. 574, no.~1.
 \newblock P.~332--355.
 
+\bibitem{Sokolov:1968}
+\selectlanguageifdefined{russian}
+\BibEmph{Соколов~А.~А., Тернов~И.~М.} Синхротронное излучение.
+\newblock М.: Наука, 1966.
+\newblock 228~{\cyr\cyrs.}
+
 \bibitem{KuzMih:2000}
 \selectlanguageifdefined{russian}
 \BibEmph{Кузнецов~А.~В., Михеев~М.~В.} {Взаимодействие нейтрино с сильно
@@ -160,12 +166,6 @@
 \newblock 1949.
 \newblock Vol.~76, no.~6.
 \newblock P.~828--832.
-
-\bibitem{Sokolov:1968}
-\selectlanguageifdefined{russian}
-\BibEmph{Соколов~А.~А., Тернов~И.~М.} Синхротронное излучение.
-\newblock М.: Наука, 1966.
-\newblock 228~{\cyr\cyrs.}
 
 \bibitem{Peskin:1995}
 \selectlanguageifdefined{russian}
@@ -561,14 +561,6 @@
 \newblock Vol. 315.
 \newblock P.~141--152.
 
-\bibitem{Lyubarsky:2002}
-\selectlanguageifdefined{english}
-\BibEmph{{Lyubarsky}~Y.~E.} {On the X-ray spectra of soft gamma repeaters}~//
-  \BibEmph{MNRAS}.
-\newblock 2002.
-\newblock Vol. 332, no.~1.
-\newblock P.~199--204.
-
 \bibitem{Alexander:1991}
 \selectlanguageifdefined{english}
 \BibEmph{{Alexander}~S.~G., {Meszaros}~P.} {Cyclotron Harmonics in Accreting
@@ -725,13 +717,21 @@
 \newblock Vol. 597.
 \newblock P.~A3.
 
-\bibitem{Kuznetsov:2015}
+\bibitem{Pavlov:1991}
 \selectlanguageifdefined{english}
-\BibEmph{Kuznetsov~A.~V., Rumyantsev~D.~A., Shlenev~D.~M.} {Generalized
-  two-point tree-level amplitude $j f \to j'f'$ in a magnetized medium}~//
-  \BibEmph{Int. J. Mod. Phys.}
-\newblock 2015.
-\newblock Vol. A30, no.~11.
-\newblock P.~1550049.
+\BibEmph{{Pavlov}~G.~G., {Bezchastnov}~V.~G., {Meszaros}~P., {Alexander}~S.~G.}
+  {Radiative widths and splitting of cyclotron lines in superstrong magnetic
+  fields}~// \BibEmph{Astrophys. J.}
+\newblock 1991.
+\newblock Vol. 380.
+\newblock P.~541--549.
+
+\bibitem{Baier:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Baier}~V.~N., {Katkov}~V.~M.} {Pair creation by a photon in a strong
+  magnetic field}~// \BibEmph{Phys. Rev.}
+\newblock 2007.
+\newblock Vol. D75, no.~7.
+\newblock P.~073009.
 
 \end{thebibliography}

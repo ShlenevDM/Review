@@ -1,0 +1,88 @@
+\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
+\ifx\undefined\href\def\href#1#2{#2}\else\fi
+\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
+\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
+\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
+\cyr\cyrd\cyra\cyrt\cyra\ %
+\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
+\begin{thebibliography}{100}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+
+\bibitem{KuzRumShlen:2015}
+\selectlanguageifdefined{english}
+\BibEmph{{Kuznetsov}~A.~V., {Rumyantsev}~D.~A., {Shlenev}~D.~M.} Generalized
+  two-point tree-level amplitude $j f \to j'f'$ in a magnetized medium~//
+  \BibEmph{Int. J. Mod. Phys.}
+\newblock 2015.
+\newblock Vol. A30, no.~11.
+\newblock P.~1550049.
+
+\bibitem{KuzRumShlen:2015v}
+\selectlanguageifdefined{russian}
+\BibEmph{{Кузнецов}~А.~В., {Румянцев}~Д.~А., {Шленев}~Д.~М.} Обобщённая
+  древесная амплитуда рассеяния в замагниченной среде~// \BibEmph{Вестник
+  Ярославского государственного университета им. П.Г.Демидова. Серия
+  Естественные и технические науки}.
+\newblock 2015.
+\newblock {\cyr\textnumero}~1.
+\newblock {\cyr\CYRS.}~16--26.
+
+\bibitem{KuznRumShlen:2017}
+\selectlanguageifdefined{russian}
+\BibEmph{{Кузнецов}~А.~В., {Румянцев}~Д.~А., {Шленев}~Д.~М.} Обобщённая
+  древесная амплитуда рассеяния в замагниченной среде~// \BibEmph{Физ. элемент.
+  част. и атом. яд.}
+\newblock 2017.
+\newblock {\cyr\CYRT.}~48, {\cyr\textnumero}~6.
+\newblock {\cyr\CYRS.}~980--983.
+
+\bibitem{Chistyakov:2014cga}
+\selectlanguageifdefined{english}
+\BibEmph{Chistyakov~M.~V., Shlenev~D.~M., Rumyantsev~D.~A. et~al.} {Neutrino
+  photoproduction on electron in dense magnetized medium}~// {Quarks'2014.
+  Proc. of 18-th Int. Sem. <Quarks'2014>, Suzdal, Russia, 2014. Ed. by P. S.
+  Satunin, e.a. Inst. Nucl. Res., Moscow}.
+\newblock 2015.
+\newblock P.~322--329.
+
+\bibitem{qfthep2017}
+\selectlanguageifdefined{english}
+\BibEmph{{Kuznetsov}~A., {Rumyantsev}~D., {Shlenev}~D.} Neutrino
+  photoproduction on the electron in dense magnetized medium~// \BibEmph{EPJ
+  Web Conf.}
+\newblock 2017.
+\newblock Vol. 158.
+\newblock P.~05008.
+
+\bibitem{RumShlenYar:2017}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~Д.~А., Шленев~Д.~М., Ярков~А.~А.} {Резонансы в
+  комптоноподобных процессах рассеяния во внешней замагниченной среде}~//
+  \BibEmph{Журн. эксперим. и теор. физ.}
+\newblock {2017}.
+\newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{483--494}.
+
+\bibitem{RumChistShlen:2016}
+\selectlanguageifdefined{english}
+\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A., Shlenev~D.~M.} {Photon splitting
+  in a strongly magnetized, charge-asymmetric plasma}~// \BibEmph{EPJ Web
+  Conf.}
+\newblock 2016.
+\newblock Vol. 125.
+\newblock P.~04017 (1--11).
+
+\bibitem{quarks2018}
+\selectlanguageifdefined{english}
+\BibEmph{{Anikin}~R.~A., {Chistyakov}~M.~V., {Rumyantsev}~D.~A.,
+  {Shlenev}~D.~M.} Photon splitting in strongly magnetized medium with taking
+  into account positronium influence~// \BibEmph{EPJ Web Conf.}
+\newblock 2018.
+\newblock Vol. 191.
+\newblock P.~08011.
+
+\end{thebibliography}

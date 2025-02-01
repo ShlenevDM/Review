@@ -1,0 +1,198 @@
+\documentclass[%
+candidate,   % тип документа
+natbib,      % использовать пакет natbib для "сжатия" цитирований
+subf,        % использовать пакет subcaption для вложенной нумерации рисунков
+href,        % использовать пакет hyperref для создания гиперссылок
+colorlinks,  % цветные гиперссылки
+%fixint,     % включить прямые знаки интегралов
+%classified, % гриф секретности
+%facsimile,  % отображать факсимиле диссертанта
+]{disser}
+
+\usepackage[
+  a4paper, mag=1000,
+  left=2.5cm, right=1cm, top=2cm, bottom=2cm, headsep=0.7cm, footskip=1cm
+]{geometry}
+
+%\usepackage{tocloft}
+\usepackage[intlimits]{amsmath}
+\usepackage{amssymb,amsfonts}
+
+\usepackage[T2A]{fontenc}
+\usepackage[cp1251]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{epsfig}
+\ifpdf\usepackage{epstopdf}\fi
+\usepackage[autostyle]{csquotes}
+%\usepackage{doctor}
+
+% Список сокращений и условных обозначений
+\usepackage[intoc,nocfg,russian]{nomencl}
+\newcommand{\nomencl}[2]{#1 --- #2\nomenclature{#1}{#2}}
+\setlength{\nomlabelwidth}{3em}
+\setlength{\nomitemsep}{-\parsep}
+\setcounter{tocdepth}{2}
+\renewcommand{\nomlabel}[1]{#1 ---}
+\makenomenclature
+
+% Шрифт Times в тексте как основной
+%\usepackage{tempora}
+% альтернативный пакет из дистрибутива TeX Live
+%\usepackage{cyrtimes}
+
+% Шрифт Times в формулах как основной
+%\usepackage[varg,cmbraces,cmintegrals]{newtxmath}
+% альтернативный пакет
+%\usepackage[subscriptcorrection,nofontinfo]{mtpro2}
+
+% Плавающие рисунки "в оборку".
+\usepackage{wrapfig}
+
+% Номера страниц снизу и по центру
+%\pagestyle{footcenter}
+%\chapterpagestyle{footcenter}
+
+% Точка с запятой в качестве разделителя между номерами цитирований
+%\setcitestyle{semicolon}
+
+% Ссылки на работы соискателя включаются в общий список литературы
+\let\citeown=\cite
+
+% Использовать полужирное начертание для векторов
+\let\vec=\mathbf
+
+% Путь к файлам с иллюстрациями
+\graphicspath{{fig/}}
+\def\mprp{\mbox{\tiny $\bot$}}
+\def\mprl{\mbox{\tiny $\|$}}
+\def\th{\mbox{th}}
+
+\def\D{\mathrm{d}}
+\def\beq{\begin{eqnarray}}
+\def\eeq{\end{eqnarray}}
+\def\ee{\varepsilon}
+\def\lm{\lambda}
+\newcommand{\prp}[1]{#1_{\mbox{\tiny $\bot$}}}
+\newcommand{\pprl}[1]{#1_{\mbox{\tiny $\|$}}}
+\newcommand{\ii}{\mathrm{i}} % мнимая единица
+\newcommand{\dd}{\mathrm{d}} % дифференциал
+\newcommand{\eee}{\mathrm{e}} % основание натуральных логарифмов
+\def\HH{H\!\!\left(\frac{4 m^2}{\pprl{q}^2}\right)}
+\def\HHi{H\!\!\left(\frac{4 m^2}{\pprl{q'^2}}\right)}
+\def\HHii{H\!\!\left(\frac{4 m^2}{\pprl{q''^2}}\right)}
+\def\ggg{\gamma \rightarrow \gamma \gamma}
+\def\ff{\Lambda}
+\def\tff{\widetilde \Lambda}
+\def\1{1 \to 1 \, 2}
+\def\2{1 \to 2 \, 2}
+\def\S{{\cal S}}
+\def\J{{\cal J}}
+\def\A{{\cal A}}
+\def\P{{\cal P}}
+\def\M{{\cal M}}
+\newcommand{\bs}{\boldsymbol} 
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+\begin{document}
+
+% Переопределение стандартных заголовков
+%\def\contentsname{Содержание}
+%\def\conclusionname{Выводы}
+%\def\bibname{Литература}
+
+% Включение файла с общим текстом диссертации и автореферата
+% (текст титульного листа и характеристика работы).
+\input{titul}
+
+% номер копии для грифа секретности
+%\copynum{1}
+% класс доступа
+%\classlabel{Для служебного пользования}
+
+% номер УДК
+%\libcatnum{12345}
+
+\title{ДИССЕРТАЦИЯ\\
+на соискание ученой степени\\
+кандидата физико-математических наук}
+
+\maketitle
+
+%%
+%% Titlepage in English
+%%
+%
+%\institution{Name of Organization}
+%
+%\title{PhD Thesis}
+%
+%% Topic
+%\topic{Dummy Title}
+%
+%% Author
+%\author{Author's Name}
+%
+%\specnum{01.04.05}
+%\spec{Optics}
+%
+%%\specsndnum{01.04.07}
+%%\specsnd{Condensed matter physics}
+%
+%\sa{I.\,I.~Ivanov}
+%\sastatus{Professor}
+%%\sasnd{P.\,P.~Petrov}
+%%\sasndstatus{Professor}
+%
+%% Scientific consultant
+%%\scon{B.\,B.~Baranov}
+%%\sconstatus{Professor}
+%
+%% City & Year
+%\city{Saint Petersburg}
+%\date{\number\year}
+%
+%\maketitle[en]
+
+\tableofcontents
+\input{common}
+\input{intro}
+%Мои главы
+%\input{Chapter1}
+\newpage
+\input{Chapt1}
+\newpage
+\input{Chapt2}
+\newpage
+\input{Chapt3}
+\input{concl}
+
+\appendix
+\input{App1} 
+\input{App2}
+\input{App3}
+
+% Список сокращений и условных обозначений
+\printnomenclature
+
+% Словарь терминов
+%\input{dict}
+
+% Не добавлять длинное тире в качестве разделителя
+%\newcommand\BibDash{}
+% Выделять курсивом
+\let\BibEmph=\emph
+\bibliographystyle{gost705}
+
+% Список литературы
+\bibliography{disser2}
+%\input{MyPub}
+% Список иллюстративного материала
+%\listoffigures
+
+% Приложения
+%\appendix
+%\input{a}
+
+\end{document}

@@ -15,13 +15,14 @@ Repeated entry---line 2098 of file Bib.bib
  : @article{Potekhin:2004
  :                       ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Klepikov:1954"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 
 Here's how much of BibTeX's memory you used:
  Cites:                87 out of 750
  Fields:             4388 out of 5000
  Hash table:        18541 out of 19000
- Strings:            1627 out of 19000
- Free string pool:  22890 out of 65000
+ Strings:            1633 out of 19000
+ Free string pool:  23099 out of 65000
  Wizard functions:   3568 out of 6000
 (There was 1 error message)

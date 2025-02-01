@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG PathIntegrateMode1.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.40945in" height="2.16535in"
+		viewBox="0 0 317.48 155.906" xml:space="preserve" color-interpolation-filters="sRGB" class="st13">
+	<v:documentProperties v:langID="1049" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Rectangle)"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:url(#ptrn2-4);shape-rendering:crispEdges;stroke:none;stroke-width:0.75}
+		.st2 {marker-end:url(#mrkr13-10);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st3 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.51020408163265}
+		.st4 {fill:none;stroke:none;stroke-width:0.25}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st6 {baseline-shift:-32.4943%;font-size:0.649886em}
+		.st7 {font-size:1em}
+		.st8 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st9 {marker-end:url(#mrkr4-43);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st10 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.40983606557377}
+		.st11 {fill:#000000;stroke:#c7c8c8;stroke-width:0.25}
+		.st12 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st13 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<pattern id="ptrn2-4" v:fillPattern="2" v:foreground="#000000" v:background="#ffffff" patternUnits="userSpaceOnUse"
+				width="6" height="6" viewBox="0 0 64 64">
+			<image x="0" y="0" width="64" height="64" image-rendering="optimizeSpeed"
+					xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA+SURBVChTfY/BDQAgCMRYgv1HudHOHFEjCvZDoP1gAFihu7vT5p5YUvMJTilScEuxg0qKCDop4otOCvtJABzy790RAfFL1QAAAABJRU5ErkJggg=="/>
+		</pattern>
+	</defs>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-10" class="st3" v:arrowType="13" v:arrowSize="0" v:setback="5.88" refX="-5.88" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-1.96,-1.96) "/>
+		</marker>
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-43" class="st10" v:arrowType="4" v:arrowSize="0" v:setback="4.88" refX="-4.88" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-2.44,-2.44) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>Страница-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Соединительная линия" v:index="0"/>
+		<g id="shape16-1" v:mID="16" v:groupContext="shape" transform="translate(20.9612,-74.6903)">
+			<title>Прямоугольник</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visMasterStencil" v:prompt="" v:val="VT4(Basic_M.vssx)"/>
+			</v:userDefs>
+			<rect x="0" y="147.999" width="217.433" height="7.90664" class="st1"/>
+		</g>
+		<g id="shape1-5" v:mID="1" v:groupContext="shape" transform="translate(17.0079,-78.6437)">
+			<title>Лист.1</title>
+			<path d="M0 155.91 L228.38 155.91" class="st2"/>
+		</g>
+		<g id="shape2-11" v:mID="2" v:groupContext="shape" transform="translate(291.513,146.445) rotate(90) scale(-1,1)">
+			<title>Лист.2</title>
+			<path d="M0 155.91 L129.55 155.91" class="st2"/>
+		</g>
+		<g id="shape3-16" v:mID="3" v:groupContext="shape" transform="translate(238.11,-54.9237)">
+			<title>Лист.3</title>
+			<desc>Re(q0)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.8098" cy="142.069" width="73.62" height="27.6732"/>
+			<rect x="0" y="128.232" width="73.6196" height="27.6732" class="st4"/>
+			<text x="18.6" y="146.27" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Re(q<tspan
+						dy="-0.279em" class="st6" v:baseFontSize="14">0</tspan><tspan dy="0.181em" class="st7">)</tspan></text>		</g>
+		<g id="shape4-21" v:mID="4" v:groupContext="shape" transform="translate(141.732,-127.827)">
+			<title>Лист.4</title>
+			<desc>Im(q0)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.3937" cy="145.906" width="52.79" height="20"/>
+			<rect x="0" y="135.906" width="52.7874" height="20" class="st4"/>
+			<text x="8.18" y="150.11" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Im(q<tspan
+						dy="-0.279em" class="st6" v:baseFontSize="14">0</tspan><tspan dy="0.181em" class="st7">)</tspan></text>		</g>
+		<g id="shape28-26" v:mID="28" v:groupContext="shape" transform="translate(111.889,243.051) rotate(180)">
+			<title>Лист.28</title>
+			<path d="M0 155.91 L90.01 155.91" class="st8"/>
+		</g>
+		<g id="shape34-29" v:mID="34" v:groupContext="shape" transform="translate(193.509,222.412) rotate(158.199)">
+			<title>Лист.34</title>
+			<path d="M-0 155.91 A23.72 9.48799 21.8 0 1 25.55 155.91" class="st8"/>
+		</g>
+		<g id="shape35-32" v:mID="35" v:groupContext="shape" transform="translate(77.7056,-67.8881) rotate(-21.8014)">
+			<title>Лист.35</title>
+			<path d="M-0 155.91 A23.72 9.48799 21.8 0 1 25.55 155.91" class="st8"/>
+		</g>
+		<g id="shape36-35" v:mID="36" v:groupContext="shape" transform="translate(243.006,223.284) rotate(180)">
+			<title>Лист.36</title>
+			<path d="M0 155.91 L83.68 155.91" class="st8"/>
+		</g>
+		<g id="shape37-38" v:mID="37" v:groupContext="shape" transform="translate(44.7874,-68.7603)">
+			<title>Лист.37</title>
+			<path d="M0 155.91 L19.78 155.91" class="st9"/>
+		</g>
+		<g id="shape38-44" v:mID="38" v:groupContext="shape" transform="translate(165.26,-88.527)">
+			<title>Лист.38</title>
+			<path d="M0 155.91 L19.78 155.91" class="st9"/>
+		</g>
+		<g id="shape41-49" v:mID="41" v:groupContext="shape" transform="translate(228.484,-75.7003)">
+			<title>Лист.41</title>
+			<ellipse cx="2.74355" cy="153.162" rx="2.74355" ry="2.74355" class="st11"/>
+		</g>
+		<g id="shape42-51" v:mID="42" v:groupContext="shape" transform="translate(187.58,-44.2205)">
+			<title>Лист.42</title>
+			<desc>M1-m</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="43.6901" cy="136.346" width="87.39" height="39.1181"/>
+			<rect x="0" y="116.787" width="87.3802" height="39.1181" class="st4"/>
+			<text x="27.42" y="140.55" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
+						class="st6" v:baseFontSize="14">1</tspan><tspan dy="0.181em" class="st7">-</tspan>m</text>		</g>
+		<g id="shape46-56" v:mID="46" v:groupContext="shape" transform="translate(38.0753,-75.7761)">
+			<title>Лист.46</title>
+			<ellipse cx="2.74355" cy="153.162" rx="2.74355" ry="2.74355" class="st11"/>
+		</g>
+		<g id="shape47-58" v:mID="47" v:groupContext="shape" transform="translate(-4.0051,-37.1338)">
+			<title>Лист.47</title>
+			<desc>-(M1-m)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="43.6901" cy="136.346" width="87.39" height="39.1181"/>
+			<rect x="0" y="116.787" width="87.3802" height="39.1181" class="st4"/>
+			<text x="20.42" y="140.55" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>-(M<tspan
+						dy="-0.279em" class="st6" v:baseFontSize="14">1</tspan><tspan dy="0.181em" class="st7">-</tspan>m)</text>		</g>
+		<g id="shape53-63" v:mID="53" v:groupContext="shape" transform="translate(-4.95992,-27.8904) rotate(-45)">
+			<title>Лист.53</title>
+			<path d="M0 155.91 L14.67 155.91" class="st12"/>
+		</g>
+		<g id="shape54-66" v:mID="54" v:groupContext="shape" transform="translate(5.41168,192.593) rotate(-135)">
+			<title>Лист.54</title>
+			<path d="M0 155.91 L14.83 155.91" class="st12"/>
+		</g>
+		<g id="shape55-69" v:mID="55" v:groupContext="shape" transform="translate(45.424,-28.6124) rotate(-44.6102)">
+			<title>Лист.55</title>
+			<path d="M0 155.91 L14.73 155.91" class="st12"/>
+		</g>
+		<g id="shape56-72" v:mID="56" v:groupContext="shape" transform="translate(55.1597,192.76) rotate(-135)">
+			<title>Лист.56</title>
+			<path d="M0 155.91 L14.83 155.91" class="st12"/>
+		</g>
+	</g>
+</svg>

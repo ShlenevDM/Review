@@ -1,0 +1,36 @@
+This is 8-bit Big BibTeX version 0.99d
+Implementation:  Microsoft(R) C/C++ for Win32
+Release version: 3.71 (31 May 2005)
+
+The 8-bit codepage and sorting file: cp1251.csf
+The top-level auxiliary file: thesis.aux
+The style file: gost705.bst
+Reallocated glb_str_ptr (elt_size=4) to 10 items from 0.
+Reallocated global_strs (elt_size=1001) to 10 items from 0.
+Reallocated glb_str_end (elt_size=4) to 10 items from 0.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 13007 items from 5000.
+Database file #1: disser2.bib
+Repeated entry---line 2601 of file disser2.bib
+ : @article{Pavlov:1991
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2612 of file disser2.bib
+ : @article{Baier:2007
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3067 of file disser2.bib
+ : @inproceedings{KMU_2018
+ :                        ,
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+
+Here's how much of BibTeX's memory you used:
+ Cites:               157 out of 750
+ Fields:             7958 out of 13007
+ Hash table:        18447 out of 19000
+ Strings:            2051 out of 19000
+ Free string pool:  35403 out of 65000
+ Wizard functions:   3568 out of 6000
+(There were 3 error messages)
