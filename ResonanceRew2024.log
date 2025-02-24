@@ -1,470 +1,649 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  1 FEB 2025 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.13)  24 FEB 2025 19:59
 entering extended mode
-**ResonanceRew2024.tex
-(C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/ResonanceRew2024.TEX"
+(D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/ResonanceRew2024.TEX
+LaTeX2e <2023-11-01>
+L3 programming layer <2024-01-04>
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cmap\cmap.sty"
-Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/cmap\cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
-Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 )
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
-Package pdftexcmds Info: LuaTeX not detected.
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.s
+ty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2011/08/19 v6.82h Hypertext links for LaTeX
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)))
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
-Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
-Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
-Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
-Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
-Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen105
-\Hy@linkcounter=\count88
-\Hy@pagecounter=\count89
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2011/08/19 v6.82h Hyperref: PDFDocEncoding definition (HO)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-\Hy@SavedSpaceFactor=\count90
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count195
+)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count196
+)
+\@linkdim=\dimen143
+\Hy@linkcounter=\count197
+\Hy@pagecounter=\count198
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 3932.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 3932.
-Package hyperref Info: Option `unicode' set `true' on input line 3932.
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count199
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
-File: puenc.def 2011/08/19 v6.82h Hyperref: PDF Unicode definition (HO)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `bookmarks' set `false' on input line 3932.
-Package hyperref Info: Hyper figures OFF on input line 4053.
-Package hyperref Info: Link nesting OFF on input line 4058.
-Package hyperref Info: Hyper index ON on input line 4061.
-Package hyperref Info: Plain pages OFF on input line 4068.
-Package hyperref Info: Backreferencing OFF on input line 4073.
+Package hyperref Info: Option `colorlinks' set `false' on input line 4064.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 4064.
+Package hyperref Info: Option `unicode' set `true' on input line 4064.
+Package hyperref Info: Option `bookmarks' set `false' on input line 4064.
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks OFF on input line 4297.
-\c@Hy@tempcnt=\count91
+Package hyperref Info: Bookmarks OFF on input line 4454.
+\c@Hy@tempcnt=\count266
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
-\Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4644.
-\Fld@menulength=\count92
-\Field@Width=\dimen106
-\Fld@charsize=\dimen107
-Package hyperref Info: Hyper figures OFF on input line 5730.
-Package hyperref Info: Link nesting OFF on input line 5735.
-Package hyperref Info: Hyper index ON on input line 5738.
-Package hyperref Info: backreferencing OFF on input line 5745.
-Package hyperref Info: Link coloring OFF on input line 5750.
-Package hyperref Info: Link coloring with OCG OFF on input line 5755.
-Package hyperref Info: PDF/A mode OFF on input line 5760.
-LaTeX Info: Redefining \ref on input line 5800.
-LaTeX Info: Redefining \pageref on input line 5804.
-\Hy@abspage=\count93
-\c@Item=\count94
-\c@Hfootnote=\count95
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen144
+
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
+))
+\Fld@menulength=\count267
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
 
-Package hyperref Message: Driver: hpdftex.
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count268
+\c@Item=\count269
+\c@Hfootnote=\count270
+)
+Package hyperref Info: Driver: hpdftex.
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2011/08/19 v6.82h Hyperref driver for pdfTeX
-\Fld@listcount=\count96
-\c@bookmark@seq@number=\count97
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count271
+\c@bookmark@seq@number=\count272
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+85.
 )
-\Hy@SectionHShift=\skip43
+\Hy@SectionHShift=\skip50
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2009/06/22 v3.00
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
-\@emptytoks=\toks15
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
-Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip44
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
-Package: amstext 2000/06/29 v2.01
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks16
-\ex@=\dimen108
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen147
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen109
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
-Package: amsopn 1999/12/14 v2.01 operator names
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count98
-LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count99
-\leftroot@=\count100
-LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count101
-\DOTSCASE@=\count102
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen110
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count103
-\c@MaxMatrixCols=\count104
-\dotsspace@=\muskip11
-\c@parentequation=\count105
-\dspbrk@lvl=\count106
-\tag@help=\toks17
-\row@=\count107
-\column@=\count108
-\maxfields@=\count109
-\andhelp@=\toks18
-\eqnshift@=\dimen111
-\alignsep@=\dimen112
-\tagshift@=\dimen113
-\tagwidth@=\dimen114
-\totwidth@=\dimen115
-\lineht@=\dimen116
-\@envbody=\toks19
-\multlinegap=\skip45
-\multlinetaggap=\skip46
-\mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count278
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip17
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks20
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks21
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsxtra.sty"
-Package: amsxtra 1999/11/15 v1.2c
-LaTeX Info: Redefining \nobreakspace on input line 77.
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsxtra.sty
+Package: amsxtra 1999/11/15 v1.2c AMS extra commands
+LaTeX Info: Redefining \nobreakspace on input line 54.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 149.
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+) (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen156
+\ar@mcellbox=\box53
+\extrarowheight=\dimen157
+\NC@list=\toks24
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box54
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
-Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+\everycr=\toks25
+\minrowclearance=\skip56
+\rownum=\count285
+)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen117
-\extrarowheight=\dimen118
-\NC@list=\toks21
-\extratabsurround=\skip47
-\backup@length=\skip48
-)
-\everycr=\toks22
-\minrowclearance=\skip49
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks23
-\inpenc@posthook=\toks24
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\cp1251.def"
-File: cp1251.def 1999/11/16 v1.0d Input encoding file
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\cp1251.def
+File: cp1251.def 2022/06/11 v1.0e Input encoding file
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
-File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
-)
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 100.
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
+File: t2aenc.def 2022/06/11 v1.0j Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
 
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\t2aenc.dfu
+File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+12.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)<<t2a.cmap>>) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)<<t2a.cmap>>)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-LaTeX Info: Redefining \oldstylenums on input line 266.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/12/10 v3.99 The Babel package
+\babel@savecnt=\count286
+\U@D=\dimen158
+\l@unhyphenated=\language79
 
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count287
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
-Language: english 2005/03/30 v3.3o English support from the babel system
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
-\babel@savecnt=\count110
-\U@D=\dimen119
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
 )
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\russianb.ldf"
-Language: russianb 2008/03/21 v1.1r Russian support from the babel system
-Package babel Info: Making " an active character on input line 199.
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/babel-russian\russianb.
+ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
+Package babel Info: Making " an active character on input line 124.
+Package babel Info: Default for \cyrdash is provided on input line 163.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\bm.sty"
-Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/ru\babel
+-russian.tex
+Package babel Info: Importing font and identification data for russian
+(babel)             from babel-ru.ini. Reported on input line 11.
+)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
 \symboldsymbols=\mathgroup8
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
-LaTeX Info: Redefining \bm on input line 204.
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comment\comment.sty"
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
-(C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.aux
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box55
+) (D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review\ResonanceRew2024.aux
 
 LaTeX Warning: Label `eq:L' multiply defined.
 
 )
+\openout1 = `ResonanceRew2024.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
@@ -476,50 +655,36 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 84.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
-File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 84.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen120
-\scratchbox=\box28
-\nofMPsegments=\count112
-\nofMParguments=\count113
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen121
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count289
+\scratchdimen=\dimen159
+\scratchbox=\box56
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen160
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks29
 )
-\AtBeginShipoutBox=\box29
 Package hyperref Info: Link coloring OFF on input line 84.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
-)
-\c@section@level=\count117
-)
-LaTeX Info: Redefining \ref on input line 84.
-LaTeX Info: Redefining \pageref on input line 84.
-LaTeX Info: Redefining \nameref on input line 84.
+LaTeX Info: Redefining \th on input line 84.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+
+(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 Package hyperref Warning: Ignoring empty anchor on input line 98.
@@ -532,53 +697,152 @@ Package hyperref Warning: Ignoring empty anchor on input line 102.
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\a12l\Documents\GitHub\Review\introduction.tex [2]
-Overfull \hbox (1.17773pt too wide) in paragraph at lines 44--44
-\T2A/cmr/m/n/14.4 по-ля яв-ля-ет-ся эф-фек-тив-ность за-пол-не-ния выс-ших уров
--ней Лан-дау..будет рас-
- []
-
-[3] [4])
-Overfull \hbox (5.18666pt too wide) in paragraph at lines 54--112
-\T2A/cmr/m/n/14.4 да-ют-ся раз-лич-ные ме-то-ды пред-став-ле-ния ре-ше-ния урав
--не-ния Ди-ра-ка во внеш-
- []
-
-(C:\Users\a12l\Documents\GitHub\Review\Chapter2.tex [5] [6]
-Overfull \hbox (7.45706pt too wide) in paragraph at lines 66--67
+{C:/Users/allen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+(D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review\introduction.tex [2] [3])
+(D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review\Chapter2.tex [4] [5]
+Overfull \hbox (7.45706pt too wide) in paragraph at lines 65--66
 \T2A/cmr/m/n/14.4 го со-сто-я-ния ча-стиц в от-дель-но-сти, ко-то-рые бу-дут им
 еть лоренц-инвариантную
  []
 
-[7] [8]) (C:\Users\a12l\Documents\GitHub\Review\Chapter3_1.tex [9] [10]
-[11]) (C:\Users\a12l\Documents\GitHub\Review\Chapter3_2.tex [12] [13] [14]
-[15]
-Package epstopdf Info: Source file: <image/DispFirst2ColOnly2Plasmas.eps>
-(epstopdf)                    date: 2024-08-13 22:17:43
-(epstopdf)                    size: 67203 bytes
-(epstopdf)             Output file: <image/DispFirst2ColOnly2Plasmas-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2024-08-13 22:17:43
-(epstopdf)                    size: 21609 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/DispFirst2ColOnly2Pla
-smas-eps-converted-to.pdf image/DispFirst2ColOnly2Plasmas.eps>
-(epstopdf)             \includegraphics on input line 185.
-Package epstopdf Info: Output file is already uptodate.
+[6] [7]) (D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review\Chapter3_1.tex [8] [9] [10])
+Overfull \hbox (0.9922pt too wide) in paragraph at lines 121--121
+[]\T2A/cmr/bx/n/17.28 Распространение ра-ди-а-ции во внеш-нем маг-нит-ном по-
+ []
 
-<image/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf, id=246, 258.9675pt x 179
-.67125pt>
-File: image/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf Graphic file (type p
-df)
- <use image/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf>
-Package pdftex.def Info: image/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf u
-sed on input line 185.
-(pdftex.def)             Requested size: 258.96684pt x 179.67079pt.
- [16 <C:/Users/a12l/Documents/GitHub/Review/image/DispFirst2ColOnly2Plasmas-eps
--converted-to.pdf>]) (C:\Users\a12l\Documents\GitHub\Review\Chapter4_1.tex)
-(C:\Users\a12l\Documents\GitHub\Review\Chapter4_2.tex [17] [18]
+(D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review\Chapter3_2.tex [11]
+! Misplaced alignment tab character &.
+l.7 &
+     &p_{\mprp}^\mu = (0, p_1, p_2, 0), \qquad p_{\mprl}^\mu = (p_0, 0, 0, p...
 
-LaTeX Warning: Reference `appA:AccurProp' on page 19 undefined on input line 90
+? 
+! Misplaced alignment tab character &.
+l.7 &&
+      p_{\mprp}^\mu = (0, p_1, p_2, 0), \qquad p_{\mprl}^\mu = (p_0, 0, 0, p...
+
+? 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.9 &
+     &(pq)_{\mprp}= (p \Lambda q) =  p_1 q_1 + p_2 q_2, \qquad (pq)_{\mprl}=...
+
+? 
+! Misplaced alignment tab character &.
+l.9 &&
+      (pq)_{\mprp}= (p \Lambda q) =  p_1 q_1 + p_2 q_2, \qquad (pq)_{\mprl}=...
+
+? 
+
+Overfull \hbox (124.64806pt too wide) detected at line 10
+[][][]\OML/cmm/m/it/14.4 p[] \OT1/cmr/m/n/14.4 = (0\OML/cmm/m/it/14.4 ; p[]; p[
+]; \OT1/cmr/m/n/14.4 0)\OML/cmm/m/it/14.4 ;  p[] \OT1/cmr/m/n/14.4 = (\OML/cmm/
+m/it/14.4 p[]; \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0\OML/
+cmm/m/it/14.4 ; p[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; [] \OT1/cmr/m/n/14.4
+ (\OML/cmm/m/it/14.4 pq\OT1/cmr/m/n/14.4 )[] = (\OML/cmm/m/it/14.4 p\OT1/cmr/m/
+n/14.4 ^^C\OML/cmm/m/it/14.4 q\OT1/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 p[]q[] \
+OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 p[]q[];  \OT1/cmr/m/n/14.4 (\OML/cmm/m/it
+/14.4 pq\OT1/cmr/m/n/14.4 )[] = (\OML/cmm/m/it/14.4 p[]q\OT1/cmr/m/n/14.4 ) = \
+OML/cmm/m/it/14.4 p[]q[] \OMS/cmsy/m/n/14.4 ^^@ \OML/cmm/m/it/14.4 p[]q[] :
+ []
+
+
+Overfull \hbox (0.76636pt too wide) in paragraph at lines 25--28
+[]\T2A/cmr/m/n/14.4 При этом $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 b[]b[]\OT1/
+cmr/m/n/14.4 ) = \OMS/cmsy/m/n/14.4 ^^@\OML/cmm/m/it/14.4 q[]$\T2A/cmr/m/n/14.4
+ , $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 b[]b[]\OT1/cmr/m/n/14.4 ) = \OMS/cmsy
+/m/n/14.4 ^^@\OML/cmm/m/it/14.4 q[]$\T2A/cmr/m/n/14.4 , $\OT1/cmr/m/n/14.4 (\OM
+L/cmm/m/it/14.4 b[]b[]\OT1/cmr/m/n/14.4 ) = \OMS/cmsy/m/n/14.4 ^^@\OML/cmm/m/it
+/14.4 q[]q[]q[]$\T2A/cmr/m/n/14.4 , $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 b[]b
+[]\OT1/cmr/m/n/14.4 ) =
+ []
+
+[12]
+
+LaTeX Warning: Citation `Rojas1979' on page 13 undefined on input line 82.
+
+[13]
+Overfull \hbox (5.22943pt too wide) in paragraph at lines 201--204
+[]\T2A/cmr/m/n/14.4 Соответствующие соб-ствен-ные зна-че-ния в при-бли-же-ни-ях
+ $\OML/cmm/m/it/14.4 O\OT1/cmr/m/n/14.4 (1\OML/cmm/m/it/14.4 =^^L[]\OT1/cmr/m/n
+/14.4 )$ \T2A/cmr/m/n/14.4 для $\OMS/cmsy/m/n/14.4 P[]$
+ []
+
+[14]
+
+LaTeX Warning: Reference `eq:Ailambda' on page 15 undefined on input line 228.
+
+
+LaTeX Warning: Reference `eq:kappa2' on page 15 undefined on input line 228.
+
+
+LaTeX Warning: Reference `eq:Ailambda' on page 15 undefined on input line 230.
+
+
+LaTeX Warning: Reference `eq:r13' on page 15 undefined on input line 233.
+
+
+LaTeX Warning: Reference `eq:r2' on page 15 undefined on input line 233.
+
+
+LaTeX Warning: Reference `eq:kappa13' on page 15 undefined on input line 234.
+
+
+LaTeX Warning: Reference `eq:kappa2' on page 15 undefined on input line 234.
+
+
+LaTeX Warning: Reference `eq:kappa2' on page 15 undefined on input line 258.
+
+Package epstopdf Info: Source file: <fig2_1.eps>
+(epstopdf)                    date: 2025-02-18 11:22:14
+(epstopdf)                    size: 176422 bytes
+(epstopdf)             Output file: <fig2_1-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=fig2_1-eps-converted
+-to.pdf fig2_1.eps>
+(epstopdf)             \includegraphics on input line 261.
+runsystem(miktex-epstopdf --outfile=fig2_1-eps-converted-to.pdf fig2_1.eps)...e
+xecuted safely (allowed).
+
+Package epstopdf Info: Result file: <fig2_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-02-24 19:59:51
+(epstopdf)                    size: 43295 bytes.
+<fig2_1-eps-converted-to.pdf, id=224, 286.06876pt x 180.675pt>
+File: fig2_1-eps-converted-to.pdf Graphic file (type pdf)
+<use fig2_1-eps-converted-to.pdf>
+Package pdftex.def Info: fig2_1-eps-converted-to.pdf  used on input line 261.
+(pdftex.def)             Requested size: 426.79134pt x 269.55618pt.
+[15] [16 <./fig2_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig2_2.eps>
+(epstopdf)                    date: 2025-02-18 11:22:14
+(epstopdf)                    size: 120935 bytes
+(epstopdf)             Output file: <fig2_2-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=fig2_2-eps-converted
+-to.pdf fig2_2.eps>
+(epstopdf)             \includegraphics on input line 300.
+runsystem(miktex-epstopdf --outfile=fig2_2-eps-converted-to.pdf fig2_2.eps)...e
+xecuted safely (allowed).
+
+Package epstopdf Info: Result file: <fig2_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-02-24 19:59:52
+(epstopdf)                    size: 28987 bytes.
+<fig2_2-eps-converted-to.pdf, id=275, 286.06876pt x 180.675pt>
+File: fig2_2-eps-converted-to.pdf Graphic file (type pdf)
+<use fig2_2-eps-converted-to.pdf>
+Package pdftex.def Info: fig2_2-eps-converted-to.pdf  used on input line 300.
+(pdftex.def)             Requested size: 426.79134pt x 269.55618pt.
+
+
+LaTeX Warning: Reference `fig:disT' on page 17 undefined on input line 312.
+
+
+LaTeX Warning: Reference `fig:disTheta' on page 17 undefined on input line 312.
+
+
+[17 <./fig2_2-eps-converted-to.pdf>])
+(D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review\Chapter4_1.tex)
+(D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review\Chapter4_2.tex [18] [19] [20]
+
+LaTeX Warning: Reference `appA:AccurProp' on page 21 undefined on input line 90
 .
 
 
@@ -587,25 +851,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--101
 я со-сто-я-ния
  []
 
-[19] [20]
+[21] [22]
 Package epstopdf Info: Source file: <image/Chapter_4/figComp1.eps>
-(epstopdf)                    date: 2025-01-31 19:45:22
-(epstopdf)                    size: 53694 bytes
+(epstopdf)                    date: 2025-02-18 11:22:14
+(epstopdf)                    size: 54600 bytes
 (epstopdf)             Output file: <image/Chapter_4/figComp1-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2025-02-01 13:07:23
+(epstopdf)                    date: 2025-02-18 11:22:14
 (epstopdf)                    size: 21558 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/figComp1-ep
-s-converted-to.pdf image/Chapter_4/figComp1.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/figC
+omp1-eps-converted-to.pdf image/Chapter_4/figComp1.eps>
 (epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/figComp1-eps-converted-to.pdf, id=356, 258.9675pt x 96.36pt>
+<image/Chapter_4/figComp1-eps-converted-to.pdf, id=388, 258.9675pt x 96.36pt>
 File: image/Chapter_4/figComp1-eps-converted-to.pdf Graphic file (type pdf)
-
 <use image/Chapter_4/figComp1-eps-converted-to.pdf>
-Package pdftex.def Info: image/Chapter_4/figComp1-eps-converted-to.pdf used on 
-input line 165.
+Package pdftex.def Info: image/Chapter_4/figComp1-eps-converted-to.pdf  used on
+ input line 165.
 (pdftex.def)             Requested size: 284.52756pt x 105.8816pt.
 
 Overfull \hbox (23.1332pt too wide) in alignment at lines 175--188
@@ -621,8 +883,8 @@ L/cmm/m/it/14.4 p[] \OT1/cmr/m/n/14.4 = (\OML/cmm/m/it/14.4 E[]; \OT1/cmr/bx/n/
 ергии-импульса
  []
 
-[21 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/figComp1-eps-convert
-ed-to.pdf>] [22] [23] [24] [25]
+[23 <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/figComp1-eps-converted-to
+.pdf>] [24] [25] [26] [27]
 Overfull \hbox (33.45735pt too wide) in paragraph at lines 423--425
 \T2A/cmr/m/n/14.4 по-гло-ще-ния удоб-но, на-при-мер, вы-чис-лять дли-ну сво-бод
 -но-го про-бе-га [],
@@ -634,667 +896,609 @@ Underfull \hbox (badness 7963) in paragraph at lines 427--428
 []) с уче-том
  []
 
-[26] [27] [28]
-
-LaTeX Warning: Citation `Klepikov:1954' on page 29 undefined on input line 559.
-
-
-[29]
+[28] [29] [30] [31]
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB023T001D
 eg30.eps>
-(epstopdf)                    date: 2024-10-28 20:13:47
-(epstopdf)                    size: 71470 bytes
+(epstopdf)                    date: 2024-10-29 21:03:49
+(epstopdf)                    size: 72653 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB023T001D
 eg30-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-28 20:16:57
+(epstopdf)                    date: 2024-10-29 21:03:49
 (epstopdf)                    size: 25433 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB023T001Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T
-001Deg30.eps>
-(epstopdf)             \includegraphics on input line 563.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB023T001Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaAvera
+geB023T001Deg30.eps>
+(epstopdf)             \includegraphics on input line 565.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB023T001Deg30-eps-converted-to.pdf, id=489, 2
+<image/Chapter_4/AliceDeltaAverageB023T001Deg30-eps-converted-to.pdf, id=524, 2
 59.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaAverageB023T001Deg30-eps-converted-to.pdf Graph
 ic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB023T001Deg30-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB023T001Deg30-eps-con
-verted-to.pdf used on input line 563.
+verted-to.pdf  used on input line 565.
 (pdftex.def)             Requested size: 154.78653pt x 109.96376pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB023T001D
 eg60.eps>
-(epstopdf)                    date: 2024-10-28 20:14:20
-(epstopdf)                    size: 70447 bytes
+(epstopdf)                    date: 2024-10-29 21:03:49
+(epstopdf)                    size: 71627 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB023T001D
 eg60-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-28 20:16:58
+(epstopdf)                    date: 2024-10-29 21:03:49
 (epstopdf)                    size: 25055 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB023T001Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T
-001Deg60.eps>
-(epstopdf)             \includegraphics on input line 564.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB023T001Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaAvera
+geB023T001Deg60.eps>
+(epstopdf)             \includegraphics on input line 566.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf, id=491, 2
+<image/Chapter_4/AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf, id=526, 2
 59.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf Graph
 ic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB023T001Deg60-eps-con
-verted-to.pdf used on input line 564.
+verted-to.pdf  used on input line 566.
 (pdftex.def)             Requested size: 154.78653pt x 109.96376pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB023T001D
 eg85.eps>
-(epstopdf)                    date: 2024-10-28 20:14:34
-(epstopdf)                    size: 69560 bytes
+(epstopdf)                    date: 2024-10-29 21:03:49
+(epstopdf)                    size: 70753 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB023T001D
 eg85-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-28 20:16:59
+(epstopdf)                    date: 2024-10-29 21:03:49
 (epstopdf)                    size: 24142 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB023T001Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T
-001Deg85.eps>
-(epstopdf)             \includegraphics on input line 565.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB023T001Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaAvera
+geB023T001Deg85.eps>
+(epstopdf)             \includegraphics on input line 567.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf, id=493, 2
+<image/Chapter_4/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf, id=528, 2
 59.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf Graph
 ic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB023T001Deg85-eps-con
-verted-to.pdf used on input line 565.
+verted-to.pdf  used on input line 567.
 (pdftex.def)             Requested size: 154.78653pt x 109.96376pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB023T01De
 g30.eps>
-(epstopdf)                    date: 2024-10-28 20:14:43
-(epstopdf)                    size: 70716 bytes
+(epstopdf)                    date: 2024-10-29 21:03:49
+(epstopdf)                    size: 71894 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB023T01De
 g30-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-28 20:17:00
+(epstopdf)                    date: 2024-10-29 21:03:49
 (epstopdf)                    size: 25000 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB023T01Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T0
-1Deg30.eps>
-(epstopdf)             \includegraphics on input line 566.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB023T01Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverag
+eB023T01Deg30.eps>
+(epstopdf)             \includegraphics on input line 568.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB023T01Deg30-eps-converted-to.pdf, id=495, 25
+<image/Chapter_4/AliceDeltaAverageB023T01Deg30-eps-converted-to.pdf, id=530, 25
 9.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaAverageB023T01Deg30-eps-converted-to.pdf Graphi
 c file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB023T01Deg30-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB023T01Deg30-eps-conv
-erted-to.pdf used on input line 566.
+erted-to.pdf  used on input line 568.
 (pdftex.def)             Requested size: 154.78653pt x 109.96376pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB023T01De
 g60.eps>
-(epstopdf)                    date: 2024-10-28 20:14:57
-(epstopdf)                    size: 72438 bytes
+(epstopdf)                    date: 2024-10-29 21:03:49
+(epstopdf)                    size: 73634 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB023T01De
 g60-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-28 20:17:01
+(epstopdf)                    date: 2024-10-29 21:03:49
 (epstopdf)                    size: 25784 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB023T01Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T0
-1Deg60.eps>
-(epstopdf)             \includegraphics on input line 567.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB023T01Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverag
+eB023T01Deg60.eps>
+(epstopdf)             \includegraphics on input line 569.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf, id=497, 25
+<image/Chapter_4/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf, id=532, 25
 9.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf Graphi
 c file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB023T01Deg60-eps-conv
-erted-to.pdf used on input line 567.
+erted-to.pdf  used on input line 569.
 (pdftex.def)             Requested size: 154.78653pt x 109.96376pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB023T01De
 g85.eps>
-(epstopdf)                    date: 2024-10-28 20:15:21
-(epstopdf)                    size: 75010 bytes
+(epstopdf)                    date: 2024-10-29 21:03:49
+(epstopdf)                    size: 76250 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB023T01De
 g85-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-28 20:17:02
+(epstopdf)                    date: 2024-10-29 21:03:49
 (epstopdf)                    size: 27236 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB023T01Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T0
-1Deg85.eps>
-(epstopdf)             \includegraphics on input line 568.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB023T01Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverag
+eB023T01Deg85.eps>
+(epstopdf)             \includegraphics on input line 570.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf, id=499, 25
+<image/Chapter_4/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf, id=534, 25
 9.97125pt x 181.67876pt>
 File: image/Chapter_4/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf Graphi
 c file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB023T01Deg85-eps-conv
-erted-to.pdf used on input line 568.
+erted-to.pdf  used on input line 570.
 (pdftex.def)             Requested size: 154.78653pt x 108.17088pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB0039T001
 Deg30.eps>
-(epstopdf)                    date: 2024-10-25 20:25:43
-(epstopdf)                    size: 62078 bytes
+(epstopdf)                    date: 2024-10-27 10:33:32
+(epstopdf)                    size: 63115 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB0039T001
 Deg30-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-25 20:31:44
+(epstopdf)                    date: 2024-10-27 10:33:32
 (epstopdf)                    size: 22447 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB0039T001Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB003
-9T001Deg30.eps>
-(epstopdf)             \includegraphics on input line 569.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB0039T001Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaAver
+ageB0039T001Deg30.eps>
+(epstopdf)             \includegraphics on input line 571.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB0039T001Deg30-eps-converted-to.pdf, id=501, 
+<image/Chapter_4/AliceDeltaAverageB0039T001Deg30-eps-converted-to.pdf, id=536, 
 258.9675pt x 183.68625pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T001Deg30-eps-converted-to.pdf Grap
 hic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB0039T001Deg30-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB0039T001Deg30-eps-co
-nverted-to.pdf used on input line 569.
+nverted-to.pdf  used on input line 571.
 (pdftex.def)             Requested size: 154.78653pt x 109.79495pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB0039T001
 Deg60.eps>
-(epstopdf)                    date: 2024-10-25 20:25:46
-(epstopdf)                    size: 60686 bytes
+(epstopdf)                    date: 2024-10-27 10:33:32
+(epstopdf)                    size: 61711 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB0039T001
 Deg60-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-25 20:31:45
+(epstopdf)                    date: 2024-10-27 10:33:32
 (epstopdf)                    size: 21852 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB0039T001Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB003
-9T001Deg60.eps>
-(epstopdf)             \includegraphics on input line 570.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB0039T001Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaAver
+ageB0039T001Deg60.eps>
+(epstopdf)             \includegraphics on input line 572.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB0039T001Deg60-eps-converted-to.pdf, id=503, 
+<image/Chapter_4/AliceDeltaAverageB0039T001Deg60-eps-converted-to.pdf, id=538, 
 258.9675pt x 183.68625pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T001Deg60-eps-converted-to.pdf Grap
 hic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB0039T001Deg60-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB0039T001Deg60-eps-co
-nverted-to.pdf used on input line 570.
+nverted-to.pdf  used on input line 572.
 (pdftex.def)             Requested size: 154.78653pt x 109.79495pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB0039T001
 Deg85.eps>
-(epstopdf)                    date: 2024-10-25 20:25:49
-(epstopdf)                    size: 58832 bytes
+(epstopdf)                    date: 2024-10-27 10:33:32
+(epstopdf)                    size: 59874 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB0039T001
 Deg85-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-25 20:32:41
+(epstopdf)                    date: 2024-10-27 10:33:32
 (epstopdf)                    size: 20911 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB0039T001Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB003
-9T001Deg85.eps>
-(epstopdf)             \includegraphics on input line 571.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB0039T001Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaAver
+ageB0039T001Deg85.eps>
+(epstopdf)             \includegraphics on input line 573.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB0039T001Deg85-eps-converted-to.pdf, id=505, 
+<image/Chapter_4/AliceDeltaAverageB0039T001Deg85-eps-converted-to.pdf, id=540, 
 258.9675pt x 187.70125pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T001Deg85-eps-converted-to.pdf Grap
 hic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB0039T001Deg85-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB0039T001Deg85-eps-co
-nverted-to.pdf used on input line 571.
+nverted-to.pdf  used on input line 573.
 (pdftex.def)             Requested size: 154.78653pt x 112.19487pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB0039T01D
 eg30.eps>
-(epstopdf)                    date: 2024-10-25 20:25:51
-(epstopdf)                    size: 59915 bytes
+(epstopdf)                    date: 2024-10-27 10:33:32
+(epstopdf)                    size: 60933 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB0039T01D
 eg30-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-25 20:31:47
+(epstopdf)                    date: 2024-10-27 10:33:32
 (epstopdf)                    size: 21261 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB0039T01Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB0039
-T01Deg30.eps>
-(epstopdf)             \includegraphics on input line 572.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB0039T01Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaAvera
+geB0039T01Deg30.eps>
+(epstopdf)             \includegraphics on input line 574.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf, id=507, 2
+<image/Chapter_4/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf, id=542, 2
 58.9675pt x 183.68625pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf Graph
 ic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB0039T01Deg30-eps-con
-verted-to.pdf used on input line 572.
+verted-to.pdf  used on input line 574.
 (pdftex.def)             Requested size: 154.78653pt x 109.79495pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB0039T01D
 eg60.eps>
-(epstopdf)                    date: 2024-10-25 20:25:53
-(epstopdf)                    size: 60143 bytes
+(epstopdf)                    date: 2024-10-27 10:33:32
+(epstopdf)                    size: 61166 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB0039T01D
 eg60-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-25 20:31:48
+(epstopdf)                    date: 2024-10-27 10:33:32
 (epstopdf)                    size: 21396 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB0039T01Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB0039
-T01Deg60.eps>
-(epstopdf)             \includegraphics on input line 573.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB0039T01Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaAvera
+geB0039T01Deg60.eps>
+(epstopdf)             \includegraphics on input line 575.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB0039T01Deg60-eps-converted-to.pdf, id=509, 2
+<image/Chapter_4/AliceDeltaAverageB0039T01Deg60-eps-converted-to.pdf, id=544, 2
 58.9675pt x 183.68625pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T01Deg60-eps-converted-to.pdf Graph
 ic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB0039T01Deg60-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB0039T01Deg60-eps-con
-verted-to.pdf used on input line 573.
+verted-to.pdf  used on input line 575.
 (pdftex.def)             Requested size: 154.78653pt x 109.79495pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB0039T01D
 eg85.eps>
-(epstopdf)                    date: 2024-10-25 20:25:56
-(epstopdf)                    size: 64550 bytes
+(epstopdf)                    date: 2024-10-27 10:33:32
+(epstopdf)                    size: 65658 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaAverageB0039T01D
 eg85-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-25 20:41:10
+(epstopdf)                    date: 2024-10-27 10:33:32
 (epstopdf)                    size: 23086 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaA
-verageB0039T01Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB0039
-T01Deg85.eps>
-(epstopdf)             \includegraphics on input line 574.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaAverageB0039T01Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaAvera
+geB0039T01Deg85.eps>
+(epstopdf)             \includegraphics on input line 576.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf, id=511, 2
+<image/Chapter_4/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf, id=546, 2
 58.9675pt x 180.675pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf Graph
 ic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaAverageB0039T01Deg85-eps-con
-verted-to.pdf used on input line 574.
+verted-to.pdf  used on input line 576.
 (pdftex.def)             Requested size: 154.78653pt x 107.99504pt.
-
-[30] [31 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/AliceDeltaAvera
-geB023T001Deg30-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/im
-age/Chapter_4/AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf> <C:/Users/a1
-2l/Documents/GitHub/Review/image/Chapter_4/AliceDeltaAverageB023T001Deg85-eps-c
-onverted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/AliceDe
-ltaAverageB023T01Deg30-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Re
-view/image/Chapter_4/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf> <C:/Us
-ers/a12l/Documents/GitHub/Review/image/Chapter_4/AliceDeltaAverageB023T01Deg85-
-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/Al
-iceDeltaAverageB0039T001Deg30-eps-converted-to.pdf> <C:/Users/a12l/Documents/Gi
-tHub/Review/image/Chapter_4/AliceDeltaAverageB0039T001Deg60-eps-converted-to.pd
-f> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/AliceDeltaAverageB003
-9T001Deg85-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/C
-hapter_4/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf> <C:/Users/a12l/Do
-cuments/GitHub/Review/image/Chapter_4/AliceDeltaAverageB0039T01Deg60-eps-conver
-ted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/AliceDeltaAv
-erageB0039T01Deg85-eps-converted-to.pdf>]
+ [32 <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/AliceDeltaAverageB023T00
+1Deg30-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/
+AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°
+/Review/image/Chapter_4/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf> <D
+:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/AliceDeltaAverageB023T01Deg30-e
+ps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/AliceDel
+taAverageB023T01Deg60-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/i
+mage/Chapter_4/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf> <D:/РўРµРѕСЂ
+. С„РёР·РёРєР°/Review/image/Chapter_4/AliceDeltaAverageB0039T001Deg30-eps-conve
+rted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/AliceDeltaAverag
+eB0039T001Deg60-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/C
+hapter_4/AliceDeltaAverageB0039T001Deg85-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„
+РёР·РёРєР°/Review/image/Chapter_4/AliceDeltaAverageB0039T01Deg30-eps-converted-
+to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/AliceDeltaAverageB003
+9T01Deg60-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter
+_4/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaManyLevelB023T01
 Deg30.eps>
-(epstopdf)                    date: 2025-01-31 20:12:42
-(epstopdf)                    size: 69741 bytes
+(epstopdf)                    date: 2025-02-18 11:22:14
+(epstopdf)                    size: 70906 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaManyLevelB023T01
 Deg30-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-01-31 20:15:40
+(epstopdf)                    date: 2025-02-18 11:22:14
 (epstopdf)                    size: 24683 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaM
-anyLevelB023T01Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaManyLevelB0
-23T01Deg30.eps>
-(epstopdf)             \includegraphics on input line 580.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaManyLevelB023T01Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaMany
+LevelB023T01Deg30.eps>
+(epstopdf)             \includegraphics on input line 582.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaManyLevelB023T01Deg30-eps-converted-to.pdf, id=563, 
+<image/Chapter_4/AliceDeltaManyLevelB023T01Deg30-eps-converted-to.pdf, id=591, 
 259.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaManyLevelB023T01Deg30-eps-converted-to.pdf Grap
 hic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaManyLevelB023T01Deg30-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaManyLevelB023T01Deg30-eps-co
-nverted-to.pdf used on input line 580.
+nverted-to.pdf  used on input line 582.
 (pdftex.def)             Requested size: 266.03473pt x 188.99846pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaManyLevelB023T01
 Deg60.eps>
-(epstopdf)                    date: 2025-01-31 20:13:50
-(epstopdf)                    size: 71780 bytes
+(epstopdf)                    date: 2025-02-18 11:22:14
+(epstopdf)                    size: 72967 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaManyLevelB023T01
 Deg60-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-01-31 20:15:40
+(epstopdf)                    date: 2025-02-18 11:22:14
 (epstopdf)                    size: 25522 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaM
-anyLevelB023T01Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaManyLevelB0
-23T01Deg60.eps>
-(epstopdf)             \includegraphics on input line 581.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaManyLevelB023T01Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaMany
+LevelB023T01Deg60.eps>
+(epstopdf)             \includegraphics on input line 583.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaManyLevelB023T01Deg60-eps-converted-to.pdf, id=565, 
+<image/Chapter_4/AliceDeltaManyLevelB023T01Deg60-eps-converted-to.pdf, id=593, 
 259.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaManyLevelB023T01Deg60-eps-converted-to.pdf Grap
 hic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaManyLevelB023T01Deg60-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaManyLevelB023T01Deg60-eps-co
-nverted-to.pdf used on input line 581.
+nverted-to.pdf  used on input line 583.
 (pdftex.def)             Requested size: 266.03473pt x 188.99846pt.
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaManyLevelB023T01
 Deg85.eps>
-(epstopdf)                    date: 2024-12-17 22:42:23
-(epstopdf)                    size: 74772 bytes
+(epstopdf)                    date: 2025-02-18 11:22:14
+(epstopdf)                    size: 76007 bytes
 (epstopdf)             Output file: <image/Chapter_4/AliceDeltaManyLevelB023T01
 Deg85-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-12-17 22:57:11
+(epstopdf)                    date: 2025-02-18 11:22:14
 (epstopdf)                    size: 27094 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/AliceDeltaM
-anyLevelB023T01Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaManyLevelB0
-23T01Deg85.eps>
-(epstopdf)             \includegraphics on input line 582.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Alic
+eDeltaManyLevelB023T01Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaMany
+LevelB023T01Deg85.eps>
+(epstopdf)             \includegraphics on input line 584.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.pdf, id=567, 
+<image/Chapter_4/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.pdf, id=595, 
 259.97125pt x 181.67876pt>
 File: image/Chapter_4/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.pdf Grap
 hic file (type pdf)
-
 <use image/Chapter_4/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/AliceDeltaManyLevelB023T01Deg85-eps-co
-nverted-to.pdf used on input line 582.
+nverted-to.pdf  used on input line 584.
 (pdftex.def)             Requested size: 266.03473pt x 185.91698pt.
 
-[32 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/AliceDeltaManyLevelB
-023T01Deg30-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/
-Chapter_4/AliceDeltaManyLevelB023T01Deg60-eps-converted-to.pdf> <C:/Users/a12l/
-Documents/GitHub/Review/image/Chapter_4/AliceDeltaManyLevelB023T01Deg85-eps-con
-verted-to.pdf>] [33
+[33 <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/AliceDeltaManyLevelB023T0
+1Deg30-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/
+AliceDeltaManyLevelB023T01Deg60-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР
+°/Review/image/Chapter_4/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.pdf>]
+[34
 
 
 ]
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovX
 1Ground.eps>
-(epstopdf)                    date: 2023-05-24 19:33:23
-(epstopdf)                    size: 32225 bytes
+(epstopdf)                    date: 2024-08-12 17:56:49
+(epstopdf)                    size: 32791 bytes
 (epstopdf)             Output file: <image/Chapter_4/CompareMushOs005MushtukovX
 1Ground-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-08-11 23:59:24
+(epstopdf)                    date: 2024-08-12 17:56:49
 (epstopdf)                    size: 13190 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
-Os005MushtukovX1Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
-htukovX1Ground.eps>
-(epstopdf)             \includegraphics on input line 593.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Comp
+areMushOs005MushtukovX1Ground-eps-converted-to.pdf image/Chapter_4/CompareMushO
+s005MushtukovX1Ground.eps>
+(epstopdf)             \includegraphics on input line 595.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf, id=599
+<image/Chapter_4/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf, id=628
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
-
 <use image/Chapter_4/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovX1Ground-eps-
-converted-to.pdf used on input line 593.
+converted-to.pdf  used on input line 595.
 (pdftex.def)             Requested size: 241.84842pt x 174.61763pt.
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovX
 2Ground.eps>
-(epstopdf)                    date: 2023-05-24 19:33:32
-(epstopdf)                    size: 31955 bytes
+(epstopdf)                    date: 2024-08-12 17:56:49
+(epstopdf)                    size: 32519 bytes
 (epstopdf)             Output file: <image/Chapter_4/CompareMushOs005MushtukovX
 2Ground-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-08-11 23:59:25
+(epstopdf)                    date: 2024-08-12 17:56:49
 (epstopdf)                    size: 13094 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
-Os005MushtukovX2Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
-htukovX2Ground.eps>
-(epstopdf)             \includegraphics on input line 594.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Comp
+areMushOs005MushtukovX2Ground-eps-converted-to.pdf image/Chapter_4/CompareMushO
+s005MushtukovX2Ground.eps>
+(epstopdf)             \includegraphics on input line 596.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf, id=601
+<image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf, id=630
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
-
 <use image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovX2Ground-eps-
-converted-to.pdf used on input line 594.
+converted-to.pdf  used on input line 596.
 (pdftex.def)             Requested size: 241.84842pt x 174.61763pt.
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovX
 3Ground.eps>
-(epstopdf)                    date: 2023-05-24 19:33:38
-(epstopdf)                    size: 31909 bytes
+(epstopdf)                    date: 2024-08-12 17:56:49
+(epstopdf)                    size: 32485 bytes
 (epstopdf)             Output file: <image/Chapter_4/CompareMushOs005MushtukovX
 3Ground-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-08-11 23:59:26
+(epstopdf)                    date: 2024-08-12 17:56:49
 (epstopdf)                    size: 13009 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
-Os005MushtukovX3Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
-htukovX3Ground.eps>
-(epstopdf)             \includegraphics on input line 595.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Comp
+areMushOs005MushtukovX3Ground-eps-converted-to.pdf image/Chapter_4/CompareMushO
+s005MushtukovX3Ground.eps>
+(epstopdf)             \includegraphics on input line 597.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf, id=603
+<image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf, id=632
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
-
 <use image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-
-converted-to.pdf used on input line 595.
+converted-to.pdf  used on input line 597.
 (pdftex.def)             Requested size: 241.84842pt x 174.61763pt.
 
 
-LaTeX Warning: Text page 34 contains only floats.
+LaTeX Warning: Text page 35 contains only floats.
 
-[34
+[35
 
- <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs005Mushtuk
-ovX1Ground-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/C
-hapter_4/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf> <C:/Users/a12l
-/Documents/GitHub/Review/image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-
-converted-to.pdf>]
+ <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/CompareMushOs005MushtukovX1G
+round-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/C
+ompareMushOs005MushtukovX2Ground-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРє
+Р°/Review/image/Chapter_4/CompareMushOs005MushtukovX3Ground-eps-converted-to.pd
+f>]
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovO
 1Ground.eps>
-(epstopdf)                    date: 2023-05-24 19:34:02
-(epstopdf)                    size: 30983 bytes
+(epstopdf)                    date: 2024-08-12 17:56:49
+(epstopdf)                    size: 31535 bytes
 (epstopdf)             Output file: <image/Chapter_4/CompareMushOs005MushtukovO
 1Ground-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-08-11 23:59:31
+(epstopdf)                    date: 2024-08-12 17:56:49
 (epstopdf)                    size: 12658 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
-Os005MushtukovO1Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
-htukovO1Ground.eps>
-(epstopdf)             \includegraphics on input line 600.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Comp
+areMushOs005MushtukovO1Ground-eps-converted-to.pdf image/Chapter_4/CompareMushO
+s005MushtukovO1Ground.eps>
+(epstopdf)             \includegraphics on input line 602.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf, id=620
+<image/Chapter_4/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf, id=650
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
-
 <use image/Chapter_4/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovO1Ground-eps-
-converted-to.pdf used on input line 600.
+converted-to.pdf  used on input line 602.
 (pdftex.def)             Requested size: 241.84842pt x 174.61763pt.
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovO
 2Ground.eps>
-(epstopdf)                    date: 2023-05-24 19:34:11
-(epstopdf)                    size: 31464 bytes
+(epstopdf)                    date: 2024-08-12 17:56:49
+(epstopdf)                    size: 32023 bytes
 (epstopdf)             Output file: <image/Chapter_4/CompareMushOs005MushtukovO
 2Ground-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-08-11 23:59:32
+(epstopdf)                    date: 2024-08-12 17:56:49
 (epstopdf)                    size: 12858 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
-Os005MushtukovO2Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
-htukovO2Ground.eps>
-(epstopdf)             \includegraphics on input line 601.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Comp
+areMushOs005MushtukovO2Ground-eps-converted-to.pdf image/Chapter_4/CompareMushO
+s005MushtukovO2Ground.eps>
+(epstopdf)             \includegraphics on input line 603.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf, id=622
+<image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf, id=652
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
-
 <use image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-
-converted-to.pdf used on input line 601.
+converted-to.pdf  used on input line 603.
 (pdftex.def)             Requested size: 241.84842pt x 174.61763pt.
 Package epstopdf Info: Source file: <image/Chapter_4/CompareMushOs005MushtukovO
 3Ground.eps>
-(epstopdf)                    date: 2023-05-24 19:34:20
-(epstopdf)                    size: 30833 bytes
+(epstopdf)                    date: 2024-08-12 17:56:49
+(epstopdf)                    size: 31398 bytes
 (epstopdf)             Output file: <image/Chapter_4/CompareMushOs005MushtukovO
 3Ground-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-08-11 23:59:33
+(epstopdf)                    date: 2024-08-12 17:56:49
 (epstopdf)                    size: 12561 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/CompareMush
-Os005MushtukovO3Ground-eps-converted-to.pdf image/Chapter_4/CompareMushOs005Mus
-htukovO3Ground.eps>
-(epstopdf)             \includegraphics on input line 602.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Comp
+areMushOs005MushtukovO3Ground-eps-converted-to.pdf image/Chapter_4/CompareMushO
+s005MushtukovO3Ground.eps>
+(epstopdf)             \includegraphics on input line 604.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf, id=624
+<image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf, id=654
 , 259.97125pt x 187.70125pt>
 File: image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf Gr
 aphic file (type pdf)
-
 <use image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-
-converted-to.pdf used on input line 602.
+converted-to.pdf  used on input line 604.
 (pdftex.def)             Requested size: 241.84842pt x 174.61763pt.
-
-[35 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs005Mush
-tukovO1Ground-eps-converted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/imag
-e/Chapter_4/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf> <C:/Users/a
-12l/Documents/GitHub/Review/image/Chapter_4/CompareMushOs005MushtukovO3Ground-e
-ps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
+ [36 <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/CompareMushOs005Mushtuko
+vO1Ground-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter
+_4/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf> <D:/РўРµРѕСЂ. С„РёР·
+РёРєР°/Review/image/Chapter_4/CompareMushOs005MushtukovO3Ground-eps-converted-t
+o.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
 []\T2A/cmr/m/n/14.4 Рассмотрим те-перь си-ту-а-цию сверх-силь-но-го маг-нит-но-
 го по-ля,
  []
 
-[36
+[37
 
 ]
-Underfull \hbox (badness 2197) in paragraph at lines 633--636
-\T2A/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
-4 x\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 -- функ-ция Хе-ви-сай-да, [], а
+Underfull \hbox (badness 2197) in paragraph at lines 635--638
+\T2A/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 ^^R\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/1
+4.4 x\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 -- функ-ция Хе-ви-сай-да, [], а
  []
 
 
-Overfull \hbox (36.28624pt too wide) in paragraph at lines 640--641
+Overfull \hbox (36.28624pt too wide) in paragraph at lines 642--643
 []\T2A/cmr/m/n/14.4 Воспользовавшись ре-зуль-та-та-ми ра-бо-ты [[]83[]], ам-пли
 -ту-ды $\OMS/cmsy/m/n/14.4 M[]$\T2A/cmr/m/n/14.4 , $\OMS/cmsy/m/n/14.4 M[]$
  []
 
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 671--672
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 673--674
 []\T2A/cmr/m/n/14.4 Парциальные ко-эф-фи-ци-ен-ты по-гло-ще-ния фо-то-на для ка
 -на-лов
  []
 
-[38] [39] [40]
+[39] [40] [41]
 Package epstopdf Info: Source file: <image/Chapter_4/Splot112001.eps>
-(epstopdf)                    date: 2023-05-18 17:58:08
-(epstopdf)                    size: 48918 bytes
+(epstopdf)                    date: 2024-08-12 17:56:49
+(epstopdf)                    size: 49707 bytes
 (epstopdf)             Output file: <image/Chapter_4/Splot112001-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2024-08-12 00:00:42
+(epstopdf)                    date: 2024-08-12 17:56:49
 (epstopdf)                    size: 18886 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/Splot112001
--eps-converted-to.pdf image/Chapter_4/Splot112001.eps>
-(epstopdf)             \includegraphics on input line 723.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Splo
+t112001-eps-converted-to.pdf image/Chapter_4/Splot112001.eps>
+(epstopdf)             \includegraphics on input line 725.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/Splot112001-eps-converted-to.pdf, id=701, 259.97125pt x 156.58
+<image/Chapter_4/Splot112001-eps-converted-to.pdf, id=735, 259.97125pt x 156.58
 5pt>
 File: image/Chapter_4/Splot112001-eps-converted-to.pdf Graphic file (type pdf)
- <use image/Chapter_4/Splot112001-eps-converted-to.pdf>
-Package pdftex.def Info: image/Chapter_4/Splot112001-eps-converted-to.pdf used 
-on input line 723.
+<use image/Chapter_4/Splot112001-eps-converted-to.pdf>
+Package pdftex.def Info: image/Chapter_4/Splot112001-eps-converted-to.pdf  used
+ on input line 725.
 (pdftex.def)             Requested size: 386.95894pt x 233.073pt.
 Package epstopdf Info: Source file: <image/Chapter_4/Splot11201.eps>
-(epstopdf)                    date: 2023-05-18 17:56:15
-(epstopdf)                    size: 36942 bytes
+(epstopdf)                    date: 2024-08-12 17:56:49
+(epstopdf)                    size: 37563 bytes
 (epstopdf)             Output file: <image/Chapter_4/Splot11201-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2024-08-12 00:00:43
+(epstopdf)                    date: 2024-08-12 17:56:49
 (epstopdf)                    size: 14479 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/Splot11201-
-eps-converted-to.pdf image/Chapter_4/Splot11201.eps>
-(epstopdf)             \includegraphics on input line 729.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Splo
+t11201-eps-converted-to.pdf image/Chapter_4/Splot11201.eps>
+(epstopdf)             \includegraphics on input line 731.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/Splot11201-eps-converted-to.pdf, id=702, 259.97125pt x 156.585
+<image/Chapter_4/Splot11201-eps-converted-to.pdf, id=736, 259.97125pt x 156.585
 pt>
 File: image/Chapter_4/Splot11201-eps-converted-to.pdf Graphic file (type pdf)
- <use image/Chapter_4/Splot11201-eps-converted-to.pdf>
-Package pdftex.def Info: image/Chapter_4/Splot11201-eps-converted-to.pdf used o
-n input line 729.
+<use image/Chapter_4/Splot11201-eps-converted-to.pdf>
+Package pdftex.def Info: image/Chapter_4/Splot11201-eps-converted-to.pdf  used 
+on input line 731.
 (pdftex.def)             Requested size: 386.95894pt x 233.073pt.
 
 
-LaTeX Warning: Text page 41 contains only floats.
+LaTeX Warning: Text page 42 contains only floats.
 
-[41
+[42
 
- <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/Splot112001-eps-convert
-ed-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/Splot11201-ep
-s-converted-to.pdf>]
+ <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/Splot112001-eps-converted-to
+.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/Splot11201-eps-converte
+d-to.pdf>]
 Package epstopdf Info: Source file: <image/Chapter_4/Splot122001.eps>
-(epstopdf)                    date: 2023-05-18 17:59:33
-(epstopdf)                    size: 41299 bytes
+(epstopdf)                    date: 2024-08-12 17:56:49
+(epstopdf)                    size: 41987 bytes
 (epstopdf)             Output file: <image/Chapter_4/Splot122001-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2024-08-12 00:00:44
+(epstopdf)                    date: 2024-08-12 17:56:49
 (epstopdf)                    size: 16197 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/Splot122001
--eps-converted-to.pdf image/Chapter_4/Splot122001.eps>
-(epstopdf)             \includegraphics on input line 735.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Splo
+t122001-eps-converted-to.pdf image/Chapter_4/Splot122001.eps>
+(epstopdf)             \includegraphics on input line 737.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/Splot122001-eps-converted-to.pdf, id=713, 259.97125pt x 156.58
+<image/Chapter_4/Splot122001-eps-converted-to.pdf, id=749, 259.97125pt x 156.58
 5pt>
 File: image/Chapter_4/Splot122001-eps-converted-to.pdf Graphic file (type pdf)
- <use image/Chapter_4/Splot122001-eps-converted-to.pdf>
-Package pdftex.def Info: image/Chapter_4/Splot122001-eps-converted-to.pdf used 
-on input line 735.
+<use image/Chapter_4/Splot122001-eps-converted-to.pdf>
+Package pdftex.def Info: image/Chapter_4/Splot122001-eps-converted-to.pdf  used
+ on input line 737.
 (pdftex.def)             Requested size: 386.95894pt x 233.073pt.
 Package epstopdf Info: Source file: <image/Chapter_4/Splot12201.eps>
-(epstopdf)                    date: 2023-05-18 18:03:00
-(epstopdf)                    size: 35635 bytes
+(epstopdf)                    date: 2024-08-12 17:56:49
+(epstopdf)                    size: 36236 bytes
 (epstopdf)             Output file: <image/Chapter_4/Splot12201-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2024-08-12 00:00:45
+(epstopdf)                    date: 2024-08-12 17:56:49
 (epstopdf)                    size: 14229 bytes
-(epstopdf)             Command: <epstopdf --outfile=image/Chapter_4/Splot12201-
-eps-converted-to.pdf image/Chapter_4/Splot12201.eps>
-(epstopdf)             \includegraphics on input line 741.
+(epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Splo
+t12201-eps-converted-to.pdf image/Chapter_4/Splot12201.eps>
+(epstopdf)             \includegraphics on input line 743.
 Package epstopdf Info: Output file is already uptodate.
-
-<image/Chapter_4/Splot12201-eps-converted-to.pdf, id=716, 259.97125pt x 156.585
+<image/Chapter_4/Splot12201-eps-converted-to.pdf, id=752, 259.97125pt x 156.585
 pt>
 File: image/Chapter_4/Splot12201-eps-converted-to.pdf Graphic file (type pdf)
- <use image/Chapter_4/Splot12201-eps-converted-to.pdf>
-Package pdftex.def Info: image/Chapter_4/Splot12201-eps-converted-to.pdf used o
-n input line 741.
+<use image/Chapter_4/Splot12201-eps-converted-to.pdf>
+Package pdftex.def Info: image/Chapter_4/Splot12201-eps-converted-to.pdf  used 
+on input line 743.
 (pdftex.def)             Requested size: 386.95894pt x 233.073pt.
- [42 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/Splot122001-eps-con
-verted-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_4/Splot1220
-1-eps-converted-to.pdf>]) (C:\Users\a12l\Documents\GitHub\Review\Chapter4_3.tex
-)
-(C:\Users\a12l\Documents\GitHub\Review\Chapter5.tex)
-(C:\Users\a12l\Documents\GitHub\Review\conclusion.tex) [43
+ [43 <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/Splot122001-eps-converte
+d-to.pdf> <D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/image/Chapter_4/Splot12201-eps-conv
+erted-to.pdf>]) (D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review\Chapter4_3.tex)
+(D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review\Chapter5.tex)
+(D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review\conclusion.tex) [44
 
 ]
-(C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.bbl [44] [45] [46]
-[47] [48] [49] [50] [51])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
- [52]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
-
-(C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 148.
+(D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review\ResonanceRew2024.bbl [45] [46] [47] [48]
+[49] [50] [51] [52]) [53] (ResonanceRew2024.aux)
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2024-01-04>
+ ***********
 
 
 LaTeX Warning: There were undefined references.
@@ -1304,43 +1508,107 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9265 strings out of 494045
- 134348 string characters out of 3145973
- 215720 words of memory out of 3000000
- 12011 multiletter control sequences out of 15000+200000
- 27749 words of font info for 79 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 42i,14n,24p,4111b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/cm-super/sfbx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/cm-super/sfrm0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/cm-super/sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/cm-super/sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/cm-super/sfrm1440.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm
--super/sfti1440.pfb>
-Output written on ResonanceRew2024.pdf (52 pages, 1072773 bytes).
+ 13228 strings out of 474485
+ 218464 string characters out of 5743734
+ 1945528 words of memory out of 5000000
+ 34920 multiletter control sequences out of 15000+600000
+ 582178 words of font info for 101 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 63i,14n,67p,4448b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{figure.115} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.114} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.113} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.112} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.107} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.106} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.69} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.101} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.100} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.99} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.98} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.21} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.51} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.62} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.63} has been referenced but does not exist, 
+replaced by a fixed one
+
+ <C:\Users\allen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440
+.pk> <C:\Users\allen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx
+1728.pk> <C:\Users\allen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
+larm1200.pk> <C:\Users\allen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
+600\larm1000.pk> <C:\Users\allen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
+/dpi600\larm0700.pk> <C:\Users\allen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
+-t2a/dpi600\lati1440.pk> <C:\Users\allen\AppData\Local\MiKTeX\fonts/pk/ljfour/l
+h/lh-t2a/dpi600\larm1440.pk> <C:\Users\allen\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/lh/lh-t2a/dpi600\larm2074.pk><C:/Users/allen/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/allen/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/allen/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/allen/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmib10.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/allen/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/allen/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/allen/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/allen/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
+s/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+<C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/symbols/msam10.pfb><C:/Users/allen/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ResonanceRew2024.pdf (53 pages, 1130139 bytes).
 PDF statistics:
- 935 PDF objects out of 1000 (max. 8388607)
- 259 named destinations out of 1000 (max. 500000)
- 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1362 PDF objects out of 1440 (max. 8388607)
+ 281 named destinations out of 1000 (max. 500000)
+ 287 words of extra memory for PDF output out of 10000 (max. 10000000)
 
