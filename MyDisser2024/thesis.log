@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  1 FEB 2025 12:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  28 APR 2025 17:03
 entering extended mode
 **thesis.tex
 (D:\YarGU\Science\Dissere\MyDisser\DisserYarkov_2024\MyDisser2024\thesis.tex
@@ -480,6 +480,12 @@ Package csquotes Info: ... found 'babel' package.
 LaTeX Warning: Label `eq:L' multiply defined.
 
 
+LaTeX Warning: Label `Wres' multiply defined.
+
+
+LaTeX Warning: Label `eq:wabs2' multiply defined.
+
+
 LaTeX Warning: Label `disper' multiply defined.
 
 
@@ -626,21 +632,22 @@ Anomalous
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.9 \actualitytext
-                  ]
-Underfull \hbox (badness 2970) in paragraph at lines 9--10
-\T2A/cmr/m/n/14.4 ченной плазме, является процесс рождения электрон-п
-озитронной пары
+                  ] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\T2A/cmr/m/n/14.4 Другим немаловажным квантовым процессом, имеющим м
+есто
  []
 
-[9] [10] [11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-\T2A/cmr/m/n/14.4 метричной плазмы [] в пределе сильного магнитного
- []
-
-
+[10] [11] [12]
 Overfull \hbox (2.03145pt too wide) in paragraph at lines 20--20
 []\T2A/cmr/m/n/14.4 Впервые получены возможные области энергий фотона
 , при которых комп
+ []
+
+[13]
+Overfull \hbox (1.07848pt too wide) in paragraph at lines 20--20
+\T2A/cmr/m/n/14.4 циональном приближении резонансного пика для зама
+гниченной зарядово-
  []
 
 [14]
@@ -655,34 +662,30 @@ Overfull \hbox (5.54124pt too wide) in paragraph at lines 43--43
 m/n/14.4 получены в соавторстве с Румянцевым Д. А.,
  []
 
-
-LaTeX Warning: Reference `YarkovPhotDampPAN:2022' on page 17 undefined on input
- line 43.
-
-[17] [18] [19]) [20]
+[17] [18]) [19]
 (D:\YarGU\Science\Dissere\MyDisser\DisserYarkov_2024\MyDisser2024\Chapt1.tex
-[21
+[20
 
-] [22]
+] [21]
 Underfull \hbox (badness 10000) in paragraph at lines 89--103
 \T2A/cmr/m/n/14.4 рассеяния требуется учесть полную ширину изменени
 я состояния
  []
 
-[23] [24] [25] [26] [27] [28] [29]
+[22] [23] [24] [25] [26] [27] [28]
 Package epstopdf Info: Source file: <fig/DispFirst2ColOnly2Plasmas.eps>
-(epstopdf)                    date: 2024-12-16 20:43:55
-(epstopdf)                    size: 65301 bytes
+(epstopdf)                    date: 2025-02-24 13:59:52
+(epstopdf)                    size: 64812 bytes
 (epstopdf)             Output file: <fig/DispFirst2ColOnly2Plasmas-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2024-12-16 20:44:15
-(epstopdf)                    size: 21265 bytes
+(epstopdf)                    date: 2025-02-24 14:00:41
+(epstopdf)                    size: 21090 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/DispFirst2ColOnly2Plasm
 as-eps-converted-to.pdf fig/DispFirst2ColOnly2Plasmas.eps>
 (epstopdf)             \includegraphics on input line 350.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf, id=563, 256.96pt x 179.671
+<fig/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf, id=560, 256.96pt x 179.671
 25pt>
 File: fig/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -690,13 +693,13 @@ File: fig/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: fig/DispFirst2ColOnly2Plasmas-eps-converted-to.pdf use
 d on input line 350.
 (pdftex.def)             Requested size: 334.04796pt x 233.57257pt.
- [30 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Disp
+ [29 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Disp
 First2ColOnly2Plasmas-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 \T2A/cmr/m/n/14.4 ном электроне, []. Поэтому в пределе сильного поля
  []
 
-[31]
+[30]
 Package epstopdf Info: Source file: <fig/figComp1.eps>
 (epstopdf)                    date: 2025-01-31 19:45:22
 (epstopdf)                    size: 53694 bytes
@@ -705,29 +708,38 @@ Package epstopdf Info: Source file: <fig/figComp1.eps>
 (epstopdf)                    size: 21558 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/figComp1-eps-converted-
 to.pdf fig/figComp1.eps>
-(epstopdf)             \includegraphics on input line 391.
+(epstopdf)             \includegraphics on input line 390.
 Package epstopdf Info: Output file is already uptodate.
- <fig/figComp1-eps-converted-to.pdf, id=598, 258.9675pt x 96.36pt>
+ <fig/figComp1-eps-converted-to.pdf, id=596, 258.9675pt x 96.36pt>
 File: fig/figComp1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/figComp1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/figComp1-eps-converted-to.pdf used on input line 3
-91.
+90.
 (pdftex.def)             Requested size: 284.52756pt x 105.8816pt.
-
-Overfull \hbox (2.50677pt too wide) in alignment at lines 401--414
+ [31 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/figC
+omp1-eps-converted-to.pdf>]
+Overfull \hbox (2.50677pt too wide) in alignment at lines 400--413
  [][][] []
  []
 
-[32 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/figCo
-mp1-eps-converted-to.pdf>] [33] [34] [35pdfTeX warning (ext4): destination with
- the same identifier (name{equation.1.33}) has been already used, duplicate ign
-ored
+
+Overfull \hbox (5.69922pt too wide) in paragraph at lines 437--440
+\T2A/cmr/m/n/14.4 вав полученный результат по $\OT1/cmr/m/n/14.4 d\OML/cmm
+/m/it/14.4 X[]\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.4 X[]\OT1/cmr/m/n/14.4 d\OML/
+cmm/m/it/14.4 X[]$ \T2A/cmr/m/n/14.4 и $\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.4 Y
+[]\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.4 Y[]\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.
+4 Y[]$\T2A/cmr/m/n/14.4 , представим $\OML/cmm/m/it/14.4 S$\T2A/cmr/m/n/14.4 
+-матричный
+ []
+
+[32] [33] [34pdfTeX warning (ext4): destination with the same identifier (name{
+equation.1.33}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.562 \beq
-          ] [36]
+          ] [35]
 Overfull \hbox (4.76164pt too wide) in paragraph at lines 652--654
 \T2A/cmr/m/n/14.4 глощения удобно, например, вычислять длину свободно
 го пробега [],
@@ -739,26 +751,19 @@ Underfull \hbox (badness 4608) in paragraph at lines 655--656
 1.33[][]) с учетом
  []
 
-[37pdfTeX warning (ext4): destination with the same identifier (name{equation.1
+[36pdfTeX warning (ext4): destination with the same identifier (name{equation.1
 .44}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.675 \eeq
-          ] [38pdfTeX warning (ext4): destination with the same identifier (nam
+          ] [37pdfTeX warning (ext4): destination with the same identifier (nam
 e{equation.1.48}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.725 \newpage
-              ]
-Overfull \hbox (9.62363pt too wide) in paragraph at lines 727--730
-\T2A/cmr/m/n/14.4 трона в системе покоя плазмы с нормированной функци
-ей распределения $[][]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 p[]\OT1/cmr/m/
-n/14.4 )$\T2A/cmr/m/n/14.4 : 
- []
-
-[39] [40]
+              ] [38] [39] [40]
 Package epstopdf Info: Source file: <fig/AliceDeltaAverageB023T001Deg30.eps>
 (epstopdf)                    date: 2024-12-12 15:21:11
 (epstopdf)                    size: 72653 bytes
@@ -771,7 +776,7 @@ verted-to.pdf>
 (epstopdf)             \includegraphics on input line 789.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB023T001Deg30-eps-converted-to.pdf, id=747, 259.97125pt x
+<fig/AliceDeltaAverageB023T001Deg30-eps-converted-to.pdf, id=750, 259.97125pt x
  184.69pt>
 File: fig/AliceDeltaAverageB023T001Deg30-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -791,7 +796,7 @@ verted-to.pdf>
 (epstopdf)             \includegraphics on input line 790.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf, id=749, 259.97125pt x
+<fig/AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf, id=752, 259.97125pt x
  184.69pt>
 File: fig/AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -811,7 +816,7 @@ verted-to.pdf>
 (epstopdf)             \includegraphics on input line 791.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf, id=751, 259.97125pt x
+<fig/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf, id=754, 259.97125pt x
  184.69pt>
 File: fig/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -821,7 +826,7 @@ f used on input line 791.
 (pdftex.def)             Requested size: 298.75697pt x 212.24529pt.
 
 
-LaTeX Warning: Float too large for page by 22.50002pt on input line 793.
+LaTeX Warning: Float too large for page by 21.23976pt on input line 793.
 
 Package epstopdf Info: Source file: <fig/AliceDeltaAverageB023T01Deg30.eps>
 (epstopdf)                    date: 2024-12-12 15:21:11
@@ -835,7 +840,7 @@ erted-to.pdf>
 (epstopdf)             \includegraphics on input line 796.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB023T01Deg30-eps-converted-to.pdf, id=755, 259.97125pt x 
+<fig/AliceDeltaAverageB023T01Deg30-eps-converted-to.pdf, id=758, 259.97125pt x 
 184.69pt>
 File: fig/AliceDeltaAverageB023T01Deg30-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -855,7 +860,7 @@ erted-to.pdf>
 (epstopdf)             \includegraphics on input line 797.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf, id=757, 259.97125pt x 
+<fig/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf, id=760, 259.97125pt x 
 184.69pt>
 File: fig/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -864,50 +869,25 @@ Package pdftex.def Info: fig/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf
  used on input line 797.
 (pdftex.def)             Requested size: 298.75697pt x 212.24529pt.
 Package epstopdf Info: Source file: <fig/AliceDeltaAverageB023T01Deg85.eps>
-(epstopdf)                    date: 2024-12-17 22:04:10
-(epstopdf)                    size: 74579 bytes
+(epstopdf)                    date: 2025-02-23 10:21:27
+(epstopdf)                    size: 74211 bytes
 (epstopdf)             Output file: <fig/AliceDeltaAverageB023T01Deg85-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2024-12-17 22:07:48
-(epstopdf)                    size: 27092 bytes
+(epstopdf)                    date: 2025-02-23 10:21:58
+(epstopdf)                    size: 26567 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/AliceDeltaAverageB023T0
 1Deg85-eps-converted-to.pdf fig/AliceDeltaAverageB023T01Deg85.eps>
 (epstopdf)             \includegraphics on input line 798.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf, id=759, 259.97125pt x 
-181.67876pt>
+<fig/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf, id=762, 259.97125pt x 
+184.69pt>
 File: fig/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf Graphic file (type
  pdf)
  <use fig/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf>
 Package pdftex.def Info: fig/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf
  used on input line 798.
-(pdftex.def)             Requested size: 298.75697pt x 208.78477pt.
-
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 799.
-
-
-LaTeX Warning: Command \cyrerev invalid in math mode on input line 799.
-
-
-LaTeX Warning: Command \CYRV invalid in math mode on input line 799.
-
-Missing character: There is no к in font cmr12!
-Missing character: There is no э in font cmr12!
-Missing character: There is no В in font cmr12!
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 799.
-
-
-LaTeX Warning: Command \cyrerev invalid in math mode on input line 799.
-
-
-LaTeX Warning: Command \CYRV invalid in math mode on input line 799.
-
-Missing character: There is no к in font cmr12!
-Missing character: There is no э in font cmr12!
-Missing character: There is no В in font cmr12!
+(pdftex.def)             Requested size: 298.75697pt x 212.24529pt.
 Package epstopdf Info: Source file: <fig/AliceDeltaAverageB0039T001Deg30.eps>
 (epstopdf)                    date: 2024-12-12 15:21:11
 (epstopdf)                    size: 63115 bytes
@@ -920,7 +900,7 @@ nverted-to.pdf>
 (epstopdf)             \includegraphics on input line 803.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB0039T001Deg30-eps-converted-to.pdf, id=763, 258.9675pt x
+<fig/AliceDeltaAverageB0039T001Deg30-eps-converted-to.pdf, id=766, 258.9675pt x
  183.68625pt>
 File: fig/AliceDeltaAverageB0039T001Deg30-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -940,7 +920,7 @@ nverted-to.pdf>
 (epstopdf)             \includegraphics on input line 804.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB0039T001Deg60-eps-converted-to.pdf, id=765, 258.9675pt x
+<fig/AliceDeltaAverageB0039T001Deg60-eps-converted-to.pdf, id=768, 258.9675pt x
  183.68625pt>
 File: fig/AliceDeltaAverageB0039T001Deg60-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -960,7 +940,7 @@ nverted-to.pdf>
 (epstopdf)             \includegraphics on input line 805.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB0039T001Deg85-eps-converted-to.pdf, id=767, 258.9675pt x
+<fig/AliceDeltaAverageB0039T001Deg85-eps-converted-to.pdf, id=770, 258.9675pt x
  187.70125pt>
 File: fig/AliceDeltaAverageB0039T001Deg85-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -968,31 +948,6 @@ pe pdf)
 Package pdftex.def Info: fig/AliceDeltaAverageB0039T001Deg85-eps-converted-to.p
 df used on input line 805.
 (pdftex.def)             Requested size: 298.75697pt x 216.56505pt.
-
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 806.
-
-
-LaTeX Warning: Command \cyrerev invalid in math mode on input line 806.
-
-
-LaTeX Warning: Command \CYRV invalid in math mode on input line 806.
-
-Missing character: There is no к in font cmr12!
-Missing character: There is no э in font cmr12!
-Missing character: There is no В in font cmr12!
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 806.
-
-
-LaTeX Warning: Command \cyrerev invalid in math mode on input line 806.
-
-
-LaTeX Warning: Command \CYRV invalid in math mode on input line 806.
-
-Missing character: There is no к in font cmr12!
-Missing character: There is no э in font cmr12!
-Missing character: There is no В in font cmr12!
 Package epstopdf Info: Source file: <fig/AliceDeltaAverageB0039T01Deg30.eps>
 (epstopdf)                    date: 2024-12-12 15:21:11
 (epstopdf)                    size: 60933 bytes
@@ -1005,7 +960,7 @@ verted-to.pdf>
 (epstopdf)             \includegraphics on input line 810.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf, id=771, 258.9675pt x 
+<fig/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf, id=774, 258.9675pt x 
 183.68625pt>
 File: fig/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1025,7 +980,7 @@ verted-to.pdf>
 (epstopdf)             \includegraphics on input line 811.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB0039T01Deg60-eps-converted-to.pdf, id=773, 258.9675pt x 
+<fig/AliceDeltaAverageB0039T01Deg60-eps-converted-to.pdf, id=776, 258.9675pt x 
 183.68625pt>
 File: fig/AliceDeltaAverageB0039T01Deg60-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1034,69 +989,45 @@ Package pdftex.def Info: fig/AliceDeltaAverageB0039T01Deg60-eps-converted-to.pd
 f used on input line 811.
 (pdftex.def)             Requested size: 298.75697pt x 211.93262pt.
 Package epstopdf Info: Source file: <fig/AliceDeltaAverageB0039T01Deg85.eps>
-(epstopdf)                    date: 2024-12-17 22:04:25
-(epstopdf)                    size: 64124 bytes
+(epstopdf)                    date: 2025-02-23 10:21:06
+(epstopdf)                    size: 66992 bytes
 (epstopdf)             Output file: <fig/AliceDeltaAverageB0039T01Deg85-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2024-12-17 22:07:49
-(epstopdf)                    size: 22943 bytes
+(epstopdf)                    date: 2025-02-23 10:21:59
+(epstopdf)                    size: 23809 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/AliceDeltaAverageB0039T
 01Deg85-eps-converted-to.pdf fig/AliceDeltaAverageB0039T01Deg85.eps>
 (epstopdf)             \includegraphics on input line 812.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf, id=775, 258.9675pt x 
-180.675pt>
+<fig/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf, id=778, 258.9675pt x 
+183.68625pt>
 File: fig/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use fig/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf>
 Package pdftex.def Info: fig/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pd
 f used on input line 812.
-(pdftex.def)             Requested size: 298.75697pt x 208.45833pt.
+(pdftex.def)             Requested size: 298.75697pt x 211.93262pt.
 
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 813.
-
-
-LaTeX Warning: Command \cyrerev invalid in math mode on input line 813.
-
-
-LaTeX Warning: Command \CYRV invalid in math mode on input line 813.
-
-Missing character: There is no к in font cmr12!
-Missing character: There is no э in font cmr12!
-Missing character: There is no В in font cmr12!
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 813.
-
-
-LaTeX Warning: Command \cyrerev invalid in math mode on input line 813.
-
-
-LaTeX Warning: Command \CYRV invalid in math mode on input line 813.
-
-Missing character: There is no к in font cmr12!
-Missing character: There is no э in font cmr12!
-Missing character: There is no В in font cmr12!
-[41] [42 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/
-AliceDeltaAverageB023T001Deg30-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/
-MyDisser/DisserYarkov_2024/MyDisser2024/fig/AliceDeltaAverageB023T001Deg60-eps-
-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser
-2024/fig/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf>] [43 <D:/YarGU/Sc
-ience/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/AliceDeltaAverageB023
-T01Deg30-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_
-2024/MyDisser2024/fig/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf> <D:/Y
-arGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/AliceDeltaAver
-ageB023T01Deg85-eps-converted-to.pdf>] [44 <D:/YarGU/Science/Dissere/MyDisser/D
-isserYarkov_2024/MyDisser2024/fig/AliceDeltaAverageB0039T001Deg30-eps-converted
--to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/
-AliceDeltaAverageB0039T001Deg60-eps-converted-to.pdf> <D:/YarGU/Science/Dissere
-/MyDisser/DisserYarkov_2024/MyDisser2024/fig/AliceDeltaAverageB0039T001Deg85-ep
-s-converted-to.pdf>] [45 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/M
-yDisser2024/fig/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf> <D:/YarGU/
+[41 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Alice
+DeltaAverageB023T001Deg30-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDis
+ser/DisserYarkov_2024/MyDisser2024/fig/AliceDeltaAverageB023T001Deg60-eps-conve
+rted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/
+fig/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf>] [42 <D:/YarGU/Science
+/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/AliceDeltaAverageB023T01De
+g30-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/
+MyDisser2024/fig/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf> <D:/YarGU/
 Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/AliceDeltaAverageB0
-039T01Deg60-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYark
-ov_2024/MyDisser2024/fig/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf>]
+23T01Deg85-eps-converted-to.pdf>] [43 <D:/YarGU/Science/Dissere/MyDisser/Disser
+Yarkov_2024/MyDisser2024/fig/AliceDeltaAverageB0039T001Deg30-eps-converted-to.p
+df> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Alice
+DeltaAverageB0039T001Deg60-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDi
+sser/DisserYarkov_2024/MyDisser2024/fig/AliceDeltaAverageB0039T001Deg85-eps-con
+verted-to.pdf>] [44 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDiss
+er2024/fig/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf> <D:/YarGU/Scien
+ce/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/AliceDeltaAverageB0039T0
+1Deg60-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_20
+24/MyDisser2024/fig/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/AliceDeltaManyLevelB023T01Deg30.eps>
 (epstopdf)                    date: 2025-01-31 20:12:42
 (epstopdf)                    size: 69741 bytes
@@ -1109,7 +1040,7 @@ T01Deg30-eps-converted-to.pdf fig/AliceDeltaManyLevelB023T01Deg30.eps>
 (epstopdf)             \includegraphics on input line 817.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaManyLevelB023T01Deg30-eps-converted-to.pdf, id=841, 259.97125pt 
+<fig/AliceDeltaManyLevelB023T01Deg30-eps-converted-to.pdf, id=835, 259.97125pt 
 x 184.69pt>
 File: fig/AliceDeltaManyLevelB023T01Deg30-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1129,7 +1060,7 @@ T01Deg60-eps-converted-to.pdf fig/AliceDeltaManyLevelB023T01Deg60.eps>
 (epstopdf)             \includegraphics on input line 818.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaManyLevelB023T01Deg60-eps-converted-to.pdf, id=843, 259.97125pt 
+<fig/AliceDeltaManyLevelB023T01Deg60-eps-converted-to.pdf, id=837, 259.97125pt 
 x 184.69pt>
 File: fig/AliceDeltaManyLevelB023T01Deg60-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1138,29 +1069,89 @@ Package pdftex.def Info: fig/AliceDeltaManyLevelB023T01Deg60-eps-converted-to.p
 df used on input line 818.
 (pdftex.def)             Requested size: 298.75697pt x 212.24529pt.
 Package epstopdf Info: Source file: <fig/AliceDeltaManyLevelB023T01Deg85.eps>
-(epstopdf)                    date: 2024-12-17 22:42:23
-(epstopdf)                    size: 74772 bytes
+(epstopdf)                    date: 2025-02-23 10:18:29
+(epstopdf)                    size: 98984 bytes
 (epstopdf)             Output file: <fig/AliceDeltaManyLevelB023T01Deg85-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2024-12-17 22:57:11
-(epstopdf)                    size: 27094 bytes
+(epstopdf)                    date: 2025-02-23 10:21:59
+(epstopdf)                    size: 26779 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/AliceDeltaManyLevelB023
 T01Deg85-eps-converted-to.pdf fig/AliceDeltaManyLevelB023T01Deg85.eps>
 (epstopdf)             \includegraphics on input line 819.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.pdf, id=845, 259.97125pt 
-x 181.67876pt>
+<fig/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.pdf, id=839, 259.97125pt 
+x 184.69pt>
 File: fig/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use fig/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.pdf>
 Package pdftex.def Info: fig/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.p
 df used on input line 819.
-(pdftex.def)             Requested size: 298.75697pt x 208.78477pt.
+(pdftex.def)             Requested size: 298.75697pt x 212.24529pt.
 
 
-LaTeX Warning: Float too large for page by 19.0395pt on input line 821.
+LaTeX Warning: Float too large for page by 21.23976pt on input line 821.
 
+Package epstopdf Info: Source file: <fig/AliceDeltaManyLevelB0023T01Deg30.eps>
+(epstopdf)                    date: 2025-02-22 19:08:43
+(epstopdf)                    size: 81161 bytes
+(epstopdf)             Output file: <fig/AliceDeltaManyLevelB0023T01Deg30-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2025-02-22 19:12:51
+(epstopdf)                    size: 22033 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/AliceDeltaManyLevelB002
+3T01Deg30-eps-converted-to.pdf fig/AliceDeltaManyLevelB0023T01Deg30.eps>
+(epstopdf)             \includegraphics on input line 824.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/AliceDeltaManyLevelB0023T01Deg30-eps-converted-to.pdf, id=843, 258.9675pt 
+x 183.68625pt>
+File: fig/AliceDeltaManyLevelB0023T01Deg30-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use fig/AliceDeltaManyLevelB0023T01Deg30-eps-converted-to.pdf>
+Package pdftex.def Info: fig/AliceDeltaManyLevelB0023T01Deg30-eps-converted-to.
+pdf used on input line 824.
+(pdftex.def)             Requested size: 298.75697pt x 211.93262pt.
+Package epstopdf Info: Source file: <fig/AliceDeltaManyLevelB0023T01Deg60.eps>
+(epstopdf)                    date: 2025-02-22 19:10:38
+(epstopdf)                    size: 82826 bytes
+(epstopdf)             Output file: <fig/AliceDeltaManyLevelB0023T01Deg60-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2025-02-22 19:12:52
+(epstopdf)                    size: 22238 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/AliceDeltaManyLevelB002
+3T01Deg60-eps-converted-to.pdf fig/AliceDeltaManyLevelB0023T01Deg60.eps>
+(epstopdf)             \includegraphics on input line 825.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/AliceDeltaManyLevelB0023T01Deg60-eps-converted-to.pdf, id=845, 258.9675pt 
+x 183.68625pt>
+File: fig/AliceDeltaManyLevelB0023T01Deg60-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use fig/AliceDeltaManyLevelB0023T01Deg60-eps-converted-to.pdf>
+Package pdftex.def Info: fig/AliceDeltaManyLevelB0023T01Deg60-eps-converted-to.
+pdf used on input line 825.
+(pdftex.def)             Requested size: 298.75697pt x 211.93262pt.
+Package epstopdf Info: Source file: <fig/AliceDeltaManyLevelB0023T01Deg85.eps>
+(epstopdf)                    date: 2025-02-23 10:20:20
+(epstopdf)                    size: 90536 bytes
+(epstopdf)             Output file: <fig/AliceDeltaManyLevelB0023T01Deg85-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2025-02-23 10:22:00
+(epstopdf)                    size: 23816 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/AliceDeltaManyLevelB002
+3T01Deg85-eps-converted-to.pdf fig/AliceDeltaManyLevelB0023T01Deg85.eps>
+(epstopdf)             \includegraphics on input line 826.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/AliceDeltaManyLevelB0023T01Deg85-eps-converted-to.pdf, id=847, 258.9675pt 
+x 183.68625pt>
+File: fig/AliceDeltaManyLevelB0023T01Deg85-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use fig/AliceDeltaManyLevelB0023T01Deg85-eps-converted-to.pdf>
+Package pdftex.def Info: fig/AliceDeltaManyLevelB0023T01Deg85-eps-converted-to.
+pdf used on input line 826.
+(pdftex.def)             Requested size: 298.75697pt x 211.93262pt.
 Package epstopdf Info: Source file: <fig/CompareMushOs005MushtukovX1Ground.eps>
 
 (epstopdf)                    date: 2024-12-12 15:21:11
@@ -1171,17 +1162,17 @@ converted-to.pdf>
 (epstopdf)                    size: 13190 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/CompareMushOs005Mushtuk
 ovX1Ground-eps-converted-to.pdf fig/CompareMushOs005MushtukovX1Ground.eps>
-(epstopdf)             \includegraphics on input line 826.
+(epstopdf)             \includegraphics on input line 832.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf, id=849, 259.97125p
+<fig/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf, id=851, 259.97125p
 t x 187.70125pt>
 File: fig/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use fig/CompareMushOs005MushtukovX1Ground-eps-converted-to.pdf>
 Package pdftex.def Info: fig/CompareMushOs005MushtukovX1Ground-eps-converted-to
-.pdf used on input line 826.
+.pdf used on input line 832.
 (pdftex.def)             Requested size: 298.75697pt x 215.70583pt.
 Package epstopdf Info: Source file: <fig/CompareMushOs005MushtukovX2Ground.eps>
 
@@ -1193,17 +1184,17 @@ converted-to.pdf>
 (epstopdf)                    size: 13094 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/CompareMushOs005Mushtuk
 ovX2Ground-eps-converted-to.pdf fig/CompareMushOs005MushtukovX2Ground.eps>
-(epstopdf)             \includegraphics on input line 827.
+(epstopdf)             \includegraphics on input line 833.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf, id=851, 259.97125p
+<fig/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf, id=853, 259.97125p
 t x 187.70125pt>
 File: fig/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use fig/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf>
 Package pdftex.def Info: fig/CompareMushOs005MushtukovX2Ground-eps-converted-to
-.pdf used on input line 827.
+.pdf used on input line 833.
 (pdftex.def)             Requested size: 298.75697pt x 215.70583pt.
 Package epstopdf Info: Source file: <fig/CompareMushOs005MushtukovX3Ground.eps>
 
@@ -1215,21 +1206,21 @@ converted-to.pdf>
 (epstopdf)                    size: 13009 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/CompareMushOs005Mushtuk
 ovX3Ground-eps-converted-to.pdf fig/CompareMushOs005MushtukovX3Ground.eps>
-(epstopdf)             \includegraphics on input line 828.
+(epstopdf)             \includegraphics on input line 834.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf, id=853, 259.97125p
+<fig/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf, id=855, 259.97125p
 t x 187.70125pt>
 File: fig/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use fig/CompareMushOs005MushtukovX3Ground-eps-converted-to.pdf>
 Package pdftex.def Info: fig/CompareMushOs005MushtukovX3Ground-eps-converted-to
-.pdf used on input line 828.
+.pdf used on input line 834.
 (pdftex.def)             Requested size: 298.75697pt x 215.70583pt.
 
 
-LaTeX Warning: Float too large for page by 32.88164pt on input line 831.
+LaTeX Warning: Float too large for page by 14.82143pt on input line 837.
 
 Package epstopdf Info: Source file: <fig/CompareMushOs005MushtukovO1Ground.eps>
 
@@ -1241,17 +1232,17 @@ converted-to.pdf>
 (epstopdf)                    size: 12658 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/CompareMushOs005Mushtuk
 ovO1Ground-eps-converted-to.pdf fig/CompareMushOs005MushtukovO1Ground.eps>
-(epstopdf)             \includegraphics on input line 833.
+(epstopdf)             \includegraphics on input line 839.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf, id=857, 259.97125p
+<fig/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf, id=859, 259.97125p
 t x 187.70125pt>
 File: fig/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use fig/CompareMushOs005MushtukovO1Ground-eps-converted-to.pdf>
 Package pdftex.def Info: fig/CompareMushOs005MushtukovO1Ground-eps-converted-to
-.pdf used on input line 833.
+.pdf used on input line 839.
 (pdftex.def)             Requested size: 298.75697pt x 215.70583pt.
 Package epstopdf Info: Source file: <fig/CompareMushOs005MushtukovO2Ground.eps>
 
@@ -1263,17 +1254,17 @@ converted-to.pdf>
 (epstopdf)                    size: 12858 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/CompareMushOs005Mushtuk
 ovO2Ground-eps-converted-to.pdf fig/CompareMushOs005MushtukovO2Ground.eps>
-(epstopdf)             \includegraphics on input line 834.
+(epstopdf)             \includegraphics on input line 840.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf, id=859, 259.97125p
+<fig/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf, id=861, 259.97125p
 t x 187.70125pt>
 File: fig/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use fig/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf>
 Package pdftex.def Info: fig/CompareMushOs005MushtukovO2Ground-eps-converted-to
-.pdf used on input line 834.
+.pdf used on input line 840.
 (pdftex.def)             Requested size: 298.75697pt x 215.70583pt.
 Package epstopdf Info: Source file: <fig/CompareMushOs005MushtukovO3Ground.eps>
 
@@ -1285,60 +1276,74 @@ converted-to.pdf>
 (epstopdf)                    size: 12561 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/CompareMushOs005Mushtuk
 ovO3Ground-eps-converted-to.pdf fig/CompareMushOs005MushtukovO3Ground.eps>
-(epstopdf)             \includegraphics on input line 835.
+(epstopdf)             \includegraphics on input line 841.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf, id=861, 259.97125p
+<fig/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf, id=863, 259.97125p
 t x 187.70125pt>
 File: fig/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use fig/CompareMushOs005MushtukovO3Ground-eps-converted-to.pdf>
 Package pdftex.def Info: fig/CompareMushOs005MushtukovO3Ground-eps-converted-to
-.pdf used on input line 835.
+.pdf used on input line 841.
 (pdftex.def)             Requested size: 298.75697pt x 215.70583pt.
- [46 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Alic
+ [45 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Alic
 eDeltaManyLevelB023T01Deg30-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyD
 isser/DisserYarkov_2024/MyDisser2024/fig/AliceDeltaManyLevelB023T01Deg60-eps-co
 nverted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser20
-24/fig/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.pdf>] [47 <D:/YarGU/Sci
+24/fig/AliceDeltaManyLevelB023T01Deg85-eps-converted-to.pdf>] [46 <D:/YarGU/Sci
+ence/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/AliceDeltaManyLevelB00
+23T01Deg30-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarko
+v_2024/MyDisser2024/fig/AliceDeltaManyLevelB0023T01Deg60-eps-converted-to.pdf> 
+<D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/AliceDelt
+aManyLevelB0023T01Deg85-eps-converted-to.pdf>] [47 <D:/YarGU/Science/Dissere/My
+Disser/DisserYarkov_2024/MyDisser2024/fig/CompareMushOs005MushtukovX1Ground-eps
+-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisse
+r2024/fig/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf> <D:/YarGU/Sci
 ence/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/CompareMushOs005Mushtu
-kovX1Ground-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYark
-ov_2024/MyDisser2024/fig/CompareMushOs005MushtukovX2Ground-eps-converted-to.pdf
-> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Compare
-MushOs005MushtukovX3Ground-eps-converted-to.pdf>] [48 <D:/YarGU/Science/Dissere
-/MyDisser/DisserYarkov_2024/MyDisser2024/fig/CompareMushOs005MushtukovO1Ground-
-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDi
-sser2024/fig/CompareMushOs005MushtukovO2Ground-eps-converted-to.pdf> <D:/YarGU/
-Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/CompareMushOs005Mus
-htukovO3Ground-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 842--843
+kovX3Ground-eps-converted-to.pdf>] [48 <D:/YarGU/Science/Dissere/MyDisser/Disse
+rYarkov_2024/MyDisser2024/fig/CompareMushOs005MushtukovO1Ground-eps-converted-t
+o.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Co
+mpareMushOs005MushtukovO2Ground-eps-converted-to.pdf> <D:/YarGU/Science/Dissere
+/MyDisser/DisserYarkov_2024/MyDisser2024/fig/CompareMushOs005MushtukovO3Ground-
+eps-converted-to.pdf>] [49
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 854--855
 []\T2A/cmr/m/n/14.4 Рассмотрим теперь ситуацию сверхсильного магнитно
 го поля,
  []
 
-[49
-
+[50
 
 ]
-Underfull \hbox (badness 5637) in paragraph at lines 865--868
+Underfull \hbox (badness 5652) in paragraph at lines 877--880
 \T2A/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
-4 x\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 -- функция Хевисайда. [], а
+4 x\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 -- функция Хевисайда, [], а
  []
 
 
-Overfull \hbox (35.435pt too wide) in paragraph at lines 872--873
+Underfull \hbox (badness 2582) in paragraph at lines 884--885
 []\T2A/cmr/m/n/14.4 Воспользовавшись результатами работы [[]], амплиту
-ды $\OMS/cmsy/m/n/14.4 M[]$\T2A/cmr/m/n/14.4 , $\OMS/cmsy/m/n/14.4 M[]$
+ды $\OMS/cmsy/m/n/14.4 M[]$
  []
 
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 903--904
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 915--916
 []\T2A/cmr/m/n/14.4 Парциальные коэффициенты поглощения фотона для ка
 налов
  []
 
-[51] [52]
+[52] [53pdfTeX warning (ext4): destination with the same identifier (name{equat
+ion.1.64}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.961 
+      ]
 Package epstopdf Info: Source file: <fig/Splot112001.eps>
 (epstopdf)                    date: 2024-12-12 15:21:11
 (epstopdf)                    size: 49707 bytes
@@ -1347,15 +1352,15 @@ Package epstopdf Info: Source file: <fig/Splot112001.eps>
 (epstopdf)                    size: 18886 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Splot112001-eps-convert
 ed-to.pdf fig/Splot112001.eps>
-(epstopdf)             \includegraphics on input line 950.
+(epstopdf)             \includegraphics on input line 966.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/Splot112001-eps-converted-to.pdf, id=956, 259.97125pt x 156.585pt>
+<fig/Splot112001-eps-converted-to.pdf, id=995, 259.97125pt x 156.585pt>
 File: fig/Splot112001-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/Splot112001-eps-converted-to.pdf>
 Package pdftex.def Info: fig/Splot112001-eps-converted-to.pdf used on input lin
-e 950.
+e 966.
 (pdftex.def)             Requested size: 398.3401pt x 239.92787pt.
 Package epstopdf Info: Source file: <fig/Splot11201.eps>
 (epstopdf)                    date: 2024-12-12 15:21:11
@@ -1365,15 +1370,15 @@ Package epstopdf Info: Source file: <fig/Splot11201.eps>
 (epstopdf)                    size: 14479 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Splot11201-eps-converte
 d-to.pdf fig/Splot11201.eps>
-(epstopdf)             \includegraphics on input line 956.
+(epstopdf)             \includegraphics on input line 972.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/Splot11201-eps-converted-to.pdf, id=957, 259.97125pt x 156.585pt>
+<fig/Splot11201-eps-converted-to.pdf, id=996, 259.97125pt x 156.585pt>
 File: fig/Splot11201-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/Splot11201-eps-converted-to.pdf>
 Package pdftex.def Info: fig/Splot11201-eps-converted-to.pdf used on input line
- 956.
+ 972.
 (pdftex.def)             Requested size: 398.3401pt x 239.92787pt.
 Package epstopdf Info: Source file: <fig/Splot122001.eps>
 (epstopdf)                    date: 2024-12-12 15:21:11
@@ -1383,15 +1388,15 @@ Package epstopdf Info: Source file: <fig/Splot122001.eps>
 (epstopdf)                    size: 16197 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Splot122001-eps-convert
 ed-to.pdf fig/Splot122001.eps>
-(epstopdf)             \includegraphics on input line 962.
+(epstopdf)             \includegraphics on input line 978.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/Splot122001-eps-converted-to.pdf, id=960, 259.97125pt x 156.585pt>
+<fig/Splot122001-eps-converted-to.pdf, id=999, 259.97125pt x 156.585pt>
 File: fig/Splot122001-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/Splot122001-eps-converted-to.pdf>
 Package pdftex.def Info: fig/Splot122001-eps-converted-to.pdf used on input lin
-e 962.
+e 978.
 (pdftex.def)             Requested size: 398.3401pt x 239.92787pt.
 Package epstopdf Info: Source file: <fig/Splot12201.eps>
 (epstopdf)                    date: 2024-12-12 15:21:11
@@ -1401,192 +1406,154 @@ Package epstopdf Info: Source file: <fig/Splot12201.eps>
 (epstopdf)                    size: 14229 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Splot12201-eps-converte
 d-to.pdf fig/Splot12201.eps>
-(epstopdf)             \includegraphics on input line 968.
+(epstopdf)             \includegraphics on input line 984.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/Splot12201-eps-converted-to.pdf, id=963, 259.97125pt x 156.585pt>
+<fig/Splot12201-eps-converted-to.pdf, id=1002, 259.97125pt x 156.585pt>
 File: fig/Splot12201-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/Splot12201-eps-converted-to.pdf>
 Package pdftex.def Info: fig/Splot12201-eps-converted-to.pdf used on input line
- 968.
+ 984.
 (pdftex.def)             Requested size: 398.3401pt x 239.92787pt.
- [53] [54 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig
+ [54] [55 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig
 /Splot112001-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYar
-kov_2024/MyDisser2024/fig/Splot11201-eps-converted-to.pdf>] [55 <D:/YarGU/Scien
+kov_2024/MyDisser2024/fig/Splot11201-eps-converted-to.pdf>] [56 <D:/YarGU/Scien
 ce/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Splot122001-eps-converte
 d-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig
 /Splot12201-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 978--979
-\T2A/cmr/m/n/14.4 зоне параметров магнитного поля [] и температур
+Overfull \hbox (5.60359pt too wide) in paragraph at lines 996--997
+\T2A/cmr/m/n/14.4 рассеяния, полученного в результате дельта-функци
+онального приближения [[]],
  []
 
-
-Underfull \hbox (badness 5578) in paragraph at lines 980--981
-[]\T2A/cmr/m/n/14.4 Для сильно замагниченной равновесной плазмы при те
-мпературе
- []
-
-) [56
+) [57
 
 ]
 (D:\YarGU\Science\Dissere\MyDisser\DisserYarkov_2024\MyDisser2024\Chapt2.tex
-[57
+[58
 
-] [58]
+] [59]
 Package epstopdf Info: Source file: <fig/PathIntegrateMode1.eps>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 46792 bytes
+(epstopdf)                    date: 2025-02-16 13:30:41
+(epstopdf)                    size: 61268 bytes
 (epstopdf)             Output file: <fig/PathIntegrateMode1-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 19385 bytes
+(epstopdf)                    date: 2025-02-16 13:30:52
+(epstopdf)                    size: 25510 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/PathIntegrateMode1-eps-
 converted-to.pdf fig/PathIntegrateMode1.eps>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/PathIntegrateMode1-eps-converted-to.pdf, id=1029, 275.0275pt x 82.3075pt>
+<fig/PathIntegrateMode1-eps-converted-to.pdf, id=1072, 265.99374pt x 81.30376pt
+>
 File: fig/PathIntegrateMode1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/PathIntegrateMode1-eps-converted-to.pdf>
+ <use fig/PathIntegrateMode1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/PathIntegrateMode1-eps-converted-to.pdf used on in
-put line 66.
-(pdftex.def)             Requested size: 412.54024pt x 123.46092pt.
- [59] [60 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig
+put line 61.
+(pdftex.def)             Requested size: 398.98962pt x 121.9553pt.
+ [60] [61 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig
 /PathIntegrateMode1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/PathIntegrateMode2.eps>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 48921 bytes
+(epstopdf)                    date: 2025-02-16 13:28:32
+(epstopdf)                    size: 62724 bytes
 (epstopdf)             Output file: <fig/PathIntegrateMode2-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 19940 bytes
+(epstopdf)                    date: 2025-02-16 13:28:53
+(epstopdf)                    size: 26049 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/PathIntegrateMode2-eps-
 converted-to.pdf fig/PathIntegrateMode2.eps>
-(epstopdf)             \includegraphics on input line 114.
+(epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/PathIntegrateMode2-eps-converted-to.pdf, id=1069, 275.0275pt x 82.3075pt>
+<fig/PathIntegrateMode2-eps-converted-to.pdf, id=1122, 272.01625pt x 81.30376pt
+>
 File: fig/PathIntegrateMode2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/PathIntegrateMode2-eps-converted-to.pdf>
+ <use fig/PathIntegrateMode2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/PathIntegrateMode2-eps-converted-to.pdf used on in
-put line 114.
-(pdftex.def)             Requested size: 412.54024pt x 123.46092pt.
+put line 116.
+(pdftex.def)             Requested size: 408.02336pt x 121.9553pt.
 
-Overfull \hbox (4.70828pt too wide) in paragraph at lines 118--118
+Overfull \hbox (4.70828pt too wide) in paragraph at lines 120--121
 []\T2A/cmr/m/n/14.4 Контур интегрирования $\OML/cmm/m/it/14.4 C$ \T2A/cmr/
 m/n/14.4 определяется согласно аналитическим свойствам
  []
 
-[61 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/PathI
-ntegrateMode2-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/PathIntegrate3Glmode1.eps>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 46381 bytes
-(epstopdf)             Output file: <fig/PathIntegrate3Glmode1-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 19289 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/PathIntegrate3Glmode1-e
-ps-converted-to.pdf fig/PathIntegrate3Glmode1.eps>
-(epstopdf)             \includegraphics on input line 155.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/PathIntegrate3Glmode1-eps-converted-to.pdf, id=1098, 197.73875pt x 79.2962
-5pt>
-File: fig/PathIntegrate3Glmode1-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/PathIntegrate3Glmode1-eps-converted-to.pdf>
-Package pdftex.def Info: fig/PathIntegrate3Glmode1-eps-converted-to.pdf used on
- input line 155.
-(pdftex.def)             Requested size: 296.60739pt x 118.94405pt.
+[62 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/PathI
+ntegrateMode2-eps-converted-to.pdf>] [63]
 Package epstopdf Info: Source file: <fig/PathIntegrate2Gl.eps>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 47509 bytes
+(epstopdf)                    date: 2025-02-16 13:28:34
+(epstopdf)                    size: 62837 bytes
 (epstopdf)             Output file: <fig/PathIntegrate2Gl-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 19670 bytes
+(epstopdf)                    date: 2025-02-16 13:28:53
+(epstopdf)                    size: 25942 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/PathIntegrate2Gl-eps-co
 nverted-to.pdf fig/PathIntegrate2Gl.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/PathIntegrate2Gl-eps-converted-to.pdf, id=1103, 197.73875pt x 79.29625pt>
+<fig/PathIntegrate2Gl-eps-converted-to.pdf, id=1164, 193.72375pt x 78.2925pt>
 File: fig/PathIntegrate2Gl-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/PathIntegrate2Gl-eps-converted-to.pdf>
 Package pdftex.def Info: fig/PathIntegrate2Gl-eps-converted-to.pdf used on inpu
 t line 167.
-(pdftex.def)             Requested size: 296.60739pt x 118.94405pt.
- [62 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Path
-Integrate3Glmode1-eps-converted-to.pdf>]
-Overfull \hbox (4.14182pt too wide) detected at line 206
+(pdftex.def)             Requested size: 290.5849pt x 117.43845pt.
+ [64 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Path
+Integrate2Gl-eps-converted-to.pdf>]
+Overfull \hbox (4.14182pt too wide) detected at line 208
 [][] []
  []
 
-[63 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/PathI
-ntegrate2Gl-eps-converted-to.pdf>] [64]
-Package epstopdf Info: Source file: <fig/DisperseMode1.eps>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 52659 bytes
-(epstopdf)             Output file: <fig/DisperseMode1-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 14029 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/DisperseMode1-eps-conve
-rted-to.pdf fig/DisperseMode1.eps>
-(epstopdf)             \includegraphics on input line 269.
-Package epstopdf Info: Output file is already uptodate.
+[65] [66pdfTeX warning (ext4): destination with the same identifier (name{equat
+ion.2.25}) has been already used, duplicate ignored
 
-<fig/DisperseMode1-eps-converted-to.pdf, id=1159, 441.65pt x 301.125pt>
-File: fig/DisperseMode1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/DisperseMode1-eps-converted-to.pdf>
-Package pdftex.def Info: fig/DisperseMode1-eps-converted-to.pdf used on input l
-ine 269.
-(pdftex.def)             Requested size: 353.32047pt x 240.90031pt.
- [65] [66 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig
-/DisperseMode1-eps-converted-to.pdf>]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.329 
+      ]
 Package epstopdf Info: Source file: <fig/DisperseMode2.eps>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 58309 bytes
+(epstopdf)                    date: 2025-04-20 10:52:11
+(epstopdf)                    size: 32556 bytes
 (epstopdf)             Output file: <fig/DisperseMode2-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 13919 bytes
+(epstopdf)                    date: 2025-04-20 10:57:30
+(epstopdf)                    size: 13092 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/DisperseMode2-eps-conve
 rted-to.pdf fig/DisperseMode2.eps>
-(epstopdf)             \includegraphics on input line 306.
+(epstopdf)             \includegraphics on input line 335.
 Package epstopdf Info: Output file is already uptodate.
- <fig/DisperseMode2-eps-converted-to.pdf, id=1182, 403.5075pt x 277.035pt>
+
+<fig/DisperseMode2-eps-converted-to.pdf, id=1219, 259.97125pt x 184.69pt>
 File: fig/DisperseMode2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/DisperseMode2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/DisperseMode2-eps-converted-to.pdf used on input l
-ine 306.
-(pdftex.def)             Requested size: 403.50652pt x 277.03432pt.
+ine 335.
+(pdftex.def)             Requested size: 311.96393pt x 221.62686pt.
  [67 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Disp
 erseMode2-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/mode1.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 55006 bytes
-(epstopdf)             Output file: <fig/mode1-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 45865 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/mode1-eps-converted-to.
-pdf fig/mode1.eps>
-(epstopdf)             \includegraphics on input line 316.
+Package epstopdf Info: Source file: <fig/DisperseMode1.eps>
+(epstopdf)                    date: 2025-04-20 10:57:14
+(epstopdf)                    size: 31614 bytes
+(epstopdf)             Output file: <fig/DisperseMode1-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-04-20 10:57:31
+(epstopdf)                    size: 12695 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/DisperseMode1-eps-conve
+rted-to.pdf fig/DisperseMode1.eps>
+(epstopdf)             \includegraphics on input line 369.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/mode1-eps-converted-to.pdf, id=1200, 350.30875pt x 234.8775pt>
-File: fig/mode1-eps-converted-to.pdf Graphic file (type pdf)
+<fig/DisperseMode1-eps-converted-to.pdf, id=1234, 259.97125pt x 184.69pt>
+File: fig/DisperseMode1-eps-converted-to.pdf Graphic file (type pdf)
 
-<use fig/mode1-eps-converted-to.pdf>
-Package pdftex.def Info: fig/mode1-eps-converted-to.pdf used on input line 316.
-
-(pdftex.def)             Requested size: 350.30789pt x 234.87692pt.
- [68 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/mode
-1-eps-converted-to.pdf>]
+<use fig/DisperseMode1-eps-converted-to.pdf>
+Package pdftex.def Info: fig/DisperseMode1-eps-converted-to.pdf used on input l
+ine 369.
+(pdftex.def)             Requested size: 311.96393pt x 221.62686pt.
+ [68 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Disp
+erseMode1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/mode2.eps>
 (epstopdf)                    date: 2024-12-12 15:21:12
 (epstopdf)                    size: 57408 bytes
@@ -1595,370 +1562,333 @@ Package epstopdf Info: Source file: <fig/mode2.eps>
 (epstopdf)                    size: 17930 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/mode2-eps-converted-to.
 pdf fig/mode2.eps>
-(epstopdf)             \includegraphics on input line 326.
+(epstopdf)             \includegraphics on input line 377.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/mode2-eps-converted-to.pdf, id=1216, 353.32pt x 234.8775pt>
+<fig/mode2-eps-converted-to.pdf, id=1248, 353.32pt x 234.8775pt>
 File: fig/mode2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/mode2-eps-converted-to.pdf>
-Package pdftex.def Info: fig/mode2-eps-converted-to.pdf used on input line 326.
+Package pdftex.def Info: fig/mode2-eps-converted-to.pdf used on input line 377.
 
-(pdftex.def)             Requested size: 353.31914pt x 234.87692pt.
+(pdftex.def)             Requested size: 282.65639pt x 187.90225pt.
  [69 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/mode
 2-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/CompareDampAndCompton.eps>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 37473 bytes
-(epstopdf)             Output file: <fig/CompareDampAndCompton-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2024-12-12 15:21:11
-(epstopdf)                    size: 14052 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/CompareDampAndCompton-e
-ps-converted-to.pdf fig/CompareDampAndCompton.eps>
-(epstopdf)             \includegraphics on input line 341.
+Package epstopdf Info: Source file: <fig/mode1.eps>
+(epstopdf)                    date: 2024-12-12 15:21:12
+(epstopdf)                    size: 55006 bytes
+(epstopdf)             Output file: <fig/mode1-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-12-12 15:21:12
+(epstopdf)                    size: 45865 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/mode1-eps-converted-to.
+pdf fig/mode1.eps>
+(epstopdf)             \includegraphics on input line 397.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/CompareDampAndCompton-eps-converted-to.pdf, id=1228, 414.54875pt x 270.008
-74pt>
+<fig/mode1-eps-converted-to.pdf, id=1268, 350.30875pt x 234.8775pt>
+File: fig/mode1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/mode1-eps-converted-to.pdf>
+Package pdftex.def Info: fig/mode1-eps-converted-to.pdf used on input line 397.
+
+(pdftex.def)             Requested size: 280.24738pt x 187.90225pt.
+Package epstopdf Info: Source file: <fig/CompareDampAndCompton.eps>
+(epstopdf)                    date: 2025-02-24 14:40:24
+(epstopdf)                    size: 39659 bytes
+(epstopdf)             Output file: <fig/CompareDampAndCompton-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2025-02-24 14:40:36
+(epstopdf)                    size: 15166 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/CompareDampAndCompton-e
+ps-converted-to.pdf fig/CompareDampAndCompton.eps>
+(epstopdf)             \includegraphics on input line 404.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/CompareDampAndCompton-eps-converted-to.pdf, id=1271, 259.97125pt x 175.656
+25pt>
 File: fig/CompareDampAndCompton-eps-converted-to.pdf Graphic file (type pdf)
  <use fig/CompareDampAndCompton-eps-converted-to.pdf>
 Package pdftex.def Info: fig/CompareDampAndCompton-eps-converted-to.pdf used on
- input line 341.
-(pdftex.def)             Requested size: 414.54773pt x 270.00807pt.
-) [70]
-(D:\YarGU\Science\Dissere\MyDisser\DisserYarkov_2024\MyDisser2024\Chapt3.tex
-[71 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Compa
-reDampAndCompton-eps-converted-to.pdf>] [72
+ input line 404.
+(pdftex.def)             Requested size: 337.96259pt x 228.35307pt.
+Package epstopdf Info: Source file: <fig/CompareDampAndCompton2.eps>
+(epstopdf)                    date: 2025-02-24 14:39:00
+(epstopdf)                    size: 45696 bytes
+(epstopdf)             Output file: <fig/CompareDampAndCompton2-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2025-02-24 14:39:20
+(epstopdf)                    size: 16974 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/CompareDampAndCompton2-
+eps-converted-to.pdf fig/CompareDampAndCompton2.eps>
+(epstopdf)             \includegraphics on input line 408.
+Package epstopdf Info: Output file is already uptodate.
 
-] [73] [74]
-Overfull \hbox (11.36847pt too wide) detected at line 70
+<fig/CompareDampAndCompton2-eps-converted-to.pdf, id=1272, 257.96375pt x 168.63
+pt>
+File: fig/CompareDampAndCompton2-eps-converted-to.pdf Graphic file (type pdf)
+ <use fig/CompareDampAndCompton2-eps-converted-to.pdf>
+Package pdftex.def Info: fig/CompareDampAndCompton2-eps-converted-to.pdf used o
+n input line 408.
+(pdftex.def)             Requested size: 335.35281pt x 219.21896pt.
+ [70 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/mode
+1-eps-converted-to.pdf>] [71 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_20
+24/MyDisser2024/fig/CompareDampAndCompton-eps-converted-to.pdf> <D:/YarGU/Scien
+ce/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/CompareDampAndCompton2-e
+ps-converted-to.pdf>]
+[72
+
+]) [73]
+(D:\YarGU\Science\Dissere\MyDisser\DisserYarkov_2024\MyDisser2024\Chapt3.tex
+[74
+
+] [75] [76]
+Overfull \hbox (11.36847pt too wide) detected at line 86
 [][] []
  []
 
-[75pdfTeX warning (ext4): destination with the same identifier (name{equation.3
-.3}) has been already used, duplicate ignored
+[77]
+Underfull \hbox (badness 6944) in paragraph at lines 126--128
+\T2A/cmr/m/n/14.4 Ландау, для двух возможных поляризационных состоя
+ний электрона.
+ []
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.81 \newpage
-             ] [76] [77] [78] [79] [80]
-Underfull \hbox (badness 10000) in paragraph at lines 538--539
+[78] [79]
+Overfull \hbox (23.36372pt too wide) in paragraph at lines 217--219
+\T2A/cmr/m/n/14.4 получим следующую систему уравнений для нахождения 
+коэффициентов $[][]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 s; !\OT1/cmr/m/n/
+14.4 )$\T2A/cmr/m/n/14.4 : 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
+
+ []
+
+[80] [81] [82]
+Underfull \hbox (badness 6001) in paragraph at lines 547--549
+\T2A/cmr/m/n/14.4 которая для рассматриваемых магнитных полей и темпе
+ратур имеет
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
 []\T2A/cmr/m/n/14.4 В качестве иллюстрации выберем величины магнитн
 ого
  []
 
-[81] [82] [83]
-Package epstopdf Info: Source file: <fig/TransfMode1z24cmx90.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 109022 bytes
-(epstopdf)             Output file: <fig/TransfMode1z24cmx90-eps-converted-to.p
-df>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 30880 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode1z24cmx90-eps
--converted-to.pdf fig/TransfMode1z24cmx90.eps>
-(epstopdf)             \includegraphics on input line 576.
-Package epstopdf Info: Output file is already uptodate.
 
-<fig/TransfMode1z24cmx90-eps-converted-to.pdf, id=1395, 356.33125pt x 211.79124
-pt>
-File: fig/TransfMode1z24cmx90-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode1z24cmx90-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode1z24cmx90-eps-converted-to.pdf used on i
-nput line 576.
-(pdftex.def)             Requested size: 497.92325pt x 295.9628pt.
-Package epstopdf Info: Source file: <fig/TransfMode1z120cmx90.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 94823 bytes
-(epstopdf)             Output file: <fig/TransfMode1z120cmx90-eps-converted-to.
+Underfull \hbox (badness 3168) in paragraph at lines 559--561
+\T2A/cmr/m/n/14.4 энергий фотона вносит изменение в функцию распреде
+ления. Поэтому
+ []
+
+[83] [84] [85]
+Package epstopdf Info: Source file: <fig/TransfMode1z5acmxAll.eps>
+(epstopdf)                    date: 2025-04-13 20:59:36
+(epstopdf)                    size: 56765 bytes
+(epstopdf)             Output file: <fig/TransfMode1z5acmxAll-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 26550 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode1z120cmx90-ep
-s-converted-to.pdf fig/TransfMode1z120cmx90.eps>
-(epstopdf)             \includegraphics on input line 581.
+(epstopdf)                    date: 2025-04-14 22:08:42
+(epstopdf)                    size: 19957 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode1z5acmxAll-ep
+s-converted-to.pdf fig/TransfMode1z5acmxAll.eps>
+(epstopdf)             \includegraphics on input line 597.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/TransfMode1z120cmx90-eps-converted-to.pdf, id=1401, 356.33125pt x 218.8175
-pt>
-File: fig/TransfMode1z120cmx90-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode1z120cmx90-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode1z120cmx90-eps-converted-to.pdf used on 
-input line 581.
-(pdftex.def)             Requested size: 497.92325pt x 305.78146pt.
-Package epstopdf Info: Source file: <fig/TransfMode1z240cmx90.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 116402 bytes
-(epstopdf)             Output file: <fig/TransfMode1z240cmx90-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 32434 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode1z240cmx90-ep
-s-converted-to.pdf fig/TransfMode1z240cmx90.eps>
-(epstopdf)             \includegraphics on input line 586.
-Package epstopdf Info: Output file is already uptodate.
+<fig/TransfMode1z5acmxAll-eps-converted-to.pdf, id=1463, 415.5525pt x 240.9pt>
+File: fig/TransfMode1z5acmxAll-eps-converted-to.pdf Graphic file (type pdf)
 
-<fig/TransfMode1z240cmx90-eps-converted-to.pdf, id=1407, 393.47pt x 236.885pt>
-File: fig/TransfMode1z240cmx90-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/TransfMode1z240cmx90-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode1z240cmx90-eps-converted-to.pdf used on 
-input line 586.
-(pdftex.def)             Requested size: 497.92325pt x 299.76707pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z24cmx0.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 87517 bytes
-(epstopdf)             Output file: <fig/TransfMode2z24cmx0-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 24370 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z24cmx0-eps-
-converted-to.pdf fig/TransfMode2z24cmx0.eps>
-(epstopdf)             \includegraphics on input line 592.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/TransfMode2z24cmx0-eps-converted-to.pdf, id=1413, 394.47375pt x 234.8775pt
->
-File: fig/TransfMode2z24cmx0-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z24cmx0-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z24cmx0-eps-converted-to.pdf used on in
-put line 592.
-(pdftex.def)             Requested size: 497.92325pt x 296.47404pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z24cmx30.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 88695 bytes
-(epstopdf)             Output file: <fig/TransfMode2z24cmx30-eps-converted-to.p
-df>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 24693 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z24cmx30-eps
--converted-to.pdf fig/TransfMode2z24cmx30.eps>
-(epstopdf)             \includegraphics on input line 593.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/TransfMode2z24cmx30-eps-converted-to.pdf, id=1415, 396.48125pt x 236.885pt
->
-File: fig/TransfMode2z24cmx30-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z24cmx30-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z24cmx30-eps-converted-to.pdf used on i
-nput line 593.
-(pdftex.def)             Requested size: 497.92325pt x 297.50073pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z24cmx60.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 93477 bytes
-(epstopdf)             Output file: <fig/TransfMode2z24cmx60-eps-converted-to.p
-df>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 26195 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z24cmx60-eps
--converted-to.pdf fig/TransfMode2z24cmx60.eps>
+<use fig/TransfMode1z5acmxAll-eps-converted-to.pdf>
+Package pdftex.def Info: fig/TransfMode1z5acmxAll-eps-converted-to.pdf used on 
+input line 597.
+(pdftex.def)             Requested size: 497.92325pt x 288.66316pt.
+Package epstopdf Info: Source file: <fig/TransfMode1z10acmxAll.eps>
+(epstopdf)                    date: 2025-04-14 21:21:53
+(epstopdf)                    size: 56836 bytes
+(epstopdf)             Output file: <fig/TransfMode1z10acmxAll-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2025-04-14 22:08:43
+(epstopdf)                    size: 20183 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode1z10acmxAll-e
+ps-converted-to.pdf fig/TransfMode1z10acmxAll.eps>
 (epstopdf)             \includegraphics on input line 598.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/TransfMode2z24cmx60-eps-converted-to.pdf, id=1421, 398.48875pt x 237.88875
-pt>
-File: fig/TransfMode2z24cmx60-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z24cmx60-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z24cmx60-eps-converted-to.pdf used on i
-nput line 598.
-(pdftex.def)             Requested size: 497.92325pt x 297.26218pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z24cmx90.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 88397 bytes
-(epstopdf)             Output file: <fig/TransfMode2z24cmx90-eps-converted-to.p
-df>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 25251 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z24cmx90-eps
--converted-to.pdf fig/TransfMode2z24cmx90.eps>
-(epstopdf)             \includegraphics on input line 599.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/TransfMode2z24cmx90-eps-converted-to.pdf, id=1423, 356.33125pt x 211.79124
-pt>
-File: fig/TransfMode2z24cmx90-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z24cmx90-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z24cmx90-eps-converted-to.pdf used on i
-nput line 599.
-(pdftex.def)             Requested size: 497.92325pt x 295.9628pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z120cmx0.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 85063 bytes
-(epstopdf)             Output file: <fig/TransfMode2z120cmx0-eps-converted-to.p
-df>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 24371 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z120cmx0-eps
--converted-to.pdf fig/TransfMode2z120cmx0.eps>
-(epstopdf)             \includegraphics on input line 604.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/TransfMode2z120cmx0-eps-converted-to.pdf, id=1429, 356.33125pt x 218.8175p
-t>
-File: fig/TransfMode2z120cmx0-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z120cmx0-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z120cmx0-eps-converted-to.pdf used on i
-nput line 604.
-(pdftex.def)             Requested size: 497.92325pt x 305.78146pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z120cmx30.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 85293 bytes
-(epstopdf)             Output file: <fig/TransfMode2z120cmx30-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 24293 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z120cmx30-ep
-s-converted-to.pdf fig/TransfMode2z120cmx30.eps>
+<fig/TransfMode1z10acmxAll-eps-converted-to.pdf, id=1465, 415.5525pt x 240.9pt>
+File: fig/TransfMode1z10acmxAll-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/TransfMode1z10acmxAll-eps-converted-to.pdf>
+Package pdftex.def Info: fig/TransfMode1z10acmxAll-eps-converted-to.pdf used on
+ input line 598.
+(pdftex.def)             Requested size: 497.92325pt x 288.66316pt.
+Package epstopdf Info: Source file: <fig/TransfMode2z5acmx0.eps>
+(epstopdf)                    date: 2025-04-14 22:21:51
+(epstopdf)                    size: 56521 bytes
+(epstopdf)             Output file: <fig/TransfMode2z5acmx0-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2025-04-14 22:23:46
+(epstopdf)                    size: 20339 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z5acmx0-eps-
+converted-to.pdf fig/TransfMode2z5acmx0.eps>
 (epstopdf)             \includegraphics on input line 605.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/TransfMode2z120cmx30-eps-converted-to.pdf, id=1431, 356.33125pt x 218.8175
-pt>
-File: fig/TransfMode2z120cmx30-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z120cmx30-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z120cmx30-eps-converted-to.pdf used on 
-input line 605.
-(pdftex.def)             Requested size: 497.92325pt x 305.78146pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z120cmx60.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 83848 bytes
-(epstopdf)             Output file: <fig/TransfMode2z120cmx60-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 23788 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z120cmx60-ep
-s-converted-to.pdf fig/TransfMode2z120cmx60.eps>
-(epstopdf)             \includegraphics on input line 610.
+<fig/TransfMode2z5acmx0-eps-converted-to.pdf, id=1471, 415.5525pt x 240.9pt>
+File: fig/TransfMode2z5acmx0-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/TransfMode2z5acmx0-eps-converted-to.pdf>
+Package pdftex.def Info: fig/TransfMode2z5acmx0-eps-converted-to.pdf used on in
+put line 605.
+(pdftex.def)             Requested size: 497.92325pt x 288.66316pt.
+Package epstopdf Info: Source file: <fig/TransfMode2z5acmx30.eps>
+(epstopdf)                    date: 2025-04-14 22:28:44
+(epstopdf)                    size: 56981 bytes
+(epstopdf)             Output file: <fig/TransfMode2z5acmx30-eps-converted-to.p
+df>
+(epstopdf)                    date: 2025-04-14 22:29:10
+(epstopdf)                    size: 20399 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z5acmx30-eps
+-converted-to.pdf fig/TransfMode2z5acmx30.eps>
+(epstopdf)             \includegraphics on input line 606.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/TransfMode2z120cmx60-eps-converted-to.pdf, id=1437, 356.33125pt x 218.8175
-pt>
-File: fig/TransfMode2z120cmx60-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z120cmx60-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z120cmx60-eps-converted-to.pdf used on 
-input line 610.
-(pdftex.def)             Requested size: 497.92325pt x 305.78146pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z120cmx90.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 84422 bytes
-(epstopdf)             Output file: <fig/TransfMode2z120cmx90-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 24115 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z120cmx90-ep
-s-converted-to.pdf fig/TransfMode2z120cmx90.eps>
+<fig/TransfMode2z5acmx30-eps-converted-to.pdf, id=1473, 415.5525pt x 240.9pt>
+File: fig/TransfMode2z5acmx30-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/TransfMode2z5acmx30-eps-converted-to.pdf>
+Package pdftex.def Info: fig/TransfMode2z5acmx30-eps-converted-to.pdf used on i
+nput line 606.
+(pdftex.def)             Requested size: 497.92325pt x 288.66316pt.
+Package epstopdf Info: Source file: <fig/TransfMode2z5acmx60.eps>
+(epstopdf)                    date: 2025-04-14 22:21:53
+(epstopdf)                    size: 53472 bytes
+(epstopdf)             Output file: <fig/TransfMode2z5acmx60-eps-converted-to.p
+df>
+(epstopdf)                    date: 2025-04-14 22:23:46
+(epstopdf)                    size: 19132 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z5acmx60-eps
+-converted-to.pdf fig/TransfMode2z5acmx60.eps>
 (epstopdf)             \includegraphics on input line 611.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/TransfMode2z120cmx90-eps-converted-to.pdf, id=1439, 356.33125pt x 218.8175
-pt>
-File: fig/TransfMode2z120cmx90-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z120cmx90-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z120cmx90-eps-converted-to.pdf used on 
-input line 611.
-(pdftex.def)             Requested size: 497.92325pt x 305.78146pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z240cmx0.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 87547 bytes
-(epstopdf)             Output file: <fig/TransfMode2z240cmx0-eps-converted-to.p
+<fig/TransfMode2z5acmx60-eps-converted-to.pdf, id=1479, 415.5525pt x 240.9pt>
+File: fig/TransfMode2z5acmx60-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/TransfMode2z5acmx60-eps-converted-to.pdf>
+Package pdftex.def Info: fig/TransfMode2z5acmx60-eps-converted-to.pdf used on i
+nput line 611.
+(pdftex.def)             Requested size: 497.92325pt x 288.66316pt.
+Package epstopdf Info: Source file: <fig/TransfMode2z5acmx90.eps>
+(epstopdf)                    date: 2025-04-14 22:21:53
+(epstopdf)                    size: 55080 bytes
+(epstopdf)             Output file: <fig/TransfMode2z5acmx90-eps-converted-to.p
 df>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 24795 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z240cmx0-eps
--converted-to.pdf fig/TransfMode2z240cmx0.eps>
-(epstopdf)             \includegraphics on input line 616.
+(epstopdf)                    date: 2025-04-14 22:23:47
+(epstopdf)                    size: 19953 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z5acmx90-eps
+-converted-to.pdf fig/TransfMode2z5acmx90.eps>
+(epstopdf)             \includegraphics on input line 612.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/TransfMode2z240cmx0-eps-converted-to.pdf, id=1445, 387.4475pt x 238.8925pt
->
-File: fig/TransfMode2z240cmx0-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z240cmx0-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z240cmx0-eps-converted-to.pdf used on i
-nput line 616.
-(pdftex.def)             Requested size: 497.92325pt x 307.01341pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z240cmx30.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 85733 bytes
-(epstopdf)             Output file: <fig/TransfMode2z240cmx30-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 24157 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z240cmx30-ep
-s-converted-to.pdf fig/TransfMode2z240cmx30.eps>
+<fig/TransfMode2z5acmx90-eps-converted-to.pdf, id=1481, 415.5525pt x 240.9pt>
+File: fig/TransfMode2z5acmx90-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/TransfMode2z5acmx90-eps-converted-to.pdf>
+Package pdftex.def Info: fig/TransfMode2z5acmx90-eps-converted-to.pdf used on i
+nput line 612.
+(pdftex.def)             Requested size: 497.92325pt x 288.66316pt.
+Package epstopdf Info: Source file: <fig/TransfMode2z10acmx0.eps>
+(epstopdf)                    date: 2025-04-14 21:52:08
+(epstopdf)                    size: 60499 bytes
+(epstopdf)             Output file: <fig/TransfMode2z10acmx0-eps-converted-to.p
+df>
+(epstopdf)                    date: 2025-04-14 22:10:01
+(epstopdf)                    size: 21769 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z10acmx0-eps
+-converted-to.pdf fig/TransfMode2z10acmx0.eps>
 (epstopdf)             \includegraphics on input line 617.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/TransfMode2z240cmx30-eps-converted-to.pdf, id=1447, 383.4325pt x 235.88126
-pt>
-File: fig/TransfMode2z240cmx30-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z240cmx30-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z240cmx30-eps-converted-to.pdf used on 
-input line 617.
-(pdftex.def)             Requested size: 497.92325pt x 306.33246pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z240cmx60.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 99717 bytes
-(epstopdf)             Output file: <fig/TransfMode2z240cmx60-eps-converted-to.
+<fig/TransfMode2z10acmx0-eps-converted-to.pdf, id=1487, 415.5525pt x 240.9pt>
+File: fig/TransfMode2z10acmx0-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/TransfMode2z10acmx0-eps-converted-to.pdf>
+Package pdftex.def Info: fig/TransfMode2z10acmx0-eps-converted-to.pdf used on i
+nput line 617.
+(pdftex.def)             Requested size: 497.92325pt x 288.66316pt.
+Package epstopdf Info: Source file: <fig/TransfMode2z10acmx30.eps>
+(epstopdf)                    date: 2025-04-14 21:52:56
+(epstopdf)                    size: 58360 bytes
+(epstopdf)             Output file: <fig/TransfMode2z10acmx30-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 28314 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z240cmx60-ep
-s-converted-to.pdf fig/TransfMode2z240cmx60.eps>
-(epstopdf)             \includegraphics on input line 622.
+(epstopdf)                    date: 2025-04-14 22:10:02
+(epstopdf)                    size: 21054 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z10acmx30-ep
+s-converted-to.pdf fig/TransfMode2z10acmx30.eps>
+(epstopdf)             \includegraphics on input line 618.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/TransfMode2z240cmx60-eps-converted-to.pdf, id=1453, 391.4625pt x 235.88126
-pt>
-File: fig/TransfMode2z240cmx60-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z240cmx60-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z240cmx60-eps-converted-to.pdf used on 
-input line 622.
-(pdftex.def)             Requested size: 497.92325pt x 300.04816pt.
-Package epstopdf Info: Source file: <fig/TransfMode2z240cmx90.eps>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 92235 bytes
-(epstopdf)             Output file: <fig/TransfMode2z240cmx90-eps-converted-to.
+<fig/TransfMode2z10acmx30-eps-converted-to.pdf, id=1489, 415.5525pt x 240.9pt>
+File: fig/TransfMode2z10acmx30-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/TransfMode2z10acmx30-eps-converted-to.pdf>
+Package pdftex.def Info: fig/TransfMode2z10acmx30-eps-converted-to.pdf used on 
+input line 618.
+(pdftex.def)             Requested size: 497.92325pt x 288.66316pt.
+Package epstopdf Info: Source file: <fig/TransfMode2z10acmx60.eps>
+(epstopdf)                    date: 2025-04-14 21:53:31
+(epstopdf)                    size: 67891 bytes
+(epstopdf)             Output file: <fig/TransfMode2z10acmx60-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2024-12-12 15:21:12
-(epstopdf)                    size: 26084 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z240cmx90-ep
-s-converted-to.pdf fig/TransfMode2z240cmx90.eps>
+(epstopdf)                    date: 2025-04-14 22:10:03
+(epstopdf)                    size: 23824 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z10acmx60-ep
+s-converted-to.pdf fig/TransfMode2z10acmx60.eps>
 (epstopdf)             \includegraphics on input line 623.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/TransfMode2z240cmx90-eps-converted-to.pdf, id=1455, 388.45125pt x 238.8925
-pt>
-File: fig/TransfMode2z240cmx90-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/TransfMode2z240cmx90-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TransfMode2z240cmx90-eps-converted-to.pdf used on 
+<fig/TransfMode2z10acmx60-eps-converted-to.pdf, id=1495, 415.5525pt x 240.9pt>
+File: fig/TransfMode2z10acmx60-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/TransfMode2z10acmx60-eps-converted-to.pdf>
+Package pdftex.def Info: fig/TransfMode2z10acmx60-eps-converted-to.pdf used on 
 input line 623.
-(pdftex.def)             Requested size: 497.92325pt x 306.22606pt.
- [84 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Tran
-sfMode1z24cmx90-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/Disser
-Yarkov_2024/MyDisser2024/fig/TransfMode1z120cmx90-eps-converted-to.pdf>] [85 <D
-:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/TransfMode1
-z240cmx90-eps-converted-to.pdf>] [86 <D:/YarGU/Science/Dissere/MyDisser/DisserY
-arkov_2024/MyDisser2024/fig/TransfMode2z24cmx0-eps-converted-to.pdf> <D:/YarGU/
-Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/TransfMode2z24cmx30
--eps-converted-to.pdf>]
-[87 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Trans
-fMode2z24cmx60-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserY
-arkov_2024/MyDisser2024/fig/TransfMode2z24cmx90-eps-converted-to.pdf>] [88 <D:/
-YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/TransfMode2z1
-20cmx0-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_20
-24/MyDisser2024/fig/TransfMode2z120cmx30-eps-converted-to.pdf>] [89 <D:/YarGU/S
-cience/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/TransfMode2z120cmx60
--eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyD
-isser2024/fig/TransfMode2z120cmx90-eps-converted-to.pdf>] [90 <D:/YarGU/Science
-/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/TransfMode2z240cmx0-eps-co
+(pdftex.def)             Requested size: 497.92325pt x 288.66316pt.
+Package epstopdf Info: Source file: <fig/TransfMode2z10acmx90.eps>
+(epstopdf)                    date: 2025-04-14 21:54:40
+(epstopdf)                    size: 63791 bytes
+(epstopdf)             Output file: <fig/TransfMode2z10acmx90-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2025-04-14 22:10:04
+(epstopdf)                    size: 23023 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TransfMode2z10acmx90-ep
+s-converted-to.pdf fig/TransfMode2z10acmx90.eps>
+(epstopdf)             \includegraphics on input line 624.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/TransfMode2z10acmx90-eps-converted-to.pdf, id=1497, 415.5525pt x 240.9pt>
+File: fig/TransfMode2z10acmx90-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/TransfMode2z10acmx90-eps-converted-to.pdf>
+Package pdftex.def Info: fig/TransfMode2z10acmx90-eps-converted-to.pdf used on 
+input line 624.
+(pdftex.def)             Requested size: 497.92325pt x 288.66316pt.
+ [86 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/Tran
+sfMode1z5acmxAll-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/Disse
+rYarkov_2024/MyDisser2024/fig/TransfMode1z10acmxAll-eps-converted-to.pdf>] [87 
+<D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/TransfMod
+e2z5acmx0-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov
+_2024/MyDisser2024/fig/TransfMode2z5acmx30-eps-converted-to.pdf>] [88 <D:/YarGU
+/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/TransfMode2z5acmx6
+0-eps-converted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/My
+Disser2024/fig/TransfMode2z5acmx90-eps-converted-to.pdf>] [89 <D:/YarGU/Science
+/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/TransfMode2z10acmx0-eps-co
 nverted-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser20
-24/fig/TransfMode2z240cmx30-eps-converted-to.pdf>] [91 <D:/YarGU/Science/Disser
-e/MyDisser/DisserYarkov_2024/MyDisser2024/fig/TransfMode2z240cmx60-eps-converte
+24/fig/TransfMode2z10acmx30-eps-converted-to.pdf>] [90 <D:/YarGU/Science/Disser
+e/MyDisser/DisserYarkov_2024/MyDisser2024/fig/TransfMode2z10acmx60-eps-converte
 d-to.pdf> <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig
-/TransfMode2z240cmx90-eps-converted-to.pdf>])
+/TransfMode2z10acmx90-eps-converted-to.pdf>])
 (D:\YarGU\Science\Dissere\MyDisser\DisserYarkov_2024\MyDisser2024\concl.tex
-[92
+[91
 
 ]
 Overfull \hbox (10.97958pt too wide) in paragraph at lines 15--16
@@ -1966,21 +1896,21 @@ Overfull \hbox (10.97958pt too wide) in paragraph at lines 15--16
 я для нахождения функ
  []
 
-[93
+[92
 
 ])
 (D:\YarGU\Science\Dissere\MyDisser\DisserYarkov_2024\MyDisser2024\App1.tex
-[94]
+[93]
 Overfull \hbox (1.20026pt too wide) in paragraph at lines 12--13
 []\T2A/cmr/m/n/14.4 Решения уравнения ([][]А.1[][]) имеют достаточно гро
 моздкий вид. Поэтому удоб
  []
 
-[95
+[94
 
-] [96])
+] [95])
 (D:\YarGU\Science\Dissere\MyDisser\DisserYarkov_2024\MyDisser2024\App2.tex
-[97]
+[96]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
@@ -1997,20 +1927,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-[98
+[97
 
-] [99])
+] [98])
 (D:\YarGU\Science\Dissere\MyDisser\DisserYarkov_2024\MyDisser2024\App3.tex
-[100] [101
+[99] [100
 
-] [102]
+] [101]
 Overfull \hbox (4.37819pt too wide) in paragraph at lines 194--197
 []\T2A/cmr/m/n/14.4 Соответствующие собственные значения в приближениях
  $\OML/cmm/m/it/14.4 O\OT1/cmr/m/n/14.4 (1\OML/cmm/m/it/14.4 =[]\OT1/cmr/m/n/1
 4.4 )$ \T2A/cmr/m/n/14.4 для $\OMS/cmsy/m/n/14.4 P[]$
  []
 
-[103]
+[102]
 Package epstopdf Info: Source file: <fig/fig2_1.eps>
 (epstopdf)                    date: 2024-12-12 15:21:12
 (epstopdf)                    size: 176422 bytes
@@ -2021,14 +1951,14 @@ Package epstopdf Info: Source file: <fig/fig2_1.eps>
 .pdf fig/fig2_1.eps>
 (epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
- <fig/fig2_1-eps-converted-to.pdf, id=1690, 286.06876pt x 180.675pt>
+ <fig/fig2_1-eps-converted-to.pdf, id=1703, 286.06876pt x 180.675pt>
 File: fig/fig2_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/fig2_1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/fig2_1-eps-converted-to.pdf used on input line 254
 .
 (pdftex.def)             Requested size: 426.79134pt x 269.55618pt.
- [104] [105 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/f
+ [103] [104 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/f
 ig/fig2_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/fig2_2.eps>
 (epstopdf)                    date: 2024-12-12 15:21:12
@@ -2041,46 +1971,43 @@ Package epstopdf Info: Source file: <fig/fig2_2.eps>
 (epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/fig2_2-eps-converted-to.pdf, id=1740, 286.06876pt x 180.675pt>
+<fig/fig2_2-eps-converted-to.pdf, id=1750, 286.06876pt x 180.675pt>
 File: fig/fig2_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/fig2_2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/fig2_2-eps-converted-to.pdf used on input line 293
 .
 (pdftex.def)             Requested size: 426.79134pt x 269.55618pt.
- [106 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/fig
+ [105 <D:/YarGU/Science/Dissere/MyDisser/DisserYarkov_2024/MyDisser2024/fig/fig
 2_2-eps-converted-to.pdf>])
 No file thesis.nls.
 (D:\YarGU\Science\Dissere\MyDisser\DisserYarkov_2024\MyDisser2024\thesis.bbl
-[107] [108
+[106] [107
 
-] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118]
-[119] [120] [121])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
- [122]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+] [108] [109] [110] [111] [112] [113] [114] [115] [116] [117]
+[118] [119])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+ [120]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
 
 (D:\YarGU\Science\Dissere\MyDisser\DisserYarkov_2024\MyDisser2024\thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3BAAC51D592FB5FE8FEDA5D94D35D434;8320.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 6E8D5299EEBBA8BFE6BFF4DC3DD3F37D;8280.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12902 strings out of 494045
- 196385 string characters out of 3145973
- 320833 words of memory out of 3000000
- 15299 multiletter control sequences out of 15000+200000
+ 12879 strings out of 494045
+ 195709 string characters out of 3145973
+ 323821 words of memory out of 3000000
+ 15278 multiletter control sequences out of 15000+200000
  31353 words of font info for 94 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,15n,40p,4651b,1136s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,15n,40p,5061b,1098s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
@@ -2108,17 +2035,17 @@ ublic/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/cm-super/sfbx1440.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/cm-super/sfbx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/cm-super/sfbx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-cm-super/sfrm0600.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-
-super/sfrm0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-sup
-er/sfrm0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/
-sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
-m1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm14
-40.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1728.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on thesis.pdf (122 pages, 2089295 bytes).
+cm-super/sfrm0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-
+super/sfrm0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-sup
+er/sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/
+sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
+m1440.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm17
+28.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2074.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1440.pfb
+>
+Output written on thesis.pdf (120 pages, 1992459 bytes).
 PDF statistics:
- 2075 PDF objects out of 2487 (max. 8388607)
+ 2074 PDF objects out of 2487 (max. 8388607)
  534 named destinations out of 1000 (max. 500000)
- 686 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 658 words of extra memory for PDF output out of 10000 (max. 10000000)
 

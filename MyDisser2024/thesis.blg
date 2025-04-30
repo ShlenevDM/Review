@@ -10,27 +10,39 @@ Reallocated global_strs (elt_size=1001) to 10 items from 0.
 Reallocated glb_str_end (elt_size=4) to 10 items from 0.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 13007 items from 5000.
-Database file #1: disser2.bib
-Repeated entry---line 2601 of file disser2.bib
- : @article{Pavlov:1991
- :                     ,
+Reallocated field_info (elt_size=4) to 12650 items from 5000.
+Database file #1: disser2Clear.bib
+You're missing a field name---line 2144 of file disser2Clear.bib
+ : 
+ : % author = {{Walt}, Martin},
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2612 of file disser2.bib
- : @article{Baier:2007
- :                    ,
+You're missing a field name---line 2275 of file disser2Clear.bib
+ : 
+ : %      author         = "Ярков, А.~А. and Румянцев, Д.~А. and Чистяков, М.~В.",
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3067 of file disser2.bib
+You're missing a field name---line 2307 of file disser2Clear.bib
+ : 
+ : % author         = "Ярков, А.~А.",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2316 of file disser2Clear.bib
  : @inproceedings{KMU_2018
  :                        ,
 I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty title in YarkovYaGTU:2020
+Warning--empty booktitle in YarkovYaGTU:2020
+Warning--empty year in YarkovYaGTU:2020
+Warning--empty title in YarkovYargu:2020
+Warning--empty journal in YarkovYargu:2020
 
 Here's how much of BibTeX's memory you used:
- Cites:               157 out of 750
- Fields:             7958 out of 13007
- Hash table:        18447 out of 19000
- Strings:            2051 out of 19000
- Free string pool:  35403 out of 65000
+ Cites:               150 out of 750
+ Fields:             7601 out of 12650
+ Hash table:        18472 out of 19000
+ Strings:            2005 out of 19000
+ Free string pool:  34312 out of 65000
  Wizard functions:   3568 out of 6000
-(There were 3 error messages)
+(There were 4 error messages)

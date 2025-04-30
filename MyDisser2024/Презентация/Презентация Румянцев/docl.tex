@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%   Last update   03.06.05   %%%%%%%%%%%%%% 
+
+\documentclass[12pt,a4,portrait]{lucassem1}
+
+\usepackage{epsfig}
+\usepackage{semcolor}
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{fancybox}
+\usepackage{versions}
+\usepackage{pifont}
+\usepackage{amsmath}
+\usepackage{amssymb,amsmath}
+
+\usepackage[cp866]{inputenc}
+\usepackage[english,russian]{babel}
+
+
+\makeatletter
+\renewcommand{\theenumi}{\Roman{enumi}} 
+\renewcommand{\labelenumi}{\theenumi.}  
+\renewcommand{\theenumii}{\arabic{enumii}} 
+\renewcommand{\labelenumii}{\quad{\theenumii.}}  
+%\renewcommand{\p@enumii}{\theenumi--}  
+\makeatother 
+
+\slidesmag{2}
+% \graphicspath{{eps/}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+% 
+\title{Фотон-фотонные и фотон-нейтринные процессы 
+в сильно замагниченной  
+электрон-позитронной плазме 
+}
+
+\author{Д.А. Румянцев }
+
+\date{1 декабря 2005}
+
+\address{Ярославский гос. университет  им. П.Г. Демидова, Ярославль}
+
+%\mainconference{ICHEP'04, Beijing}
+%&\conference{ICHEP'04, Beijing}
+%
+%\pagestyle{lucas}
+%\pagestyle{detailed}
+%\slideframe{none}
+%
+%
+% Left and right logos
+%
+%\leftlogofile{unibe-logo.eps}
+%\rightlogofile{}
+
+\begin{document}
+
+\newcommand{\heading}[1]{
+  \begin{center}
+    \blue
+    \large\bf
+    \shadowbox{#1}
+  \end{center}
+  \vspace{1ex minus 1ex}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+
+\slidemakewidetitle
+%\slidemaketitle
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{Slide}{Содержание} 
+
+\vspace*{15mm}
+
+\centerline{\blue\LARGE Содержание}
+
+\vspace*{15mm}
+
+\begin{center}
+\begin{minipage}{0.8\textwidth}
+{\blue Введение}
+
+\begin{enumerate}
+%\item 
+\item {\blue Нейтринное рождение лептонных пар 
+                 во внешнем электромагнитном поле}
+\item {\blue Обобщенная амплитуда $n$-вершинного однопетлевого 
+           процесса  в сильном магнитном поле}
+\item {\blue Расщепление фотона на два фотона в сильно 
+        замагниченной плазме}
+\end{enumerate}
+{\blue Заключение}
+
+\end{minipage} 
+\end{center}
+
+\end{Slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input ch1.tex 
+
+\input ch2.tex 
+
+\input ch3.tex
+ 
+\input concl.tex
+
+
+\end{document} 
+

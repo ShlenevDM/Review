@@ -1,0 +1,688 @@
+\documentclass[12pt,oneside]{article}
+
+\usepackage{amssymb,amsmath}
+\usepackage[dvips]{epsfig}
+\usepackage{epsf}
+\usepackage{graphics}
+
+\usepackage[cp866]{inputenc}
+\usepackage[english,russian]{babel}
+
+\setlength{\textheight}{245mm}
+\setlength{\textwidth}{160mm}
+\setlength{\topmargin}{-10mm}
+\setlength{\oddsidemargin}{-5mm}
+
+\def\mprp{\mbox{\tiny $\bot$}}
+\def\mprl{\mbox{\tiny $\|$}}
+\def\th{\mbox{th}}
+
+\def\beq{\begin{eqnarray}}
+\def\eeq{\end{eqnarray}}
+\def\ee{\varepsilon}
+\def\lm{\lambda}
+\newcommand{\prp}[1]{#1_{\mbox{\tiny $\bot$}}}
+\newcommand{\prl}[1]{#1_{\mbox{\tiny $\|$}}}
+\def\HH{H\!\!\left(\frac{4 m_e^2}{\prl{q}^2}\right)}
+\def\HHi{H\!\!\left(\frac{4 m_e^2}{\prl{q'^2}}\right)}
+\def\HHii{H\!\!\left(\frac{4 m_e^2}{\prl{q''^2}}\right)}
+\def\ggg{\gamma \rightarrow \gamma \gamma}
+\def\ff{\Lambda}
+\def\tff{\widetilde \Lambda}
+\def\1{1 \to 1 \, 2}
+\def\2{1 \to 2 \, 2}
+\def\S{{\cal S}}
+\def\J{{\cal J}}
+\def\A{{\cal A}}
+\def\P{{\cal P}}
+\def\M{{\cal M}}
+\def\Pab{{\cal P}_{\alpha \beta}}
+
+
+% Page 1
+\title{
+\vspace*{-15mm}
+{\Large\bf ФОТОН-ФОТОННЫЕ И ФОТОН-НЕЙТРИННЫЕ ПРОЦЕССЫ 
+В СИЛЬНО ЗАМАГНИЧЕННОЙ   
+ЭЛЕКТРОН-ПОЗИТРОННОЙ ПЛАЗМЕ } \\[3mm]}
+ 
+\author{{\Large\bf Д.А. Румянцев}\\[3mm]
+{\Large\it Ярославский государственный университет  им. П.Г. Демидова}
+\\[3mm]}
+
+\date{1 декабря 2005 г.}
+
+\begin{document}
+\setlength{\baselineskip}{22pt}
+
+\pagestyle{myheadings}
+
+\maketitle
+
+\thispagestyle{myheadings}
+
+\Large
+
+\centerline{\LARGE Содержание}
+
+\vspace*{15mm}
+
+\begin{center}
+\begin{minipage}{0.8\textwidth}
+\begin{enumerate}
+\item[] Введение
+
+\item[\bf I.] {Нейтринное рождение лептонных пар 
+                 во внешнем электромагнитном поле}
+\item[\bf II.] {Обобщенная амплитуда $n$-вершинного однопетлевого 
+           процесса  в сильном магнитном поле}
+\item[\bf III.] {Расщепление фотона на два фотона в сильно 
+        замагниченной плазме}
+
+\item[]Заключение
+
+\item[]Приложения
+
+\end{enumerate}
+
+\end{minipage} 
+\end{center}
+
+%------------------------------------------------------------------------------------
+\newpage % Page 2
+
+\centerline{\Large \bf ВВЕДЕНИЕ}
+
+Критическое значение магнитного поля
+\newline $B_e = \frac{m_e^2}{e}\simeq 4.41\cdot 10^{13}\,\, \mbox{Гс}, 
+\qquad c = \hbar = k = 1.$
+
+Магнитары: 
+повторные источники мягких гамма-всплесков 
+(SGR -- soft gamma repeaters), 
+аномальные рентгеновские пульсары (AXP), $B \sim 10^{15}$ Гс.  
+
+\centerline{\bf Два предельных случая,}
+
+\noindent
+в зависимости от соотношения между полевым инвариантом: 
+%
+$$e^2 F_{\mu \nu} F^{\nu \mu} \equiv e^2 (F F) = - 2 e^2 B^2$$
+
+\noindent
+и динамическим инвариантом:
+%
+$$e^2 p_\mu F^{\mu \nu} F_{\nu \rho} p^\rho \equiv e^2 (p F F p) 
+= e^2 B^2 E^2 \sin^2 \theta, $$
+%
+где $\theta$ -- угол между импульсом частицы $\bf p$ и направлением 
+поля $\bf B$. 
+
+В обезразмеренном виде:
+%
+$$\chi^2 = \frac{e^2 (p F F p)}{m_e^6} .$$
+
+\centerline{\it Предел сильного поля, $e B \gg E^2 \, (T^2, \mu^2)$}
+
+В инвариантной форме:
+%
+$$\left[e^2 (F F)\right]^{3/2} \gg e^2 (p F F p) .$$
+%
+Электроны находятся только на основном уровне Ландау.
+Техника вычислений -- ``двумерная электродинамика'' -- 
+В.В.~Скобелев, Ю.М.~Лоскутов (1975-76). 
+Развитие -- ковариантная техника -- Н.В.~Михеев и др. (1996-99).
+
+\centerline{\it Предел относительно слабого поля, $E^2 \gg e B$.}
+
+В инвариантной форме:
+%
+$$\left[e^2 (F F)\right]^{3/2} \ll e^2 (p F F p) .$$
+%
+Это условие автоматически выполняется в случае скрещенного поля, 
+где $(F F) = 0$. 
+Техника вычислений в скрещенном поле -- А.И.~Никишов, В.И.~Ритус (1964).
+
+%-------------------------------------------------------------------------------------
+\newpage % Page 3
+
+\begin{center}
+
+{\LARGE \bf Нейтринное рождение лептонных пар  
+                 во внешнем электромагнитном поле}
+\end{center}
+
+\centerline{\bf Вероятность процесса $\nu \to \nu e^- e^+$ 
+в пределе $\chi \gg 1$} 
+
+\begin{eqnarray}
+W (\nu \to \nu e^- e^+) \, = \, K \, W_0 \,\chi^2 
+\, \left(\ln \chi - {1 \over 2} \ln 3 - \gamma_E + \Delta \right),
+\nonumber
+\end{eqnarray}
+%
+где 
+%
+\begin{eqnarray}
+W_0 \, = \, 
+\frac{G_F^2 \,(C_V^2 + C_A^2) \,m_e^6}
+{27 \pi^3 E},
+\nonumber
+\end{eqnarray}
+%
+$\gamma_E = 0.577 \dots$ -- постоянная Эйлера, 
+$E$ -- энергия начального нейтрино, $C_V = \pm 1/2 + 2 \sin^2 \theta_W, \, C_A = \pm 1/2.$
+
+%
+\centerline{\it Константы $K$ и $\Delta$, 
+полученные в разных работах}
+%
+\begin{table}[h]
+\large
+\hspace{7mm}
+\begin{tabular}{|ll|c|c|}\hline
+& & &  \\ 
+& & $K$ & $\Delta$ \\[5mm] 
+\hline 
+& & &  \\ 
+%
+Чобан, Иванов & 1969
+& $\frac{\mbox{\large 29}}{\mbox{\large $1024 \pi$}}$ & --- \\[5mm]
+%
+Борисов и др. & 1983
+& 1 & $- 2 \ln 2 - 
+\frac{\mbox{\large 389}}{\mbox{\large 384}} 
++ \frac{\mbox{\large 9}}{\mbox{\large 128}} 
+\frac{\mbox{\large $C_V^2 - C_A^2$}}{\mbox{\large $C_V^2 + C_A^2$}} 
+$\\[5mm]
+%
+Книжников и др. & 1984
+& 
+$\frac{\mbox{\large 9}}{\mbox{\large 16}}
+\frac{\mbox{\large $E$}}{\mbox{\large $m_e$}}$
+& --- \\[5mm]
+%
+Борисов и др. & 1993
+& 
+$\frac{\mbox{\large 1}}{\mbox{\large 2}}$
+& 
++ $\frac{\mbox{\large 5}}{\mbox{\large 4}}$
+\\[5mm]
+%
+Кузнецов, Михеев & 1997
+& 1 & 
+- $\frac{\mbox{\large 29}}{\mbox{\large 24}}$
+\\[5mm]
+%
+Борисов, Заморин & 1999
+& 
+$\frac{\mbox{\large 1}}{\mbox{\large 2}}$
+& 
+- $\frac{\mbox{\large 29}}{\mbox{\large 24}}$
+\\[5mm]
+\hline
+\end{tabular}
+\end{table}
+%
+%Формула для вероятности справедлива при $\ln \chi \gg 1$,
+%но возможна ситуация:
+%
+%$$\chi \gg 1, \quad \mbox{однако} \quad \ln \chi \sim 1.$$ 
+%
+\begin{eqnarray}
+W (\chi \gg 1)
+& \simeq & \frac{G_F^2 \,(C_V^2 + C_A^2) \,m_e^6 \,\chi^2}{27 \pi^3 E} 
+\, \bigg \lbrace \ln \chi - {1 \over 2} \ln 3 - \gamma_E - 
+{29 \over 24} -
+\nonumber \\[3mm]
+& - & {1 \over \chi^{2/3}} \, {9 \over 56} \,
+\frac{3^{1/3} \pi^2}{\left[\Gamma \left( {2 \over 3} \right) \right]^4}
+\, \frac{19 C_V^2 - 63 C_A^2}{C_V^2 + C_A^2} 
+\bigg \rbrace. 
+\nonumber
+\end{eqnarray}
+
+%\noindent
+%где $\Gamma (x)$ -- гамма-функция, 
+%$\Gamma (2/3) = 1.354 \dots$ . 
+
+%-------------------------------------------------------------------------------
+\newpage % Page 4
+
+{\LARGE  \bf Обобщенная амплитуда $n$-вершинного однопетлевого 
+           процесса  в сильном магнитном поле}
+
+\centerline{Исторический обзор}
+
+\underline {2 вершины} 
+
+\begin{itemize}
+\item
+поляризационный оператор фотона: Tsai (1974), Шабад (1988), ... 
+\item
+процессы $\gamma\to\nu\bar{\nu}$, $\nu\to\nu\gamma$: Гальцов, Никитина (1972), Skobelev (1976), Gvozdev, Mikheev, Vassilevskaya (1996), 
+Ioannisian, Raffelt (1997), ...
+\item
+обобщенная амплитуда $j \to f \bar f \to j'$: 
+Боровков, Кузнецов, Михеев (1999).
+\end{itemize}
+
+\underline {3 вершины} 
+
+\begin{itemize}
+\item
+расщепление фотона $\gamma \to \gamma \gamma $: Adler (1971),
+Папанян, Ритус (1971, 1973), ...
+\item
+двухфотонное рождение нейтринной пары $\gamma \gamma \to \nu\bar{\nu}$:
+Лоскутов, Скобелев (1981), Чистяков, Михеев (2002), ...
+\end{itemize}
+
+\underline {4 вершины} 
+
+\begin{itemize}
+\item
+процесс $\gamma \gamma \to \gamma \nu\bar{\nu}$: 
+Лоскутов, Скобелев (1987), ...
+\end{itemize}
+
+\centerline{\bf Эффективный лагранжиан}
+%
+\begin{eqnarray}
+\nonumber
+{\cal L}(x) \, = \, \sum \limits_{i} g_i 
+[\bar {\psi_e}(x) \Gamma_i \psi_e(x)] j_i,
+\label{eq:L}
+\end{eqnarray}
+\noindent
+$i = S, P, V, A $,  
+$\Gamma_i$, $\Gamma_S = 1, \, \Gamma_P = \gamma_5, \, 
+\Gamma_V = \gamma_{\alpha}, \, \Gamma_A = \gamma_{\alpha} \gamma_5 $.
+
+\centerline
+{Линейный рост амплитуды с ростом напряженности магнитного поля}
+\begin{itemize}
+
+\item
+$n=2k+1, \quad k=1,2, \ldots \Longrightarrow SV_1 \ldots V_{n-1};$
+
+\item
+$n=2k, \quad k=1,2, \ldots  \Longrightarrow PV_1 \ldots V_{n-1}, 
+ VV_1 \ldots V_{n-1}, AV_1 \ldots V_{n-1}. $
+\end{itemize}
+
+%-----------------------------------------------------------------------------
+\newpage % Page 5
+
+\centerline{\bf Процесс $\gamma \gamma \to \nu \bar\nu$ }
+
+\centerline{\bf в обобщении стандартной модели}
+
+\centerline{\bf с нарушенной лево-правой симметрией}
+
+Нарушенная лево-правая симметрия 
+[Липманов, 1967; Pati, Salam, 1974] со смешиванием векторных бозонов, 
+взаимодействующих с левыми и правыми заряженными слабыми токами 
+[Beg et al., 1977]. 
+Часть эффективного лагранжиана $\nu \nu e e$ -- взаимодействия 
+со сменой киральности нейтрино:
+%
+\begin{eqnarray}
+{\cal L}_{eff} \simeq - 4 \; \zeta \; 
+\frac{G_F}{\sqrt{2}} 
+\left [
+\left(\bar e e \right) \left(\bar \nu_e \nu_e \right) - 
+\left(\bar e \gamma_5 e \right) \left(\bar \nu_e \gamma_5 \nu_e \right) 
+\right ],
+\nonumber 
+\end{eqnarray}
+
+\noindent 
+$\zeta$ -- малый угол смешивания ``легкого'' и ``тяжелого'' заряженных 
+векторных $W$-бозонов, образующих состояния, связанные с левыми и правыми 
+токами.
+
+Ограничение на $\zeta$ из ускорительных данных: {$\zeta < 0.013.$}
+
+Два новых канала: 
+%
+\begin{eqnarray}
+\gamma \gamma\to (\nu_e)_L (\bar\nu_e)_L, \quad
+\gamma \gamma\to (\nu_e)_R (\bar\nu_e)_R, \quad \sigma_{LL} = \sigma_{RR}. 
+\nonumber 
+\end{eqnarray}
+
+\noindent 
+$(\nu_e)_R$ и $(\bar\nu_e)_L$ -- состояния, ``стерильные'' 
+относительно стандартного слабого взаимодействия. 
+
+\centerline{\bf Нейтринная cветимость фотонного газа}
+
+\begin{eqnarray}
+Q &=& {1 \over 2} 
+\; \int \frac{d^3 k}{(2 \pi)^3} \; f_{\omega}
+\; \int \frac{d^3 k'}{(2 \pi)^3} \; f_{\omega'}
+\times
+%
+\nonumber \\
+&\times&
+(\omega + \omega') \; \frac{(k k')}{\omega \omega'} 
+\; \sigma \,(\gamma \gamma \to \nu \bar\nu), 
+\nonumber 
+\end{eqnarray}
+
+$$\sigma = \frac{\sigma_{LL} + \sigma_{RR}}{2},  \quad f_{\omega} = \frac{1}{e^{\omega/T} - 1}.$$
+
+%-------------------------------------------------------------------------------------
+
+\newpage % Page 6
+
+\centerline{а) Низкие температуры, $T \lesssim m_e$.}
+
+%
+\begin{eqnarray}
+{Q_{(B)} \simeq 2.5 \cdot 10^{13} 
+\; \frac{\mbox{эрг}}{\mbox{см}^3 \; \mbox{с}} 
+\; \left(\frac{\zeta}{0.013}\right)^2
+\left(\frac{B}{B_e}\right)^2
+\left(\frac{T}{m_e}\right)^{11}.}
+\nonumber 
+\end{eqnarray}
+
+\centerline{Сравнение с другими механизмами}
+
+Стандартная модель (Михеев, Чистяков (2002))
+%
+\beq
+{Q_{(SM)}\simeq
+1.1 \cdot 10^{19} \,\frac{\mbox{эрг}}{\mbox{см}^3 \cdot \mbox{с}}\, 
+\left(\frac{T}{m_e}\right)^{13}.}
+\nonumber 
+\eeq 
+%
+Ненулевая масса нейтрино (Dodelson (1991))
+%
+\begin{eqnarray}
+Q_{(m_\nu)} \simeq 0.4 \cdot 10^5 
+\; \frac{\mbox{эрг}}{\mbox{см}^3 \; \mbox{с}} 
+\; \left(\frac{m_\nu}{1 \,\mbox{эВ}}\right)^2
+\left(\frac{T}{m_e}\right)^{11}.
+\nonumber 
+\end{eqnarray}
+
+Учет нелокальности слабого взаимодействия (Dicus (1993))
+%
+\begin{eqnarray}
+Q_{(NL)} \; \simeq \; 10 
+\; \frac{\mbox{эрг}}{\mbox{см}^3 \; \mbox{с}} 
+\; \left(\frac{T}{m_e}\right)^{13}.
+\nonumber 
+\end{eqnarray}
+
+\centerline{б) Случай высоких температур, $T \gg m_e$.}
+%
+\begin{eqnarray}
+Q_{(B)} \simeq 0.4 \cdot 10^{12} 
+\; \frac{\mbox{эрг}}{\mbox{см}^3 \; \mbox{с}} 
+\; \left(\frac{\zeta}{0.013}\right)^2
+\left(\frac{B}{B_e}\right)^2
+\left(\frac{T}{m_e}\right)^3
+\ln^5 \frac{T}{m_e}.
+\nonumber 
+\end{eqnarray}
+
+В рамках стандартной модели -- Михеев, Чистяков (2002)
+
+%
+\beq
+Q_{(SM)}  \simeq  2.7 \cdot 10^{18}  
+\frac{\mbox{эрг}}{\mbox{см}^3 \cdot  \mbox{с}}
+\left( \frac{T}{m_e} \right)^9 \,. 
+\nonumber
+\eeq
+%
+
+%-------------------------------------------------------------------------------------
+
+\newpage % Page 7
+
+\centerline{\LARGE \bf Расщепление фотона в сильно замагниченной плазме} 
+
+\centerline{\underline {Магнитное поле без плазмы}}
+ {Папанян, Ритус (1973), Adler (1996), Кузнецов и др. (1999), Weise (2004)}
+
+\vspace*{5mm}
+
+\centerline{\underline {Плазма без магнитного поля}}
+{Melrose (1974), Shabad (1986)}
+
+\vspace*{5mm}
+
+\centerline{\underline {Замагниченная плазма}}
+
+\begin{enumerate}
+\item Влияние плазмы на дисперсию фотона Adler (1971), Bulik (1998) 
+
+\item Модификация амплитуды  Elmfors (1998), Gies (2000), Martinez (2001) 
+
+\end{enumerate}
+
+\centerline{\it \bf Амплитуда расщепления фотона}
+\vspace{-5mm}
+\begin{eqnarray}
+  {\cal M}\, = \, {\cal M}_B + {\cal M}_{B+pl}.
+\nonumber
+\end{eqnarray}
+
+\centerline{ Диаграммы Фейнмана для процесса расщепления фотона}
+
+\centerline{
+\centerline{\includegraphics*[scale=1.]{pic2.eps}}
+}
+
+\centerline{\bf Уравнения дисперсии}
+\vspace{-5mm}
+
+%
+\beq
+\nonumber
+q^2 - \P^{(\lm)}(q) = 0 \qquad (\lm = 1, 2, 3).
+\eeq
+
+\centerline{\bf Векторы поляризации ($\lm = 1, 2$),  $\mu=0$}
+%
+\beq 
+\nonumber 
+\ee_\alpha^{(1)}(q) \simeq \frac{(\varphi q)_\alpha}
+{\sqrt{(q\varphi \varphi q)}}, 
+\qquad 
+\ee_\alpha^{(2)}(q) \simeq \frac{(\tilde \varphi q)_\alpha}
+{\sqrt{(q \tilde \varphi \tilde \varphi q)}}. 
+\eeq
+% 
+
+%------------------------------------------------------------------------
+\newpage % Page 8
+
+\centerline{\bf Закон дисперсии фотона в сильно замагниченной плазме}
+
+\begin{figure}[htb]
+\centerline{\includegraphics*[scale=1.3]{fig3.eps}}
+
+\vspace{5mm}
+
+\end{figure}
+
+Дисперсия фотона моды 2 в сильном магнитном поле $B/B_e = 200$ и 
+зарядово-симметричной 
+плазме $(T = 1 \quad \mbox{МэВ},\, \mu = 0)$ 
+в зависимости от угла между направлением импульса фотона и магнитного поля
+(при $\theta = \pi/2$ -- верхняя сплошная  кривая, 
+$\theta = \pi/6$ -- средняя, $\theta = \pi/12$ -- нижняя сплошная кривая).
+Нижняя штриховая линия изображает дисперсию в отсутствие плазмы.
+Точками показан вакуумный закон дисперсии $q^2 = 0$.
+
+\centerline{\bf Разрешенные каналы}
+
+\centerline{$\gamma_2 \to \gamma_1 \gamma_1$ (\bf {новый!!!})}
+
+\centerline{ $\gamma_1 \to \gamma_1 \gamma_2$,  
+$\gamma_1 \to \gamma_2 \gamma_2$ (запрещены при $q^2 > 0$)}
+
+\vspace{5mm}
+
+\centerline{\bf Перенормировка}
+
+%
+\beq
+\nonumber
+\ee_{\alpha}^{(2)} \to \ee_{\alpha}^{(2)} \sqrt{Z_2}, \quad 
+Z^{-1}_2 = 1 - \frac{\partial {\cal P}^{(2)}(q)}{\partial \omega^2}. 
+\eeq    
+
+
+%----------------------------------------------------------------------------
+\newpage % Page 9
+
+\centerline{\bf Вероятность расщепления фотона}
+
+\begin{eqnarray}
+&&W_{\lambda \to \lambda^{'} \lambda^{''}} = 
+\frac{g_{\lambda' \lambda''}}
+{32 \pi^2 \omega}
+\int \mid {\cal M_{\lambda \lambda^{'} \lambda^{''}}}\mid^2
+Z_{\lambda}Z_{\lambda^{'}}Z_{\lambda^{''}} \times
+\nonumber \\
+&&\times (1 + f_{\omega'})(1 + f_{\omega''}) 
+\delta (\omega_{\lambda}({\bf k}) - 
+\omega_{\lambda^{'}}({\bf k} - {\bf k^{''}}) - \omega_{\lambda^{''}}({\bf k^{''}})) 
+\frac{d^3 k^{''}}{\omega_{\lambda^{'}} \omega_{\lambda^{''}}},
+\nonumber
+\end{eqnarray}                    
+
+\noindent где $f_{\omega} = (e^{\omega/T} - 1)^{-1}$ -- функция распределения 
+фотонов, множитель $g_{\lambda' \lambda''} = 
+1 - (1/2)\delta_{\lambda' \lambda''}$ введен 
+для учета возможной тождественности фотонов в конечном состоянии.
+
+\begin{figure}[htb]
+\centerline{\includegraphics*[scale=1.3]{fig6.eps}}
+
+\end{figure}
+
+Относительная вероятность канала $\gamma_1 \to \gamma_1 \gamma_2$ 
+в сильном магнитном поле $B/B_e \, = \, 200$ и горячей плазме $(T \, = \, 
+1 \mbox{МэВ}$, \newline $\mu \, = \, 0)$. 
+Пунктиром показана вероятность в 
+чистом магнитном поле $(T \, = \, \mu \, = \, 0)$ 
+(Кузнецов и др. (1999)). Точками показана асимптотика 
+$m_e^2 \ll \omega^2 \, \sin^2{\theta} \ll eB$ для этого канала.
+
+%----------------------------------------------------------------------------
+\newpage % Page 10
+
+\begin{figure}[htb]
+\centerline{\includegraphics*[scale=1.3]{fig7.eps}}
+
+\end{figure}
+
+Относительная вероятность канала $\gamma_1 \to \gamma_2 \gamma_2$ 
+при тех же параметрах, что и для канала $\gamma_1 \to \gamma_1 \gamma_2$.
+Пунктиром показана вероятность в 
+чистом магнитном поле $(T \, = \, \mu \, = \, 0)$ 
+(Кузнецов и др. (1999)).
+
+
+\begin{figure}[htb]
+\centerline{\includegraphics*[scale=1.3]{fig8.eps}}
+
+\end{figure}
+
+Относительная вероятность канала $\gamma_2 \to \gamma_1 \gamma_1$ 
+в сильном магнитном поле $B/B_e \, = \, 200$ и горячей плазме 
+$(T = 1 \mbox{МэВ}$, \newline $\mu = 0)$. 
+ 
+
+%----------------------------------------------------------------------------
+\newpage % Page 11
+
+\vspace*{20mm}
+\begin{center}
+{\bf Основные полученные результаты}
+\end{center}
+
+\begin{itemize}
+
+\item[1.]
+В рамках стандартной модели исследован   
+процесс нейтринного рождения лептонной пары ($\nu \to \nu \ell_1 \bar \ell_2$)
+во внешнем электромагнитном поле. 
+Получено сравнительно простое точное выражение для вероятности процесса, 
+удобное для численного анализа. Проанализированы возможные астрофизические 
+приложения рассмотренного процесса.
+
+\item[2.]
+Проведен общий анализ амплитуды $n$-вершинного однопетлевого 
+ процесса  
+в сильном магнитном поле, и рассмотрены фотон-нейтринные процессы
+$\gamma \gamma\to \nu \bar\nu $ (в рамках 
+модели с нарушенной лево - правой симметрией) 
+и $\gamma \gamma \to \nu \bar\nu \gamma$ 
+(в рамках стандартной модели). 
+Показано, что различные типы эффективного нейтрино-электронного 
+взаимодействия ведут к различным зависимостям амплитуды от 
+напряженности поля. В частности, при нечетном числе вершин 
+и эффективной скалярной $\nu\nu e e$-связи, которая существует 
+в расширении стандартной модели с нарушенной лево-правой 
+симметрией, амплитуда усиливается внешним магнитным полем, тогда как
+для четного числа вершин такое усиление наблюдается только в случае
+эффективной псевдоскалярной, векторной или аксиальной связи.   
+Показано, что все типы амплитуд можно выразить через элементарные функции.   
+
+%----------------------------------------------------------------------------
+\newpage % Page 12
+
+
+\item[3.]
+Получены общие выражения для амплитуд процессов 
+$\gamma \gamma\to \nu \bar\nu $ и $\gamma \gamma \to \nu \bar\nu \gamma$,
+справедливые при произвольных энергиях фотонов.
+В предельном случае больших энергий фотонов вычислено сечение 
+процесса $\gamma \gamma \to \nu \bar\nu \gamma$. 
+
+\item[4.]
+Получены оценки для нейтринной светимости фотонного газа за счет процессов 
+$\gamma \gamma\to \nu \bar\nu $ и $\gamma \gamma \to \nu \bar\nu \gamma$ 
+в пределе 
+малых и больших температур. Показано, что 
+ в зависимости 
+от температуры и величины магнитного поля вклады в нейтринную светимость 
+за счет рассматриваемых процессов 
+могут как доминировать, так и оказаться подавленными по 
+сравнению с вкладом процесса 
+$\gamma \gamma\to \nu \bar\nu $, полученного в рамках стандартной модели. 
+
+\item[5.]
+Исследовано влияние сильно замагниченной электрон-по\-зит\-рон\-ной плазмы на 
+процесс расщепления 
+фотона $\gamma \to \gamma \gamma$, 
+проанализирована его  кинематика и найдены правила отбора по поляризациям. 
+
+\item[6.]
+ Для разрешенных каналов расщепления фотона вычислены  
+вероятности с учетом дисперсии и перенормировки волновых 
+функций фотонов. 
+Полученные результаты показывают, что присутствие плазмы, с одной 
+стороны, существенным образом изменяет правила отбора по поляризациям 
+по сравнению со случаем чистого магнитного поля.
+В частности, становится возможным новый канал расщепления 
+$\gamma_2 \to \gamma_1 \gamma_1$, запрещенный в отсутствие плазмы.
+С другой стороны, горячая плазма 
+оказывает подавляющее влияние на каналы $\gamma_1 \to \gamma_1 \gamma_2$ 
+и $\gamma_1 \to \gamma_2 \gamma_2$. Вместе с тем, вероятности этих процессов 
+могут быть усилены за счет эффекта индуцированного излучения фотонов в 
+случае холодной зарядово-симметричной плазмы. 
+
+\end{itemize}
+
+\end{document}

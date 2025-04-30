@@ -1,0 +1,1936 @@
+\documentclass[12pt]{article}
+
+\usepackage{cite,indentfirst}
+\usepackage{amssymb,amsmath}
+\usepackage[dvips]{epsfig}
+\usepackage{epsf}
+\usepackage{graphics}
+\usepackage{doctor}
+
+\usepackage[cp866]{inputenc}
+\usepackage[english,russian]{babel}
+                                   
+\setcounter{part}{1}
+\setcounter{page}{38}
+\setcounter{figure}{2}
+\setcounter{table}{1}
+
+\def\mprp{\mbox{\tiny $\bot$}}
+\def\mprl{\mbox{\tiny $\|$}}
+\def\th{\mbox{th}}
+
+\begin{document}
+\inputencoding{cp866}
+
+\ruschapters
+
+\ruschapter{Обобщенная амплитуда $n$-вершинного однопетлевого процесса
+  в сильном магнитном поле}
+
+\large
+\setlength{\baselineskip}{24pt}
+
+\section{Введение}
+
+В настоящей главе рассматривается воздействие внешнего поля на 
+петлевые квантовые
+процессы, где в конечном и начальном состоянии присутствуют только
+электрически нейтральные частицы, такие как фотоны, нейтрино, а также
+гипотетические аксионы, фамилоны и т.д. 
+Воздействие внешнего поля на такие процессы обусловлено как   
+чувствительностью 
+заряженных виртуальных фермионов к влиянию поля, так и тем фактом, что  
+сильное магнитное поле существенно меняет дисперсионные 
+свойства фотонов, а значит, и их кинематику.
+
+Исследование фотон-нейтринных петлевых процессов имеет довольно длинную историю. 
+Двухвершинные петлевые процессы, к которым 
+относятся переход $\gamma \to \gamma$ (поляризационный оператор фотона 
+во внешнем поле), распад $\gamma\to\nu\bar{\nu}$, переход 
+$\nu\to\nu\gamma$, называемый также нейтринным черенковским процессом и т.д., 
+изучались в сериях работ нескольких авторов, см., 
+например,~\cite{Tsai:1974,Shabad:1975,Shabad:1988,Galtsov:1972,Skobelev:1976,%
+DeRaad:1976,Skobelev:1995,Gvozdev:1996,Ioannisian:1997} и цитированные 
+там работы.
+Наиболее общее выражение для двухвершинной петлевой 
+амплитуды вида $j \to f \bar f \to j'$ в постоянном однородном
+магнитном и скрещенном поле было получено в работе~\cite{Borovkov:1999}, 
+где рассмотрены всевозможные комбинации скалярного, псевдоскалярного, 
+векторного и псевдовекторного взаимодействий обобщенных токов $j,\,j'$
+с фермионами. 
+
+Наиболее известный петлевой процесс с тремя вершинами, 
+в течение многих лет находящийся в поле внимания теоретиков -- 
+запрещенное в вакууме расщепление фотона на два фотона в магнитном поле,
+$\gamma \to \gamma \gamma$. 
+Этому процессу посвящено большое число статей, среди них отметим несколько 
+недавних работ~\cite{Adler:1996,Baier:1996,Baier:1997,Chist,
+Chist1999}.
+% обзор~\cite{Papanian:1986}, где можно найти 
+%подробный список ранних статей, среди относительно недавних работ 
+%укажем~\cite{Adler:1996,Baier:1996,Baier:1997,Chist,
+%Chist1999}.
+Еще один трехвершинный петлевой процесс -- превращение фотонной 
+пары в нейтринную $\gamma\gamma\to\nu\bar{\nu}$ -- интересен 
+как возможный канал остывания звезд. Подробный обзор работ, посвященных 
+этому процессу, можно найти, например, в статьях~\cite{Kuznetsov:2002a,
+Kuznetsov:2004a}.
+
+Поскольку, в соответствии с теоремой Гелл-Манна~\cite{Gell-Mann:1961},
+см. раздел 4.1.1, процесс $\gamma\gamma\to\nu\bar{\nu}$ сильно подавлен в вакууме, 
+в ряде работ рассматривался четырехвершинный петлевой процесс
+с дополнительным фотоном
+$\gamma\gamma\to\nu\bar{\nu}\gamma$, который, несмотря на лишний 
+фактор $\alpha$, имеет б{\'о}льшую вероятность, чем двухфотонный процесс. 
+Процесс $\gamma\gamma\to\nu\bar{\nu}\gamma$ изучался как 
+в вакууме~\cite{VanHieu:1963,Dicus:1997,Dicus:1999,Abada:1999a,%
+Abada:1999b,Abada:1999c}, 
+так и при стимулирующем влиянии сильного магнитного 
+поля, в случае низких энергий 
+фотонов~\cite{Kuznetsov:2004a,Loskutov:1987,Skobelev:2001,Kuznetsov:2002jl}.
+
+Таким образом, вычисление амплитуды $n$-вершинного однопетлевого квантового
+процесса в сильном внешнем магнитном поле представляется актуальным, 
+поскольку результаты такого расчета могут быть использованы для 
+анализа интересных с астрофизической точки зрения процессов
+$\gamma \gamma \to \nu \bar\nu$, $\gamma \gamma \to \nu \bar\nu \gamma $, 
+а также, аксионного и фамилонного процессов 
+$\gamma \gamma \to \gamma a$, $\gamma \gamma \to \gamma \varPhi$ и т.д.
+Основные результаты этой главы опубликованы в 
+работах~\cite{Kuznetsov:2001sb,Kuznetsov:2003sb,
+Kuznetsov:2004a,Kuznetsov:2004sb,Kuznetsov:2002a,Kuznetsov:2002q}.
+
+В разделе 2 проводится общий анализ амплитуды
+$n$-вершинного однопетлевого процесса в сильном магнитном поле.
+
+В разделе 3 вычислена $n$-вершинная амплитуда, в которой одна из вершин
+взята в общем виде (скалярная $S$, псевдоскалярная $P$, векторная $V$ 
+или аксиальная $A$), а остальные вершины векторные   
+и связаны с фотонами.
+Данные выражения для амплитуды являются основным результатом настоящей главы.
+
+Следующие разделы главы посвящены конкретным фотон-нейтринным процессам для $n=3,4$. 
+В разделе 4 получено аналитическое выражение для амплитуды процесса  
+$\gamma \gamma \to \nu \bar\nu$ в модели с нарушенной лево-правой симметрией.
+Показано, что в пределе низких энергий полученный результат для 
+амплитуды  согласуется с имеющимися в литературе формулами. 
+Обсуждаются возможные астрофизические проявления данного процесса.
+
+Раздел 5 посвящен расчету аналитического выражения для амплитуды процесса  
+ $\gamma \gamma \to \nu \bar\nu \gamma $. 
+ Впервые получено сечение процесса 
+$\gamma \gamma \to \nu \bar\nu \gamma$ в предельном случае высоких энергий 
+ фотонов.  Вычислена энергия, уносимая нейтрино из единицы объема звезды за
+единицу времени за счет процесса $\gamma \gamma \to \nu \bar\nu \gamma$.   
+
+%
+\section{Общий анализ $n$-вершинного однопетлевого процесса 
+в сильном магнитном поле}
+
+Мы будем исходить из эффективного лагранжиана взаимодействия обобщенных 
+токов $j$ с электронами следующего вида:
+%
+\begin{eqnarray}
+{\cal L}(x) \, = \, \sum \limits_{i} g_i 
+[\bar {\psi_e}(x) \Gamma_i \psi_e(x)] j_i(x), 
+%+ e[\bar {\psi_e}(x) \gamma_\alpha \psi_e(x)] A_\alpha(x),
+\label{eq:L}
+\end{eqnarray}
+
+\noindent
+где  обобщенный индекс $i = S, P, V, A $ нумерует матрицы 
+$\Gamma_i$, так что 
+\newline
+$\Gamma_S = 1, \, \Gamma_P = \gamma_5, \, \Gamma_V = \gamma_{\alpha},
+\, \Gamma_A = \gamma_{\alpha} \gamma_5 $,
+$j$ -- соответствующий квантовый объект, 
+ток ($j_S$, $j_P$, $j_{V\alpha}$ или $j_{A\alpha}$)
+или вектор поля фотона, 
+$g_i$ -- константы связи, $\psi_e(x)$ -- точное решение уравнения 
+Дирака для электрона в постоянном внешнем магнитном поле.
+В частности, для электрон-фотонного взаимодействия имеем
+$g_V = e,\,\Gamma_V = \gamma_{\alpha},\,j_{V\alpha}(x)$ имеет смысл  
+векторного потенциала электромагнитного поля фотона.
+
+Инвариантная амплитуда $n$-вершинного однопетлевого процесса, 
+построенная с помощью эффективного
+лагранжиана~(\ref{eq:L}), описывается диаграммой Фейнмана, изображенной 
+на рис.~\ref{fig:loop1}. 
+%
+\begin{figure}[htb]
+
+\epsffile[100 541 413 701]{pic1.ps}
+
+\vspace{10mm}
+\caption{Диаграмма Фейнмана для $n$-вершинного однопетлевого процесса 
+в сильном магнитном поле. }
+\label{fig:loop1}
+
+\end{figure}
+%
+Используя представление пропагатора электрона (формула (Б.1) из приложения 
+Б) в котором выделена транс\-ля\-ци\-он\-но-инвариантная часть (Б.9) и 
+транс\-ля\-ци\-он\-но и калиброчно неинвариантная фаза (Б.2), 
+амплитуду можно записать в следующем виде
+%
+\begin{eqnarray}
+{\cal M}_{n} &=& i^{n+1}
+ \int \prod \limits^{n-1}_{k=1} d^4 Z_k\,
+ \mbox{Sp} \big \{\prod \limits^{n}_{l=1} [g_l \Gamma_l j_l \hat S(Z_l)] \big \}
+ e^{ i \Phi_{\rm{tot}}} e^{-i \sum \limits^{n-1}_{j=1} (Q_j Z_j)},
+\label{eq:M}\\[3mm]
+%
+Q_k &=& \sum \limits^{k}_{i=1} q_i, \qquad Q_n = 0,
+\qquad
+\Phi_{tot} = -\frac{e}{2} \sum \limits_{l=2}^{n-1} 
+\sum \limits_{k=1}^{l-1} (Z_k F Z_l), 
+\nonumber
+\end{eqnarray}
+
+\noindent 
+где $j_l$ -- фурье-образ обобщенного тока $j_l(x)$.
+
+Следует отметить, что использование пропагатора~(Б.9) 
+в $n$ - вершинной петле ведет 
+в общем случае к очень громоздким выражениям.
+Поэтому для анализа амплитуды процесса~(\ref{eq:M}) в сильном поле
+целесообразно использовать асимптотическое выражение электронного 
+пропагатора из приложения Б.  
+Подставляя пропагатор~(Б.11) в амплитуду~(\ref{eq:M}) и 
+интегрируя по $d^4 Z_i$ с учетом формул (Г.2) и (Г.9) из 
+приложения Г, находим: 
+%
+\begin{eqnarray}
+{\cal M}_n \simeq 
+ \frac{i \,(-1)^n \, \beta}{(2 \pi)^3} 
+\exp \! \left (-\frac{R_{\mprp n}}{2\beta}\right )
+ \int d^2 p \, \mbox{Sp} \, \big \{\prod \limits^{n}_{k=1} [g_k
+ \Gamma_k j_k S_{\mprl}(p-Q_k)] \big \} ,
+\label{eq:M2}
+\end{eqnarray}
+
+\noindent 
+где 
+$S_{\mprl}(p) =  \Pi_{-} ((p\gamma)_{\mprl} + m_e)/(p_{\mprl}^2 - m_e^2 + i0)$, 
+$\beta = eB$, $R_{\mprp n}$ -- билинейная комбинация поперечных компонент внешних импульсов, 
+ например:
+%
+$$R_{\mprp 2} = q_{\mprp 1}^2, \quad R_{\mprp 3} = q_{\mprp 1}^2 + 
+q_{\mprp 2}^2 + (q_1 \Lambda q_2) - i(q_1 \varphi q_2),$$
+%
+в общем случае, при $n \ge 3$: 
+%
+$$R_{\mprp n} = \sum \limits^{n-1}_{k=1} Q_{\mprp k}^2 -
+\sum \limits^{n-1}_{k=2} \sum \limits^{k-1}_{j=1} \left [(Q_k \Lambda Q_j) 
+- i(Q_k \varphi Q_j)\right ].$$
+%
+Как видно из~(\ref{eq:M2}), в приближении, когда величина 
+магнитного поля является максимальным физическим параметром, 
+$\beta \gg q_{\mprp}^2, q_{\mprl}^2$, амплитуда
+будет зависеть только от продольных компонент импульсов.
+
+Отсюда можно вывести простое правило для расчета однопетлевой 
+амплитуды в сильном магнитном поле. Необходимо заменить в выражении 
+для амплитуды в вакууме фактор 
+
+$$\int \frac{d^2p_{\mprp}}{(2\pi)^2} \qquad \mbox{на фактор} 
+\qquad \frac{\beta}{2\pi}\exp \left (-\frac{R_{\mprp n}}{2\beta} \right)$$ 
+
+и занулить поперечные компоненты импульсов.
+
+\section{Процессы с участием фотонов}
+
+Пусть вершины $\Gamma_1 \ldots \Gamma_{n-1}$ являются векторными 
+и связаны с фотонами, а вершина 
+ $\Gamma_n$ остается произвольной. 
+Полная амплитуда будет содержать $(n - 1)!$ диаграмм,
+соответствующих $(n - 1)!$ перестановкам фотонов.
+В приближении $q_{\mprp}^2 \ll \beta$ амплитуду~(\ref{eq:M2})
+можно представить в виде:
+%
+\begin{eqnarray}
+{\cal M}_n &\simeq & i \,(-1)^n \,e^{n-1}\, g_n \, j_n \, 
+ \frac{\beta}{2 \pi} 
+ \, \big \{\prod \limits^{n-1}_{i=1} \varepsilon_{\alpha_i}^{(i)} \big \}
+ T_{\alpha_1 ,\ldots ,\alpha_{n-1}} +
+\\
+\nonumber
+&+& \mbox{(всевозможные перестановки фотонов)},  
+\label{eq:M3}
+\end{eqnarray}
+
+\noindent
+где
+$\varepsilon^{(i)}_{\alpha}$ --  вектор поляризации $i$-го фотона с
+импульсом $q_i$, а тензор $T_{\alpha_1 ,\ldots ,\alpha_{n-1}}$ имеет вид
+%
+\begin{eqnarray}
+T_{\alpha_1 ,\ldots ,\alpha_{n-1}} \, = \, \int \, \frac{d^{2}p}{(2\pi)^2}
+\, \mbox{Sp} \big \{ \Gamma_n S_{\mprl}(p) \prod
+\limits^{n-1}_{i=1} [\gamma_{\mprl \alpha_i} S_{\mprl}(p - Q_i)]\big \} .
+\label {eq:T1}
+\end{eqnarray}
+%
+
+Следует заметить, что в амплитуде~(\ref{eq:M3}) 
+из двух возможных поляризаций фотонов~\footnote
+{В обозначениях Адлера~\cite{Adler:1971} -- продольной и поперечной 
+соответственно.}
+%
+\begin{eqnarray}
+\varepsilon_{1 \alpha} 
+= \frac{\varphi_{\alpha\beta} q_{\beta}}{\sqrt{(q\varphi \varphi q)}},
+\qquad 
+\varepsilon_{2 \alpha} 
+= \frac{\widetilde \varphi_{\alpha\beta} q_{\beta}}
+{\sqrt{(q \widetilde \varphi \widetilde \varphi q)}}
+\label{eq:vect}
+\end{eqnarray}
+%
+
+\noindent
+проекционный оператор $\Pi_-$ выделяет фотоны
+только одной, 2-й поляризации. 
+
+Покажем, что амплитуда вида 
+$SV_{1} \ldots V_{n-1}$ будет линейно расти с ростом 
+напряженности магнитного поля только для нечетного числа вершин,
+а для амплитуд вида $PV_{1} \ldots V_{n-1}$, $VV_{1} \ldots V_{n-1}$ и
+$AV_{1} \ldots V_{n-1}$ линейный рост будет иметь место только
+для четного числа вершин.
+
+Используя дираковскую матрицу зарядового сопряжения
+%
+\begin{displaymath}
+\hat C \, = \, \gamma_2 \gamma_0 ,\qquad  \hat C \, = \, - \hat C^T, \qquad
+\hat C^2 \, = \, 1,
+\end{displaymath}
+%
+перепишем тензор $T_{\alpha_1 ,\ldots ,\alpha_{n-1}}$ в виде:
+%
+\begin{eqnarray}
+&&T_{\alpha_1 ,\ldots ,\alpha_{n-1}} \, = \, \int \, \frac{d^{2}p}{(2\pi)^2}
+\, \mbox{Sp} \bigg \{ \hat C \Gamma_n \hat C \hat C \frac{(\hat p_{\mprl} + m_e)}
+{p_{\mprl}^2 - m_e^2 + i0} \hat C \times 
+\nonumber \nonumber \\
+&& \times \prod \limits^{n-1}_{i=1} \hat C
+\gamma_{\mprl \alpha_i} \hat C \hat C
+\frac{[(\hat p - \hat Q_i)_{\mprl} + m_e]}
+{(p - Q_i)_{\mprl}^2 - m_e^2 + i0}
+\hat C \hat C \Pi_{-} \hat C
+\bigg \} .
+\label {eq:ver1}
+\end{eqnarray}
+%
+
+С учетом соотношений 
+%
+\begin{displaymath}
+\hat C \gamma_{\mprl \alpha_i} \hat C\, = \, - \gamma_{\mprl \alpha_i}^T ,\qquad
+\hat C \Pi_{\pm} \hat C \, = \, \Pi_{\mp}, \qquad
+\Pi_{\pm}^T \, = \, \Pi_{\pm},
+\end{displaymath}
+%
+
+\noindent
+производя замену переменной $p \to -p + Q_{n-1}$, вместо (\ref{eq:ver1})
+получим
+\begin{eqnarray}
+&&T_{\alpha_1 ,\ldots ,\alpha_{n-1}} \, = \, (-1)^{n-1} \int \,
+\frac{d^{2}p}{(2\pi)^2}
+\, \mbox{Sp} \bigg \{ \frac{[(\hat p - \hat Q_{n-1})_{\mprl} + m_e]}
+{(p - Q_{n-1})_{\mprl}^2 - m_e^2 + i0}
+\hat C \Gamma_n^T \hat C \times 
+\nonumber \nonumber \\
+&& \times \prod
+\limits^{1}_{i=n-1}
+\frac{[(\hat p + \hat Q_i - \hat Q_{n-1})_{\mprl} + m_e]}
+{(p + Q_i - Q_{n-1})_{\mprl}^2 - m_e^2 + i0}
+ \gamma_{\mprl \alpha_i} \Pi_{+}  
+\bigg \} .
+\label {eq:ver2}
+\end{eqnarray}
+
+%
+Заметим, что здесь под знаком произведения сомножители следуют в порядке
+убывания индекса $i$. Таким образом:
+\begin{itemize}
+\item[1)] 
+
+в случае, если вершина $\Gamma_n$ -- скаляр, из (\ref{eq:ver2}) получаем  
+\begin{displaymath}
+T_{\alpha_1 ,\ldots ,\alpha_{n-1}} \, = \, (-1)^{n-1} T_{\alpha_{n-1} ,\ldots
+,\alpha_{1}},
+\end{displaymath}
+откуда следует, что
+
+-- при $n = 2k$ такие слагаемые в ${\cal M}_{n}$ попарно
+сокращаются;
+
+-- при $n = 2k + 1$ такие слагаемые в ${\cal M}_{n}$ попарно
+удваиваются;
+\end{itemize}
+\begin{itemize}
+\item[2)] 
+
+в случае, если вершина $\Gamma_n$ -- псевдоскаляр, вектор или
+псевдовектор, то с учетом соотношения
+$$\gamma_5 \Pi_{\pm} \, = \, \pm \frac{1}{2}(\gamma \tilde \varphi \gamma 
+)\Pi_{\pm}$$
+из (\ref{eq:ver2}) получаем  
+\begin{displaymath}
+T_{\alpha_1 ,\ldots ,\alpha_{n-1}} \, = \, (-1)^{n} T_{\alpha_{n-1} ,\ldots
+,\alpha_{1}},
+\end{displaymath}
+откуда следует, что
+
+-- при $n = 2k + 1$ такие слагаемые в ${\cal M}_{n}$ попарно
+сокращаются;
+
+-- при $n = 2k$ такие слагаемые в ${\cal M}_{n}$ попарно
+удваиваются.
+\end{itemize}
+%
+Дальнейшие вычисления можно значительно упростить, если воспользоваться 
+разложением векторов поляризации $\varepsilon^{(i)}_{\alpha}$, 
+обобщенного тока $(j_n)_{\alpha}$ и тензора 
+$T_{\alpha_1 ,\ldots ,\alpha_{n-1}}$ по ортонормированному базису 
+из 4-векторов. В общем случае на основе тензора магнитного поля и 4-импульса 
+удобно построить базис вида
+%
+\begin{eqnarray}
+%\nonumber
+&&b^{(1)}_{\mu} = \frac{(\varphi q)_{\mu}}{\sqrt{q^2_{\mprp}}},
+\qquad b^{(2)}_{\mu} = \frac{(\widetilde \varphi q)_{\mu}}
+{\sqrt{q^2_{\mprl}}}, 
+\nonumber
+\\
+[3mm]
+&&b^{(3)}_{\mu} = \frac{q^2_{\mprl}(\Lambda q)_{\mu} - 
+q^2_{\mprp}(\widetilde \Lambda q)_{\mu}}
+{\sqrt{q^2 q^2_{\mprl} q^2_{\mprp}}},
+\qquad b^{(4)}_{\mu} = \frac{q_{\mu}}{\sqrt{q^2}}. 
+\label{eq:basis}
+\end{eqnarray}
+%
+
+Заметим, что векторы $b^{(i)}_{\mu}$ являются собственными векторами 
+поляризационного оператора фотона в магнитном поле. Как уже отмечалось, 
+структура амплитуд в сильном магнитном поле такова, что из базиса 
+``выживает''  только вектор $b^{(2)}_{\mu}$. При этом получаем
+\begin{eqnarray}
+\varepsilon^{(i)}_{\alpha_i} \, = \,
+\frac{(q_i \widetilde \varphi \varepsilon^{(i)})
+(\widetilde \varphi q_i)_{\alpha_{i}}}{q^2_{\mprl i}},
+\qquad
+(j_n)_{\alpha_{n}} \, = \,
+\frac{(q_n \widetilde \varphi j_n)
+(\widetilde \varphi q_n)_{\alpha_{n}}}{q^2_{\mprl n}},
+\label {eq:eps1}
+\end{eqnarray}
+%
+\begin{eqnarray}
+T_{\alpha_1 ,\ldots ,\alpha_{m}} \, = \,
+\frac{\prod \limits^{m}_{i=1}(\widetilde \varphi q_i)_{\alpha_{i}}}
+{\sum \limits_{\{ 2\}} \prod \limits^{m}_{i=1}
+(\widetilde \varphi q_i)_{\alpha_{i}}} I_{m},
+\label {eq:tt1}
+\end{eqnarray}
+
+\noindent
+где
+$I_{m} = \sum \limits_{\{ 2\}} T_{\alpha_1 ,\ldots ,\alpha_{m}},$
+знак $\sum \limits_{\{ 2\}}$ означает сумму по всевозможным сверткам 
+произвольного тензора $A_{\alpha_1 ,\ldots ,\alpha_{m}}$ с тензором 
+$\widetilde \Lambda_{\alpha_1 \alpha_2} \ldots 
+\widetilde \Lambda_{\alpha_{m-1} \alpha_{m}}$ с учетом свойств симметрии 
+$\widetilde \Lambda_{\alpha \beta}$, если $m = 2k$, например, при $m = 4$
+%
+\begin{eqnarray}
+\sum \limits_{\{ 2\}} A_{\alpha_1 \alpha_2 \alpha_3 \alpha_4} &=& 
+A_{\alpha_1 \alpha_2 \alpha_3 \alpha_4}
+\widetilde \Lambda_{\alpha_1 \alpha_2}
+\widetilde \Lambda_{\alpha_3 \alpha_4} + 
+\\
+\nonumber
+&+& A_{\alpha_1 \alpha_2 \alpha_3 \alpha_4}
+\widetilde \Lambda_{\alpha_1 \alpha_3}
+\widetilde \Lambda_{\alpha_2 \alpha_4} + 
+A_{\alpha_1 \alpha_2 \alpha_3 \alpha_4} 
+\widetilde \Lambda_{\alpha_1 \alpha_4}
+\widetilde \Lambda_{\alpha_2 \alpha_3};
+\end{eqnarray}
+%
+
+\noindent
+или с тензором 
+$q_{j \alpha } \widetilde \Lambda_{\alpha_1 \alpha_2} \ldots 
+\widetilde \Lambda_{\alpha \alpha_i}
+\ldots
+\widetilde \Lambda_{\alpha_{m-1} \alpha_{m}}$, если $m = 2k-1$, 
+например, при $m=3$ 
+%
+\begin{eqnarray}
+\sum \limits_{\{ 2\}} A_{\alpha_1 \alpha_2 \alpha_3} &=& 
+\sum \limits^3_{j=1} \, \Big \{ 
+A_{\alpha_1 \alpha_2 \alpha_3}
+q_{j \mprl \alpha_3} \widetilde \Lambda_{\alpha_1 \alpha_2} + 
+\\
+\nonumber
+&+& A_{\alpha_1 \alpha_2 \alpha_3}
+q_{j \mprl \alpha_2} \widetilde \Lambda_{\alpha_1 \alpha_3} + 
+A_{\alpha_1 \alpha_2 \alpha_3}
+q_{j \mprl \alpha_1} \widetilde \Lambda_{\alpha_2 \alpha_3} \, \Big \}.
+\end{eqnarray}
+
+%
+Подставляя разложения (\ref{eq:eps1}) и (\ref{eq:tt1}) в амплитуду 
+(\ref{eq:M3}), получим:
+
+для нечетного числа вершин и скалярной связи ($g_{2k+1} = g_S$)
+%
+\begin{eqnarray}
+{\cal M}_{2k+1}^S \, &=& \, 
+- \frac{i \, e^{2k+1}B}{\pi} \, g_S \, j_S   
+ \, \frac{\prod \limits^{2k}_{i=1} (q_i \widetilde \varphi \varepsilon^{(i)})}
+ {\sum \limits_{\{ 2\}} \prod \limits^{2k}_{i=1}
+(\widetilde \varphi q_i)_{\alpha_{i}}} \, \{ I_{2k} +
+\nonumber \nonumber \\
+ &+& ((2k)!/2 - 1 \, \mbox{перестановок фотонов})\}; 
+\label{eq:MS}
+\end{eqnarray}
+
+для четного числа вершин и векторной связи ($g_{2k} = g_V$)
+%
+\begin{eqnarray}
+{\cal M}_{2k}^V \, &=& \, 
+ \frac{i \, e^{2k}B}{\pi} \, g_{V}
+ \frac{(q_{2k} \widetilde \varphi j_V) 
+\prod \limits^{2k-1}_{i=1} (q_i \widetilde \varphi \varepsilon^{(i)})}
+ {\sum \limits_{\{ 2\}} \prod \limits^{2k}_{i=1}
+(\widetilde \varphi q_i)_{\alpha_{i}}} \, \{ I_{2k} +  
+\nonumber \nonumber \\
+ &+& ((2k-1)!/2 - 1 \, \mbox{перестановок фотонов})\};
+\label{eq:MV}
+\end{eqnarray}
+
+для четного числа вершин и псевдовекторной связи ($g_{2k} = g_A$)
+%
+\begin{eqnarray}
+{\cal M}_{2k}^A \, = \, - {\cal M}_{2k}^V [j_{V\alpha} \to
+(\widetilde \varphi j_A)_{\alpha}, \, g_V \to g_A]; 
+\label{eq:MA}
+\end{eqnarray}
+
+для четного числа вершин и псевдоскалярной связи ($g_{2k} = g_P$)
+%
+\begin{eqnarray}
+{\cal M}_{2k}^P \, &=& \,  
+ \frac{i \, e^{2k}B}{\pi} \, g_P \, j_P 
+ \frac{\prod \limits^{2k-1}_{i=1} (q_i \widetilde \varphi \varepsilon^{(i)})}
+  {\sum  \limits_{\{ 2\}} \prod \limits^{2k-1}_{i=1}
+(\widetilde \varphi q_i)_{\alpha_{i}}} \, \{ I_{2k-1} +  
+\nonumber \nonumber \\
+ &+& ((2k-1)!/2 - 1 \, \mbox{перестановок фотонов})\}.
+\label{eq:MA'}
+\end{eqnarray}
+
+%
+Как показывает анализ, вычисление амплитуды любого типа можно
+свести к вычислению скалярного интеграла вида
+
+\begin{eqnarray}
+S_{n}(Q_1,\ldots ,Q_n) = \int \, \frac{d^{2}p}{(2\pi)^2} \, 
+\prod \limits^{n}_{i=1} \frac{1}{(p - Q_i)^2 - m_e^2 + i0}.
+\label {eq:s1}
+\end{eqnarray}
+
+Следует отметить, что при вычислении~(\ref{eq:s1}) использование
+стандартной процедуры параметризации Фейнмана может оказаться 
+нецелесообразным в силу увеличения кратности интеграла.
+ Например, при $n=3$ двукратный интеграл~(\ref{eq:s1}) преобразуется
+в интеграл по двум фейнмановским переменным, а при $n=4$ таких
+переменных будет три, и т.д.
+
+Предлагается другой способ -- прямое вычисление двукратного интеграла 
+по $d p_0 d p_z$ без введения фейнмановских переменных.
+Проинтегрируем (\ref{eq:s1}) по $p_0$ с использованием теории
+вычетов и выполним замену переменной $p_z  - \, Q_{i \, z} \to p_z$. Получим:
+
+\begin{eqnarray}
+&&S_{n}(Q_1,\ldots ,Q_n) = 
+\nonumber \\
+&&= \, - \, \frac{i}{4\pi}
+\sum \limits^{n}_{i=1} \int \limits^{+\infty}_{0} \, \frac{dp_z}{E} \,   
+\underset{l \ne i}{\prod \limits^{n}_{l=1}} \frac{1}{(E - d_{il \, 0})^2 -
+(p_z - d_{il \, z})^2- m_e^2} + 
+\nonumber \nonumber \\
+&&+ (p_z \leftrightarrow -p_z),
+\label {eq:s2}
+\end{eqnarray}
+
+\noindent
+где введены обозначения $E = \sqrt{p_z^2 + m_e^2}, \,
+d_{il \, \alpha} = Q_{i \, \alpha} - Q_{l \, \alpha}$.
+
+Путем замены переменной, $E + p_z = k$, выражение (\ref{eq:s2}) можно привести 
+к следующему виду:
+
+\begin{eqnarray}
+&&S_{n}(Q_1,\ldots ,Q_n) \nonumber \nonumber \\
+&&= \, (-1)^n \, \frac{i}{4\pi}
+\sum \limits^{n}_{i=1} \int \limits^{+\infty}_{m_e} \, \frac{dk}{k} \,   
+\underset{l \ne i}{\prod \limits^{n}_{l=1}}
+\frac{k}{k^2(d_{il \, 0} + d_{il \, z}) -
+k (d_{il})_{\mprl}^2 + m_e^2(d_{il \, 0} - d_{il \, z})} + 
+\nonumber \nonumber \\
+&&+ (d_{il \, z} \leftrightarrow -d_{il \, z}),
+\label {eq:s3}
+\end{eqnarray}
+%
+напомним, что $a_{\mprl}^2 = a_0^2 - a_z^2, \;
+(ab)_{\mprl} = a_0 b_0 - a_z b_z$. 
+Используя разложение подынтегрального выражения в~(\ref{eq:s3}) на 
+простейшие дроби
+
+%\begin{eqnarray}
+$$\frac{1}{k} \underset{l \ne i}{\prod \limits^{n}_{l=1}}
+\frac{k}{k^2(d_{il \, 0} + d_{il \, z}) -
+kd_{il}^2 + m_e^2(d_{il \, 0} - d_{il \, z})} = 
+%\nonumber   
+%\end{eqnarray}
+%\begin{eqnarray}
+\underset{l \ne i}{\sum \limits^{n}_{l=1}}
+\left [ \frac{A_{il}^{(1)}}{k - k_1} + 
+\frac{A_{il}^{(2)}}{k - k_2} \right ],
+$$
+%\end{eqnarray}
+
+\noindent
+где 
+$$A_{il}^{(p)} = k_p^{n-2} \, \frac{d}{dk} 
+\underset{j \ne i}{\prod \limits^{n}_{j=1}}
+ \frac{1}{k^2(d_{ij \, 0} + d_{ij \, z}) -
+kd_{ij}^2 + m_e^2(d_{ij \, 0} - d_{ij \, z})} {\bigg |_{k = k_p}},$$
+
+$k_1$ и $k_2$ -- корни уравнения
+$$k^2(d_{il \, 0} + d_{il \, z}) -
+kd_{il}^2 + m_e^2(d_{il \, 0} - d_{il \, z}) = 0,$$
+%окончательно получим: 
+проинтегрируем~(\ref{eq:s3}) по переменной $k$. Окончательно получим: 
+
+%Интегрируя~(\ref{eq:s3}), окончательно получим:
+
+\begin{eqnarray}
+S_{n}(Q_1,\ldots ,Q_n) = \, \frac{i}{8m_e^2\pi}
+\sum \limits^{n}_{i=1} \underset{l \ne i}{\sum \limits^{n}_{l=1}}
+ \, \left [ H \left (\frac{4m_e^2}{(d_{il})_{\mprl}^2} \right) + 1 \right ] 
+ Re \, \bigg \{ \underset{k \ne i,l}
+ {\prod \limits^{n}_{k=1}} \frac{1}{Y_{ilk}} \bigg \} ,   
+\label {eq:s4}
+\end{eqnarray}
+
+\noindent
+где 
+\begin{displaymath}
+Y_{ilk} = (d_{lk} d_{ik})_{\mprl} \, + \, i (d_{lk} \tilde \varphi d_{ik})
+\sqrt{\frac{4m_e^2}{(d_{il})_{\mprl}^2} - 1}.
+\end{displaymath}
+
+Функция $H(z)$ определяется выражениями  
+\begin{eqnarray}
+&&H(z) = \frac{-z}{2\sqrt{1 - z}}
+\ln{\frac{\sqrt{1 - z} + 1}{\sqrt{1 - z} - 1}} - 1,\quad z<0,
+\nonumber  \\ [3mm]
+&&H(z) =  \frac{1}{2} \left ( \frac{z}{\sqrt{1-z}}
+\ln \left | \frac{\sqrt{1-z} - 1}{\sqrt{1-z} + 1} \right |- 2 + 
+i \pi \,\frac{z}{\sqrt{1-z}} \right ), \quad 0 < z < 1, \nonumber
+\\ [3mm]
+&&H(z)=\frac{z}{\sqrt{z - 1}} \,\mbox{arctg} \frac{1}{\sqrt{z - 1}} - 1, 
+\quad z > 1.
+\nonumber 
+\end{eqnarray}
+
+\noindent
+и имеет асимптотики
+%
+\begin{eqnarray}
+&&H(z) \simeq \frac{2}{3z} + \frac{8}{15z^2} + \frac{16}{35z^3}, \quad |z| \gg 1,
+\label {eq:s5}
+\end{eqnarray}
+%
+\begin{eqnarray}
+&&H(z) \simeq -1 + \frac{z}{2}\ln{\frac{|z|}{4}}, \quad |z| \ll 1.
+\label {eq:s6}
+\end{eqnarray}
+
+
+%\newpage
+\section{Процесс $\gamma \gamma \to \nu \bar\nu$}
+
+\subsection{Анализ процесса $\gamma \gamma \to \nu \bar\nu$
+         в вакууме и слабом поле}
+
+\subsubsection{Стандартное электрослабое взаимодействие}
+
+По-видимому, историю исследований петлевого электрослабого процесса 
+превращения фотонной пары в пару нейтрино - антинейтрино нужно 
+отсчитывать от статьи Б.~Понтекорво~\cite{Pontecorvo:1959}, указавшего 
+на его возможную роль в астрофизике.
+Процесс описывается двумя диаграммами Фейнмана с виртуальным фермионом 
+в петле и с перестановкой фотонов, рис.~\ref{fig:loop2}.
+Здесь большой кружок изображает эффективное слабое взаимодействие фермиона 
+с нейтрино. 
+
+%
+\begin{figure}[htb]
+
+%\epsffile[50 641 413 701]{pic12.ps}
+
+\centerline{\includegraphics*[scale=1.]{12.eps}}
+
+\vspace{10mm}
+\caption{Диаграммы Фейнмана для процесса $\gamma \gamma \to \nu \bar\nu$.}
+\label{fig:loop2}
+
+\end{figure}
+%
+
+Для анализа имеющихся в литературе результатов амплитуду процесса, 
+с учетом градиентной инвариантности электромагнитного взаимодействия,  
+удобно записать в следующем самом общем виде
+%
+\begin{eqnarray}
+{\cal M}_3 = {\alpha \over \pi} \, {G_{\mbox{\normalsize{F}}} \over \sqrt{2}}\,
+\left [\bar\nu_i (p_1) \,
+R_{\alpha \beta \mu \nu} \,
+\nu_i (- p_2) \right ]\,
+f^{\alpha \beta}_1 f^{\mu \nu}_2, 
+\label{eq:Mgen}
+\end{eqnarray}
+
+\noindent
+где индекс $i$ определяет сорт нейтрино, $i = e, \mu, 
+\tau$~\footnote{Выражение~(\ref{eq:Mgen}) легко обобщается 
+на случай лептонного смешивания.}, 
+$f^{\alpha \beta} = q^\alpha \varepsilon^\beta - q^\beta \varepsilon^\alpha$ 
+-- тензор электромагнитного поля фотона в импульсном пространстве. 
+Тензор $R_{\alpha \beta \mu \nu}$, который является дираковской матрицей, 
+должен быть построен из имеющихся ковариантов и имеет размерность 
+обратной массы.
+
+Видимо, самое первое правильное заключение об этой амплитуде было 
+сделано в работе~\cite{Gell-Mann:1961}, это 
+теорема Гелл-Манна: в случае безмассовых нейтрино, реальных фотонов, 
+и в локальном пределе стандартного слабого взаимодействия амплитуда 
+строго равна нулю. Качественно это можно увидеть из следующего 
+рассуждения: в системе центра инерции левое нейтрино и правое антинейтрино 
+уносят полный угловой момент, равный единице. Однако, как впервые было 
+показано Ландау~\cite{Landau:1948}, система из двух фотонов не 
+может находиться в состоянии с таким угловым моментом (так называемая
+теорема Янга~\cite{Yang:1950}). 
+На языке тензорного анализа это означает, что с учетом киральности 
+безмассовых нейтрино и бозе-симметрии в задаче нет ковариантов для 
+построения тензора $R_{\alpha \beta \mu \nu}$. 
+
+При любом отклонении от условий теоремы Гелл-Манна возникает 
+ненулевая амплитуда~(\ref{eq:Mgen}). В случае массивных нейтрино процесс 
+становится разрешенным~\cite{Crewther:1982,Dodelson:1991} благодаря 
+изменению киральности нейтрино, при этом амплитуда пропорциональна 
+массе нейтрино. Чтобы проиллюстрировать лоренцевскую структуру, 
+приведем здесь выражение для тензора $R_{\alpha \beta \mu \nu}$ 
+в случае низких энергий фотонов $(\omega \ll m_e)$, когда 
+максимальный вклад в амплитуду дает электронная петля:
+%
+\begin{eqnarray}
+R_{\alpha \beta \mu \nu} = 
+- {i \over {24}} \, 
+\left (2 \delta_{i e} - 1 \right ) \,
+\frac{m_{\nu_i}} {m^2_e} \, \gamma_5 \, 
+\varepsilon_{\alpha \beta \mu \nu}.
+\label{eq:Rmn}
+\end{eqnarray}
+
+\noindent
+При учете нелокальности слабого взаимодействия через $W$ - бозон 
+импульсы нейтрино и антинейтрино могут входить в амплитуду по 
+отдельности, а не только в виде суммы, при этом возникает следующая 
+структура~\cite{Levine:1967,Dicus:1972,Dicus:1993}
+%
+\begin{eqnarray}
+R_{\alpha \beta \mu \nu} &=& {8 i \over 3} \left (\ln{m^2_W \over m^2_e}
++ {3 \over 4} \right ) {1 \over m^2_W} \times
+\nonumber \\
+%
+&\times&
+\left [\gamma_\alpha \, g_{\beta \mu} (p_1 - p_2)_\nu +
+\gamma_\mu \, g_{\nu \alpha} (p_1 - p_2)_\beta \right ]
+ (1 + \gamma_5). 
+\label{eq:Rnl}
+\end{eqnarray}
+
+\noindent
+Видно, что в обоих случаях амплитуда имеет сильное подавление, 
+за счет либо малой массы нейтрино в числителе, либо большой массы 
+$W$ - бозона в знаменателе.
+
+Еще один случай появления ненулевой амплитуды реализуется, если 
+один из фотонов~\cite{Rosenberg:1963} или оба 
+фотона~\cite{Cung:1975,Kuznetsov:1993pl,Kuznetsov:1993yf} 
+находятся вне массовой поверхности. При этом
+$q_\mu f^{\mu \nu} \ne 0$, и импульсы фотонов могут участвовать в 
+построении тензора $R_{\alpha \beta \mu \nu}$.
+В случае $\omega \ll m_e$ имеем
+%
+\begin{eqnarray}
+R_{\alpha \beta \mu \nu} = 
+- {i \over {24}} \, 
+\left (2 \delta_{i e} - 1 \right ) \,
+{1 \over m^2_e} \, \gamma^\rho (1 + \gamma_5) 
+ \left (\varepsilon_{\rho \alpha \mu \nu} \, q_{1 \beta}
+\; 
++ \varepsilon_{\rho \mu \alpha \beta} \, q_{2 \nu}
+\right ), 
+\label{eq:Rrp}
+\end{eqnarray}
+
+\noindent
+где $q_{1,2}$ -- импульсы фотонов. Отметим, что с учетом безмассовости 
+нейтрино в тензоре~(\ref{eq:Rrp}) можно сделать замену 
+$q_1 \leftrightarrow - q_2$. 
+
+\subsubsection{Обобщение стандартной модели с нарушенной лево-правой 
+симметрией}
+
+Еще одно отклонение от условий теоремы Гелл-Манна, при котором 
+процесс $\gamma \gamma \to \nu \bar\nu$ также возможен, 
+реализуется, когда в эффективном лагранжиане нейтрино - лептонного 
+взаимодействия нейтрино меняет киральность. При записи лагранжиана 
+в форме нейтральных токов к этому приводит связь скалярных и 
+псевдоскалярных токов. Такой случай, рассматривавшийся 
+в работе~\cite{Liu:1991}, имеет место в модели с нарушенной лево-правой 
+симметрией и со смешиванием векторных бозонов, взаимодействующих с левыми 
+и правыми заряженными слабыми токами~\cite{Beg:1977}. 
+Напомним, что в этой модели $\nu e W$ - взаимодействия имеет вид
+%
+\begin{eqnarray}
+{\cal L} &=& \frac{g}{2\sqrt{2}}\;\bigg\lbrace
+\left[\bar e \gamma_\alpha
+\left( 1 + \gamma_5 \right) \nu_e \right] 
+\left(W_1^\alpha \cos \zeta + W_2^\alpha \sin \zeta \right)
++
+%
+\nonumber \\
+&+&
+\left[\bar e \gamma_\alpha
+\left( 1 - \gamma_5 \right) \nu_e \right] 
+\left(- W_1^\alpha \sin \zeta + W_2^\alpha \cos \zeta \right)
++ h.c.
+\bigg\rbrace,
+\label{eq:L_LR}
+\end{eqnarray}
+
+\noindent 
+где $W_{1,2}$ -- состояния с определенной массой, $\zeta$ -- угол 
+смешивания. Существующие ограничения на параметры данной 
+модели получены в низкоэнергетических экспериментах на 
+ускорителях и имеют вид~\cite{RevPartPhys:2000}
+%
+\begin{eqnarray}
+M_{W_2} > 715 \; \mbox{ГэВ}, \quad \zeta < 0.013.
+\label{eq:LR_limit1}
+\end{eqnarray}
+
+\noindent
+Благодаря малости угла смешивания состояние $W_2$ практически 
+совпадает с правым бозоном $W_R$.
+
+Существует также более жесткое ограничение на параметры модели, 
+полученное из астрофизических данных, а именно, из анализа 
+нейтринных событий от сверхновой SN1987A. В комбинации с
+ускорительными данными получено~\cite{Barbieri:1989}
+%
+\begin{eqnarray}
+M_{W_R} > 23 \; \mbox{ТэВ}, \quad \zeta < 10^{-5}.
+\label{eq:LR_limit2}
+\end{eqnarray}
+
+\noindent
+Для реализации процесса $\gamma \gamma \to \nu \bar\nu$ важна 
+та часть эффективного лагранжиана $\nu \nu e e$ -- взаимодействия,  
+за счет которой рождающееся нейтрино или антинейтрино будет 
+иметь "нестандартную" киральность. Это возможно именно благодаря 
+смешиванию бозонов, когда в эффективном лагранжиане перемножаются 
+левый и правый токи из~(\ref{eq:L_LR}). 
+С учетом малости угла смешивания и отношения масс $M_{W_1} / M_{W_2}$, 
+можно записать лагранжиан $\nu \nu e e$ -- взаимодействия в виде
+%
+\begin{eqnarray}
+{\cal L}_{eff} \simeq - 4 \; \zeta \; 
+\frac{G_{\mbox{\normalsize{F}}}}{\sqrt{2}} 
+\left [
+\left(\bar e e \right) \left(\bar \nu_e \nu_e \right) - 
+\left(\bar e \gamma_5 e \right) \left(\bar \nu_e \gamma_5 \nu_e \right) 
+\right ].
+\label{eq:L_eff}
+\end{eqnarray}
+
+\noindent 
+При этом существуют два новых по сравнению со стандартной моделью канала 
+превращения фотонной пары в пару нейтрино - антинейтрино, а именно
+%
+\begin{eqnarray}
+\gamma \gamma\to (\nu_e)_L (\bar\nu_e)_L, \quad
+\gamma \gamma\to (\nu_e)_R (\bar\nu_e)_R. 
+\label{eq:proc}
+\end{eqnarray}
+
+\noindent 
+Здесь $(\nu_e)_R$ и $(\bar\nu_e)_L$ -- состояния, "стерильные" 
+относительно стандартного слабого взаимодействия. 
+Полный спин нейтринных пар в~(\ref{eq:proc})  
+в системе центра инерции равен нулю, что открывает процесс
+$\gamma \gamma \to \nu \bar\nu$. 
+
+После несложных вычислений амплитуды процесса с эффективным
+лагранжианом~(\ref{eq:L_eff}) 
+мы получили для тензора $R_{\alpha \beta \mu \nu}$ 
+следующее выражение 
+%
+\begin{eqnarray}
+R_{\alpha \beta \mu \nu} = 
+\frac{4 \zeta m_e}{(q_1 q_2)}\,
+\left\{
+\left[1 + {1 \over 2}\;(1-4 \tau) I(\tau)\right] 
+g_{\alpha \nu} g_{\beta \mu} \;
+- \; {i \over 4}\, I(\tau)\, \gamma_5 \, \varepsilon_{\alpha \beta \mu \nu}
+\right\} , 
+\label{eq:R_LR}
+\end{eqnarray}
+
+\noindent
+где 
+%
+\begin{eqnarray}
+\tau = \frac{m_e^2}{2 (q_1 q_2)}, \qquad
+I(\tau) = \int\limits_0^1 dx
+\int\limits_0^{1-x} dy \; \frac{1}{\tau - x y - i 0} .
+\label{eq:I(tau)}
+\end{eqnarray}
+
+Отметим, что наш результат~(\ref{eq:R_LR}), совпадая по структуре с
+тензором, который можно извлечь из работы~\cite{Liu:1991}, отличается 
+от него числовыми коэффициентами. 
+
+Амплитуда процесса $\gamma \gamma \to \nu \bar\nu$ в рассматриваемой 
+модели также имеет подавление за счет малости угла смешивания $\zeta$. 
+
+\subsection{Учет влияния внешнего поля на процесс 
+          $\gamma \gamma \to \nu \bar\nu$}
+
+Как уже отмечалось, внешнее магнитное поле может усилить 
+данный процесс. Поскольку в задаче возникает тензор электромагнитного 
+поля $F_{\mu \nu}$, это открывает новую возможность для построения тензора 
+$R_{\alpha \beta \mu \nu}$ в амплитуде~(\ref{eq:Mgen}). В действительности 
+поле войдет в амплитуду в виде безразмерного тензора 
+${\cal F}_{\mu \nu} = e F_{\mu \nu}/m_e^2$, 
+который может дать дополнительное усиление, если величина поля 
+превышает швингеровское значение $B_e = m_e^2/e$. 
+
+%
+%\begin{figure}[htb]
+
+%\epsffile[50 641 413 701]{pic2.ps}
+
+%\vspace{10mm}
+%\caption{Диаграммы Фейнмана для процесса $\gamma \gamma \to \nu \bar\nu$ во 
+%внешнем магнитном поле.}
+%\label{fig:l2b}
+
+%\end{figure}
+%
+
+В работе~\cite{Shaisultanov:1998} процесс $\gamma \gamma \to \nu \bar\nu$
+исследовался в рамках стандартной модели 
+в относительно слабом магнитном поле $B \ll B_e$, 
+в низшем порядке разложения по $B / B_e$,  
+и при малых энергиях фотонов $\omega \ll m_e$
+(именно в этом приближении уместно применение эффективного лагранжиана, 
+полученного в~\cite{Dicus:1997} из амплитуды процесса 
+$\gamma \gamma \to \gamma \nu \bar\nu$ и использованного 
+в~\cite{Shaisultanov:1998}). 
+Отметим, что полученная амплитуда, формулы (4), (5) 
+из~\cite{Shaisultanov:1998}, записана в достаточно громоздком виде.
+Преобразуя амплитуду к форме~(\ref{eq:Mgen}), 
+получим тензор $R_{\alpha \beta \mu \nu}$ в виде
+%
+\begin{eqnarray}
+R_{\alpha \beta \mu \nu} &=& \frac{C_V}{90\,m_e^2}\, \gamma^\rho 
+(1 + \gamma_5)\; 
+\big \lbrace 
+3\;g_{\alpha \nu} g_{\beta \mu} {\cal F}_{\rho \sigma} (q_1 + q_2)^\sigma -
+\nonumber\\
+%
+&-& 3\; {\cal F}_{\alpha \beta} g_{\mu \rho} q_{1 \nu} 
+- 3\; {\cal F}_{\mu \nu} g_{\alpha \rho} q_{2 \beta} -
+\label{eq:MShai}\\
+%
+&-& 14\; g_{\alpha \rho} q_1^\sigma (g_{\beta \mu} {\cal F}_{\nu \sigma} 
++ {\cal F}_{\beta \mu} g_{\nu \sigma})
+- 14\; g_{\mu \rho} q_2^\sigma (g_{\nu \alpha} {\cal F}_{\beta \sigma} 
++ {\cal F}_{\nu \alpha} g_{\beta \sigma})
+\big \rbrace ,
+\nonumber
+\end{eqnarray}
+
+\noindent 
+где $C_V = \pm 1/2 + 2 \sin^2 \theta_W$, 
+здесь верхний знак относится к электронному нейтрино,
+нижний знак соответствует мюонному и тау--нейтрино.  
+Видно, что амплитуда процесса линейно растет с полем. Однако, этот рост 
+имеет место только при $B \ll B_e$, но в сильном поле,
+$B \gg B_e$, как показано в разделе 3 настоящей главы, 
+амплитуда в случае стандартного слабого взаимодействия 
+выходит на константу. Такой случай  был 
+рассмотрен в работах~\cite{Chistyakov:1999ri,Chist:2002}. 
+
+В работах~\cite{Chyi:1999,Chyi:2000} 
+процесс $\gamma \gamma \to \nu \bar\nu$ 
+и кроссинг-процессы исследовались также в слабом магнитном поле, 
+но без ограничения малости энергий фотонов, при $\omega < m_W$. 
+В пределе $\omega \ll m_e$ амплитуда из~\cite{Chyi:2000} согласуется
+с результатом работы~\cite{Shaisultanov:1998}. К сожалению, амплитуда 
+в~\cite{Chyi:2000} записана в очень громоздком виде, так что даже простейший 
+тест на калибровочную инвариантность провести чрезвычайно затруднительно.
+
+В более ранней работе~\cite{Loskutov:1981a} процесс $\gamma \gamma \to \nu
+\bar\nu$ был исследован в сильном магнитном поле, $B \gg B_e$, 
+при малых энергиях фотонов, $\omega \ll m_e$, без учета вклада
+$Z$ -- бозона.
+
+\subsection{Амплитуда и сечение процесса $\gamma \gamma \to \nu \bar\nu$
+в модели с нарушенной лево - правой симметрией}
+
+Для процесса $\gamma \gamma \to \nu \bar\nu$, усиленного магнитным 
+полем, в модели с эффективной скалярной $\nu \nu e e$ - 
+связью~\cite{Kuznetsov:2002a} (в этом случае ${\cal M}_3 \equiv {\cal M}_3^s$), 
+при произвольных значениях энергий фотонов 
+из~(\ref{eq:MS}) и~(\ref{eq:s4}) получим тензор $R_{\alpha \beta \mu \nu}$ в 
+следующем виде
+%
+\begin{eqnarray}
+R_{\alpha \beta \mu \nu} \, = \, - \;\frac{B}{B_e}\; \zeta \;  
+\widetilde \varphi_{\alpha \beta} \widetilde \varphi_{\mu \nu} \; 
+R(q_{1\mprl}, q_{2\mprl}, q_{3\mprl})
+\label{eq:MS3}
+\end{eqnarray}
+%
+%
+\begin{eqnarray}
+R(q_{1\mprl}, q_{2\mprl}, q_{3\mprl}) \,& = &\, 
+  \frac{2m_e} 
+ {4m_e^2 [(q_1 q_3)^2_{\mprl} - q^2_{1\mprl} q^2_{3\mprl}] +
+ q^2_{1\mprl} q^2_{2\mprl} q^2_{3\mprl}} \times
+\nonumber \nonumber \\
+&\times &\, \left \{ \left [q^2_{1\mprl} q^2_{3\mprl} -
+2m_e^2 (q^2_{3\mprl} + q^2_{1\mprl} - q^2_{2\mprl})\right ] 
+H \left (\frac{4m_e^2}{q_{1\mprl}^2} \right ) \right. \, + 
+\nonumber \nonumber \\
+& + & \, \left [q^2_{2\mprl} q^2_{3\mprl} -
+2m_e^2 (q^2_{3\mprl} + q^2_{2\mprl} - q^2_{1\mprl})\right ]
+H \left (\frac{4m_e^2}{q_{2\mprl}^2} \right ) \, + 
+\nonumber \nonumber \\
+& + & \, \left. q^2_{3\mprl}(4m_e^2 -q^2_{3\mprl})
+H \left (\frac{4m_e^2}{q_{3\mprl}^2} \right ) -
+2q^2_{3\mprl}(q_1q_2)_{\mprl} \, \right \}, 
+\label{eq:MS3R}
+\end{eqnarray}
+
+\noindent
+где $q_3 = p_1 + p_2$ -- суммарный импульс нейтринной пары.
+
+После подстановки поляризаций фотонов из~(\ref{eq:vect}) в~(\ref{eq:Mgen})
+с использованием~(\ref{eq:MS3}), (\ref{eq:MS3R}), 
+(\ref{eq:s5}) и~(\ref{eq:s6}) получим асимптотические выражения для амплитуды 
+${\cal M}_3^s$ в двух предельных случаях   
+
+\begin{itemize}
+\item[а)] 
+при низких энергиях фотонов, $\omega \lesssim m_e$
+%
+\begin{eqnarray} 
+{\cal M}_{3}^{s} \simeq \frac{8 \alpha}{3 \pi} \,
+\frac{G_{\mbox{\normalsize{F}}}}{\sqrt{2}}\,
+\frac{\zeta}{m_e}\;\frac{B}{B_e}\,
+\left [\bar\nu_e (p_1) \, \nu_e (- p_2) \right ]\,
+\sqrt{q_{1\mprl }^2 q_{2\mprl }^2} ;
+\label{eq:M<}
+\end{eqnarray}
+
+\item[б)] 
+при высоких энергиях фотонов, $\omega \gg m_e$, в главном логарифмическом 
+приближении:
+%
+\begin{eqnarray} 
+{\cal M}_{3}^{s} \simeq \frac{16 \alpha}{\pi} \,
+\frac{G_{\mbox{\normalsize{F}}}}{\sqrt{2}}\,
+\zeta\;\frac{B}{B_e}\,m_e^3 \,
+\left [\bar\nu_e (p_1) \, \nu_e (- p_2) \right ]\,
+\frac{1}{\sqrt{q_{1\mprl }^2 q_{2\mprl }^2}}\,
+\ln \frac{\sqrt{q_{1\mprl }^2 q_{2\mprl }^2}}{m_e^2},
+\label{eq:M>}
+\end{eqnarray}
+
+\end{itemize}
+полностью согласующиеся с результатами работы~\cite{Kuznetsov:2002a}, 
+где вычисление интегралов вида~(\ref{eq:s1}) проводились с помощью 
+фейнмановской параметризации. 
+
+Вычисляя стандартным путем сечения обоих процессов 
+$\gamma \gamma\to (\nu_e)_L (\bar\nu_e)_L$ и
+$\gamma \gamma\to (\nu_e)_R (\bar\nu_e)_R$, получаем, что 
+они равны, 
+$\sigma_{LL} = \sigma_{RR} \equiv \sigma$. 
+В двух указанных предельных случаях 
+выражения для сечения имеют вид 
+%
+\begin{eqnarray}
+\sigma (\omega \lesssim m_e)
+&\simeq& \frac{2\, \alpha^2\, G_{\mbox{\normalsize{F}}}^2\, \zeta^2}{9 \pi^3}
+\; \left(\frac{B}{B_e}\right)^2
+\frac{q _{1\mprl }^2 q _{2\mprl }^2}{m_e^2},
+\label{eq:sig1}\\
+%
+\sigma (\omega \gg m_e)
+&\simeq& \frac{2\, \alpha^2\, G_{\mbox{\normalsize{F}}}^2\, \zeta^2}{\pi^3}
+\; \left(\frac{B}{B_e}\right)^2
+\frac{m_e^6}{q _{1\mprl }^2 q _{2\mprl }^2} \;
+\ln^2 \frac{q _{1\mprl }^2 q _{2\mprl }^2}{m_e^4}.
+\label{eq:sig2}
+\end{eqnarray}
+
+
+\subsection{Проявления процесса $\gamma \gamma \to \nu \bar\nu$ 
+в астрофизике}
+
+Наблюдаемой величиной в астрофизике является потеря энергии из 
+единицы объема звезды в единицу времени, обусловленная выходом нейтрино 
+(нейтринная излучательная способность -- emissivity). 
+В общем случае для процесса $\gamma \gamma \to \nu \bar\nu$ 
+она может быть записана в виде 
+%
+\begin{eqnarray}
+Q &=& {1 \over 2} 
+\; \int \frac{d^3 q_1}{(2 \pi)^3} \; \frac{2}{e^{\omega_1/T} - 1}
+\; \int \frac{d^3 q_2}{(2 \pi)^3} \; \frac{2}{e^{\omega_2/T} - 1}
+\times
+%
+\nonumber \\
+&\times&
+(\omega_1 + \omega_2) \; \frac{(q_1 q_2)}{\omega_1 \omega_2} 
+ \; \sigma \,(\gamma \gamma \to \nu \bar\nu). 
+\label{eq:Qdef} 
+\end{eqnarray}
+
+\noindent
+Здесь $T$ - температура фотонного газа.
+В нашем случае, учитывая, 
+что в рассматриваемом процессе участвуют фотоны только одной 
+поляризации (второй, в обозначениях~(\ref{eq:vect})), 
+в выражении~(\ref{eq:Qdef}) следует добавить фактор 1/4.
+Отметим также, что при интегрировании по импульсам фотонов в (\ref{eq:Qdef}) важно 
+учитывать нетривиальный закон дисперсии фотона в сильном магнитном поле, 
+который определяется поляризационным оператором фотона~\footnote{Более подробно 
+дисперсионные свойства фотонов во внешней активной среде 
+рассмотрены в разделе 3 главы 3 настоящей диссертации.}. 
+Кроме того, необходимо также учитывать большие радиационные 
+поправки, которые сводятся к перенормировке волновой функции фотона --  
+$Z_1, Z_2$.
+Принимая во внимание, что только "стерильное" 
+(анти)нейтрино из пары, см.~(\ref{eq:proc}), свободно вылетает 
+из горячей и плотной звездной среды (другое, участвующее 
+в стандартном взаимодействии, имеет малую длину пробега и поглощается), 
+в качестве сечения подставляем 
+$(\sigma_{LL} + \sigma_{RR})/2 = Z_1 Z_2 \; \sigma $, а $\sigma$ из  
+формул~(\ref{eq:sig1}),~(\ref{eq:sig2}). 
+
+\bigskip
+
+{\bf а) Случай низких температур, $T \lesssim m_e$.} 
+
+\bigskip
+
+В этом пределе закон дисперсии для фотона второй моды может быть 
+записан в виде 
+%
+\beq
+\omega^2 = \frac{q_{\mprp}^2}{1 + \xi} + q_z^2, 
+\label{deqLE}
+\eeq
+%
+где для удобства введен параметр $\xi = \frac{\alpha}{3 \pi} \, \frac{B}{B_e}$, который 
+характеризует степень влияния магнитного поля.  Так, в диапазоне величин 
+магнитного поля $10 B_e \div 10^3 B_e$ параметр $\xi$ меняется 
+ от $0.77\cdot 10^{-2}$ до $0.77$ соответственно.
+В случае не слишком сильного поля, $\beta \ll m_e^2 / \alpha$, когда 
+параметром $\xi$ можно пренебречь по сравнению с единицей, закон дисперсии 
+для фотона второй моды будет мало отличаться от вакуумного. 
+Кроме того, в этом случае $Z_1 \simeq Z_2 \simeq 1$.
+
+С учетом этих замечаний, подставляя~(\ref{eq:sig1}) в~(\ref{eq:Qdef}), получим
+%
+\begin{eqnarray}
+Q_{(B)} \simeq 2.5 \cdot 10^{13} 
+\; \frac{\mbox{эрг}}{\mbox{см}^3 \; \mbox{с}} 
+\; \left(\frac{\zeta}{0.013}\right)^2
+\left(\frac{B}{B_e}\right)^2
+\left(\frac{T}{m_e}\right)^{11}.
+\label{eq:Q_B_lowT} 
+\end{eqnarray}
+
+\noindent
+Сравним эту величину со вкладами в нейтринную излучательную способность
+за счет других механизмов в процессе $\gamma \gamma\to \nu \bar\nu$, 
+обсуждавшихся в разд. 4.1.1. 
+Например, для вклада за 
+счет учета следующего члена разложения амплитуды по обратным степеням поля 
+в рамках стандартной модели в работе~\cite{Chist:2002} было получено  
+%
+\beq
+Q_{(SM)}\simeq
+1.1 \cdot 10^{19} \,\frac{\mbox{эрг}}{\mbox{с}\cdot \mbox{см}^3 }\, 
+\left(\frac{T}{m_e}\right)^{13}.
+\label{Qne}
+\eeq 
+%
+
+\noindent
+Для вклада за счет ненулевой массы нейтрино из работы~\cite{Dodelson:1991} 
+имеем
+%
+\begin{eqnarray}
+Q_{(m_\nu)} \simeq 0.4 \cdot 10^5 
+\; \frac{\mbox{эрг}}{\mbox{см}^3 \; \mbox{с}} 
+\; \left(\frac{m_\nu}{1 \,\mbox{эВ}}\right)^2
+\left(\frac{T}{m_e}\right)^{11}.
+\label{eq:Q_mnu} 
+\end{eqnarray}
+
+\noindent
+С другой стороны, подставляя сечение, найденное с учетом нелокальности 
+слабого взаимодействия~\cite{Dicus:1993}, в выражение~(\ref{eq:Qdef}), 
+находим 
+%
+\begin{eqnarray}
+Q_{(NL)} \; \simeq \; 10 
+\; \frac{\mbox{эрг}}{\mbox{см}^3 \; \mbox{с}} 
+\; \left(\frac{T}{m_e}\right)^{13}.
+\label{eq:Q_NL} 
+\end{eqnarray}
+
+\noindent
+Видно, что для $B \gtrsim B_e$, даже в случае малого смешивания
+$\zeta \sim 10^{-5}$, индуцированный полем механизм реакции
+$\gamma \gamma\to \nu \bar\nu$ в рамках  
+модели с нарушенной лево - правой симметрией доминирует над механизмами 
+связанными с массивностью 
+нейтрино или нелокальностью слабого взаимодействия. Однако, по 
+сравнению с тем же 
+механизмом в рамках стандартной модели, он оказывается подавленным при величине 
+магнитного поля $B \lesssim 10^3 B_e$, но будет доминировать над 
+всеми механизмами при больших полях.  
+
+\newpage
+
+{\bf б) Случай высоких температур, $T \gg m_e$.} 
+
+\bigskip
+
+В пределе высоких температур, $T \gg m_e$, основной вклад в светимость будут 
+давать фотоны, у которых квадрат продольного импульса лежит 
+в области  $m_e^2 \ll q_{\mprl}^2 \ll \beta$. В этом случае 
+закон дисперсии для фотона моды 2 может быть записан в виде
+%
+\beq
+\omega^2 = q_{\mprp}^2 + q_z^2 + 6 \,\xi \, m_e^2. 
+\label{deqLE}
+\eeq
+%
+%собственное значения поляризационного оператора фотона моды 2, 
+%${\cal P}^{(2)}(q)$, приближенно равно:
+%\beq
+%{\cal P}^{(2)}(q) \simeq  6 \,\xi \, m^2. 
+%\label{eq:PHT}
+%\eeq
+%
+%Тогда в пределе $\xi \ll 1$ закон дисперсии для обеих мод мало отличается от 
+%вакуумного.
+Тогда, подставляя~(\ref{eq:sig2}) в~(\ref{eq:Qdef}), с учетом $\xi \ll 1$ (и,   
+следовательно, $Z_1 \simeq Z_2 \simeq 1$), получим
+%
+\begin{eqnarray}
+Q_{(B)} \simeq 0.4 \cdot 10^{12} 
+\; \frac{\mbox{эрг}}{\mbox{см}^3 \; \mbox{с}} 
+\; \left(\frac{\zeta}{0.013}\right)^2
+\left(\frac{B}{B_e}\right)^2
+\left(\frac{T}{m_e}\right)^3
+\ln^5 \frac{T}{m_e}.
+\label{eq:Q_B_hiT} 
+\end{eqnarray}
+
+Величина $Q$ за счет процесса $\gamma \gamma \to \nu \bar\nu$ со стандартным 
+слабым взаимодействием при высоких температурах, но в относительно 
+слабом магнитном поле вычислялась в работе~\cite{Chyi:1999}.
+В противоположном пределе сильного магнитного поля из работы~\cite{Chist:2002} 
+можно получить  
+%
+\beq
+Q_{(SM)}  \simeq  2.7 \cdot 10^{18}  
+\frac{\mbox{эрг}}{\mbox{с}\cdot \mbox{см}^3 }
+\left( \frac{T}{m_e} \right)^9 \,. 
+\label{QnHT}
+\eeq
+%
+
+Из (\ref{eq:Q_B_hiT}) и (\ref{QnHT}) видно, что 
+в горячем фотонном газе 
+индуцированный полем механизм реакции
+$\gamma \gamma\to \nu \bar\nu$ в рамках  
+модели с нарушенной лево - правой симметрией также подавлен по сравнению 
+с тем же механизмом в рамках стандартной модели.
+Вместе с тем, рассматриваемая модель может играть определенную роль в 
+механизме нейтринного остывания сверхновой. 
+
+Для численной оценки рассмотрим взрыв сверхновой с генерацией очень 
+сильного магнитного поля  $B \sim 10^3\; B_e$
+~\cite{Bisnovatyi-Kogan:1970,Duncan:1992,Bocquet:1995,Cardall:2001}, с 
+температурой $T \sim 35\;\mbox{МэВ}$, типичной для коры 
+сверхновой~\cite{Raffelt:1996}, и 
+$V \sim 10^{19}\;\mbox{см}^3$. Для вклада рассматриваемого 
+индуцированного полем процесса $\gamma \gamma\to \nu \bar\nu$ в 
+нейтринную светимость звезды (luminosity) 
+получим
+%
+\begin{eqnarray}
+L \sim  
+10^{45} \; \frac{\mbox{эрг}}{\mbox{сек}} 
+\; \left(\frac{\zeta}{0.013}\right)^2.
+\label{eq:lum} 
+\end{eqnarray}
+
+\noindent
+Эта величина оказывается малой по сравнению с типичной нейтринной 
+светимостью сверхновой $10^{52} \; \mbox{эрг}/\mbox{сек}$.
+
+%Как уже отмечалось выше, амплитуда~(\ref{eq:M2}) с векторной и 
+%аксиальной вершинами, $\Gamma_3 = V,A$, не содержит линейно растущего 
+%с полем вклада в пределе сильного поля, 
+%$\beta \gg q_{\mprp}^2, q_{\mprl}^2$.
+%Это означает, что амплитуды как для процесса $\gamma \gamma \to \nu \bar\nu$ 
+%со стандартным $\nu\nu e e$ -- взаимодействием, так и для расщепления 
+%фотона $\gamma \to \gamma \gamma$ не зависят от поля в этом пределе. 
+%Этот случай анализировался в  
+%работах~\cite{Chist1999,Chist,Chistyakov:1999ri}.
+
+
+%\newpage
+\subsection{Влияние замагниченной электрон-позитронной плазмы на процесс 
+$\gamma \gamma \to \nu \bar\nu$ в модели с нарушенной лево - правой симметрией}
+
+Наличие замагниченной электрон-позитронной плазмы также приводит к 
+отклонению от условий теоремы Гелл-Манна.  
+При этом к амплитуде (\ref{eq:Mgen}) необходимо добавить дополнительное 
+слагаемое ${\cal M}_{pl}$, которое  соответствует когерентному рассеянию
+фотонов на реальных электронах и позитронах среды без изменения их
+состояния (рассеяние ''вперед``)
+с излучением нейтринной пары.
+Графически такие акты рассеяния на электронах плазмы могут быть
+представлены шестью диаграммами на рис.~\ref{fig:wood1}.
+%\newpage
+\vspace{5mm}
+%
+\begin{figure}[htb]
+
+%\epsffile[100 641 413 701]{fig1.eps}
+\centerline{\includegraphics*[scale=1.]{fig1.eps}}
+
+\vspace{10mm}
+\caption{Дополнительное рассеяние фотонов на электронах среды
+с излучением нейтринной пары в магнитном поле в присутствии плазмы. Рассеянию на
+позитронах будут соответствовать диаграммы с заменой $p \to -p$.
+Крестик на конце электронной линии означает, что частица
+принадлежит среде.
+}
+\label{fig:wood1}
+
+\end{figure}
+%
+
+Отметим, что поскольку в магнитном поле можно 
+построить базис вида~(\ref{eq:basis}), нет необходимости в использовании 
+вектора 4-скорости плазмы $u^{\alpha}$ при построении тензора $R_{\alpha \beta \mu \nu}$.
+Используя технику вычислений, подробно описанную в главе 3, 
+для вклада покоящейся, сильнозамагниченной $(eB \gg T^2,\mu^2)$ 
+плазмы в амплитуду процесса 
+$\gamma \gamma \to \nu \bar\nu$ получаем 
+%
+%
+\begin{eqnarray}
+{\cal M}_{pl} \,& = &\, 
+ -\frac{8\alpha \zeta \; G_{\mbox{\normalsize{F}}}}{\pi \sqrt{2}} 
+ \, \frac{B}{B_e}  \, 
+[\bar \nu_e(p_1) \nu_e(-p_2)] \, m_e \times  
+\nonumber \nonumber \\
+&\times &\, \frac{(q_1 \widetilde \varphi \varepsilon^{(1)})
+ (q_2 \widetilde \varphi \varepsilon^{(2)})}
+ {4m_e^2 [(q_1 q_3)^2_{\mprl} - q^2_{1\mprl} q^2_{3\mprl}] +
+ q^2_{1\mprl} q^2_{2\mprl} q^2_{3\mprl}} \times
+\nonumber \nonumber \\
+&\times &\, \left \{ \left [q^2_{1\mprl} q^2_{3\mprl} -
+2m_e^2 (q^2_{3\mprl} + q^2_{1\mprl} - q^2_{2\mprl})\right ] 
+{\cal J}^{(+)}(q_{1\mprl}) \right. \, + 
+\nonumber \nonumber \\
+& + & \, \left [q^2_{2\mprl} q^2_{3\mprl} -
+2m_e^2 (q^2_{3\mprl} + q^2_{2\mprl} - q^2_{1\mprl})\right ]
+{\cal J}^{(+)}(q_{2\mprl}) \, + 
+\nonumber \nonumber \\
+& + & \, \left. q^2_{3\mprl}(4m_e^2 -q^2_{3\mprl})
+{\cal J}^{(+)}(q_{3\mprl}) \right \}. 
+\label{eq:Mpl}
+\end{eqnarray}
+
+\noindent
+Функция ${\cal J}^{(+)}(q_{\mprl})$ определяется следующим образом
+\beq
+{\cal J}^{(+)}(q_{\mprl}) = 2 q_{\mprl}^2 m_e^2 \int \limits_{-\infty}^{\infty} 
+\frac{dp_z}{E_p} \,
+\frac{f_{-}(E_p) + f_{+}(E_p)}
+{q_{\mprl}^4 - 4 (pq)_{\mprl}^2}, \qquad q_{\mprl}^2 <4m_e^2, 
+\label{eq:J+1}
+\eeq
+
+\begin{eqnarray}
+\nonumber 
+&&{\cal J}^{(+)}(q_{\mprl}) = 2 q_{\mprl}^2 m_e^2 \int 
+\limits_{-\infty}^{\infty} \!\!\!\!\!\!\! - 
+\frac{dp_z}{E_p} \,
+\frac{f_{-}(E_p) + f_{+}(E_p)}
+{q_{\mprl}^4 - 4 (pq)_{\mprl}^2} - 
+\\ 
+\nonumber 
+&&- i\pi \frac{m_e^2}{\sqrt{q_{\mprl}^2 (q_{\mprl}^2 - 4m_e^2)}} 
+\Big \{ 
+f_{-}(E^-) + f_{+}(E^-) + 
+\\ [3mm]
+\label{eq:J+2}
+&& + f_{-}(E^+) + f_{+}(E^+) \Big \},  \qquad q_{\mprl}^2 >4m_e^2 \, .
+\end{eqnarray}
+
+\noindent 
+Здесь: 
+\[
+E_p = \sqrt{p_z^2 + m_e^2}, \quad E^{\pm} = \frac{\omega}{2} \pm \frac{q_z}{2} 
+\sqrt{1-z} \, , \quad z = \frac{4 m_e^2}{q_{\mprl}^2} \, , 
+\]
+%
+\[
+f_{\mp}(p) = \frac{1}{e^{\frac{p_0 \mp \mu}{T}}+1}
+\]
+-- равновесные функции распределения электронов и позитронов в плазме, 
+имеющей температуру $T$ и химический потенциал $\mu$. 
+
+В частных случаях выражение для ${\cal J}^{(+)}$ значительно упрощается
+и может быть записано в виде:
+
+a) в случае низких энергий фотонов $(\omega \ll m_e)$
+%
+\begin{eqnarray}
+{\cal J}^{(+)}(q_{\mprl}) \simeq \int \limits_{m_e}^{\infty} 
+dE_p \,\frac{d}{dp_z} \left [f_{-}(E_p) + f_{+}(E_p) \right ] \,;
+\label{eq:JLE}
+\end{eqnarray}
+
+б) вблизи первого циклотронного резонанса $(q_{\mprl}^2 \simeq 4m_e^2)$ 
+%
+\begin{eqnarray}
+{\cal J}^{(+)}(q_{\mprl}) \simeq \frac{\pi}{2 \sqrt{1-z}} \left 
+(\frac{\sh x}{\ch x + \ch \eta} -1 \right), \quad x=\frac{\omega}{2T}, 
+\quad \eta = \frac{\mu}{T}\, ;
+\label{eq:Jporog}
+\end{eqnarray}
+
+в) в случае больших энергий фотонов $(\omega \gg m_e)$
+%
+\begin{eqnarray}
+{\cal J}^{(+)}(q_{\mprl}) \simeq z \int \limits_{0}^{\infty} 
+\frac{dp_z}{E_p} \, \left [f_{-}(E_p) + f_{+}(E_p) \right ] \,.
+\label{eq:JHE}
+\end{eqnarray}
+
+В пределе холодной вырожденной плазмы, 
+$\mu \gg T$, интеграл ${\cal J}(q_{\mprl})$ до конца вычисляется, и может быть 
+представлен в виде:
+%
+\begin{eqnarray}
+&&{\cal J}^{(+)}(q_{\mprl}) = - \frac{z}{2\sqrt{ z - 1}}
+\bigg (  \arctg  \bigg [ \frac{z (v_F - v_\phi) + v_F (v_\phi^2 -1)}
+{(v_\phi^2 -1) \sqrt{z - 1}}  \bigg] +
+\nonumber\\[3mm]
+&& + \arctg  \bigg [ \frac{z (v_F + v_\phi) + v_F (v_\phi^2 -1)}
+{(v_\phi^2 -1) \sqrt{z - 1}}  \bigg] \bigg ), \qquad z > 1,
+\label{eq:J1}
+\\[3mm]
+&&\quad v_F = \frac{\sqrt{\mu^2 - m_e^2}}{\mu}, \quad v_\phi = 
+\frac{\omega}{q_z}.
+\nonumber
+\end{eqnarray}
+
+
+В общем случае зависимость ${\cal J}^{(+)}(q_{\mprl}^2)$ для горячей зарядово-
+симметричной плазмы представлена на рис.~\ref{fig:jj01} и~\ref{fig:rej01}. 
+%
+\begin{figure}[htb]
+
+%\epsffile[100 641 413 701]{fig1.eps}
+\centerline{\includegraphics*[scale=1.5]{j01.eps}}
+
+\vspace{5mm}
+\caption{Графики функции ${\cal J}^{(+)}(q_{\mprl})$ при $q_{\mprl}^2 < 4m_e^2$ и 
+температуре 
+$T=5 \mbox{МэВ}$ и $\mu = 0$ при различных значениях $q_z$: 
+$q_z^2/4m_e^2 = 0$ -- сплошная кривая, $q_z^2/4m_e^2 = 10$ -- показана штрихами, 
+$q_z^2/4m_e^2 = 50$ -- пунктирная кривая.
+}
+\label{fig:jj01}
+
+\end{figure}
+
+%
+\begin{figure}[h]
+
+%\epsffile[100 641 413 701]{fig1.eps}
+\centerline{\includegraphics*[scale=1.5]{rej01.eps}}
+
+\vspace{5mm}
+\caption{Тоже, что и на рис.~\ref{fig:jj01} для $Re\, {\cal J}^{(+)}(q_{\mprl})$ при 
+$q_{\mprl}^2 > 4m_e^2$.
+}
+\label{fig:rej01}
+
+\end{figure}
+
+Из асимптотических формул и рис.~\ref{fig:jj01} и~\ref{fig:rej01} следует, что 
+в области $q_{\mprl}^2 < 4m_e^2$ функция ${\cal J}^{(+)} \le 0$ и нейтринная светимость 
+будет подавляться электрон-позитронной плазмой, а в области высоких температур, наооборот, 
+$Re \, {\cal J}^{(+)} \ge 0$ и, следовательно, будет иметь место небольшое усиление 
+нейтринного излучения за счет процесса $\gamma \gamma \to \nu \bar \nu$.
+
+
+\section{Процесс $\gamma \gamma \to \nu \bar\nu \gamma$}
+
+ Влияние магнитного поля на амплитуду процесса $\gamma \gamma \to \nu \bar\nu 
+\gamma$ изучалось в рамках 
+стандартной модели в низкоэнергетическом пределе в работе~\cite{Loskutov:1987}.    
+%
+\begin{figure}[htb]
+
+\centerline{\includegraphics*[scale=1.]{pic31.eps}}
+%\epsffile[50 600 413 701]{pic3.ps}
+
+\vspace{10mm}
+\caption{Диаграммы Фейнмана для процесса $\gamma \gamma \gamma \to \nu \bar\nu $
+в сильном магнитном поле. }
+\label{fig:loop3}
+
+\end{figure}
+%
+Этот процесс может быть получен из амплитуды перехода   
+$\gamma \gamma \gamma \to \nu \bar\nu $, 
+которой соответствует шесть диаграмм Фейнмана с виртуальным фермионом 
+в петле и с перестановкой фотонов, рис.~\ref{fig:loop3}.
+Здесь большой кружок, так же, как и на рис.~\ref{fig:loop2}, 
+изображает эффективное слабое взаимодействие фермиона 
+с нейтрино. 
+
+Амплитуда процесса    
+$\gamma \gamma \to \nu \bar\nu \gamma $ при произвольных энергиях фотонов 
+может быть получена из~(\ref{eq:MV}),~(\ref{eq:MA}) и~(\ref{eq:s4}) в виде: 
+%
+\begin{eqnarray}
+{\cal M}_{4}^{V}& + &{\cal M}_{4}^{A} \, = \, - \, 
+\frac{8 i e^3}{\pi^2} \, \frac{B}{B_e}  \,
+\frac{G_{\mbox{\normalsize{F}}}}{\sqrt{2}} \, m_e^2 \times   
+\nonumber \nonumber \\
+&\times & (q_1 \widetilde \varphi \varepsilon^{(1)})
+ (q_2 \widetilde \varphi \varepsilon^{(2)})
+ (q_3 \widetilde \varphi \varepsilon^{(3)})
+[C_V (j\widetilde \varphi q_4) +
+ C_A (j\widetilde \varphi \widetilde \varphi q_4)] \times
+\nonumber \nonumber \\
+&\times & \frac{1}{D} \left \{ I_4(q_{1\mprl},q_{2\mprl},q_{3\mprl}) 
++ I_4(q_{2\mprl},q_{1\mprl},q_{3\mprl}) + 
+I_4(q_{1\mprl},q_{3\mprl},q_{2\mprl}) \right \}.
+\label{eq:MVA4}
+\end{eqnarray}
+
+\noindent
+Напомним, что  
+$C_V,\;C_A$ -- векторная и аксиальная константы эффективного $\nu \nu e e$
+- лагранжиана стандартной модели, 
+$C_V = \pm 1/2 + 2 \sin^2 \theta_W, \; C_A = \pm 1/2$, 
+(см. главу 1);
+$j_{\alpha} = [\bar \nu_e(p'') \gamma_{\alpha} (1 + \gamma_5) \nu_e(-p')]$
+-- фурье-образ нейтринного тока; $q_4 = p' + p''$ --
+суммарный импульс нейтринной пары;
+$$D = (q_1q_2)_{\mprl}(q_3q_4)_{\mprl} + (q_1q_3)_{\mprl}(q_2q_4)_{\mprl} +
+(q_1q_4)_{\mprl}(q_2q_3)_{\mprl}.$$
+
+Формфактор $I_4 (q_{1 \mprl} ,q_{2 \mprl} ,q_{3 \mprl})$ имеет вид:
+\begin{eqnarray}
+&&I_4 (q_{1 \mprl}, q_{2 \mprl}, q_{3 \mprl}) \, =  \, 
+S_3 (q_{1 \mprl} + q_{2 \mprl}, q_{4 \mprl}, 0) + 
+S_3 (q_{1 \mprl}, q_{4 \mprl}, 0) +
+\nonumber \nonumber \\
+&& + S_3 (q_{1 \mprl} + q_{2 \mprl}, q_{1 \mprl}, 0) +
+ S_3 (q_{2 \mprl} - q_{3 \mprl}, q_{2 \mprl}, 0) +
+\nonumber \nonumber \\
+&& + [6 m^2 - (q_1 + q_2)_{\mprl}^2 - (q_2 - q_3)_{\mprl}^2]
+S_4 (q_{1 \mprl}, q_{1 \mprl}+q_{2 \mprl}, q_{4 \mprl}, 0). 
+\end{eqnarray}
+
+Используя асимптотики функции $H(z)$, получим:
+\begin{itemize}
+\item[а)] 
+
+в случае низких энергий фотонов, $\omega_{1,2,3} \ll m_e$:
+%
+\begin{eqnarray}
+&&{\cal M}_{4}^{V} + {\cal M}_{4}^{A} \, \simeq \,  
+ - \frac{2 e^3}{15\pi^2} \, \frac{B}{B_e}  \, 
+\frac{G_{\mbox{\normalsize{F}}}}{\sqrt{2}} \, \frac{1}{m_e^4} \times  
+\nonumber \nonumber \\
+&&\times (q_1 \widetilde \varphi \varepsilon^{(1)})
+ (q_2 \widetilde \varphi \varepsilon^{(2)})
+ (q_3 \widetilde \varphi \varepsilon^{(3)})
+ [C_V (j\widetilde \varphi q_4) +
+ C_A (j\widetilde \varphi \widetilde \varphi q_4)],
+\label{eq:I_4_low}
+\end{eqnarray}
+
+в полном согласии с результатами работ~\cite{Kuznetsov:2002jl, Gies:2000a}. 
+Амплитуда процесса $\gamma \gamma \to \nu \bar\nu \gamma$, 
+полученная в этом же приближении в работе~\cite{Loskutov:1987}, 
+по нашему мнению, завышена в два раза; 
+%
+\item[б)] 
+
+при высоких энергиях фотонов, $\omega_{1,2,3} \gg m_e$, в главном логарифмическом 
+приближении:
+%
+\begin{eqnarray}
+&&{\cal M}_{4}^{V} + {\cal M}_{4}^{A} \, \simeq \,
+ - \frac{8 e^3}{3\pi^2} \, \frac{G_{\mbox{\normalsize{F}}}}{\sqrt{2}} \,
+\frac{B}{B_e}  \, m_e^4 \times
+\nonumber \nonumber \\
+&&\times (q_1 \widetilde \varphi \varepsilon^{(1)})
+ (q_2 \widetilde \varphi \varepsilon^{(2)})
+ (q_3 \widetilde \varphi \varepsilon^{(3)})
+ [C_V (j\widetilde \varphi q_4) +
+ C_A (j\widetilde \varphi \widetilde \varphi q_4)] \times
+\nonumber \nonumber \\
+&&\times \frac{1}{q^2_{1 \mprl}q^2_{2 \mprl}q^2_{3 \mprl}q^2_{4 \mprl}} 
+ \ln \frac{\sqrt{q_{1 \mprl}^2 q_{2 \mprl}^2 q_{3 \mprl}^2}}{m_e^3}.
+\label{eq:I_4_hig}
+\end{eqnarray}
+%
+Этот результат, насколько нам известно, получен впервые.
+\end{itemize}
+
+Подставляя поляризации фотонов из~(\ref{eq:vect})
+ в~(\ref{eq:I_4_low}) и~(\ref{eq:I_4_hig}) и вычисляя стан\-дарт\-ным 
+путем сечение процесса $\gamma \gamma \to \nu \bar\nu \gamma$, получим, 
+что в пределе 
+ $\omega_{1,2,3} \ll m_e$ оно будет в четыре раза меньше, чем соответствующий  
+ результат работы~\cite{Loskutov:1987}. В противоположном пределе 
+$\omega_{1,2,3} \gg m_e$ сечение может быть представлено 
+ в виде:   
+
+%
+\begin{eqnarray}
+&&\sigma (\omega_{1,2,3} \gg m_e)
+\simeq \frac{32\, \alpha^3\, G_{\mbox{\normalsize{F}}}^2}{3\pi^4}
+\; \left(\frac{B}{B_e}\right)^2 \times 
+\nonumber \nonumber \\
+&& \times \frac{m_e^8}{q _{1\mprl }^2 q _{2\mprl }^2 q^2} \;
+\ln^2 \frac{\sqrt{q _{1\mprl }^2 q _{2\mprl }^2}}{m_e^4} \, 
+J\left (\frac{\sqrt{q^2_{\mprl}}}{2m_e} \, ,\frac{\sqrt{q^2_{\mprp}}}{2m_e}\right ), 
+\label{eq:sig3}
+\end{eqnarray}
+
+\noindent
+где $q = q_1 + q_2$ -- суммарный импульс начальных фотонов.
+  
+Зависимость от импульсов $q_{\mprl}$ и 
+$q_{\mprp}$ определяется ин\-тег\-ра\-лом
+\begin{eqnarray}
+&&J(x,y) = \int \, \frac{d^3s}{2\pi \, s_0(s_0^2 - s_3^2)}
+\left \{\overline{C_A^2} + 4(\overline{C_V^2} - \overline{C_A^2})
+\frac{x(x - s_0) - y(y - s_1)}
+{4x(x - s_0) + s_0^2 - s_3^2} \right \}\times 
+\nonumber \nonumber \\ [3mm]
+&& \times \Theta [x(x - s_0) - y(y - s_1)], 
+\label{eq:J}
+\end{eqnarray}
+
+\noindent
+где $d^3s = ds_1 ds_2 ds_3$, $s_0 = \sqrt{1 + s_1^2 + s_2^2 + s_3^2}$.
+
+Стоящие под знаком интеграла~(\ref{eq:J}) константы $\overline{C_V^2} = 0.93$ 
+и $\overline{C_A^2} = 0.75$ -- результат 
+суммирования по всем каналам рождения нейтрино типов $\nu_{e}, \nu_{\mu}, 
+\nu_{\tau} $. 
+
+Результат численного вычисления ин\-тег\-ра\-ла~(\ref{eq:J}) 
+представлен на рис.~\ref{fig:JJ}.
+ 
+\begin{figure}[htb]
+\centerline{\includegraphics{J.eps}}
+
+%\vspace{10mm}
+\caption{Результат численного расчета функции $J(x,y)$, определенной в 
+формуле~(\ref{eq:J}) и входящей в сечение процесса 
+$\gamma \gamma \to \nu \bar\nu \gamma$ ~(\ref{eq:sig2}).
+}
+\label{fig:JJ}
+
+\end{figure}
+
+Как уже отмечалось ранее, наблюдаемой величиной в астрофизике является 
+потеря энергии из единицы объема звезды в единицу времени. Она определяется 
+через амплитуду процесса~(\ref{eq:MVA4}) следующим образом
+%
+\begin{eqnarray}
+Q_\nu &=& \frac{(2 \pi)^4}{2} \sum \limits_i  \int |{\cal M}|^2 \; Z_1 Z_2 Z_3 \;
+\delta^4 (q_1 + q_2 - q_3 - p' - p'') 
+\times \nonumber
+\\
+&\times&
+(E'_i + E''_i) \;
+\frac{d^3 q_1}{(2 \pi)^3 2 \omega_1} f (\omega_1)\,
+\frac{d^3 q_2}{(2 \pi)^3 2 \omega_2} f (\omega_2)\,
+\times 
+\label{eq:Q1}
+\\
+&\times&
+\frac{d^3 q_3}{(2 \pi)^3 2 \omega_3} [1 + f (\omega_3)]\,
+\frac{d^3 p'}{(2 \pi)^3 2 E'_i}\, \frac{d^3 p''}{(2 \pi)^3 2 E''_i}. 
+\nonumber
+\end{eqnarray}
+%
+Здесь ${\cal M} = {\cal M}_{4}^{V} + {\cal M}_{4}^{A}$, 
+$E'_i,\, E''_i$ - энергии нейтрино и антинейтрино 
+определенного типа $i~=~\nu_e, \nu_\mu, \nu_\tau$; 
+$f (\omega) = [\exp(\omega/T) - 1]^{-1}$
+-- функция плотности равновесного фотонного газа 
+при температуре $T$. 
+Отметим, что при интегрировании по импульсам фотонов в (\ref{eq:Q1}), так же, как  
+и в~(\ref{eq:Qdef}) важно 
+учитывать нетривиальный закон дисперсии фотона в сильном магнитном поле, 
+который определяется поляризационным оператором фотона. Кроме того, 
+в общем случае, необходимо также учитывать большие радиационные 
+поправки, которые сводятся к перенормировке волновой функции фотона, 
+$Z_1, Z_2, Z_3$.
+
+\bigskip
+
+{\bf а) Случай низких температур, $T \lesssim m_e$.} 
+
+\bigskip
+
+Этот предел впервые был рассмотрен в работе~\cite{Loskutov:1987} без 
+учета дисперсионных свойств фотонов 
+в сильном магнитном поле. Поэтому имеет смысл уточнить результат 
+работы~\cite{Loskutov:1987} с 
+учетом замечания к формуле~(\ref{eq:I_4_low})~\footnote{Численная оценка 
+нейтринной светимости, полученная авторами~\cite{Loskutov:1987} при 
+температуре $T \simeq m_e$ является ошибочной.}. Кроме того, следует сравнить 
+вклад в величину нейтринной светимости за счет канала $\gamma \gamma \to \nu \bar\nu 
+\gamma$ со вкладом кроссинг канала $\gamma \gamma \gamma \to \nu \bar\nu $  
+ (канал $\gamma \to \nu \bar\nu \gamma \gamma $ кинематически закрыт в рассматриваемом 
+пределе). 
+Для нахождении светимости 
+за счет канала  $\gamma \gamma \gamma \to \nu \bar\nu $ достаточно  
+в (\ref{eq:Q1}) сделать замену $(1 + f(\omega_3)) 
+\to f(\omega_3)$ и $q_3 \to - q_3 $.
+В случае $\xi \ll 1$ (при этом $Z_1 \simeq Z_2 \simeq Z_3 \simeq 1$) для величин нейтринных 
+светимостей за счет разрешенных каналов 
+находим следующие значения
+%
+\begin{eqnarray}
+&&Q^{LT}_{\gamma \gamma \to \nu \bar\nu \gamma} = 
+\frac{16384\,\alpha^3 G_F^2}{603394666875 \,\pi^2 \,m_e^8}\, 
+\left (\frac{B}{B_e}\right )^2 \, T^{17} \times 
+\nonumber
+\\
+&&\times
+\bigg \{ 2457 \overline{C_V^2} \left [683 \pi^{4} \zeta (7) + 13750 \pi^2 \zeta (9) + 
+25575 \zeta (11) \right ] + 
+\nonumber
+\\
+&&+ 22 \overline{C_A^2} \left [2764 \pi^{6} \zeta (5) + 95823 \pi^{4} 
+\zeta (7) + 872235 \pi^2 \zeta (9) + 3992625 \zeta (11) \right ] 
+\bigg \} 
+\simeq
+\nonumber
+\\
+&&\simeq  10^{17} \frac{\mbox{эрг}}{\mbox{с}\cdot \mbox{см}^3 }\, 
+\left (\frac{B}{B_e}\right )^2 \, \left (\frac{T}{m_e}\right )^{17} \,,
+\label{eq:2g}
+\end{eqnarray}
+%
+\begin{eqnarray}
+&&Q^{LT}_{\gamma \gamma \gamma \to \nu \bar\nu} = 
+\frac{8192\,\alpha^3 G_F^2}{3013959375 \,\pi^8 \,m_e^8}\, 
+\left (\frac{B}{B_e}\right )^2 \, T^{17} \times 
+\nonumber
+\\
+&&\times
+\bigg \{ \overline{C_V^2} \left [1901 \pi^{12} \zeta (5) + 11340 \zeta (7)(\pi^{10} + 
+75600 \zeta^2 (5))\right ] + 
+\nonumber
+\\
+&&+ 35  \overline{C_A^2} \left [26 \pi^{12} \zeta (5) + 162 \pi^{10} 
+\zeta (7) + 9185400 \zeta^2 (5) \zeta (7) + 567 \pi^8 \zeta (9) \right ] 
+\bigg \} 
+\simeq \nonumber
+\\
+&&\simeq 5.7 \cdot 10^{16} \frac{\mbox{эрг}}{\mbox{с}\cdot \mbox{см}^3 }\, 
+\left (\frac{B}{B_e}\right )^2 \, \left (\frac{T}{m_e}\right )^{17} \,.
+\label{eq:3g}
+\end{eqnarray}
+
+Здесь, так же, как в~(\ref{eq:J}) константы $\overline{C_V^2} = 0.93$ 
+и $\overline{C_A^2} = 0.75$ -- результат 
+суммирования по всем каналам рождения нейтрино типов $\nu_{e}, \nu_{\mu}, 
+\nu_{\tau} $. 
+Из~(\ref{eq:2g}) и~(\ref{eq:3g})  видно, что вклад в нейтринную светимость процесса 
+$\gamma \gamma \to \nu \bar\nu \gamma $ оказывается сравнимым с вкладом 
+реакции $\gamma \gamma \gamma \to \nu \bar\nu $, что говорит о необходимости их 
+совместного учета. 
+Кроме того, из сравнения полученных результатов с~(\ref{Qne}) следует, 
+что при температуре $T=100 \mbox{кэВ}$ 
+нейтринная светимость процессов $\gamma \gamma \to \nu\bar\nu\gamma$ и 
+$\gamma \gamma \gamma \to \nu\bar\nu$ будет меньше  
+светимости реакции $\gamma \gamma \to \nu\bar\nu$ 
+при величине магнитного поля 
+$B \lesssim 250 B_e$. В более сильном магнитном поле 
+процессы $\gamma \gamma \to \nu\bar\nu\gamma$ и $\gamma \gamma \gamma \to \nu \bar\nu $ 
+начинают  
+преобладать над процессом $\gamma \gamma \to \nu\bar\nu$. Однако в этом 
+случае условие $\xi \ll 1$ уже не выполняется, что говорит о небходимости 
+учитывать 
+для реакций $\gamma \gamma \to \nu\bar\nu\gamma$ 
+и $\gamma \gamma \gamma \to \nu \bar\nu $ дисперсию и перенормировку волновой функции 
+фотона,  которые, как было показано в работе~\cite{Chist:2002},  
+могут существенно изменить результат.
+
+%В случае, когда условие $\xi \ll 1$ не выполняется, закон дисперсии и 
+%перенормировка волновой функции будут определяться  
+%соотношениями~(\ref{deqLE}) и~(\ref{eq:peren}).  
+
+\bigskip
+
+{\bf б) Случай высоких температур, $T \gg m_e$.} 
+
+\bigskip
+
+С учетом закона дисперсии~(\ref{deqLE}),
+%В этом случае из~(\ref{eq:PHT}) получаем закон 
+%дисперсии для фотона второй моды в виде
+%
+%\beq
+%\omega^2 = q_{\mprp}^2 + q_z^2 + 6 \,\xi \, m_e^2. 
+%\label{deqLE}
+%\eeq
+%
+%
+%\noindent
+%Тогда 
+кинематически разрешенными в этом пределе будут каналы 
+$\gamma \gamma \gamma \to \nu \bar\nu $ и 
+$\gamma \gamma \to \nu \bar\nu \gamma$.  
+Для численных оценок в качестве амплитуды в~(\ref{eq:Q1}) 
+подставляем~(\ref{eq:I_4_hig}) и учитываем, что в области 
+высоких температур перенормировка волновых функций фотонов 
+несущественна, т.е. $Z_1 \simeq Z_2 \simeq Z_3 \simeq 1$. 
+Эти оценки для нейтринной светимости за счет каналов 
+$\gamma \gamma \to \nu \bar\nu \gamma$ и 
+$\gamma \gamma \gamma \to \nu \bar\nu $ 
+в зависимости от температуры представлены 
+на рис.~\ref{fig:q100} и~\ref{fig:q1000} для значений магнитного поля 
+$B=100B_e$ и $B=1000B_e$ соответственно. 
+
+\begin{figure}[htb]
+\centerline{\includegraphics*[scale=1.3]{q100.eps}}
+
+%\vspace{10mm}
+\caption{Зависимость нейтринной светимости 
+(в $\frac{\mbox{эрг}}{\mbox{с}\cdot \mbox{см}^3 }$) фотонного газа от 
+температуры при $T \gg m_e$ и $B=100B_e$ для каналов 
+$\gamma \gamma \gamma \to \nu \bar\nu $ (сплошная линия) и 
+$\gamma \gamma \to \nu \bar\nu \gamma$ (штриховая линия).
+}
+\label{fig:q100}
+
+\end{figure}
+
+\begin{figure}[htb]
+\centerline{\includegraphics*[scale=1.3]{q1000.eps}}
+
+%\vspace{10mm}
+\caption{ То же, что и на рис.~\ref{fig:q100} для величины магнитного поля 
+$B=1000B_e$.
+}
+\label{fig:q1000}
+
+\end{figure}
+ 
+Из рис.~\ref{fig:q100} и~\ref{fig:q1000}  видно, что так же как и в случае  
+холодного фотонного газа каналы $\gamma \gamma \gamma \to \nu \bar\nu $ и 
+$\gamma \gamma \to \nu \bar\nu \gamma$ дают сравнимый вклад в $Q$.
+Если теперь провести сравнительный анализ полученных результатов со светимостью 
+двухфотонного  процесса $\gamma \gamma\to \nu \bar\nu$, то мы получим двоякую 
+ситуацию.
+С одной стороны, светимость горячего фотонного газа за счет каналов 
+$\gamma \gamma \gamma \to \nu \bar\nu $ и 
+$\gamma \gamma \to \nu \bar\nu \gamma$ будет сильно подавлена массой электрона 
+по сравнению 
+со светимостью, полученной в рамках стандартной модели за счет канала 
+$\gamma \gamma\to \nu \bar\nu$ (формула~(\ref{QnHT})). 
+С другой стороны, нейтринная светимость за счет процессов с тремя фотонами значительно 
+превосходит светимость за счет того же двухфотонного  процесса, но  полученную в рамках  
+модели с нарушенной лево - правой симметрией (формула~(\ref{eq:Q_B_hiT})). 
+Таким образом, и в случае $T \gg m_e$ каналы 
+$\gamma \gamma \gamma \to \nu \bar\nu $ и 
+$\gamma \gamma \to \nu \bar\nu \gamma$ также могут играть определенную роль в 
+механизме нейтринного остывания сверхновой.     
+
+
+%В настоящей главе проведен общий анализ амплитуды $n$-вершинного однопетлевого 
+% процесса  
+%в сильном магнитном поле и рассмотрены процессы с участием фотонов и 
+%нейтрино.
+%Отметим, что при получении амплитуд~(\ref{eq:MS})-(\ref{eq:MA'}) не 
+%предполагалось, что фотоны реальные. Это позволяет использовать данные 
+%амплитуды для описания процессов с числом реальных фотонов на один меньше, 
+%в присутствии дополнительного относительно слабого внешнего переменного 
+%электромагнитного поля, например, кулоновского поля 
+%ядра~\cite{Skobelev:2001, Kuznetsov:2002jl}.   
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\input ref.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+

@@ -1,0 +1,158 @@
+\chapter{Пропагатор фермиона во внешнем постоянном однородном магнитном поле}
+
+\label{Sec:app_b}
+
+Для вычисления обобщенной амплитуды перехода $jf \to j^{\, \prime} f^{\, \prime}$  
+и анализа возможных резонансных эффектов  удобно использовать  
+ пропагатор фермиона в виде суммы по уровням Ландау~\cite{Kuznetsov:2011yp,KM_Book_2013}. 
+Его можно представить в следующем виде: 
+%
+\begin{equation}
+\hat S (X, X^{\,\prime}) = \sum\limits_{n=0}^{\infty} \; \hat S_n (X, X^{\,\prime}) \,,
+\label{eq:propagator_sum_n}
+\end{equation}
+\noindent где вклад $n\mbox{--}$го уровня Ландау может быть получен из решений 
+уравнения Дирака~(\ref{eq:psie}) и  записан в форме:
+%
+\begin{equation}
+\hat S_n (X, X^{\,\prime}) = \sum\limits_{s=\pm 1} \; \hat S^{s}_n (X, X^{\,\prime}) \, ,
+\label{eq:propagator_sum_ns}
+\end{equation}
+%\noindent Здесь 
+%
+\beq
+\label{eq:propagator_ns}
+&&\hat S^{s}_n (X, X^{\,\prime}) =  \int \frac{\dd p_0 \dd p_y 
+\dd p_z}{(2\pi)^3}  \times
+\\[3mm]
+\nonumber
+&&\times 
+\frac{\eee^{- \, \ii \, \left( p \,(X - X') \right)_{\parallel} + 
+\ii p_y \,(X_2 - X'_2)}}
+{p^{2}_{\mprl} - M_n^2 - \Re^{s}_\Sigma (p) + \ii\, \Im^{s}_\Sigma (p)}
+\, \phi^{s}_{p n} (X_1) \bar \phi^{s}_{p n} (X'_1) \, .
+\eeq
+\noindent 
+
+
+
+Возникающие в знаменателе пропагатора~(\ref{eq:propagator_ns})  
+реальная, $\Re^{s}_\Sigma (p)$, и мнимая, $\Im^{s}_\Sigma (p)$,  
+части собственного значения массового оператора фермиона, соответствующие   поляризационному состоянию $s$,  
+  есть результат вычисления радиационных поправок к  массе фермиона в замагниченной плазме.   В частности, 
+мнимая часть  $\Im^{s}_\Sigma (p)$ может быть получена из результатов работ~\cite{MGU, Zhukovskii:1994}  и представлена в следующем виде:
+%
+\begin{eqnarray}
+\Im^{s}_\Sigma (p) = - \frac{1}{2}\, p_0 \; \Gamma_n^{s} \, ,
+\label{eq:I_Sigma}
+\end{eqnarray} 
+\noindent где $\Gamma_n^{s}$ -- полная ширина поглощения фермиона, находящегося 
+в поляризационном состоянии $s$ и занимающего  $n$-й уровень  Ландау.
+
+Реальная часть массового оператора, $\Re^{s}_\Sigma (p)$, определяет изменение (по сравнению с вакуумным) 
+закона дисперсии фермиона в присутствии замагниченной плазмы. Однако, как показывает анализ,  в  
+ магнитных  полях, характерных для большинства известных астрофизических объектов ($B \lesssim 10^{16}$~Гс), 
+поправка к массе фермиона, обусловленная вкладом $\Re^{s}_\Sigma (p)$,  
+оказывается несущественной~\cite{Sokolov:1986,KM_Book_2003}. 
+
+
+Вне резонансной области можно просуммировать~(\ref{eq:propagator_sum_ns}) по поляризационным состояниям фермионов. 
+В результате получим:
+%
+\beq                          
+&&\hat S_n (X, X^{\,\prime}) = \frac{\ii}{2^n \, n!} \, \sqrt{\frac{\beta}{\pi}} \, 
+\exp \left(- \, \beta \, \frac{X_1^2 + X_1^{\,\prime\,2}}{2} \right) \times
+\label{eq:propn2_a}
+%\nonumber
+\\[3mm]
+%
+&&\times 
+\int\frac{\dd p_0 \, \dd p_y \, \dd p_z}{(2 \pi)^3 }
+\frac{\eee^{- \, \ii \, \left( p \,(X - X^{\,\prime}) \right)_{\parallel}}}
+{p_{\shortparallel}^2 - m_f^2 - 2 \, \beta \, n + \ii\,\varepsilon} \times
+\nonumber\\[3mm]
+%
+&&\times 
+\exp \left\{ - \, \frac{p_y^2}{\beta} 
+- p_y \left[\,X_1 + X_1^{\,\prime} - \ii \, (X_2 - X_2^{\,\prime})\right] \right\} 
+\times
+\nonumber\\[3mm]
+%
+&&\times 
+\bigg\{ 
+\left[ (p \gamma)_{\shortparallel} + m \right]
+\left[ \varPi_- \, H_n (\xi) \, H_n (\xi^{\,\prime}) + 
+%\right.
+%\label{eq:propn2_a}
+%\nonumber
+%\\[3mm]
+%&&+ \left. 
+\varPi_+ \, 2 n \, H_{n-1} (\xi) \, H_{n-1} (\xi^{\,\prime}) 
+\right] + 
+\nonumber
+\\[3mm] 
+&& 
++ 
+\, \ii \, 2 n \, \sqrt{\beta} \, \gamma^1 
+\left[ \varPi_- \, H_{n-1} (\xi) \, H_n (\xi^{\,\prime}) -
+%\right.
+%\nonumber\\[3mm] 
+%&&-\left.  
+\varPi_+ \, H_n (\xi) \, H_{n-1} (\xi^{\,\prime}) 
+\right]
+\bigg\} ,
+\nonumber
+\end{eqnarray}
+%
+\noindent где $\xi$ и $\xi^{\,\prime}$  определены следующим образом:
+%
+\beq
+\label{eq:xi_a}
+\xi = \sqrt{\beta} \left (X_1 - \eta \frac{p_y}{\beta} \right ) \, , \quad 
+\xi^{\,\prime} = \sqrt{\beta} \left (X^{\,\prime}_1 - \eta \frac{p_y}{\beta} \right )\, ,
+\eeq
+%
+\noindent $H_n (x)$ -- полиномы Чебышёва-Эрмита~\cite{Gradshtein}, $\Pi_{\pm} = (1 \pm \ii \gamma_1 \gamma_2)/2$ 
+(свойства матриц $\Pi_{\pm}$ даны в приложении~\ref{Sec:app_e}).
+
+Для расчета амплитуды процесса расщепления фотона в сильно замагниченной плазме оказывается 
+удобным использовать представление пропагатора $S (X, X^{\,\prime})$ в 
+формализме собственного времени Фока~\cite{Schwinger:1951}:
+%
+\beq
+S(X, X^{\,\prime}) = e^{-\ii \beta (X_1 + X^{\,\prime}_1)(X_2 - X^{\,\prime}_2)/2}\, \hat S(X-X^{\,\prime}) \, ,
+\label{eq:Sxy}
+\eeq
+\noindent где 
+%
+\beq 
+\label{eq:Sx}
+%\nonumber
+\hat S(Y) &=& - \frac{i}{4 \pi} \int \limits^{\infty}_{0} 
+\frac{d\tau}{\th \tau}\,
+\int \frac{\dd p_0 \, \dd p_z}{(2 \pi)^2}
+\Biggl \{ 
+[(p \gamma)_{\mprl} + m_f]\Pi_{-}(1 + \th \tau) +
+\\
+\nonumber
+%
+&+& [(p \gamma)_{\mprl} + m_f]\Pi_{+}(1 - \th \tau) 
+- (Y \gamma)_{\mprp}\; \frac{i \beta}{2\, \th \tau} (1 - \th^2 \tau) 
+\Biggr \} 
+\times 
+\\
+\nonumber
+%
+&\times& \exp\left(- \frac{\beta Y_{\mprp}^2}{4\, \th \tau} - 
+\frac{\tau(m_f^2 - p_{\mprl}^2)}{\beta} - i (pY)_{\mprl} \right) 
+\eeq
+%
+\noindent -- трансляционно инвариантная часть пропагатора. 
+Формулы~(\ref{eq:Sxy}) и (\ref{eq:Sx}) легко получить, если проинтегрировать~(\ref{eq:propn2_a}) по $\dd p_y$, а затем выполнить суммирование 
+полученного результата по уровням Ландау с использованием производящей функции для полиномов Чебышёва-Лагерра~\cite{Gradshtein}.  
+
+
+
+
+
+

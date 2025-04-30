@@ -1,0 +1,1164 @@
+\documentclass[12pt]{article}
+
+\usepackage{cite,indentfirst}
+\usepackage{amssymb,amsmath}
+\usepackage[dvips]{epsfig}
+\usepackage{epsf}
+\usepackage{graphics}
+\usepackage{doctor}
+\usepackage[cp866]{inputenc}
+\usepackage[english,russian]{babel}
+
+\setcounter{part}{0}
+\setcounter{page}{16}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+
+\def\mprp{\mbox{\tiny $\bot$}}
+\def\mprl{\mbox{\tiny $\|$}}
+\def\th{\mbox{th}}
+
+\def\beq{\begin{eqnarray}}
+\def\eeq{\end{eqnarray}}
+\def\ee{\varepsilon}
+\def\lm{\lambda}
+\newcommand{\prp}[1]{#1_{\mbox{\tiny $\bot$}}}
+\newcommand{\prl}[1]{#1_{\mbox{\tiny $\|$}}}
+\def\HH{H\!\!\left(\frac{4 m^2}{\prl{q}^2}\right)}
+\def\HHi{H\!\!\left(\frac{4 m^2}{\prl{q'^2}}\right)}
+\def\HHii{H\!\!\left(\frac{4 m^2}{\prl{q''^2}}\right)}
+\def\ggg{\gamma \rightarrow \gamma \gamma}
+\def\ff{\Lambda}
+\def\tff{\widetilde \Lambda}
+\def\1{1 \to 1 \, 2}
+\def\2{1 \to 2 \, 2}
+\def\S{{\cal S}}
+\def\J{{\cal J}}
+\def\A{{\cal A}}
+\def\P{{\cal P}}
+\def\M{{\cal M}}
+
+\def\E{\mbox{\tiny E}}
+\def\F{\mbox{\tiny F}}
+
+\def\vp{\varphi}
+\def\vk{\varkappa}
+\def\tg{\mbox{tg}}
+\def\arctg{\mbox{arctg}}
+\def\sh{\mbox{sh}}
+\def\ch{\mbox{ch}}
+
+\begin{document}
+
+\ruschapters
+
+\ruschapter{Нейтринное рождение лептонных пар 
+во внешнем электромагнитном поле}
+
+\large
+\setlength{\baselineskip}{24pt}
+
+\unitlength 1mm
+
+\section{Введение}
+
+Как уже отмечалось, интенсивное электромагнитное поле 
+делает возможными процессы, кинематически запрещенные в вакууме, такие, 
+например, как нейтринное рождение лептонных пар 
+$\nu \to \nu \ell^- \ell^+ \, (\ell = e, \mu, \tau)$. 
+Отметим, что в силу специфической кинематики заряженной частицы в 
+электромагнитном поле $\ell^- \ell^+$-пара может иметь достаточно большой 
+по абсолютной величине прос\-тран\-ствен\-но\-по\-доб\-ный 
+суммарный импульс, поэтому
+для ультрарелятивистских нейтрино процесс становится чисто диагональным 
+по аромату нейтрино и нечувствительным к его массе, а также к смешиванию 
+в лептонном секторе.
+
+При этом возможна ситуация, когда при движении релятивистской 
+частицы в относительно слабом электромагнитном поле, 
+$F < B_e$ ($F = E$ и/или $B$), так называемый полевой динамический параметр 
+$e (p_\alpha F_{\alpha \beta} F_{\beta \sigma} p_\sigma)^{1/2}$ 
+может оказаться самым большим размерным параметром задачи, 
+здесь $p_\alpha$ -- 4-импульс частицы, $F_{\alpha \beta}$ -- тензор 
+внешнего электромагнитного поля. Тогда 
+в системе покоя этой частицы поле может заметно превышать критическое 
+значение и будет очень близко к скрещенному полю. 
+Следовательно, вычисления в скрещенном поле представляют самостоятельный
+интерес.
+%Таким образом, расчет в скрещенном поле представляет самостоятельный
+%интерес. 
+Мы будем использовать технику расчетов, развитую в работах А.И. Никишова 
+и В.И. Ритуса, см., например~\cite{Ritus:1979}. 
+%Техника расчетов в таком поле была развита в работах А.И. Никишова 
+%и В.И. Ритуса, см., например~\cite{Ritus:1979}.
+
+Исследование процесса нейтринного рождения электрон - позитронных пар 
+в пределе скрещенного поля имеет довольно длинную 
+историю~\cite{Choban:1969,Borisov:1983,Knizhnikov:1984,Borisov:1993,%
+Kuznetsov:1997pl,Kuznetsov:1997yf,Skobelev:1995,Borisov:1999,Kuznetsov:2000mp,%
+Kuznetsov:2002it}. 
+Уже в первой из указанных работ~\cite{Choban:1969} была найдена правильная 
+зависимость лидирующего вклада в вероятность от динамического параметра 
+$\chi$, 
+%
+$$\chi^2 = \frac{e^2(PFFP)}{m_e^6},$$
+%
+в главном логарифмическом приближении, 
+вида $\sim \chi^2 \ln \chi$, однако 
+числовой коэффициент был ошибочным. В последующих работах 
+проводилось уточнение этого коэффициента и вычисление 
+пост-логарифмических поправок, которые могут оказаться весьма существенными 
+при не очень большом значении $\ln \chi$. 
+
+Следует отметить, что по самой постановке задачи речь может идти только 
+об ультрарелятивистском нейтрино, которое, благодаря киральному характеру 
+его взаимодействия в рамках стандартной модели, 
+существует практически только левополяризованным, 
+даже в том случае, когда его масса отлична от нуля. 
+Это утверждение остается в силе, даже если допустить существование 
+у нейтрино экзотических свойств, которые могли бы приводить 
+в определенных физических условиях к деполяризационным эффектам 
+(до сих пор не наблюдавшимся). Непонимание того, что в природе не бывает 
+неполяризованных ультрарелятивистских нейтринных потоков, часто 
+приводило к появлению ошибочного фактора 1/2 в формулах для вероятностей 
+процессов с нейтрино в начальном состоянии из-за нефизического усреднения 
+по его поляризациям, см. например~\cite{Skobelev:1995,Borisov:1999}. 
+
+В результатах для вероятности процесса $\nu \to \nu e^- e^+$ в скрещенном 
+поле, полученных в указанных работах, имеются существенные различия. 
+В работе~\cite{Borisov:1999}, посвященной изучению распада массивного 
+нейтрино $\nu_i \to \nu_j e^- e^+ \,(m_i > m_j + 2 m_e)$ 
+во внешнем поле, также проводилось сравнение различных формул для 
+вероятности процесса , однако в~\cite{Borisov:1999} 
+говорится о взаимном согласии результатов, которое, по нашему мнению,
+отсутствует.
+
+Действительно, вероятность процесса в пределе $\chi \gg 1$ можно представить 
+в следующем виде
+%
+\begin{equation}
+W(\nu \to \nu e^- e^+) \, = \, K \, W_0 \,\chi^2 
+\, \left(\ln \chi - {1 \over 2} \ln 3 - \gamma_E + \Delta \right),
+\label{eq:w0}
+\end{equation}
+%
+где 
+%
+\begin{equation}
+W_0 \, = \, 
+\frac{G_F^2 \,(C_V^2 + C_A^2) \,m_e^6}
+{27 \pi^3 E},
+\label{eq:w00}
+\end{equation}
+%
+$\gamma_E = 0.577 \dots$ -- постоянная Эйлера, 
+$E$ -- энергия начального нейтрино.
+Константы $K$ и $\Delta$, входящие в выражение~(\ref{eq:w0}), 
+были получены разными авторами в следующем виде, см. таблицу 1.
+При этом в работах~\cite{Choban:1969,Borisov:1999} вычисление 
+проводилось с учетом 
+электрон - нейтринного взаимодействия только через $W$ - бозон. Для 
+сравнения формулы~(\ref{eq:w0}) с результатами этих работ 
+нужно положить в ней соответственно $C_V = C_A = 1$~\cite{Choban:1969} и 
+$C_V = C_A = |U_{ei} U_{e3}|$~\cite{Borisov:1999}.
+Потеря фактора $m_e/E$ в формулах для вероятности 
+статьи~\cite{Knizhnikov:1984} 
+является не числовой, а физической ошибкой, так как ведет к утрате 
+релятивистской инвариантности величины $E W$.
+
+%
+%%++ Table:1
+\begin{table}
+\caption{Константы $K$ и $\Delta$ из выражения~(\ref{eq:w0}), 
+полученные в разных работах}
+\bigskip
+\bigskip
+\hspace{20mm}
+\begin{tabular}{|ll|c|c|}\hline
+& & &  \\ 
+& & $K$ & $\Delta$ \\[5mm] 
+\hline 
+& & &  \\ 
+%
+Чобан, Иванов & 1969~\cite{Choban:1969}
+& $\frac{29}{1024 \pi}$ & --- \\[5mm]
+%
+Борисов и др. & 1983~\cite{Borisov:1983}
+& 1 & $- 2 \ln 2 - {389 \over 384} + {9 \over 128} 
+\frac{C_V^2 - C_A^2}{C_V^2 + C_A^2}$\\[5mm]
+%
+Книжников и др. & 1984~\cite{Knizhnikov:1984}
+& ${9 \over 16}{E \over m_e}$ & --- \\[5mm]
+%
+Борисов и др. & 1993~\cite{Borisov:1993}
+& ${1 \over 2}$ & $ + {5 \over 4} $\\[5mm]
+%
+Кузнецов, Михеев & 1997~\cite{Kuznetsov:1997yf}
+& 1 & $ - {29 \over 24}$\\[5mm]
+%
+Борисов, Заморин & 1999~\cite{Borisov:1999}
+& ${1 \over 2}$ & $ - {29 \over 24}$\\[5mm]
+\hline
+\end{tabular}
+\end{table}
+
+Как уже отмечалось, формула~(\ref{eq:w0}) для вероятности описывает 
+достаточно частный случай $\ln \chi \gg 1$. В то же время в ряде физических 
+задач реализуется ситуация, когда динамический параметр принимает 
+умеренно большие значения, так что $\chi \gg 1$, однако $\ln \chi \sim 1$. 
+При этом приближение скрещенного поля применимо, но упомянутое условие 
+$\ln \chi \gg 1$
+не выполняется, и в формуле~(\ref{eq:w0}) необходим 
+учет следующих членов разложения по обратным степеням большого 
+параметра $\chi$. Содержащиеся в перечисленных статьях 
+формулы для произвольных значений $\chi$ имеют вид 
+многократных интегралов и неудобны для анализа. 
+
+Таким образом, задача вычисления вероятности нейтринного рождения 
+лептонной (электрон-позитронной или мюонной) пары в скрещенном поле 
+при произвольном значении параметра $\chi$ представляется актуальной. 
+В то же время анализ нейтринного рождения $e^- e^+$- и $\mu^- \mu^+$-пар 
+будет в определенном смысле неполным без рассмотрения процессов 
+с рождением $e^- \mu^+$- и $e^+ \mu^- $-пар за счет стандартного 
+$\mu$-распадного взаимодействия, поскольку последние процессы 
+кинематически более открыты, нежели рождение $\mu^- \mu^+$-пары.
+В настоящей главе мы приведем найденное нами достаточно простое 
+выражение для вероятности процесса $\nu_i \to \nu_j \ell^-_n \ell^+_m$, 
+удобное для численного анализа. Основные результаты этой главы 
+опуликованы в работах~\cite{Kuznetsov:2000mp,Kuznetsov:2002it}.  
+
+
+\section{Расчет дифференциальной вероятности на основе решений уравнения 
+Дирака}
+
+Мы будем рассматривать случай относительно малых передач импульса, 
+$|q^2| \ll m_W^2\,$. 
+При этом слабое взаимодействие нейтрино с лептонами можно описывать 
+в локальном пределе эффективным лагранжианом самого общего вида
+%
+\begin{equation}
+{\cal L} \, = \, \frac{G_F}{\sqrt 2} 
+\big [ \bar \ell_n \gamma_{\alpha} (C_V + C_A \gamma_5) \ell_m \big ] \,
+\big [ \bar \nu_j \gamma^{\alpha} (1 + \gamma_5) \nu_i \big ] \,.
+\label{eq3}
+\end{equation}
+%
+Здесь $C_V$, $C_A$ --
+векторная и аксиальная электрослабые константы
+%
+\begin{eqnarray}
+C_V & = & U_{in} U_{jm}^{\ast} - \frac{1}{2} \delta_{ij} \delta_{nm} 
+( 1 - 4 \sin^2 \theta_W ),
+\nonumber\\
+C_A & = & U_{in} U_{jm}^{\ast} - \frac{1}{2} \delta_{ij} \delta_{nm} ,
+\nonumber
+\end{eqnarray}
+%
+где индексы $i$, $j$ нумеруют состояния нейтрино с определенными
+массами, $U_{in}$ -- элементы матрицы смешивания в лептонном секторе.
+Без учета смешивания, $U_{in} = \delta_{in}$
+(как уже отмечалось, для рассматриваемого процесса во внешнем поле 
+эффекты смешивания в лептонном секторе несущественны), константы 
+лагранжиана~(\ref{eq3}) для конкретных процессов принимают следующий вид.
+
+\noindent В случае, когда вклад дает обмен как $Z$-, так и $W$-бозоном,
+%
+\begin{eqnarray}
+\nu_e \to \nu_e e^- e^+, \, \nu_\mu \to \nu_\mu \mu^- \mu^+, \qquad
+C_V = 1/2 + 2 \sin^2 \theta_W, \, C_A = 1/2.
+\label{eq4}
+\end{eqnarray}
+% 
+Для процессов, где присутствует только обмен $Z$-бозоном,
+%
+\begin{eqnarray}
+\nu_\mu \to \nu_\mu e^- e^+, \, \nu_e \to \nu_e \mu^- \mu^+, \qquad
+C_V = - 1/2 + 2 \sin^2 \theta_W, \, C_A = - 1/2,
+\label{eq5}
+\end{eqnarray}
+ 
+\noindent где $\theta_W$ -- угол Вайнберга.
+ 
+Для процессов обратного $\mu$-распада, где присутствует только 
+$W$-бозон
+%
+\begin{eqnarray}
+\nu_\mu \to \nu_e \mu^- e^+, \, \nu_e \to \nu_\mu e^- \mu^+, \qquad
+C_V = 1, \, C_A = 1.
+\label{eq6}
+\end{eqnarray}
+
+Используя лагранжиан нейтрино-лептонного взаимодействия~(\ref{eq3}) 
+и решения для электрона и позитрона в скрещенном поле, приведенные в 
+формуле (A.3) приложения A, обобщенные на случай лептонов с массами 
+$m_1$ и $m_2$ (будем считать, что $m_1 \ge m_2$),
+получаем $S$-матричный элемент процесса 
+$\nu (P) \to \nu (P') + \ell_1 (p) + \bar \ell_2 (p')$
+в следующем виде
+%
+\begin{eqnarray}
+S_{if} &=& i \; \frac{G_F}{\sqrt{2}} \;
+\frac{1}{\sqrt{2 E V 2 E' V 2\ee V 2\ee' V}}
+\times \nonumber \\
+&\times&
+\int d^4x 
+\exp \left[- i \left( (Qx) - r^3 \vk^3 (\vp_0 \vp^2 + \frac{1}{3} \vp^3)
+\right)\right]
+\times 
+\label{eq:S_c}\\
+&\times&
+\left[\bar u(p)
+\left( 1 - \frac{e \hat a \hat k }{2(kp)}\varphi \right) 
+\hat j (C_V + C_A \gamma_5) \left( 1 + \frac{e \hat k \hat a }{2(kp')}\varphi 
+\right) 
+u(-p') \right], 
+\nonumber
+\end{eqnarray}
+%
+где $j_\alpha$ -- нейтринный ток, и введены обозначения: 
+$Q = P - P' - p - p' = q - p - p'$, 
+%
+\begin{eqnarray}
+r &=& \left(\frac{\chi_q}{2\chi_1\chi_2} \right)^{1/3}, \quad
+\vk^2 = - \frac{e^2 (a a)}{m_1^2}, \quad
+\vp_0 =  - \frac{e(qFp)}{m_1^4 \vk \chi_q}. 
+\end{eqnarray}
+
+Кроме того удобно ввести следующие инварианты:
+%
+\begin{eqnarray}
+\chi_q &=& \left(\frac{e^2(qFFq)}{m_1^6} \right)^{1/2} 
+= \frac{\vk (qk)}{m_1^2}, \nonumber \\
+\chi_1 &=& \left(\frac{e^2(pFFp)}{m_1^6} \right)^{1/2} 
+= \frac{\vk (pk)}{m_1^2}, \nonumber \\
+\chi_2 &=& \left(\frac{e^2(p'FFp')}{m_1^6} \right)^{1/2} 
+= \frac{\vk (p'k)}{m_1^2}, \nonumber \\
+\chi &=& \left(\frac{e^2(PFFP)}{m_1^6} \right)^{1/2} 
+= \frac{\vk (Pk)}{m_1^2}.
+\label{eq:chi's}
+\end{eqnarray}
+
+\noindent
+Выбирая систему отсчета, в которой
+%
+\begin{equation}
+k^\mu = (k_0, k_0, 0, 0),\, a^\mu = (0, 0, -a, 0),
+\label{eq:k&a}
+\end{equation}
+%
+при этом фаза $\varphi$ и напряженности электрического и магнитного полей 
+$\vec {\cal E}$ и $\vec B$ принимают вид
+%
+$$\varphi = (kx) = k_0(t -x ),\, \vec {\cal E} = (0, {\cal E}, 0),\, 
+\vec B = (0, 0, B),\, {\cal E} = B = k_0 a,$$
+%
+можем записать
+%
+$$(Q x) = (Q_0 - Q_x) t - Q_y y - Q_z z + s \vp, 
+\quad s = {Q_x \over k_0},$$
+%
+и интегрирование по координате $x$ удобно заменить на интегрирование 
+по переменной $\vp$.
+
+Снимая интегралы по $t,y,z$, 
+преобразуем $S$-матричный элемент~(\ref{eq:S_c}) к виду
+%
+\begin{eqnarray}
+S_{if} &=& \frac{i G_F(2 \pi)^3 \delta^2 (\vec Q_{\mprp}) 
+\delta \left( (kQ) \right)}
+{\sqrt{2}\sqrt{2 E V 2 E' V 2\ee V 2\ee' V }}
+\!\int\limits_{-\infty}^\infty \!\! d \vp 
+\bigg[ \bar u(p) \gamma_\mu L^{\mu\nu} j_\nu (C_V + C_A \gamma_5) u(-p') \bigg]
+\times 
+\nonumber \\
+&\times&  
+\exp \left[- i \left(s \vp - r^3 \vk^3 (\vp_0 \vp^2 + \frac{1}{3} \vp^3)
+\right)\right],
+\label{eq:Snu_c}
+\end{eqnarray}
+%
+где
+%
+\begin{eqnarray}
+L^{\mu\nu} & = & g^{\mu\nu} + \kappa_- F^{\mu\nu} \vp + 
+i \kappa_+ \gamma_5 \tilde F^{\mu\nu} \vp - 
+\frac{e^2 \vk^2}{2 m_1^4 \chi_1 \chi_2} (F F)^{\mu\nu} \vp^2, 
+\label{eq:Lmunu} \\
+\kappa_{\pm} & = & 
+\frac{e \vk}{2 m_1^2} \left(\frac{1}{\chi_1} \pm \frac{1}{\chi_2}\right).
+\label{eq:kappa+-}
+\end{eqnarray}
+
+Совершая в интеграле сдвиг по переменной $\vp, \; \varphi \to 
+\varphi - \varphi_0$, можно избавиться от
+членов в показателе экспоненты, пропорциональных $\varphi^2$:
+%
+$$s \vp - r^3 \vk^3 (\vp_0 \vp^2 + \frac{1}{3} \vp^3)
+\to \bar s \vp - \frac{1}{3} r^3 \vk^3 \vp^3 \; + \; A,$$
+%
+где
+%
+$$\bar s = s + r^3 \vk^3 \vp_0^2,$$
+%
+а величина $A$, не зависящая от $\vp$, приведет к появлению в 
+$S$-матричном элементе постоянного фазового множителя, который несуществен. 
+С учетом симметричности пределов интегрирования 
+данная процедура сдвига по $\vp$ позволяет выразить результаты через 
+функцию Эйри:
+%
+\begin{equation}
+\Phi(y) = \int\limits_0^{\infty}  dz\cos \left(yz + \frac{z^3}{3} \right),
+\label{eq:Air}
+\end{equation}
+%
+которая удовлетворяет уравнению
+%
+\begin{equation}
+\Phi''(y)  - y \Phi(y) = 0.
+\label{eq:Air_eq}
+\end{equation}
+%
+При этом имеющиеся интегралы по $\vp$ 
+запишутся в следующем виде:
+%
+\begin{eqnarray}
+\int\limits_{-\infty}^{+\infty} d\varphi 
+\exp \left( -i(\bar s \varphi - \frac{1}{3} r^3 \vk^3 \varphi^3) \right) 
+& = & \frac{2}{r \vk} \;\Phi (y),
+\label{eq:Airy}\\
+%
+\int\limits_{-\infty}^{+\infty}
+d\varphi \varphi 
+\exp \left( -i(\bar s \varphi - \frac{1}{3} r^3 \vk^3 \varphi^3) \right) 
+& = & - \frac{2 i}{r^2 \vk^2} \;\Phi' (y),
+\label{eq:d_Airy}\\
+%
+\int\limits_{-\infty}^{+\infty}
+d\varphi \varphi^2 
+\exp \left( -i(\bar s \varphi - \frac{1}{3} r^3 \vk^3 \varphi^3) \right) 
+& = &
+- \frac{2}{r^3 \vk^3} \;\Phi'' (y),
+\label{eq:dd_Airy}
+\end{eqnarray}
+%
+где
+%
+\begin{eqnarray}
+y = - \frac{\bar s}{r \vk}.
+\label{eq:y}
+\end{eqnarray}
+
+Вероятность процесса определяется выражением
+%
+\begin{eqnarray}
+W (\nu \to \nu \ell_1 \bar \ell_2)& = & \frac{1}{T} \int |S_{if}|^2 \,
+\frac{d^3P'\, V}{(2\pi)^3} \; 
+\frac{d^3p\, V}{(2\pi)^3} \; 
+\frac{d^3p' V}{(2\pi)^3}
+\label{Wnu_c1}
+\end{eqnarray}
+%
+При подстановке матричного элемента следует, как обычно, учесть, что
+%
+$$\delta^2(\vec Q_{\bot}=0) = \frac{L_y L_z}{(2\pi)^2}, \quad
+\delta(kQ=0) = \frac{T}{2\pi k_0}. $$
+%
+Интегрирование с $\delta$-функциями по импульсам одного из лептонов дает
+%
+$$\int \frac{d^3p'}{E'} \delta^2 (\vec Q_{\mprp}) \delta (kQ) \{\dots\}= 
+\frac{\vk}{m_1^2 \chi_2} \; \{p' \to q - p - s k; \; \chi_2 \to \chi_q 
+- \chi_1 \}.$$
+
+Для интегрирования по импульсам второго лептона удобно ввести переменные 
+$\tau$ и $u$
+%
+\begin{eqnarray}
+\tau = \frac{e(q \tilde F p)}{m_1^4 \chi_q}, \quad
+u = 1 - 2\frac{\chi_1}{\chi_q},
+\label{eq:tau}
+\end{eqnarray}
+%
+\noindent так что
+\begin{eqnarray}
+\chi_1 = \frac{1 - u}{2}\chi_q, \quad
+\chi_2 = \frac{1 + u}{2}\chi_q,
+\end{eqnarray}
+%
+\noindent при этом 
+$$\int \frac{d^3p}{E} \frac{1}{\chi_2} = 
+\frac{2 m_1^2 \vk}{\chi_q} \int\limits_{-1}^1 \frac{d u}{1-u^2}
+\int\limits_{-\infty}^{\infty} d \tau
+\int d \vp_0,$$
+%
+\noindent 
+но, как показывает расчет, подынтегральное выражение не содержит зависимости 
+от $\vp_0$. 
+Вспоминая связь между $\vp$ и $x$, заключаем, что интеграл по $\vp_0$ 
+отражает произвол выбора точки начала отсчета координаты $x$.
+При решении задачи в конечном объеме квантования $V = L_x L_y L_z$
+область интегрирования по $\vp_0$ конечна и равна $k_0 L_x$,
+т. е.
+%
+$$\int d \vp_0 = k_0 \int d x_0 = k_0 L_x.$$
+
+Аргумент функции Эйри~(\ref{eq:y}) в обозначениях~(\ref{eq:tau}) имеет вид
+%
+\begin{eqnarray}
+y = r^2 \left(\tau^2 + 1 - \frac{\chi_1 \chi_2}{\chi_q^2}\,
+\frac{q^2}{m_1^2} - \frac{\chi_1}{\chi_q}\, (1 - \lambda^2)\right), 
+\\ \nonumber
+r = \left(\frac{2}{\chi_q (1-u^2)} \right)^{1/3}, 
+\qquad
+\lambda = \frac{m_2}{m_1}.
+\label{eq:y0nu}
+\end{eqnarray}
+
+Для вероятности процесса получаем следующее выражение
+%
+\begin{eqnarray}
+W & = & 
+\frac{G_F^2 (C_V^2 + C_A^2) m_1^2}{2 (2 \pi)^6 E} 
+\int \frac{d^3P'}{E'} \int\limits_{-1}^1 r d u
+\int\limits_{-\infty}^{\infty} d \tau \times
+\nonumber \\[2mm]
+&\times& 
+\bigg\{ - i_0 \left[ \left (- \frac{\tau^2 (1+3u^2)}{1-u^2} 
++ \frac{q^2}{4m_1^2}(1+u^2) + 
+\frac{1}{2}\;u\;(1-\lambda^2) + \lambda \right )\times \right.
+\nonumber \\[2mm]
+&\times&\left. \left[\Phi(y)\right]^2 + 
+\frac{1}{2} r \chi_q (1+3u^2) \left[\Phi'(y)\right]^2 \right] - 
+\nonumber \\[2mm]
+&-& i_1  \bigg[ \frac{1}{\chi_q^2} \left(\frac{q^2(1-3u^2)}{4m_1^2} - 
+\frac{q^2}{m_1^2} - \frac{1}{2}(1-\lambda^2)\left (1-\lambda^2 +  
+\frac{q^2(1-3u)}{m_1^2} \right ) + \right.
+\nonumber 
+\\[2mm]
+&+& \left. 2r^3 \chi_q \tau^2 \left (\frac{q^2(1+3u^2)}{4m_1^2} 
+-(1-\lambda)^2 \right ) \right) \left[\Phi(y)\right]^2 -
+\nonumber 
+\\[2mm]
+&-& 2\frac{r}{\chi_q} \left (\frac{q^2(1+3u^2)}{4m_1^2} 
+-(1-\lambda)^2 \right ) \left[\Phi'(y)\right]^2 +
+\nonumber \\[2mm]
+&+& i_2 \left( -2 \frac{\tau^2}{\chi_q^2} 
+\left[\Phi(y)\right]^2 + \frac{r}{\chi_q} (1 - u^2) 
+\left[\Phi'(y)\right]^2 \right) + 
+\nonumber
+\\[2mm]
+&+& i_4 \; \frac{r^2}{\chi_q^2} \left [(1+u^2)(1-\lambda^2) + 
+2u(1-\lambda)^2 - \frac{q^2}{m_1^2} u(1-u^2) \right ] \; \Phi(y) \Phi'(y) + 
+\nonumber
+\\[2mm]
+&+& \frac{2C_A^2}{C_V^2 + C_A^2} \; \lambda  
+\bigg[i_0 \left[\Phi(y)\right]^2 + 4 i_1 
+\frac{r}{\chi_q} \left (-r^2 \tau^2 \left[\Phi(y)\right]^2 + \left[\Phi'(y)\right]^2 
+\right )+ 
+\nonumber \\[2mm]
+&+& 
+4 i_4 \; \frac{r^2}{\chi_q^2}\;u \; \Phi(y) \Phi'(y) \bigg] +
+\label{eq:Wnu_c2}
+\\[2mm]
+&+& 
+\frac{8 C_V C_A}{C_V^2 + C_A^2} \bigg [i_3 
+\left(1-\frac{1}{2}(1-\lambda^2)(1-u) - \frac{q^2 (1-u^2)}{4 m_1^2}
+\right) \frac{r^2}{\chi_q^2} \Phi(y) \Phi'(y) + 
+\nonumber 
+\end{eqnarray}
+%\\[2mm]
+\begin{eqnarray}
+\nonumber 
+%\nonumber \\[2mm]
+&+& 
+i_5 \left (\frac{1}{4\chi_q^2}\left(1-\lambda^2 + \frac{q^2}{m_1^2} \; u - 
+\frac{8\tau^2 u}{1-u^2} \right)\; 
+[\Phi(y)]^2 + \frac{r}{\chi_q}\; u \; [\Phi'(y)]^2 \right) \bigg ] 
+\bigg\},
+\nonumber 
+\end{eqnarray}
+%
+где введены инварианты, построенные из нейтринного тока и тензора поля
+%
+\begin{eqnarray}
+i_0 &=& (jj^*), \quad i_1 = \frac{e^2 (j F F j^*)}{m_1^4},
+\quad i_2 = \frac{e^2 (q \tilde F j)(q \tilde F j^*)}{m_1^6},
+\nonumber \\
+i_3 &=& \frac{e^3 \mbox{Re}[(q \tilde F j)(q F F j^*)]}{m_1^8}, \quad 
+i_4 = -i\frac{e^3 \mbox{Im}[(q F j)(q F F j^*)]}{m_1^8},
+\nonumber \\
+i_5 &=& -i\frac{e^2 \mbox{Im}[(q F j)(q \tilde F j^*)]}{m_1^6}.
+\label{invar}
+\end{eqnarray}
+
+Для вычисления входящих в выражение~(\ref{eq:Wnu_c2}) интегралов по переменной 
+$\tau$:
+%
+\begin{eqnarray}
+I_1 = \int\limits_{-\infty}^{\infty} d \tau \left[\Phi(y)\right]^2, \qquad 
+I_2 = \int\limits_{-\infty}^{\infty} d \tau \tau ^2 \left[\Phi(y)\right]^2, 
+\nonumber \\
+I_3 = \int\limits_{-\infty}^{\infty} d \tau \left[\Phi'(y)\right]^2, \qquad
+I_4 = \int\limits_{-\infty}^{\infty} d \tau \Phi(y) \Phi'(y)
+\label{eq:I_1234}
+\end{eqnarray}
+%
+воспользуемся известными соотношениями для функции Эйри, см.~\cite{Ritus:1979}, 
+с.~80, 83, формулы (46), (48), (58):
+%
+\begin{eqnarray}
+y \left[\Phi(y)\right]^2 + \left[\Phi'(y)\right]^2 & = & \frac{1}{2} 
+\frac{d^2}{dy^2} \left[\Phi(y)\right]^2, 
+\label{eq:rel_1} \\
+\int\limits_{0}^{\infty} \frac{d t}{\sqrt{t}} \left[\Phi(t+a)\right]^2
+& = & \frac{\pi}{2} \int\limits_{2^{2/3}a}^{\infty} d y \Phi(y),
+\label{eq:rel_2} \\
+\int\limits_{0}^{\infty} d t t^\sigma \left[\Phi(t+a)\right]^2
+& = & \frac{\sigma}{2(2\sigma + 1)} \left(\frac{d^2}{da^2} - 4a \right)
+\int\limits_{0}^{\infty} d t t^{\sigma-1} \left[\Phi(t+a)\right]^2,
+\; \sigma > 0. 
+\nonumber \\
+\label{eq:rel_3} 
+\end{eqnarray}
+%
+Интегралы~(\ref{eq:I_1234}) равны
+%
+\begin{eqnarray}
+I_1 & = & \frac{\pi}{2r} \Phi_1(U), \qquad 
+I_2 = \frac{2^{1/3} \pi}{8 r^3} \left[- \Phi'(U) - U \Phi_1(U) \right], 
+\nonumber \\
+I_3 & = & \frac{2^{1/3} \pi}{8 r} \left[- 3 \Phi'(U) - U \Phi_1(U) \right], 
+\qquad
+I_4 = - \frac{2^{2/3} \pi}{4 r} \Phi(U),
+\label{eq:I_1234a}
+\end{eqnarray}
+%
+где обозначено
+%
+\begin{eqnarray}
+&&\!\!\!\Phi_1 (U) = \int\limits_{U}^{\infty}  d y \Phi(y), 
+\nonumber \\[2mm]
+&&\!\!\!U = \left(\frac{4}{\chi_q (1-u^2)} \right)^{2/3}
+\left(1 - \frac{q^2(1-u^2)}{4 m_1^2} - \frac{1}{2}(1-u)(1-\lambda^2) \right).
+\label{eq:Phi1}
+\end{eqnarray}
+
+В результате вероятность процесса принимает вид следующего интеграла по 
+импульсу конечного нейтрино
+%
+\begin{eqnarray}
+&&W = 
+\frac{G_F^2 (C_V^2 + C_A^2) m_1^2}{8 (2 \pi)^5 E} 
+\int \frac{d^3P'}{E'} \;
+\int\limits_{-1}^1 d u \bigg\{i_0 \bigg[
+\frac{1+3u^2}{(1-u^2)^{1/3}}
+\left(\frac{\chi_q}{4}\right)^{2/3}\Phi'(U) -
+\nonumber \\[2mm]
+&&- \left(\lambda + \frac{q^2(1+u^2)}{4 m_1^2} 
++ \frac{u}{2}(1-\lambda^2) \right) \Phi_1(U) \bigg] +
+\nonumber \\[2mm]
+&&+ i_1 \bigg[\frac{1}{4(1-u^2)^{1/3}}
+\left(\frac{4}{\chi_q}\right)^{4/3} \left (\frac{q^2(1 + 3u^2)}{4m_1^2} 
+- (1-\lambda)^2\right)\Phi'(U) -
+\nonumber
+%\label{eq:Wnu_c3}
+%\end{eqnarray}
+\\[2mm]
+%\begin{eqnarray}
+\nonumber 
+&&- \frac{1}{\chi_q^2} 
+ \left(\frac{q^2}{m_1^2} - \frac{q^4(1-3u^2)}{4 m_1^4} + \frac{1}{2}
+ (1-\lambda^2)\left (1-\lambda^2 - \frac{q^2(1-3u)}{m_1^2}\right)\right) 
+ \Phi_1(U) \bigg] -
+\nonumber \\[2mm]
+&&- i_2 \frac{1}{8} (1-u^2)^{2/3} \left(\frac{4}{\chi_q}\right)^{4/3} \Phi'(U) +
+i_4 \; \frac{1}{32(1-u^2)^{2/3}} 
+\bigg[\frac{q^2}{m_1^2} u (1-u^2) - 
+\nonumber \\[2mm]
+&&- 2u (1-\lambda)^2 - 
+(1-\lambda^2)(1+u^2) \bigg] \left(\frac{4}{\chi_q}\right)^{8/3} 
+\Phi(U) +
+\nonumber \\[2mm]
+&&+ \frac{C_A^2}{C_V^2 + C_A^2} \lambda \; \bigg[i_0 2 \Phi_1(U) - 
+i_1 \frac{1}{(1-u^2)^{1/3}} \left(\frac{4}{\chi_q}\right)^{4/3}\Phi'(U) -
+\nonumber \\[2mm]
+&&- i_4\; \frac{u}{4(1-u^2)^{2/3}}\left(\frac{4}{\chi_q}\right)^{8/3} 
+\Phi(U) \bigg] -
+\frac{C_V C_A}{C_V^2 + C_A^2} \bigg [ 
+i_3 \frac{4}{\chi_q^2} \; U \Phi(U) + 
+%\end{eqnarray}
+\\[2mm]
+%\begin{eqnarray}
+\nonumber 
+%\\[2mm]
+&&+ i_5 \left(\frac{u}{(1-u^2)^{1/3}}\; 
+\left(\frac{4}{\chi_q}\right)^{4/3} \Phi'(U) -\frac{2}{\chi_q^2} 
+\left(1-\lambda^2 + \frac{q^2}{m_1^2}u\right) \Phi_1(U) \right )\bigg ]\bigg\}.
+\label{eq:Wnu_c3}
+\end{eqnarray}
+
+Существует второй способ вычисления 
+дифференциальной вероятности распада $\nu \to \nu \ell_1 \bar \ell_2$, 
+основанный на использовании соотношения 
+унитарности. Этот способ использовался, в случае одинаковых масс лептонов, 
+авторами работы~\cite{Kuznetsov:1997yf}. 
+Кроссинг-процессом нейтринного рождения пары
+$\nu \to  \nu \ell^- \ell^+$ является реакция превращения 
+нейтрино-антинейтринной 
+пары в лептонную пару $\nu \bar \nu \to \ell^- \ell^+$. 
+Как известно, сечение такой реакции связано с мнимой частью амплитуды 
+перехода $\nu \bar \nu \to \nu \bar \nu$ через лептонную 
+(электронную или мюонную) петлю  соотношением унитарности 
+%
+\begin{equation}
+\sigma(\nu \bar \nu \to \ell^- \ell^+) = {1 \over q^2} \,
+\mbox{Im} \,{\cal M}(\nu \bar \nu \to \nu \bar \nu).
+\label{eq:unit2}
+\end{equation}
+
+Легко видеть, что соотношение~(\ref{eq:unit2}) позволяет найти 
+вероятность процесса $\nu \to \nu \ell^- \ell^+$, если произвести в нем 
+дополнительное интегрирование по фазовому объему конечного нейтрино
+%
+\begin{equation}
+w(\nu \to \nu \ell^- \ell^+) E \, = \, \frac{1}{16 \pi^3} \, \int 
+\frac{d^3 P'}{E '} 
+\, \mbox{Im} \,{\cal M}(\nu \bar \nu \to \nu \bar \nu).
+\label{eq:wE0}
+\end{equation}
+
+В результате получим выражение, несколько отличающееся от~(\ref{eq:Wnu_c3}) при 
+$\lambda = 1$, 
+которое, однако, сводится к последнему 
+с помощью интегрального соотношения для функции Эйри
+%
+\begin{eqnarray}
+\int\limits_0^1 d u \bigg[
+\left(1 - \frac{q^2(1-3u^2)}{4m^2}\right) \Phi_1(U) +
+\frac{3-7u^2}{3(1-u^2)^{1/3}}
+\left(\frac{\chi_q}{4}\right)^{2/3}\Phi'(U) \bigg] = 0.\quad
+\label{eq:ident}
+\end{eqnarray}
+%
+Данное соотношение легко доказывается двукратным интегрированием по частям,
+с учетом уравнения для функции Эйри~(\ref{eq:Air_eq}).
+
+\section{Полная вероятность процесса}
+
+Для интегрирования в выражении~(\ref{eq:Wnu_c3}) по импульсу конечного 
+нейтрино введем новые инвариантные безразмерные 
+переменные $\kappa$, $\xi$ и $\phi$ 
+%
+$$\kappa = - \frac{q^2}{[4 e^2 (PFFP)]^{1/3}}, \qquad
+\xi = \sqrt{\frac{(qFFq)}{(PFFP)}}, \qquad
+\phi = \mbox{arctg} \frac{(P F P')}{(P \tilde F P')}.$$ 
+%
+Угол $\phi$ в системе отсчета, где импульс начального 
+нейтрино ${\bf P} \perp {\bf B}$, имеет смысл азимутального угла 
+в плоскости, перпендикулярной вектору $\bf P$, между проекцией вектора 
+$\bf P'$ на эту плоскость и направлением магнитного поля. 
+В этих переменных
+%
+\begin{eqnarray}
+\int \frac{d^3P'}{E'} = 4 \pi m_1^2 \left(\frac{\chi}{4}\right)^{2/3}
+\int\limits_0^1 d \xi
+\int\limits_0^\infty d \kappa
+\int\limits_0^{2 \pi} \frac{d \phi}{2 \pi}.
+\label{eq:d3P}
+\end{eqnarray}
+%
+%Как уже отмечалось, интерференционный член в формуле~(\ref{eq:Wnu_c3}), 
+%пропорциональный $C_V C_A$, не дает вклада в вероятность, но может быть 
+%существенным при вычислении асимметрии средней потери импульса нейтрино.
+
+После интегрирования по $\phi$ выражение~(\ref{eq:Wnu_c3}) принимает вид
+%
+\begin{eqnarray}
+W & = & \frac{G_F^2 (C_V^2 + C_A^2) m_1^6 \chi^2}{32 \pi^4 E} \, 
+\int\limits_{-1}^1 d u \int\limits_0^1 d \xi
+\int\limits_0^\infty d \kappa 
+\bigg \lbrace 
+\bigg [- 2 \kappa^2 (1 - u^2) -  
+\nonumber\\[1mm]
+&-&  \left({4 \over \chi} \right)^{2/3} 
+\left (\kappa (1-\lambda) + \left({4 \over \chi} \right)^{2/3} 
+\frac{1-\xi}{4\xi^2}\; (1-\lambda^2)^2 - \right.
+\nonumber\\[1mm]
+&-& \left. \kappa (1-\lambda^2)\left (\frac{1}{2}(1-u) + 
+\frac{u(1-\xi)}{\xi^2} \right) \right) 
+\bigg ]\; \Phi_1(U)  -
+\nonumber\\[1mm]
+& - & \frac{\kappa}{\xi^{4/3}(1 - u^2)^{1/3}} \; 
+\left [\frac{1}{3}(2 - 2 \xi + \xi^2) 
+(9 - u^2) + \right. 
+\nonumber\\[1mm]
+&+& \left. 2 \left({4 \over \chi} \right)^{2/3} (1-\xi)(1-\lambda)^2 
+\right ]\; \Phi'(U) - 
+\label{eq:Wnu_c4}\\[1mm]
+& - & \frac{2 C_A^2}{C_V^2 + C_A^2}\, \lambda \, 
+\left({4 \over \chi} \right)^{2/3} \left[ \kappa \;\Phi_1(U)  +
+4 \;\frac{1 - \xi}{\xi^{4/3}}
+\frac{1}{(1 - u^2)^{1/3}} \Phi'(U) 
+\right] -
+\nonumber 
+\end{eqnarray}
+%\\[2mm]
+\begin{eqnarray}
+\nonumber 
+%\nonumber\\[1mm]
+&-& \frac{2C_V C_A}{C_V^2 + C_A^2}\left [\kappa \frac{2-\xi}{2\xi}
+\left (\left({4 \over \chi} \right)^{2/3}(1-\lambda^2) - 4\kappa u 
+\right )\Phi_1(U) - 
+\right.
+\nonumber\\[1mm]
+&-& \left. 4\kappa \, \frac{2-\xi}{\xi^{1/3}}\, 
+\frac{u}{(1-u^2)^{1/3}}\Phi'(U) \right]
+\bigg \rbrace .
+\nonumber
+\end{eqnarray}
+
+Выполняя интегрирование по переменной $\kappa$, вероятность процесса 
+можно привести к следующему виду:
+%
+\begin{eqnarray}
+&&W(\nu \to \nu \ell_1 \bar \ell_2) 
+ = \, \frac{G_F^2 \,(C_V^2 + C_A^2) \,m_1^3 \,m_2^3 \, \bar \chi^2}
+{54 \pi^4 E} 
+\, \int\limits_{-1}^{1} d u \, \int\limits_0^1 x d x \,z\, \Phi(z) 
+\times
+\label{eq7}\\
+&&\times \Bigg \lbrace \frac{3 + x^2}{(1 - u^2)(1 - x)} 
++ \frac{3}{8} (1 - 3 x) +
+\frac{9 (1 - \lambda^2) u}{16 \lambda y}
+\left(1 + x + \right.
+\nonumber \\
+&&+ \left. 2 \frac{1 - x}{x} \ln(1 - x) \right) +
+\frac{9 (1 - \lambda^2)^2 (1 - u^2)}{64 \lambda^2 y^2} 
+\left(1 + 4 \frac{1 - x}{x} \ln(1 - x) \right) +  
+\nonumber \\
+&&+ \frac{9 (1 - \lambda)^2 (5 + x)}{16 \lambda y} +
+ \frac{9}{4} \frac{C_A^2}{C_V^2 + C_A^2} \frac{5 + x}{y} + 
+\frac{3}{4} \frac{C_V C_A}{C_V^2 + C_A^2} \frac{1 - \lambda^2}{\lambda y} 
+\frac{3 - x^2}{1 - x} \Bigg \rbrace.
+\nonumber 
+\end{eqnarray}
+%
+В выражении~(\ref{eq7}) введены обозначения
+%
+\begin{eqnarray}
+y = \frac{1 + \lambda^2}{2 \lambda} + u \frac{1 - \lambda^2}{2 \lambda},
+\quad
+z = y \left( \frac{4}{\bar \chi (1 - u^2)(1 - x)}
+\right)^{2/3}.  
+\nonumber 
+\end{eqnarray}
+
+Кроме того в~(\ref{eq7}) введен динамический параметр $\bar \chi$ 
+в  форме, симметричной по массам лептонов:
+%
+$$\bar \chi^2 = \frac{e^2 (PFFP)}{m_1^3 m_2^3}.$$
+% 
+
+Выражение для вероятности~(\ref{eq7}) можно далее преобразовать 
+к виду однократного интеграла, однако в общем случае, $m_1 \ne m_2$, получается достаточно 
+громоздкая формула, неудобная для дальнейшего анализа. При одинаковых 
+массах лептонов $m_1 = m_2 = m_\ell$, 
+т. е. для процессов~(\ref{eq4}), (\ref{eq5}) 
+вероятность можно записать в сравнительно простом виде однократного 
+интеграла       
+%
+\begin{eqnarray}
+\label{eq:Wnu_c6} 
+&&W(\nu \to \nu \ell^- \ell^+) 
+ = \, \frac{G_F^2 \,(C_V^2 + C_A^2) \,m_\ell^6 \,\chi_{\ell}^2}{27 
+\pi^4 E} 
+\, \int\limits_0^1 u^2 d u \,\tau\, \Phi(\tau) \times
+\label{eq8} \\
+&\times& \Bigg \lbrace \frac{4}{1 - u^2} \left( 2 L(u) - \frac{29}{24} \right) 
+- \frac{15}{2} L(u) - \frac{47}{48} +
+\nonumber \\
+&+& \frac{1}{8} 
+\left(1 + (1 - u^2) L(u) \right) \left(33 - \frac{47}{4}
+(1 - u^2) \right) +
+\nonumber \\
+&+& \frac{9}{16} \frac{C_A^2}{C_V^2 + C_A^2} 
+\left[48 L(u) + 2 -
+\left(1 + (1 - u^2) L(u) \right) \left(28 - 3 (1 - u^2) \right) 
+\right] \Bigg \rbrace.
+\nonumber
+\end{eqnarray}
+%
+Здесь $\chi_{\ell}^2 = e^2 (P F F P)/m_\ell^6$,  
+%
+\begin{eqnarray}
+\tau \, = \, \left( \frac{4}{\chi_{\ell} (1 - u^2)} \right)^{2/3}, \quad
+L(u) \, = \, \frac{1}{2 u} \ln \frac{1 + u}{1 - u}.
+\nonumber
+\end{eqnarray}
+%
+В случае $\chi_{\ell} \ll 1$ из выражения~(\ref{eq8}) немедленно получаем 
+формулу для вероятности, содержащую хорошо известное экспоненциальное 
+подавление:
+%
+\begin{equation}
+W(\chi_{\ell} \ll 1)
+ =  \frac{3 \, \sqrt{6} \, G_F^2 \, m_\ell^6}{(16 \pi)^3 E} \,
+(3 C_V^2 + 13 C_A^2) \,
+\chi_{\ell}^4 \, \exp \left(- \frac{8}{3 \chi_{\ell}} \right),
+\label{eq9}
+\end{equation}
+%
+которая согласуется с соответствующей формулой работы~\cite{Borisov:1993}. 
+
+В случае $\chi_{\ell} \gg 1$ из выражения~(\ref{eq8}) нетрудно получить 
+формулу~(\ref{eq:w0}), где $K = 1,\, \Delta = -29/24$, в согласии с 
+результатом~\cite{Kuznetsov:1997yf}.
+%
+\begin{equation}
+W(\chi_{\ell} \gg 1) \, \simeq \, 
+\frac{G_F^2 \,(C_V^2 + C_A^2) \,m_{\ell}^6\,\chi_{\ell}^2}{27 \pi^3 E}
+\, \left(\ln \chi_{\ell} - {1 \over 2} \ln 3 - \gamma_E - {29 \over 24} \right).
+\label{eq:Wnu_c8}
+\end{equation}
+%
+
+Кроме того из выражения~(\ref{eq:Wnu_c6}) нетрудно также найти следующий член 
+разложения по обратным степеням параметра $\chi_{\ell}$, что дает:
+%
+\begin{eqnarray}
+W (\chi_{\ell} \gg 1)
+& \simeq & \frac{G_F^2 \,(C_V^2 + C_A^2) \,m_{\ell}^6 \,\chi_{\ell}^2}{27 \pi^3 E} 
+\, \bigg \lbrace \ln \chi_{\ell} - {1 \over 2} \ln 3 - \gamma_E - {29 \over 24} -
+\nonumber \\
+& - & {1 \over \chi_{\ell}^{2/3}} \, {9 \over 56} \,
+\frac{3^{1/3} \pi^2}{\left[\Gamma \left( {2 \over 3} \right) \right]^4}
+\, \frac{19 C_V^2 - 63 C_A^2}{C_V^2 + C_A^2} 
+\bigg \rbrace, 
+\label{eq:Wnu_c9}
+\end{eqnarray}
+
+\noindent где $\Gamma (x)$ -- гамма-функция, 
+$\Gamma (2/3) = 1.354 \dots$ . 
+
+Из общего выражения для вероятности~(\ref{eq7}) можно также найти приближенную формулу
+для вероятности процесса
+$\nu \to \nu \ell_1 \bar \ell_2$ при $m_1 \ne m_2$:
+%
+\begin{eqnarray}
+w(\bar \chi \gg 1) 
+& = & \frac{G_F^2 \,(C_V^2 + C_A^2)
+\,m_1^3 \,m_2^3 \,\bar \chi^2}{27 \pi^3 E}
+\,
+\bigg \lbrace \ln \bar \chi
+- \frac{1}{2} \ln 3 - \gamma_E - \frac{29}{24} +
+\nonumber \\
+& + & \frac{3}{2} \,\frac{C_V C_A}{C_V^2 + C_A^2} \, \ln \frac{m_1}{m_2}
+\bigg \rbrace.
+\label{eq10} 
+\end{eqnarray}
+
+
+Из формулы~(\ref{eq:Wnu_c9}) видно, что поправочный член $\sim \chi_{\ell}^{-2/3}$ 
+уже не имеет универсального характера. Он относительно мал и отрицателен
+для случая, когда аромат нейтрино совпадает с ароматом заряженного лептона
+$(\nu_e \to \nu_e e^- e^+, \, \nu_\mu \to \nu_\mu \mu^- \mu^+)$. 
+Когда ароматы нейтрино и заряженного лептона различны 
+$(\nu_\mu \to \nu_\mu e^- e^+, \, \nu_e \to \nu_e \mu^- \mu^+)$, 
+этот член положителен и относительно велик. 
+
+На графиках рис.~\ref{fig:nullfi1} и~\ref{fig:nullfi2}
+%
+%================================================
+\begin{figure}[p]
+\centerline{\includegraphics*[scale=1.5]{fig11.eps}}
+%\epsffile[122 270 483 701]{nullfi1.ps}
+\caption{
+Зависимость вероятности процесса $\nu \to \nu \ell^- \ell^+$ от 
+динамического параметра в области умереннно больших значений $\chi_{\ell}$
+для случая, когда аромат нейтрино совпадает с ароматом заряженного лептона
+$(\nu_e \to \nu_e e^- e^+, \, \dots)$, рассчитанной: 
+{\it a)} по точной формуле~(\ref{eq:Wnu_c6});
+{\it b)} по приближенной формуле~(\ref{eq:Wnu_c8});
+{\it c)} по формуле~(\ref{eq:Wnu_c9}) с ``поправкой'' $\sim \chi_{\ell}^{-2/3}$.
+}
+\label{fig:nullfi1}
+\end{figure}
+%================================================
+%
+\begin{figure}[p]
+%\epsffile[122 270 483 701]{nullfi2.ps}
+\centerline{\includegraphics*[scale=1.5]{fig12.eps}}
+\caption{
+Зависимость вероятности процесса $\nu \to \nu \ell^- \ell^+$ от 
+динамического параметра в области умереннно больших значений $\chi_{\ell}$
+для случая, когда ароматы нейтрино и заряженного лептона различны 
+$(\nu_\mu \to \nu_\mu e^- e^+, \, \dots)$, рассчитанной: 
+{\it a)} по точной формуле~(\ref{eq:Wnu_c6});
+{\it b)} по приближенной формуле~(\ref{eq:Wnu_c8});
+{\it c)} по формуле~(\ref{eq:Wnu_c9}) с ``поправкой'' $\sim \chi_{\ell}^{-2/3}$.
+}
+\label{fig:nullfi2}
+\end{figure}
+%================================================
+%
+изображены вероятности процессов 
+$\nu \to \nu \ell^- \ell^+$ в зависимости от динамического параметра
+в области умереннно больших значений $\chi_{\ell}$. Из рисунков видно, 
+что в этой области поправочный член $\sim \chi_{\ell}^{-2/3}$ скорее 
+ухудшает описание поведения вероятности. 
+Это может объясняться тем, что следующий член разложения по параметру
+$\chi_{\ell}$, по-видимому, имеет характер $\sim \chi_{\ell}^{-4/3} \ln \chi_{\ell}$
+и достаточно велик, однако выделить его представляется затруднительным. 
+
+Из рисунков видно также, что величина вероятности, 
+рассчитанная по точной формуле~(\ref{eq:Wnu_c6}), при любых $\chi_{\ell}$
+больше приближенного значения~(\ref{eq:Wnu_c8}), например при $\chi_{\ell} = 20$ -- 
+в 1.6 раза для совпадающих и в 2.3 раза для различных ароматов 
+нейтрино и лептона. При $\chi_{\ell} \lesssim 10$ приближенная 
+формула~(\ref{eq:Wnu_c8}) теряет смысл.
+
+Таким образом, при детальном анализе вероятности процесса нейтринного рождения 
+лептонной пары во внешнем электромагнитном поле в области умереннно больших 
+значений параметра $\chi_{\ell}$ следует пользоваться полученной нами точной 
+формулой~(\ref{eq:Wnu_c6}). 
+
+
+\section{Средняя потеря энергии и импульса нейтрино}
+
+Следует заметить, что практический интерес для астрофизики имеет скорее не 
+вероятность процесса, а средняя потеря энергии 
+и импульса нейтрино в сильном магнитном поле, 
+которую можно определить 4-вектором
+%
+\begin{equation}
+Q^\alpha \, = \, E \int d W q^\alpha \, = \, (- dE/dt, - d\vec p/dt) E.
+\label{eq:Q0}
+\end{equation}
+
+\noindent 
+Его нулевая компонента связана со средней энергией, теряемой 
+нейтрино за единицу времени.
+Пространственные компоненты вектора~(\ref{eq:Q0}) связаны аналогичным 
+образом с потерей импульса нейтрино за единицу времени. 
+
+Мы приведем здесь вектор $Q^{\alpha}$ 
+в случае одинаковых масс лептонов $m_1 = m_2 = m_\ell$, 
+т. е. для процессов~(\ref{eq4}), (\ref{eq5}) и в пределе, когда 
+динамический параметр $\chi_{\ell} \gg 1$ 
+(т.е. $eB \ll E_{\nu}^2 \sin{\theta}$):
+%
+\begin{eqnarray}
+Q^\alpha& = &\frac{7G_F^2m_\ell^6\chi_{\ell}^2 (C_V^2 + C_A^2)}{432\pi^3}\Big [p^{\alpha}
+(\ln \chi_\ell - 1.888) - \sqrt{3}\frac{\beta}{\chi_\ell}(\varphi \varphi p)^{\alpha} +
+\nonumber \\ \nonumber \\ 
+& + &7.465\frac{C_VC_A}{C_V^2 + C_A^2}\frac{\beta}{\chi^{2/3}_\ell}
+(\tilde \varphi p)^{\alpha}\Big].
+\label{eq:q0}
+\end{eqnarray}
+
+Это выражение совпадает с соответствующей формулой 
+статьи~\cite{Kuznetsov:1997yf}, 
+с точностью до знака перед членом $C_VC_A$, который в указанной работе 
+ошибочен.
+Доля энергии, теряемая нейтрино при прохождении магнитного поля может быть 
+оценена из (\ref{eq:q0}) 
+%
+\begin{eqnarray}
+\frac{\Delta {\cal E}}{{\cal E}_{tot}} 
+  &\sim& 1.6 \cdot 10^{-6}\, 
+\left (\frac{B}{10^{15}~\mbox{Гс}} \right )^2\,
+\left (\frac{\bar E}{20 ~\mbox{МэВ}}\right )\,
+\left (\frac{ \Delta \ell}{10 ~\mbox{км}}\right ) \times
+\nonumber\\
+&\times& \left [ 5.2 + \ln  
+\left (\frac{B}{10^{15}~\mbox{Гс}} \,
+\frac{\bar E}{20 ~\mbox{МэВ}}\right ) \right ],
+\label{eq:E2} 
+\end{eqnarray}
+
+\noindent
+где ${\cal E}_{tot}$ -- полная энергия, уносимая нейтрино при взрыве 
+сверхновой, 
+\begin{eqnarray}
+\bar E = \left(\int \frac{d^3p}{(2\pi)^3}\frac{E}{e^{E/T_{\nu}} + 1}\right) 
+\bigg /
+\left(\int \frac{d^3p}{(2\pi)^3}\frac{1}{e^{E/T_{\nu}} + 1}\right )
+\simeq 3T_{\nu}
+\label{eq:midE} 
+\end{eqnarray}
+
+\noindent
+-- энергия нейтрино, усредненная по спектру, $T_{\nu}$ --температура 
+нейтринного газа, 
+$\Delta \ell$ есть характерный размер области, где поле меняется 
+несущественно. 
+Здесь мы взяли масштабы энергий и химического потенциала нейтрино 
+$(\mu_{\nu} = 0)$, которые считаются типичными для 
+взрыва сверхновой~\cite{Imshennik:1988,Nadyozhin:1992}.
+
+Для сравнения приведем здесь оценку для $\Delta {\cal E}/{\cal E}_{tot}$ 
+в предельном случае сильного магнитного поля $eB \gg E_{\nu}^2 \sin{\theta}$, 
+\cite{Kuznetsov:1997yf}
+%
+\begin{equation}
+\frac{\Delta {\cal E}}{{\cal E}_{tot}} 
+  \sim  0.6 \cdot 10^{-2}\, 
+\left (\frac{B}{10^{17}~\mbox{Гс}} \right )\,
+\left (\frac{\bar E}{10 ~\mbox{МэВ}}\right )^3\,
+\left (\frac{ \Delta \ell}{10 ~\mbox{км}}\right ),  
+\label{eq:E1}
+\end{equation}
+
+\noindent 
+что значительно больше, чем в случае случае скрещенного поля. Этот факт 
+может оказать существенное влияние на такую интересную астрофизическую 
+характеристику, как асимметрия вылета нейтрино
+%
+\begin{equation}
+A \; = \; \frac{|\sum_i {\bf p}_i|}{\sum_i |{\bf p}_i|}.
+\label{eq:A} 
+\end{equation}
+%
+
+В пределе $eB \ll E_{\nu}^2 \sin{\theta}$ получим для 
+асимметрии следующую оценку
+%
+\begin{equation}
+A  \sim  7 \cdot 10^{-6}\, 
+\left (\frac{B}{10^{15}~\mbox{Гс}} \right )^{7/3}
+\left (\frac{\bar E}{20 ~\mbox{МэВ}}\right )^{1/3} 
+\left (\frac{ \Delta \ell}{10 ~\mbox{км}}\right ).
+\label{eq:A1}
+\end{equation}
+
+С другой стороны, оценка этого параметра в пределе сильного поля, 
+полученная в работе \cite{Kuznetsov:1997yf}  
+%
+\begin{equation}
+A  \sim  2 \cdot 10^{-3}\, 
+\left (\frac{B}{10^{17}~\mbox{Гс}} \right )
+\left (\frac{\bar E}{10 ~\mbox{МэВ}}\right )^3 
+\left (\frac{ \Delta \ell}{10 ~\mbox{км}}\right )
+\label{eq:A2}
+\end{equation}
+
+\noindent
+значительно превышает асимметрию в пределе скрещенного поля. 
+Таким образом в тех областях нейтриносферы, где присутствует относительно 
+слабое магнитное поле, асимметрия вылета нейтрино не будет играть существенной 
+роли. 
+
+В настоящей главе рассмотрен, в рамках стандартной модели, 
+процесс нейтринного рождения лептонной пары ($\nu \to \nu \ell_1 \bar \ell_2$)
+во внешнем электромагнитном поле. 
+Получено сравнительно простое точное выражение для вероятности процесса, 
+удобное для численного анализа. Проанализированы возможные астрофизические 
+приложения рассмотренного процесса.
+
+%%%%%%%%%%%%
+
+\newpage
+
+\input ref.tex
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5

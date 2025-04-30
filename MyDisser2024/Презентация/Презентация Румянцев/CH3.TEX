@@ -1,0 +1,366 @@
+
+\def\mprp{\mbox{\tiny $\bot$}}
+\def\mprl{\mbox{\tiny $\|$}}
+\def\th{\mbox{th}}
+
+\def\beq{\begin{eqnarray}}
+\def\eeq{\end{eqnarray}}
+\def\ee{\varepsilon}
+\def\lm{\lambda}
+\newcommand{\prp}[1]{#1_{\mbox{\tiny $\bot$}}}
+\newcommand{\prl}[1]{#1_{\mbox{\tiny $\|$}}}
+\def\HH{H\!\!\left(\frac{4 m_e^2}{\prl{q}^2}\right)}
+\def\HHi{H\!\!\left(\frac{4 m_e^2}{\prl{q'^2}}\right)}
+\def\HHii{H\!\!\left(\frac{4 m_e^2}{\prl{q''^2}}\right)}
+\def\ggg{\gamma \rightarrow \gamma \gamma}
+\def\ff{\Lambda}
+\def\tff{\widetilde \Lambda}
+\def\1{1 \to 1 \, 2}
+\def\2{1 \to 2 \, 2}
+\def\S{{\cal S}}
+\def\J{{\cal J}}
+\def\A{{\cal A}}
+\def\P{{\cal P}}
+\def\M{{\cal M}}
+\def\Pab{{\cal P}_{\alpha \beta}}
+
+\begin{Slide}{Расщепление фотона в сильно замагниченной плазме} 
+
+\vspace*{10mm}
+
+\begin{center}
+
+{\red\LARGE Расщепление фотона в сильно замагниченной плазме}
+\end{center}
+
+\vspace*{10mm}
+
+\begin{center}
+\centerline{\darkgreen Магнитное поле без плазмы}
+ {\blue Папанян, Ритус (1973), Adler (1996), Кузнецов и др. (1999), Weise (2004)}
+
+\vspace*{5mm}
+
+\centerline{\darkgreen Плазма без магнитного поля}
+{\blue Melrose (1974), Shabad (1986)}
+
+\vspace*{5mm}
+
+\centerline{\darkgreen Замагниченная плазма}
+
+\begin{enumerate}
+\item Влияние плазмы на дисперсию фотона {\blue  Adler (1971), Bulik (1998)} 
+
+\item Модификация амплитуды {\blue Elmfors (1998), Gies (2000), Martinez (2001) }
+
+\end{enumerate}
+
+\end{center}
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{Slide}{Расщепление фотона в сильно замагниченной плазме} 
+
+\begin{center}
+
+\centerline{\darkgreen Амплитуда расщепления фотона}
+
+\begin{eqnarray}
+  {\cal M}\, = \, {\cal M}_B + {\red {\cal M}_{B+pl}}.
+\nonumber
+\end{eqnarray}
+
+\end{center}
+
+\vspace*{5mm}
+
+\centerline{\darkgreen Диаграммы Фейнмана для процесса расщепления фотона}
+
+\vspace*{5mm}
+
+\centerline{
+\includegraphics[width=0.68\textwidth]{pic2.eps}
+}
+
+\centerline{\darkgreen Уравнения дисперсии}
+%
+\beq
+\nonumber
+q^2 - \P^{(\lm)}(q) = 0 \qquad (\lm = 1, 2, 3).
+\eeq
+
+\centerline{{\darkgreen Векторы поляризации ($\lm = 1, 2$)}, {\red $\mu=0$}}
+%
+\beq 
+\nonumber 
+\ee_\alpha^{(1)}(q) \simeq \frac{(\varphi q)_\alpha}
+{\sqrt{(q\varphi \varphi q)}}, 
+\qquad 
+\ee_\alpha^{(2)}(q) \simeq \frac{(\tilde \varphi q)_\alpha}
+{\sqrt{(q \tilde \varphi \tilde \varphi q)}}. 
+\eeq
+% 
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{Slide}{Расщепление фотона в сильно замагниченной плазме} 
+
+
+\begin{center}
+
+{\darkgreen Закон дисперсии фотона в сильно замагниченной плазме}
+\end{center}
+
+\begin{center}
+\begin{figure}[htb]
+\centerline{\includegraphics*[scale=1.]{fig3.eps}}
+
+%\vspace{5mm}
+
+\end{figure}
+
+Дисперсия фотона моды 2 в сильном магнитном поле $B/B_e = 200$ и 
+зарядово-симметричной 
+плазме $(T = 1 \quad \mbox{МэВ},\, \mu = 0)$ 
+в зависимости от угла между направлением импульса фотона и магнитного поля
+(при $\theta = \pi/2$ -- верхняя сплошная  кривая, 
+$\theta = \pi/6$ -- средняя, $\theta = \pi/12$ -- нижняя сплошная кривая ).
+Нижняя штриховая линия изображает дисперсию в отсутствие плазмы.
+Точками показан вакуумный закон дисперсии $q^2 = 0$.
+
+\end{center}
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{Slide}{Расщепление фотона в сильно замагниченной плазме} 
+
+
+\vspace{5mm}
+
+\begin{center}
+
+\centerline{\darkgreen Разрешенные каналы}
+
+\vspace{5mm}
+ 
+\centerline{\darkred $\gamma_2 \to \gamma_1 \gamma_1$ (новый!!!)}
+
+\vspace{5mm}
+
+\centerline{\blue $\gamma_1 \to \gamma_1 \gamma_2$,  
+$\gamma_1 \to \gamma_2 \gamma_2$ (запрещены при $q^2 > 0$)}
+
+\vspace{5mm}
+
+
+\centerline{\darkgreen Перенормировка}
+
+%
+\beq
+\nonumber
+\ee_{\alpha}^{(2)} \to \ee_{\alpha}^{(2)} \sqrt{Z_2}, \quad 
+Z^{-1}_2 = 1 - \frac{\partial {\cal P}^{(2)}(q)}{\partial \omega^2}. 
+\eeq    
+
+
+\end{center}
+
+\begin{center}
+
+\end{center}
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{Slide}{Расщепление фотона в сильно замагниченной плазме} 
+
+\begin{center}
+
+\vspace*{15mm}
+
+\centerline{\darkgreen Вероятность расщепления фотона}
+
+\vspace*{10mm}
+
+\begin{eqnarray}
+&&W_{\lambda \to \lambda^{'} \lambda^{''}} = 
+\frac{g_{\lambda' \lambda''}}
+{32 \pi^2 \omega}
+\int \mid {\cal M_{\lambda \lambda^{'} \lambda^{''}}}\mid^2
+Z_{\lambda}Z_{\lambda^{'}}Z_{\lambda^{''}} \times
+\nonumber \\
+&&\times (1 + f_{\omega'})(1 + f_{\omega''}) 
+\delta (\omega_{\lambda}({\bf k}) - 
+\omega_{\lambda^{'}}({\bf k} - {\bf k^{''}}) - \omega_{\lambda^{''}}({\bf k^{''}})) 
+\frac{d^3 k^{''}}{\omega_{\lambda^{'}} \omega_{\lambda^{''}}},
+\nonumber
+\end{eqnarray}                    
+
+\vspace*{5mm}
+
+\noindent где $f_{\omega} = (e^{\omega/T} - 1)^{-1}$ -- функция распределения 
+фотонов, множитель $g_{\lambda' \lambda''} = 
+1 - (1/2)\delta_{\lambda' \lambda''}$ введен 
+для учета возможной тождественности фотонов в конечном состоянии.
+
+\end{center}
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{Slide}{Расщепление фотона в сильно замагниченной плазме} 
+
+%\begin{center}
+
+%\vspace*{5mm}
+
+%\centerline{\darkred Предельные случаи}
+
+%\vspace*{5mm}
+
+%\centerline{\darkgreen Каналы $\gamma_1 \to \gamma_1 \gamma_2$  и 
+%$\gamma_1 \to \gamma_2 \gamma_2$ в пределе 
+%$m_e^2 \ll \omega^2 \, \sin^2{\theta} \ll eB$}
+
+%\begin{eqnarray}
+%W_{1 \to 12} \simeq \frac{\alpha^3 T^2}{4\omega \sin^2{\theta}}
+%\left [(1 \, - \, u)^2 \, F\left (\frac{\omega (1+u)}{2T} \right ) 
+%\, + \, (u \to -u) \right ],
+%\nonumber
+%\end{eqnarray}                    
+
+%\noindent
+%$u \, = \, \cos{\theta},\qquad$ $\theta = \widehat{{\bf k},{\bf B}}$,
+ 
+%\begin{eqnarray}
+%\nonumber
+%F(z) \, = \, \int \limits_0^z \frac{x\th^2(x/4) \, dx}
+%{[1 \, - \, \exp{(-x)}] \, 
+%[1 \, - \, \exp{(x \, - \, \omega/T)}]}.
+%\end{eqnarray}                    
+%
+%
+%\begin{eqnarray}
+%\nonumber
+%W_{1 \to 22} &\simeq& \frac{\alpha^3 m_e^2}{4\omega}\, \frac{1}{1 \, - \, 
+%\exp{\left[-\frac{\omega}{T}(1 \, - \, u)\right]}}\, 
+%\frac{1}{1 \, - \, 
+%\exp{\left[-\frac{\omega}{T}(1 \, + \, u)\right]}} \times \\[3mm] 
+%\nonumber
+%&\times& \left \{\th^2\left [ \frac{\omega}{8T}(1 \, - \, u)\right ] 
+%\, + \, (u \to -u) \right \}.
+%\end{eqnarray}                    
+
+
+%\end{center}
+
+%\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{Slide}{Расщепление фотона в сильно замагниченной плазме} 
+
+%\begin{center}
+
+%\vspace*{15mm}
+
+%\centerline{\darkgreen Канал $\gamma_2 \to \gamma_1 \gamma_1$ в 
+% редком фотонном газе}
+
+%\vspace*{15mm}
+
+%\begin{eqnarray}
+%\nonumber
+%W_{2 \to 11} &\simeq& \frac{\alpha^3}{8\pi^2}\, Z_2 
+%\left (\HH + 
+%{\cal J}(q_{\mprl}) \right)^2 \, \frac{q_{\mprp}^2}{\omega} \, 
+%\times
+%\\
+%[3mm]
+%\nonumber
+%&\times&
+%\left (\ln{\frac{q_{\mprl}^2}{q_{\mprp}^2}} \, - \, 1 \, + \, 
+%\frac{q_{\mprp}^2}{q_{\mprl}^2} \right)
+%\, \theta (q^2).
+%\nonumber
+%\end{eqnarray}                    
+
+
+%\end{center}
+
+%\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{Slide}{Расщепление фотона в сильно замагниченной плазме} 
+
+\begin{center}
+
+\begin{figure}[htb]
+\centerline{\includegraphics*[scale=1.]{fig6.eps}}
+
+\vspace{5mm}
+
+\end{figure}
+
+Относительная вероятность канала $\gamma_1 \to \gamma_1 \gamma_2$ 
+в сильном магнитном поле $B/B_e \, = \, 200$ и горячей плазме $(T \, = \, 
+1 \mbox{МэВ},\, \mu \, = \, 0)$. 
+Пунктиром показана вероятность в 
+чистом магнитном поле $(T \, = \, \mu \, = \, 0)$ 
+(Кузнецов и др. (1999)). Точками показана асимптотика 
+$m_e^2 \ll \omega^2 \, \sin^2{\theta} \ll eB$ для этого канала.
+
+\end{center}
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{Slide}{Расщепление фотона в сильно замагниченной плазме} 
+
+\begin{center}
+
+\begin{figure}[tb]
+\centerline{\includegraphics*[scale=1.]{fig7.eps}}
+
+\vspace{5mm}
+
+\end{figure}
+
+Относительная вероятность канала $\gamma_1 \to \gamma_2 \gamma_2$ 
+при тех же параметрах, что и для канала $\gamma_1 \to \gamma_1 \gamma_2$.
+Пунктиром показана вероятность в 
+чистом магнитном поле $(T \, = \, \mu \, = \, 0)$ 
+(Кузнецов и др. (1999)).
+
+\end{center}
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{Slide}{Расщепление фотона в сильно замагниченной плазме} 
+
+\begin{center}
+
+\begin{figure}[tb]
+\centerline{\includegraphics*[scale=1.]{fig8.eps}}
+
+\vspace{5mm}
+
+\end{figure}
+
+Относительная вероятность канала $\gamma_2 \to \gamma_1 \gamma_1$ 
+в сильном магнитном поле $B/B_e \, = \, 200$ и горячей плазме $(T \, = \, 
+1 \mbox{МэВ},\, \mu \, = \, 0)$. 
+ 
+\end{center}
+
+\end{Slide}

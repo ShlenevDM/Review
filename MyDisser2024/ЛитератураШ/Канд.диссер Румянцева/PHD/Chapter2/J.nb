@@ -1,0 +1,334 @@
+(************** Content-type: application/mathematica **************
+                     CreatedBy='Mathematica 5.0'
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[      8740,        261]*)
+(*NotebookOutlinePosition[      9417,        284]*)
+(*  CellTagsIndexPosition[      9373,        280]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+  "The  analysis of function ",
+  Cell[BoxData[
+      \(TraditionalForm\`\(J\^+\)\)]],
+  " in a strong magnetized plasma."
+}], "Title"],
+
+Cell[BoxData[
+    RowBox[{
+      StyleBox["1.",
+        FontWeight->"Bold"], 
+      StyleBox["General",
+        FontWeight->"Bold"], 
+      StyleBox[" ",
+        FontWeight->"Bold"], 
+      RowBox[{
+        StyleBox["relations",
+          FontWeight->"Bold"], 
+        StyleBox[".",
+          "Section 1",
+          FontWeight->"Bold"], 
+        StyleBox["  ",
+          "Section 1",
+          FontWeight->"Bold"]}]}]], "Subtitle",
+  CellFrame->False,
+  TextAlignment->Center,
+  TextJustification->0,
+  FontFamily->"Courier New",
+  FontSize->36,
+  FontColor->RGBColor[1, 0, 0],
+  Background->None,
+  FontVariations->{"CompatibilityType"->0}],
+
+Cell[TextData[{
+  StyleBox["The parameter of the temperature \[Kappa]=m/T,  \[Eta]=\[Mu]/T. \
+The parameter of magnetic field \[Beta]=B/",
+    FontSize->14],
+  Cell[BoxData[
+      \(TraditionalForm\`B\_e\)]]
+}], "Text"],
+
+Cell[BoxData[
+    \(<< NumericalMath`CauchyPrincipalValue`\)], "Input"],
+
+Cell[BoxData[
+    \(f[s_, \[Kappa]_, \[Eta]_] := 
+      1\/\(1 + Exp[\[Kappa]*\@\(1 + s\^2\) - \[Eta]]\); 
+    FF[s_, \[Kappa]_, \[Eta]_] := 
+      f[s, \[Kappa], \[Eta]] + f[s, \[Kappa], \(-\[Eta]\)]; 
+    Kl[x_, z_, \[Kappa]_, \[Eta]_] := 
+      Re[x\/2*NIntegrate[
+            FF[s, \[Kappa], \[Eta]]\/\(\@\(1 + s\^2\)*\((x\^2 - \((\@\(1 + \
+s\^2\)*\@\(x + z\) - s*\@z)\)\^2)\)\), {s, \(-\[Infinity]\), \[Infinity]}]]; 
+    Kl1[x_, z_, \[Kappa]_, \[Eta]_] := 
+      Re[x\/2*CauchyPrincipalValue[
+            FF[s, \[Kappa], \[Eta]]\/\(\@\(1 + s\^2\)*\((x\^2 - \((\@\(1 + \
+s\^2\)*\@\(x + z\) - s*\@z)\)\^2)\)\), {s, \(-\[Infinity]\), {\@z - \@\(z + x \
+- 1 - z\/x\)}, {\@z + \@\(z + x - 1 - z\/x\)}, \[Infinity]}]];\)], "Input"],
+
+Cell[BoxData[
+    \(\(JJ1 = 
+        Table[Kl[x, z, 0.1, 0], {x, 0.001, 0.9999999999999, 0.001}, {z, 0.0, 
+            50, 10}];\)\)], "Input"],
+
+Cell[BoxData[
+    \(JJ1\)], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(JJ2 = 
+      ListInterpolation[Re[JJ1], {{ .001, 0.999999}, {0.0, 50. }}]\)], "Input"],
+
+Cell[BoxData[
+    TagBox[\(InterpolatingFunction[{{0.001`, 0.9999989999999999`}, {0.`, 
+            50.`}}, "<>"]\),
+      False,
+      Editable->False]], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+    \(Disp01 = 
+      Plot[{JJ2[x, 0], JJ2[x, 10], JJ2[x, 50]}, {x, 0, 0.999}, 
+        Frame \[Rule] True, PlotPoints \[Rule] 1000, 
+        FrameLabel \[Rule] {"\<qp\>", "\<qlqqq\>"}\ , 
+        RotateLabel \[Rule] False, PlotRange \[Rule] {{0, 1}, {0, \(-15\)}}, 
+        PlotStyle \[Rule] {Hue[0. ], Dashing[{0.02, 0.01}], 
+            Dashing[{0.005, 0.01}], Hue[0. ], Dashing[{0.02, 0.01}], 
+            Dashing[{0.005, 0.01}]}, 
+        ColorOutput \[Rule] GrayLevel]\)], "Input"],
+
+Cell[BoxData[
+    \(\(JJ3 = 
+        Table[Kl1[x, z, 0.1, 0], {x, 1.00001, 100.0, 0.1}, {z, 0.0, 50, 
+            10}];\)\)], "Input"],
+
+Cell[BoxData[
+    \(JJ3\)], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(JJ4 = 
+      ListInterpolation[Re[JJ3], {{1.00001, 100}, {0.0, 50. }}]\)], "Input"],
+
+Cell[BoxData[
+    TagBox[\(InterpolatingFunction[{{1.00001`, 100.`}, {0.`, 50.`}}, "<>"]\),
+      False,
+      Editable->False]], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+    \(\(JJ33 = 
+        Table[1\/x*
+            NIntegrate[
+              FF[s, 0.1, 0]\/\@\(1 + s\^2\), {s, 0, \[Infinity]}], {x, 10, 
+            100.0, 0.1}];\)\)], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(JJ44 = ListInterpolation[Re[JJ33], {{10, 100}}]\)], "Input"],
+
+Cell[BoxData[
+    TagBox[\(InterpolatingFunction[{{10.`, 100.`}}, "<>"]\),
+      False,
+      Editable->False]], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+    \(Disp011 = 
+      Plot[{JJ4[x, 0], JJ4[x, 10], JJ4[x, 50]}, {x, 1.000001, 30. }, 
+        PlotPoints \[Rule] 1000, PlotRange \[Rule] {{1, 30}, {0, 1. }}, 
+        PlotStyle \[Rule] {Hue[0. ], Dashing[{0.02, 0.01}], 
+            Dashing[{0.005, 0.01}], Hue[0. ], Dashing[{0.02, 0.01}], 
+            Dashing[{0.005, 0.01}]}, ColorOutput \[Rule] GrayLevel, 
+        Frame \[Rule] True, FrameLabel \[Rule] {"\<qp\>", "\<qlqqqqq\>"}\ , 
+        RotateLabel \[Rule] False, AxesOrigin -> {1, 0}]\)], "Input"],
+
+Cell[BoxData[
+    \(\(JJim[x_, 
+          z_, \[Kappa]_, \[Eta]_] := \(-\(\[Pi]\/4\)\)*1\/\@\(x*\((x - \
+1)\)\)*\((1\/\(1 + Exp[\[Kappa]*\((\@\(x + z\) - \@z*\@\(\(x - 1\)\/x\))\) - \
+\[Eta]]\) + 
+              1\/\(1 + Exp[\[Kappa]*\((\@\(x + z\) + \@z*\@\(\(x - \
+1\)\/x\))\) - \[Eta]]\) + 
+              1\/\(1 + Exp[\[Kappa]*\((\@\(x + z\) - \@z*\@\(\(x - \
+1\)\/x\))\) + \[Eta]]\) + 
+              1\/\(1 + Exp[\[Kappa]*\((\@\(x + z\) + \@z*\@\(\(x - \
+1\)\/x\))\) + \[Eta]]\))\);\)\)], "Input"],
+
+Cell[BoxData[
+    \(Disp011im = 
+      Plot[{JJim[x, 0, 0.1, 0], JJim[x, 10, 0.1, 0], 
+          JJim[x, 50, 0.1, 0], \(-\(\[Pi]\/x\)\)*Exp[\(-0.1\)*\@x]}, {x, 
+          1.000000001, 50. }, PlotPoints \[Rule] 1000, 
+        PlotRange \[Rule] {{40, 50}, {\(-0.2\), 0}}, 
+        PlotStyle \[Rule] {Hue[0. ], Dashing[{0.02, 0.01}], 
+            Dashing[{0.005, 0.01}], Hue[0. ], Dashing[{0.02, 0.01}], 
+            Dashing[{0.005, 0.01}]}, ColorOutput \[Rule] GrayLevel, 
+        Frame \[Rule] True, FrameLabel \[Rule] {"\<qp\>", "\<qlqqq\>"}\ , 
+        RotateLabel \[Rule] False]\)], "Input"],
+
+Cell[BoxData[
+    \(Show[Disp01, Disp011]\)], "Input"],
+
+Cell[BoxData[
+    \(\[Lambda][vF_] = \@\(\(1 + vF\)\/\(1 - vF\)\); 
+    G[x_, z_, vF_, \[Beta]_] := 
+      1\/\@\(x*\((1 - x)\)\)*\((ArcTan[\(x\^2*vF + \((z*vF + \@\(z\^2 + \
+x*z\))\)\)\/\(x*\@\(x*\((1 - x)\)\)\)] + 
+            ArcTan[\(x\^2*vF + \((z*vF - \@\(z\^2 + \
+x*z\))\)\)\/\(x*\@\(x*\((1 - x)\)\)\)])\); 
+    G3[x_, z_, 
+        vF_, \[Beta]_] := \((1\/\(2*\@\(x*\((1 - \
+x)\)\)\)*\((ArcTan[\@\(x\/\(1 - x\)\)*\((1 + \(\[Lambda][vF]\^2 - \
+1\)\/\(2*\((x + \[Lambda][vF]*\@\(x + z\))\)\))\)] + 
+                ArcTan[\@\(x\/\(1 - x\)\)*\((1 + \(\[Lambda][vF]\^2 - \
+1\)\/\(2*\((x - \[Lambda][vF]*\@\(x + z\))\)\))\)])\) - 1)\);\)], "Input"],
+
+Cell[BoxData[
+    \(\(PlDisZ >> \
+"\<C:\\RDA\\mathematica\\DISPERSION\\GGG250K100B\\PlDisZ1\>";\)\)], "Input"],
+
+Cell[BoxData[
+    \(Disp5 = 
+      Plot[{JJ2[x, 0], JJ2[x, 5], JJ2[x, 15]}, {x, 0, 0.9999999}, 
+        Frame \[Rule] True, PlotPoints \[Rule] 1000, 
+        FrameLabel \[Rule] {"\<qp\>", "\<qlqqq\>"}, 
+        RotateLabel \[Rule] False, 
+        PlotRange \[Rule] {{0, 1}, {0, \(-15. \)}}, 
+        PlotStyle \[Rule] {Hue[0. ], Dashing[{0.02, 0.01}], 
+            Dashing[{0.005, 0.01}], Hue[0. ], Dashing[{0.02, 0.01}], 
+            Dashing[{0.005, 0.01}]}, 
+        ColorOutput \[Rule] GrayLevel]\)], "Input"],
+
+Cell[BoxData[
+    \(\(Display["\<ReJ01.eps\>", Disp011, "\<eps\>"];\)\)], "Input"],
+
+Cell[BoxData[
+    \(\(Display["\<J1.eps\>", Disp01, "\<eps\>"];\)\)], "Input"],
+
+Cell["\<\
+                                                              **************\\
+
+\>", "Text"]
+}, Open  ]]
+},
+FrontEndVersion->"5.0 for Microsoft Windows",
+ScreenRectangle->{{0, 1280}, {0, 941}},
+WindowSize->{1094, 852},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+StyleDefinitions -> "Report.nb"
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1776, 53, 151, 5, 81, "Title"],
+Cell[1930, 60, 641, 24, 53, "Subtitle"],
+Cell[2574, 86, 219, 6, 30, "Text"],
+Cell[2796, 94, 71, 1, 35, "Input"],
+Cell[2870, 97, 731, 13, 186, "Input"],
+Cell[3604, 112, 143, 3, 35, "Input"],
+Cell[3750, 117, 36, 1, 35, "Input"],
+
+Cell[CellGroupData[{
+Cell[3811, 122, 106, 2, 35, "Input"],
+Cell[3920, 126, 164, 4, 49, "Output"]
+}, Open  ]],
+Cell[4099, 133, 501, 9, 95, "Input"],
+Cell[4603, 144, 134, 3, 35, "Input"],
+Cell[4740, 149, 36, 1, 35, "Input"],
+
+Cell[CellGroupData[{
+Cell[4801, 154, 103, 2, 35, "Input"],
+Cell[4907, 158, 139, 3, 49, "Output"]
+}, Open  ]],
+Cell[5061, 164, 190, 5, 53, "Input"],
+
+Cell[CellGroupData[{
+Cell[5276, 173, 80, 1, 35, "Input"],
+Cell[5359, 176, 122, 3, 49, "Output"]
+}, Open  ]],
+Cell[5496, 182, 520, 8, 75, "Input"],
+Cell[6019, 192, 500, 10, 230, "Input"],
+Cell[6522, 204, 593, 10, 107, "Input"],
+Cell[7118, 216, 54, 1, 35, "Input"],
+Cell[7175, 219, 650, 12, 125, "Input"],
+Cell[7828, 233, 110, 2, 35, "Input"],
+Cell[7941, 237, 512, 10, 95, "Input"],
+Cell[8456, 249, 82, 1, 35, "Input"],
+Cell[8541, 252, 78, 1, 35, "Input"],
+Cell[8622, 255, 102, 3, 46, "Text"]
+}, Open  ]]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+

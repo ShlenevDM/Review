@@ -1,0 +1,1027 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.8)  17 AUG 2021 11:59
+entering extended mode
+**./docl.tex
+(docl.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01> (lucassem1.cls
+ 
+*******************************************************************
+*
+* Loading lucassem document class by: Lucas Taylor 
+*
+* 04 Aug 1996 1st version
+* 18 Mar 1997 2nd version: arbitrary colours
+* 08 Jul 1997 3rd version: logos, slide title style, subtitle
+*
+*******************************************************************
+ 
+
+LaTeX Warning: You have requested document class `lucassem1',
+               but the document class provides `lucassem'.
+
+Document Class: lucassem 1996/08/04 Lucas Taylor's seminar package extension
+(pstcol.sty
+Package: pstcol 2007/04/11 v1.3 LaTeX wrapper for `PSTricks' (RN,HV)
+
+
+Package pstcol Warning: ************************************ 
+(pstcol)                The package `pstcol' is obsolet! 
+(pstcol)                You should use `pstricks' directly: 
+(pstcol)                    \usepackage{pstricks}
+(pstcol)                ************************************.
+
+(pstricks.sty
+Package: pstricks 2020/06/11 v0.70 LaTeX wrapper for `PSTricks' (RN,HV)
+ (C:\miktex\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(C:\miktex\tex/latex/graphics\color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(C:\miktex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\miktex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+(C:\miktex\tex/generic/xkeyval\pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(C:\miktex\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\miktex\tex/generic/xkeyval\xkeyval.tex
+(C:\miktex\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(C:\miktex\tex/generic/xkeyval\keyval.tex))
+\XKV@depth=\count182
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(C:\miktex\tex/generic/pstricks\pstricks.tex
+(C:\miktex\tex/generic/pstricks\pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv)
+\pstFP@xs=\count183
+\pstFP@xia=\count184
+\pstFP@xib=\count185
+\pstFP@xfa=\count186
+\pstFP@xfb=\count187
+\pstFP@rega=\count188
+\pstFP@regb=\count189
+\pstFP@regs=\count190
+\pstFP@times=\count191
+)
+(C:\miktex\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen138
+\pgfutil@tempdimb=\dimen139
+
+(C:\miktex\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
+(C:\miktex\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(C:\miktex\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks21
+))
+(C:\miktex\tex/generic/pgf/utilities\pgffor.code.tex
+Loading pgffor.code.tex
+(C:\miktex\tex/generic/pgf/math\pgfmath.code.tex
+(C:\miktex\tex/generic/pgf/math\pgfmathcalc.code.tex
+(C:\miktex\tex/generic/pgf/math\pgfmathutil.code.tex
+\pgf@x=\dimen140
+\pgf@xa=\dimen141
+\pgf@xb=\dimen142
+\pgf@xc=\dimen143
+\pgf@y=\dimen144
+\pgf@ya=\dimen145
+\pgf@yb=\dimen146
+\pgf@yc=\dimen147
+\c@pgf@counta=\count192
+\c@pgf@countb=\count193
+\c@pgf@countc=\count194
+\c@pgf@countd=\count195
+\pgfutil@tempcnta=\count196
+\pgfutil@tempcntb=\count197
+)
+(C:\miktex\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen148
+\pgfmath@count=\count198
+\pgfmath@box=\box50
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+)
+(C:\miktex\tex/generic/pgf/math\pgfmathfunctions.code.tex
+(C:\miktex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\miktex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex)
+(C:\miktex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+(C:\miktex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex)
+(C:\miktex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(C:\miktex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\miktex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\miktex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex)))
+(C:\miktex\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count199
+))
+\pgffor@iter=\dimen149
+\pgffor@skip=\dimen150
+\pgffor@stack=\toks25
+\pgffor@toks=\toks26
+)
+\psLoopIndex=\count266
+
+`PSTricks' v3.02  <2021/05/31> (tvz,hv)
+\pst@dima=\dimen151
+\pst@dimb=\dimen152
+\pst@dimc=\dimen153
+\pst@dimd=\dimen154
+\pst@dimg=\dimen155
+\pst@dimh=\dimen156
+\pst@dimm=\dimen157
+\pst@dimn=\dimen158
+\pst@dimo=\dimen159
+\pst@dimp=\dimen160
+\pst@hbox=\box51
+\pst@ibox=\box52
+\pst@boxg=\box53
+\pst@cnta=\count267
+\pst@cntb=\count268
+\pst@cntc=\count269
+\pst@cntd=\count270
+\pst@cntg=\count271
+\pst@cnth=\count272
+\pst@cntm=\count273
+\pst@cntn=\count274
+\pst@cnto=\count275
+\pst@cntp=\count276
+\@zero=\count277
+\pst@toks=\toks27
+(C:\miktex\tex/generic/pstricks\pstricks.con)
+\psunit=\dimen161
+\psxunit=\dimen162
+\psyunit=\dimen163
+\pst@C@@rType=\count278
+\pslinewidth=\dimen164
+\psk@startLW=\dimen165
+\psk@endLW=\dimen166
+\pst@customdefs=\toks28
+\pslinearc=\dimen167
+\pst@symbolStep=\dimen168
+\pst@symbolWidth=\dimen169
+\pst@symbolLinewidth=\dimen170
+\everypsbox=\toks29
+\psframesep=\dimen171
+\pslabelsep=\dimen172
+\sh@wgridXunit=\dimen173
+\sh@wgridYunit=\dimen174
+\pst@shift=\dimen175
+)
+File: pstricks.tex 2021/05/31 v3.02 `PSTricks' (tvz,hv)
+
+(C:\miktex\tex/generic/pstricks\pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv))
+File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
+Package color Info: Redefining color darkgray on input line 172.
+Package color Info: Redefining color gray on input line 172.
+Package color Info: Redefining color lightgray on input line 172.
+Package color Info: Redefining color black on input line 205.
+Package color Info: Redefining color darkgray on input line 206.
+Package color Info: Redefining color gray on input line 207.
+Package color Info: Redefining color lightgray on input line 208.
+Package color Info: Redefining color white on input line 209.
+Package color Info: Redefining color red on input line 210.
+Package color Info: Redefining color green on input line 211.
+Package color Info: Redefining color blue on input line 212.
+Package color Info: Redefining color yellow on input line 216.
+Package color Info: Redefining color cyan on input line 217.
+Package color Info: Redefining color magenta on input line 218.
+))
+(seminar.cls
+Document Class: seminar 1997/10/13, 1.4
+Document Style: `seminar' v1.4 <1997/10/13> (tvz)
+\slidewidth=\dimen176
+\slideheight=\dimen177
+\footheight=\dimen178
+(C:\miktex\tex/latex/base\article.cls
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+(C:\miktex\tex/latex/base\size12.clo
+File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count279
+\c@section=\count280
+\c@subsection=\count281
+\c@subsubsection=\count282
+\c@paragraph=\count283
+\c@subparagraph=\count284
+\c@figure=\count285
+\c@table=\count286
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen179
+) (sem-page.sty)
+\before@document=\toks30
+\after@document=\toks31
+\before@enddocument=\toks32
+\c@slide=\count287
+\slide@count=\count288
+\@slidebox=\box54
+\not@slidebox=\box55
+\slide@hook=\toks33
+\after@slide=\toks34
+\slide@footins=\insert252
+\slide@listdepth=\count289
+\saved@specials=\box56
+\before@newslide=\toks35
+\after@slidepage=\toks36
+\slidesep=\skip49
+\c@note=\count290
+\slideframewidth=\dimen180
+\slideframesep=\dimen181
+\semin=\dimen182
+\semcm=\dimen183
+) (semcolor.sty
+Style Option: `semcolor' for doc style `seminar' 1.0 <93/04/01> (tvz)
+(C:\miktex\tex/generic/pstricks\pstricks.tex)) (sem-page.sty) (slidesec.sty
+File `slidesec.sty' v0.9  92/05/07  <tvz>
+\@temptokenb=\toks37
+\c@slidesection=\count291
+\c@slidesubsection=\count292
+) (fancybox.sty
+Package: fancybox 2000/09/19 1.3
+
+Style option: `fancybox' v1.3 <2000/09/19> (tvz)
+\@fancybox=\box57
+\shadowsize=\dimen184
+\@Sbox=\box58
+\do@VerbBox=\toks38
+\the@fancyput=\toks39
+\this@fancyput=\toks40
+\EndVerbatimTokens=\toks41
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read2
+) (shadow.sty
+\txtwdth=\dimen185
+\sht=\dimen186
+\shw=\dimen187
+\shbox=\box59
+\sboxsep=\dimen188
+\sboxrule=\dimen189
+\sdim=\dimen190
+) (C:\miktex\tex/latex/epsf\epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read3
+\epsfframemargin=\dimen191
+\epsfframethickness=\dimen192
+\epsfrsize=\dimen193
+\epsftmp=\dimen194
+\epsftsize=\dimen195
+\epsfxsize=\dimen196
+\epsfysize=\dimen197
+\pspoints=\dimen198
+) (C:\miktex\tex/latex/graphics\epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+
+(C:\miktex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\miktex\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\miktex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\miktex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen199
+\Gin@req@width=\dimen256
+)
+\epsfxsize=\dimen257
+\epsfysize=\dimen258
+)
+(C:\miktex\tex/latex/psnfss\pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+ (C:\miktex\tex/latex/psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(C:\miktex\tex/latex/psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (C:\miktex\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\paperheightlength=\skip50
+\paperwidthlength=\skip51
+\slidetotalvertmargin=\skip52
+\slidetotalhorimargin=\skip53
+\slidetopmarginlength=\skip54
+\slidebottommarginlength=\skip55
+\slideleftmarginlength=\skip56
+\sliderightmarginlength=\skip57
+\basictitleleftoffset=\skip58
+\droplength=\skip59
+\leftcolwidth=\skip60
+\middlecolwidth=\skip61
+\rightcolwidth=\skip62
+)
+(semcolor.sty) (C:\miktex\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count293
+\rotFPtop=\skip63
+\rotFPbot=\skip64
+\rot@float@box=\box60
+\rot@mess@toks=\toks42
+) (float.sty
+Package: float 1999/05/29 v1.2d Float enhancements (AL)
+\c@float@type=\count294
+\float@box=\box61
+\@floatcapt=\box62
+)
+(versions.sty
+Package: versions 2003/10/15 v0.51 ignore passages optionally (UL)
+
+*** `comment' excluded. ***
+) (C:\miktex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip65
+
+For additional information on amsmath, use the `?' option.
+(C:\miktex\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\miktex\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks43
+\ex@=\dimen259
+))
+(C:\miktex\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen260
+)
+(C:\miktex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count295
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count296
+\leftroot@=\count297
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count298
+\DOTSCASE@=\count299
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box63
+\strutbox@=\box64
+\big@size=\dimen261
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count300
+\c@MaxMatrixCols=\count301
+\dotsspace@=\muskip16
+\c@parentequation=\count302
+\dspbrk@lvl=\count303
+\tag@help=\toks44
+\row@=\count304
+\column@=\count305
+\maxfields@=\count306
+\andhelp@=\toks45
+\eqnshift@=\dimen262
+\alignsep@=\dimen263
+\tagshift@=\dimen264
+\tagwidth@=\dimen265
+\totwidth@=\dimen266
+\lineht@=\dimen267
+\@envbody=\toks46
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks47
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\miktex\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\miktex\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\miktex\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks48
+\inpenc@posthook=\toks49
+ (C:\miktex\tex/latex/cyrillic\cp866.def
+File: cp866.def 2014/10/28 v1.0d Input encoding file
+)) (C:\miktex\tex/generic/babel\babel.sty
+Package: babel 2021/06/02 3.60 The Babel package
+ (C:\miktex\tex/generic/babel\babel.def
+File: babel.def 2021/06/02 3.60 Babel common definitions
+\babel@savecnt=\count307
+\U@D=\dimen268
+\l@unhyphenated=\language79
+(C:\miktex\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read4
+)
+\bbl@dirlevel=\count308
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\miktex\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\miktex\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)
+(C:\miktex\tex/latex/babel-russian\russianb.ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
+
+
+Package babel Warning: No Cyrillic font encoding has been loaded so far.
+(babel)                A font encoding should be declared before babel.
+(babel)                Default `T2A' encoding will be loaded  on input line 78.
+
+
+(C:\miktex\tex/latex/cyrillic\t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
+ (C:\miktex\tex/latex/base\t2aenc.dfu
+File: t2aenc.dfu 2021/01/27 v1.2l UTF-8 support for inputenc
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))
+Package babel Info: Making " an active character on input line 124.
+Package babel Info: Default for \cyrdash is provided on input line 163.
+))
+! Extra \endgroup.
+\document ->\endgroup 
+                      \the \before@document \begingroup \UseOneTimeHook {beg...
+l.56 \begin{document}
+                     
+? 
+(C:\miktex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count309
+\l__pdf_internal_box=\box65
+)
+No file docl.aux.
+\openout1 = `docl.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 56.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
+6.
+(C:\miktex\tex/latex/cyrillic\t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    ... okay on input line 56.
+
+(C:\miktex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count310
+\scratchdimen=\dimen269
+\scratchbox=\box66
+\nofMPsegments=\count311
+\nofMParguments=\count312
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen270
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks51
+) (C:\miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\miktex\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\miktex\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\miktex\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\miktex\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\miktex\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\miktex\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\miktex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\miktex\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
+56.
+
+(C:\miktex\tex/latex/cyrillic\t2acmss.fd
+File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Info: Redefining \th on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
+
+ (C:\miktex\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
+
+ (C:\miktex\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.72 \end{slide}
+                
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.72 \end{slide}
+                
+? 
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.72 \end{slide}
+                
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.72 \end{slide}
+                
+? 
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.72 \end{slide}
+                
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.72 \end{slide}
+                
+? 
+ 
+lucassem.cls: left logo file is dummy or undefined. Continuing...
+ 
+ 
+lucassem.cls: right logo file is dummy or undefined. Continuing...
+ 
+
+Overfull \vbox (17.89973pt too high) has occurred while \output is active []
+
+
+[1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
+
+Non-PDF special ignored!
+<special> ps:tx@Dict begin 90 Rot  end
+Non-PDF special ignored!
+<special> "  tx@Dict begin STP newpath /ArrowA { moveto } def /ArrowB { } d...
+
+{C:/Users/Денис/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+Non-PDF special ignored!
+<special> ps:0 setgray
+Non-PDF special ignored!
+<special> ps:tx@Dict begin -90 Rot  end
+]
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.102 \end{Slide}
+                 
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.102 \end{Slide}
+                 
+? 
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.102 \end{Slide}
+                 
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.102 \end{Slide}
+                 
+? 
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.102 \end{Slide}
+                 
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.102 \end{Slide}
+                 
+? 
+ 
+lucassem.cls: left logo file is dummy or undefined. Continuing...
+ 
+ 
+lucassem.cls: right logo file is dummy or undefined. Continuing...
+ 
+
+Overfull \vbox (17.89973pt too high) has occurred while \output is active []
+
+
+[2
+Non-PDF special ignored!
+<special> ps:tx@Dict begin 90 Rot  end
+Non-PDF special ignored!
+<special> "  tx@Dict begin STP newpath /ArrowA { moveto } def /ArrowB { } d...
+
+Non-PDF special ignored!
+<special> ps:0 setgray
+Non-PDF special ignored!
+<special> ps:tx@Dict begin -90 Rot  end
+] (ch1.tex
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.37 \end{Slide}
+                
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.37 \end{Slide}
+                
+? 
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.37 \end{Slide}
+                
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.37 \end{Slide}
+                
+? 
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.37 \end{Slide}
+                
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.37 \end{Slide}
+                
+? 
+ 
+lucassem.cls: left logo file is dummy or undefined. Continuing...
+ 
+ 
+lucassem.cls: right logo file is dummy or undefined. Continuing...
+ 
+
+Overfull \vbox (17.89973pt too high) has occurred while \output is active []
+
+
+[3
+Non-PDF special ignored!
+<special> ps:tx@Dict begin 90 Rot  end
+Non-PDF special ignored!
+<special> "  tx@Dict begin STP newpath /ArrowA { moveto } def /ArrowB { } d...
+
+Non-PDF special ignored!
+<special> ps:0 setgray
+Non-PDF special ignored!
+<special> ps:tx@Dict begin -90 Rot  end
+]
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.71 \end{Slide}
+                
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.71 \end{Slide}
+                
+? 
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.71 \end{Slide}
+                
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.71 \end{Slide}
+                
+? 
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.71 \end{Slide}
+                
+? 
+! Undefined control sequence.
+\pst@usecolor ...\string \color@ #1\endcsname \@@ 
+                                                  \space 
+l.71 \end{Slide}
+                
+? 
+ 
+lucassem.cls: left logo file is dummy or undefined. Continuing...
+ 
+ 
+lucassem.cls: right logo file is dummy or undefined. Continuing...
+ 
+
+Overfull \vbox (17.89973pt too high) has occurred while \output is active []
+
+
+[4
+Non-PDF special ignored!
+<special> ps:tx@Dict begin 90 Rot  end
+Non-PDF special ignored!
+<special> "  tx@Dict begin STP newpath /ArrowA { moveto } def /ArrowB { } d...
+
+Non-PDF special ignored!
+<special> ps:0 setgray
+Non-PDF special ignored!
+<special> ps:tx@Dict begin -90 Rot  end
+]
+! Undefined control sequence.
+\c@lor@to@ps ->\PSTricks 
+                         _Not_Configured_For_This_Format
+l.111 \end{Slide}
+                 
+? 
+! Emergency stop.
+\c@lor@to@ps ->\PSTricks 
+              

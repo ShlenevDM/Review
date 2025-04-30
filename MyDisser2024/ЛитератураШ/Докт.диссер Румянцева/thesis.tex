@@ -1,0 +1,197 @@
+\documentclass[%
+doctor,         % тип документа
+natbib,         % использовать пакет natbib для "сжатия" цитирований
+subf,           % использовать пакет subcaption для вложенной нумерации рисунков
+href,           % использовать пакет hyperref для создания гиперссылок
+colorlinks=true % цветные гиперссылки
+%,times         % шрифт Times как основной
+%,fixint=false  % отключить прямые знаки интегралов
+%,classified    % гриф секретности
+%,libcat        % номер УДК
+%,facsimile     % отображать факсимиле диссертанта
+]{disser}
+
+\usepackage[
+  a4paper, mag=1000,
+  left=2.5cm, right=1cm, top=2cm, bottom=2cm, headsep=0.7cm, footskip=1cm
+]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[cp1251]{inputenc}
+\usepackage[english,russian]{babel}
+%\usepackage{tabularx,longtable}
+\ifpdf\usepackage{epstopdf}\fi
+
+\def\mprp{\mbox{\tiny $\bot$}}
+\def\mprl{\mbox{\tiny $\|$}}
+
+\def\beq{\begin{eqnarray}}
+\def\eeq{\end{eqnarray}}
+\def\ee{\varepsilon}
+\def\lm{\lambda}
+\def\ff{\Lambda}
+\def\tff{\widetilde \Lambda}
+
+\newcommand{\bs}{\boldsymbol} 
+
+\newcommand{\ii}{\mathrm{i}} 
+\newcommand{\dd}{\mathrm{d}} 
+\newcommand{\eee}{\mathrm{e}} 
+
+
+\newcommand{\prp}[1]{#1_{\mbox{\tiny $\bot$}}}
+\newcommand{\pprl}[1]{#1_{\mbox{\tiny $\|$}}}
+
+\def\ggg{\gamma \rightarrow \gamma \gamma}
+\def\ff{\Lambda}
+\def\tff{\widetilde \Lambda}
+\def\1{1 \to 1 \, 2}
+\def\2{1 \to 2 \, 2}
+\def\S{{\cal S}}
+\def\J{{\cal J}}
+\def\A{{\cal A}}
+\def\P{{\cal P}}
+\def\M{{\cal M}}
+
+\def\E{\mbox{\tiny E}}
+\def\F{\mbox{\tiny F}}
+
+\def\vp{\varphi}
+\def\vk{\varkappa}
+\def\tg{\mbox{tg}}
+\def\arctg{\mbox{arctg}}
+\def\sh{\mbox{sh}}
+\def\ch{\mbox{ch}}
+
+% Номера страниц снизу и по центру
+%\pagestyle{footcenter}
+%\chapterpagestyle{footcenter}
+
+% Точка с запятой в качестве разделителя между номерами цитирований
+%\setcitestyle{semicolon}
+
+% Ссылки на работы соискателя включаются в общий список литературы
+\let\citemy=\cite
+
+% Использовать полужирное начертание для векторов
+\let\vec=\mathbf
+
+% Путь к файлам с иллюстрациями
+\graphicspath{{fig/}}
+
+\begin{document}
+
+% Переопределение стандартных заголовков
+%\def\contentsname{Содержание}
+%\def\conclusionname{Выводы}
+%\def\bibname{Литература}
+
+% Включение файла с общим текстом диссертации и автореферата
+% (текст титульного листа и характеристика работы).
+\input{common}
+
+% номер копии для грифа секретности
+%\copynum{1}
+% класс доступа
+%\classlabel{Для служебного пользования}
+
+% номер УДК
+%\libcatnum{12345}
+
+\title{ДИССЕРТАЦИЯ\\
+на соискание ученой степени\\
+доктора физико-математических наук}
+
+\maketitle
+
+%%
+%% Titlepage in English
+%%
+%
+%\institution{Name of Organization}
+%
+%\title{Doctoral Dissertation}
+%
+%% Topic
+%\topic{Dummy Title}
+%
+%% Author
+%\author{Author's Name}
+%
+%\specnum{01.04.05}
+%\spec{Optics}
+%
+%%\specsndnum{01.04.07}
+%%\specsnd{Condensed matter physics}
+%
+%% Scientific consultants
+%\scon{B.\,B.~Baranov}
+%\sconstatus{Professor}
+%%\sconsnd{P.\,P.~Petrov}
+%%\sconsndstatus{Professor}
+%
+%% City & Year
+%\city{Saint Petersburg}
+%\date{\number\year}
+%
+%\maketitle[en]
+
+% Содержание
+\setcounter{tocdepth}{3}
+\tableofcontents
+
+% Введение
+\input{intro}
+
+% Список сокращений и условных обозначений
+%\input{defs}
+
+% Обзор литературы
+%\input{review}
+
+% Основная часть
+%% Глава 1
+\input{chapt1}
+%% Глава 2
+\input{chapt2}
+
+% Глава 3
+\input{chapt3}
+
+
+%% Глава 4
+\input{chapt4}
+
+%% Глава 5
+\input{chapt5}
+
+
+% Заключение
+\input{concl}
+
+
+% Приложения
+\appendix
+
+\input{app-a}
+
+\input{app-b}
+
+\input{app-c}
+
+\input{app-d}
+
+\input{app-e}
+
+% Словарь терминов
+%\input{dict}
+
+% Список литературы
+\bibliography{thesis}
+\bibliographystyle{gost705}
+
+
+% Список иллюстративного материала
+%\listoffigures
+
+
+\end{document}

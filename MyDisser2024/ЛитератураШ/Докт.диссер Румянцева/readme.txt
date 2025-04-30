@@ -1,0 +1,1 @@
+bibtex8 --huge --csfile "cp1251.csf"

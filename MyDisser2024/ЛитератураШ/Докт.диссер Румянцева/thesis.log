@@ -1,0 +1,921 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2016.7.27)  16 APR 2018 15:36
+entering extended mode
+**thesis.tex
+(E:\RDA\DocDiss\Itog_version_27_02_18\thesis.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, arabic, russian, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\disser\disser.cls"
+Document Class: disser 2015/07/25 1.3.2 Document class for dissertations
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\extsizes\size14.clo"
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\exscale.sty"
+Package: exscale 2007/10/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+\big@size=\dimen102
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\chapterindent=\skip41
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\footnoteindent=\skip44
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\disser\titledefs.rtx"
+File: titledefs.rtx 
+\fieldhshift=\skip45
+)
+\bibindent=\dimen103
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen104
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks18
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+\symEulerExtension=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \intop on input line 1393.
+LaTeX Font Info:    Redeclaring math symbol \ointop on input line 1394.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count100
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2011/08/18 v3.2b Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2011/08/18 v1.3b caption3 kernel (AR)
+\captionmargin=\dimen113
+\captionmargin@=\dimen114
+\captionwidth=\dimen115
+\caption@indent=\dimen116
+\caption@parindent=\dimen117
+\caption@hangindent=\dimen118
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \sbox \@tempboxa {{\captionlabelfont #1\captionlabeldelim } {\captionfont #2}
+}\ifdim \wd \@tempboxa >\hsize {{\captionlabelfont #1\captionlabeldelim } {\cap
+tionfont #2}}\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@te
+mpboxa \hfil }\fi \vskip \belowcaptionskip .
+
+Package caption Warning: Configuration file caption.cfg not found on input line
+ 248.
+See the caption package documentation for explanation.
+
+\c@ContinuedFloat=\count101
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2011/08/18 v1.1a Adding subcaptions (AR)
+\c@subfigure=\count102
+\c@subtable=\count103
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2011/08/19 v6.82h Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\@linkdim=\dimen119
+\Hy@linkcounter=\count104
+\Hy@pagecounter=\count105
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2011/08/19 v6.82h Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count106
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 3932.
+Package hyperref Info: Option `colorlinks' set `false' on input line 3932.
+Package hyperref Info: Hyper figures OFF on input line 4053.
+Package hyperref Info: Link nesting OFF on input line 4058.
+Package hyperref Info: Hyper index ON on input line 4061.
+Package hyperref Info: Plain pages OFF on input line 4068.
+Package hyperref Info: Backreferencing OFF on input line 4073.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4291.
+\c@Hy@tempcnt=\count107
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4644.
+\Fld@menulength=\count108
+\Field@Width=\dimen120
+\Fld@charsize=\dimen121
+Package hyperref Info: Hyper figures OFF on input line 5730.
+Package hyperref Info: Link nesting OFF on input line 5735.
+Package hyperref Info: Hyper index ON on input line 5738.
+Package hyperref Info: backreferencing OFF on input line 5745.
+Package hyperref Info: Link coloring OFF on input line 5750.
+Package hyperref Info: Link coloring with OCG OFF on input line 5755.
+Package hyperref Info: PDF/A mode OFF on input line 5760.
+LaTeX Info: Redefining \ref on input line 5800.
+LaTeX Info: Redefining \pageref on input line 5804.
+\Hy@abspage=\count109
+\c@Item=\count110
+\c@Hfootnote=\count111
+)
+
+Package hyperref Message: Driver: hypertex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hypertex.def"
+File: hypertex.def 2011/08/19 v6.82h Hyperref driver for HyperTeX specials
+\Hy@SectionHShift=\skip51
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 1516.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\disser\doctor.rtx"
+File: doctor.rtx 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
+\Gm@bindingoffset=\dimen124
+\Gm@wd@mp=\dimen125
+\Gm@odd@mp=\dimen126
+\Gm@even@mp=\dimen127
+\Gm@layoutwidth=\dimen128
+\Gm@layoutheight=\dimen129
+\Gm@layouthoffset=\dimen130
+\Gm@layoutvoffset=\dimen131
+\Gm@dimlist=\toks20
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+)
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 100.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\cp1251.def"
+File: cp1251.def 1999/11/16 v1.0d Input encoding file
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count115
+\U@D=\dimen132
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\russianb.ldf"
+Language: russianb 2008/03/21 v1.1r Russian support from the babel system
+Package babel Info: Making " an active character on input line 199.
+))
+(E:\RDA\DocDiss\Itog_version_27_02_18\thesis.aux
+
+LaTeX Warning: Label `eq:ginv' multiply defined.
+
+
+LaTeX Warning: Label `eq:omegapl' multiply defined.
+
+
+LaTeX Warning: Label `eq:Q2mu' multiply defined.
+
+
+LaTeX Warning: Label `eq:sigma1' multiply defined.
+
+
+LaTeX Warning: Label `eq:M11' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box28
+Package hyperref Info: Link coloring ON on input line 81.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count116
+)
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 497.92325pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=497.92325pt
+* \textheight=731.23584pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-49.28133pt
+* \headheight=14.0pt
+* \headsep=19.91684pt
+* \topskip=14.0pt
+* \footskip=28.45274pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(E:\RDA\DocDiss\Itog_version_27_02_18\common.tex)
+\firstskip=\skip52
+\secondskip=\skip53
+\thirdskip=\skip54
+\fourthskip=\skip55
+\fifthskip=\skip56
+\sixthskip=\skip57
+\specskip=\skip58
+ [1
+
+]
+(E:\RDA\DocDiss\Itog_version_27_02_18\thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+euex on input line 2.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\ueuex.fd"
+File: ueuex.fd 2009/06/22 v3.00 Euler extra symbols
+) [2
+
+
+] [3]
+Overfull \hbox (7.95409pt too wide) in paragraph at lines 48--48
+ [] [][]\T2A/cmr/bx/n/14.4 ѕриложение √. ¬ычисление амплитуды рассе€
+ни€ фотона на элек 
+ []
+
+)
+\tf@toc=\write3
+ [4] (E:\RDA\DocDiss\Itog_version_27_02_18\intro.tex [5
+
+
+] [6] [7] [8] [9]
+[10] [11] [12] [13] [14] [15] [16] [17]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 521.
+
+) (E:\RDA\DocDiss\Itog_version_27_02_18\chapt1.tex [18] [19
+
+] [20]
+Overfull \hbox (8.83447pt too wide) in paragraph at lines 126--130
+[]\T2A/cmr/m/n/14.4 в) эффективный лагранжиан четырехфермионного сл
+абого взаимодействи€,
+ []
+
+File: fig/fig1_1.eps Graphic file (type eps)
+<fig/fig1_1.eps> [21] [22] [23] [24] [25] [26]
+Overfull \hbox (13.45923pt too wide) in paragraph at lines 397--402
+\T2A/cmr/m/n/14.4 ков ([][]1.6[][]), пропагатор ([][]Ѕ.1[][]) -- ([][]Ѕ.3[][
+]) в ([][]1.5[][]) и интегриру€ по $\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.4 X[
+]\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.4 X[]\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.4
+ X[]$ \T2A/cmr/m/n/14.4 и $\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.4 Y[]\OT1/cmr/m/
+n/14.4 d\OML/cmm/m/it/14.4 Y[]\OT1/cmr/m/n/14.4 d\OML/cmm/m/it/14.4 Y[]$\T2A/cm
+r/m/n/14.4 ,
+ []
+
+[27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39])
+(E:\RDA\DocDiss\Itog_version_27_02_18\chapt2.tex [40] [41
+
+] [42] [43]
+Overfull \hbox (6.003pt too wide) in paragraph at lines 199--205
+[]\T2A/cmr/m/n/14.4 ƒалее будет рассматриватьс€ только система поко€ п
+лазмы, так, что $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 pu\OT1/cmr/m/n/14.4 )[]
+ =
+ []
+
+[44]
+Overfull \hbox (3.35817pt too wide) in paragraph at lines 249--252
+[]\T2A/cmr/m/n/14.4 —оответствующие собственные значени€ в приближени€х
+ $\OML/cmm/m/it/14.4 O\OT1/cmr/m/n/14.4 (1\OML/cmm/m/it/14.4 =[]\OT1/cmr/m/n/1
+4.4 )$ \T2A/cmr/m/n/14.4 дл€ $\U/msb/m/n/14.4 {[]$
+ []
+
+[45]
+File: fig/fig2_1.eps Graphic file (type eps)
+ <fig/fig2_1.eps> [46] [47]
+File: fig/fig2_2.eps Graphic file (type eps)
+ <fig/fig2_2.eps> [48] [49]
+File: fig/fig2_3.eps Graphic file (type eps)
+ <fig/fig2_3.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: fig/fig2_4.eps Graphic file (type eps)
+<fig/fig2_4.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50] [51] [52]
+File: fig/fig2_0.eps Graphic file (type eps)
+ <fig/fig2_0.eps> [53] [54]
+Overfull \hbox (2.27707pt too wide) in paragraph at lines 723--727
+\T2A/cmr/m/n/14.4 фотон распростран€етс€ поперек магнитного пол€, в
+се амплитуды, кроме $\OMS/cmsy/m/n/14.4 M[]$\T2A/cmr/m/n/14.4 ,
+ []
+
+[55] [56] [57] [58]
+Overfull \hbox (4.28345pt too wide) in paragraph at lines 973--978
+\T2A/cmr/m/n/14.4 комптоновскому рассе€нию дл€ всех кинематически р
+азрешенных каналов, быст
+ []
+
+File: fig/fig2_5a.eps Graphic file (type eps)
+<fig/fig2_5a.eps>
+File: fig/fig2_5b.eps Graphic file (type eps)
+ <fig/fig2_5b.eps>
+File: fig/fig2_5c.eps Graphic file (type eps)
+ <fig/fig2_5c.eps>
+File: fig/fig2_5d.eps Graphic file (type eps)
+ <fig/fig2_5d.eps>
+File: fig/fig2_6.eps Graphic file (type eps)
+
+<fig/fig2_6.eps>
+File: fig/fig2_7.eps Graphic file (type eps)
+ <fig/fig2_7.eps> [59] [60] [61] [62] [63] [64] [65]
+File: fig/fig2_8a.eps Graphic file (type eps)
+
+<fig/fig2_8a.eps>
+File: fig/fig2_8b.eps Graphic file (type eps)
+ <fig/fig2_8b.eps>
+File: fig/fig2_8c.eps Graphic file (type eps)
+ <fig/fig2_8c.eps>
+File: fig/fig2_8d.eps Graphic file (type eps)
+ <fig/fig2_8d.eps>
+[66] [67] [68]) (E:\RDA\DocDiss\Itog_version_27_02_18\chapt3.tex [69] [70
+
+]
+[71] [72]
+File: fig/fig3_1.eps Graphic file (type eps)
+ <fig/fig3_1.eps> [73]
+File: fig/fig3_2.eps Graphic file (type eps)
+ <fig/fig3_2.eps> [74] [75] [76] [77] [78]
+[79] [80] [81]
+File: fig/fig3_3.eps Graphic file (type eps)
+ <fig/fig3_3.eps>
+File: fig/fig3_4.eps Graphic file (type eps)
+ <fig/fig3_4.eps>
+File: fig/fig3_5.eps Graphic file (type eps)
+ <fig/fig3_5.eps>
+File: fig/fig3_6.eps Graphic file (type eps)
+
+<fig/fig3_6.eps> [82] [83] [84] [85]
+Overfull \hbox (4.0566pt too wide) in paragraph at lines 870--886
+[]\T2A/cmr/m/n/14.4 —равнение веро€тностей расщеплени€ фотона в сильн
+о замагниченной плаз
+ []
+
+File: fig/fig3_7.eps Graphic file (type eps)
+<fig/fig3_7.eps>
+File: fig/fig3_8.eps Graphic file (type eps)
+ <fig/fig3_8.eps> [86] [87] [88] [89]
+File: fig/fig3_9.eps Graphic file (type eps)
+ <fig/fig3_9.eps>
+File: fig/fig3_10.eps Graphic file (type eps)
+
+<fig/fig3_10.eps> [90] [91]
+File: fig/fig3_9_1.eps Graphic file (type eps)
+ <fig/fig3_9_1.eps> [92]
+File: fig/fig3_10_1.eps Graphic file (type eps)
+ <fig/fig3_10_1.eps>
+Overfull \hbox (0.81892pt too wide) in paragraph at lines 1156--1160
+[]\T2A/cmr/m/n/14.4 «ависимость веро€тности поглощени€ фотона по кана
+лу расщеплени€ $\OML/cmm/m/it/14.4 [] \OMS/cmsy/m/n/14.4 !
+ []
+
+[93]
+File: fig/fig3_11.eps Graphic file (type eps)
+ <fig/fig3_11.eps>
+File: fig/fig3_12.eps Graphic file (type eps)
+ <fig/fig3_12.eps> [94] [95] [96]
+File: fig/fig3_13.eps Graphic file (type eps)
+ <fig/fig3_13.eps>
+[97]
+File: fig/fig3_15.eps Graphic file (type eps)
+ <fig/fig3_15.eps>
+File: fig/fig3_16.eps Graphic file (type eps)
+ <fig/fig3_16.eps> [98] [99] [100])
+(E:\RDA\DocDiss\Itog_version_27_02_18\chapt4.tex [101] [102
+
+] [103] [104]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 152.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 172.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 183.
+
+[105] [106] [107] [108]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 452.
+
+[109]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 570.
+
+[110]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 598.
+
+File: fig/fig4_1.eps Graphic file (type eps)
+<fig/fig4_1.eps> [111]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 667.
+
+File: fig/fig4_2.eps Graphic file (type eps)
+<fig/fig4_2.eps> [112]
+Overfull \hbox (11.66418pt too wide) in paragraph at lines 748--750
+[]\T2A/cmr/m/n/14.4 »спользу€ выражение дл€ амплитуды ([][]4.5[][]), час
+тично проинтегрируем ([][]4.14[][]),
+ []
+
+[113]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 754.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 769.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 780.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 792.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 804.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 824.
+
+[114]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 906.
+
+[115]
+File: fig/fig4_3.eps Graphic file (type eps)
+ <fig/fig4_3.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 946--946
+[]\T2A/cmr/m/n/12 –ис. 4.3. |«ависимость вкладов различных процессов в 
+нейтринную светимость
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 946--946
+\T2A/cmr/m/n/12 (эрг$\OMS/cmsy/m/n/12 $\T2A/cmr/m/n/12 см$[]$$\OMS/cmsy/m/n/12
+ $\T2A/cmr/m/n/12 сек$[]$) от плотности вещества (г$\OMS/cmsy/m/n/12 $\T2
+A/cmr/m/n/12 см$[]$) в наружном слое замагниченной ко
+ []
+
+File: fig/fig4_4.eps Graphic file (type eps)
+<fig/fig4_4.eps>
+File: fig/fig4_5.eps Graphic file (type eps)
+ <fig/fig4_5.eps>
+File: fig/fig4_6.eps Graphic file (type eps)
+ <fig/fig4_6.eps> [116] [117] [118])
+(E:\RDA\DocDiss\Itog_version_27_02_18\chapt5.tex [119] [120]
+Overfull \hbox (14.55186pt too wide) in paragraph at lines 31--38
+\T2A/cmr/m/n/14.4 ствии ультрарел€тивисткого электрона с м€гким рент
+геновским фотоном в окрест
+ []
+
+[121
+
+]
+File: fig/fig5_1.eps Graphic file (type eps)
+ <fig/fig5_1.eps> [122]
+File: fig/fig5_2.eps Graphic file (type eps)
+ <fig/fig5_2.eps> [123] [124] [125]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 363.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 363.
+ [126] [127]
+[128] [129] [130]
+Overfull \hbox (23.3345pt too wide) in paragraph at lines 686--690
+\T2A/cmr/m/n/14.4 «десь св€зь $\OMS/cmsy/m/n/14.4 S[]$ \T2A/cmr/m/n/14.4 с соо
+тветствующей амплитудой определ€етс€ формулой ([][]5.25[][]),
+ []
+
+[131] [132] [133]
+File: fig/fig5_2_Xmode.eps Graphic file (type eps)
+ <fig/fig5_2_Xmode.eps>
+File: fig/fig5_2_Omode.eps Graphic file (type eps)
+ <fig/fig5_2_Omode.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[134] [135]
+Overfull \hbox (1.21591pt too wide) in paragraph at lines 942--945
+\T2A/cmr/m/n/14.4 нейтринную светимость будут давать области резонан
+сов. “огда, с учетом ([][]5.24[][]),
+ []
+
+[136] [137]
+File: fig/fig5_3.eps Graphic file (type eps)
+ <fig/fig5_3.eps> [138]
+File: fig/fig5_4.eps Graphic file (type eps)
+ <fig/fig5_4.eps> [139] [140] [141] [142]
+[143]
+File: fig/fig5_5.eps Graphic file (type eps)
+ <fig/fig5_5.eps> [144]) (E:\RDA\DocDiss\Itog_version_27_02_18\concl.tex
+[145] [146
+
+]
+Overfull \hbox (6.78722pt too wide) in paragraph at lines 60--84
+[]\T2A/cmr/m/n/14.4 –ассмотрено вли€ние сильно замагниченной плотной пл
+азмы на фо-тон-ней-
+ []
+
+[147]) (E:\RDA\DocDiss\Itog_version_27_02_18\app-a.tex [148] [149] [150
+
+]
+[151] [152] [153] [154] [155] [156] [157]
+Overfull \hbox (5.59679pt too wide) in alignment at lines 1055--1112
+ [][][] []
+ []
+
+[158]
+Overfull \hbox (3.71922pt too wide) in alignment at lines 1177--1229
+ [][][] []
+ []
+
+[159] [160] [161]
+Overfull \hbox (0.49617pt too wide) in alignment at lines 1581--1635
+ [][][] []
+ []
+
+[162]
+Overfull \hbox (10.56288pt too wide) in alignment at lines 1642--1699
+ [][][] []
+ []
+
+[163]
+Overfull \hbox (8.21834pt too wide) in alignment at lines 1762--1813
+ [][][] []
+ []
+
+[164] [165] [166] [167] [168] [169]
+Overfull \hbox (8.72725pt too wide) in alignment at lines 2532--2572
+ [][][] []
+ []
+
+[170] [171]
+Overfull \hbox (1.37123pt too wide) in alignment at lines 2788--2895
+ [][][] []
+ []
+
+[172]
+Overfull \hbox (7.21834pt too wide) in alignment at lines 2935--3059
+ [][][] []
+ []
+
+[173] [174]
+Overfull \hbox (6.62094pt too wide) in alignment at lines 3084--3213
+ [][][] []
+ []
+
+[175]
+Overfull \hbox (3.27106pt too wide) in alignment at lines 3258--3357
+ [][][] []
+ []
+
+
+Overfull \hbox (3.84972pt too wide) in alignment at lines 3359--3423
+ [][][] []
+ []
+
+[176]
+Overfull \hbox (4.18015pt too wide) in alignment at lines 3497--3597
+ [][][] []
+ []
+
+[177] [178] [179]
+Overfull \vbox (2.07437pt too high) has occurred while \output is active []
+
+
+[180] [181]
+Overfull \hbox (1.0595pt too wide) in alignment at lines 4185--4281
+ [][][] []
+ []
+
+[182]
+Overfull \hbox (6.31274pt too wide) in alignment at lines 4338--4420
+ [][][] []
+ []
+
+[183]
+Overfull \hbox (6.57423pt too wide) in alignment at lines 4422--4447
+ [][][] []
+ []
+
+[184] [185] [186] [187]
+Overfull \hbox (0.826pt too wide) in alignment at lines 4941--5071
+ [][][] []
+ []
+
+[188] [189]) (E:\RDA\DocDiss\Itog_version_27_02_18\app-b.tex [190] [191
+
+]
+[192]) (E:\RDA\DocDiss\Itog_version_27_02_18\app-c.tex [193] [194
+
+] [195])
+(E:\RDA\DocDiss\Itog_version_27_02_18\app-d.tex [196]
+Overfull \hbox (0.64392pt too wide) in paragraph at lines 6--11
+[]\T2A/cmr/m/n/14.4 ќпределим $\OML/cmm/m/it/14.4 S$\T2A/cmr/m/n/14.4 -матричны
+й элемент плазменного вклада, просуммированный
+ []
+
+[197
+
+] [198] [199] [200] [201] [202])
+(E:\RDA\DocDiss\Itog_version_27_02_18\app-e.tex [203] [204
+
+])
+(E:\RDA\DocDiss\Itog_version_27_02_18\thesis.bbl [205] [206
+
+] [207] [208]
+[209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220]
+[221] [222] [223] [224])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
+ [225]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+ (E:\RDA\DocDiss\Itog_version_27_02_18\thesis.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 197.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 9835 strings out of 495131
+ 147199 string characters out of 3179861
+ 265061 words of memory out of 3000000
+ 12784 multiletter control sequences out of 15000+200000
+ 33799 words of font info for 103 fonts, out of 3000000 for 9000
+ 198 hyphenation exceptions out of 8191
+ 43i,17n,42p,4634b,1295s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on thesis.dvi (225 pages, 1079916 bytes).

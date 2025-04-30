@@ -1,0 +1,254 @@
+
+\def\F{\mbox{\tiny F}}
+
+\begin{Slide}{Введение} 
+
+\vspace*{10mm}
+
+\begin{center}
+
+{\red\LARGE Введение}
+
+\vspace*{10mm}
+
+{\blue Критическое значение магнитного поля}
+
+$$B_e = \frac{m_e^2}{e}\simeq 4.41\cdot 10^{13}\,\, \mbox{Гс}, 
+\qquad c = \hbar = k = 1.$$
+
+\vspace*{5mm}
+
+Магнитары: 
+ 
+повторные источники мягких гамма-всплесков 
+(SGR -- soft gamma repeaters), 
+
+аномальные рентгеновские пульсары (AXP).
+
+\vspace*{5mm}
+
+{\red $B \sim 10^{15}$ Гс}.  
+
+%SGR 1806-20 -- {\red $B \sim 7 \times 10^{15}$ Гс}  
+% (Israel et al. astro-ph/0505255).  
+
+\end{center}
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{Slide}{Введение} 
+
+\vspace*{5mm}
+
+\begin{center}
+
+\centerline{\darkgreen Два предельных случая,}
+
+\vspace*{5mm}
+
+\noindent
+в зависимости от соотношения между полевым инвариантом: 
+%
+$$e^2 F_{\mu \nu} F^{\nu \mu} \equiv e^2 (F F) = - 2 e^2 B^2$$
+
+\noindent
+и динамическим инвариантом:
+%
+$$e^2 p_\mu F^{\mu \nu} F_{\nu \rho} p^\rho \equiv e^2 (p F F p) 
+= e^2 B^2 E^2 \sin^2 \theta, $$
+%
+где $\theta$ -- угол между импульсом частицы $\bf p$ и направлением 
+поля $\bf B$. 
+
+В обезразмеренном виде:
+%
+$$\chi^2 = \frac{e^2 (p F F p)}{m_e^6} .$$
+
+\end{center}
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{Slide}{Введение} 
+
+\begin{center}
+
+\vspace*{5mm}
+
+\centerline{\blue \it Предел сильного поля, $e B \gg E^2 \, (T^2, \mu^2)$}
+
+\vspace*{5mm}
+
+В инвариантной форме:
+%
+$$\left[e^2 (F F)\right]^{3/2} \gg e^2 (p F F p) .$$
+%
+Электроны находятся только на основном уровне Ландау.
+Техника вычислений -- ``двумерная электродинамика'' -- 
+В.В.~Скобелев, Ю.М.~Лоскутов (1975-76). 
+Развитие -- ковариантная техника -- Н.В.~Михеев и др. (1996-99).
+
+
+\vspace*{5mm}
+
+\centerline{\blue \it Предел относительно слабого поля, $E^2 \gg e B$.}
+
+\vspace*{5mm}
+
+В инвариантной форме:
+%
+$$\left[e^2 (F F)\right]^{3/2} \ll e^2 (p F F p) .$$
+%
+Это условие автоматически выполняется в случае скрещенного поля, 
+где $(F F) = 0$. 
+Техника вычислений в скрещенном поле -- А.И.~Никишов, В.И.~Ритус (1964).
+
+\end{center}
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{Slide}{Нейтринное рождение лептонных пар...} 
+
+\begin{center}
+
+{\red\LARGE Нейтринное рождение лептонных пар  
+                 во внешнем электромагнитном поле}
+\end{center}
+
+\vspace*{5mm}
+
+\begin{center}
+
+\centerline{\darkgreen Вероятность процесса $\nu \to \nu e^- e^+$ 
+в пределе $\chi \gg 1$} 
+
+\begin{eqnarray}
+W (\nu \to \nu e^- e^+) \, = \, {\red K} \, W_0 \,\chi^2 
+\, \left(\ln \chi - {1 \over 2} \ln 3 - \gamma_E + {\red \Delta} \right),
+\nonumber
+\end{eqnarray}
+%
+где 
+%
+\begin{eqnarray}
+W_0 \, = \, 
+\frac{G_F^2 \,(C_V^2 + C_A^2) \,m_e^6}
+{27 \pi^3 E},
+\nonumber
+\end{eqnarray}
+%
+$\gamma_E = 0.577 \dots$ -- постоянная Эйлера, 
+$E$ -- энергия начального нейтрино.
+
+$$C_V = \pm 1/2 + 2 \sin^2 \theta_W, \, C_A = \pm 1/2.$$
+
+{\blue Формула для вероятности справедлива при $\ln \chi \gg 1$,}
+
+{\red но возможна ситуация:
+%
+ $$\chi \gg 1, \quad \mbox{однако} \quad \ln \chi \sim 1.$$ }
+
+\end{center}
+
+\end{Slide}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{Slide}{Нейтринное рождение лептонных пар...} 
+
+\begin{center}
+
+\centerline{\darkgreen \it Константы $K$ и $\Delta$, 
+полученные в разных работах}
+%
+\begin{table}[h]
+\large
+\hspace{7mm}
+\begin{tabular}{|ll|c|c|}\hline
+& & &  \\ 
+& & $K$ & $\Delta$ \\[5mm] 
+\hline 
+& & &  \\ 
+%
+Чобан, Иванов & 1969
+& $\frac{\mbox{\large 29}}{\mbox{\large $1024 \pi$}}$ & --- \\[5mm]
+%
+Борисов и др. & 1983
+& {\darkgreen 1} & $- 2 \ln 2 - 
+\frac{\mbox{\large 389}}{\mbox{\large 384}} 
++ \frac{\mbox{\large 9}}{\mbox{\large 128}} 
+\frac{\mbox{\large $C_V^2 - C_A^2$}}{\mbox{\large $C_V^2 + C_A^2$}} 
+$\\[5mm]
+%
+Книжников и др. & 1984
+& 
+$\frac{\mbox{\large 9}}{\mbox{\large 16}}
+\frac{\mbox{\large $E$}}{\mbox{\large $m_e$}}$
+& --- \\[5mm]
+%
+Борисов и др. & 1993
+& 
+$\frac{\mbox{\large 1}}{\mbox{\large 2}}$
+& 
++ $\frac{\mbox{\large 5}}{\mbox{\large 4}}$
+\\[5mm]
+%
+Кузнецов, Михеев & 1997
+& {\darkgreen 1} & {\darkgreen 
+- $\frac{\mbox{\large 29}}{\mbox{\large 24}}$}
+\\[5mm]
+%
+Борисов, Заморин & 1999
+& 
+$\frac{\mbox{\large 1}}{\mbox{\large 2}}$
+& {\darkgreen
+- $\frac{\mbox{\large 29}}{\mbox{\large 24}}$}
+\\[5mm]
+\hline
+\end{tabular}
+\end{table}
+%
+
+\end{center}
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{Slide}{Нейтринное рождение лептонных пар...} 
+
+\begin{center}
+
+\centerline{\darkred Предел $\chi \gg 1$:} 
+
+\vspace*{15mm}
+
+%
+\begin{eqnarray}
+W (\chi \gg 1)
+& \simeq & \frac{G_F^2 \,(C_V^2 + C_A^2) \,m_e^6 \,\chi^2}{27 \pi^3 E} 
+\, \bigg \lbrace \ln \chi - {1 \over 2} \ln 3 - \gamma_E - 
+{\darkgreen {29 \over 24}} -
+\nonumber \\[3mm]
+& - & {1 \over \chi^{2/3}} \, {9 \over 56} \,
+\frac{3^{1/3} \pi^2}{\left[\Gamma \left( {2 \over 3} \right) \right]^4}
+\, \frac{19 C_V^2 - 63 C_A^2}{C_V^2 + C_A^2} 
+\bigg \rbrace, 
+\nonumber
+\end{eqnarray}
+
+\noindent
+где $\Gamma (x)$ -- гамма-функция, 
+$\Gamma (2/3) = 1.354 \dots$ . 
+
+\end{center}
+
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,167 +1,290 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Создано Microsoft Visio, экспорт SVG PathIntegrate3Gl.svg Страница-1 -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.01995in" height="1.33914in"
-		viewBox="0 0 217.436 96.4182" xml:space="preserve" color-interpolation-filters="sRGB" class="st18">
-	<v:documentProperties v:langID="1049" v:metric="true" v:viewMarkup="false">
-		<v:userDefs>
-			<v:ud v:nameU="msvConvertTheme"/>
-		</v:userDefs>
-	</v:documentProperties>
+<svg:svg version="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="227.6220" height="121.9671" >
+<svg:path d=" 
+M105.5063,75.8979
+L185.1024,75.8979
+L185.1024,68.9530
+L105.5063,68.9530
+L105.5063,75.8979
+Z" 
+style="fill-rule: evenodd; fill: #ffffff; "/>
+<svg:g >
+<svg:path d=" 
+M76.4008,72.1954
+A12.7605,12.7401 180.0000 1,1 63.6403,59.4553
+A12.7605,12.7401 180.0000 0,1 76.4008,72.1954
+Z" 
+style="stroke-width: 1.0000; stroke-linecap: round; stroke-linejoin: round; fill-rule: evenodd; fill: #ffffff; "/>
+<svg:path d=" 
+M76.4008,72.1954
+A12.7605,12.7401 180.0000 1,1 63.6403,59.4553
+A12.7605,12.7401 180.0000 0,1 76.4008,72.1954
+Z" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+</svg:g>
+<svg:path d=" 
+M36.6726,103.2870
+L36.6726,30.7400" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M36.6726,72.1954
+L195.5852,72.1954" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:text x="22.5000" y="72.7483">
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+0
+</svg:tspan>
+</svg:text>
+<svg:g >
+<svg:path d=" 
+M149.2577,72.5230
+A1.7095,1.7095 180.0000 1,1 147.5482,70.8135
+A1.7095,1.7095 180.0000 0,1 149.2577,72.5230
+Z" 
+style="stroke-width: 1.0000; stroke-linecap: round; stroke-linejoin: round; fill-rule: evenodd; fill: #000000; "/>
+<svg:path d=" 
+M149.2577,72.5230
+A1.7095,1.7095 180.0000 1,1 147.5482,70.8135
+A1.7095,1.7095 180.0000 0,1 149.2577,72.5230
+Z" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+</svg:g>
+<svg:text x="122.4882" y="95.0379">
+<svg:tspan font-family="LM Roman 12" font-style="italic" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+M
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+1
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+−
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-style="italic" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+m
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
 
-	<style type="text/css">
-	<![CDATA[
-		.st1 {fill:url(#ptrn2-4);shape-rendering:crispEdges;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
-		.st2 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
-		.st3 {marker-end:url(#mrkr13-12);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
-		.st4 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
-		.st5 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
-		.st6 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
-		.st7 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
-		.st8 {fill:#000000;font-family:Times New Roman;font-size:1.00001em;font-style:italic}
-		.st9 {baseline-shift:-32.4941%;font-size:0.649882em;font-style:normal}
-		.st10 {font-size:1em;font-style:normal}
-		.st11 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
-		.st12 {marker-end:url(#mrkr13-39);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
-		.st13 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.40983606557377}
-		.st14 {marker-end:url(#mrkr13-62);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
-		.st15 {font-size:1em;font-style:italic}
-		.st16 {baseline-shift:-32.4941%;font-size:0.649882em}
-		.st17 {font-size:1em}
-		.st18 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
-	]]>
-	</style>
+</svg:tspan>
+</svg:text>
+<svg:path d=" 
+M105.7651,58.8860
+L168.8694,58.8860" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M105.7651,85.3113
+L170.4816,85.3113" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M121.8866,85.3113
+L107.8378,85.3113" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M107.3903,58.8860
+L116.1289,58.8860" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M59.9913,75.3955
+L66.5551,68.8317" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M66.5551,75.3955
+L59.9913,68.8317" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M105.7651,58.9769
+A13.2185,13.0332 270.0000 0,0 92.7318,72.1954" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M105.7651,85.3113
+A13.1159,13.0332 270.0000 0,1 92.7318,72.1954" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M65.7106,59.6241
+L68.8345,60.5585" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:text x="42.3001" y="30.6871">
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+Im(
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-style="italic" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+q
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+0
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+)
+</svg:tspan>
+</svg:text>
+<svg:text x="184.4903" y="81.7846">
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+Re(
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-style="italic" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+q
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+0
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+)
+</svg:tspan>
+</svg:text>
+<svg:path d=" 
+M152.7031,256.6440
+L235.7170,256.6440
+L235.7170,249.6992
+L152.7031,249.6992
+L152.7031,256.6440
+Z" 
+style="fill-rule: evenodd; fill: #ffffff; "/>
+<svg:g >
+<svg:path d=" 
+M123.5977,252.9415
+A12.7605,12.7401 180.0000 1,1 110.8372,240.2014
+A12.7605,12.7401 180.0000 0,1 123.5977,252.9415
+Z" 
+style="stroke-width: 1.0000; stroke-linecap: round; stroke-linejoin: round; fill-rule: evenodd; fill: #ffffff; "/>
+<svg:path d=" 
+M123.5977,252.9415
+A12.7605,12.7401 180.0000 1,1 110.8372,240.2014
+A12.7605,12.7401 180.0000 0,1 123.5977,252.9415
+Z" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+</svg:g>
+<svg:path d=" 
+M83.8695,284.0331
+L83.8695,211.4861" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M83.8695,252.9416
+L242.7820,252.9416" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:text x="69.6968" y="253.4945">
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+0
+</svg:tspan>
+</svg:text>
+<svg:g >
+<svg:path d=" 
+M196.4545,253.2692
+A1.7095,1.7095 180.0000 1,1 194.7450,251.5597
+A1.7095,1.7095 180.0000 0,1 196.4545,253.2692
+Z" 
+style="stroke-width: 1.0000; stroke-linecap: round; stroke-linejoin: round; fill-rule: evenodd; fill: #000000; "/>
+<svg:path d=" 
+M196.4545,253.2692
+A1.7095,1.7095 180.0000 1,1 194.7450,251.5597
+A1.7095,1.7095 180.0000 0,1 196.4545,253.2692
+Z" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+</svg:g>
+<svg:text x="170.7422" y="276.7692">
+<svg:tspan font-family="LM Roman 12" font-style="italic" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+M
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+1
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+-
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-style="italic" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+m
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
 
-	<defs id="Patterns_And_Gradients">
-		<pattern id="ptrn2-4" v:fillPattern="2" v:foreground="#000000" v:background="#ffffff" patternUnits="userSpaceOnUse"
-				width="6" height="6" viewBox="0 0 64 64">
-			<image x="0" y="0" width="64" height="64" image-rendering="optimizeSpeed"
-					xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA+SURBVChTfY/BDQAgCMRYgv1HudHOHFEjCvZDoP1gAFihu7vT5p5YUvMJTilScEuxg0qKCDop4otOCvtJABzy790RAfFL1QAAAABJRU5ErkJggg=="/>
-		</pattern>
-	</defs>
-	<defs id="Markers">
-		<g id="lend13">
-			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
-		</g>
-		<marker id="mrkr13-12" class="st4" v:arrowType="13" v:arrowSize="2" v:setback="10.56" refX="-10.56" orient="auto"
-				markerUnits="strokeWidth" overflow="visible">
-			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
-		</marker>
-		<marker id="mrkr13-39" class="st13" v:arrowType="13" v:arrowSize="0" v:setback="7.32" refX="-7.32" orient="auto"
-				markerUnits="strokeWidth" overflow="visible">
-			<use xlink:href="#lend13" transform="scale(-2.44,-2.44) "/>
-		</marker>
-		<marker id="mrkr13-62" class="st13" v:arrowType="13" v:arrowSize="0" v:setback="0" refX="-0" orient="auto"
-				markerUnits="strokeWidth" overflow="visible">
-			<use xlink:href="#lend13" transform="scale(-2.44,-2.44) "/>
-		</marker>
-	</defs>
-	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
-		<title>Страница-1</title>
-		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
-				v:shadowOffsetY="-8.50394"/>
-		<g id="shape80-1" v:mID="80" v:groupContext="shape" transform="translate(87.5063,-38.5203)">
-			<title>Прямоугольник.80</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-				<v:ud v:nameU="visMasterStencil" v:prompt="" v:val="VT4(Basic_M.vssx)"/>
-			</v:userDefs>
-			<rect x="0" y="89.4733" width="83.0139" height="6.94488" class="st1"/>
-		</g>
-		<g id="shape81-5" v:mID="81" v:groupContext="shape" transform="translate(32.8798,-29.4827)">
-			<title>Лист.81</title>
-			<ellipse cx="12.7605" cy="83.6781" rx="12.7605" ry="12.7401" class="st2"/>
-		</g>
-		<g id="shape82-7" v:mID="82" v:groupContext="shape" transform="translate(-77.7456,85.287) rotate(-90)">
-			<title>Лист.82</title>
-			<path d="M0 96.42 L61.99 96.42" class="st3"/>
-		</g>
-		<g id="shape83-13" v:mID="83" v:groupContext="shape" transform="translate(18.6726,-42.2228)">
-			<title>Лист.83</title>
-			<path d="M0 96.42 L148.35 96.42" class="st3"/>
-		</g>
-		<g id="shape84-18" v:mID="84" v:groupContext="shape" transform="translate(0.5,-29.4827)">
-			<title>Лист.84</title>
-			<desc>0</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="11.2634" cy="84.2311" width="22.53" height="24.3743"/>
-			<rect x="0" y="72.0439" width="22.5268" height="24.3743" class="st5"/>
-			<text x="8.26" y="87.83" class="st6" v:langID="1049"><v:paragraph v:horizAlign="1"/><v:tabList/>0</text>		</g>
-		<g id="shape85-21" v:mID="85" v:groupContext="shape" transform="translate(127.839,-40.1857)">
-			<title>Лист.85</title>
-			<ellipse cx="1.70949" cy="94.7087" rx="1.70949" ry="1.70949" class="st7"/>
-		</g>
-		<g id="shape86-23" v:mID="86" v:groupContext="shape" transform="translate(101.545,-6.20805)">
-			<title>Лист.86</title>
-			<desc>M1-m</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="27.2231" cy="84.2311" width="54.45" height="24.3743"/>
-			<rect x="0" y="72.0439" width="54.4462" height="24.3743" class="st5"/>
-			<text x="13.94" y="87.83" class="st8" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
-						class="st9" v:baseFontSize="12">1</tspan><tspan dy="0.181em" class="st10">-</tspan>m</text>		</g>
-		<g id="shape87-28" v:mID="87" v:groupContext="shape" transform="translate(87.7651,-55.5322)">
-			<title>Лист.87</title>
-			<path d="M0 96.42 L63.1 96.42" class="st11"/>
-		</g>
-		<g id="shape88-31" v:mID="88" v:groupContext="shape" transform="translate(87.7651,-29.1069)">
-			<title>Лист.88</title>
-			<path d="M0 96.42 L64.72 96.42" class="st11"/>
-		</g>
-		<g id="shape89-34" v:mID="89" v:groupContext="shape" transform="translate(103.887,163.73) rotate(180)">
-			<title>Лист.89</title>
-			<path d="M0 96.42 L6.73 96.42" class="st12"/>
-		</g>
-		<g id="shape90-40" v:mID="90" v:groupContext="shape" transform="translate(89.3903,-55.5322)">
-			<title>Лист.90</title>
-			<path d="M0 96.42 L1.42 96.42" class="st12"/>
-		</g>
-		<g id="shape91-45" v:mID="91" v:groupContext="shape" transform="translate(-26.1866,-10.7825) rotate(-45)">
-			<title>Лист.91</title>
-			<path d="M0 96.42 L9.28 96.42" class="st11"/>
-		</g>
-		<g id="shape92-48" v:mID="92" v:groupContext="shape" transform="translate(-19.6228,125.573) rotate(-135)">
-			<title>Лист.92</title>
-			<path d="M0 96.42 L9.28 96.42" class="st11"/>
-		</g>
-		<g id="shape93-51" v:mID="93" v:groupContext="shape" transform="translate(153.685,105.973) rotate(134.596)">
-			<title>Лист.93</title>
-			<path d="M0 92.57 A13.2185 13.0332 -44.6 0 0 18.56 92.57" class="st11"/>
-		</g>
-		<g id="shape94-54" v:mID="94" v:groupContext="shape" transform="translate(19.372,135.273) rotate(-134.819)">
-			<title>Лист.94</title>
-			<path d="M-0 96.42 A13.1159 13.0332 44.82 0 1 18.49 96.42" class="st11"/>
-		</g>
-		<g id="shape95-57" v:mID="95" v:groupContext="shape" transform="translate(75.3418,-50.7501) rotate(16.6531)">
-			<title>Лист.95</title>
-			<path d="M0 96.42 L3.26 96.42" class="st14"/>
-		</g>
-		<g id="shape96-63" v:mID="96" v:groupContext="shape" transform="translate(20.3001,-71.5439)">
-			<title>Лист.96</title>
-			<desc>Im(q0)</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="20.8132" cy="84.2311" width="41.63" height="24.3743"/>
-			<rect x="0" y="72.0439" width="41.6264" height="24.3743" class="st5"/>
-			<text x="5.2" y="87.83" class="st6" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Im(<tspan class="st15">q</tspan><tspan
-						dy="-0.279em" class="st16" v:baseFontSize="12">0</tspan><tspan dy="0.181em" class="st17">)</tspan></text>		</g>
-		<g id="shape97-69" v:mID="97" v:groupContext="shape" transform="translate(162.49,-20.4464)">
-			<title>Лист.97</title>
-			<desc>Re(q0)</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="27.2231" cy="84.2311" width="54.45" height="24.3743"/>
-			<rect x="0" y="72.0439" width="54.4462" height="24.3743" class="st5"/>
-			<text x="11.61" y="87.83" class="st6" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Re(<tspan class="st15">q</tspan><tspan
-						dy="-0.279em" class="st16" v:baseFontSize="12">0</tspan><tspan dy="0.181em" class="st17">)</tspan></text>		</g>
-		<g id="shape98-75" v:mID="98" v:groupContext="shape" transform="translate(85.9584,-40.5133)">
-			<title>Лист.98</title>
-			<ellipse cx="1.70949" cy="94.7087" rx="1.70949" ry="1.70949" class="st7"/>
-		</g>
-		<g id="shape99-77" v:mID="99" v:groupContext="shape" transform="translate(59.6136,-6.20805)">
-			<title>Лист.99</title>
-			<desc>2m</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="27.2231" cy="84.2311" width="54.45" height="24.3743"/>
-			<rect x="0" y="72.0439" width="54.4462" height="24.3743" class="st5"/>
-			<text x="19.89" y="87.83" class="st8" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>2m</text>		</g>
-	</g>
-</svg>
+</svg:tspan>
+</svg:text>
+<svg:path d=" 
+M152.9619,239.6321
+L216.0663,239.6321" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M152.9619,266.0575
+L217.6784,266.0575" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M169.0835,266.0575
+L155.0347,266.0575" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M154.5871,239.6321
+L163.3258,239.6321" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M107.1882,256.1416
+L113.7520,249.5778" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M113.7520,256.1416
+L107.1882,249.5778" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M152.9619,239.7231
+A13.2185,13.0332 270.0000 0,0 139.9287,252.9416" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M152.9619,266.0575
+A13.1159,13.0332 270.0000 0,1 139.9287,252.9416" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:path d=" 
+M112.9074,240.3702
+L116.0313,241.3046" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+<svg:text x="89.4969" y="211.4333">
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+Im(
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-style="italic" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+q
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+0
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+)
+</svg:tspan>
+</svg:text>
+<svg:text x="231.6871" y="262.5308">
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+Re(
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-style="italic" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+q
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+0
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+)
+</svg:tspan>
+</svg:text>
+<svg:g >
+<svg:path d=" 
+M154.5742,252.9415
+A1.7095,1.7095 180.0000 1,1 152.8647,251.2320
+A1.7095,1.7095 180.0000 0,1 154.5742,252.9415
+Z" 
+style="stroke-width: 1.0000; stroke-linecap: round; stroke-linejoin: round; fill-rule: evenodd; fill: #000000; "/>
+<svg:path d=" 
+M154.5742,252.9415
+A1.7095,1.7095 180.0000 1,1 152.8647,251.2320
+A1.7095,1.7095 180.0000 0,1 154.5742,252.9415
+Z" 
+style="stroke-width: 1.0000; stroke: #000000; stroke-dasharray:  solid; stroke-linecap: round; stroke-linejoin: round; fill: none; "/>
+</svg:g>
+<svg:text x="128.8104" y="276.7692">
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+2
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-style="italic" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+m
+</svg:tspan>
+<svg:tspan font-family="LM Roman 12" font-size="12.0000" fill="#000000" fill-opacity="1.0000" stroke-opacity="1.0000" >
+
+</svg:tspan>
+</svg:text>
+</svg:svg>
+

@@ -1,0 +1,458 @@
+%-------------------- формат, начало файла -----------------------------
+\documentclass[12pt]{article}
+
+\usepackage{cite,indentfirst}
+\usepackage{amssymb,amsmath}
+\usepackage{epsf}
+\usepackage{graphics}
+
+\usepackage[cp866]{inputenc}
+\usepackage[english,russian]{babel}
+
+\def\mprp{\mbox{\tiny $\bot$}}
+\def\mprl{\mbox{\tiny $\|$}}
+\def\th{\mbox{th}}
+
+\textheight 230mm
+\textwidth 160mm
+\topmargin -15mm
+\oddsidemargin 5mm
+\def\abstractname{\large\bf Аннотация}
+
+\title{
+\vspace*{-20mm}
+\begin{flushleft}
+{\small\it 
+Актуальные проблемы физики:
+Сборник научных трудов молодых ученых, аспирантов
+}\\
+\vspace{-4mm}
+{\small\it 
+и студентов. Выпуск 4. Ярославль, 2003. С. 28-34.} 
+\\[2mm]
+\end{flushleft}
+\hrule
+\vspace{10mm}
+%
+%%%%%%%%%%%%%%%%%%%%%%%
+Процесс $\gamma \gamma \to \nu \bar \nu$ в сильно замагниченной 
+электрон-позитронной плазме        
+%%%%%%%%%%%%%%%%%%%%%%%
+\thanks{
+Работа выполнена в соавторстве с
+%%%%%%%%%%%%%%%%%%%%%%%
+А.В. Кузнецовым и Н.В. Михеевым}}
+%!!!!!!!!!!!
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%
+\author{Д.А. Румянцев
+\\
+%%%%%%%%%%%%%%%%%%%%%%%
+}
+\date{}
+\begin{document}
+\setcounter{page}{28}
+
+\large
+\maketitle
+\baselineskip=18pt
+
+\begin{abstract}
+%%%%%%%%%%%%%%%%%%%%%%%
+Проведен общий анализ трехвершинной амплитуды в сильно замагниченной 
+электрон-позитронной плазме, основанный на асимптотической форме 
+электронного пропагатора в поле, с учетом рассеяния на электронах и позитронах 
+плазмы.
+Процесс $\gamma \gamma \to \nu \bar\nu$ исследован в рамках 
+лево-право-симметричного  
+расширения стандартной модели электрослабых взаимодействий, где возможна 
+эффективная скалярная $\nu \nu e e$-связь. Обсуждаются возможные 
+астрофизические проявления рассматриваемого процесса.
+%%%%%%%%%%%%%%%%%%%%%%%
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+В настоящее время не уменьшается интерес к астрофизическим объектам, в 
+которых могут возникать сильные магнитные поля с напряженностью 
+$B>B_e \, (B_e = m^2/e \simeq 4.41 \times 10^{13}$ Гс~\footnote{Используется
+естественная система единиц $c = \hbar = 1$, $m$ -- масса электрона. 
+Везде в работе $e > 0$ -- элементарный заряд.} -- так называемое
+критическое значение поля).
+К таким объектам относится, в частности, определенный класс звезд,
+так называемые магнитары -- нейтронные звезды с магнитными 
+полями $\sim 4 \times 10^{14}$ Гс~\cite{Kouveliotou:1999,Hurley:1999}.
+В литературе обсуждаются также возможные механизмы генерации
+астрофизических магнитных полей с напряженностью $B \gg B_e$
+(до $10^{17}-10^{18}$ 
+Гс~\cite{Bisnovatyi-Kogan:1970,Duncan:1992}).
+
+Понимание определяющей роли квантовых процессов в динамике некоторых 
+астрофизических объектов, например, сверхновых, стало важнейшим стимулом 
+прогресса в астрофизике элементарных частиц -- одной из бурно 
+развивающихся физических наук. Большой интерес представляет исследование 
+влияния сильного внешнего поля на квантовые процессы, поскольку 
+сильное поле может не только катализировать процессы, существенно
+менять их кинематику, но и индуцировать новые взаимодействия.
+Вместе с тем нельзя не учитывать влияния на квантовые процессы такого 
+внешнего фактора, как присутствие плазмы. В совокупности с магнитным полем 
+она может как катализировать процессы так и оказывать на них 
+подавляющее воздействие. 
+
+Особый интерес представляет рассмотрение квантовых процессов с участием 
+в начальном и конечном состоянии электрически нейтральных частиц, 
+таких как нейтрино и фотоны. Внешнее поле влияет на такие процессы 
+за счет чувствительности к полю заряженных виртуальных фермионов. Электрон 
+играет здесь основную роль, как частица с максимальным удельным зарядом 
+$e/m_e$.
+
+Интенсивно обсуждаемым процессом такого типа является переход фотонной пары 
+в нейтринно-антинейтринную пару $\gamma \gamma\to \nu \bar\nu$, который сильно 
+подавлен в вакууме. Данный процесс, запрещенный для безмассовых нейтрино и в локальном 
+пределе слабого взаимодействия теоремой Гелл-Манна~\cite{Gell-M}, 
+становится возможным, в рамках стандартной модели, в 
+присутствии внешнего магнитного поля или плазмы. 
+ Мы рассматриваем процесс $\gamma \gamma\to \nu \bar\nu$ в пределе 
+сильно замагниченной плазмы в стандартной 
+модели и ее расширении. 
+
+Пропагатор электрона в магнитном поле может быть представлен в виде
+
+%
+\begin{eqnarray}
+S(x,y) &=& e^{\mbox{\normalsize $i \Phi (x,y)$}}\, \hat S(x-y),
+\label{Sxy}\\
+%
+\Phi(x,y) &=& - e \int \limits^y_x d\xi_\mu \left [ A_\mu(\xi) + \frac{1}{2} 
+F_{\mu \nu}(\xi - y)_\nu \right ],
+\label{Phi}
+\end{eqnarray}
+
+\noindent 
+где $A_\mu$ - 4-потенциал внешнего постоянного магнитного поля. 
+ В случае, когда магнитное поле является максимальным 
+физическим параметром, трансляционно инвариантная часть $\hat S(x-y)$ 
+пропагатора может быть представлена в следующей асимптотической 
+форме~\cite{Skob}: 
+%
+\begin{eqnarray}
+\hat S(X) &\simeq& 
+\frac{i eB}{2 \pi} \exp (- \frac{eB X_{\mprp}^2}{4}) 
+\int \frac{d^2 p}{(2 \pi)^2}\, \frac{(p\gamma)_{\mprl} + m}{p_{\mprl}^2 - m^2}
+\Pi_{-}e^{-i (pX)_{\mprl}}, 
+\label{Sa} \\
+%
+d^2 p &=& dp_0 dp_3, \quad \Pi_- = \frac{1}{2} (1 - i \gamma_1 \gamma_2),
+\quad \Pi^2_- = \Pi_-, \quad [\Pi_-, (a \gamma)_{\mprl}] = 0.
+\nonumber
+\end{eqnarray}
+ 
+\noindent 
+Здесь $\gamma_\alpha$ - матрицы Дирака в стандартном представлении, 4-векторы 
+с индексами $\bot$ и $\parallel$ относятся к подпространствам Евклида 
+\{1, 2\} и Минковского \{0, 3\} соответственно, поле $\bf B$ направлено 
+по третьей оси.  
+
+Известно, что в магнитном поле поляризационный оператор фотона имеет только 
+две физические моды (в обозначениях Адлера~\cite{Adler:1971} -- 
+продольная и поперечная)
+%
+\begin{eqnarray}
+\varepsilon^{(\mprl)}_{\alpha} 
+= \frac{\varphi_{\alpha\beta} q_{\beta}}{\sqrt{(q\varphi \varphi q)}},
+\qquad 
+\varepsilon^{(\mprp)}_{\alpha} 
+= \frac{\widetilde \varphi_{\alpha\beta} q_{\beta}}
+{\sqrt{(q \widetilde \varphi \widetilde \varphi q)}},
+\label{eq:vect}
+\end{eqnarray}
+%
+
+\noindent
+где $\varphi_{\alpha \beta} =  F_{\alpha \beta} /B$ 
+ -- обезразмеренный тензор внешнего магнитного поля, 
+${\tilde \varphi}_{\alpha \beta} = \frac{1}{2} \varepsilon_{\alpha \beta
+\mu \nu} \varphi_{\mu \nu}$ 
+ --  дуальный тензор, 
+у 4-векторов и тензоров, стоящих внутри круглых скобок, тензорные индексы 
+полагаются свернутыми последовательно, например:
+$(a \varphi b) = a_\alpha \varphi_{\alpha \beta} b_\beta$.
+
+Как показывает анализ, в пределе сильного поля и в присутствии плазмы
+в процессе $\gamma \gamma\to \nu \bar\nu$ могут участвовать только фотоны 
+ одной поляризации $(\perp)$. 
+
+Инвариантная амплитуда процесса может быть представлена в следующем виде: 
+%
+\begin{eqnarray}
+  {\cal M}\, = \, {\cal M}_B + {\cal M}_{pl},
+\label{eq:M}
+\end{eqnarray}
+
+\noindent 
+где ${\cal M}_B$ -- амплитуда процесса $\gamma \gamma \to \nu \bar \nu$, 
+соответствующая чисто полевому вкладу $(\mu = T = 0)$. Известно, что в 
+случае, когда величина магнитного поля является максимальным физическим 
+параметром, $e B \gg q_{\mprp}^2, q_{\mprl}^2$, 
+только амплитуда со скалярной вершиной линейно растет с полем. Эта 
+амплитуда может быть записана в следующем 
+виде~\cite{Kuznetsov:2002a,Kuznetsov:2003}:
+%
+\begin{eqnarray}
+{\cal M}_B \,& = &\, 
+ \frac{2\alpha}{\pi} \, \frac{B}{B_e}  \, g_{s} \, j_s \, m   
+ \, \frac{(q_1 \widetilde \varphi \varepsilon^{(1)})
+ (q_2 \widetilde \varphi \varepsilon^{(2)})}
+ {4m^2 [(q_1 q_2)^2_{\mprl } - q^2_{1\mprl} q^2_{2\mprl }] +
+ q^2_{1\mprl } q^2_{2\mprl } q^2_{3\mprl }} \times
+\nonumber \nonumber \\
+&\times &\, \left \{ \left [q^2_{1\mprl } q^2_{3\mprl } -
+2m^2 (q^2_{3\mprl } + q^2_{1\mprl } - q^2_{2\mprl })\right ] 
+H \left (\frac{q_{1\mprl }^2}{4m^2} \right ) \right. \, + 
+\nonumber \nonumber \\
+& + & \, \left [q^2_{2\mprl } q^2_{3\mprl } -
+2m^2 (q^2_{3\mprl } + q^2_{2\mprl } - q^2_{1\mprl })\right ]
+H \left (\frac{q_{2\mprl }^2}{4m^2} \right ) \, + 
+\nonumber \nonumber \\
+& + & \, \left. q^2_{3\mprl }(4m^2 -q^2_{3\mprl })
+H \left (\frac{q_{3\mprl }^2}{4m^2} \right ) -
+2q^2_{3\mprl }(q_1q_2)_{\mprl } \, \right \}, 
+\label{eq:MB}
+\end{eqnarray}
+%
+\begin{eqnarray}
+&&H(z) = \frac{1}{2\sqrt{-z(1 - z)}}
+\ln{\frac{\sqrt{1 - z} + \sqrt{-z}}{\sqrt{1 - z} - \sqrt{-z}}} - 1,\quad z<0,
+\nonumber \nonumber \\
+&&H(z) = \frac{1}{\sqrt{z(1 - z)}}
+\mbox{arctg}{\sqrt{\frac{z}{1 - z}}} - 1,\quad 0<z<1, 
+\nonumber \nonumber \\
+&&H(z) = - \frac{1}{2\sqrt{z(z - 1)}}
+\ln{\frac{\sqrt{z} + \sqrt{z - 1}}{\sqrt{z} - \sqrt{z - 1}}}
+ - 1 + \frac{i\pi}{2\sqrt{z(z - 1)}}  ,\quad z>1. 
+\nonumber 
+\end{eqnarray}
+
+\noindent
+Здесь $g_s = - 4 \; \zeta \; G_{\mbox{\normalsize{F}}}/\sqrt{2}$ --
+константа связи в лево-право-симметричном расширении стандартной модели,    
+$j_s = [\bar \nu_e(p_1) \nu_e(-p_2)]$ -- фурье-образ скалярного
+нейтринного тока, $q_3 = p_1 + p_2$ -- суммарный импульс нейтринной пары.
+ 
+%
+\begin{figure}[htb]
+
+\epsffile[100 641 413 701]{fig1.eps}
+
+\vspace{10mm}
+\caption{Диаграммы Фейнмана для процесса рассеяния фотонов на электронах и 
+позитронах плазмы}
+\label{fig:loop1}
+
+\end{figure}
+%
+Второе слагаемое в~(\ref{eq:M}), ${\cal M}_{pl}$, соответствует плазменному 
+вкладу и обусловлено рассеянием фотонов на электронах и позитронах 
+плазмы с излучением нейтринной пары.  Эта часть амплитуды описывается 
+диаграммами Фейнмана, изображенными на рис.~\ref{fig:loop1}, и может быть 
+представлена в виде: 
+%
+\begin{eqnarray}
+&&{\cal M}_{pl} \, = \, \frac{\alpha}{2\pi} \, \frac{B}{B_e}\, m^2 \,
+\int \frac{dp_3}{E}f_{-}(E) \times 
+\nonumber \nonumber \\
+&&\times \frac{\mbox{Tr} \{(\hat p_{\mprl} + m)\Gamma_3 
+(\hat p_{\mprl} - \hat q_{3\mprl} + m)\hat \varepsilon^{(2)} 
+(\hat p_{\mprl} + \hat q_{1\mprl} + m)\hat \varepsilon^{(1)} \Pi_{-} \}}
+{(q_{3\mprl}^2 - 2(pq_3)_{\mprl})(q_{1\mprl}^2 + 2(pq_1)_{\mprl})} - 
+\nonumber \nonumber \\
+&& - (f_{-}(E) \to f_{+}(E) \, \, , m \to -m) + 
+(\mbox{всевозможные перестановки}), 
+\label{eq:Mpl}
+\end{eqnarray}
+
+\noindent
+где $f_{\mp}(E) = (\exp{(E \mp \mu)/T} + 1)^{-1}$ -- функции распределения 
+электронов и позитронов в плазме. 
+
+Анализ показывает, что для плазменного вклада в пределе  
+$e B \gg q_{\mprp}^2, q_{\mprl}^2, \mu^2, T^2$ амплитуда
+со скалярной вершиной также будет линейно расти с полем, 
+как и для чисто полевого вклада. 
+В общем случае выражение для амплитуды~(\ref{eq:Mpl}) имеет громоздкий вид, 
+однако она значительно упрощается в случае 
+вырожденной плазмы, когда $\mu \gg T$. После несложных вычислений мы 
+получили для суммарной амплитуды~(\ref{eq:M}) следующий результат: 
+%
+\begin{eqnarray}
+{\cal M} \,& = &\, 
+ \frac{\alpha}{\pi} \, \frac{B}{B_e}  \, g_{s} \, j_s \, m   
+ \, \frac{(q_1 \widetilde \varphi \varepsilon^{(1)})
+ (q_2 \widetilde \varphi \varepsilon^{(2)})}
+ {4m^2 [(q_1 q_2)^2_{\mprl } - q^2_{1\mprl} q^2_{2\mprl }] +
+ q^2_{1\mprl } q^2_{2\mprl } q^2_{3\mprl }} \times
+\nonumber \nonumber \\
+&\times &\, \Bigg \{ \left [q^2_{1\mprl } q^2_{3\mprl } -
+2m^2 (q^2_{3\mprl } + q^2_{1\mprl } - q^2_{2\mprl })\right ] 
+\left (G^{+}_1 +G^{-}_1 \right ) \, + 
+\nonumber \nonumber \\
+& + & \, \left [q^2_{2\mprl } q^2_{3\mprl } -
+2m^2 (q^2_{3\mprl } + q^2_{2\mprl } - q^2_{1\mprl })\right ]
+ \left (G^{+}_2 +G^{-}_2 \right ) \, + 
+\nonumber \nonumber \\
+& + & \, q^2_{3\mprl }(4m^2 -q^2_{3\mprl })
+ \left (G^{+}_3 +G^{-}_3 \right ) \, \Bigg \}, 
+\label{eq:MB1}
+\end{eqnarray}
+%
+\begin{eqnarray}
+&&G^{\pm}_i = G \left (\frac{q^2_{i\mprl}}{4m^2}, \,  
+\pm \frac{\omega_i}{2m}, \, \lambda \right), \quad \lambda \, = \, 
+\frac{\mu}{m} + \sqrt{\left (\frac{\mu}{m}\right )^2 - 1},
+\nonumber \nonumber \\
+&&G(z,y,\lambda) = \frac{1}{2\sqrt{-z(1 - z)}}
+\ln{\frac{\sqrt{1 - z} + \theta \, \sqrt{-z}}
+{\sqrt{1 - z} - \theta \, \sqrt{-z}}},\quad z<0,
+\nonumber \nonumber \\
+&&G(z,y,\lambda) = \frac{1}{\sqrt{z(1 - z)}}\, 
+\mbox{arctg}{\left (\theta \, \sqrt{\frac{z}{1 - z}}\right )},\quad 0<z<1, 
+\nonumber \nonumber \\
+&&G(z,y,\lambda) = - \frac{1}{2\sqrt{z(z - 1)}}
+\ln{\frac{\theta \, \sqrt{z} + \sqrt{z - 1}}{\theta \, \sqrt{z} - \sqrt{z - 1}}}
+ + \frac{i\pi}{2\sqrt{z(z - 1)}}  ,\quad z>1, 
+\nonumber \nonumber \\
+&&G(z,y,1) = H(z) + 1, \quad \theta = 1 + \frac{\lambda^2 - 1}
+{2(z + \lambda y)} \,. 
+\nonumber 
+\end{eqnarray}
+
+В качестве примера применения полученных результатов рассмотрим случай 
+низких энергий фотонов и низких температур:
+%
+\begin{eqnarray}
+ T,\,\omega_{1,2} \ll m \ll \mu \ll \sqrt{eB}.
+\label{eq:diapazon}
+\end{eqnarray}
+
+В этом пределе для функции $G\,(z,y,\lambda)$, аргументы которой 
+подчиняются условиям $\sqrt{z} < y \ll 1, \quad \lambda \gg 1$,
+удобно использовать следующее асимптотическое выражение:
+% 
+\begin{eqnarray}
+G\,(z,y,\lambda) + G\,(z,-y,\lambda) \simeq \left (\frac{8y^2}{z} - 4 \right )
+\, \frac{1}{\lambda^2}. 
+\label{eq:G_asymp}
+\end{eqnarray}
+
+При этом сечение процесса $\gamma \gamma \to \nu \bar \nu$ 
+будет иметь вид:
+%
+\begin{eqnarray}
+\sigma &\simeq& \frac{2\, \alpha^2\, G_{\mbox{\normalsize{F}}}^2\, 
+\zeta^2}{\pi^3} \; \left(\frac{B}{B_e}\right)^2 \, \frac{m^6}{\mu^4} \,
+\frac{(\omega_1 \omega_2 + q_{1z} q_{2z})^2}{q _{1\mprl}^2 q _{2\mprl}^2}.
+\label{sigma} 
+\end{eqnarray}
+%
+Наблюдаемой величиной в астрофизике является энергопотеря из 
+единицы объема звезды в единицу времени, обусловленная выходом нейтрино 
+(нейтринное излучение). В нашем случае она может быть записана в виде 
+%
+\begin{eqnarray}
+Q = \frac{1}{2} 
+\; \int \frac{d^3 q_1}{(2 \pi)^3} \; \frac{1}{e^{\omega_1/T} - 1}
+\; \int \frac{d^3 q_2}{(2 \pi)^3} \; \frac{1}{e^{\omega_2/T} - 1}
+\; (\omega_1 + \omega_2) \; \frac{(q_1 q_2)}{\omega_1 \omega_2} 
+\; \sigma. 
+\label{Qdef} 
+\end{eqnarray}
+
+\noindent
+Здесь $T$ - температура фотонного газа.
+
+С учетом~(\ref{sigma}) получим в рассматриваемом пределе~(\ref{eq:diapazon}):
+\begin{eqnarray}
+Q &\simeq& 5.6 \cdot 10^{6} \;
+\frac{\mbox{эрг}}{\mbox{см}^3 \; \mbox{с}} 
+\left(\frac{\zeta}{0.013}\right)^2
+\left(\frac{B}{B_e}\right)^{15/4}
+\left(\frac{T}{\mu}\right)^4  \sqrt{\frac{m}{T}}  
+e^{-2\omega_{pl}/T}, 
+\end{eqnarray}
+
+\noindent
+где 
+$$\omega_{pl} \simeq m\sqrt{\frac{2\alpha}{\pi}\left(\frac{B}{B_e}\right)}$$
+-- плазменная частота.
+
+Для сравнения приведем результат работы~\cite{Kuznetsov:2002a}, 
+полученный в той же модели в пределе сильного магнитного поля:
+%
+\begin{eqnarray}
+Q_{(B)} \simeq 2.5 \cdot 10^{13} 
+\; \frac{\mbox{эрг}}{\mbox{см}^3 \; \mbox{с}} 
+\; \left(\frac{\zeta}{0.013}\right)^2
+\left(\frac{B}{B_e}\right)^2
+\left(\frac{T}{m_e}\right)^{11}.
+\label{eq:Q_B_lowT} 
+\end{eqnarray}
+%
+ 
+Отсюда видно, что влияние низкотемпературной электрон-позитронной плазмы 
+приводит к практически полному подавлению нейтринного излучения 
+за счет процесса $\gamma \gamma \to \nu \bar \nu$.
+
+Работа частично поддержана Российским фондом фундаментальных 
+исследований, гранты N~01-02-17334 и \No~03-02-06216, 
+и Министерством образования Российской Федерации, грант \No~Е02-11.0-48.
+
+\newpage
+
+\begin{thebibliography}{9}
+%
+\bibitem{Kouveliotou:1999}
+   Kouveliotou C. et al. // 
+   Astrophys.~J. 1999. V.~510. P.~L115.
+%
+\bibitem{Hurley:1999}
+   Hurley K. et al. // 
+   Nature. 1999. V.~397. P.~41.
+%
+\bibitem{Bisnovatyi-Kogan:1970} 
+   Бисноватый-Коган Г.С. //
+   Астрон.~журн. 1970. Т.~47. С.~813.
+%
+\bibitem{Duncan:1992} 
+   Duncan R.C., Thompson C. //
+   Astrophys.~J. 1992. V.~392. P.~L9.
+%
+\bibitem{Gell-M}
+   Gell-Mann M. //
+   Phys.~Rev.~Lett. 1961. V.~6. P.~70.
+%
+\bibitem{Skob} 
+   Скобелев В.В.
+   // Изв. вузов. Физика. 1975. №~10. С.~142; \\
+   Loskutov Yu.M., Skobelev V.V. // Phys.~Lett. 1976. V.~A56. P.~151. 
+%
+\bibitem{Adler:1971}
+   Adler S.L. // Ann.~Phys. (N.Y.) 1971. V.~67. P.~599. 
+%
+\bibitem{Kuznetsov:2002a}
+   Кузнецов А.В., Михеев Н.В., Румянцев Д.А. //
+   ЯФ. 2003. Т.~66. С.~319. 
+%
+\bibitem{Kuznetsov:2003}
+   Кузнецов А.В., Михеев Н.В., Румянцев Д.А. //
+   ЯФ. 2003. Т.~66. \No~5 (в печати). 
+%
+\end{thebibliography}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{flushright}
+{\it Ярославский государственный университет\\им. П.Г. Демидова}
+\end{flushright}
+
+\end{document}
+%-------------------- формат,  конец файла -----------------------------

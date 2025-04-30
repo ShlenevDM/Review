@@ -1,0 +1,132 @@
+\chapter{—войства матриц $\Pi_{\pm}$}
+
+\label{Sec:app_e}
+
+
+
+
+¬ системе координат, где вектор индукции магнитного пол€ 
+$\mathbf{B}$  направлен вдоль третьей оси, матрицы $\Pi_{\pm}$,  
+вход€щие в выражение дл€ пропагатора электрона (\ref{eq:propn2_a}),  могут 
+быть записаны в следующем виде:
+%
+\beq
+\Pi_{\pm} = \frac{1}{2} \big[\mathrm{I} 
+\mp \frac{i}{2}\, (\gamma \varphi \gamma)\big] = \frac{1}{2}\big[\mathrm{I} 
+\pm i \gamma_1 \gamma_2 \big] = \frac{1}{2}\big[\mathrm{I} \pm 
+\Sigma_3 \big],
+\eeq
+%
+и €вл€ютс€ проекционными операторами, соответствующими 
+электронным состо€ни€м со спином, направленным соответственно  
+вдоль и против направлени€
+магнитного пол€. 
+ќператоры $\Pi_{\pm}$ обладают р€дом свойств, которые позвол€ют существенно 
+упростить анализ и вычисление матричных элементов процессов в 
+магнитном поле. ќтметим их мультипликативные
+%
+\beq
+\Pi_{\pm} \Pi_{\pm} = \Pi_{\pm}, \quad \Pi_{\pm} \Pi_{\mp} = 0,
+\label{PP}
+\eeq
+%
+и коммутационные  свойства
+%
+\beq
+\Pi_{\pm} \gamma_{\mbox{\tiny $\|$}\, \mu} = \gamma_{\mbox{\tiny 
+$\|$} \,
+\mu} \Pi_{\pm}, \quad 
+\Pi_{\pm} \gamma_{\mbox{\tiny $\bot$} \,\mu} = 
+\gamma_{\mbox{\tiny $\bot$} \,
+\mu} \Pi_{\mp}
+\label{Pg}
+\eeq
+%
+\vspace*{-12mm}
+%
+\beq
+\Pi_{\pm} \gamma_5 = \gamma_5 \Pi_{\pm}.
+\label{Pg5}
+\eeq
+%
+—ледствием свойств (\ref{PP}) и (\ref{Pg}) €вл€ютс€ следующие соотношени€
+%
+\beq
+\Pi_{\pm} \gamma_\mu \Pi_{\pm} = 
+\gamma_{\mbox{\tiny $\|$}\mu} \Pi_{\pm}, \quad  
+\Pi_{\mp} \gamma_\mu 
+\Pi_{\pm} = - \gamma_{\mbox{\tiny $\bot$}\mu} \Pi_{\pm}.
+\eeq
+%
+ѕри вычислени€х оказываетс€ полезной следующа€ формула 
+%
+\beq
+\Pi_{\pm} \gamma_{\mbox{\tiny $\bot$} \mu}\gamma_{\mbox{\tiny $\bot$}\nu} 
+\Pi_{\pm} = 
+( - \ff_{\mu \nu} \pm i \varphi_{\mu \nu}) \Pi_{\pm},
+\eeq
+%
+котора€ позвол€ет вычисл€ть следы произведений $\gamma$-матриц в 
+матричных элементах только в продольном подпространстве. Ќиже 
+привод€тс€ несколько таких следов от четного числа $\gamma$-матриц
+%
+\beq
+&&\mathrm{Sp} \{ \Pi_{\pm}\} = 2, \qquad 
+\mathrm{Sp} \{ \gamma_{\mbox{\tiny $\|$} \mu} 
+\gamma_{\mbox{\tiny $\|$} \nu} 
+\Pi_{\pm} \} = 2 \tff_{\mu \nu}, 
+\nonumber 
+\\
+&&\mathrm{Sp} \{ \gamma_{\mbox{\tiny $\|$} \mu} 
+\gamma_{\mbox{\tiny $\|$} \nu} 
+\gamma_{\mbox{\tiny $\|$}\rho} \gamma_{\mbox{\tiny $\|$} \sigma} \Pi_{\pm} \} 
+= 2 ( \tff_{\mu \nu} \tff_{\rho \sigma} + \tff_{\mu \sigma} \tff_{\nu \rho}
+- \tff_{\mu \rho} \tff_{\nu \sigma}), 
+\\
+&&\mathrm{Sp} \{ \gamma_{\mbox{\tiny $\|$}\mu} \gamma_{\mbox{\tiny $\|$}\nu} 
+\gamma_5 \Pi_{\pm} \} = \pm  2 \tilde \varphi_{\mu \nu}, 
+\nonumber 
+\\
+&&\mathrm{Sp} \{ \gamma_{\mbox{\tiny $\|$}\mu}
+\gamma_{\mbox{\tiny $\|$}\nu} 
+\gamma_{\mbox{\tiny $\|$}\rho} \gamma_{\mbox{\tiny $\|$}\sigma} 
+\gamma_5
+\Pi_{\pm}\} = \pm 2 (\tff_{\mu \nu} \tilde \varphi_{\rho \sigma} + 
+\tilde \varphi_{\mu \nu} \tff_{\rho \sigma}).
+\nonumber
+\eeq
+%
+—лед от нечетного числа $\gamma$-матриц, так же, как и в обычном
+четырехмерном пространстве, равен нулю.
+
+ѕолезны и другие часто встречающиес€ соотношени€: 
+%
+\begin{eqnarray}
+&&
+\mathrm{Sp}\{\gamma_{\mprl\mu} \gamma_{\mprl\nu} \dots  \Pi_{+}\} = 
+\mathrm{Sp}\{\gamma_{\mprl\mu} \gamma_{\mprl\nu} \dots  \Pi_{-}\}, \nonumber \\
+&&
+\mathrm{Sp}\{\gamma_{\mprl\mu} \gamma_{\mprl\nu} \dots \gamma_5 \Pi_{+}\} = 
+- \mathrm{Sp}\{\gamma_{\mprl\mu} \gamma_{\mprl\nu} \dots \gamma_5 \Pi_{-}\}, \nonumber \\
+&&
+(\tilde \varphi \gamma)_\mu \Pi_\pm = \mp \gamma_{\mbox{\tiny $\|$}\mu} 
+\gamma_5 \Pi_\pm, \nonumber \\
+&& 
+\gamma_{\mbox{\tiny $\|$} \mu} \gamma_{\mbox{\tiny $\|$} \nu} \gamma_{\mbox{\tiny $\|$} \rho} =  
+\tilde \Lambda_{\mu \nu} \, \gamma_{\mbox{\tiny $\|$} \rho} +
+\tilde \Lambda_{\nu \rho} \, \gamma_{\mbox{\tiny $\|$} \mu} - 
+\tilde \Lambda_{\mu \rho} \, \gamma_{\mbox{\tiny $\|$} \nu} , 
+\nonumber \\ 
+&&
+\gamma_{\mbox{\tiny $\|$}\mu} \gamma_{\mbox{\tiny $\|$}}^\mu = 2, 
+\qquad 
+\gamma_{\mbox{\tiny $\|$}\mu} \gamma_{\mbox{\tiny $\|$}\nu} \gamma_{\mbox{\tiny $\|$}}^\mu = 0 , 
+\label{eq:gammas-2dim} \\
+&& 
+\gamma_{\mbox{\tiny $\|$}\mu} \gamma_{\mbox{\tiny $\|$}\nu} \gamma_{\mbox{\tiny $\|$}\rho} \gamma_{\mbox{\tiny $\|$}}^\mu = 
+2 \gamma_{\mbox{\tiny $\|$} \rho} \gamma_{\mbox{\tiny $\|$} \nu} . 
+\nonumber 
+\end{eqnarray}
+%
+Ћегко показать, что свертка двух $\gamma_{\mprl}$-матриц, между которыми 
+находитс€ любое нечетное число $\gamma_{\mprl}$-матриц, обращаетс€ в ноль. 

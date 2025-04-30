@@ -1,0 +1,122 @@
+\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
+\ifx\undefined\href\def\href#1#2{#2}\else\fi
+\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
+\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
+\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
+\cyr\cyrd\cyra\cyrt\cyra\ %
+\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+
+\bibitem{Suleimanov:2007it}
+\selectlanguageifdefined{english}
+\BibEmph{Suleimanov~V., Werner~K.} {Importance of Compton scattering for
+  radiation spectra of isolated neutron stars with weak magnetic fields}~//
+  \BibEmph{Astron. {$\&$} Astrophys.}
+\newblock 2007.
+\newblock P.~661--668.
+
+\bibitem{Chistyakov:2009}
+\selectlanguageifdefined{english}
+\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A.} {Compton effect in strongly
+  magnetized plasma}~// \BibEmph{Int. J. Mod. Phys.}
+\newblock 2009.
+\newblock Vol. A24.
+\newblock P.~3995--4008.
+
+\bibitem{Kuznetsov:2015}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A.~V., Rumyantsev~D.~A., Shlenev~D.~M.} {Generalized
+  two-point tree-level amplitude $j f \to j'f'$ in a magnetized medium}~//
+  \BibEmph{Int. J. Mod. Phys.}
+\newblock 2015.
+\newblock Vol. A30, no.~11.
+\newblock P.~1550049.
+
+\bibitem{Kostenko:2018}
+\selectlanguageifdefined{english}
+\BibEmph{{Kostenko}~A., {Thompson}~C.} {QED Phenomena in an Ultrastrong
+  Magnetic Field. I. Electron-Photon Scattering, Pair Creation, and
+  Annihilation}~// \BibEmph{Astrophys. J.}
+\newblock 2018.
+\newblock Vol. 869, no.~1.
+\newblock P.~44 (1--19).
+
+\bibitem{Philippov_2020}
+\selectlanguageifdefined{english}
+\BibEmph{Philippov~A., Timokhin~A., Spitkovsky~A.} Origin of Pulsar Radio
+  Emission~// \BibEmph{Physical Review Letters}.
+\newblock 2020.
+\newblock Vol. 124, no.~24.
+\newblock P.~245101.
+
+\bibitem{Shabad:1988}
+\selectlanguageifdefined{russian}
+\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
+  внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
+  калибровочных полях''}.
+\newblock 1988.
+\newblock {\cyr\CYRT.} {192}.
+\newblock {\cyr\CYRS.}~5--152.
+
+\bibitem{Kuznetsov:2011}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A.~V., Okrugin~A.~A.} {The exact electron propagator in a
+  magnetic field as the sum over landau levels on a basis of the Dirac equation
+  exact solutions}~// \BibEmph{Int. J. Mod. Phys.}
+\newblock 2011.
+\newblock Vol. A26.
+\newblock P.~2725--2733.
+
+\bibitem{KM_Book_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A.~V., Mikheev~N.~V.} {Electroweak processes in external
+  active media}.
+\newblock 2013.
+\newblock Vol.~252.
+\newblock P.~1--271.
+
+\bibitem{Gradshtein}
+\selectlanguageifdefined{russian}
+\BibEmph{Градштейн~И.~С., Рыжик~И.~М.} Таблицы интегралов, сумм, рядов и
+  произведений.
+\newblock Москва: Гос. изд-во физ.-мат. лит., 1963.
+\newblock 1108~{\cyr\cyrs.}
+
+\bibitem{GJ:1969}
+\selectlanguageifdefined{english}
+\BibEmph{{Goldreich}~P., {Julian}~W.~H.} {Pulsar electrodynamics}~//
+  \BibEmph{Astrophys. J.}
+\newblock 1969.
+\newblock Vol. 157.
+\newblock P.~869--880.
+
+\bibitem{Mushtukov:2016}
+\selectlanguageifdefined{english}
+\BibEmph{Mushtukov~A.~A., Nagirner~D.~I., Poutanen~J.} {Compton scattering
+  S-matrix and cross section in strong magnetic field}~// \BibEmph{Phys. Rev.}
+\newblock 2016.
+\newblock Vol. D93, no.~10.
+\newblock P.~105003.
+
+\bibitem{Chistyakov_gee:2001}
+\selectlanguageifdefined{russian}
+\BibEmph{Михеев~Н.~В., Чистяков~М.~В.} {Затухание фотона в результате рождения
+  электрон-позитронной пары в сильном магнитном поле}~// \BibEmph{Письма в
+  журн. эксперим. и теор. физ.}
+\newblock {2001}.
+\newblock {\cyr\CYRT.}~{73}, {\cyr\textnumero}~{12}.
+\newblock {\cyr\CYRS.}~{726--730}.
+
+\bibitem{Lubarsky:1988}
+\selectlanguageifdefined{russian}
+\BibEmph{Любарский~Ю.~Э.} {Комптонизация в сверхсильном магнитном поле.~I}~//
+  \BibEmph{Астрофизика}.
+\newblock 1988.
+\newblock {\cyr\CYRT.}~28, {\cyr\textnumero}~1.
+
+\end{thebibliography}
