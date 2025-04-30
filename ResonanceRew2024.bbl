@@ -798,6 +798,14 @@
 \newblock Vol. 354.
 \newblock P.~1--155.
 
+\bibitem{RCh:2008}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~.~., Чистяков~.~.} {Влияние фотон-нейтринных процессов на
+  остывание магнитара}~// \BibEmph{ЖЭТФ.}
+\newblock {2008}.
+\newblock {\cyr\CYRT.} {134}, {\cyr\textnumero}~{4}.
+\newblock {\cyr\CYRS.}~{627--636}.
+
 \bibitem{Borisov:2012}
 \selectlanguageifdefined{russian}
 \BibEmph{Борисов~.~., Керимов~.~., Сизин~.~.} {Слабый и электромагнитный
@@ -830,6 +838,14 @@
 \newblock 2017.
 \newblock Vol. 158.
 \newblock P.~05008.
+
+\bibitem{Gvozdev:2002}
+\selectlanguageifdefined{russian}
+\BibEmph{Гвоздев~.~., Огнев~.~.} {Процессы взаимодействия нейтрино с нуклонами
+  оболочки коллапсирующей звезды с сильным магнитным полем}~// \BibEmph{ЖЭТФ}.
+\newblock {2002}.
+\newblock {\cyr\CYRT.} {121}, {\cyr\textnumero}~{6}.
+\newblock {\cyr\CYRS.}~{1219--1234}.
 
 \bibitem{Kostenko:2018}
 \selectlanguageifdefined{english}
