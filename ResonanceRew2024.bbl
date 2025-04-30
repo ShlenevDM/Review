@@ -30,7 +30,7 @@
 \newblock Vol. 473.
 \newblock P.~322--342.
 
-\bibitem{Lyutikov:2002}
+\bibitem{Thompson:2002}
 \selectlanguageifdefined{english}
 \BibEmph{Thompson~C., Lyutikov~M., Kulkarni~S.~R.} {Electrodynamics of
   magnetars: implications for the persistent x-ray emission and spindown of the
@@ -105,7 +105,7 @@
 \newblock Vol. 584.
 \newblock P.~L17--L22.
 
-\bibitem{Olausen:2013bpa}
+\bibitem{Olausen:2014}
 \selectlanguageifdefined{english}
 \BibEmph{Olausen~S.~A., Kaspi~V.~M.} {The McGill magnetar catalog}~//
   \BibEmph{Astrophys. J. Suppl.}
@@ -113,7 +113,15 @@
 \newblock Vol. 212, no.~1.
 \newblock P.~6.
 
-\bibitem{Melrose:1983a}
+\bibitem{KM_Book_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A., Mikheev~N.} {Electroweak processes in external active
+  media}.
+\newblock 2013.
+\newblock Vol.~252.
+\newblock P.~pp 1--271.
+
+\bibitem{Melrose:1983}
 \selectlanguageifdefined{english}
 \BibEmph{Melrose~D.~B., Parle~A.~J.} {Quantum electrodynamics in strong
   magnetic fields. I Electron States}~// \BibEmph{Aust. J. Phys.}
@@ -127,7 +135,7 @@
 \newblock Москва: Наука, 1983.
 \newblock 304~{\cyr\cyrs.}
 
-\bibitem{KM_Book_2003}
+\bibitem{Kuznetsov:2003}
 \selectlanguageifdefined{english}
 \BibEmph{Kuznetsov~A.~V., Mikheev~N.~V.} Electroweak processes in external
   electromagnetic fields.
@@ -150,14 +158,6 @@
 \newblock 2011.
 \newblock Vol. A44.
 \newblock P.~255301 (1--13).
-
-\bibitem{KM_Book_2013}
-\selectlanguageifdefined{english}
-\BibEmph{Kuznetsov~A., Mikheev~N.} {Electroweak processes in external active
-  media}.
-\newblock 2013.
-\newblock Vol.~252.
-\newblock P.~pp 1--271.
 
 \bibitem{Johnson:1949}
 \selectlanguageifdefined{english}
@@ -245,7 +245,7 @@
 \newblock Vol. D90, no.~4.
 \newblock P.~043014.
 
-\bibitem{Gradshtein}
+\bibitem{Gradstein:1963}
 \selectlanguageifdefined{russian}
 \BibEmph{Градштейн~И.~С., Рыжик~И.~М.} Таблицы интегралов, сумм, рядов и
   произведений.
@@ -276,7 +276,7 @@
 \newblock Vol. 187.
 \newblock P.~2275--2276.
 
-\bibitem{MGU}
+\bibitem{Borisov:1997}
 \selectlanguageifdefined{russian}
 \BibEmph{Борисов~А.~В., Вшивцев~А.~С., Жуковский~В.~Ч., Эминов~П.~А.} {Фотоны и
   лептоны во внешних полях при конечных температуре и плотности}~//
@@ -285,11 +285,11 @@
 \newblock {\cyr\CYRT.} {167}, {\cyr\textnumero}~{3}.
 \newblock {\cyr\CYRS.}~{241--267}.
 
-\bibitem{Zhukovskii:1994}
+\bibitem{Zhukovski:1994}
 \selectlanguageifdefined{russian}
 \BibEmph{Жуковский~В.~Ч., Мидодашвили~П.~Г., Эминов~П.~А.} {Мнимая часть
   массового оператора электрона в постоянном поле при конечной температуре и
-  плотности}~// \BibEmph{Журн. эксперим. и теор. физ.}
+  плотности}~// \BibEmph{ЖЭТФ}.
 \newblock {1994}.
 \newblock {\cyr\CYRT.} {106}, {\cyr\textnumero}~{4}.
 \newblock {\cyr\CYRS.}~{929--935}.
@@ -302,13 +302,14 @@
 \newblock Vol. D28.
 \newblock P.~2007--2037.
 
-\bibitem{Batalin:1971}
+\bibitem{Shabad:1988}
 \selectlanguageifdefined{russian}
-\BibEmph{Баталин~И.~А., Шабад~A.~E.} {Функция Грина фотона в постоянном
-  однородном электромагнитном поле общего вида}~// \BibEmph{ЖЭТФ}.
-\newblock {1971}.
-\newblock {\cyr\CYRT.}~{60}, {\cyr\textnumero}~{3}.
-\newblock {\cyr\CYRS.}~{894--900}.
+\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
+  внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
+  калибровочных полях''}.
+\newblock 1988.
+\newblock {\cyr\CYRT.} {192}.
+\newblock {\cyr\CYRS.}~5--152.
 
 \bibitem{Tsai:1974}
 \selectlanguageifdefined{english}
@@ -318,6 +319,14 @@
 \newblock Vol. D10, no.~8.
 \newblock P.~2699--2702.
 
+\bibitem{Batalin:1971}
+\selectlanguageifdefined{russian}
+\BibEmph{Баталин~И.~А., Шабад~A.~E.} {Функция Грина фотона в постоянном
+  однородном электромагнитном поле общего вида}~// \BibEmph{ЖЭТФ}.
+\newblock {1971}.
+\newblock {\cyr\CYRT.}~{60}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{894--900}.
+
 \bibitem{Skobelev:1975}
 \selectlanguageifdefined{russian}
 \BibEmph{Скобелев~В.~В.} {Поляризационный оператор фотона в сверхсильном
@@ -325,22 +334,6 @@
 \newblock {1975}.
 \newblock {\cyr\textnumero}~{10}.
 \newblock {\cyr\CYRS.}~{142--143}.
-
-\bibitem{Melrose:1976}
-\selectlanguageifdefined{english}
-\BibEmph{{Melrose}~D.~B., {Stoneham}~R.~J.} {Vacuum polarization and photon
-  propagation in a magnetic field}~// \BibEmph{Nuovo Cimento A Serie}.
-\newblock 1976.
-\newblock Vol.~32, no.~4.
-\newblock P.~435--447.
-
-\bibitem{Urrutia:1977}
-\selectlanguageifdefined{english}
-\BibEmph{Urrutia~L.~F.} Vacuum polarization in parallel homogeneous electric
-  and magnetic fields~// \BibEmph{Phys. Rev. D}.
-\newblock 1978. "--- Apr.
-\newblock Vol.~17.
-\newblock P.~1977--1984.
 
 \bibitem{Rojas1979r}
 \selectlanguageifdefined{russian}
@@ -359,40 +352,6 @@
 \newblock Vol. 138.
 \newblock P.~1--35.
 
-\bibitem{Shabad:1988}
-\selectlanguageifdefined{russian}
-\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
-  внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
-  калибровочных полях''}.
-\newblock 1988.
-\newblock {\cyr\CYRT.} {192}.
-\newblock {\cyr\CYRS.}~5--152.
-
-\bibitem{Schubert:2000}
-\selectlanguageifdefined{english}
-\BibEmph{{Schubert}~C.} {Vacuum polarisation tensors in constant
-  electromagnetic fields: Part I}~// \BibEmph{Nuclear Physics B}.
-\newblock 2000.
-\newblock Vol. 585, no.~1.
-\newblock P.~407--428.
-
-\bibitem{Hattori:2013}
-\selectlanguageifdefined{english}
-\BibEmph{{Hattori}~K., {Itakura}~K.} {Vacuum birefringence in strong magnetic
-  fields: (I) Photon polarization tensor with all the Landau levels}~//
-  \BibEmph{Annals of Physics}.
-\newblock 2013.
-\newblock Vol. 330.
-\newblock P.~23--54.
-
-\bibitem{Karbstein:2013}
-\selectlanguageifdefined{english}
-\BibEmph{{Karbstein}~F.} {Photon polarization tensor in a homogeneous magnetic
-  or electric field}~// \BibEmph{Phys. Rev. D}.
-\newblock 2013.
-\newblock Vol.~88, no.~8.
-\newblock P.~085033.
-
 \bibitem{MRCh:2014}
 \selectlanguageifdefined{russian}
 \BibEmph{Михеев~Н.~В., Румянцев~Д.~А., Чистяков~М.~В.} {Фоторождение нейтрино
@@ -401,13 +360,22 @@
 \newblock {\cyr\CYRT.} {146}, {\cyr\textnumero}~{2}.
 \newblock {\cyr\CYRS.}~{289--296}.
 
-\bibitem{Beloborodov:2007}
+\bibitem{Rojas1979}
 \selectlanguageifdefined{english}
-\BibEmph{{Beloborodov}~A.~M., {Thompson}~C.} {Corona of magnetars}~//
-  \BibEmph{Astrophys. J.}
-\newblock 2007.
-\newblock Vol. 657, no.~2.
-\newblock P.~967--993.
+\BibEmph{Peres~Rojas~H., Shabad~A.~E.} {Polarization of relativistic electron
+  and positron gas in a strong magnetic field. Propagation of electromagnetic
+  waves}~// \BibEmph{Ann. Phys. (N.Y.)}.
+\newblock 1979.
+\newblock Vol. 121, no.~2.
+\newblock P.~432--464.
+
+\bibitem{Chistyakov:2009}
+\selectlanguageifdefined{english}
+\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A.} {Compton effect in strongly
+  magnetized plasma}~// \BibEmph{Int. J. Mod. Phys.}
+\newblock 2009.
+\newblock Vol. A24.
+\newblock P.~3995--4008.
 
 \bibitem{Adler:1971}
 \selectlanguageifdefined{english}
@@ -424,15 +392,6 @@
 \newblock 2016.
 \newblock Vol. D93, no.~10.
 \newblock P.~105003.
-
-\bibitem{Potekhin:2004}
-\selectlanguageifdefined{english}
-\BibEmph{Potekhin~A.~Y., Lai~D., Chabrier~G., Ho~W. C.~G.} Electromagnetic
-  Polarization in Partially Ionized Plasmas with Strong Magnetic Fields and
-  Neutron Star Atmosphere Models~// \BibEmph{The Astrophysical Journal}.
-\newblock 2004. "--- sep.
-\newblock Vol. 612, no.~2.
-\newblock P.~1034.
 
 \bibitem{RCh05}
 \selectlanguageifdefined{russian}
@@ -595,6 +554,16 @@
 \newblock Vol. 368, no.~2.
 \newblock P.~690--706.
 
+\bibitem{Potekhin:2004}
+\selectlanguageifdefined{english}
+\BibEmph{{Potekhin}~A.~Y., {Lai}~D., {Chabrier}~G., {Ho}~W. C.~G.}
+  {Electromagnetic Polarization in Partially Ionized Plasmas with Strong
+  Magnetic Fields and Neutron Star Atmosphere Models}~// \BibEmph{Astrophys.
+  J.}
+\newblock 2004.
+\newblock Vol. 612, no.~2.
+\newblock P.~1034--1043.
+
 \bibitem{Schonherr:2007}
 \selectlanguageifdefined{english}
 \BibEmph{{Sch{\"o}nherr}~G., {Wilms}~J., {Kretschmar}~P. et~al.} {A model for
@@ -673,7 +642,7 @@
 \newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
 \newblock {\cyr\CYRS.}~{483--494}.
 
-\bibitem{KuzRumShlen:2015}
+\bibitem{Kuznetsov:2015}
 \selectlanguageifdefined{english}
 \BibEmph{Kuznetsov~A.~V., Rumyantsev~D.~A., Shlenev~D.~M.} {Generalized
   two-point tree-level amplitude $j f \to j'f'$ in a magnetized medium}~//
@@ -681,23 +650,6 @@
 \newblock 2015.
 \newblock Vol. A30, no.~11.
 \newblock P.~1550049.
-
-\bibitem{RumShlenYar:2017}
-\selectlanguageifdefined{russian}
-\BibEmph{Румянцев~Д.~А., Шленев~Д.~М., Ярков~А.~А.} {Резонансы в
-  комптоноподобных процессах рассеяния во внешней замагниченной среде}~//
-  \BibEmph{ЖЭТФ.}
-\newblock {2017}.
-\newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
-\newblock {\cyr\CYRS.}~{483--494}.
-
-\bibitem{Chistyakov:2009}
-\selectlanguageifdefined{english}
-\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A.} {Compton effect in strongly
-  magnetized plasma}~// \BibEmph{Int. J. Mod. Phys.}
-\newblock 2009.
-\newblock Vol. A24.
-\newblock P.~3995--4008.
 
 \bibitem{Landau:2002}
 \selectlanguageifdefined{russian}
@@ -726,6 +678,14 @@
 \newblock Vol. 380.
 \newblock P.~541--549.
 
+\bibitem{Klepikov:1954}
+\selectlanguageifdefined{russian}
+\BibEmph{Клепиков~Н.~П.} {Излучение фотонов и электрон-позитронных пар в
+  магнитном поле}~// \BibEmph{ЖЭТФ.}
+\newblock {1954}.
+\newblock {\cyr\CYRT.}~{26}, {\cyr\textnumero}~{1}.
+\newblock {\cyr\CYRS.}~{19--34}.
+
 \bibitem{Baier:2007}
 \selectlanguageifdefined{english}
 \BibEmph{{Baier}~V.~N., {Katkov}~V.~M.} {Pair creation by a photon in a strong
@@ -733,5 +693,145 @@
 \newblock 2007.
 \newblock Vol. D75, no.~7.
 \newblock P.~073009.
+
+\bibitem{SchwarmD:2017}
+\selectlanguageifdefined{english}
+\BibEmph{Schwarm~F.-W.} Monte Carlo Simulation of Cyclotron Lines in Strong
+  Magnetic Fields - Theory and Application: Ph.\,D. thesis~/
+  Friedrich-Alexander-Universit\"{a}t Erlangen-N\"{u}rnberg.
+\newblock 2017.
+
+\bibitem{Harding:1986}
+\selectlanguageifdefined{english}
+\BibEmph{Daugherty~J.~K., Harding~A.~K.} {Compton scattering in strong magnetic
+  fields}~// \BibEmph{Astrophys.~J.}
+\newblock 1986.
+\newblock Vol. 309.
+\newblock P.~362--371.
+
+\bibitem{Mushtukov:2015}
+\selectlanguageifdefined{english}
+\BibEmph{Mushtukov~A.~A., Suleimanov~V.~F., Tsygankov~S.~S., Poutanen~J.} The
+  critical accretion luminosity for magnetized neutron stars~// \BibEmph{Mon.
+  Not. Roy. Astron. Soc.}
+\newblock 2015.
+\newblock Vol. 447, no.~2.
+\newblock P.~1847--1856.
+
+\bibitem{Ritus:1961}
+\selectlanguageifdefined{english}
+\BibEmph{{Ritus}~V.~I.} Photoproduction of Neutrinos on Electrons and Neutrino
+  Radiation from Stars~// \BibEmph{JETP}.
+\newblock 1961.
+\newblock Vol.~41, no.~4.
+\newblock P.~1285--1293.
+
+\bibitem{Chiu:1961}
+\selectlanguageifdefined{english}
+\BibEmph{{Chiu}~H.-Y., {Stabler}~R.~C.} Emission of photoneutrinos and pair
+  annihilation neutrinos from stars~// \BibEmph{Phys. Rev.}
+\newblock 1961.
+\newblock Vol. 122.
+\newblock P.~1317--1322.
+
+\bibitem{Beaudet:1967}
+\selectlanguageifdefined{english}
+\BibEmph{{Beaudet}~G., {Petrosian}~V., {Salpeter}~E.~E.} Energy losses due to
+  neutrino processes~// \BibEmph{Astrophys. J.}
+\newblock 1967.
+\newblock Vol. 150.
+\newblock P.~979--999.
+
+\bibitem{Dicus:1972}
+\selectlanguageifdefined{english}
+\BibEmph{{Dicus}~D.} Stellar energy-loss rates in a convergent theory of a weak
+  and electromagnetic interaction~// \BibEmph{Phys. Rev.}
+\newblock 1972.
+\newblock Vol.~D6.
+\newblock P.~941--949.
+
+\bibitem{Munakata:1985}
+\selectlanguageifdefined{english}
+\BibEmph{{Munakata}~H., {Kohyama}~Y., {Itoh}~N.} Neutrino energy loss in
+  stellar interiors~// \BibEmph{Astrophys. J.}
+\newblock 1985.
+\newblock Vol. 296.
+\newblock P.~197--203.
+
+\bibitem{Shindler:1987}
+\selectlanguageifdefined{english}
+\BibEmph{{Schinder}~P.~J., {Schramm}~D.~N., {Wiita}~P.~J. et~al.} Neutrino
+  emission by the pair, plasma, and photo processes in the Weinberg-Salam
+  model~// \BibEmph{Astrophys. J.}
+\newblock 1987.
+\newblock Vol. 313.
+\newblock P.~531--542.
+
+\bibitem{Itoh:1989}
+\selectlanguageifdefined{english}
+\BibEmph{{Itoh}~N., {Adachi}~T., {Nakagawa}~M. et~al.} Neutrino energy loss in
+  stellar interiors. III. Pair, photo-, plasma, and bremsstrahlung processes~//
+  \BibEmph{Astrophys. J.}
+\newblock 1989.
+\newblock Vol. 339.
+\newblock P.~354--364.
+
+\bibitem{Itoh:1996}
+\selectlanguageifdefined{english}
+\BibEmph{{Itoh}~N., {Hayashi}~H., {Nishikawa}~A., {Kohyama}~Y.} Neutrino energy
+  loss in stellar interiors. VII. Pair, photo-, plasma, bremsstrahlung, and
+  recombination neutrino processes~// \BibEmph{Astrophys. J. Suppl.}
+\newblock 1996.
+\newblock Vol. 102.
+\newblock P.~411--424.
+
+\bibitem{Skobelev:2000}
+\selectlanguageifdefined{russian}
+\BibEmph{Скобелев~В.~В.} {Комптоновский механизм генерации нейтрино и аксионов
+  на эффективно-двумерном замагниченном ферми-газе}~// \BibEmph{ЖЭТФ}.
+\newblock {2000}.
+\newblock {\cyr\CYRT.} {117}, {\cyr\textnumero}~{6}.
+\newblock {\cyr\CYRS.}~{1059--1066}.
+
+\bibitem{Yakovlev2001}
+\selectlanguageifdefined{english}
+\BibEmph{{Yakovlev}~D.~G., {Kaminker}~A.~D., {Gnedin}~O.~Y., {Haensel}~P.}
+  {Neutrino emission from neutron stars}~// \BibEmph{Phys. Rep.}
+\newblock 2001.
+\newblock Vol. 354.
+\newblock P.~1--155.
+
+\bibitem{Borisov:2012}
+\selectlanguageifdefined{russian}
+\BibEmph{Борисов~А.~В., Керимов~Б.~К., Сизин~П.~Е.} {Слабый и электромагнитный
+  механизмы фоторождения нейтринных пар в сильно замагниченном электронном
+  газе}~// \BibEmph{Ядерная физика.}
+\newblock {2012}.
+\newblock {\cyr\CYRT.}~{75}, {\cyr\textnumero}~{11}.
+\newblock {\cyr\CYRS.}~{1379--1386}.
+
+\bibitem{RumChMik}
+\selectlanguageifdefined{russian}
+\BibEmph{{Михеев}~Н.~В., {Румянцев}~Д.~А., {Чистяков}~М.~В.}
+\newblock Фоторождение нейтрино на электроне в плотной замагниченной среде.
+\newblock 2014.
+
+\bibitem{Chistyakov:2014cga}
+\selectlanguageifdefined{english}
+\BibEmph{Chistyakov~M.~V., Kuznetsov~A.~V., Mikheev~N.~V. et~al.} {Neutrino
+  photoproduction on electron in dense magnetized medium}~// {Quarks'2014.
+  Proc. of 18-th Int. Sem. «Quarks'2014», Suzdal, Russia, 2014. Ed. by P. S.
+  Satunin, e.a. Inst. Nucl. Res., Moscow}.
+\newblock 2015.
+\newblock P.~322--329.
+
+\bibitem{qfthep2017}
+\selectlanguageifdefined{english}
+\BibEmph{{Kuznetsov}~A., {Rumyantsev}~D., {Shlenev}~D.} Neutrino
+  photoproduction on the electron in dense magnetized medium~// \BibEmph{EPJ
+  Web Conf.}
+\newblock 2017.
+\newblock Vol. 158.
+\newblock P.~05008.
 
 \end{thebibliography}
