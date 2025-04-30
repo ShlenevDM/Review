@@ -1,0 +1,849 @@
+%
+% ****** maiksamp.tex 29.11.2001 ******
+%
+\documentclass[
+aps,%
+12pt,%
+final,%
+notitlepage,%
+oneside,%
+onecolumn,%
+nobibnotes,%
+nofootinbib,% 
+superscriptaddress,%
+noshowpacs,%
+centertags]%
+{revtex4}
+
+\begin{document}
+%\selectlanguage{russian}
+\selectlanguage{english}
+
+\title{THE INFLUENCE OF EXTERNAL ACTIVE MEDIUM ON THE PROCESS OF DOUBLE COMPTON SCATTERING
+}% Разбиение на строки осуществляется командой \\
+
+\author{\firstname{D.~A.}~\surname{Rumyantsev}}
+% Здесь разбиение на строки осуществляется автоматически или командой \\
+\email{rda@uniyar.ac.ru}
+\affiliation{%
+P.G. Demidov Yaroslavl State University, 
+150003, Russian Federation, Yaroslavl, Sovetskaya Str. 14
+}%
+%\affiliation{%
+%P.G. Demidov Yaroslavl State University
+%}%
+%\author{\firstname{A.~A.}~\surname{Yarkov}}
+%\email{a12l@mail.ru}
+%\affiliation{%
+%P.G. Demidov Yaroslavl State University, 
+%150003, Russian Federation, Yaroslavl, Sovetskaya Str. 14
+%}%
+%\affiliation{%
+%P.G. Demidov Yaroslavl State University
+%}%
+
+\author{\firstname{M.~V.}~\surname{Chistyakov}}
+\email{mch@uniyar.ac.ru}
+\affiliation{%
+P.G. Demidov Yaroslavl State University, 
+150003, Russian Federation, Yaroslavl, Sovetskaya Str. 14
+}%
+%\noaffiliation % если у автора место работы не указывается
+%\affiliation{%
+%P.G. Demidov Yaroslavl State University
+%}%
+
+\author{\firstname{T.~A.}~\surname{Puhov}}
+\email{alecsandr08062013@gmail.com}
+\affiliation{%
+P.G. Demidov Yaroslavl State University, 
+150003, Russian Federation, Yaroslavl, Sovetskaya Str. 14
+}%
+
+
+
+%\date{\today}
+%\today печатает cегодняшнее число
+
+\selectlanguage{english}
+
+\begin{abstract}
+The process of double Compton scattering, $e \gamma \to e \gamma \gamma$, in the presence of
+a strongly magnetized, both charge-asymmetric and charge-symmetric electron plasma is considered. 
+The amplitude of the process is written out and
+the selection rules for photon polarizations are found.
+By solving the kinetic equation, an estimate of the efficiency of polarized photon production is obtained.
+\end{abstract}
+
+
+\maketitle
+
+
+\section{Introduction}
+
+At present, astrophysical objects with scales of magnitudes of 
+magnetic field of the order of or greater than its critical value $B_e = m^2/e \simeq 4.41\times10^{13}$ G
+(the natural system of units is used, where $c = \hbar = k_{\rm{B}} = 1$, $m$ is the electron mass,
+$e>0$ is the elementary charge, $\alpha$ is the fine structure constant) are very interesting.
+This class of objects includes radio pulsars and so-called magnetars,
+which are neutron stars with magnetic fields ranging from $10^{12}$ G
+(radio pulsars) up to $4\times 10^{14}$ G (magnetars)~\cite{Olausen:2013bpa}.
+Analysis of emission spectra of these objects
+also indicates the presence of electron-positron plasma in the shells of radio pulsars and magnetars with
+the minimum density in the magnetospheres is of the order of the Goldreich-Julian density~\cite{GJ:1969}.
+
+One of the fundamental problems in the physics of strongly magnetized neutron stars is the description
+features of the observed spectra in the region of X-ray and gamma frequencies, apparently due to
+the influence of scattering and absorption of photons in the process of radiation transfer in 
+a strongly magnetized plasma.
+
+It is well known (see, for example,~\cite{Suleimanov:2007it}) that Compton scattering, 
+$e \gamma \to e \gamma$, is the main process
+which is taken into account when solving the problem of radiation transfer. 
+However, the total number of photons does not change during scattering.
+Previous investigations of radiation transfer problem in strongly
+magnetized  plasma~\cite{RChSt:2012,RumChistShlen:2016}
+ showed that the reaction photon splitting, $\gamma \to \gamma \gamma$, can play an important 
+role as a mechanism of photon production. On the other hand, as was shown in~\cite{RChSt:2012}, 
+in the photon energy range $\omega \ll m$, some splitting channels turn out to be 
+kinematically closed. Therefore, there is a need
+consider alternative mechanisms for changing the number of photons. In a highly magnetized plasma, one
+of such mechanisms is the so-called double Compton scattering,
+$e \gamma \to e \gamma \gamma$.
+
+
+Previously, the process $e \gamma \to e \gamma \gamma$ was considered only in plasma without a 
+magnetic field~\cite{LightmanApJ1981, Kellner1984} and almost degenerate strongly 
+magnetized plasma~\cite{RumChistPuh2023}. In the general case of arbitrarily magnetized plasma, 
+the analysis of the photon 
+absorption coefficient in the process of double Compton scattering is a rather cumbersome task. However, 
+for a nonrelativistic charge-symmetric magnetized plasma with a temperature $T \ll m$ ($\mu =0$ is the 
+chemical potential of electrons),
+characteristic of the magnetosphere of neutron stars, even at fields $B \sim 10^{12}$ G, electrons 
+will occupy
+predominantly the ground Landau level, which significantly simplifies the calculations. 
+In this paper, we generalize the previously obtained results for the process 
+$e \gamma \to e \gamma \gamma$ to the case of a charge-symmetric, strongly magnetized, non-relativistic 
+plasma and solve the kinetic equation taking into account the change in the number of photons of 
+a certain polarization.
+
+
+\section{Dispersion properties of a photon in a magnetized medium}
+
+We begin to consider  the process $e \gamma \to e \gamma \gamma$  
+with investigation of the photon dispersion properties.  
+ The propagation of an electromagnetic radiation in
+any active medium is conveniently described in terms
+of normal modes (eigenmodes). In turn, the polarization and dispersion properties of the normal modes are
+defined by the eigenvectors $r_\alpha^{(\lambda)}(q)$ and eigenvalues $\cal{P}^{(\lambda)}$ of 
+the polarization operator ${\cal P}_{\alpha \beta}$, respectively. 
+ For further analysis of these properties, it is convenient to expand the tensor ${\cal P}_{\alpha \beta}$ 
+in terms of a basis of
+4-vectors constructed from the dimensionless tensor of the electromagnetic
+field and the 4-vector of the photon momentum $q_\alpha$:
+%
+\beq
+\label{eq:basis}
+b_{\mu}^{(1)} = (\varphi q)_\mu, \qquad
+ b_{\mu}^{(2)} = (\tilde \varphi q)_\mu, 
+\\
+\nonumber
+b_{\mu}^{(3)} = q^2 \, (\varphi \varphi q)_\mu - q_\mu \, q^2_{\mbox{\tiny $\bot$}}, 
+\qquad b_{\mu}^{(4)} = q_\mu, 
+\eeq 
+
+\noindent which are eigenvectors of the polarization operator in a constant uniform magnetic field. 
+In this case, $(b^{(1)} b^{*(1)}) = -q^2_{\mprp}$, 
+$(b^{(2)} b^{*(2)}) = -q^2_{\mprl}$, $(b^{(3)} b^{*(3)}) = -q^2 q^2_{\mprl} 
+q^2_{\mprp}$, $(b^{(4)} b^{*(4)}) = q^2$.
+
+We have:
+%
+\beq
+\label{eq:Pab10}
+{\cal P}_{\alpha \beta} = \sum_{\lambda = 1}^{3} 
+ {\cal P}^{(\lambda)} \, \frac{r_{\alpha}^{(\lambda)} 
+(r_{\beta}^{(\lambda)})^{*}}{(r^{(\lambda)})^2} \, , \quad 
+r_{\beta}^{(\lambda)} = \sum\limits_{i = 1}^{3} A_i^{(\lambda)} \, b_{\beta}^{(i)} \, , 
+\eeq
+\noindent where $A_i^{(\lambda)}$ are some complex coefficients.
+
+
+Here the four-vectors with indices $\bot$ and $\parallel$
+belong to the Euclidean \{1,~2\}-subspace and the Minkowski
+\{0,~3\}-subspace correspondingly in the frame where the magnetic
+field is directed along the third axis; 
+$(ab)_{\mprp} = (a \varphi \varphi b) = a_\alpha \varphi_{\alpha}^{\, \rho} \varphi_{\rho \beta} b_\beta$, 
+$(ab)_{\mprl} = (a \tilde \varphi \tilde \varphi b) = 
+a_\alpha \tilde \varphi_{\alpha}^{\, \rho} 
+\tilde \varphi_{\rho \beta} b_\beta$.  
+The tensors
+$\varphi_{\alpha \beta} =  F_{\alpha
+\beta} /B$ and
+${\tilde \varphi}_{\alpha \beta} = \frac{1}{2} \varepsilon_{\alpha \beta
+\mu \nu} \varphi_{\mu \nu}$ are the dimensionless field tensor and dual
+field tensor correspondingly.
+
+The solution of this problem for an arbitrarily magnetized plasma presents significant computational 
+difficulties and was previously solved for the case when the leading parameters of the plasma are such 
+as temperature, chemical potential, etc. (see, for example~\cite{Potekhin2004}).
+ On the other hand, in the case of a strongly magnetized plasma, when the magnetic field is the
+largest parameter of the problem,
+$eB \equiv \beta \gg m^2,\, \mu^2, \, T^2, \, q^2_{\mprl}$, in the region 
+$q^2_{\mprl} \ll (m+\sqrt{m^2+2 \beta})^2$,
+using
+the results of the works~\cite{Shabad1988, Mikheev2014}
+ for ${\cal P}_{\alpha \beta}$, we can obtain the following expansion in
+inverse powers of the magnetic field:
+%
+\beq
+\nonumber
+&&{\cal P}_{\alpha \beta}  
+ \simeq 
+ - \frac{2\alpha}{\pi} \; \beta \, {\cal D} \, 
+\frac{(\tilde \varphi q)_\alpha (\tilde \varphi q)_\beta}{q^2_{\mprl}} 
++ 
+\frac{\alpha}{3\pi}\; (\varphi q)_\alpha (\varphi q)_\beta +
+%\\
+%\nonumber
+%&&+
+\frac{\ii \alpha}{\pi} \, \Delta N \, \big [
+\varphi_{\alpha \beta} \, (qu) + (q\varphi)_{\alpha} u_{\beta} - 
+\\
+\label{eq:Pab1}
+&&-
+(q\varphi)_{\beta} u_{\alpha} \big ]  +
+ \frac{\alpha}{3\pi} \, {\cal V} \, \left (q^2 \, g_{\alpha \beta} - 
+q_{\alpha} \, q_{\beta} \right )  + 
+O \left (\frac{1}{\beta} \right) \, , 
+\eeq  
+\noindent where 
+%
+\beq
+\label{eq:PabD}
+{\cal D} = - {\cal J} (q_{\mprl})  - 
+H \left (\frac{q^2_{\mprl}}{4m^2} \right)  \, , 
+\eeq
+%
+\beq
+\label{eq:PabJ}
+{\cal J} (q_{\mprl}) = 2q^2_{\mprl} \, m^2 \, \int\limits_{-\infty}^{\infty}  \frac{\dd p_z}{E} \, 
+\frac{f_{-}(p) + f_{+}(p)}{q_{\mprl}^4 - 4(pq)^2_{\mprl}} \, , 
+\eeq
+%
+\beq
+\label{eq:fermidist}
+&&f_{\pm}(p) = \frac{1}{1+\exp{[((pu)_{\mprl} \pm \mu)/T]}} \, , 
+%\\ [3mm]
+%\nonumber
+%&&
+\quad (pu)_{\mprl} = E u_0 - p_z u_z \, , \quad E=\sqrt{p_z^2+m^2} \, .
+\eeq
+\noindent Here $u^{\mu}$ is the four vector of plasma velocity and 
+the upper sign corresponds to the electron components of the plasma, and the 
+lower sign to the positron components, 
+
+%
+\beq
+\label{eq:H0}
+\nonumber
+%\nonumber
+&&H(z)=\frac{1}{\sqrt{z(1 - z)}} \, \arctg \sqrt{\frac{z}{1 - z}} - 1, \quad 0 \leqslant z \leqslant 1 \, ,
+\label{eq:H1}
+%H(z) &=& - \frac{1}{2\sqrt{z(z-1)}}
+%\ln  \frac{\sqrt{z} + \sqrt{z-1}}{\sqrt{z} - \sqrt{z-1}}  - 1 + 
+%\\[3mm]
+%\nonumber
+%&+& \frac{i\pi}{2\sqrt{z(z-1)}}, \quad z > 1, 
+\eeq
+%
+\beq
+\nonumber
+\Delta N &=& \int\limits_{-\infty}^{\infty}  \frac{\dd p_z}{E} 
+\, (pu)_{\mprl} \, \left [f_{-}(p) - f_{+}(p) \right] = 
+\frac{(2 \pi)^2}{\beta} \, (n_{e} - n_{e^+}) \, ,
+\label{eq:PabA}  
+%\\
+%\nonumber 
+%&&f((pu),\mu) = \left [\exp{((pu)-\mu)/T} + 1 \right ]^{-1}  \, , \quad   E=\sqrt{p^2+m^2} \, , 
+\eeq
+\noindent $n_{e}$ $(n_{e^+})$ is the electron (positron) density,
+%
+\beq
+\label{eq:Lambda}
+{\cal V} = \ln{(B/B_e)} - 1.792 + 
+\frac{3}{2} \, \int\limits_0^1 \dd x \, (1-x^2) \, 
+\ln{\left [1- \frac{q^2}{4m^2} \, (1-x^2) \right ]} \, .
+\eeq
+
+In the plasma rest frame $(pu)_{\mprl} = E$ and for the expansion of the 
+eigenvectors $r^{(\lambda)}_{\alpha}$ in inverse powers of the field we obtain:
+%
+\beq
+\label{eq:r13}
+&&r^{(1,3)}_{\alpha} = \left [\mp \sqrt{q^4_{\mprp} + 
+(6 \Delta N \, \omega)^2\, \frac{q^2}{q_{\mprl}^2}}  - q^2_{\mprp} \right ]\, 
+b^{(1)}_{\alpha} - 
+\ii \, \frac{6 \Delta N \, \omega}{q_{\mprl}^2} \,  b^{(3)}_{\alpha} +
+\\
+\nonumber
+&&+
+ \ii \,\frac{\Delta N \, k_z \, q^2_{\mprp}}{2\beta \, {\cal D} \, q^2_{\mprl}}\, 
+\left [\pm \sqrt{q^4_{\mprp} + 
+(6 \Delta N \, \omega)^2\, \frac{q^2}{q_{\mprl}^2}} + q^2_{\mprp} \right ]\; b^{(2)}_{\alpha} + 
+O \left (\frac{1}{\beta^2} \right) \, ,
+\eeq
+%
+\beq
+\label{eq:r2}
+r^{(2)}_{\alpha} =  b^{(2)}_{\alpha} - 
+\ii \, \frac{\Delta N  \, k_z }{2\beta \, {\cal D}} \, b^{(1)}_{\alpha} + 
+O \left (\frac{1}{\beta^2} \right)  \, .
+\eeq
+
+The corresponding eigenvalues of ${\cal P}^{(\lambda)}$ in the approximation
+$O(1/\beta)$ are written as follows:
+%
+\beq
+\label{eq:kappa13}
+{\cal P}^{(1,3)} = \frac{\alpha}{3\pi} \, q^2 \, {\cal V} + 
+\frac{\alpha}{6\pi} \, \left [ 
+ \mp \sqrt{q^4_{\mprp} + 
+(6 \Delta N \, \omega)^2\, \frac{q^2}{q_{\mprl}^2}}  - q^2_{\mprp} \right ]  
++ O \left (\frac{1}{\beta} \right)  \, ,
+\eeq
+%
+\beq
+\label{eq:kappa2}
+{\cal P}^{(2)} = \frac{\alpha}{3\pi} \, q^2 \, {\cal V} + \frac{2 \alpha}{\pi} \, \beta \, {\cal D}  + 
+ O \left (\frac{1}{\beta} \right) \, .
+\eeq
+
+In the case of charge-symmetric plasma $\Delta N = 0$, and in a cold, almost degenerate, 
+moderately relativistic plasma, under the condition
+$\Delta N /(2m) \simeq v_F \ll 1$, where  $v_F$ is the Fermi velocity,
+eigenvectors~(\ref{eq:r13}) -- (\ref{eq:r2}) and
+eigenvalues~(\ref{eq:kappa13}) -- (\ref{eq:kappa2}) will take the form:
+
+%
+\beq
+\label{eq:r132}
+r^{(1)}_{\alpha} =  -2 q^2_{\mprp} \, b^{(1)}_{\alpha}  + O \left (\frac{1}{\beta^2} \right) \, ,
+ \quad 
+%\eeq
+%
+%\beq
+%\label{eq:r20}
+r^{(2)}_{\alpha} =  b^{(2)}_{\alpha}  + O \left (\frac{1}{\beta^2} \right)  \, .
+\eeq
+
+
+%
+\beq
+\label{eq:kappa10}
+&&{\cal P}^{(1)} = \frac{\alpha}{3\pi} \, q^2 \, {\cal V} - \frac{\alpha}{3\pi} \, 
+q^2_{\mprp} + O \left (\frac{1}{\beta} \right)  \, ,
+\\[3mm]
+\label{eq:kappa30}
+&&{\cal P}^{(3)} = \frac{\alpha}{3\pi} \, q^2 \, {\cal V} + O \left (\frac{1}{\beta} \right)  \, ,
+\eeq
+%
+\noindent and the eigenvalue ${\cal P}^{(2)}$ is determined by the formula~(\ref{eq:kappa2}). 
+Vector $r^{(3)}_{\alpha} =  O \left (1/\beta^2\right)$, and, therefore, under the 
+conditions under consideration, cannot participate in the description of the polarization 
+properties of the photon.
+
+It should be noted that the obtained eigenvectors~(\ref{eq:r132}) % and~(\ref{eq:r20}) 
+of the polarization 
+operator in a charge-symmetric plasma are not normalized. Therefore, to describe the polarization states of 
+photons in such a plasma, it is convenient to introduce normalized vectors
+
+%
+\beq
+\label{eq:epsilon}
+%&&
+\varepsilon_\alpha^{(1)}(q) = \frac{r^{(1)}_{\alpha}}{\sqrt{|(r^{(1)} r^{*(1)})|}} = 
+\frac{(q \varphi)_\alpha}{\sqrt{q_{\mprp}^2}} \, , \quad
+%\\
+%\nonumber
+%&&
+\varepsilon_\alpha^{(2)}(q) = \frac{r^{(2)}_{\alpha}}{\sqrt{|(r^{(2)} r^{*(2)})|}} = 
+\frac{(q \tilde \varphi)_\alpha}{\sqrt{q_{\mprl}^2}}.
+\eeq
+\noindent Here symbols 1 and 2 correspond to the
+$X$ - and $O$ - modes commonly used in the literature~(see, for example,~\cite{Mushtukov2016}).
+
+It is easy to see that the polarization states introduced in this way in a magnetized 
+plasma, with an accuracy of $O(1/\beta^2)$ and $O(\alpha^2)$, have the same form as in a magnetized
+vacuum~\footnote{The term <<magnetized vacuum>>
+means a magnetic field without plasma.}. This conclusion agrees with the results of the 
+work~\cite{Shabad1988}, and in the limit of $\omega \ll m$, after appropriate transformations 
+(selection of the spatial
+part of the vector $\varepsilon^{(2)}_\alpha$ and transition to a coordinate system where 
+the photon momentum vector
+is directed along the $z$ axis), with the results of the work~\cite{Potekhin2004}.
+
+
+Moreover, in the $O(1/\beta)$ approximation, the dispersion law of the photon of mode 1 is 
+practically no different from the vacuum law, $q^2 \simeq 0$. Indeed, from the dispersion equation 
+for this mode
+%
+\beq
+q^2 - {\cal P}^{(1)} = 0 \, 
+\label{disper1}
+\eeq
+\noindent and from the formula~(\ref{eq:kappa10}) it follows that
+%
+\beq
+q_{\mprl}^2 = \left (1- \frac{\alpha}{3\pi} \frac{1}{1-\frac{\alpha}{3\pi} \cal V} \right) \, q_{\mprp}^2  
+\simeq q_{\mprp}^2 \left (1- \frac{\alpha}{3\pi} \right)\, , 
+\label{disper12}
+\eeq
+\noindent so that $q^2 \simeq 0$,
+while remaining negative. In addition, it follows from formula~(\ref{eq:kappa10}) that in
+the region $q^2_{\mprl} \ll (m+\sqrt{m^2+2 \beta})^2$ the eigenvalue of the polarization
+operator of the photon corresponding to mode 1 has no imaginary part~\footnote{Strictly speaking, 
+the imaginary part
+turns out to be strongly suppressed, compared to the real part, so that such a photon will be quasi-stable
+(see, for example,~\cite{Yarkov2022}).}, which leads to the impossibility
+of the production of an $e^+e^-$ pair by such a photon in this region.
+
+On the other hand, the dispersion properties of the mode 2 photon undergo significant changes even
+in comparison with a magnetized vacuum and, therefore, will have an additional effect
+on the kinematics of processes involving photons of this mode. Let us consider this statement in more detail.
+In Fig.~\ref{fig:disT}, as an illustration, the dispersion laws of the mode 2 photon are presented 
+for the case when the photon propagates across the magnetic field,
+as solutions of the equation
+%
+\beq
+q^2 - {\cal P}^{(2)} = 0 \, 
+\label{disper}
+\eeq
+\noindent in charge-symmetric ($\mu=0$) magnetized plasma for different temperature values.
+As is easy to see, in contrast to a pure magnetic field, in plasma there is a region with $q^2 > 0$ 
+below the kinematic threshold of $e^+e^-$ pair production, determined by the condition $q^2_{\mprl} = 4 m^2$.
+
+This fact is associated with the appearance of a plasma frequency in the presence of real electrons and 
+positrons of the medium, which can be determined from the equation
+%
+\begin{equation}
+\omega_{pl}^2 - {\cal P}^{(2)} (\omega_{pl}, {\mathbf k} \to 0 ) = 0.
+\label{eq:omegapl}
+\end{equation}
+
+In the case of a strongly magnetized charge-symmetric, non-relativistic plasma, equation~(\ref{eq:omegapl}) 
+can be solved approximately. As a result, we obtain the classical result 
+$\omega_{pl}^2 \simeq 2(4\pi \alpha n_{e})/m$ (the factor 2 is due to the equality of 
+the number of electrons and positrons), where
+%
+\begin{eqnarray}
+n_{e} \simeq \beta \sqrt{\frac{mT}{(2\pi)^3}}\,e^{-m/T}.
+\label{eq:ne}
+\end{eqnarray}
+\noindent Thus, the $\omega_{pl}$ for charge-symmetric plasma is exponentially suppressed.
+ On the other hand, in charge-asymmetric plasma such suppression is absent and
+$\omega_{pl}^2 \simeq (2\alpha \beta/\pi)v_F$.
+
+However, even in a charge-symmetric plasma for a temperature of $T=50$ keV and a magnetic 
+field of $B=200 B_e$ we obtain the following estimate: $\omega_{pl} \simeq 3$ keV, which can affect 
+the kinematics of various photon processes.
+For example, for one of the main reactions for the production of polarized photons, which is the process 
+of splitting a photon into two photons, $\gamma \to \gamma \gamma$, the presence of a plasma frequency 
+leads to new selection rules for polarizations: in the region below the threshold for the production of
+$e^+e^-$ pairs, $q^2_{\mprl} = 4 m^2$ and in the region $q^2 > 0$, the splitting channels responsible 
+for the production of mode 2 photons,
+$\gamma_2 \to \gamma_2 \gamma_2$,
+$\gamma_1 \to \gamma_2 \gamma_2$ and $\gamma_1 \to \gamma_1 \gamma_2$ are kinematically closed. 
+In this region, only the channel $\gamma_2 \to \gamma_1 \gamma_1$
+responsible for the production of mode 1 photons is allowed. Therefore, in this case, the leading 
+channel for the production of mode 2 photons will be the double Compton scattering process, 
+$e \gamma_2 \to e \gamma_2 \gamma_2$.
+
+
+
+\section{Amplitude of double Compton process}
+
+The amplitude of the process $e \gamma \to e \gamma \gamma$ in the tree approximation in 
+the case when all electrons 
+occupy the ground Landau level can be obtained from the results of the work~\cite{RumChistPuh2023} 
+and presented in the following form:
+%
+\beq
+\label{eq:ampl1}
+{\cal M}_{\lambda \to \lambda' \lambda''} =&& (4\pi \alpha)^{3/2}
+\exp \left [-\frac{i Q_x}{2 \beta}\Big( p_y+p'_y\Big) \right ]
+\exp \left [-\frac{q_{\mprp}^2+\prp{q}'^2 + q_{\mprp}^{\prime \prime \, 2}}{4 \beta} \right ]
+\times
+\\
+\nonumber
+\times &&
+\exp \left [\frac{i}{2 \beta}\Big( (q \varphi q')+(q \varphi q'')+(q'' \varphi q')\Big) \right ]
+\frac{\varepsilon^{(\lambda)}_{\alpha}(q)\varepsilon^{*(\lambda')}_{\beta}(q')
+\varepsilon^{*(\lambda'')}_{\gamma}(q'')\,T_{\alpha \beta \gamma}}
+{\left (q_{\mprl}^2 + 2(pq)_{\mprl} \right )
+\left (q_{\mprl}^{\prime \prime \, 2} + 2(p'q'')_{\mprl}\right )}  +
+\\
+\nonumber
++&&(\mbox{photons momenta permutations}),
+\eeq
+
+\noindent where
+\beq
+\nonumber
+T_{\alpha \beta \gamma} = &&\frac{2m}{\sqrt{-Q_{\mprl}^2}}\bigg \{ \varkappa^2 
+(Q \tilde \varphi)_\alpha (Q \tilde \varphi)_\beta (Q \tilde \varphi)_\gamma - 
+ \varkappa \Big [(Q \tilde \varphi)_\gamma \big ((Q \tilde \Lambda)_\alpha (q \tilde \varphi)_\beta + 
+(Q \tilde \varphi)_\alpha (q \tilde \Lambda)_\beta + 
+\\
+\nonumber
++&&
+(Q \tilde \varphi)_\alpha (q'' \tilde \Lambda)_\beta \big) + 
+(Q \tilde \varphi)_\alpha (q'' \tilde \varphi)_\beta (Q \tilde \Lambda)_\gamma
+- Q^2_{\mprl} \tilde \varphi_{\alpha \gamma} (Q \tilde \varphi)_\beta \Big]  + 
+\\
+\nonumber
++&&(Q \tilde \varphi)_\gamma 
+\Big [(q''\tilde \varphi)_\alpha (q \tilde \varphi)_\beta + 
+(q''\tilde \Lambda)_\alpha (q \tilde \Lambda)_\beta - (Q \tilde \Lambda)_\alpha 
+(q'' \tilde \Lambda)_\beta \Big ]+
+\\
+\nonumber
++&& (Q \tilde \Lambda)_\gamma 
+\Big [(q''\tilde \Lambda)_\alpha (q \tilde \varphi)_\beta + (q''\tilde \varphi)_\alpha 
+(q \tilde \Lambda)_\beta + 
+(Q\tilde \Lambda)_\alpha (q' \tilde \varphi)_\beta  
++ (Q \tilde \varphi)_\alpha (q \tilde \Lambda)_\beta\Big ] 
+\bigg \} \, ,
+\eeq
+\noindent $Q_{\alpha} = (q - q' - q'')_{\alpha}$, $\varkappa = \sqrt{1 - 4m^2/Q^2_{\mprl}}$ and
+$Q^2_{\mprl} = (q - q' - q'')^2_{\mprl} <0$,
+$q_{\alpha} = (\omega,{\bf k})$, $q'_{\alpha} = (\omega',{\bf k'})$  and  $q''_{\alpha} = (\omega'',{\bf k''})$
+are the four-momenta of the initial and final photons correspondingly, $p_y$ and $p'_y$ are the 
+momenta components of the initial and final electrons correspondingly.
+
+Substituting into (\ref{eq:ampl1}) the polarization vectors from (\ref{eq:epsilon}), 
+in the limit $\omega, \, \omega', \, \omega'' \ll m \ll \sqrt{\beta}$ we obtain the following 
+expression for the amplitude of the leading scattering channel in the <<symmetric>> form
+%
+%
+\beq
+\label{eq:amp222}
+{\cal M}_{2 \to 22} \simeq  - \frac{2 (4 \pi \alpha)^{3/2}}{m} \; 
+\frac{\sqrt{q^2_{\mprl} q^{\prime \, 2}_{\mprl} 
+q^{\prime \prime \, 2}_{\mprl}}}{\omega \omega^{\prime} 
+\omega^{\prime \prime}} \;  \, \left \{\frac{q_z}{\omega} + 
+\frac{q_z^{\prime}}{\omega^{\prime}} + \frac{q_z^{\prime \prime}}{\omega^{\prime \prime}}\right \} \, .
+\eeq
+\noindent where $\theta$, $\theta'$ and $\theta''$ 
+are the angles between photon momenta, ${\bf k}$, ${\bf k}'$ and ${\bf k}''$ and
+the direction of the magnetic field, respectively.
+
+
+\section{Efficiency of photon production in a strongly magnetized medium}
+
+
+ To analyze the efficiency of mode 2 photon production, we write the kinetic equation taking into 
+account the processes of Compton and double Compton scattering in the following form: 
+\footnote{Without a magnetic field a similar 
+equation was obtained in~\cite{Kellner1984}.}
+%
+\begin{eqnarray}
+\label{eq:kinet1}
+\frac{\partial f_{\omega, \theta}}{\partial t} = St_{scat}f_{\omega, \theta} + St_{cr}f_{\omega, \theta} \, .
+\end{eqnarray}
+\noindent Here
+%
+\begin{eqnarray}
+\label{eq:kinet2}
+&&St_{scat}f_{\omega,\theta} = \int dW_{2\to 2} \big \{[1-f_{-}(p)]f_{-}(p')
+(1+f_{\omega, \theta})f_{\omega', \theta'} - 
+\\
+\nonumber
+&& -
+ [1-f_{-}(p')]f_{-}(p)(1+f_{\omega', \theta'})f_{\omega, \theta}\big \}
+\end{eqnarray}
+\noindent is the collision integral due to Compton scattering in a strongly magnetized plasma,
+%
+\begin{eqnarray}
+\label{eq:kinet3}
+dW_{2\to2} \simeq \frac{\beta}{16 (2\pi)^4
+\omega}
+\mid {\cal M}_{2\to 2}\mid^2 \,
+\delta (\omega + E - \omega' - E') 
+\frac{dp_z\,d^3 k^{'} d^3 k^{''}}{ E E' \omega'} \, ,
+\end{eqnarray} 
+\noindent where $E = \sqrt{p_z^2 + m^2}$ and $E' = \sqrt{(p_z + q_z - q'_z)^2
++ m^2}$ are the energies of the initial and final electrons correspondingly and $f_{-}(p)$  $(f_{-}(p'))$
+are determined by the formula~(\ref{eq:fermidist}), $f_{\omega, \theta}$ is a nonequilibrium 
+photon distribution function,
+%
+\begin{eqnarray}
+\label{eq:kinet4}
+{\cal M}_{2\to 2} \simeq -8 \pi \alpha \frac{\sqrt{q^2_{\mprl} q^{\prime \, 2}_{\mprl}}}
+{\omega \omega^{\prime}}
+\end{eqnarray} 
+\noindent is the scattering amplitude of mode 2 photons in the limit 
+$\omega, \, \omega' \ll m \ll \sqrt{\beta}$~\cite{RCh09},
+%
+\begin{eqnarray}
+\label{eq:kinet5}
+&&St_{cr}f_{\omega, \theta} = \int dW_{2\to 22} \big \{[1-f_{-}(p)]f_{-}(p')
+(1+f_{\omega, \theta})f_{\omega' ,\theta'}f_{\omega'', \theta''} - 
+\\
+\nonumber
+&&-[1-f_{-}(p')]f_{-}(p)(1+f_{\omega',\theta'})(1+f_{\omega'', \theta''})f_{\omega, \theta}\big \}
+\end{eqnarray}
+\noindent is the collision integral due to double Compton scattering,
+%
+\begin{eqnarray}
+\label{eq:abs1}
+dW_{2\to 22} \simeq \frac{\beta}{64 (2\pi)^7
+\omega}
+ \mid {\cal M}_{2\to 22}\mid^2  \,
+\delta (\omega + E - \omega' -\omega''- E') 
+\frac{dp_z\,d^3 k^{'} d^3 k^{''}}{ E E' \omega' \omega''} \, ,
+\end{eqnarray}
+\noindent where $E = \sqrt{p_z^2 + m^2}$ and
+$E' = \sqrt{(p_z - k_z - k'_z - k''_z)^2 + m^2}$ -- energies of initial and final electrons
+correspondingly and the amplitude ${\cal M}_{2\to 22}$ is determined by the formula~(\ref{eq:amp222}).
+
+
+Before looking for a solution to the equation~(\ref{eq:kinet1}), let's make the following assumptions.
+Since the scattering cross section of mode 1 photons in a strongly magnetized plasma is suppressed by 
+the  inverse value of the magnetic field, and hence their mean free path significantly exceeds the mean 
+free path of mode 2 photons (see, for example~\cite{RChSt:2012,RCh09}), then mode 1 photons can 
+freely escape from the region 
+(scale of the mean free path of mode 1) occupied by the plasma. Therefore, we can ignore the processes in which mode 1 
+is involved, even if $\omega_{pl} \to 0$.
+
+In addition, the second term on the right-hand side of the 
+equation~(\ref{eq:kinet1}) is obviously much smaller than the first, so we 
+can search for a solution to the equation~(\ref{eq:kinet1}) in the form of successive approximations:
+%
+\beq
+\label{eq:solv}
+f_{\omega, \theta} = f_{\omega, \theta}^{(0)} + f_{\omega, \theta}^{(1)} + \ldots \, .
+\eeq
+
+Substituting~(\ref{eq:solv}) in~(\ref{eq:kinet1})  and integrating over $d^3k/(2\pi)^3$, 
+taking into account the conservation of the number of photons in 
+the Compton process, we obtain the number of photons of mode 2 produced per unit volume, per unit time 
+in the form
+%
+\beq
+\label{eq:photnumb}
+\frac{d N}{d V d t} = \int \frac{d^3 k}{(2\pi)^3} St_{cr}f_{\omega, \theta}^{(0)} \, , 
+\eeq
+\noindent where $f_{\omega, \theta}^{(0)}$ is the solution to the equation
+%
+\beq
+\label{eq:solv0}
+\frac{\partial f_{\omega, \theta}^{(0)}}{\partial t} = St_{scat}f_{\omega, \theta}^{(0)} \, . 
+\eeq
+
+
+
+It should also be noted that mode 2 photons will fairly quickly come into equilibrium with the electron plasma, 
+so that the distribution function can be considered almost isotropic, 
+$f_{\omega, \theta}^{(0)} \simeq f_{\omega}^{(0)}$ and does not depend on time. In this case, in the limit 
+of non-relativistic plasma the equation~(\ref{eq:solv0}) becomes a stationary 
+Kompaneets-type equation~\cite{Kompaneets1957}:
+%
+\beq
+\label{eq:komp}
+ \frac{\partial f_{\omega}^{(0)}}{\partial x} + f_{\omega}^{(0)} (1 + f_{\omega}^{(0)}) = \frac{Q}{x^4} \, ,
+\eeq
+\noindent where $x=\omega/T$, $Q$ is a flow of photons in momentum space.
+
+The equation~(\ref{eq:komp}) has a particular solution~\cite{Dub2009}:
+%
+\beq
+\label{eq:statsolv}
+f_{\omega, Q}^{(0)} = \frac{1-x}{2 x} - \frac{4x}{(x^2-1)^2} 
+\frac{\mathrm{HeunD}^{\prime}\left(0,\, -Q-1/2, \, 2Q -1/2,\,-Q,\,y \right)}
+{\mathrm{HeunD}\left(0,\, -Q-1/2, \, 2Q -1/2,\,-Q,\,y \right)} \, ,
+\eeq
+\noindent where $\mathrm{HeunD}\left(a,\, b, \, c,\,d,\,y \right)$ is the double confluent Heun 
+function of the argument $y$, satisfying the equation
+\beq
+\label{eq:heuneq}
+\mathrm{HeunD}^{\prime \prime} - \frac{a (y^2+1)-2y(y^2-1)}{(y^2-1)^2} \, \mathrm{HeunD}^{\prime} + 
+\frac{b y^2 + (c+2a)y+d}{(y^2-1)^3} \, \mathrm{HeunD}   = 0 \, ,
+\eeq
+\noindent $\mathrm{HeunD}^{\prime} \equiv \frac{d\mathrm{HeunD}\left(a,\, b, \, c,\,d,\,y \right)}{dy}$, 
+$y=(x^2+1) (x^2-1)^{-1}$.
+
+Substituting~(\ref{eq:kinet5}) into~(\ref{eq:photnumb}), taking into account~(\ref{eq:amp222}), 
+after simple integration, in the leading approximation over $\omega_{pl}$, we obtain
+%
+\beq
+\label{eq:photnumb1}
+\frac{d N}{d V d t} =  \frac{8\alpha^3 n_e T^5}{45 \pi^2 m^4} J(Q) \, ,
+%\simeq 1.5 \cdot 10^{16} \, \left(\frac{1}{\mbox{cm}^3\, \mbox{c}} \right) \, 
+%\left(\frac{n_e}{3 \cdot 10^{13}\,\mbox{cm}^{-3}} \right) \, \left(\frac{T}{5\, \mbox{keV}} \right)^5 J(Q)\, ,
+\eeq
+where 
+%
+\beq
+\label{eq:J1}
+J(Q) = \int\limits_{0}^{\infty} dx\, x 
+\int\limits_{0}^{x} dx' \, x' (x-x') \big \{f_{\omega',Q}^{(0)}f_{\omega-\omega',Q}^{(0)} -f_{\omega,Q}^{(0)} -2
+f_{\omega,Q}^{(0)} f_{\omega',Q}^{(0)} \big \} \, , \quad  x'=\omega'/T \, . 
+\eeq
+Taking into account the solution~(\ref{eq:statsolv}), the integral~(\ref{eq:J1}) for different values 
+of the parameter $Q$ can be estimated numerically. 
+ We obtained the following approximation $J(Q)\simeq 17.64 Q$. As a result we get
+%
+\beq
+\label{eq:photnumb2}
+\frac{d N}{d V d t} 
+\simeq 2.6 \cdot 10^{17} Q \, \left(\frac{1}{\mbox{cm}^3\, \mbox{c}} \right) \, 
+\left(\frac{n_e}{3 \cdot 10^{13}\,\mbox{cm}^{-3}} \right) \, \left(\frac{T}{5\, \mbox{keV}} \right)^5 \, .
+\eeq
+
+Using the results of the work~\cite{LightmanApJ1981}, we present for comparison an estimate for
+the number of photons produced in the process
+$e \gamma \to e \gamma \gamma$ in an isotropic plasma without a magnetic field for $T=5$ keV and
+$n_e=3 \cdot 10^{13}\,\mbox{cm}^{-3}$:
+%
+\begin{eqnarray}
+\label{eq:numbervac}
+\frac{d N^{vac}}{d V d t} \simeq  2 \, \frac{16 \alpha^3 n_e T^5}{3 \pi^2 m^4} \,
+\int\limits_{2 \omega_{pl}/T}^{\infty} \frac{d x \, x^4}{e^x-1} 
+ \left [\frac{2}{3} \ln{\left(\frac{2 T x}{\omega_{pl}}\right )} - 1 \right] \simeq
+ 2.8 \cdot 10^{20} \, \left(\frac{1}{\mbox{cm}^3\, \mbox{c}} \right)  \, .
+\end{eqnarray}
+
+As can be seen from the obtained results, the efficiency of photon production in plasma without a magnetic field
+will be three orders of magnitude higher than in magnetized plasma. This may be due to the fact that
+the magnetic field, affecting the amplitude of the double Compton
+process~(\ref{eq:amp222}), eliminates the infrared divergence that occurs in the amplitude calculated
+without a magnetic field.
+Nevertheless, the reaction under consideration can serve as a fairly efficient mechanism
+for producing polarized photons in the presence of a strongly magnetized plasma.
+
+\section{Conclusion}
+
+The double Compton process $e\gamma\to e\gamma\gamma$ is considered,
+in the presence of a strongly magnetized nonrelativistic plasma.
+Under these conditions, changes in the dispersion and polarization properties of photons are investigated.
+It is shown that under such conditions,
+the photon polarization vectors will remain the same as in a pure magnetic field.
+Analysis of the dispersion law showed that in a cold, strongly magnetized plasma,
+the process of double Compton scattering can become an effective mechanism for obtaining polarized photons.
+As a consequence, this fact can affect the formation of the emission spectra of
+strongly magnetized neutron stars.
+An estimate is obtained for the number of mode 2 photons produced in the process
+$e \gamma \to e \gamma \gamma$ in the magnetosphere of a strongly magnetized neutron star. It is shown that 
+the double Compton scattering process can be an efficient mechanism for producing polarized photons in the 
+presence of a strongly magnetized plasma.
+
+
+
+%
+% Список литературы
+%
+\begin{thebibliography}{99}
+\bibitem{Olausen:2013bpa}
+%\refitem{article}
+S.~A.~Olausen and  V.~M.~Kaspi, Astrophys. J. Suppl. \textbf{212}, 6 (2014).
+%
+\bibitem{GJ:1969}
+%\refitem{article}
+P.~Goldreich and W.~H.~Julian, Astrophys. J. \textbf{157}, 869 (1969). 
+%
+\bibitem{Suleimanov:2007it}
+%\refitem{article}
+V.~Suleimanov and K.~Werner, Astron. Astrophys. \textbf{466}, 661 (2007).
+%
+\bibitem{RChSt:2012}
+%\refitem{article}
+M.~V.~Chistyakov, D.~A.~Rumyantsev, and N.~S.~Stus', Phys. Rev. D  \textbf{86}, 043007 (2012).
+%
+\bibitem{RumChistShlen:2016}
+%\refitem{article}
+M.~V.~Chistyakov, D.~A.~Rumyantsev, and D.~M.~Shlenev, EPJ Web Conf. \textbf{125}, 04017 (2016).
+%\refitem{article}
+%
+\bibitem{LightmanApJ1981}
+A.~P.~Lightman, Astrophys. J. \textbf{244}, 392 (1981).
+%\refitem{article}
+\bibitem{Kellner1984}
+S.~R.~Kel'ner  and E.~S.~Shikhovtseva, Pis'ma Astron. Zh. \textbf{10}, 76 (1984). 
+%
+\bibitem{RumChistPuh2023}
+D.~A.~Rumyantsev, A.~A.~Yarkov, M.~V.~Chistyakov, and T.~A.~Pukhov, 
+ Physics of Atomic Nuclei  \textbf{86}, 589 (2023).
+%
+\bibitem{Potekhin2004}
+A.~Y.~Potekhin, D.~Lai, G.~Chabrier, and Wynn~C.~G.~Ho, Astrophys. J. \textbf{612}, 1034 (2004). 
+%
+\bibitem{Shabad1988}
+A.~E.~Shabad, Tr. Fiz. Inst. Akad. Nauk SSSR \textbf{192}, 5 (1988).
+%
+\bibitem{Mikheev2014}
+   N.~V.~Mikheev, D.~A.~Rumyantsev, M.~V.~Chistyakov, 
+   Zh.~Eksp.~Teor.~Fiz. \textbf{146}, 289 (2014) [J.~Exp.~Theor.~Phys. \textbf{119}, 251 (2014)].
+%
+\bibitem{Mushtukov2016}
+A.~A.~Mushtukov, D.~I.~Nagirner, and J.~Poutanen, Phys. Rev. D  \textbf{93}, 105003 (2016).
+%
+\bibitem{Yarkov2022}
+A.~A.~Yarkov, D.~A.~Rumyantsev, and  M.~V.~Chistyakov, Physics of Atomic Nuclei \textbf{85}, 1566 (2022).
+%
+\bibitem{RCh09}
+M.~V.~Chistyakov and D.~A.~Rumyantsev, Int. J. Mod. Phys. A  \textbf{24}, 3995 (2009).
+%
+%\bibitem{KuzRumShlen:2015}
+%A.~V.~Kuznetsov, D.~A.~Rumyantsev, and D.~M~Shlenev, Int. J. Mod. Phys. A  \textbf{30}, 1550049 (2015).
+%
+\bibitem{Kompaneets1957}
+A.~S.~Kompaneets, Zh.~Eksp.~Teor.~Fiz. \textbf{4}, 876 (1957).
+%
+\bibitem{Dub2009}
+A.~E.~Dubinov, Pis'ma v Zh. Tekh. Fiz.  \textbf{35}, 25 (2009). 
+%[Technical Physics Letters \textbf{35}, 25 (2009)].
+\end{thebibliography}
+%
+%
+\newpage
+%Рисунок в статью можно включить при помощи окружения figure:
+\begin{figure}
+\setcaptionmargin{5mm}
+\onelinecaptionstrue
+\includegraphics{fig_1.eps} % Так вставляется рисунок
+\captionstyle{normal}
+\caption{Dispersion laws of the mode 2 photon in a strong magnetic field $B/B_e = 200$
+and neutral plasma for different temperatures: $T = 1$ MeV
+(upper curve), $T = 0.5$ MeV (middle curve), $T = 0.25$ MeV (lower curve).
+The dispersion of the photon without plasma is indicated by the dashed line. The diagonal dashed
+line corresponds to the vacuum dispersion law, $q^2 = 0$.
+The angle between the photon momentum and the direction of the magnetic field is $\pi/2$.}
+\label{fig:disT}
+\end{figure}
+
+
+
+\end{document}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Character code reference %%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                             %
+%     Upper case russian letters (CP866): АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ   %                                                                       %
+%     Lower case russian letters (CP866): абвгдеёжзийклмнопрстуфхцчшщъыьэюя   %
+%                     Upper case letters: ABCDEFGHIJKLMNOPQRSTUVWXYZ          %
+%                     Lower case letters: abcdefghijklmnopqrstuvwxyz          %
+%                                   Digits: 0123456789                        %
+% Square, curly, angle braces, parentheses: [] {} <> ()                       %
+%                Backslash, slash, solidus: \ / |                             %
+%       Period, interrogative, exclamation: . ? !                             %
+%                 Comma, colon, semi-colon: , : ;                             %
+%          Underscore, hyphen, equals sign: _ - =                             %
+%             Quotes (left, right, double): ` ' "                             %
+%     Commercial-at, hash, dollar, percent: @ # $ %                           %
+%  Ampersand, asterisk, plus, caret, tilde: & * +   ^                         %
+%                                                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% ****** End of file apssampr.tex ******
