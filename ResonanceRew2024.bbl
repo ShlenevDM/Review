@@ -41,13 +41,13 @@
 
 \bibitem{Sokolov:1968}
 \selectlanguageifdefined{russian}
-\BibEmph{Соколов~.~., Тернов~.~.} Синхротронное излучение.
+\BibEmph{Соколов~А.~А., Тернов~И.~М.} Синхротронное излучение.
 \newblock М.: Наука, 1966.
 \newblock 228~{\cyr\cyrs.}
 
 \bibitem{KuzMih:2000}
 \selectlanguageifdefined{russian}
-\BibEmph{Кузнецов~.~., Михеев~.~.} {Взаимодействие нейтрино с сильно
+\BibEmph{Кузнецов~А.~В., Михеев~М.~В.} {Взаимодействие нейтрино с сильно
   замагниченной электрон-позитронной плазмой}~// \BibEmph{ЖЭТФ}.
 \newblock {2000}.
 \newblock {\cyr\CYRT.} {118}, {\cyr\textnumero}~{4}.
@@ -55,9 +55,9 @@
 
 \bibitem{Bisnovatyi:1979}
 \selectlanguageifdefined{russian}
-\BibEmph{Бисноватый-Коган~.~., Чечеткин~.~.} {Неравновесные оболочки нейтронных
-  звезд, их роль в поддержании рентгеновского излучения и нуклеосинтезе}~//
-  \BibEmph{Усп. физ. наук}.
+\BibEmph{Бисноватый-Коган~Г.~С., Чечеткин~В.~М.} {Неравновесные оболочки
+  нейтронных звезд, их роль в поддержании рентгеновского излучения и
+  нуклеосинтезе}~// \BibEmph{Усп. физ. наук}.
 \newblock {1979}.
 \newblock {\cyr\CYRT.} {127}, {\cyr\textnumero}~{2}.
 \newblock {\cyr\CYRS.}~{263--296}.
@@ -131,7 +131,7 @@
 
 \bibitem{Sokolov:1986}
 \selectlanguageifdefined{russian}
-\BibEmph{Соколов~.~., Тернов~.~.} Релятивистский электрон.
+\BibEmph{Соколов~А.~А., Тернов~И.~М.} Релятивистский электрон.
 \newblock Москва: Наука, 1983.
 \newblock 304~{\cyr\cyrs.}
 
@@ -169,13 +169,14 @@
 
 \bibitem{Peskin:1995}
 \selectlanguageifdefined{russian}
-\BibEmph{Пескин~., Шредер~.} Введение в квантовую теорию поля.
+\BibEmph{Пескин~М., Шредер~Д.} Введение в квантовую теорию поля.
 \newblock Ижевск: РХД, 2001.
 \newblock 784~{\cyr\cyrs.}
 
 \bibitem{Landau:1989}
 \selectlanguageifdefined{russian}
-\BibEmph{Ландау~.~., Лифшиц~.~.} Квантовая механика. Нерелятивисткая теория.
+\BibEmph{Ландау~Л.~Д., Лифшиц~Е.~М.} Квантовая механика. Нерелятивисткая
+  теория.
 \newblock Москва: Наука, 1989.
 \newblock 768~{\cyr\cyrs.}
 
@@ -246,7 +247,7 @@
 
 \bibitem{Gradstein:1963}
 \selectlanguageifdefined{russian}
-\BibEmph{Градштейн~.~., Рыжик~.~.} Таблицы интегралов, сумм, рядов и
+\BibEmph{Градштейн~И.~С., Рыжик~И.~М.} Таблицы интегралов, сумм, рядов и
   произведений.
 \newblock Москва: Гос. изд-во физ.-мат. лит., 1963.
 \newblock 1108~{\cyr\cyrs.}
@@ -261,7 +262,7 @@
 
 \bibitem{Ritus1969}
 \selectlanguageifdefined{russian}
-\BibEmph{Ритус~.~.} {Радиационные эффекты и их усиление в интенсивном
+\BibEmph{Ритус~В.~И.} {Радиационные эффекты и их усиление в интенсивном
   электромагнитном поле}~// \BibEmph{ЖЭТФ.}
 \newblock {1969}.
 \newblock {\cyr\CYRT.}~{57}, {\cyr\textnumero}~{6}.
@@ -277,16 +278,17 @@
 
 \bibitem{Borisov:1997}
 \selectlanguageifdefined{russian}
-\BibEmph{Борисов~.~., Вшивцев~.~., Жуковский~.~., Эминов~.~.} {Фотоны и лептоны
-  во внешних полях при конечных температуре и плотности}~// \BibEmph{УФН}.
+\BibEmph{Борисов~А.~В., Вшивцев~А.~С., Жуковский~В.~Ч., Эминов~П.~А.} {Фотоны и
+  лептоны во внешних полях при конечных температуре и плотности}~//
+  \BibEmph{УФН}.
 \newblock {1997}.
 \newblock {\cyr\CYRT.} {167}, {\cyr\textnumero}~{3}.
 \newblock {\cyr\CYRS.}~{241--267}.
 
 \bibitem{Zhukovski:1994}
 \selectlanguageifdefined{russian}
-\BibEmph{Жуковский~.~., Мидодашвили~.~., Эминов~.~.} {Мнимая часть массового
-  оператора электрона в постоянном поле при конечной температуре и
+\BibEmph{Жуковский~В.~Ч., Мидодашвили~П.~Г., Эминов~П.~А.} {Мнимая часть
+  массового оператора электрона в постоянном поле при конечной температуре и
   плотности}~// \BibEmph{ЖЭТФ}.
 \newblock {1994}.
 \newblock {\cyr\CYRT.} {106}, {\cyr\textnumero}~{4}.
@@ -302,7 +304,7 @@
 
 \bibitem{Shabad:1988}
 \selectlanguageifdefined{russian}
-\BibEmph{Шабад~.~.} Поляризация вакуума и квантового релятивистского газа во
+\BibEmph{Шабад~А.~Е.} Поляризация вакуума и квантового релятивистского газа во
   внешнем поле~// \BibEmph{Тр. ФИАН СССР ``Поляризационные эффекты во внешних
   калибровочных полях''}.
 \newblock 1988.
@@ -319,7 +321,7 @@
 
 \bibitem{Batalin:1971}
 \selectlanguageifdefined{russian}
-\BibEmph{Баталин~.~., Шабад~A.~E.} {Функция Грина фотона в постоянном
+\BibEmph{Баталин~И.~А., Шабад~A.~E.} {Функция Грина фотона в постоянном
   однородном электромагнитном поле общего вида}~// \BibEmph{ЖЭТФ}.
 \newblock {1971}.
 \newblock {\cyr\CYRT.}~{60}, {\cyr\textnumero}~{3}.
@@ -327,7 +329,7 @@
 
 \bibitem{Skobelev:1975}
 \selectlanguageifdefined{russian}
-\BibEmph{Скобелев~.~.} {Поляризационный оператор фотона в сверхсильном
+\BibEmph{Скобелев~В.~В.} {Поляризационный оператор фотона в сверхсильном
   магнитном поле}~// \BibEmph{{Изв. вузов. Физика}}.
 \newblock {1975}.
 \newblock {\cyr\textnumero}~{10}.
@@ -335,7 +337,7 @@
 
 \bibitem{Rojas1979r}
 \selectlanguageifdefined{russian}
-\BibEmph{Перес~Рохас~.} {Поляризационный оператор электрон-позитронного газа в
+\BibEmph{Перес~Рохас~У.} {Поляризационный оператор электрон-позитронного газа в
   постоянном внешнем магнитном поле}~// \BibEmph{ЖЭТФ}.
 \newblock {1979}.
 \newblock {\cyr\CYRT.}~{76}, {\cyr\textnumero}~{1}.
@@ -352,8 +354,8 @@
 
 \bibitem{MRCh:2014}
 \selectlanguageifdefined{russian}
-\BibEmph{Михеев~.~., Румянцев~.~., Чистяков~.~.} {Фоторождение нейтрино на
-  электроне в плотной замагниченной среде}~// \BibEmph{ЖЭТФ.}
+\BibEmph{Михеев~Н.~В., Румянцев~Д.~А., Чистяков~М.~В.} {Фоторождение нейтрино
+  на электроне в плотной замагниченной среде}~// \BibEmph{ЖЭТФ.}
 \newblock {2014}.
 \newblock {\cyr\CYRT.} {146}, {\cyr\textnumero}~{2}.
 \newblock {\cyr\CYRS.}~{289--296}.
@@ -366,14 +368,6 @@
 \newblock 1979.
 \newblock Vol. 121, no.~2.
 \newblock P.~432--464.
-
-\bibitem{Chistyakov:2009}
-\selectlanguageifdefined{english}
-\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A.} {Compton effect in strongly
-  magnetized plasma}~// \BibEmph{Int. J. Mod. Phys.}
-\newblock 2009.
-\newblock Vol. A24.
-\newblock P.~3995--4008.
 
 \bibitem{Adler:1971}
 \selectlanguageifdefined{english}
@@ -391,13 +385,15 @@
 \newblock Vol. D93, no.~10.
 \newblock P.~105003.
 
-\bibitem{RCh05}
-\selectlanguageifdefined{russian}
-\BibEmph{Румянцев~.~., Чистяков~.~.} {Влияние сильно замагниченной плазмы на
-  процесс расщепления фотона}~// \BibEmph{ЖЭТФ.}
-\newblock {2005}.
-\newblock {\cyr\CYRT.} {128}, {\cyr\textnumero}~{4}.
-\newblock {\cyr\CYRS.}~{740--751}.
+\bibitem{Potekhin:2004}
+\selectlanguageifdefined{english}
+\BibEmph{{Potekhin}~A.~Y., {Lai}~D., {Chabrier}~G., {Ho}~W. C.~G.}
+  {Electromagnetic Polarization in Partially Ionized Plasmas with Strong
+  Magnetic Fields and Neutron Star Atmosphere Models}~// \BibEmph{Astrophys.
+  J.}
+\newblock 2004.
+\newblock Vol. 612, no.~2.
+\newblock P.~1034--1043.
 
 \bibitem{Truemper1978}
 \selectlanguageifdefined{english}
@@ -444,8 +440,8 @@
 
 \bibitem{Gnedin1973}
 \selectlanguageifdefined{russian}
-\BibEmph{{Гнедин}~.~., {Сюняев}~.~.} Рассеяние излучения на тепловых электронах
-  в магнитном поле~// \BibEmph{Журн. эксперим. и теор. физ.}
+\BibEmph{{Гнедин}~Ю.~Н., {Сюняев}~Р.~А.} Рассеяние излучения на тепловых
+  электронах в магнитном поле~// \BibEmph{Журн. эксперим. и теор. физ.}
 \newblock 1973.
 \newblock {\cyr\CYRT.}~65, {\cyr\textnumero}~1.
 \newblock {\cyr\CYRS.}~102.
@@ -552,16 +548,6 @@
 \newblock Vol. 368, no.~2.
 \newblock P.~690--706.
 
-\bibitem{Potekhin:2004}
-\selectlanguageifdefined{english}
-\BibEmph{{Potekhin}~A.~Y., {Lai}~D., {Chabrier}~G., {Ho}~W. C.~G.}
-  {Electromagnetic Polarization in Partially Ionized Plasmas with Strong
-  Magnetic Fields and Neutron Star Atmosphere Models}~// \BibEmph{Astrophys.
-  J.}
-\newblock 2004.
-\newblock Vol. 612, no.~2.
-\newblock P.~1034--1043.
-
 \bibitem{Schonherr:2007}
 \selectlanguageifdefined{english}
 \BibEmph{{Sch{\"o}nherr}~G., {Wilms}~J., {Kretschmar}~P. et~al.} {A model for
@@ -633,8 +619,9 @@
 
 \bibitem{Rumyantsev:2017}
 \selectlanguageifdefined{russian}
-\BibEmph{Румянцев~.~., Шленев~.~., Ярков~.~.} {Резонансы в комптоноподобных
-  процессах рассеяния во внешней замагниченной среде}~// \BibEmph{ЖЭТФ.}
+\BibEmph{Румянцев~Д.~А., Шленев~Д.~М., Ярков~А.~А.} {Резонансы в
+  комптоноподобных процессах рассеяния во внешней замагниченной среде}~//
+  \BibEmph{ЖЭТФ.}
 \newblock {2017}.
 \newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
 \newblock {\cyr\CYRS.}~{483--494}.
@@ -648,9 +635,17 @@
 \newblock Vol. A30, no.~11.
 \newblock P.~1550049.
 
+\bibitem{Chistyakov:2009}
+\selectlanguageifdefined{english}
+\BibEmph{Chistyakov~M.~V., Rumyantsev~D.~A.} {Compton effect in strongly
+  magnetized plasma}~// \BibEmph{Int. J. Mod. Phys.}
+\newblock 2009.
+\newblock Vol. A24.
+\newblock P.~3995--4008.
+
 \bibitem{Landau:2002}
 \selectlanguageifdefined{russian}
-\BibEmph{Ландау~.~., Лифшиц~.~., Питаевский~.} Квантовая электродникамика.
+\BibEmph{Ландау~Л.~Д., Лифшиц~Е.~М., Питаевский~Л.} Квантовая электродникамика.
 \newblock 4 {\cyr\cyri\cyrz\cyrd.}
 \newblock Москва: ФИЗМАТЛИТ, 2002.
 \newblock {\cyr\CYRT.}~4.
@@ -677,7 +672,7 @@
 
 \bibitem{Klepikov:1954}
 \selectlanguageifdefined{russian}
-\BibEmph{Клепиков~.~.} {Излучение фотонов и электрон-позитронных пар в
+\BibEmph{Клепиков~Н.~П.} {Излучение фотонов и электрон-позитронных пар в
   магнитном поле}~// \BibEmph{ЖЭТФ.}
 \newblock {1954}.
 \newblock {\cyr\CYRT.}~{26}, {\cyr\textnumero}~{1}.
@@ -784,8 +779,8 @@
 
 \bibitem{Skobelev:2000}
 \selectlanguageifdefined{russian}
-\BibEmph{Скобелев~.~.} {Комптоновский механизм генерации нейтрино и аксионов на
-  эффективно-двумерном замагниченном ферми-газе}~// \BibEmph{ЖЭТФ}.
+\BibEmph{Скобелев~В.~В.} {Комптоновский механизм генерации нейтрино и аксионов
+  на эффективно-двумерном замагниченном ферми-газе}~// \BibEmph{ЖЭТФ}.
 \newblock {2000}.
 \newblock {\cyr\CYRT.} {117}, {\cyr\textnumero}~{6}.
 \newblock {\cyr\CYRS.}~{1059--1066}.
@@ -800,7 +795,7 @@
 
 \bibitem{RCh:2008}
 \selectlanguageifdefined{russian}
-\BibEmph{Румянцев~.~., Чистяков~.~.} {Влияние фотон-нейтринных процессов на
+\BibEmph{Румянцев~Д.~А., Чистяков~М.~В.} {Влияние фотон-нейтринных процессов на
   остывание магнитара}~// \BibEmph{ЖЭТФ.}
 \newblock {2008}.
 \newblock {\cyr\CYRT.} {134}, {\cyr\textnumero}~{4}.
@@ -808,7 +803,7 @@
 
 \bibitem{Borisov:2012}
 \selectlanguageifdefined{russian}
-\BibEmph{Борисов~.~., Керимов~.~., Сизин~.~.} {Слабый и электромагнитный
+\BibEmph{Борисов~А.~В., Керимов~Б.~К., Сизин~П.~Е.} {Слабый и электромагнитный
   механизмы фоторождения нейтринных пар в сильно замагниченном электронном
   газе}~// \BibEmph{Ядерная физика.}
 \newblock {2012}.
@@ -817,7 +812,7 @@
 
 \bibitem{RumChMik}
 \selectlanguageifdefined{russian}
-\BibEmph{{Михеев}~.~., {Румянцев}~.~., {Чистяков}~.~.}
+\BibEmph{{Михеев}~Н.~В., {Румянцев}~Д.~А., {Чистяков}~М.~В.}
 \newblock Фоторождение нейтрино на электроне в плотной замагниченной среде.
 \newblock 2014.
 
@@ -841,8 +836,9 @@
 
 \bibitem{Gvozdev:2002}
 \selectlanguageifdefined{russian}
-\BibEmph{Гвоздев~.~., Огнев~.~.} {Процессы взаимодействия нейтрино с нуклонами
-  оболочки коллапсирующей звезды с сильным магнитным полем}~// \BibEmph{ЖЭТФ}.
+\BibEmph{Гвоздев~А.~А., Огнев~И.~С.} {Процессы взаимодействия нейтрино с
+  нуклонами оболочки коллапсирующей звезды с сильным магнитным полем}~//
+  \BibEmph{ЖЭТФ}.
 \newblock {2002}.
 \newblock {\cyr\CYRT.} {121}, {\cyr\textnumero}~{6}.
 \newblock {\cyr\CYRS.}~{1219--1234}.
@@ -889,7 +885,7 @@
 
 \bibitem{MikhChist:2001}
 \selectlanguageifdefined{russian}
-\BibEmph{Михеев~.~., Чистяков~.~.} {Затухание фотона в результате рождения
+\BibEmph{Михеев~Н.~В., Чистяков~М.~В.} {Затухание фотона в результате рождения
   электрон-позитронной пары в сильном магнитном поле}~// \BibEmph{Письма в
   ЖЭТФ}.
 \newblock {2001}.
@@ -905,7 +901,7 @@
 
 \bibitem{Kirzhnits:1987}
 \selectlanguageifdefined{english}
-\BibEmph{Киржниц~.~.} Общие свойства электромагнитных функций отклика~//
+\BibEmph{Киржниц~Д.~А.} Общие свойства электромагнитных функций отклика~//
   \BibEmph{Усп. физ. наук}.
 \newblock 1987.
 \newblock Vol. 152, no.~7.
@@ -913,8 +909,8 @@
 
 \bibitem{Landau:2001}
 \selectlanguageifdefined{russian}
-\BibEmph{Ландау~.~., Лифшиц~.~., Питаевский~.~.} Теоретическая физика: ч. 2.
-  Статистическая физика. Теория конденсированного состояния.
+\BibEmph{Ландау~Л.~Д., Лифшиц~Е.~М., Питаевский~Л.~П.} Теоретическая физика: ч.
+  2. Статистическая физика. Теория конденсированного состояния.
 \newblock ФИЗМАТЛИТ, 2001.
 \newblock {\cyr\CYRT.}~IX.
 \newblock 496~{\cyr\cyrs.}
