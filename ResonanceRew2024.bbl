@@ -834,32 +834,6 @@
 \newblock Vol. 158.
 \newblock P.~05008.
 
-\bibitem{Gvozdev:2002}
-\selectlanguageifdefined{russian}
-\BibEmph{Гвоздев~А.~А., Огнев~И.~С.} {Процессы взаимодействия нейтрино с
-  нуклонами оболочки коллапсирующей звезды с сильным магнитным полем}~//
-  \BibEmph{ЖЭТФ}.
-\newblock {2002}.
-\newblock {\cyr\CYRT.} {121}, {\cyr\textnumero}~{6}.
-\newblock {\cyr\CYRS.}~{1219--1234}.
-
-\bibitem{Kostenko:2018}
-\selectlanguageifdefined{english}
-\BibEmph{{Kostenko}~A., {Thompson}~C.} {QED Phenomena in an Ultrastrong
-  Magnetic Field. I. Electron-Photon Scattering, Pair Creation, and
-  Annihilation}~// \BibEmph{Astrophys. J.}
-\newblock 2018.
-\newblock Vol. 869, no.~1.
-\newblock P.~44 (1--19).
-
-\bibitem{Philippov_2020}
-\selectlanguageifdefined{english}
-\BibEmph{Philippov~A., Timokhin~A., Spitkovsky~A.} Origin of Pulsar Radio
-  Emission~// \BibEmph{Physical Review Letters}.
-\newblock 2020.
-\newblock Vol. 124, no.~24.
-\newblock P.~245101.
-
 \bibitem{Sturrock:1971}
 \selectlanguageifdefined{english}
 \BibEmph{Sturrock~C.~A.} {A model of pulsars}~// \BibEmph{Astrophys.~J.}
@@ -882,6 +856,29 @@
 \newblock 1983.
 \newblock Vol. 273.
 \newblock P.~761--773.
+
+\bibitem{Landau:1946}
+\selectlanguageifdefined{english}
+\BibEmph{Ландау~Л.~Д.} О колебаниях электронной плазмы~// \BibEmph{ЖЭТФ}.
+\newblock 1946.
+\newblock Vol.~16, no. 574.
+
+\bibitem{Kostenko:2018}
+\selectlanguageifdefined{english}
+\BibEmph{{Kostenko}~A., {Thompson}~C.} {QED Phenomena in an Ultrastrong
+  Magnetic Field. I. Electron-Photon Scattering, Pair Creation, and
+  Annihilation}~// \BibEmph{Astrophys. J.}
+\newblock 2018.
+\newblock Vol. 869, no.~1.
+\newblock P.~44 (1--19).
+
+\bibitem{Philippov_2020}
+\selectlanguageifdefined{english}
+\BibEmph{Philippov~A., Timokhin~A., Spitkovsky~A.} Origin of Pulsar Radio
+  Emission~// \BibEmph{Physical Review Letters}.
+\newblock 2020.
+\newblock Vol. 124, no.~24.
+\newblock P.~245101.
 
 \bibitem{MikhChist:2001}
 \selectlanguageifdefined{russian}
