@@ -834,6 +834,127 @@
 \newblock Vol. 158.
 \newblock P.~05008.
 
+\bibitem{Quinn:1977}
+\selectlanguageifdefined{english}
+\BibEmph{Peccei~R.~D., Quinn~H.~R.} {Constraints imposed by CP conservation in
+  the presence of instantons}~// \BibEmph{Phys. Rev.}
+\newblock 1977.
+\newblock Vol. D16.
+\newblock P.~1791--1797.
+
+\bibitem{Raffelt:1996}
+\selectlanguageifdefined{english}
+\BibEmph{Raffelt~G.~G.} Stars as laboratories for fundamental physics.
+\newblock Chicago: University of Chicago Press, 1996.
+\newblock 664~p.
+
+\bibitem{Skobelev:2007}
+\selectlanguageifdefined{russian}
+\BibEmph{Скобелев~В.~В.} {Резонансный механизм фоторождения аксионов на
+  замагниченном электронном газе}~// \BibEmph{ЖЭТФ}.
+\newblock {2007}.
+\newblock {\cyr\CYRT.} {132}, {\cyr\textnumero}~{5}.
+\newblock {\cyr\CYRS.}~{1121--1126}.
+
+\bibitem{Mikheev:1999}
+\selectlanguageifdefined{russian}
+\BibEmph{Василевская~Л.~А., Михеев~Н.~В., Овчинников~О.~С., Пархоменко~А.~Я.}
+  {Индуцированное взаимодействие аксиона с электронами во внешнем магнитном
+  поле}~// \BibEmph{Ядерная физика.}
+\newblock {1999}.
+\newblock {\cyr\CYRT.}~{62}, {\cyr\textnumero}~{9}.
+\newblock {\cyr\CYRS.}~{1662–1667}.
+
+\bibitem{Mikheev:2006}
+\selectlanguageifdefined{english}
+\BibEmph{Mikheev~N.~V., Narynskaya~E.~N.} {Field-induced interaction of a
+  pseudoscalar particle with photon in a magnetized $e^- e^+$ plasma}~//
+  \BibEmph{Mod. Phys. Lett.}
+\newblock 2006.
+\newblock Vol. A21.
+\newblock P.~433--444.
+
+\bibitem{MRV:1998}
+\selectlanguageifdefined{english}
+\BibEmph{Mikheev~N.~V., Raffelt~G., Vassilevskaya~L.~A.} {Axion emission by
+  magnetic field induced conversion of longitudinal plasmons}~// \BibEmph{Phys.
+  Rev.}
+\newblock 1998.
+\newblock Vol. D58.
+\newblock P.~055008 (1--5).
+
+\bibitem{Malofeev:2005r}
+\selectlanguageifdefined{russian}
+\BibEmph{Малофеев~В.~М., Малов~О.~И., Теплых~Д.~А., и~др.} {Радиоизлучение от
+  двух аномальных рентгеновских пульсаров}~// \BibEmph{Астрон. ж.}
+\newblock {2005}.
+\newblock {\cyr\CYRT.}~{82}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{273--280}.
+
+\bibitem{Malofeev:2005}
+\selectlanguageifdefined{english}
+\BibEmph{{Malofeev}~V.~M., {Malov}~O.~I., {Teplykh}~D.~A. et~al.} {Radio
+  emission from two anomalous X-ray pulsars}~// \BibEmph{Astronomy Reports}.
+\newblock 2005.
+\newblock Vol.~49, no.~3.
+\newblock P.~242--249.
+
+\bibitem{Ruderman:1975}
+\selectlanguageifdefined{english}
+\BibEmph{{Ruderman}~M.~A., {Sutherland}~P.~G.} {Theory of pulsars - Polar caps,
+  sparks, and coherent microwave radiation}~// \BibEmph{Astrophys. J.}
+\newblock 1975.
+\newblock Vol. 196.
+\newblock P.~51--72.
+
+\bibitem{Erber:1966}
+\selectlanguageifdefined{english}
+\BibEmph{Erber~T.} {High-energy electromagnetic conversion processes in intense
+  magnetic fields}~// \BibEmph{Rev. Mod. Phys.}
+\newblock 1966.
+\newblock Vol.~38.
+\newblock P.~626--659.
+
+\bibitem{Beloborodov:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Beloborodov}~A.~M., {Thompson}~C.} {Corona of magnetars}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2007.
+\newblock Vol. 657, no.~2.
+\newblock P.~967--993.
+
+\bibitem{Shabad:1975}
+\selectlanguageifdefined{english}
+\BibEmph{Shabad~A.~E.} {Photon dispersion in a strong magnetic field}~//
+  \BibEmph{Ann. Phys. (N.Y.)}.
+\newblock 1975.
+\newblock Vol.~90, no.~1.
+\newblock P.~166--195.
+
+\bibitem{ShabUsov:1982}
+\selectlanguageifdefined{english}
+\BibEmph{{Shabad}~A.~E., {Usov}~V.~V.} {Gamma-quanta capture by magnetic field
+  and pair creation suppression in pulsars}~// \BibEmph{Nature}.
+\newblock 1982.
+\newblock Vol. 295.
+\newblock P.~215--217.
+
+\bibitem{ShabUsov:1985}
+\selectlanguageifdefined{russian}
+\BibEmph{Усов~В.~В., Шабад~А.~Е.} {Светопозитроний в магнитосфере пульсара}~//
+  \BibEmph{Письма в журн. эксперим. и теор. физ.}
+\newblock {1985}.
+\newblock {\cyr\CYRT.}~{42}, {\cyr\textnumero}~{1}.
+\newblock {\cyr\CYRS.}~{17--20}.
+
+\bibitem{Latal:1986}
+\selectlanguageifdefined{english}
+\BibEmph{{Latal}~H.~G.} {Cyclotron radiation in strong magnetic fields}~//
+  \BibEmph{Astrophys. J.}
+\newblock 1986.
+\newblock Vol. 309.
+\newblock P.~372--382.
+
 \bibitem{Sturrock:1971}
 \selectlanguageifdefined{english}
 \BibEmph{Sturrock~C.~A.} {A model of pulsars}~// \BibEmph{Astrophys.~J.}
@@ -863,6 +984,15 @@
 \newblock 1946.
 \newblock Vol.~16, no. 574.
 
+\bibitem{MikhChist:2001}
+\selectlanguageifdefined{russian}
+\BibEmph{Михеев~Н.~В., Чистяков~М.~В.} {Затухание фотона в результате рождения
+  электрон-позитронной пары в сильном магнитном поле}~// \BibEmph{Письма в
+  ЖЭТФ}.
+\newblock {2001}.
+\newblock {\cyr\CYRT.}~{73}, {\cyr\textnumero}~{12}.
+\newblock {\cyr\CYRS.}~{726--730}.
+
 \bibitem{Kostenko:2018}
 \selectlanguageifdefined{english}
 \BibEmph{{Kostenko}~A., {Thompson}~C.} {QED Phenomena in an Ultrastrong
@@ -879,15 +1009,6 @@
 \newblock 2020.
 \newblock Vol. 124, no.~24.
 \newblock P.~245101.
-
-\bibitem{MikhChist:2001}
-\selectlanguageifdefined{russian}
-\BibEmph{Михеев~Н.~В., Чистяков~М.~В.} {Затухание фотона в результате рождения
-  электрон-позитронной пары в сильном магнитном поле}~// \BibEmph{Письма в
-  ЖЭТФ}.
-\newblock {2001}.
-\newblock {\cyr\CYRT.}~{73}, {\cyr\textnumero}~{12}.
-\newblock {\cyr\CYRS.}~{726--730}.
 
 \bibitem{Boyan}
 \selectlanguageifdefined{english}
