@@ -617,6 +617,14 @@
 \newblock Vol. 336.
 \newblock P.~861.
 
+\bibitem{Holodov:2000}
+\selectlanguageifdefined{russian}
+\BibEmph{{Фомин}~П.~И., {Холодов}~Р.~И.} Резонансное комптоновское рассеяние во
+  внешнем магнитном поле~// \BibEmph{ЖЭТФ}.
+\newblock 2000.
+\newblock {\cyr\CYRT.} 117, {\cyr\textnumero}~2.
+\newblock {\cyr\CYRS.}~319--325.
+
 \bibitem{Rumyantsev:2017}
 \selectlanguageifdefined{russian}
 \BibEmph{Румянцев~Д.~А., Шленев~Д.~М., Ярков~А.~А.} {Резонансы в
@@ -625,15 +633,6 @@
 \newblock {2017}.
 \newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
 \newblock {\cyr\CYRS.}~{483--494}.
-
-\bibitem{Kuznetsov:2015}
-\selectlanguageifdefined{english}
-\BibEmph{Kuznetsov~A.~V., Rumyantsev~D.~A., Shlenev~D.~M.} {Generalized
-  two-point tree-level amplitude $j f \to j'f'$ in a magnetized medium}~//
-  \BibEmph{Int. J. Mod. Phys.}
-\newblock 2015.
-\newblock Vol. A30, no.~11.
-\newblock P.~1550049.
 
 \bibitem{Chistyakov:2009}
 \selectlanguageifdefined{english}
@@ -812,9 +811,11 @@
 
 \bibitem{RumChMik}
 \selectlanguageifdefined{russian}
-\BibEmph{{Михеев}~Н.~В., {Румянцев}~Д.~А., {Чистяков}~М.~В.}
-\newblock Фоторождение нейтрино на электроне в плотной замагниченной среде.
+\BibEmph{{Михеев}~Н.~В., {Румянцев}~Д.~А., {Чистяков}~М.~В.} Фоторождение
+  нейтрино на электроне в плотной замагниченной среде~// \BibEmph{ЖЭТФ}.
 \newblock 2014.
+\newblock {\cyr\CYRT.} 146, {\cyr\textnumero}~2.
+\newblock {\cyr\CYRS.}~289--296.
 
 \bibitem{Chistyakov:2014cga}
 \selectlanguageifdefined{english}
@@ -942,7 +943,7 @@
 \bibitem{ShabUsov:1985}
 \selectlanguageifdefined{russian}
 \BibEmph{Усов~В.~В., Шабад~А.~Е.} {Светопозитроний в магнитосфере пульсара}~//
-  \BibEmph{Письма в журн. эксперим. и теор. физ.}
+  \BibEmph{Письма в ЖЭТФ}.
 \newblock {1985}.
 \newblock {\cyr\CYRT.}~{42}, {\cyr\textnumero}~{1}.
 \newblock {\cyr\CYRS.}~{17--20}.
@@ -992,23 +993,6 @@
 \newblock {2001}.
 \newblock {\cyr\CYRT.}~{73}, {\cyr\textnumero}~{12}.
 \newblock {\cyr\CYRS.}~{726--730}.
-
-\bibitem{Kostenko:2018}
-\selectlanguageifdefined{english}
-\BibEmph{{Kostenko}~A., {Thompson}~C.} {QED Phenomena in an Ultrastrong
-  Magnetic Field. I. Electron-Photon Scattering, Pair Creation, and
-  Annihilation}~// \BibEmph{Astrophys. J.}
-\newblock 2018.
-\newblock Vol. 869, no.~1.
-\newblock P.~44 (1--19).
-
-\bibitem{Philippov_2020}
-\selectlanguageifdefined{english}
-\BibEmph{Philippov~A., Timokhin~A., Spitkovsky~A.} Origin of Pulsar Radio
-  Emission~// \BibEmph{Physical Review Letters}.
-\newblock 2020.
-\newblock Vol. 124, no.~24.
-\newblock P.~245101.
 
 \bibitem{Boyan}
 \selectlanguageifdefined{english}
