@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  23 MAY 2025 14:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  25 MAY 2025 21:14
 entering extended mode
-**C:/Users/a12l/Documents/GitHub/Review/ResonanceRew2024.TEX
-(C:/Users/a12l/Documents/GitHub/Review/ResonanceRew2024.TEX
+**ResonanceRew2024.tex
+(C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -1331,7 +1331,7 @@ r_4/Splot12201-eps-converted-to.pdf>])
 (C:\Users\a12l\Documents\GitHub\Review\Chapter4_2.tex)
 (C:\Users\a12l\Documents\GitHub\Review\Chapter4_3.tex [44
 
-]
+] [45]
 Package epstopdf Info: Source file: <fig5_1.eps>
 (epstopdf)                    date: 2025-05-14 00:44:26
 (epstopdf)                    size: 16058 bytes
@@ -1340,16 +1340,16 @@ Package epstopdf Info: Source file: <fig5_1.eps>
 (epstopdf)                    size: 4439 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig5_1-eps-converted-to.pdf
  fig5_1.eps>
-(epstopdf)             \includegraphics on input line 22.
+(epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig5_1-eps-converted-to.pdf, id=777, 106.3975pt x 57.21375pt>
+<fig5_1-eps-converted-to.pdf, id=799, 106.3975pt x 57.21375pt>
 File: fig5_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5_1-eps-converted-to.pdf>
-Package pdftex.def Info: fig5_1-eps-converted-to.pdf used on input line 22.
+Package pdftex.def Info: fig5_1-eps-converted-to.pdf used on input line 39.
 (pdftex.def)             Requested size: 142.26378pt x 76.50449pt.
- [45]
+ [46 <C:/Users/a12l/Documents/GitHub/Review/fig5_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig5_2.eps>
 (epstopdf)                    date: 2025-05-14 00:44:26
 (epstopdf)                    size: 58228 bytes
@@ -1358,26 +1358,25 @@ Package epstopdf Info: Source file: <fig5_2.eps>
 (epstopdf)                    size: 10242 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig5_2-eps-converted-to.pdf
  fig5_2.eps>
-(epstopdf)             \includegraphics on input line 45.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig5_2-eps-converted-to.pdf, id=792, 390.45876pt x 62.2325pt>
+<fig5_2-eps-converted-to.pdf, id=820, 390.45876pt x 62.2325pt>
 File: fig5_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5_2-eps-converted-to.pdf>
-Package pdftex.def Info: fig5_2-eps-converted-to.pdf used on input line 45.
+Package pdftex.def Info: fig5_2-eps-converted-to.pdf used on input line 62.
 (pdftex.def)             Requested size: 426.79134pt x 68.02673pt.
 
 
-LaTeX Warning: Reference `eq:Laxion' on page 46 undefined on input line 56.
+LaTeX Warning: Reference `eq:Laxion' on page 47 undefined on input line 73.
 
 
-LaTeX Warning: Reference `Sec:1' on page 46 undefined on input line 56.
+LaTeX Warning: Reference `Sec:1' on page 47 undefined on input line 73.
 
-[46 <C:/Users/a12l/Documents/GitHub/Review/fig5_1-eps-converted-to.pdf> <C:/Use
-rs/a12l/Documents/GitHub/Review/fig5_2-eps-converted-to.pdf>] [47] [48]
-[49] [50]
-Overfull \hbox (0.61574pt too wide) in paragraph at lines 372--377
+[47 <C:/Users/a12l/Documents/GitHub/Review/fig5_2-eps-converted-to.pdf>]
+[48] [49] [50] [51]
+Overfull \hbox (0.61574pt too wide) in paragraph at lines 389--394
 \T2A/cmr/m/n/14.4 дио-пуль-са-ре необ-хо-ди-ма эф-фек-тив-на€ ге-не-ра-ци€ элек
 трон-позитронной плаз-
  []
@@ -1390,19 +1389,19 @@ Package epstopdf Info: Source file: <fig5_3.eps>
 (epstopdf)                    size: 11255 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig5_3-eps-converted-to.pdf
  fig5_3.eps>
-(epstopdf)             \includegraphics on input line 381.
+(epstopdf)             \includegraphics on input line 398.
 Package epstopdf Info: Output file is already uptodate.
-<fig5_3-eps-converted-to.pdf, id=887, 313.17pt x 196.735pt>
+<fig5_3-eps-converted-to.pdf, id=910, 313.17pt x 196.735pt>
 File: fig5_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5_3-eps-converted-to.pdf>
-Package pdftex.def Info: fig5_3-eps-converted-to.pdf used on input line 381.
+Package pdftex.def Info: fig5_3-eps-converted-to.pdf used on input line 398.
 (pdftex.def)             Requested size: 341.43306pt x 214.49692pt.
 
 
-LaTeX Warning: Reference `Sec:2.2' on page 51 undefined on input line 399.
+LaTeX Warning: Reference `Sec:2.2' on page 52 undefined on input line 416.
 
-[51] [52 <C:/Users/a12l/Documents/GitHub/Review/fig5_3-eps-converted-to.pdf>]
+[52] [53 <C:/Users/a12l/Documents/GitHub/Review/fig5_3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig5_4.eps>
 (epstopdf)                    date: 2025-05-14 01:13:41
 (epstopdf)                    size: 644643 bytes
@@ -1411,41 +1410,41 @@ Package epstopdf Info: Source file: <fig5_4.eps>
 (epstopdf)                    size: 20407 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig5_4-eps-converted-to.pdf
  fig5_4.eps>
-(epstopdf)             \includegraphics on input line 430.
+(epstopdf)             \includegraphics on input line 447.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig5_4-eps-converted-to.pdf, id=927, 318.18875pt x 168.63pt>
+<fig5_4-eps-converted-to.pdf, id=950, 318.18875pt x 168.63pt>
 File: fig5_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5_4-eps-converted-to.pdf>
-Package pdftex.def Info: fig5_4-eps-converted-to.pdf used on input line 430.
+Package pdftex.def Info: fig5_4-eps-converted-to.pdf used on input line 447.
 (pdftex.def)             Requested size: 483.69684pt x 256.3434pt.
 
 
-LaTeX Warning: Reference `Sec:5.3.1' on page 53 undefined on input line 463.
+LaTeX Warning: Reference `Sec:5.3.1' on page 54 undefined on input line 480.
 
-[53 <C:/Users/a12l/Documents/GitHub/Review/fig5_4-eps-converted-to.pdf>]
+[54 <C:/Users/a12l/Documents/GitHub/Review/fig5_4-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `Sec:2.2' on page 54 undefined on input line 523.
-
-
-LaTeX Warning: Reference `eq:psip1' on page 54 undefined on input line 526.
+LaTeX Warning: Reference `Sec:2.2' on page 55 undefined on input line 540.
 
 
-LaTeX Warning: Reference `eq:psim1' on page 54 undefined on input line 526.
+LaTeX Warning: Reference `eq:psip1' on page 55 undefined on input line 543.
 
 
-LaTeX Warning: Reference `Sec:app_d' on page 54 undefined on input line 526.
+LaTeX Warning: Reference `eq:psim1' on page 55 undefined on input line 543.
 
 
-LaTeX Warning: Reference `eq:propagator_sum_n' on page 54 undefined on input li
-ne 527.
+LaTeX Warning: Reference `Sec:app_d' on page 55 undefined on input line 543.
 
 
-LaTeX Warning: Reference `eq:propagator_ns' on page 54 undefined on input line 
-527.
+LaTeX Warning: Reference `eq:propagator_sum_n' on page 55 undefined on input li
+ne 544.
 
-[54] [55] [56]
+
+LaTeX Warning: Reference `eq:propagator_ns' on page 55 undefined on input line 
+544.
+
+[55] [56] [57]
 Package epstopdf Info: Source file: <fig5_5.eps>
 (epstopdf)                    date: 2025-05-14 00:44:26
 (epstopdf)                    size: 87635 bytes
@@ -1454,28 +1453,28 @@ Package epstopdf Info: Source file: <fig5_5.eps>
 (epstopdf)                    size: 13036 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig5_5-eps-converted-to.pdf
  fig5_5.eps>
-(epstopdf)             \includegraphics on input line 690.
+(epstopdf)             \includegraphics on input line 707.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig5_5-eps-converted-to.pdf, id=1001, 294.09875pt x 197.73875pt>
+<fig5_5-eps-converted-to.pdf, id=1024, 294.09875pt x 197.73875pt>
 File: fig5_5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5_5-eps-converted-to.pdf>
-Package pdftex.def Info: fig5_5-eps-converted-to.pdf used on input line 690.
+Package pdftex.def Info: fig5_5-eps-converted-to.pdf used on input line 707.
 (pdftex.def)             Requested size: 398.33858pt x 267.82588pt.
- [57 <C:/Users/a12l/Documents/GitHub/Review/fig5_5-eps-converted-to.pdf>]
-Overfull \hbox (1.05191pt too wide) in paragraph at lines 726--727
+ [58 <C:/Users/a12l/Documents/GitHub/Review/fig5_5-eps-converted-to.pdf>]
+Overfull \hbox (1.05191pt too wide) in paragraph at lines 743--744
 []\T2A/cmr/m/n/14.4 поглощение фо-то-на элек-тро-ном с рож-де-ни-ем элек-тро-на
  на пер-вом уровне
  []
 
-) [58] (C:\Users\a12l\Documents\GitHub\Review\Chapter6.tex
+) [59] (C:\Users\a12l\Documents\GitHub\Review\Chapter6.tex
 Overfull \hbox (0.23077pt too wide) in paragraph at lines 1--3
 \T2A/cmr/m/n/14.4 рас-хо-ди-мо-сти, ко-то-рые св€-за-ны с огра-ни-чен-но-стью п
 ри-ме-н€-е-мой тео-рии, при-
  []
 
-[59] [60] [61] [62]
+[60] [61] [62] [63]
 Package epstopdf Info: Source file: <image/Chapter_6/PathIntegrateMode2.eps>
 (epstopdf)                    date: 2025-04-30 21:26:55
 (epstopdf)                    size: 63738 bytes
@@ -1488,7 +1487,7 @@ teMode2-eps-converted-to.pdf image/Chapter_6/PathIntegrateMode2.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/PathIntegrateMode2-eps-converted-to.pdf, id=1092, 272.01625pt 
+<image/Chapter_6/PathIntegrateMode2-eps-converted-to.pdf, id=1115, 272.01625pt 
 x 81.30376pt>
 File: image/Chapter_6/PathIntegrateMode2-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1508,7 +1507,7 @@ teMode1-eps-converted-to.pdf image/Chapter_6/PathIntegrateMode1.eps>
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/PathIntegrateMode1-eps-converted-to.pdf, id=1096, 265.99374pt 
+<image/Chapter_6/PathIntegrateMode1-eps-converted-to.pdf, id=1119, 265.99374pt 
 x 81.30376pt>
 File: image/Chapter_6/PathIntegrateMode1-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1517,8 +1516,8 @@ Package pdftex.def Info: image/Chapter_6/PathIntegrateMode1-eps-converted-to.pd
 f used on input line 132.
 (pdftex.def)             Requested size: 398.98962pt x 121.9553pt.
 
-[63 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/PathIntegrateMode2-e
-ps-converted-to.pdf>] [64 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_
+[64 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/PathIntegrateMode2-e
+ps-converted-to.pdf>] [65 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_
 6/PathIntegrateMode1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <image/Chapter_6/PathIntegrate2Gl.eps>
 (epstopdf)                    date: 2025-04-30 21:26:55
@@ -1532,7 +1531,7 @@ te2Gl-eps-converted-to.pdf image/Chapter_6/PathIntegrate2Gl.eps>
 (epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/PathIntegrate2Gl-eps-converted-to.pdf, id=1152, 193.72375pt x 
+<image/Chapter_6/PathIntegrate2Gl-eps-converted-to.pdf, id=1175, 193.72375pt x 
 78.2925pt>
 File: image/Chapter_6/PathIntegrate2Gl-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1540,7 +1539,7 @@ pdf)
 Package pdftex.def Info: image/Chapter_6/PathIntegrate2Gl-eps-converted-to.pdf 
 used on input line 178.
 (pdftex.def)             Requested size: 290.5849pt x 117.43845pt.
- [65 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/PathIntegrate2Gl-ep
+ [66 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/PathIntegrate2Gl-ep
 s-converted-to.pdf>]
 Package epstopdf Info: Source file: <image/Chapter_6/mode2.eps>
 (epstopdf)                    date: 2025-04-30 21:26:57
@@ -1554,14 +1553,14 @@ onverted-to.pdf image/Chapter_6/mode2.eps>
 (epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/mode2-eps-converted-to.pdf, id=1189, 353.32pt x 234.8775pt>
+<image/Chapter_6/mode2-eps-converted-to.pdf, id=1212, 353.32pt x 234.8775pt>
 File: image/Chapter_6/mode2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use image/Chapter_6/mode2-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/mode2-eps-converted-to.pdf used on inp
 ut line 223.
 (pdftex.def)             Requested size: 282.65639pt x 187.90225pt.
- [66] [67 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/mode2-eps-conv
+ [67] [68 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/mode2-eps-conv
 erted-to.pdf>]
 Package epstopdf Info: Source file: <image/Chapter_6/mode1.eps>
 (epstopdf)                    date: 2025-04-30 21:26:57
@@ -1575,7 +1574,7 @@ onverted-to.pdf image/Chapter_6/mode1.eps>
 (epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/mode1-eps-converted-to.pdf, id=1220, 350.30875pt x 234.8775pt>
+<image/Chapter_6/mode1-eps-converted-to.pdf, id=1243, 350.30875pt x 234.8775pt>
 File: image/Chapter_6/mode1-eps-converted-to.pdf Graphic file (type pdf)
 <use image/Chapter_6/mode1-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/mode1-eps-converted-to.pdf used on inp
@@ -1594,7 +1593,7 @@ AndCompton-eps-converted-to.pdf image/Chapter_6/CompareDampAndCompton.eps>
 (epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/CompareDampAndCompton-eps-converted-to.pdf, id=1225, 259.97125
+<image/Chapter_6/CompareDampAndCompton-eps-converted-to.pdf, id=1248, 259.97125
 pt x 175.65625pt>
 File: image/Chapter_6/CompareDampAndCompton-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1603,7 +1602,7 @@ type pdf)
 Package pdftex.def Info: image/Chapter_6/CompareDampAndCompton-eps-converted-to
 .pdf used on input line 249.
 (pdftex.def)             Requested size: 337.96259pt x 228.35307pt.
- [68 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/mode1-eps-converted
+ [69 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/mode1-eps-converted
 -to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/CompareDampAndC
 ompton-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <image/Chapter_6/CompareDampAndCompton2.eps
@@ -1619,7 +1618,7 @@ AndCompton2-eps-converted-to.pdf image/Chapter_6/CompareDampAndCompton2.eps>
 (epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf, id=1234, 257.9637
+<image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf, id=1257, 257.9637
 5pt x 168.63pt>
 File: image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1628,7 +1627,7 @@ File: image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: image/Chapter_6/CompareDampAndCompton2-eps-converted-t
 o.pdf used on input line 254.
 (pdftex.def)             Requested size: 335.35281pt x 219.21896pt.
- [69
+ [70
 
  <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/CompareDampAndCompton2-
 eps-converted-to.pdf>]
@@ -1637,11 +1636,11 @@ Overfull \hbox (2.81575pt too wide) in paragraph at lines 264--266
 к-тро-маг-нит-ной вол-
  []
 
-) (C:\Users\a12l\Documents\GitHub\Review\conclusion.tex) [70] [71]
-(C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.bbl [72] [73] [74]
-[75] [76] [77] [78] [79] [80] [81] [82] [83])
+) (C:\Users\a12l\Documents\GitHub\Review\conclusion.tex) [71] [72]
+(C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.bbl [73] [74] [75]
+[76] [77] [78] [79] [80] [81] [82] [83] [84] [85])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
- [84]
+ [86]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 
 (C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.aux)
@@ -1656,13 +1655,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9622 strings out of 494045
- 140148 string characters out of 3145973
- 225621 words of memory out of 3000000
- 12203 multiletter control sequences out of 15000+200000
+ 9641 strings out of 494045
+ 140423 string characters out of 3145973
+ 225938 words of memory out of 3000000
+ 12212 multiletter control sequences out of 15000+200000
  30982 words of font info for 87 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 42i,16n,26p,4631b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,16n,26p,4593b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:
@@ -1697,9 +1696,9 @@ frm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm
 0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2074.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1440.pfb>
 
-Output written on ResonanceRew2024.pdf (84 pages, 1552532 bytes).
+Output written on ResonanceRew2024.pdf (86 pages, 1560684 bytes).
 PDF statistics:
- 1508 PDF objects out of 1728 (max. 8388607)
- 396 named destinations out of 1000 (max. 500000)
+ 1539 PDF objects out of 1728 (max. 8388607)
+ 407 named destinations out of 1000 (max. 500000)
  342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
