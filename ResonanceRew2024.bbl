@@ -936,11 +936,45 @@
 \newblock Vol. 643.
 \newblock P.~1--79.
 
-\bibitem{Raffelt:1996}
+\bibitem{Sikivie:1983}
 \selectlanguageifdefined{english}
-\BibEmph{Raffelt~G.~G.} Stars as laboratories for fundamental physics.
-\newblock Chicago: University of Chicago Press, 1996.
-\newblock 664~p.
+\BibEmph{{Sikivie}~P.} {Experimental Tests of the ``Invisible'' Axion}~//
+  \BibEmph{Phys. Rev. Lett.}
+\newblock 1983.
+\newblock Vol.~51, no.~16.
+\newblock P.~1415--1417.
+
+\bibitem{Raffelt:1988}
+\selectlanguageifdefined{english}
+\BibEmph{Raffelt~G., Stodolsky~L.} Mixing of the photon with low-mass
+  particles~// \BibEmph{Phys. Rev. D}.
+\newblock 1988.
+\newblock Vol.~37.
+\newblock P.~1237--1249.
+
+\bibitem{Lai:2006}
+\selectlanguageifdefined{english}
+\BibEmph{Lai~D., Heyl~J.} Probing axions with radiation from magnetic stars~//
+  \BibEmph{Physical Review D}.
+\newblock 2006.
+\newblock Vol.~74, no.~12.
+
+\bibitem{Yanagida:1988}
+\selectlanguageifdefined{english}
+\BibEmph{Yanagida~T., Yoshimura~M.} Resonant axion-photon conversion in the
+  early universe~// \BibEmph{Physics Letters B}.
+\newblock 1988.
+\newblock Vol. 202, no.~3.
+\newblock P.~301--306.
+
+\bibitem{Pshirkov:2009}
+\selectlanguageifdefined{english}
+\BibEmph{Pshirkov~M.~S., Popov~S.~B.} Conversion of dark matter axions to
+  photons in magnetospheres of neutron stars~// \BibEmph{Journal of
+  Experimental and Theoretical Physics}.
+\newblock 2009.
+\newblock Vol. 108, no.~3.
+\newblock P.~384–388.
 
 \bibitem{Skobelev:2007}
 \selectlanguageifdefined{russian}
@@ -949,6 +983,21 @@
 \newblock {2007}.
 \newblock {\cyr\CYRT.} {132}, {\cyr\textnumero}~{5}.
 \newblock {\cyr\CYRS.}~{1121--1126}.
+
+\bibitem{MikhRumShk:09}
+\selectlanguageifdefined{russian}
+\BibEmph{Михеев~Н.~В., Румянцев~Д.~А., Школьникова~Ю.~Е.} {О резонансном
+  рождении аксионов в магнитосфере магнитара}~// \BibEmph{Письма в журн.
+  эксперим. и теор. физ.}
+\newblock {2009}.
+\newblock {\cyr\CYRT.}~{90}, {\cyr\textnumero}~{9}.
+\newblock {\cyr\CYRS.}~{668--671}.
+
+\bibitem{Raffelt:1996}
+\selectlanguageifdefined{english}
+\BibEmph{Raffelt~G.~G.} Stars as laboratories for fundamental physics.
+\newblock Chicago: University of Chicago Press, 1996.
+\newblock 664~p.
 
 \bibitem{Mikheev:1999}
 \selectlanguageifdefined{russian}
