@@ -993,6 +993,15 @@
 \newblock {\cyr\CYRT.}~{90}, {\cyr\textnumero}~{9}.
 \newblock {\cyr\CYRS.}~{668--671}.
 
+\bibitem{Primakoff:1951}
+\selectlanguageifdefined{english}
+\BibEmph{{Primakoff}~H.} {Photo-Production of Neutral Mesons in Nuclear
+  Electric Fields and the Mean Life of the Neutral Meson}~// \BibEmph{Phys.
+  Rev.}
+\newblock 1951.
+\newblock Vol.~81, no.~5.
+\newblock P.~899--899.
+
 \bibitem{Raffelt:1996}
 \selectlanguageifdefined{english}
 \BibEmph{Raffelt~G.~G.} Stars as laboratories for fundamental physics.
