@@ -858,6 +858,78 @@
 \newblock Vol. 158.
 \newblock P.~05008.
 
+\bibitem{Malofeev:2005r}
+\selectlanguageifdefined{russian}
+\BibEmph{Малофеев~В.~М., Малов~О.~И., Теплых~Д.~А., и~др.} {Радиоизлучение от
+  двух аномальных рентгеновских пульсаров}~// \BibEmph{Астрон. ж.}
+\newblock {2005}.
+\newblock {\cyr\CYRT.}~{82}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{273--280}.
+
+\bibitem{Malofeev:2005}
+\selectlanguageifdefined{english}
+\BibEmph{{Malofeev}~V.~M., {Malov}~O.~I., {Teplykh}~D.~A. et~al.} {Radio
+  emission from two anomalous X-ray pulsars}~// \BibEmph{Astronomy Reports}.
+\newblock 2005.
+\newblock Vol.~49, no.~3.
+\newblock P.~242--249.
+
+\bibitem{Ruderman:1975}
+\selectlanguageifdefined{english}
+\BibEmph{{Ruderman}~M.~A., {Sutherland}~P.~G.} {Theory of pulsars - Polar caps,
+  sparks, and coherent microwave radiation}~// \BibEmph{Astrophys. J.}
+\newblock 1975.
+\newblock Vol. 196.
+\newblock P.~51--72.
+
+\bibitem{Erber:1966}
+\selectlanguageifdefined{english}
+\BibEmph{Erber~T.} {High-energy electromagnetic conversion processes in intense
+  magnetic fields}~// \BibEmph{Rev. Mod. Phys.}
+\newblock 1966.
+\newblock Vol.~38.
+\newblock P.~626--659.
+
+\bibitem{Beloborodov:2007}
+\selectlanguageifdefined{english}
+\BibEmph{{Beloborodov}~A.~M., {Thompson}~C.} {Corona of magnetars}~//
+  \BibEmph{Astrophys. J.}
+\newblock 2007.
+\newblock Vol. 657, no.~2.
+\newblock P.~967--993.
+
+\bibitem{Shabad:1975}
+\selectlanguageifdefined{english}
+\BibEmph{Shabad~A.~E.} {Photon dispersion in a strong magnetic field}~//
+  \BibEmph{Ann. Phys. (N.Y.)}.
+\newblock 1975.
+\newblock Vol.~90, no.~1.
+\newblock P.~166--195.
+
+\bibitem{ShabUsov:1982}
+\selectlanguageifdefined{english}
+\BibEmph{{Shabad}~A.~E., {Usov}~V.~V.} {Gamma-quanta capture by magnetic field
+  and pair creation suppression in pulsars}~// \BibEmph{Nature}.
+\newblock 1982.
+\newblock Vol. 295.
+\newblock P.~215--217.
+
+\bibitem{ShabUsov:1985}
+\selectlanguageifdefined{russian}
+\BibEmph{Усов~В.~В., Шабад~А.~Е.} {Светопозитроний в магнитосфере пульсара}~//
+  \BibEmph{Письма в ЖЭТФ}.
+\newblock {1985}.
+\newblock {\cyr\CYRT.}~{42}, {\cyr\textnumero}~{1}.
+\newblock {\cyr\CYRS.}~{17--20}.
+
+\bibitem{Latal:1986}
+\selectlanguageifdefined{english}
+\BibEmph{{Latal}~H.~G.} {Cyclotron radiation in strong magnetic fields}~//
+  \BibEmph{Astrophys. J.}
+\newblock 1986.
+\newblock Vol. 309.
+\newblock P.~372--382.
+
 \bibitem{Weinberg:1975}
 \selectlanguageifdefined{english}
 \BibEmph{Weinberg~S.} The U(1) problem~// \BibEmph{Phys. Rev. D}.
@@ -1034,78 +1106,6 @@
 \newblock 1998.
 \newblock Vol. D58.
 \newblock P.~055008 (1--5).
-
-\bibitem{Malofeev:2005r}
-\selectlanguageifdefined{russian}
-\BibEmph{Малофеев~В.~М., Малов~О.~И., Теплых~Д.~А., и~др.} {Радиоизлучение от
-  двух аномальных рентгеновских пульсаров}~// \BibEmph{Астрон. ж.}
-\newblock {2005}.
-\newblock {\cyr\CYRT.}~{82}, {\cyr\textnumero}~{3}.
-\newblock {\cyr\CYRS.}~{273--280}.
-
-\bibitem{Malofeev:2005}
-\selectlanguageifdefined{english}
-\BibEmph{{Malofeev}~V.~M., {Malov}~O.~I., {Teplykh}~D.~A. et~al.} {Radio
-  emission from two anomalous X-ray pulsars}~// \BibEmph{Astronomy Reports}.
-\newblock 2005.
-\newblock Vol.~49, no.~3.
-\newblock P.~242--249.
-
-\bibitem{Ruderman:1975}
-\selectlanguageifdefined{english}
-\BibEmph{{Ruderman}~M.~A., {Sutherland}~P.~G.} {Theory of pulsars - Polar caps,
-  sparks, and coherent microwave radiation}~// \BibEmph{Astrophys. J.}
-\newblock 1975.
-\newblock Vol. 196.
-\newblock P.~51--72.
-
-\bibitem{Erber:1966}
-\selectlanguageifdefined{english}
-\BibEmph{Erber~T.} {High-energy electromagnetic conversion processes in intense
-  magnetic fields}~// \BibEmph{Rev. Mod. Phys.}
-\newblock 1966.
-\newblock Vol.~38.
-\newblock P.~626--659.
-
-\bibitem{Beloborodov:2007}
-\selectlanguageifdefined{english}
-\BibEmph{{Beloborodov}~A.~M., {Thompson}~C.} {Corona of magnetars}~//
-  \BibEmph{Astrophys. J.}
-\newblock 2007.
-\newblock Vol. 657, no.~2.
-\newblock P.~967--993.
-
-\bibitem{Shabad:1975}
-\selectlanguageifdefined{english}
-\BibEmph{Shabad~A.~E.} {Photon dispersion in a strong magnetic field}~//
-  \BibEmph{Ann. Phys. (N.Y.)}.
-\newblock 1975.
-\newblock Vol.~90, no.~1.
-\newblock P.~166--195.
-
-\bibitem{ShabUsov:1982}
-\selectlanguageifdefined{english}
-\BibEmph{{Shabad}~A.~E., {Usov}~V.~V.} {Gamma-quanta capture by magnetic field
-  and pair creation suppression in pulsars}~// \BibEmph{Nature}.
-\newblock 1982.
-\newblock Vol. 295.
-\newblock P.~215--217.
-
-\bibitem{ShabUsov:1985}
-\selectlanguageifdefined{russian}
-\BibEmph{Усов~В.~В., Шабад~А.~Е.} {Светопозитроний в магнитосфере пульсара}~//
-  \BibEmph{Письма в ЖЭТФ}.
-\newblock {1985}.
-\newblock {\cyr\CYRT.}~{42}, {\cyr\textnumero}~{1}.
-\newblock {\cyr\CYRS.}~{17--20}.
-
-\bibitem{Latal:1986}
-\selectlanguageifdefined{english}
-\BibEmph{{Latal}~H.~G.} {Cyclotron radiation in strong magnetic fields}~//
-  \BibEmph{Astrophys. J.}
-\newblock 1986.
-\newblock Vol. 309.
-\newblock P.~372--382.
 
 \bibitem{Sturrock:1971}
 \selectlanguageifdefined{english}
