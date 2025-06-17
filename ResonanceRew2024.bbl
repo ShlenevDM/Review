@@ -39,6 +39,28 @@
 \newblock Vol. 574, no.~1.
 \newblock P.~332--355.
 
+\bibitem{Gunn:1969}
+\selectlanguageifdefined{english}
+\BibEmph{{Gunn}~J.~E., {Ostriker}~J.~P.} {Magnetic Dipole Radiation from
+  Pulsars}~// \BibEmph{Nature}.
+\newblock 1969.
+\newblock Vol. 221, no. 5179.
+\newblock P.~454--456.
+
+\bibitem{Pacini:1970}
+\selectlanguageifdefined{english}
+\BibEmph{{Pacini}~F.} {The Nature of Pulsar Radiation}~// \BibEmph{Nature}.
+\newblock 1970.
+\newblock Vol. 226, no. 5246.
+\newblock P.~622--624.
+
+\bibitem{Kim:2023}
+\selectlanguageifdefined{english}
+\BibEmph{{Kim}~V., {Umirbayeva}~A., {Aimuratov}~Y.} {Estimates of the Surface
+  Magnetic Field Strength of Radio Pulsars}~// \BibEmph{Universe}.
+\newblock 2023.
+\newblock Vol. 9(7), no. 334.
+
 \bibitem{Philippov_2020}
 \selectlanguageifdefined{english}
 \BibEmph{Philippov~A., Timokhin~A., Spitkovsky~A.} Origin of Pulsar Radio
@@ -47,6 +69,32 @@
 \newblock Vol. 124, no.~24.
 \newblock P.~245101.
 
+\bibitem{Trumper:1977}
+\selectlanguageifdefined{english}
+\BibEmph{Tr{\"u}mper~J., {Pietsch}~W., {Reppin}~C. et~al.} {Evidence for Strong
+  Cyclotron Emission in the Hard X-Ray Spectrum of Her X-1}~//
+  \BibEmph{Astrophys.~J.~L.}
+\newblock 1978.
+\newblock Vol. 219.
+\newblock P.~105--110.
+
+\bibitem{Staubert:2019}
+\selectlanguageifdefined{english}
+\BibEmph{{Staubert, R.}, {Tr\"umper, J.}, {Kendziorra, E.} et~al.} Cyclotron
+  lines in highly magnetized neutron stars~// \BibEmph{Astronomy ${\&}$
+  Astrophysics}.
+\newblock 2019.
+\newblock Vol. 622, no. A61.
+
+\bibitem{Mitrofanov:1982}
+\selectlanguageifdefined{english}
+\BibEmph{Mitrofanov~I.~G., Pavlov~G.~G.} {Magnetic field strongly reduces
+  critical luminosity of neutron stars and degenerate dwarfs}~// \BibEmph{Mon.
+  Not. Roy. Astron. Soc.}
+\newblock 1982.
+\newblock Vol. 200, no.~4.
+\newblock P.~1033--1037.
+
 \bibitem{Duncan:1992}
 \selectlanguageifdefined{english}
 \BibEmph{{Duncan}~R.~C., {Thompson}~C.} {Formation of very strongly magnetized
@@ -54,6 +102,31 @@
 \newblock 1992.
 \newblock Vol. 392, no.~1.
 \newblock P.~L9--L13.
+
+\bibitem{Thompson:1995}
+\selectlanguageifdefined{english}
+\BibEmph{{Thompson}~C., {Duncan}~R.~C.} {The soft gamma repeaters as very
+  strongly magnetized neutron stars - I. Radiative mechanism for outbursts}~//
+  \BibEmph{Mon. Not. Roy. Astron. Soc.}
+\newblock 1995.
+\newblock Vol. 275.
+\newblock P.~255--300.
+
+\bibitem{DongLai:2001}
+\selectlanguageifdefined{english}
+\BibEmph{Lai~D.} Matter in strong magnetic fields~// \BibEmph{Rev. Mod. Phys.}
+\newblock 2001.
+\newblock Vol.~73.
+\newblock P.~629--662.
+
+\bibitem{Lyutikov:2002}
+\selectlanguageifdefined{english}
+\BibEmph{Thompson~C., Lyutikov~M., Kulkarni~S.~R.} {Electrodynamics of
+  magnetars: implications for the persistent x-ray emission and spindown of the
+  soft gamma repeaters and anomalous x-ray pulsars}~// \BibEmph{Astrophys. J.}
+\newblock 2002.
+\newblock Vol. 574, no.~1.
+\newblock P.~332--355.
 
 \bibitem{Kouveliotou:1998ze}
 \selectlanguageifdefined{english}
@@ -106,6 +179,83 @@
 \newblock Vol. 212, no.~1.
 \newblock P.~6.
 
+\bibitem{vanParad:1995}
+\selectlanguageifdefined{english}
+\BibEmph{{van Paradijs}~J., {Taam}~R.~E., {van den Heuvel}~E.~P.~J.} {On the
+  nature of the 'anomalous' 6-s X-ray pulsars}~// \BibEmph{Astronomy ${\&}$
+  Astrophysics}.
+\newblock 1995.
+\newblock Vol. 299.
+\newblock P.~41--44.
+
+\bibitem{Mazets:1979}
+\selectlanguageifdefined{english}
+\BibEmph{{Mazets}~E.~P., {Golenetskij}~S.~V., {Guryan}~Y.~A.} {Soft gamma-ray
+  bursts from the source B1900+14}~// \BibEmph{Pis'ma Astron. Zh.}
+\newblock 1979.
+\newblock Vol.~5.
+\newblock P.~641--643.
+
+\bibitem{Mereghetti:1995}
+\selectlanguageifdefined{english}
+\BibEmph{{Mereghetti}~S., {Stella}~L.} {The Very Low Mass X-Ray Binary Pulsars:
+  A New Class of Sources?}~// \BibEmph{Astrophys. J.~L.}
+\newblock 1995.
+\newblock Vol. 442.
+\newblock P.~17--20.
+
+\bibitem{Yakovlev:2004}
+\selectlanguageifdefined{english}
+\BibEmph{{Yakovlev}~D.~G., {Pethick}~C.~J.} {Neutron Star Cooling}~//
+  \BibEmph{Annu. Rev. Astron. \& Astrophys.}
+\newblock 2004.
+\newblock Vol.~42, no.~1.
+\newblock P.~169--210.
+
+\bibitem{Younes:2021}
+\selectlanguageifdefined{english}
+\BibEmph{{Younes}~G., {Baring}~M.~G., {Kouveliotou}~C. et~al.} {Broadband X-ray
+  burst spectroscopy of the fast-radio-burst-emitting Galactic magnetar}~//
+  \BibEmph{Nature Astronomy}.
+\newblock 2021.
+\newblock Vol.~5.
+\newblock P.~408--413.
+
+\bibitem{Hurley:1999}
+\selectlanguageifdefined{english}
+\BibEmph{{Hurley}~K., {Kouveliotou}~C., {Woods}~P. et~al.} {Reactivation and
+  Precise Interplanetary Network Localization of the Soft Gamma Repeater SGR
+  1900+14}~// \BibEmph{Astrophys.~J.~L.}
+\newblock 1999.
+\newblock Vol. 510, no.~2.
+\newblock P.~107--109.
+
+\bibitem{Hurley:1999b}
+\selectlanguageifdefined{english}
+\BibEmph{{Hurley}~K., {Cline}~T., {Mazets}~E. et~al.} {A giant periodic flare
+  from the soft {\ensuremath{\gamma}}-ray repeater SGR1900+14}~//
+  \BibEmph{Nature}.
+\newblock 1999.
+\newblock Vol. 397, no. 6714.
+\newblock P.~41--43.
+
+\bibitem{Hurley:2005}
+\selectlanguageifdefined{english}
+\BibEmph{{Hurley}~K., {Boggs}~S.~E., {Smith}~D.~M. et~al.} {An exceptionally
+  bright flare from SGR 1806-20 and the origins of short-duration
+  {\ensuremath{\gamma}}-ray bursts}~// \BibEmph{Nature}.
+\newblock 2005.
+\newblock Vol. 434, no. 7037.
+\newblock P.~1098--1103.
+
+\bibitem{Kaspi:2017}
+\selectlanguageifdefined{english}
+\BibEmph{Kaspi~V.~M., Beloborodov~A.~M.} Magnetars~// \BibEmph{Annu. Rev.
+  Astron. \& Astrophys.}
+\newblock 2017.
+\newblock Vol.~55, no.~1.
+\newblock P.~261--301.
+
 \bibitem{Sokolov:1968}
 \selectlanguageifdefined{russian}
 \BibEmph{Соколов~А.~А., Тернов~И.~М.} Синхротронное излучение.
@@ -136,6 +286,14 @@
 \newblock 1995.
 \newblock Vol. 448.
 
+\bibitem{Bulik:1997}
+\selectlanguageifdefined{english}
+\BibEmph{{Bulik}~T., {Miller}~M.~C.} {Spectral effects of the vacuum resonance
+  in soft gamma-ray repeaters}~// \BibEmph{Mon. Not. Roy. Astron. Soc.}
+\newblock 1997.
+\newblock Vol. 288, no.~3.
+\newblock P.~596--608.
+
 \bibitem{Suleimanov:2007it}
 \selectlanguageifdefined{english}
 \BibEmph{Suleimanov~V., Werner~K.} {Importance of Compton scattering for
@@ -153,6 +311,23 @@
 \newblock 2008.
 \newblock Vol. 389, no.~2.
 \newblock P.~989--1000.
+
+\bibitem{Taverna:2014}
+\selectlanguageifdefined{english}
+\BibEmph{Taverna~R., Muleri~F., Turolla~R. et~al.} {Probing magnetar
+  magnetosphere through X-ray polarization measurements}~// \BibEmph{Mon. Not.
+  Roy. Astron. Soc.}
+\newblock 2014.
+\newblock Vol. 438, no.~2.
+\newblock P.~1686--1697.
+
+\bibitem{Rea:2008}
+\selectlanguageifdefined{english}
+\BibEmph{{Rea}~N., {Zane}~S., {Turolla}~R. et~al.} {Resonant Cyclotron
+  Scattering in Magnetars' Emission}~// \BibEmph{Astrophys. J.}
+\newblock 2008.
+\newblock Vol. 686, no.~2.
+\newblock P.~1245--1260.
 
 \bibitem{KM_Book_2013}
 \selectlanguageifdefined{english}
