@@ -39,6 +39,14 @@
 \newblock Vol. 574, no.~1.
 \newblock P.~332--355.
 
+\bibitem{McGill:Cite}
+\selectlanguageifdefined{english}
+\BibEmph{Group~M.~P.}
+\newblock McGill Online Magnetar Catalog.
+\newblock 2020.
+\newblock \url{https://www.physics.mcgill.ca/~pulsar/magnetar/main.html} [Дата
+  доступа:19.06.2025].
+
 \bibitem{Gunn:1969}
 \selectlanguageifdefined{english}
 \BibEmph{{Gunn}~J.~E., {Ostriker}~J.~P.} {Magnetic Dipole Radiation from
@@ -262,6 +270,23 @@
 \newblock М.: Наука, 1966.
 \newblock 228~{\cyr\cyrs.}
 
+\bibitem{KM_Book_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Kuznetsov~A., Mikheev~N.} {Electroweak processes in external active
+  media}.
+\newblock 2013.
+\newblock Vol.~252.
+\newblock P.~pp 1--271.
+
+\bibitem{Borisov:1997}
+\selectlanguageifdefined{russian}
+\BibEmph{Борисов~А.~В., Вшивцев~А.~С., Жуковский~В.~Ч., Эминов~П.~А.} {Фотоны и
+  лептоны во внешних полях при конечных температуре и плотности}~//
+  \BibEmph{УФН}.
+\newblock {1997}.
+\newblock {\cyr\CYRT.} {167}, {\cyr\textnumero}~{3}.
+\newblock {\cyr\CYRS.}~{241--267}.
+
 \bibitem{KuzMih:2000}
 \selectlanguageifdefined{russian}
 \BibEmph{Кузнецов~А.~В., Михеев~М.~В.} {Взаимодействие нейтрино с сильно
@@ -328,14 +353,6 @@
 \newblock 2008.
 \newblock Vol. 686, no.~2.
 \newblock P.~1245--1260.
-
-\bibitem{KM_Book_2013}
-\selectlanguageifdefined{english}
-\BibEmph{Kuznetsov~A., Mikheev~N.} {Electroweak processes in external active
-  media}.
-\newblock 2013.
-\newblock Vol.~252.
-\newblock P.~pp 1--271.
 
 \bibitem{Melrose:1983}
 \selectlanguageifdefined{english}
@@ -492,14 +509,13 @@
 \newblock Vol. 187.
 \newblock P.~2275--2276.
 
-\bibitem{Borisov:1997}
-\selectlanguageifdefined{russian}
-\BibEmph{Борисов~А.~В., Вшивцев~А.~С., Жуковский~В.~Ч., Эминов~П.~А.} {Фотоны и
-  лептоны во внешних полях при конечных температуре и плотности}~//
-  \BibEmph{УФН}.
-\newblock {1997}.
-\newblock {\cyr\CYRT.} {167}, {\cyr\textnumero}~{3}.
-\newblock {\cyr\CYRS.}~{241--267}.
+\bibitem{Weldon:1982}
+\selectlanguageifdefined{english}
+\BibEmph{Weldon~H.~A.} {Covariant calculations at finite temperature: The
+  relativistic plasma}~// \BibEmph{Phys. Rev.}
+\newblock 1982.
+\newblock Vol. D26.
+\newblock P.~1394--1433.
 
 \bibitem{Zhukovski:1994}
 \selectlanguageifdefined{russian}
