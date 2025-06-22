@@ -864,6 +864,14 @@
 \newblock Vol. A24.
 \newblock P.~3995--4008.
 
+\bibitem{Harding:1986}
+\selectlanguageifdefined{english}
+\BibEmph{Daugherty~J.~K., Harding~A.~K.} {Compton scattering in strong magnetic
+  fields}~// \BibEmph{Astrophys.~J.}
+\newblock 1986.
+\newblock Vol. 309.
+\newblock P.~362--371.
+
 \bibitem{Landau:2002}
 \selectlanguageifdefined{russian}
 \BibEmph{Ландау~Л.~Д., Лифшиц~Е.~М., Питаевский~Л.} Квантовая электродникамика.

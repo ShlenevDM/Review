@@ -10,14 +10,14 @@ Reallocated global_strs (elt_size=1001) to 10 items from 0.
 Reallocated glb_str_end (elt_size=4) to 10 items from 0.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 13415 items from 5000.
+Reallocated field_info (elt_size=4) to 13466 items from 5000.
 Database file #1: Bib.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 
 Here's how much of BibTeX's memory you used:
- Cites:               165 out of 750
- Fields:             8366 out of 13415
+ Cites:               166 out of 750
+ Fields:             8417 out of 13466
  Hash table:        18435 out of 19000
- Strings:            2129 out of 19000
- Free string pool:  35805 out of 65000
+ Strings:            2134 out of 19000
+ Free string pool:  35918 out of 65000
  Wizard functions:   3568 out of 6000
