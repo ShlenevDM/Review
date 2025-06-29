@@ -533,21 +533,13 @@ e\gamma^{(1)}$ и $e\gamma^{(1)}\to e\gamma^{(2)}$. Следует отмети�
 
 Как показывает численный анализ, в 
 случае сильно замагниченной, горячей, зарядово-симметричной плазмы полная 
-ширина поглощения электрона $\Gamma_n$ мало отличается от соответствующего 
+ширина поглощения электрона для первого уровня Ландау $\Gamma_1$ мало отличается от соответствующего 
 выражения в 
 сильном магнитном поле и ультрарелятивистских электронов~\cite{KM_Book_2013}:
 \begin{equation}
 	\begin{aligned}
-		E''_n\Gamma_1=\alpha \beta
-		(1-e^{-1})\, ,
-	\end{aligned}
-\end{equation}
-
-\begin{equation}\label{Shir}
-	\begin{aligned}
-		E''_n\Gamma_n=&\alpha \beta \sum_{n'=0}^{n-1}\int_{0}^{(\sqrt{n}-\sqrt{n'})^2}\frac{dx}{\sqrt{(n+n'-x)^2-4n n'}}\times\\
-		&\times\{(n+n'-x)[{\cal I}^2_{n,n'-1}(x)+{\cal I}^2_{n-1,n'}(x)]-\\
-		&-4\sqrt{nn'}{\cal I}_{n,n'}(x){\cal I}_{n-1,n'-1}(x)\}\, ,
+		E''_1\Gamma_1=\alpha \beta
+		(1-e^{-1})\simeq 0.623 \alpha \beta\, ,
 	\end{aligned}
 \end{equation}
 где $E''_n=E+\omega$ -- энергия виртуального электрона.
@@ -563,14 +555,14 @@ e\gamma^{(1)}$ и $e\gamma^{(1)}\to e\gamma^{(2)}$. Следует отмети�
 	\begin{aligned}\label{Wres}
 		&W_{e\gamma^{(1)}\to e\gamma^{(1)}}=\frac{\beta\alpha^2m^2}{\pi} \int 
 		dQ_0dk'_z \frac{{k_z'}^2\omega } 
-		{(-Q_{\mprl}^2)^2\varkappa}\exp\left[-\frac{\omega^2+{q'}_\perp^2}{2\beta}\right]\times
+		{(-Q_{\mprl}^2)^2\varkappa}\exp\left[-\frac{q_\perp^2+{q'}_\perp^2}{2\beta}\right]\times
 		\\
-		&\times\sum_{n=1}^{\infty}\sum_{\sigma=\pm 1}\frac{1}{[(n-1)!]^2}\left(\frac{\omega \sqrt{q_\perp'^2}}{2\beta}\right)^{2(n-1)}\bigg\{
+		&\times\sum_{n=1}^{\infty}\sum_{\sigma=\pm 1}\frac{1}{[(n-1)!]^2}\left(\frac{\sqrt{q_\perp^2} \sqrt{q_\perp'^2}}{2\beta}\right)^{2(n-1)}\bigg\{
 		\frac{1}{((p_\sigma+q)_{\mprl}^2-M_n^2)^2+(E''_n\Gamma_n)^2}  +\\
 		&+\frac{1}{((p_\sigma-q')_{\mprl}^2-M_n^2)^2+(E''_n\Gamma_n)^2}-
 		\\
 		&-2
-		\sum_{n'=1}^{\infty}\frac{(n-1)!}{(n'-1)!}\left(\frac{\omega \sqrt{q_\perp'^2}}{2\beta}\right)^{n'-n}J_{n+n'}\left(\frac{\omega \sqrt{q_\perp'^2}}{\beta}\right)\times\\
+		\sum_{n'=1}^{\infty}\frac{(n-1)!}{(n'-1)!}\left(\frac{\sqrt{q_\perp^2} \sqrt{q_\perp'^2}}{2\beta}\right)^{n'+n}J_{n+n'}\left(\frac{\sqrt{q_\perp^2} \sqrt{q_\perp'^2}}{\beta}\right)\times\\
 		&\times\frac{[(p_\sigma+q)^2_{\mprl}-M_n^2][(p_\sigma-q')^2_{\mprl}-M^2_{n'}]+E''_n\Gamma_nE''_{n'}\Gamma_{n'}}{[((p_\sigma-q')_{\mprl}^2-M_n^2)^2+(E''_n\Gamma_n)^2][((p_\sigma+q)_{\mprl}^2-M_{n'}^2)^2+(E''_n\Gamma_{n'})^2]}
 		\bigg\}\times
 		\\&\times 
@@ -587,19 +579,59 @@ e\gamma^{(1)}$ и $e\gamma^{(1)}\to e\gamma^{(2)}$. Следует отмети�
 		\times
 		\\
 		&\times\sum_{n=1}^{\infty}\sum_{\sigma=\pm 
-		1}\frac{1}{[(n-1)!]^2}\left(\frac{\omega 
+		1}\frac{1}{[(n-1)!]^2}\left(\frac{\sqrt{q_\perp^2} 
 		\sqrt{q_\perp'^2}}{2\beta}\right)^{2(n-1)}\frac{Q_0}{\omega}\bigg\{
-		{((p_\sigma+q)_{\mprl}^2-M_n^2)^2+(E''_n\Gamma_n)^2}+
+		\frac{1}{((p_\sigma+q)_{\mprl}^2-M_n^2)^2+(E''_n\Gamma_n)^2}+
 		\\
 		&+\frac{Q_0 \omega}{ q'^2_{\mprl}}\frac{1}{((p_\sigma-q')_{\mprl}^2-M_n^2)^2+(E''_n\Gamma_n)^2}-
 		\\
 		&-2
-		\sum_{n'=1}^{\infty}\frac{(n-1)!}{(n'-1)!}\left(\frac{\omega \sqrt{q_\perp'^2}}{2\beta}\right)^{n'-n} J_{n+n'}\left(\frac{\omega \sqrt{q_\perp'^2}}{\beta}\right)\times\\
+		\sum_{n'=1}^{\infty}\frac{(n-1)!}{(n'-1)!}\left(\frac{\sqrt{q_\perp^2} \sqrt{q_\perp'^2}}{2\beta}\right)^{n'+n} J_{n+n'}\left(\frac{\sqrt{q_\perp^2} \sqrt{q_\perp'^2}}{\beta}\right)\times\\
 		&\times\frac{[(p_\sigma+q)^2_{\mprl}-M_n^2][(p_\sigma-q')^2_{\mprl}-M^2_{n'}]+E''_n\Gamma_nE''_{n'}\Gamma_{n'}}{[((p_\sigma-q')_{\mprl}^2-M_n^2)^2+(E''_n\Gamma_n)^2][((p_\sigma+q)_{\mprl}^2-M_{n'}^2)^2+(E''_n\Gamma_{n'})^2]}
 		\times\\&\times
 		\frac{Q_0(\omega-Q_0)}{q'^2_\perp}
 		\bigg\}f_e{(E_\sigma)}\left[1-f_e{(E_\sigma+Q_0)}\right]\left[1+f_\gamma(\omega')\right]
 		 \, ,
+	\end{aligned}
+\end{equation}
+
+\begin{equation}
+	\begin{aligned}\label{Wresalt}
+		&W_{e\gamma^{(1)}\to e\gamma^{(1)}}=\frac{\beta\alpha^2m^2}{\pi} \int 
+		dQ_0dk'_z \frac{{k_z'}^2\omega } 
+		{(-Q_{\mprl}^2)^2\varkappa}\exp\left[-\frac{q_\perp^2+{q'}_\perp^2}{2\beta}\right]\times
+		\\
+		&\times\sum_{\sigma=\pm 1}\bigg\{
+		\frac{1}{((p_\sigma+q)_{\mprl}^2-M_1^2)^2+(E''_1\Gamma_1)^2}  +\frac{1}{((p_\sigma-q')_{\mprl}^2-M_1^2)^2+(E''_1\Gamma_1)^2}-
+		\\
+		&-2
+		\frac{q_\perp^2 q_\perp'^2}{4\beta^2}J_{2}\left(\frac{\sqrt{q_\perp^2} \sqrt{q_\perp'^2}}{\beta}\right)\times\\
+		&\times\frac{[(p_\sigma+q)^2_{\mprl}-M_1^2][(p_\sigma-q')^2_{\mprl}-M^2_{1}]+(E''_1\Gamma_{1})^2}{[((p_\sigma-q')_{\mprl}^2-M_1^2)^2+(E''_1\Gamma_1)^2][((p_\sigma+q)_{\mprl}^2-M_{1}^2)^2+(E''_1\Gamma_{1})^2]}
+		\bigg\}\times
+		\\&\times 
+		f_e{(E_\sigma)}\left[1-f_e{(E_\sigma+Q_0)}\right]\left[1+f_\gamma(\omega')\right]
+		\, ,
+	\end{aligned}
+\end{equation}
+
+\begin{equation}
+	\begin{aligned}\label{Wres2alt}
+		&W_{e\gamma^{(1)}\to e\gamma^{(2)}}=\frac{\beta\alpha^2m^2}{\pi} \int 
+		dQ_0dk'_z \frac{q_\perp'^2\omega } 
+		{(-Q_{\mprl}^2)^2\varkappa}\exp\left[-\frac{q_\perp^2+{q'}_\perp^2}{2\beta}\right]
+		\times
+		\\
+		&\times\sum_{\sigma=\pm 
+			1}\frac{Q_0}{\omega}\bigg\{
+		\frac{1}{((p_\sigma+q)_{\mprl}^2-M_1^2)^2+(E''_1\Gamma_1)^2}+\frac{Q_0 \omega}{ q'^2_{\mprl}}\frac{1}{((p_\sigma-q')_{\mprl}^2-M_1^2)^2+(E''_1\Gamma_1)^2}-
+		\\
+		&-2
+		\frac{q_\perp^2 q_\perp'^2}{4\beta^2} J_{2}\left(\frac{\sqrt{q_\perp^2} \sqrt{q_\perp'^2}}{\beta}\right)\times\\
+		&\times\frac{[(p_\sigma+q)^2_{\mprl}-M_1^2][(p_\sigma-q')^2_{\mprl}-M^2_{1}]+(E''_1\Gamma_1)^2}{[((p_\sigma-q')_{\mprl}^2-M_1^2)^2+(E''_1\Gamma_1)^2][((p_\sigma+q)_{\mprl}^2-M_{1'}^2)^2+(E''_1\Gamma_{1'})^2]}
+		\times\\&\times
+		\frac{Q_0(\omega-Q_0)}{q'^2_\perp}
+		\bigg\}f_e{(E_\sigma)}\left[1-f_e{(E_\sigma+Q_0)}\right]\left[1+f_\gamma(\omega')\right]
+		\, ,
 	\end{aligned}
 \end{equation}
 \noindent где $J_n(x)$ -- функция Бесселя целого индекса, 
