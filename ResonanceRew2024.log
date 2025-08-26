@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  8 JUL 2025 21:48
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  26 AUG 2025 19:52
 entering extended mode
 **ResonanceRew2024.tex
 (C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.tex
@@ -543,14 +543,14 @@ Package hyperref Warning: Ignoring empty anchor on input line 102.
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (C:\Users\a12l\Documents\GitHub\Review\introduction.tex [2] [3] [4] [5])
-(C:\Users\a12l\Documents\GitHub\Review\Chapter2_1.tex [6] [7] [8]
+(C:\Users\a12l\Documents\GitHub\Review\Chapter2_1.tex [6] [7]
 Overfull \hbox (7.45706pt too wide) in paragraph at lines 73--74
 \T2A/cmr/m/n/14.4 го со-сто-я-ния ча-стиц в от-дель-но-сти, ко-то-рые бу-дут им
 еть лоренц-инвариантную
  []
 
-[9]) (C:\Users\a12l\Documents\GitHub\Review\Chapter2_2.tex [10] [11] [12])
-(C:\Users\a12l\Documents\GitHub\Review\Chapter3.tex [13]
+[8] [9]) (C:\Users\a12l\Documents\GitHub\Review\Chapter2_2.tex [10] [11]
+[12]) (C:\Users\a12l\Documents\GitHub\Review\Chapter3.tex [13]
 Overfull \hbox (16.44838pt too wide) in alignment at lines 72--89
  [][][] []
  []
@@ -572,7 +572,7 @@ Package epstopdf Info: Source file: <fig2_1.eps>
  fig2_1.eps>
 (epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
-<fig2_1-eps-converted-to.pdf, id=282, 286.06876pt x 180.675pt>
+<fig2_1-eps-converted-to.pdf, id=284, 286.06876pt x 180.675pt>
 File: fig2_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig2_1-eps-converted-to.pdf>
@@ -593,7 +593,13 @@ mr/m/n/14.4 (\OML/cmm/m/it/14.4 ![]\OT1/cmr/m/n/14.4 ) = ([][\OML/cmm/m/it/14.4
  ![]=T\OT1/cmr/m/n/14.4 ] \OMS/cmsy/m/n/14.4  $
  []
 
-[24] [25] [26] [27] [28]
+[24] [25] [26]
+Overfull \hbox (0.14076pt too wide) in paragraph at lines 378--381
+[]\T2A/cmr/m/n/14.4 В дан-ных ра-бо-тах се-че-ние ин-те-гри-ро-ва-лось по им-пу
+ль-сам на-чаль-но-го элек-
+ []
+
+[27] [28]
 Package epstopdf Info: Source file: <image/Chapter_4/AliceDeltaAverageB023T001D
 eg30.eps>
 (epstopdf)                    date: 2024-10-28 20:13:47
@@ -608,7 +614,7 @@ verageB023T001Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T
 (epstopdf)             \includegraphics on input line 466.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB023T001Deg30-eps-converted-to.pdf, id=524, 2
+<image/Chapter_4/AliceDeltaAverageB023T001Deg30-eps-converted-to.pdf, id=525, 2
 59.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaAverageB023T001Deg30-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -631,7 +637,7 @@ verageB023T001Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T
 (epstopdf)             \includegraphics on input line 467.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf, id=526, 2
+<image/Chapter_4/AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf, id=527, 2
 59.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaAverageB023T001Deg60-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -654,7 +660,7 @@ verageB023T001Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T
 (epstopdf)             \includegraphics on input line 468.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf, id=528, 2
+<image/Chapter_4/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf, id=529, 2
 59.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaAverageB023T001Deg85-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -677,7 +683,7 @@ verageB023T01Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T0
 (epstopdf)             \includegraphics on input line 469.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB023T01Deg30-eps-converted-to.pdf, id=530, 25
+<image/Chapter_4/AliceDeltaAverageB023T01Deg30-eps-converted-to.pdf, id=531, 25
 9.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaAverageB023T01Deg30-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -700,7 +706,7 @@ verageB023T01Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T0
 (epstopdf)             \includegraphics on input line 470.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf, id=532, 25
+<image/Chapter_4/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf, id=533, 25
 9.97125pt x 184.69pt>
 File: image/Chapter_4/AliceDeltaAverageB023T01Deg60-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -723,7 +729,7 @@ verageB023T01Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB023T0
 (epstopdf)             \includegraphics on input line 471.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf, id=534, 25
+<image/Chapter_4/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf, id=535, 25
 9.97125pt x 181.67876pt>
 File: image/Chapter_4/AliceDeltaAverageB023T01Deg85-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -746,7 +752,7 @@ verageB0039T001Deg30-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB003
 (epstopdf)             \includegraphics on input line 472.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB0039T001Deg30-eps-converted-to.pdf, id=536, 
+<image/Chapter_4/AliceDeltaAverageB0039T001Deg30-eps-converted-to.pdf, id=537, 
 258.9675pt x 183.68625pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T001Deg30-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -769,7 +775,7 @@ verageB0039T001Deg60-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB003
 (epstopdf)             \includegraphics on input line 473.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB0039T001Deg60-eps-converted-to.pdf, id=538, 
+<image/Chapter_4/AliceDeltaAverageB0039T001Deg60-eps-converted-to.pdf, id=539, 
 258.9675pt x 183.68625pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T001Deg60-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -792,7 +798,7 @@ verageB0039T001Deg85-eps-converted-to.pdf image/Chapter_4/AliceDeltaAverageB003
 (epstopdf)             \includegraphics on input line 474.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB0039T001Deg85-eps-converted-to.pdf, id=540, 
+<image/Chapter_4/AliceDeltaAverageB0039T001Deg85-eps-converted-to.pdf, id=541, 
 258.9675pt x 187.70125pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T001Deg85-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -815,7 +821,7 @@ T01Deg30.eps>
 (epstopdf)             \includegraphics on input line 475.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf, id=542, 2
+<image/Chapter_4/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf, id=543, 2
 58.9675pt x 183.68625pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T01Deg30-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -838,7 +844,7 @@ T01Deg60.eps>
 (epstopdf)             \includegraphics on input line 476.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB0039T01Deg60-eps-converted-to.pdf, id=544, 2
+<image/Chapter_4/AliceDeltaAverageB0039T01Deg60-eps-converted-to.pdf, id=545, 2
 58.9675pt x 183.68625pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T01Deg60-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -861,7 +867,7 @@ T01Deg85.eps>
 (epstopdf)             \includegraphics on input line 477.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf, id=546, 2
+<image/Chapter_4/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf, id=547, 2
 58.9675pt x 180.675pt>
 File: image/Chapter_4/AliceDeltaAverageB0039T01Deg85-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -920,7 +926,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 661.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/Splot112001-eps-converted-to.pdf, id=630, 258.9675pt x 153.573
+<image/Chapter_4/Splot112001-eps-converted-to.pdf, id=631, 258.9675pt x 153.573
 75pt>
 File: image/Chapter_4/Splot112001-eps-converted-to.pdf Graphic file (type pdf)
  <use image/Chapter_4/Splot112001-eps-converted-to.pdf>
@@ -939,7 +945,7 @@ eps-converted-to.pdf image/Chapter_4/Splot11201.eps>
 (epstopdf)             \includegraphics on input line 667.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/Splot11201-eps-converted-to.pdf, id=631, 258.9675pt x 154.5775
+<image/Chapter_4/Splot11201-eps-converted-to.pdf, id=632, 258.9675pt x 154.5775
 pt>
 File: image/Chapter_4/Splot11201-eps-converted-to.pdf Graphic file (type pdf)
  <use image/Chapter_4/Splot11201-eps-converted-to.pdf>
@@ -958,7 +964,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 673.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/Splot122001-eps-converted-to.pdf, id=634, 258.9675pt x 153.573
+<image/Chapter_4/Splot122001-eps-converted-to.pdf, id=635, 258.9675pt x 153.573
 75pt>
 File: image/Chapter_4/Splot122001-eps-converted-to.pdf Graphic file (type pdf)
  <use image/Chapter_4/Splot122001-eps-converted-to.pdf>
@@ -977,7 +983,7 @@ eps-converted-to.pdf image/Chapter_4/Splot12201.eps>
 (epstopdf)             \includegraphics on input line 679.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_4/Splot12201-eps-converted-to.pdf, id=637, 258.9675pt x 154.5775
+<image/Chapter_4/Splot12201-eps-converted-to.pdf, id=638, 258.9675pt x 154.5775
 pt>
 File: image/Chapter_4/Splot12201-eps-converted-to.pdf Graphic file (type pdf)
  <use image/Chapter_4/Splot12201-eps-converted-to.pdf>
@@ -1004,7 +1010,7 @@ Package epstopdf Info: Source file: <fig5_3.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig5_3-eps-converted-to.pdf, id=696, 313.17pt x 196.735pt>
+<fig5_3-eps-converted-to.pdf, id=697, 313.17pt x 196.735pt>
 File: fig5_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5_3-eps-converted-to.pdf>
@@ -1022,7 +1028,7 @@ Package epstopdf Info: Source file: <fig5_4.eps>
 (epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig5_4-eps-converted-to.pdf, id=712, 318.18875pt x 168.63pt>
+<fig5_4-eps-converted-to.pdf, id=713, 318.18875pt x 168.63pt>
 File: fig5_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5_4-eps-converted-to.pdf>
@@ -1046,7 +1052,7 @@ Package epstopdf Info: Source file: <fig5_5.eps>
  fig5_5.eps>
 (epstopdf)             \includegraphics on input line 221.
 Package epstopdf Info: Output file is already uptodate.
- <fig5_5-eps-converted-to.pdf, id=788, 294.09875pt x 197.73875pt>
+ <fig5_5-eps-converted-to.pdf, id=789, 294.09875pt x 197.73875pt>
 File: fig5_5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5_5-eps-converted-to.pdf>
@@ -1061,7 +1067,7 @@ Overfull \hbox (1.05191pt too wide) in paragraph at lines 257--258
 ) (C:\Users\a12l\Documents\GitHub\Review\Chapter4_4.tex [42]
 Overfull \hbox (7.44865pt too wide) in paragraph at lines 80--81
 \T2A/cmr/m/n/14.4 Гейзенбрега, ко-то-рый ста-но-вит-ся су-ще-ствен-ным в пре-де
--ле ма-лых энер-гий [[]145[]].
+-ле ма-лых энер-гий [[]138[]].
  []
 
 [43]
@@ -1075,7 +1081,7 @@ Package epstopdf Info: Source file: <fig5_1.eps>
  fig5_1.eps>
 (epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
- <fig5_1-eps-converted-to.pdf, id=856, 106.3975pt x 57.21375pt>
+ <fig5_1-eps-converted-to.pdf, id=857, 106.3975pt x 57.21375pt>
 File: fig5_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5_1-eps-converted-to.pdf>
@@ -1092,7 +1098,7 @@ Package epstopdf Info: Source file: <fig5_2.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig5_2-eps-converted-to.pdf, id=862, 390.45876pt x 62.2325pt>
+<fig5_2-eps-converted-to.pdf, id=863, 390.45876pt x 62.2325pt>
 File: fig5_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5_2-eps-converted-to.pdf>
@@ -1110,16 +1116,16 @@ verted-to.pdf>
 (epstopdf)                    size: 26049 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_6/PathIntegra
 teMode2-eps-converted-to.pdf image/Chapter_6/PathIntegrateMode2.eps>
-(epstopdf)             \includegraphics on input line 193.
+(epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/PathIntegrateMode2-eps-converted-to.pdf, id=970, 272.01625pt x
+<image/Chapter_6/PathIntegrateMode2-eps-converted-to.pdf, id=972, 272.01625pt x
  81.30376pt>
 File: image/Chapter_6/PathIntegrateMode2-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use image/Chapter_6/PathIntegrateMode2-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/PathIntegrateMode2-eps-converted-to.pd
-f used on input line 193.
+f used on input line 189.
 (pdftex.def)             Requested size: 408.02336pt x 121.9553pt.
 
 [51] [52 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/PathIntegrateMo
@@ -1133,7 +1139,7 @@ rted-to.pdf>
 (epstopdf)                    size: 25942 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_6/PathIntegra
 te2Gl-eps-converted-to.pdf image/Chapter_6/PathIntegrate2Gl.eps>
-(epstopdf)             \includegraphics on input line 244.
+(epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
 
 <image/Chapter_6/PathIntegrate2Gl-eps-converted-to.pdf, id=1011, 193.72375pt x 
@@ -1142,7 +1148,7 @@ File: image/Chapter_6/PathIntegrate2Gl-eps-converted-to.pdf Graphic file (type
 pdf)
  <use image/Chapter_6/PathIntegrate2Gl-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/PathIntegrate2Gl-eps-converted-to.pdf 
-used on input line 244.
+used on input line 240.
 (pdftex.def)             Requested size: 290.5849pt x 117.43845pt.
  [53 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/PathIntegrate2Gl-ep
 s-converted-to.pdf>]
@@ -1155,7 +1161,7 @@ Package epstopdf Info: Source file: <image/Chapter_6/mode2.eps>
 (epstopdf)                    size: 17930 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_6/mode2-eps-c
 onverted-to.pdf image/Chapter_6/mode2.eps>
-(epstopdf)             \includegraphics on input line 303.
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
 <image/Chapter_6/mode2-eps-converted-to.pdf, id=1047, 353.32pt x 234.8775pt>
@@ -1163,7 +1169,7 @@ File: image/Chapter_6/mode2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use image/Chapter_6/mode2-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/mode2-eps-converted-to.pdf used on inp
-ut line 303.
+ut line 299.
 (pdftex.def)             Requested size: 282.65639pt x 187.90225pt.
  [54]
 Package epstopdf Info: Source file: <image/Chapter_6/mode1.eps>
@@ -1175,14 +1181,14 @@ Package epstopdf Info: Source file: <image/Chapter_6/mode1.eps>
 (epstopdf)                    size: 45865 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_6/mode1-eps-c
 onverted-to.pdf image/Chapter_6/mode1.eps>
-(epstopdf)             \includegraphics on input line 335.
+(epstopdf)             \includegraphics on input line 331.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/mode1-eps-converted-to.pdf, id=1070, 350.30875pt x 234.8775pt>
+<image/Chapter_6/mode1-eps-converted-to.pdf, id=1071, 350.30875pt x 234.8775pt>
 File: image/Chapter_6/mode1-eps-converted-to.pdf Graphic file (type pdf)
 <use image/Chapter_6/mode1-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/mode1-eps-converted-to.pdf used on inp
-ut line 335.
+ut line 331.
 (pdftex.def)             Requested size: 280.24738pt x 187.90225pt.
 Package epstopdf Info: Source file: <image/Chapter_6/CompareDampAndCompton.eps>
 
@@ -1194,17 +1200,17 @@ converted-to.pdf>
 (epstopdf)                    size: 15166 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_6/CompareDamp
 AndCompton-eps-converted-to.pdf image/Chapter_6/CompareDampAndCompton.eps>
-(epstopdf)             \includegraphics on input line 342.
+(epstopdf)             \includegraphics on input line 338.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/CompareDampAndCompton-eps-converted-to.pdf, id=1075, 259.97125
+<image/Chapter_6/CompareDampAndCompton-eps-converted-to.pdf, id=1076, 259.97125
 pt x 175.65625pt>
 File: image/Chapter_6/CompareDampAndCompton-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use image/Chapter_6/CompareDampAndCompton-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/CompareDampAndCompton-eps-converted-to
-.pdf used on input line 342.
+.pdf used on input line 338.
 (pdftex.def)             Requested size: 337.96259pt x 228.35307pt.
  [55 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/mode2-eps-converted
 -to.pdf>]
@@ -1221,17 +1227,17 @@ Package epstopdf Info: Source file: <image/Chapter_6/CompareDampAndCompton2.eps
 (epstopdf)                    size: 16974 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_6/CompareDamp
 AndCompton2-eps-converted-to.pdf image/Chapter_6/CompareDampAndCompton2.eps>
-(epstopdf)             \includegraphics on input line 347.
+(epstopdf)             \includegraphics on input line 343.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf, id=1092, 257.9637
+<image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf, id=1093, 257.9637
 5pt x 168.63pt>
 File: image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf Graphic file 
 (type pdf)
 
 <use image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/CompareDampAndCompton2-eps-converted-t
-o.pdf used on input line 347.
+o.pdf used on input line 343.
 (pdftex.def)             Requested size: 335.35281pt x 219.21896pt.
  [57
 
@@ -1256,10 +1262,10 @@ $\T2A/cmtt/m/n/14.4 / / www . physics . mcgill . ca / ~pulsar / magnetar / main
  . html$[] \T2A/cmr/m/n/14.4 [Дата
  []
 
-[59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73]
-[74])
+[59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
- [75]
+
+[74]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
@@ -1270,10 +1276,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9566 strings out of 494045
- 137636 string characters out of 3145973
- 228429 words of memory out of 3000000
- 12157 multiletter control sequences out of 15000+200000
+ 9549 strings out of 494045
+ 137408 string characters out of 3145973
+ 228104 words of memory out of 3000000
+ 12150 multiletter control sequences out of 15000+200000
  33761 words of font info for 97 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  42i,13n,24p,4593b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1312,9 +1318,9 @@ frm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1440.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on ResonanceRew2024.pdf (75 pages, 1366718 bytes).
+Output written on ResonanceRew2024.pdf (74 pages, 1364797 bytes).
 PDF statistics:
- 1398 PDF objects out of 1440 (max. 8388607)
- 382 named destinations out of 1000 (max. 500000)
+ 1384 PDF objects out of 1440 (max. 8388607)
+ 372 named destinations out of 1000 (max. 500000)
  233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
