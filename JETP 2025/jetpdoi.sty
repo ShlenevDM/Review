@@ -1,0 +1,110 @@
+% jetpdoi.sty -- make JETP or similar DOI code
+%
+% plain TeX: \input jetpdoi.sty
+% LaTeX:     \usepackage{jetpdoi}
+%
+% To use:
+% 1) define commands:
+% \DOIPublisher publisher code (10.7868 is the default)
+% \DOIISSN      ISSN with single dash inside (0044-4510 is the default)
+% \DOIyear      2-digit year (01 is the default)
+% \DOIissue     2-digit issue number (01 is the default)
+% \DOIarticle   3-digit article number (001 is the default)
+% /S is the saparator
+% \ComputeDOI   defines \DOIcode command containing the whole DOI code
+% \ShowDOI      runs \ComputeDOI and \DOIcode;
+% \DOItrail contains the last DOI code character defined (CRC).
+%
+% 2) use compound commands:
+% \MakeDOI with 3 arguments: 2-digit year, 2-digit issue number and
+%          an article number (from 1 to 999); defines \DOIcode
+% \MakeShowDOI same arguments, runs \MakeDOI and \DOIcode.
+%
+% Reverse operation:
+% \ParseDOI{doi-code} % e.g. \ParseDOI{10.7868/S0044451015070135}
+%
+% The result is a set of commands (X=eXtracted):
+% \DOIXPublisher % extracted publisher
+% \DOIXISSN      % extracted ISSN (with a dash)
+% \DOIXyear      % extracted year (00)
+% \DOIXissue     % extracted issue (00)
+% \DOIXarticle   % extracted article number (000)
+% \DOIXCRC       % extracted control character
+%
+% \ParseShowDOI{doi-code} % parses and outputs the values
+
+\newcount\DOIc     % counter from 1 to 15
+\newcount\DOIn     % current digit
+\newcount\DOIw     % current weight
+\newcount\DOIsum   % sum of weighed digits
+\newcount\DOItr    % control character (sum mod 11; 10->X)
+
+\def\MakeBareISSN#1-#2*{\edef\DOIbareISSN{#1#2}}
+\def\DOIweights{53 47 43 41 37 31 29 23 19 17 13 7 5 3 2 }
+\def\DOInum#1#2*{\DOIn=#1\relax\edef\DOInums{#2}}
+\def\NextWeight#1 #2*{\DOIw=#1\relax\edef\DOIwgt{#2}}
+
+\let\DOIPublisher\relax
+\let\DOIISSN\relax
+\let\DOIyear\relax
+\let\DOIissue\relax
+\let\DOIarticle\relax
+
+\def\ComputeDOI{%
+    % some test defaults -----------------------------------------------
+    \ifx\DOIPublisher\relax \def\DOIPublisher{10.7868}\fi
+    \ifx\DOIISSN\relax      \def\DOIISSN{0044-4510}\fi
+    \ifx\DOIyear\relax      \def\DOIyear{01}\fi
+    \ifx\DOIissue\relax     \def\DOIissue{01}\fi
+    \ifx\DOIarticle\relax   \def\DOIarticle{001}\fi
+    %-------------------------------------------------------------------
+    \let\DOIwgt=\DOIweights
+    \expandafter\MakeBareISSN\DOIISSN*%
+    %% characters: 8           2       2        3
+    \edef\DOInums{\DOIbareISSN\DOIyear\DOIissue\DOIarticle}%
+    %-------------------------------------------------------------------
+    \DOIsum=0\relax \DOIc=0\relax
+    \loop \advance\DOIc by 1\relax
+          \expandafter\DOInum\DOInums*\expandafter\NextWeight\DOIwgt*%
+          \multiply\DOIn by \DOIw \advance\DOIsum by \DOIn
+    \ifnum\DOIc<15 \repeat
+    %-------------------------------------------------------------------
+    \DOItr=\DOIsum \divide\DOIsum by 11\relax \multiply\DOIsum by 11\relax
+    \advance\DOItr by -\DOIsum
+    \ifnum\DOItr<10 \edef\DOItrail{\the\DOItr}\else\def\DOItrail{X}\fi
+    %-------------------------------------------------------------------
+    \edef\DOIcode{\DOIPublisher/S\DOIbareISSN\DOIyear\DOIissue\DOIarticle\DOItrail}%
+}
+
+\def\ShowDOI{\ComputeDOI\DOIcode}
+
+% Assume default \DOIPublisher and \DOIISSN
+\def\MakeDOI#1#2#3{\def\DOIyear{#1}\def\DOIissue{#2}\DOIc=#3\relax
+                   \def\DOIarticle{}%
+                   \ifnum\DOIc<100\relax \def\DOIarticle{0}\fi
+                   \ifnum\DOIc<10\relax  \def\DOIarticle{00}\fi
+                   \edef\DOIarticle{\DOIarticle#3}%
+                   \ComputeDOI
+}
+
+\def\MakeShowDOI#1#2#3{\MakeDOI{#1}{#2}{#3}\DOIcode}
+
+\def\ParseDOI#1{\expandafter\DOIparser#1*}
+\def\ParseShowDOI#1{\ParseDOI{#1}%
+        Publisher=\DOIXPublisher,
+        ISSN=\DOIXISSN,
+        year=\DOIXyear,
+        issue=\DOIXissue,
+        article~\#=\DOIXarticle,
+        CRC=\DOIXCRC}
+
+\let\DOIXPublisher\relax
+\let\DOIXISSN\relax
+\let\DOIXyear\relax
+\let\DOIXissue\relax
+\let\DOIXarticle\relax
+\let\DOIXCRC\relax
+
+\def\DOIparser#1/S#2*{\def\DOIXPublisher{#1}\expandafter\DOIissn#2*}
+\def\DOIissn#1#2#3#4#5#6#7#8#9*{\def\DOIXISSN{#1#2#3#4-#5#6#7#8}\expandafter\DOIyrissueart#9*}
+\def\DOIyrissueart#1#2#3#4#5#6#7#8*{\def\DOIXyear{#1#2}\def\DOIXissue{#3#4}\def\DOIXarticle{#5#6#7}\def\DOIXCRC{#8}}

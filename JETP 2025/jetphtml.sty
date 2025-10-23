@@ -1,0 +1,117 @@
+%% jetphtml.sty -- automatic insertion of HTML hyperlinks.
+%%
+%% Automatically inserts hyperlinks to \cite, \bibitem, \label, \ref.
+%%
+%% Uses cite package.
+%%
+%% User commands are
+%%
+%% \HTMLspec  % inserts any special for its argument:
+%%            % \HTMLurl{html:<a href="http://www.kedit.com">} ->
+%%            %           \special{html:<a href="http://www.kedit.com">}
+%%
+%% \HTMLurl   % inserts HTML-\special for its argument:
+%%            % \HTMLurl{http://www.kedit.com} ->
+%%            %           \special{html:<a href="http://www.kedit.com">}
+%%
+%% \HTMLhref  % inserts HTML-\special for its argument as local
+%%            % reference:\HTMLhref{bib-1} ->
+%%            %                         \special{html:<a href="#bib-1">}
+%%
+%% \HTMLname  % inserts HTML-\special for its argument as a mark name:
+%%            % \HTMLname{bib-1} -> \special{html:<a name="bib-1">}
+%%
+%% \HTMLmail  % inserts HTML-mailto-\special:
+%%            % \HTMLmail{myname@yandex.ru} ->
+%%            %       \special{html:<a href="mailto:myname@yandex.ru">}%
+%%            %       myname@yandex.ru\HTMLclose
+%%
+%% \HTMLclose % inserts HTML-\special for referene end:
+%%            % \special{html:</a>}
+%%
+%% \arXiv     % inserts reference to http://arxiv.org/pdf/XXXv1, where
+%%            % XXX = article number, specified as the command argument
+%%
+%% \arXivV    % same, but has two arguments: article number, and
+%%            % version number: http://arxiv.org/pdf/XXXvV, where
+%%            % XXX = article number (1-st argument), V = version number
+%%            % (2-nd argument).
+%%
+%% \HTMLDOI   % inserts reference to http://dx.doi.org/DOIcode
+%%
+%% \url{url}{hypertext} % \url{http://www.kedit.com}{KEDIT cite}
+%% \URL{url} % \URL{http://www.kedit.com}
+%% in \URL the url argument may contain the \break command, which is
+%% discarded in hyperreference; the same argument used as a hypertext.
+%% \urlclean redefines \url as \urlgobble
+%% \urlgobble{url}{hypertext} % ignores hypertext and runs as \URL{url}
+
+\RequirePackage{cite}
+
+\newcount\JETPCCC
+
+\catcode`^^A=12\relax
+\catcode`^^B=12\relax
+
+\def\htmlcatcodes{%
+    \JETPCCC=\the\catcode`\# \catcode`^^A=\JETPCCC \@makeother\#\relax
+    \JETPCCC=\the\catcode`\% \catcode`^^B=\JETPCCC \@makeother\%\relax
+    \@makeother\~\relax \@makeother\_\relax
+    \@makeother\$\relax \@makeother\&\relax
+}
+
+{\htmlcatcodes
+ \gdef\HTMLspec^^A1{{\htmlcatcodes\special{^^A1}}}^^B
+ \gdef\HTMLurl^^A1{\HTMLspec{html:<a href="^^A1">}}^^B
+ \gdef\HTMLhref^^A1{\HTMLurl{#^^A1}}^^B
+ \gdef\HTMLmail^^A1{\HTMLurl{mailto:^^A1}}^^B
+ \gdef\HTMLname^^A1{\HTMLspec{html:<a name="^^A1">}}^^B
+ \gdef\arXiv^^A1{\HTMLurl{http://arxiv.org/pdf/^^A1v1}^^A1\HTMLclose}^^B
+ \gdef\arXivV^^A1^^A2{\HTMLurl{http://arxiv.org/pdf/^^A1v^^A2}^^A1\HTMLclose}^^B
+ \gdef\HTMLDOI^^A1{\HTMLurl{http://dx.doi.org/^^A1}^^A1\HTMLclose}^^B
+}
+
+\def\HTMLclose{\special{html:</a>}}
+
+\let\refori=\ref
+\let\labelori=\label
+\let\citeformori=\citeform
+\let\@lbibitemori=\@lbibitem
+\let\@bibitemori=\@bibitem
+
+\def\ref#1{\HTMLhref{#1}\refori{#1}\HTMLclose}%
+\def\label#1{\HTMLname{#1}\labelori{#1}\HTMLclose}%
+
+\let\ltx@label\label % AMS Math support if jetphtml.sty loaded after
+
+%% Hyperlinking \cite (of cite package)
+\def\citeform#1{\HTMLhref{bib-#1}#1\HTMLclose}%
+
+%% Hyperlinking \bibitem
+\def\@lbibitem[#1]#2{\HTMLname{bib-#1}\item[\@biblabel{#1}\hfill]\HTMLclose\if@filesw
+    {\let\protect\noexpand
+     \immediate\write\@auxout{\string\bibcite{#2}{#1}}}\fi\ignorespaces}%
+
+\def\@bibitem#1{\addtocounter\@listctr\@ne
+    \HTMLname{bib-\the\value{\@listctr}}\addtocounter\@listctr{-1}\relax
+    \item\HTMLclose
+    \if@filesw \immediate\write\@auxout
+    {\string\bibcite{#1}{\the\value{\@listctr}}}\fi\ignorespaces}
+
+\def\URLcommands{\def\break{}}
+
+\def\URL{\protect\@URL}
+\def\@URL{\bgroup\htmlcatcodes\@@URL}
+\def\@@URL#1{{\URLcommands\HTMLurl{#1}}#1\HTMLclose\egroup}
+
+\def\url{\protect\@url}
+\def\@url{\bgroup\htmlcatcodes\@@url}
+\def\@@url#1{\HTMLurl{#1}\egroup\@@@url}
+\def\@@@url#1{#1\HTMLclose}
+
+\def\urlclean{\def\url\urlgobble}
+\def\urlgobble{\protect\@urlgobble}
+\def\@urlgobble{\bgroup\htmlcatcodes\@@urlgobble}
+\def\@@urlgobble#1{{\URLcommands\HTMLurl{#1}}#1\HTMLclose\egroup\@gobble}
+
+\endinput
