@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  26 OCT 2025 13:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  11 NOV 2025 12:40
 entering extended mode
 **text.tex
 ("C:\Users\a12l\Documents\GitHub\Review\JETP 2025\text.tex"
@@ -505,16 +505,6 @@ Underfull \hbox (badness 2617) in paragraph at lines 120--132
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 120--132
-\T2A/cmr/m/n/10 вы-зван неожи-дан-ным от-кры-ти-ем цик-ло-трон-ных
- []
-
-
-Underfull \hbox (badness 3758) in paragraph at lines 120--132
-\T2A/cmr/m/n/10 спек-траль-ных ли-ний у двой-ных рент-ге-нов-ских
- []
-
-
 Underfull \hbox (badness 3098) in paragraph at lines 120--132
 \T2A/cmr/m/n/10 пуль-са-ров [1[]3], ко-то-рые из-на-чаль-но ин-тер-пре-
  []
@@ -530,6 +520,9 @@ Underfull \hbox (badness 4120) in paragraph at lines 120--132
  []
 
 
+Underfull \vbox (badness 5260) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][][]\T2A/cmr/m/n/10 ЖЭТФ[][][][]
  []
@@ -539,34 +532,76 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ] [2] [3]
-Underfull \hbox (badness 3229) in paragraph at lines 387--394
+Underfull \hbox (badness 3229) in paragraph at lines 385--392
 \T2A/cmr/m/n/10 функ-ция рас-пре-де-ле-ния элек-тро-нов с тем-пе-ра-
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 387--394
+Underfull \hbox (badness 3009) in paragraph at lines 385--392
 \T2A/cmr/m/n/10 ту-рой $\OML/cmm/m/it/10 T$ \T2A/cmr/m/n/10 и ну-ле-вым хи-ми-ч
 е-ским по-тен-ци-а-лом,
  []
 
 
-Overfull \hbox (3.6147pt too wide) detected at line 404
+Underfull \hbox (badness 10000) in paragraph at lines 393--398
+[]\T2A/cmr/m/n/10 Если в об-ла-сти ре-зо-нан-са вы-пол-ня-ет-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--398
+\T2A/cmr/m/n/10 ся усло-вие $\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10  [] \OMS/cmsy/
+m/n/10  []$\T2A/cmr/m/n/10 , где
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 393--398
+\T2A/cmr/m/n/10 ис-поль-зо-вать при-бли-же-ние уз-ко-го ре-зо-нанс-но-го
+ []
+
+
+Overfull \hbox (3.6147pt too wide) detected at line 402
 [][] \OMS/cmsy/m/n/10 ' []\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ((\OML/cmm/m/it/10 
 p \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10   \O
 ML/cmm/m/it/10 M[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :
  []
 
 
-Overfull \hbox (18.13116pt too wide) in alignment at lines 408--419
- [] [] [] [] 
+Underfull \hbox (badness 1005) in paragraph at lines 420--423
+$\OML/cmm/m/it/10 S[]$ \T2A/cmr/m/n/10 для по-гло-ще-ния фо-то-на, $\OML/cmm/m/
+it/10 e \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 e$\T2A/cmr/m/n/10 , и
  []
 
 
-Overfull \hbox (12.55374pt too wide) in alignment at lines 422--434
+Overfull \hbox (9.29718pt too wide) in alignment at lines 423--431
  [] [] [] [] 
  []
 
 [4]
+Overfull \hbox (9.19547pt too wide) in alignment at lines 449--451
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 559--565
+[]\T2A/cmr/m/n/10 В ра-бо-тах [31, 32, 42] ис-сле-до-вал-ся про-цесс
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 559--565
+$\OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 10[]$ \T2A/cmr/m/n/10 
+Гс, ха-рак-тер-ных для маг-ни-то-сфер
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 559--565
+\T2A/cmr/m/n/10 ра-дио-пуль-са-ров и маг-ни-та-ров. При этом се-че-
+ []
+
+[5]
+Underfull \hbox (badness 1715) in paragraph at lines 621--627
+\T2A/cmr/m/n/10 се-я-ния. Уз-кие пи-ки, со-от-вет-ству-ю-щие энер-ги-ям
+ []
+
 Package epstopdf Info: Source file: <fig1_1.eps>
 (epstopdf)                    date: 2025-10-25 20:57:21
 (epstopdf)                    size: 58834 bytes
@@ -575,13 +610,13 @@ Package epstopdf Info: Source file: <fig1_1.eps>
 (epstopdf)                    size: 21322 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig1_1-eps-converted-to.pdf
  fig1_1.eps>
-(epstopdf)             \includegraphics on input line 601.
+(epstopdf)             \includegraphics on input line 631.
 Package epstopdf Info: Output file is already uptodate.
- <fig1_1-eps-converted-to.pdf, id=44, 259.97125pt x 184.69pt>
+<fig1_1-eps-converted-to.pdf, id=47, 259.97125pt x 184.69pt>
 File: fig1_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig1_1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1_1-eps-converted-to.pdf used on input line 601.
+Package pdftex.def Info: fig1_1-eps-converted-to.pdf used on input line 631.
 (pdftex.def)             Requested size: 237.84842pt x 168.97276pt.
 Package epstopdf Info: Source file: <fig1_2.eps>
 (epstopdf)                    date: 2025-10-25 21:00:16
@@ -591,14 +626,14 @@ Package epstopdf Info: Source file: <fig1_2.eps>
 (epstopdf)                    size: 20863 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig1_2-eps-converted-to.pdf
  fig1_2.eps>
-(epstopdf)             \includegraphics on input line 602.
+(epstopdf)             \includegraphics on input line 632.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig1_2-eps-converted-to.pdf, id=46, 259.97125pt x 184.69pt>
+<fig1_2-eps-converted-to.pdf, id=49, 259.97125pt x 184.69pt>
 File: fig1_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig1_2-eps-converted-to.pdf>
-Package pdftex.def Info: fig1_2-eps-converted-to.pdf used on input line 602.
+Package pdftex.def Info: fig1_2-eps-converted-to.pdf used on input line 632.
 (pdftex.def)             Requested size: 237.84842pt x 168.97276pt.
 Package epstopdf Info: Source file: <fig1_3.eps>
 (epstopdf)                    date: 2025-10-25 21:01:03
@@ -608,14 +643,14 @@ Package epstopdf Info: Source file: <fig1_3.eps>
 (epstopdf)                    size: 19437 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig1_3-eps-converted-to.pdf
  fig1_3.eps>
-(epstopdf)             \includegraphics on input line 603.
+(epstopdf)             \includegraphics on input line 633.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig1_3-eps-converted-to.pdf, id=48, 259.97125pt x 184.69pt>
+<fig1_3-eps-converted-to.pdf, id=51, 259.97125pt x 184.69pt>
 File: fig1_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig1_3-eps-converted-to.pdf>
-Package pdftex.def Info: fig1_3-eps-converted-to.pdf used on input line 603.
+Package pdftex.def Info: fig1_3-eps-converted-to.pdf used on input line 633.
 (pdftex.def)             Requested size: 237.84842pt x 168.97276pt.
 Package epstopdf Info: Source file: <fig2_1.eps>
 (epstopdf)                    date: 2025-10-25 21:13:09
@@ -625,14 +660,14 @@ Package epstopdf Info: Source file: <fig2_1.eps>
 (epstopdf)                    size: 18414 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig2_1-eps-converted-to.pdf
  fig2_1.eps>
-(epstopdf)             \includegraphics on input line 608.
+(epstopdf)             \includegraphics on input line 638.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig2_1-eps-converted-to.pdf, id=50, 258.9675pt x 183.68625pt>
+<fig2_1-eps-converted-to.pdf, id=53, 258.9675pt x 183.68625pt>
 File: fig2_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig2_1-eps-converted-to.pdf>
-Package pdftex.def Info: fig2_1-eps-converted-to.pdf used on input line 608.
+Package pdftex.def Info: fig2_1-eps-converted-to.pdf used on input line 638.
 (pdftex.def)             Requested size: 237.84842pt x 168.71309pt.
 Package epstopdf Info: Source file: <fig2_2.eps>
 (epstopdf)                    date: 2025-10-25 21:03:26
@@ -642,14 +677,14 @@ Package epstopdf Info: Source file: <fig2_2.eps>
 (epstopdf)                    size: 21405 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig2_2-eps-converted-to.pdf
  fig2_2.eps>
-(epstopdf)             \includegraphics on input line 609.
+(epstopdf)             \includegraphics on input line 639.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig2_2-eps-converted-to.pdf, id=52, 259.97125pt x 184.69pt>
+<fig2_2-eps-converted-to.pdf, id=55, 259.97125pt x 184.69pt>
 File: fig2_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig2_2-eps-converted-to.pdf>
-Package pdftex.def Info: fig2_2-eps-converted-to.pdf used on input line 609.
+Package pdftex.def Info: fig2_2-eps-converted-to.pdf used on input line 639.
 (pdftex.def)             Requested size: 237.84842pt x 168.97276pt.
 Package epstopdf Info: Source file: <fig2_3.eps>
 (epstopdf)                    date: 2025-10-25 21:04:05
@@ -659,14 +694,14 @@ Package epstopdf Info: Source file: <fig2_3.eps>
 (epstopdf)                    size: 22200 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig2_3-eps-converted-to.pdf
  fig2_3.eps>
-(epstopdf)             \includegraphics on input line 610.
+(epstopdf)             \includegraphics on input line 640.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig2_3-eps-converted-to.pdf, id=54, 259.97125pt x 181.67876pt>
+<fig2_3-eps-converted-to.pdf, id=57, 259.97125pt x 181.67876pt>
 File: fig2_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig2_3-eps-converted-to.pdf>
-Package pdftex.def Info: fig2_3-eps-converted-to.pdf used on input line 610.
+Package pdftex.def Info: fig2_3-eps-converted-to.pdf used on input line 640.
 (pdftex.def)             Requested size: 237.84842pt x 166.21779pt.
 Package epstopdf Info: Source file: <fig3_1.eps>
 (epstopdf)                    date: 2025-10-25 21:06:40
@@ -676,14 +711,14 @@ Package epstopdf Info: Source file: <fig3_1.eps>
 (epstopdf)                    size: 18096 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig3_1-eps-converted-to.pdf
  fig3_1.eps>
-(epstopdf)             \includegraphics on input line 616.
+(epstopdf)             \includegraphics on input line 647.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig3_1-eps-converted-to.pdf, id=56, 258.9675pt x 183.68625pt>
+<fig3_1-eps-converted-to.pdf, id=59, 258.9675pt x 183.68625pt>
 File: fig3_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig3_1-eps-converted-to.pdf>
-Package pdftex.def Info: fig3_1-eps-converted-to.pdf used on input line 616.
+Package pdftex.def Info: fig3_1-eps-converted-to.pdf used on input line 647.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
 Package epstopdf Info: Source file: <fig3_2.eps>
 (epstopdf)                    date: 2025-10-25 21:13:40
@@ -693,14 +728,14 @@ Package epstopdf Info: Source file: <fig3_2.eps>
 (epstopdf)                    size: 17780 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig3_2-eps-converted-to.pdf
  fig3_2.eps>
-(epstopdf)             \includegraphics on input line 617.
+(epstopdf)             \includegraphics on input line 648.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig3_2-eps-converted-to.pdf, id=58, 258.9675pt x 183.68625pt>
+<fig3_2-eps-converted-to.pdf, id=61, 258.9675pt x 183.68625pt>
 File: fig3_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig3_2-eps-converted-to.pdf>
-Package pdftex.def Info: fig3_2-eps-converted-to.pdf used on input line 617.
+Package pdftex.def Info: fig3_2-eps-converted-to.pdf used on input line 648.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
 Package epstopdf Info: Source file: <fig3_3.eps>
 (epstopdf)                    date: 2025-10-25 21:14:20
@@ -710,14 +745,14 @@ Package epstopdf Info: Source file: <fig3_3.eps>
 (epstopdf)                    size: 17188 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig3_3-eps-converted-to.pdf
  fig3_3.eps>
-(epstopdf)             \includegraphics on input line 618.
+(epstopdf)             \includegraphics on input line 649.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig3_3-eps-converted-to.pdf, id=60, 258.9675pt x 183.68625pt>
+<fig3_3-eps-converted-to.pdf, id=63, 258.9675pt x 183.68625pt>
 File: fig3_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig3_3-eps-converted-to.pdf>
-Package pdftex.def Info: fig3_3-eps-converted-to.pdf used on input line 618.
+Package pdftex.def Info: fig3_3-eps-converted-to.pdf used on input line 649.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
 Package epstopdf Info: Source file: <fig4_1.eps>
 (epstopdf)                    date: 2025-10-25 21:15:02
@@ -727,14 +762,14 @@ Package epstopdf Info: Source file: <fig4_1.eps>
 (epstopdf)                    size: 16618 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig4_1-eps-converted-to.pdf
  fig4_1.eps>
-(epstopdf)             \includegraphics on input line 624.
+(epstopdf)             \includegraphics on input line 655.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig4_1-eps-converted-to.pdf, id=62, 258.9675pt x 183.68625pt>
+<fig4_1-eps-converted-to.pdf, id=65, 258.9675pt x 183.68625pt>
 File: fig4_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig4_1-eps-converted-to.pdf>
-Package pdftex.def Info: fig4_1-eps-converted-to.pdf used on input line 624.
+Package pdftex.def Info: fig4_1-eps-converted-to.pdf used on input line 655.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
 Package epstopdf Info: Source file: <fig4_2.eps>
 (epstopdf)                    date: 2025-10-25 21:15:51
@@ -744,14 +779,14 @@ Package epstopdf Info: Source file: <fig4_2.eps>
 (epstopdf)                    size: 16784 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig4_2-eps-converted-to.pdf
  fig4_2.eps>
-(epstopdf)             \includegraphics on input line 625.
+(epstopdf)             \includegraphics on input line 656.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig4_2-eps-converted-to.pdf, id=64, 258.9675pt x 183.68625pt>
+<fig4_2-eps-converted-to.pdf, id=67, 258.9675pt x 183.68625pt>
 File: fig4_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig4_2-eps-converted-to.pdf>
-Package pdftex.def Info: fig4_2-eps-converted-to.pdf used on input line 625.
+Package pdftex.def Info: fig4_2-eps-converted-to.pdf used on input line 656.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
 Package epstopdf Info: Source file: <fig4_3.eps>
 (epstopdf)                    date: 2025-10-25 21:28:31
@@ -761,102 +796,97 @@ Package epstopdf Info: Source file: <fig4_3.eps>
 (epstopdf)                    size: 17684 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig4_3-eps-converted-to.pdf
  fig4_3.eps>
-(epstopdf)             \includegraphics on input line 626.
+(epstopdf)             \includegraphics on input line 657.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig4_3-eps-converted-to.pdf, id=66, 258.9675pt x 183.68625pt>
+<fig4_3-eps-converted-to.pdf, id=69, 258.9675pt x 183.68625pt>
 File: fig4_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig4_3-eps-converted-to.pdf>
-Package pdftex.def Info: fig4_3-eps-converted-to.pdf used on input line 626.
+Package pdftex.def Info: fig4_3-eps-converted-to.pdf used on input line 657.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
- [5]
+
 
 LaTeX Warning: Text page 6 contains only floats.
 
 
 Underfull \vbox (badness 1377) has occurred while \output is active []
 
-
-
-LaTeX Warning: Text page 6 contains only floats.
-
-
-Underfull \vbox (badness 5939) has occurred while \output is active []
-
  [6 <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig1_1-eps-converted-to.pd
 f> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig1_2-eps-converted-to.pdf
 > <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig1_3-eps-converted-to.pdf>
- <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig2_1-eps-converted-to.pdf> 
-<C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig2_2-eps-converted-to.pdf> <
-C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig2_3-eps-converted-to.pdf>]
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1038) has occurred while \output is active []
 
- [7 <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig3_1-eps-converted-to.pd
-f> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig3_2-eps-converted-to.pdf
-> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig3_3-eps-converted-to.pdf>
- <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig4_1-eps-converted-to.pdf> 
-<C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig4_2-eps-converted-to.pdf> <
-C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig4_3-eps-converted-to.pdf>]
-Underfull \hbox (badness 1715) in paragraph at lines 650--656
-\T2A/cmr/m/n/10 се-я-ния. Уз-кие пи-ки, со-от-вет-ству-ю-щие энер-ги-ям
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 685--690
+ [7 <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig2_1-eps-converted-to.pd
+f> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig2_2-eps-converted-to.pdf
+> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig2_3-eps-converted-to.pdf>
+ <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig3_1-eps-converted-to.pdf> 
+<C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig3_2-eps-converted-to.pdf> <
+C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig3_3-eps-converted-to.pdf>]
+Underfull \hbox (badness 4205) in paragraph at lines 688--693
 []\T2A/cmr/m/n/10 Как по-ка-зы-ва-ет чис-лен-ный ана-лиз, в слу-
  []
 
 
-Underfull \hbox (badness 5161) in paragraph at lines 685--690
+Underfull \hbox (badness 5161) in paragraph at lines 688--693
 \T2A/cmr/m/n/10 чае силь-но за-маг-ни-чен-ной, го-ря-чей, зарядово-
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 685--690
+Underfull \hbox (badness 1005) in paragraph at lines 688--693
 \T2A/cmr/m/n/10 элек-тро-на для пер-во-го уров-ня Лан-дау $\OT1/cmr/m/n/10  []$
  \T2A/cmr/m/n/10 ма-ло
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 685--690
+Underfull \hbox (badness 4832) in paragraph at lines 688--693
 \T2A/cmr/m/n/10 от-ли-ча-ет-ся от со-от-вет-ству-ю-ще-го вы-ра-же-ния в
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 698--703
+Underfull \hbox (badness 3746) in paragraph at lines 700--705
 []\T2A/cmr/m/n/10 В пре-де-ле силь-но-го по-ля пар-ци-аль-ные ко-
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 698--703
+Underfull \hbox (badness 5345) in paragraph at lines 700--705
 \T2A/cmr/m/n/10 эф-фи-ци-ен-ты по-гло-ще-ния фо-то-на для ка-на-лов
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 698--703
+Underfull \hbox (badness 1436) in paragraph at lines 700--705
 \T2A/cmr/m/n/10 ши-ри-ны по-гло-ще-ния элек-тро-на в слу-чае, ко-гда
  []
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 698--703
+Underfull \hbox (badness 5260) in paragraph at lines 700--705
 \T2A/cmr/m/n/10 нит-но-го по-ля, мож-но пред-ста-вить сле-ду-ю-щим
  []
 
-Extra height:0.0pt when 555.22893pt
-(2)Left:555.22893pt Right:553.03514pt Output:555.22893pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:0.0pt when 556.24097pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+(2)Left:556.24097pt Right:559.54652pt Output:556.24097pt
+(2)Left:559.54652pt Right:546.94649pt Output:559.54652pt
 - LAST -
-Left:555.22893pt
-Right:553.03514pt
-Output:555.22893pt
+Left:559.54652pt
+Right:546.94649pt
+Output:559.54652pt
 
-Overfull \vbox (63.74066pt too high) has occurred while \output is active []
+Overfull \vbox (64.7527pt too high) has occurred while \output is active []
 
 
-[8]
+[8 <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig4_1-eps-converted-to.pdf
+> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig4_2-eps-converted-to.pdf>
+ <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig4_3-eps-converted-to.pdf>]
 Extra height:0.0pt when 0.0pt
 (2)Left:0.0pt Right:0.0pt Output:0.0pt
 - LAST -
@@ -864,13 +894,13 @@ Left:0.0pt
 Right:0.0pt
 Output:0.0pt
 
-Underfull \hbox (badness 2460) in paragraph at lines 791--795
+Underfull \hbox (badness 2460) in paragraph at lines 794--798
 \T2A/cmr/m/n/10 где $\OML/cmm/m/it/10 J[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT
 1/cmr/m/n/10 )$ \T2A/cmr/m/n/10 -- функ-ция Бес-се-ля це-ло-го ин-дек-са,
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 791--795
+Underfull \hbox (badness 1796) in paragraph at lines 794--798
 []\T2A/cmr/m/n/10 , $\OML/cmm/m/it/10 p[]$ \T2A/cmr/m/n/10 -- кор-ни
  []
 
@@ -882,14 +912,18 @@ Package epstopdf Info: Source file: <fig5.eps>
 (epstopdf)                    size: 19192 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig5-eps-converted-to.pdf f
 ig5.eps>
-(epstopdf)             \includegraphics on input line 806.
+(epstopdf)             \includegraphics on input line 816.
 Package epstopdf Info: Output file is already uptodate.
 <fig5-eps-converted-to.pdf, id=121, 258.9675pt x 154.5775pt>
 File: fig5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5-eps-converted-to.pdf>
-Package pdftex.def Info: fig5-eps-converted-to.pdf used on input line 806.
+Package pdftex.def Info: fig5-eps-converted-to.pdf used on input line 816.
 (pdftex.def)             Requested size: 214.06212pt x 127.778pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package epstopdf Info: Source file: <fig6.eps>
 (epstopdf)                    date: 2025-10-25 19:09:12
 (epstopdf)                    size: 37007 bytes
@@ -898,15 +932,18 @@ Package epstopdf Info: Source file: <fig6.eps>
 (epstopdf)                    size: 14549 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig6-eps-converted-to.pdf f
 ig6.eps>
-(epstopdf)             \includegraphics on input line 811.
+(epstopdf)             \includegraphics on input line 821.
 Package epstopdf Info: Output file is already uptodate.
-
 <fig6-eps-converted-to.pdf, id=122, 258.9675pt x 156.585pt>
 File: fig6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig6-eps-converted-to.pdf>
-Package pdftex.def Info: fig6-eps-converted-to.pdf used on input line 811.
+Package pdftex.def Info: fig6-eps-converted-to.pdf used on input line 821.
 (pdftex.def)             Requested size: 214.06212pt x 129.43747pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package epstopdf Info: Source file: <fig7.eps>
 (epstopdf)                    date: 2025-10-25 19:10:57
 (epstopdf)                    size: 57196 bytes
@@ -915,15 +952,18 @@ Package epstopdf Info: Source file: <fig7.eps>
 (epstopdf)                    size: 21086 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig7-eps-converted-to.pdf f
 ig7.eps>
-(epstopdf)             \includegraphics on input line 816.
+(epstopdf)             \includegraphics on input line 826.
 Package epstopdf Info: Output file is already uptodate.
-
 <fig7-eps-converted-to.pdf, id=123, 258.9675pt x 154.5775pt>
 File: fig7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig7-eps-converted-to.pdf>
-Package pdftex.def Info: fig7-eps-converted-to.pdf used on input line 816.
+Package pdftex.def Info: fig7-eps-converted-to.pdf used on input line 826.
 (pdftex.def)             Requested size: 214.06212pt x 127.778pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package epstopdf Info: Source file: <fig8.eps>
 (epstopdf)                    date: 2025-10-25 19:11:00
 (epstopdf)                    size: 34790 bytes
@@ -932,93 +972,93 @@ Package epstopdf Info: Source file: <fig8.eps>
 (epstopdf)                    size: 13799 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig8-eps-converted-to.pdf f
 ig8.eps>
-(epstopdf)             \includegraphics on input line 821.
+(epstopdf)             \includegraphics on input line 831.
 Package epstopdf Info: Output file is already uptodate.
-
 <fig8-eps-converted-to.pdf, id=124, 258.9675pt x 156.585pt>
 File: fig8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig8-eps-converted-to.pdf>
-Package pdftex.def Info: fig8-eps-converted-to.pdf used on input line 821.
+Package pdftex.def Info: fig8-eps-converted-to.pdf used on input line 831.
 (pdftex.def)             Requested size: 214.06212pt x 129.43747pt.
 
-Underfull \vbox (badness 2005) has occurred while \output is active []
 
- [9 <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig5-eps-converted-to.pdf>
- <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig6-eps-converted-to.pdf> <C
-:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig7-eps-converted-to.pdf>]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1028) in paragraph at lines 858--859
+ [10 <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig5-eps-converted-to.pdf
+> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig6-eps-converted-to.pdf> <
+C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig7-eps-converted-to.pdf> <C:/
+Users/a12l/Documents/GitHub/Review/JETP 2025/fig8-eps-converted-to.pdf>]
+Underfull \hbox (badness 1028) in paragraph at lines 986--987
 []\T2A/cmr/m/n/9 Trumper J., Pietsch W., Reppin C., Voges W.,
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 862--864
+Underfull \hbox (badness 4454) in paragraph at lines 990--992
 []\T2A/cmr/m/n/9 Makishima K., Mihara T., Ishida M. et al.,
  []
 
-[10 <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig8-eps-converted-to.pdf>
-]
-Underfull \hbox (badness 10000) in paragraph at lines 920--923
+
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1051
 []\T2A/cmr/m/n/9 Schonherr G., Wilms J., Kretschmar P.,
  []
 
-
-Underfull \hbox (badness 1796) in paragraph at lines 936--938
+[11]
+Underfull \hbox (badness 1796) in paragraph at lines 1064--1066
 []\T2A/cmr/m/n/9 Wadiasingh Z., Baring M. G., Gonthier P. L.,
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 945--947
+Underfull \hbox (badness 1210) in paragraph at lines 1073--1075
 []\T2A/cmr/m/n/9 Gonthier P. L., Harding A. K., Baring M. G.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 973--976
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1104
 []\T2A/cmr/m/n/9 Chistyakov M. V., Rumyantsev D. A.,
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 980--982
+Underfull \hbox (badness 1337) in paragraph at lines 1108--1110
 []\T2A/cmr/m/n/9 Жуковский В. Ч., Ми-до-да-шви-ли П. Г., Эми-
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 989--991
+Underfull \hbox (badness 2582) in paragraph at lines 1117--1119
 []\T2A/cmr/m/n/9 Берестецкий В. Б., Лиф-шиц Е. М., Пи-та-ев-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 992--994
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1122
 []\T2A/cmr/m/n/9 Schwarm F.-W., Schonherr G., Falkner S.,
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 992--994
+Underfull \hbox (badness 4429) in paragraph at lines 1120--1122
 \T2A/cmr/m/n/9 Pottschmidt K., Wolff M. T., Becker P. A.,
  []
 
 
-Underfull \hbox (badness 7631) in paragraph at lines 992--994
+Underfull \hbox (badness 7631) in paragraph at lines 1120--1122
 \T2A/cmr/m/n/9 Sokolova-Lapa E., Klochkov D., Ferrigno C.,
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 1013--1016
+Underfull \hbox (badness 2790) in paragraph at lines 1141--1144
 []\T2A/cmr/m/n/9 Kuznetsov A. V., Mikheev N. V., \T2A/cmr/m/it/9 Electroweak
  []
 
-[11] ("C:\Users\a12l\Documents\GitHub\Review\JETP 2025\text.aux") ) 
+[12] ("C:\Users\a12l\Documents\GitHub\Review\JETP 2025\text.aux") ) 
 Here is how much of TeX's memory you used:
- 6033 strings out of 494045
- 77914 string characters out of 3145973
- 267575 words of memory out of 3000000
- 9106 multiletter control sequences out of 15000+200000
+ 6040 strings out of 494045
+ 77981 string characters out of 3145973
+ 258170 words of memory out of 3000000
+ 9113 multiletter control sequences out of 15000+200000
  32004 words of font info for 78 fonts, out of 3000000 for 9000
  745 hyphenation exceptions out of 8191
- 42i,14n,26p,4631b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,14n,26p,4620b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program File
@@ -1058,9 +1098,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfss1000.pfb><C:/Program Files
 6)/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/cm-super/sfti0800.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/cm-super/sfti0900.pfb>
-Output written on text.pdf (11 pages, 864245 bytes).
+Output written on text.pdf (12 pages, 870574 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
+ 266 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
