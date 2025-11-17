@@ -392,7 +392,7 @@ e_{\ell'} }$~\cite{Weldon:1983}:
 
 Если в области резонанса выполняется условие 
 $E_n''\Gamma^{s''}_n\ll \left|(p+q)^2_{\mprl}-M_n^2\right|$, где 
-$E_n''=E_n+\omega$ -- энергия виртуального электрона и $(p+q)^2_{\mprl} = (E_n + \omega)^2 - (p_z + q_z)^2$, то 
+$E_n''=E_n+\omega$ -- энергия виртуального электрона и $(p+q)^2_{\mprl} = (E_l + \omega)^2 - (p_z + q_z)^2$, то 
 можно использовать приближение узкого резонансного пика. В приближении узкого резонансного пика квадрат знаменателя
 пропагатора~(\ref{eq:propagator}) может быть заменен на $\delta$-функцию:
 \begin{equation}
@@ -568,22 +568,26 @@ n_0 = \ell + \left [\frac{q^2_{\mprl} + 2 M_\ell \sqrt{q^2_{\mprl}}}{2 \beta} \r
 корректных решений уравнения Дирака~(\ref{eq:psie}).
 
 В данных работах cечение комптоновского рассения вычислялось в системе покоя плазмы, просуммированное по поляризациям конечного фотона, которое может быть представлено следующим образом:
-\begin{equation}
+\begin{eqnarray}
 \label{eq:sigma}
-\sigma^*_\lambda = 
-%\sum \limits^{\infty}_{\ell, \ell'=0} 
-\sum\limits_{\lambda'=1, 2} \int \overline{f}_{n,s}(E_n) 
+&&\sigma^*_\lambda = 
+\sum\limits_{\lambda'=1, 2} 
+\sum\limits_{\ell, \ell' = 0}^{\infty} \; \int  \frac{\dd p_y \dd p_z L_y L_z}{(2\pi)^2} \overline{f}(E_\ell) 
+\times 
+\\
+\nonumber
+&&\times 
 \frac{\dd W_{\gamma^{(\lambda)} e_\ell \to \gamma^{(\lambda')} e_{\ell'}}}{j}\, ,
-\end{equation}
-где $j=|p\tilde\varphi\tilde\varphi q|/(E_n \omega V)$ -- плотность потока падающих частиц в продольном по отношению к магнитному полю подпространстве и $\overline{f}_{n,s}(E_n)$ -- нормированная функция распределения. Ее нормировка имеет вид:
+\end{eqnarray}
+где $j=|p\tilde\varphi\tilde\varphi q|/(E_\ell \omega V)$ -- плотность потока падающих частиц в продольном по отношению к магнитному полю подпространстве и $\overline{f}(E_\ell)$ -- нормированная функция распределения. Ее нормировка имеет вид:
 \begin{equation}
-\sum\limits_{n = 0}^{\infty}
+\sum\limits_{\ell = 0}^{\infty}
 \sum\limits_{s=\pm 1} 
-\int \limits_{-\infty}^{\infty} \frac{\dd p_z}{m} \overline{f}_{n,s}(E_n)=1,
+\int \limits_{-\infty}^{\infty} \frac{\dd p_z}{m} \overline{f}(E_\ell)=1,
 \end{equation}
 откуда следует:
 \begin{equation}
-	\overline{f}_{n,s}(p_z)=\frac{\beta m}{(2\pi)^2n_e}\frac{1}{e^{E_n/T}+1},
+	\overline{f}(E_\ell)=\frac{\beta m}{(2\pi)^2n_e}\frac{1}{e^{E_\ell/T}+1},
 \end{equation}
 где 
 \begin{equation}\label{eq:ne}
@@ -650,7 +654,7 @@ n_0 = \ell + \left [\frac{q^2_{\mprl} + 2 M_\ell \sqrt{q^2_{\mprl}}}{2 \beta} \r
 \caption{То же, что на рис.~\ref{fig1}, для магнитного поля $B = 1.7 \cdot 10^{12}$ Гс и температуры $T=50$ кэВ.}
 \label{fig4}
 \end{figure}
-%\clearpage
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Резонансное комптоновское рассеяние в сверхсильных магнитных полях}
