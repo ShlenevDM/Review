@@ -401,7 +401,7 @@
 \bibitem{Suh:1999}
 \selectlanguageifdefined{english}
 \BibEmph{{Suh}~I.-S., {Mathews}~G.~J.} {Weak reaction freeze-out constraints on
-  primordial magnetic fields}~// \BibEmph{Phys. rev. D}.
+  primordial magnetic fields}~// \BibEmph{Phys. Rev.~D}.
 \newblock 1999.
 \newblock Vol.~59, no.~12.
 \newblock P.~123002.
@@ -473,7 +473,7 @@
 \bibitem{Ritus1969}
 \selectlanguageifdefined{russian}
 \BibEmph{Ритус~В.~И.} {Радиационные эффекты и их усиление в интенсивном
-  электромагнитном поле}~// \BibEmph{ЖЭТФ.}
+  электромагнитном поле}~// \BibEmph{ЖЭТФ}.
 \newblock {1969}.
 \newblock {\cyr\CYRT.}~{57}, {\cyr\textnumero}~{6}.
 \newblock {\cyr\CYRS.}~{2176–2188}.
@@ -556,7 +556,7 @@
 \bibitem{MRCh:2014}
 \selectlanguageifdefined{russian}
 \BibEmph{Михеев~Н.~В., Румянцев~Д.~А., Чистяков~М.~В.} {Фоторождение нейтрино
-  на электроне в плотной замагниченной среде}~// \BibEmph{ЖЭТФ.}
+  на электроне в плотной замагниченной среде}~// \BibEmph{ЖЭТФ}.
 \newblock {2014}.
 \newblock {\cyr\CYRT.} {146}, {\cyr\textnumero}~{2}.
 \newblock {\cyr\CYRS.}~{289--296}.
@@ -633,7 +633,7 @@
 \bibitem{Canuto:1971}
 \selectlanguageifdefined{english}
 \BibEmph{Canuto~V., Lodenquai~J., Ruderman~M.} Thomson Scattering in a Strong
-  Magnetic Field~// \BibEmph{Phys. Rev. D}.
+  Magnetic Field~// \BibEmph{Phys. Rev.~D}.
 \newblock 1971.
 \newblock Vol.~3.
 \newblock P.~2303--2308.
@@ -692,7 +692,7 @@
 \selectlanguageifdefined{english}
 \BibEmph{{Bussard}~R.~W., {Alexander}~S.~B., {Meszaros}~P.} {One- and
   two-photon Compton scattering in strong magnetic fields}~// \BibEmph{Phys.
-  Rev. D}.
+  Rev.~D}.
 \newblock 1986.
 \newblock Vol.~34.
 \newblock P.~440--451.
@@ -709,7 +709,7 @@
 \selectlanguageifdefined{english}
 \BibEmph{{Zavlin}~V.~E., {Pavlov}~G.~G., {Shibanov}~Y.~A.} {Model neutron star
   atmospheres with low magnetic fields. I. Atmospheres in radiative
-  equilibrium.}~// \BibEmph{A\&A}.
+  equilibrium.}~// \BibEmph{Astronomy ${\&}$ Astrophysics}.
 \newblock 1996.
 \newblock Vol. 315.
 \newblock P.~141--152.
@@ -751,7 +751,8 @@
 \bibitem{Schonherr:2007}
 \selectlanguageifdefined{english}
 \BibEmph{{Sch{\"o}nherr}~G., {Wilms}~J., {Kretschmar}~P. et~al.} {A model for
-  cyclotron resonance scattering features}~// \BibEmph{A{\&}A}.
+  cyclotron resonance scattering features}~// \BibEmph{Astronomy ${\&}$
+  Astrophysics}.
 \newblock 2007.
 \newblock Vol. 472, no.~2.
 \newblock P.~353--365.
@@ -768,7 +769,8 @@
 \selectlanguageifdefined{english}
 \BibEmph{{Suleimanov}~V., {Potekhin}~A.~Y., {Werner}~K.} {Models of magnetized
   neutron star atmospheres: thin atmospheres and partially ionized hydrogen
-  atmospheres with vacuum polarization}~// \BibEmph{A\&A}.
+  atmospheres with vacuum polarization}~// \BibEmph{Astronomy ${\&}$
+  Astrophysics}.
 \newblock 2009.
 \newblock Vol. 500, no.~2.
 \newblock P.~891--899.
@@ -829,7 +831,7 @@
 \selectlanguageifdefined{russian}
 \BibEmph{Румянцев~Д.~А., Шленев~Д.~М., Ярков~А.~А.} {Резонансы в
   комптоноподобных процессах рассеяния во внешней замагниченной среде}~//
-  \BibEmph{ЖЭТФ.}
+  \BibEmph{ЖЭТФ}.
 \newblock {2017}.
 \newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
 \newblock {\cyr\CYRS.}~{483--494}.
@@ -871,7 +873,7 @@
 \BibEmph{{Schwarm}~F.~W., {Sch{\"o}nherr}~G., {Falkner}~S. et~al.} {Cyclotron
   resonant scattering feature simulations. I. Thermally averaged cyclotron
   scattering cross sections, mean free photon-path tables, and electron
-  momentum sampling}~// \BibEmph{A\&A}.
+  momentum sampling}~// \BibEmph{Astronomy ${\&}$ Astrophysics}.
 \newblock 2017.
 \newblock Vol. 597.
 \newblock P.~A3.
@@ -904,7 +906,7 @@
 \bibitem{Klepikov:1954}
 \selectlanguageifdefined{russian}
 \BibEmph{Клепиков~Н.~П.} {Излучение фотонов и электрон-позитронных пар в
-  магнитном поле}~// \BibEmph{ЖЭТФ.}
+  магнитном поле}~// \BibEmph{ЖЭТФ}.
 \newblock {1954}.
 \newblock {\cyr\CYRT.}~{26}, {\cyr\textnumero}~{1}.
 \newblock {\cyr\CYRS.}~{19--34}.
@@ -1003,7 +1005,7 @@
 \bibitem{RCh:2008}
 \selectlanguageifdefined{russian}
 \BibEmph{Румянцев~Д.~А., Чистяков~М.~В.} {Влияние фотон-нейтринных процессов на
-  остывание магнитара}~// \BibEmph{ЖЭТФ.}
+  остывание магнитара}~// \BibEmph{ЖЭТФ}.
 \newblock {2008}.
 \newblock {\cyr\CYRT.} {134}, {\cyr\textnumero}~{4}.
 \newblock {\cyr\CYRS.}~{627--636}.
@@ -1012,7 +1014,7 @@
 \selectlanguageifdefined{russian}
 \BibEmph{Борисов~А.~В., Керимов~Б.~К., Сизин~П.~Е.} {Слабый и электромагнитный
   механизмы фоторождения нейтринных пар в сильно замагниченном электронном
-  газе}~// \BibEmph{Ядерная физика.}
+  газе}~// \BibEmph{Ядерная физика}.
 \newblock {2012}.
 \newblock {\cyr\CYRT.}~{75}, {\cyr\textnumero}~{11}.
 \newblock {\cyr\CYRS.}~{1379--1386}.
@@ -1098,128 +1100,6 @@
 \newblock 1986.
 \newblock Vol. 309.
 \newblock P.~372--382.
-
-\bibitem{Quinn:1977}
-\selectlanguageifdefined{english}
-\BibEmph{Peccei~R.~D., Quinn~H.~R.} {Constraints imposed by CP conservation in
-  the presence of instantons}~// \BibEmph{Phys. Rev.}
-\newblock 1977.
-\newblock Vol. D16.
-\newblock P.~1791--1797.
-
-\bibitem{Kim:2010}
-\selectlanguageifdefined{english}
-\BibEmph{{Kim}~J.~E., {Carosi}~G.} {Axions and the strong CP problem}~//
-  \BibEmph{Reviews of Modern Physics}.
-\newblock 2010.
-\newblock Vol.~82, no.~1.
-\newblock P.~557--601.
-
-\bibitem{Marsh:2016}
-\selectlanguageifdefined{english}
-\BibEmph{Marsh~D.~J.} Axion cosmology~// \BibEmph{Physics Reports}.
-\newblock 2016.
-\newblock Vol. 643.
-\newblock P.~1--79.
-
-\bibitem{Raffelt:1996}
-\selectlanguageifdefined{english}
-\BibEmph{Raffelt~G.~G.} Stars as laboratories for fundamental physics.
-\newblock Chicago: University of Chicago Press, 1996.
-\newblock 664~p.
-
-\bibitem{Sikivie:1983}
-\selectlanguageifdefined{english}
-\BibEmph{{Sikivie}~P.} {Experimental Tests of the ``Invisible'' Axion}~//
-  \BibEmph{Phys. Rev. Lett.}
-\newblock 1983.
-\newblock Vol.~51, no.~16.
-\newblock P.~1415--1417.
-
-\bibitem{Raffelt:1988}
-\selectlanguageifdefined{english}
-\BibEmph{Raffelt~G., Stodolsky~L.} Mixing of the photon with low-mass
-  particles~// \BibEmph{Phys. Rev. D}.
-\newblock 1988.
-\newblock Vol.~37.
-\newblock P.~1237--1249.
-
-\bibitem{Lai:2006}
-\selectlanguageifdefined{english}
-\BibEmph{Lai~D., Heyl~J.} Probing axions with radiation from magnetic stars~//
-  \BibEmph{Physical Review D}.
-\newblock 2006.
-\newblock Vol.~74, no.~12.
-
-\bibitem{Yanagida:1988}
-\selectlanguageifdefined{english}
-\BibEmph{Yanagida~T., Yoshimura~M.} Resonant axion-photon conversion in the
-  early universe~// \BibEmph{Physics Letters B}.
-\newblock 1988.
-\newblock Vol. 202, no.~3.
-\newblock P.~301--306.
-
-\bibitem{Pshirkov:2009}
-\selectlanguageifdefined{english}
-\BibEmph{Pshirkov~M.~S., Popov~S.~B.} Conversion of dark matter axions to
-  photons in magnetospheres of neutron stars~// \BibEmph{Journal of
-  Experimental and Theoretical Physics}.
-\newblock 2009.
-\newblock Vol. 108, no.~3.
-\newblock P.~384–388.
-
-\bibitem{Skobelev:2007}
-\selectlanguageifdefined{russian}
-\BibEmph{Скобелев~В.~В.} {Резонансный механизм фоторождения аксионов на
-  замагниченном электронном газе}~// \BibEmph{ЖЭТФ}.
-\newblock {2007}.
-\newblock {\cyr\CYRT.} {132}, {\cyr\textnumero}~{5}.
-\newblock {\cyr\CYRS.}~{1121--1126}.
-
-\bibitem{MikhRumShk:09}
-\selectlanguageifdefined{russian}
-\BibEmph{Михеев~Н.~В., Румянцев~Д.~А., Школьникова~Ю.~Е.} {О резонансном
-  рождении аксионов в магнитосфере магнитара}~// \BibEmph{Письма в журн.
-  эксперим. и теор. физ.}
-\newblock {2009}.
-\newblock {\cyr\CYRT.}~{90}, {\cyr\textnumero}~{9}.
-\newblock {\cyr\CYRS.}~{668--671}.
-
-\bibitem{Primakoff:1951}
-\selectlanguageifdefined{english}
-\BibEmph{{Primakoff}~H.} {Photo-Production of Neutral Mesons in Nuclear
-  Electric Fields and the Mean Life of the Neutral Meson}~// \BibEmph{Phys.
-  Rev.}
-\newblock 1951.
-\newblock Vol.~81, no.~5.
-\newblock P.~899--899.
-
-\bibitem{Buschmann:2021}
-\selectlanguageifdefined{english}
-\BibEmph{{Buschmann}~M., {Co}~R.~T., {Dessert}~C., {Safdi}~B.~R.} {Axion
-  Emission Can Explain a New Hard X-Ray Excess from Nearby Isolated Neutron
-  Stars}~// \BibEmph{Phys. Rev. Lett.}
-\newblock 2021.
-\newblock Vol. 126, no.~2.
-\newblock P.~021102.
-
-\bibitem{Mikheev:1999}
-\selectlanguageifdefined{russian}
-\BibEmph{Василевская~Л.~А., Михеев~Н.~В., Овчинников~О.~С., Пархоменко~А.~Я.}
-  {Индуцированное взаимодействие аксиона с электронами во внешнем магнитном
-  поле}~// \BibEmph{Ядерная физика.}
-\newblock {1999}.
-\newblock {\cyr\CYRT.}~{62}, {\cyr\textnumero}~{9}.
-\newblock {\cyr\CYRS.}~{1662–1667}.
-
-\bibitem{Mikheev:2006}
-\selectlanguageifdefined{english}
-\BibEmph{Mikheev~N.~V., Narynskaya~E.~N.} {Field-induced interaction of a
-  pseudoscalar particle with photon in a magnetized $e^- e^+$ plasma}~//
-  \BibEmph{Mod. Phys. Lett.}
-\newblock 2006.
-\newblock Vol. A21.
-\newblock P.~433--444.
 
 \bibitem{Sturrock:1971}
 \selectlanguageifdefined{english}
