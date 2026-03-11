@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  6 MAR 2026 14:56
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  11 MAR 2026 14:51
 entering extended mode
 **ResonanceRew2024.tex
 (C:\Users\a12l\Documents\GitHub\Review\ResonanceRew2024.tex
@@ -1048,12 +1048,6 @@ Overfull \hbox (1.05191pt too wide) in paragraph at lines 257--258
  []
 
 ) (C:\Users\a12l\Documents\GitHub\Review\Chapter5.tex [42] [43] [44] [45]
-
-LaTeX Warning: Reference `eq:20' on page 46 undefined on input line 145.
-
-
-LaTeX Warning: Reference `eq:Wabs' on page 46 undefined on input line 145.
-
 Package epstopdf Info: Source file: <image/Chapter_6/mode2.eps>
 (epstopdf)                    date: 2025-04-30 21:26:57
 (epstopdf)                    size: 57408 bytes
@@ -1063,16 +1057,18 @@ Package epstopdf Info: Source file: <image/Chapter_6/mode2.eps>
 (epstopdf)                    size: 17930 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_6/mode2-eps-c
 onverted-to.pdf image/Chapter_6/mode2.eps>
-(epstopdf)             \includegraphics on input line 153.
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
+
 <image/Chapter_6/mode2-eps-converted-to.pdf, id=869, 353.32pt x 234.8775pt>
 File: image/Chapter_6/mode2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use image/Chapter_6/mode2-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/mode2-eps-converted-to.pdf used on inp
-ut line 153.
+ut line 122.
 (pdftex.def)             Requested size: 282.65639pt x 187.90225pt.
- [46]
+ [46 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/mode2-eps-converted
+-to.pdf>]
 Package epstopdf Info: Source file: <image/Chapter_6/mode1.eps>
 (epstopdf)                    date: 2025-04-30 21:26:57
 (epstopdf)                    size: 55006 bytes
@@ -1082,15 +1078,15 @@ Package epstopdf Info: Source file: <image/Chapter_6/mode1.eps>
 (epstopdf)                    size: 45865 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_6/mode1-eps-c
 onverted-to.pdf image/Chapter_6/mode1.eps>
-(epstopdf)             \includegraphics on input line 185.
+(epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/mode1-eps-converted-to.pdf, id=893, 350.30875pt x 234.8775pt>
+<image/Chapter_6/mode1-eps-converted-to.pdf, id=895, 350.30875pt x 234.8775pt>
 File: image/Chapter_6/mode1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use image/Chapter_6/mode1-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/mode1-eps-converted-to.pdf used on inp
-ut line 185.
+ut line 154.
 (pdftex.def)             Requested size: 280.24738pt x 187.90225pt.
 Package epstopdf Info: Source file: <image/Chapter_6/CompareDampAndCompton.eps>
 
@@ -1102,23 +1098,22 @@ converted-to.pdf>
 (epstopdf)                    size: 15166 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_6/CompareDamp
 AndCompton-eps-converted-to.pdf image/Chapter_6/CompareDampAndCompton.eps>
-(epstopdf)             \includegraphics on input line 192.
+(epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/CompareDampAndCompton-eps-converted-to.pdf, id=898, 259.97125p
+<image/Chapter_6/CompareDampAndCompton-eps-converted-to.pdf, id=900, 259.97125p
 t x 175.65625pt>
 File: image/Chapter_6/CompareDampAndCompton-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use image/Chapter_6/CompareDampAndCompton-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/CompareDampAndCompton-eps-converted-to
-.pdf used on input line 192.
+.pdf used on input line 161.
 (pdftex.def)             Requested size: 337.96259pt x 228.35307pt.
- [47 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/mode2-eps-converted
+ [47 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/mode1-eps-converted
 -to.pdf>]
-[48 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/mode1-eps-converted-
-to.pdf> <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/CompareDampAndCo
-mpton-eps-converted-to.pdf>]
+[48 <C:/Users/a12l/Documents/GitHub/Review/image/Chapter_6/CompareDampAndCompto
+n-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <image/Chapter_6/CompareDampAndCompton2.eps
 >
 (epstopdf)                    date: 2025-04-30 21:26:54
@@ -1129,17 +1124,17 @@ Package epstopdf Info: Source file: <image/Chapter_6/CompareDampAndCompton2.eps
 (epstopdf)                    size: 16974 bytes
 (epstopdf)             Command: <epstopdf --outfile=image/Chapter_6/CompareDamp
 AndCompton2-eps-converted-to.pdf image/Chapter_6/CompareDampAndCompton2.eps>
-(epstopdf)             \includegraphics on input line 197.
+(epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
-<image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf, id=914, 257.96375
+<image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf, id=913, 257.96375
 pt x 168.63pt>
 File: image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf Graphic file 
 (type pdf)
 
 <use image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/CompareDampAndCompton2-eps-converted-t
-o.pdf used on input line 197.
+o.pdf used on input line 166.
 (pdftex.def)             Requested size: 335.35281pt x 219.21896pt.
  [49
 
@@ -1174,17 +1169,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 130.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9438 strings out of 494045
- 135415 string characters out of 3145973
+ 9435 strings out of 494045
+ 135385 string characters out of 3145973
  220187 words of memory out of 3000000
- 12097 multiletter control sequences out of 15000+200000
+ 12095 multiletter control sequences out of 15000+200000
  33761 words of font info for 97 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  42i,13n,24p,4593b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1223,9 +1215,9 @@ frm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1440.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on ResonanceRew2024.pdf (65 pages, 1254150 bytes).
+Output written on ResonanceRew2024.pdf (65 pages, 1253333 bytes).
 PDF statistics:
  1191 PDF objects out of 1200 (max. 8388607)
- 321 named destinations out of 1000 (max. 500000)
+ 320 named destinations out of 1000 (max. 500000)
  213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
