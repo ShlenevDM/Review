@@ -803,10 +803,42 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 		0}\frac{\varepsilon}{x^2+\varepsilon^2}
 	\end{equation}
 	
+	Определим следующие поправки по $\varepsilon\ll x$ в следующем интегральном выражении:
+	\begin{equation}\label{eq:Ieps}
+		I(\varepsilon)=\int_{-\infty}^\infty\frac{\varepsilon}{x^2+\varepsilon^2}\varphi(x)dx
+	\end{equation}
 	Левая часть формулы~(\ref{gamma_factor}) может быть представлена в виде:
 	\begin{equation}
 		\frac{1}{((p+q)^2_{\mprl}-M_n^2)^2+ (E_n''\Gamma^{s''}_n/2)^2}=
 	\end{equation}
+	Для этого воспользуемся преобразованием Фурье:
+	\begin{equation}
+		\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}\frac{\varepsilon}{x^2+\varepsilon^2} e^{\ii s x}dx=\sqrt{\frac{\pi}{2}} e^{-|s| \varepsilon}.
+	\end{equation}
+
+С учетом равенства Парсеваля получим:
+	\begin{equation}
+		I(\varepsilon) = \frac{1}{2}\int_{-\infty}^{\infty}e^{-|s|\varepsilon} \Phi(s) d\omega,
+	\end{equation}
+где предполагается существование Фурье-образа $\Phi(s)$ функции $\varphi(x)$.
+
+Разложим экспоненту в ряд:
+	\begin{eqnarray}
+		&&I(\varepsilon) = \sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} \Phi(s) ds
+		-\frac{\varepsilon}{2}\int_{-\infty}^{\infty} |s|\Phi(s) ds+
+		\\&&+
+		\nonumber 
+		\frac{\varepsilon^2}{4}\int_{-\infty}^{\infty} s^2\Phi(s) ds.
+	\end{eqnarray}
+С учетом вида Фурье-образа производной
+\begin{equation}
+	\frac{\partial^{n} \varphi(x)}{\partial x^{n}} \to s^n \Phi(s),
+\end{equation}
+в итоге для $x$-пространства асимптотическое разложение~(\ref{eq:Ieps}) примет вид
+\begin{equation}
+	I(\varepsilon) = \pi \varphi(0) - \frac{\varepsilon}{2}\int_{-\infty}^{\infty} |s| \Phi(s) ds - \frac{\pi\varepsilon^2}{2} \left.\frac{\partial \varphi(x)}{x}\right|_{x=0}.
+\end{equation}
+
 
 \section*{Приложение 2.}
 
