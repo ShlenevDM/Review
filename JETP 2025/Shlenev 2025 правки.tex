@@ -796,6 +796,7 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 \begin{center}
 	\textbf{Обоснование использования приближения узкого пика}
 \end{center}
+
 	Как было показано в~\cite{Helfand:1959}, дельта-функция может быть 
 	представлена, как предел отношения:
 	\begin{equation}
@@ -828,16 +829,18 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 		-\frac{\varepsilon}{2}\int_{-\infty}^{\infty} |s|\Phi(s) ds+
 		\\&&+
 		\nonumber 
-		\frac{\varepsilon^2}{4}\int_{-\infty}^{\infty} s^2\Phi(s) ds.
+		\frac{\varepsilon^2}{4}\int_{-\infty}^{\infty} s^2\Phi(s) ds + O(\varepsilon^3).
 	\end{eqnarray}
 С учетом вида Фурье-образа производной
 \begin{equation}
 	\frac{\partial^{n} \varphi(x)}{\partial x^{n}} \to s^n \Phi(s),
 \end{equation}
-в итоге для $x$-пространства асимптотическое разложение~(\ref{eq:Ieps}) примет вид
-\begin{equation}
-	I(\varepsilon) = \pi \varphi(0) - \frac{\varepsilon}{2}\int_{-\infty}^{\infty} |s| \Phi(s) ds - \frac{\pi\varepsilon^2}{2} \left.\frac{\partial \varphi(x)}{x}\right|_{x=0}.
-\end{equation}
+в итоге для $x$-пространства асимптотическое разложение~(\ref{eq:Ieps}) примет вид:
+\begin{eqnarray}
+	&&I(\varepsilon) = \pi \varphi(0) - \frac{\varepsilon}{2}\int_{-\infty}^{\infty} |s| \Phi(s) ds-
+	\\\nonumber
+	&&- \frac{\pi\varepsilon^2}{2} \left.\frac{\partial \varphi(x)}{\partial x}\right|_{x=0} + O(\varepsilon^3).
+\end{eqnarray}
 
 
 \section*{Приложение 2.}
