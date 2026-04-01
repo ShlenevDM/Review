@@ -393,14 +393,14 @@ $E_n''\Gamma^{s''}_n\ll \left|(p+q)^2_{\mprl}-M_n^2\right|$, где
 $E_n''=E_\ell+\omega$ -- энергия виртуального электрона и $(p+q)^2_{\mprl} = 
 (E_\ell + \omega)^2 - (p_z + q_z)^2$, выполняется везде, кроме точки резонанса, 
 то 
-можно использовать приближение узкого резонансного пика. В приближении узкого 
-резонансного пика в подынтегральном выражении квадрат знаменателя
-пропагатора~(\ref{eq:propagator}) может быть заменен на $\delta$-функцию:
-\begin{equation}
+можно использовать приближение узкого резонансного пика. В приближении узкого резонансного пика с учетом последующего интегрирования по импульсам начального электрона представим квадрат модуля знаменателя пропагатора электрона~(\ref{eq:propagator}) в следующем виде (см.~приложение 1):
+\begin{eqnarray}
 	\label{gamma_factor}
-	\left|\frac{1}{(p+q)^2_{\mprl}-M_n^2-\ii E_n''\Gamma^{s''}_n/2}\right|^2
-	\simeq\frac{2\pi}{E_n''\Gamma_n^{s''}} \delta((p+q)^2_{\mprl}-M_n^2).
-\end{equation}
+	&&\left|\frac{1}{(p+q)^2_{\mprl}-M_n^2-\ii E_n''\Gamma^{s''}_n/2}\right|^2\simeq
+	\\
+	&&\nonumber
+	\simeq\frac{2\pi}{E_n''\Gamma_n^{s''}} \delta((p+q)^2_{\mprl}-M_n^2) + \frac{2}{E_n''\Gamma_n^{s''}}{\mathit O}(E_n''\Gamma_n^{s''})
+\end{eqnarray}
 
 С учетом этого квадрат $S$-матричного элемента, определяющий вероятность процесса и необходимый при расчетах вычисляемых величин, таких как сечение рассеяния, может быть представлен в факторизованном виде~\cite{Rumyantsev:2017}:
 %
@@ -443,7 +443,7 @@ S^{s^{\,\prime \prime} s}_{\gamma^{(\lambda)} e_\ell \to e_n} =
 \left [ \frac{q_y+\ii q_x}{\sqrt{q_{\mprp}^2}} \right ]^{n-\ell} {\cal T}^{s'' s}_\lambda \, .
 \end{eqnarray} 
 
-Величины ${\cal T}^{s'' s}_\lambda$, входящие в выражение~(\ref{eq:amplonever}), приводятся в Приложении.
+Величины ${\cal T}^{s'' s}_\lambda$, входящие в выражение~(\ref{eq:amplonever}), приводятся в Приложении 2.
 
 $S$-матричный элемент рождения фотона может быть получен из~(\ref{eq:Sjf}) путем следующих замен:
 %
@@ -749,7 +749,7 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 Поперечная составляющая импульса конечного фотона определяется из уравнения 
 дисперсии (см.~\cite{Chistyakov:2009}):
 \begin{equation}
-	q'^2_{\mprl}=q'^{2}_\perp + {\cal P}^{(\lambda)}(q') .
+	q'^2_{\mprl}=q'^{2}_\perp + {\cal P}^{(\lambda)}(q')\, .
 \end{equation}
 
 Имеет смысл провести сравнительный анализ результатов работы~\cite{Chistyakov:2009}  с резонансным случаем (\ref{Wresalt}) и (\ref{Wres2alt}) для зарядово-симметричной плазмы и поперечного направления распространения импульса фотона по отношению к внешнему магнитному полю для различных значений величины магнитного поля, температуры и энергии начального фотона.
@@ -760,22 +760,22 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 Следует отметить   что при относительно малых температурах $T\lesssim50$ кэВ и магнитных полях той же величины ($B = 200 B_e$ и $B = 20 B_e$) $\delta$-аппроксимация работает хуже из-за уменьшения области резонанса по энергии фотона. В целом $\delta$-функциональное приближение достаточно хорошо будет описывать лишь первый резонансный пик.
 
 \begin{figure}[h]\centering
-	\includegraphics[width=0.9\linewidth]{fig5.eps}
+	\includegraphics[width=0.88\linewidth]{fig5.eps}
 	\caption{Зависимость коэффициента поглощения от энергии начального фотона для канала $e\gamma^{(1)}\to e\gamma^{(1)}$ при поле $B=200 B_e$ и температуре T=1 МэВ: сплошная линия -- коэффициент поглощения с учетом резонанса; штриховая линия -- без учета резонанса; пунктирная линия -- дельта-функциональное приближение. Здесь $W_0=(\alpha/\pi)^3m\simeq 3.25\cdot10^2$ см$^{-1}$.}
 	\label{fig5}
 \end{figure}
 \begin{figure}[h]\centering
-	\includegraphics[width=0.9\linewidth]{fig6.eps}
+	\includegraphics[width=0.88\linewidth]{fig6.eps}
 	\caption{Зависимость коэффициента поглощения от энергии начального фотона для канала $e\gamma^{(1)}\to e\gamma^{(1)}$ при поле $B=20 B_e$ и температуре T=1 МэВ. Обозначение для линий то же, что и для рис. \ref{fig5}.}
 	\label{fig6}
 \end{figure}
 \begin{figure}[h]\centering
-	\includegraphics[width=0.9\linewidth]{fig7.eps}
+	\includegraphics[width=0.88\linewidth]{fig7.eps}
 	\caption{Зависимость коэффициента поглощения от энергии начального фотона для канала $e\gamma^{(1)}\to e\gamma^{(2)}$ при поле $B=200 B_e$ и температуре T=1 МэВ. Обозначение для линий то же, что и для рис. \ref{fig5}.}
 	\label{fig7}
 \end{figure}
 \begin{figure}[h]\centering
-	\includegraphics[width=0.9\linewidth]{fig8.eps}
+	\includegraphics[width=0.88\linewidth]{fig8.eps}
 	\caption{Зависимость коэффициента поглощения от энергии начального фотона для канала $e\gamma^{(1)}\to e\gamma^{(2)}$ при поле $B=20 B_e$ и температуре T=1 МэВ. Обозначение для линий то же, что и для рис. \ref{fig5}.}
 	\label{fig8}
 \end{figure}
@@ -794,54 +794,52 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 \section*{Приложение 1.}
 
 \begin{center}
-	\textbf{Обоснование использования приближения узкого пика}
+	\textbf{Интегрирование узкого резонансного пика}
 \end{center}
-
-	Как было показано в~\cite{Helfand:1959}, дельта-функция может быть 
-	представлена, как предел отношения:
-	\begin{equation}
-		\delta(x)=\frac{1}{\pi}\lim_{\varepsilon\to 
-		0}\frac{\varepsilon}{x^2+\varepsilon^2}
-	\end{equation}
 	
-	Определим следующие поправки по $\varepsilon\ll x$ в следующем интегральном выражении:
-	\begin{equation}\label{eq:Ieps}
-		I(\varepsilon)=\int_{-\infty}^\infty\frac{\varepsilon}{x^2+\varepsilon^2}\varphi(x)dx
-	\end{equation}
-	Левая часть формулы~(\ref{gamma_factor}) может быть представлена в виде:
-	\begin{equation}
-		\frac{1}{((p+q)^2_{\mprl}-M_n^2)^2+ (E_n''\Gamma^{s''}_n/2)^2}=
-	\end{equation}
-	Для этого воспользуемся преобразованием Фурье:
-	\begin{equation}
-		\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}\frac{\varepsilon}{x^2+\varepsilon^2} e^{\ii s x}dx=\sqrt{\frac{\pi}{2}} e^{-|s| \varepsilon}.
-	\end{equation}
-
-С учетом равенства Парсеваля получим:
-	\begin{equation}
-		I(\varepsilon) = \frac{1}{2}\int_{-\infty}^{\infty}e^{-|s|\varepsilon} \Phi(s) d\omega,
-	\end{equation}
-где предполагается существование Фурье-образа $\Phi(s)$ функции $\varphi(x)$.
-
-Разложим экспоненту в ряд:
-	\begin{eqnarray}
-		&&I(\varepsilon) = \sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} \Phi(s) ds
-		-\frac{\varepsilon}{2}\int_{-\infty}^{\infty} |s|\Phi(s) ds+
-		\\&&+
-		\nonumber 
-		\frac{\varepsilon^2}{4}\int_{-\infty}^{\infty} s^2\Phi(s) ds + O(\varepsilon^3).
-	\end{eqnarray}
-С учетом вида Фурье-образа производной
-\begin{equation}
-	\frac{\partial^{n} \varphi(x)}{\partial x^{n}} \to s^n \Phi(s),
+Рассмотрим интеграл
+\begin{equation}\label{eq:Ieps}
+	I(\varepsilon)=\int_{-\infty}^\infty\frac{\varepsilon}{x^2+\varepsilon^2}\varphi(x)dx\, .
 \end{equation}
-в итоге для $x$-пространства асимптотическое разложение~(\ref{eq:Ieps}) примет вид:
+	
+Используя для части подынтегрального выражения в~(\ref{eq:Ieps}) преобразование Фурье
+\begin{equation}
+	\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}\frac{\varepsilon}{x^2+\varepsilon^2} e^{\ii s x}dx=\sqrt{\frac{\pi}{2}} e^{-|s| \varepsilon}\, ,
+\end{equation}
+с учетом равенства Парсеваля получим:
+\begin{equation}\label{eq:Parseval}
+	I(\varepsilon) = \sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty}e^{-|s|\varepsilon} \Phi(s) d\omega\, ,
+\end{equation}	
+где $\Phi$ -- Фурье-образ функции $\varphi(x)$.
+
+При $s\varepsilon<<1$ ($\varepsilon << x$) представим~(\ref{eq:Parseval}) в виде
 \begin{eqnarray}
-	&&I(\varepsilon) = \pi \varphi(0) - \frac{\varepsilon}{2}\int_{-\infty}^{\infty} |s| \Phi(s) ds-
-	\\\nonumber
-	&&- \frac{\pi\varepsilon^2}{2} \left.\frac{\partial \varphi(x)}{\partial x}\right|_{x=0} + O(\varepsilon^3).
+	&&I(\varepsilon) = \sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} \Phi(s) ds
+	-\varepsilon\sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} |s|\Phi(s) ds+
+	\\&&+
+	\nonumber 
+	\frac{\varepsilon^2}{2}\sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} s^2\Phi(s) ds + O(\varepsilon^3)\, .
 \end{eqnarray}
 
+Переходя обратно в $x$-представление с учетом
+\begin{equation}
+	\frac{\partial^n \varphi(x)}{\partial x^n} = \frac{(-i)^n}{\sqrt{2\pi}} \int_{-\infty}^{\infty} ds s^n \Phi(s) e^{-\ii s x} 
+\end{equation}
+получим асимптотическое разложение~(\ref{eq:Ieps}) в виде
+\begin{eqnarray}
+	&&I(\varepsilon) = \pi \varphi(0) + \frac{\varepsilon}{4} P.V. \int_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} dx-
+	\\\nonumber
+	&&- \frac{\pi\varepsilon^2}{2} \left.\frac{\partial^2 \varphi(x)}{\partial x^2}\right|_{x=0} + O(\varepsilon^3),
+\end{eqnarray}
+где интеграл вычисляется в смысле главного значения (P.V. -- Principal Value).
+
+Нетрудно видеть, что первый член разложения соответствует пределу~\cite{Helfand:1959}
+\begin{equation}
+	\delta(x) = \frac{1}{\pi} \lim\limits_{\varepsilon\to 0} \frac{\varepsilon}{x^2+\varepsilon^2}\, .
+\end{equation}
+	Поделив обе части равенства на $\varepsilon$ и положив в полученном выражении $x=(p+q)^2-M_n^2$ и $\varepsilon=E_n''\Gamma_n^{s''}$ придем к~(\ref{gamma_factor}).
+	
+	Отметим, что точка $x=0$ соответствует случаю $(p+q)^2_{\mprl}-M_n^2=0$, т. е. виртуальный электрон садится на массовую поверхность и становится реальным.
 
 \section*{Приложение 2.}
 
