@@ -812,10 +812,12 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 \end{equation}	
 где $\Phi$ -- Фурье-образ функции $\varphi(x)$.
 
-При $s\varepsilon<<1$ ($\varepsilon << x$) представим~(\ref{eq:Parseval}) в виде
+При $s\varepsilon\ll1$ ($\varepsilon \ll x$) представим~(\ref{eq:Parseval}) в виде
 \begin{eqnarray}
-	&&I(\varepsilon) = \sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} \Phi(s) ds
-	-\varepsilon\sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} |s|\Phi(s) ds+
+	&&
+	I(\varepsilon) = \sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} \Phi(s) ds
+	-
+	\varepsilon\sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} |s|\Phi(s) ds+
 	\\&&+
 	\nonumber 
 	\frac{\varepsilon^2}{2}\sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} s^2\Phi(s) ds + O(\varepsilon^3)\, .
@@ -827,11 +829,21 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 \end{equation}
 получим асимптотическое разложение~(\ref{eq:Ieps}) в виде
 \begin{eqnarray}
-	&&I(\varepsilon) = \pi \varphi(0) + \frac{\varepsilon}{4} P.V. \int_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} dx-
+	&&I(\varepsilon) = \pi \varphi(0) + \varepsilon \, P.V.\int_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} dx-
 	\\\nonumber
 	&&- \frac{\pi\varepsilon^2}{2} \left.\frac{\partial^2 \varphi(x)}{\partial x^2}\right|_{x=0} + O(\varepsilon^3),
 \end{eqnarray}
-где интеграл вычисляется в смысле главного значения (P.V. -- Principal Value).
+где интеграл вычисляется в смысле главного значения ($P.V.$ -- Principal Value)~\cite{Blanchet:2000}:
+\begin{eqnarray}
+	P.V.&&\int_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} dx 
+	= 
+	\lim\limits_{\eta\to 0}\left(\int_{|x|\geqslant \eta}\frac{\varphi(x)}{x^2} - \frac{2 \varphi(0)}{\eta}\right) 
+	=
+	\\ \nonumber
+	=
+	&&\int_{-\infty}^{\infty} \left(\frac{\varphi(x)-\varphi(0)-x \varphi'(0)}{x^2}\right) dx
+\end{eqnarray}
+
 
 Нетрудно видеть, что первый член разложения соответствует пределу~\cite{Helfand:1959}
 \begin{equation}
@@ -1142,9 +1154,27 @@ Kaspi~V.~M., Beloborodov~A.~M., Annu. Rev. Astron. \& Astrophys, {\bf 55}, 261 (
 Kuznetsov~A.~V., Mikheev~N.~V.,
    {\it Electroweak Processes in External Active Media}, 
    Springer-Verlag: Berlin, Heidelberg (2013).
-   
+%   
 \bibitem{Helfand:1959}
-Гельфанд И. М., Г. Е. Шилов, {\it Обобщенные функции и действия над ними}, Гос. изд-во физико-математической лит-ры, Москва, (1959).
+Гельфанд И. М., Г. Е. Шилов, 
+{\it Обобщенные функции и действия над ними}, 
+Гос. изд-во физико-математической лит-ры, Москва, 
+(1959).
+%
+\bibitem{Blanchet:2000}
+Blanchet L., Faye G.,
+Journal of Mathematical Physics,
+{\bf 41},
+11,
+(2000).
+%
+%\bibitem{Whye:2014}
+%Ang W. T.,
+%{\it Hypersingular integral equations in fracture analysis},
+%Philadelphia, PA : Woodhead Pub.,
+%(2014).
+
+
 \end{references}
 
 \end{document}

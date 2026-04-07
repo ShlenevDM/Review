@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  1 APR 2026 10:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  7 APR 2026 10:26
 entering extended mode
 **Shlenev*2025*РїСЂР°РІРєРё.tex
 ("C:\Users\a12l\Documents\GitHub\Review\JETP 2025\Shlenev 2025 РїСЂР°РІРєРё.tex
@@ -954,69 +954,79 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 > <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig6-eps-converted-to.pdf> <
 C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig7-eps-converted-to.pdf> <C:/
 Users/a12l/Documents/GitHub/Review/JETP 2025/fig8-eps-converted-to.pdf>]
-Underfull \hbox (badness 1859) in paragraph at lines 889--891
+Overfull \hbox (3.36752pt too wide) in alignment at lines 837--845
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 901--903
 []\T2A/cmr/m/n/10 Выражения для $\OMS/cmsy/m/n/10 T[]$ \T2A/cmr/m/n/10 мо-гут б
 ыть по-лу-че-ны
  []
 
 [11]
-Underfull \hbox (badness 1028) in paragraph at lines 987--988
+Underfull \hbox (badness 1028) in paragraph at lines 999--1000
 []\T2A/cmr/m/n/9 Trumper J., Pietsch W., Reppin C., Voges W.,
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 991--993
+Underfull \hbox (badness 4454) in paragraph at lines 1003--1005
 []\T2A/cmr/m/n/9 Makishima K., Mihara T., Ishida M. et al.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1052
+Underfull \hbox (badness 10000) in paragraph at lines 1061--1064
 []\T2A/cmr/m/n/9 Schonherr G., Wilms J., Kretschmar P.,
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 1065--1067
+Underfull \hbox (badness 1796) in paragraph at lines 1077--1079
 []\T2A/cmr/m/n/9 Wadiasingh Z., Baring M. G., Gonthier P. L.,
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 1074--1076
+Underfull \hbox (badness 1210) in paragraph at lines 1086--1088
 []\T2A/cmr/m/n/9 Gonthier P. L., Harding A. K., Baring M. G.,
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 1102--1105
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1117
 []\T2A/cmr/m/n/9 Chistyakov M. V., Rumyantsev D. A.,
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 1109--1111
+Underfull \hbox (badness 1337) in paragraph at lines 1121--1123
 []\T2A/cmr/m/n/9 Жуковский В. Ч., Ми-до-да-шви-ли П. Г., Эми-
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 1118--1120
+Underfull \hbox (badness 2582) in paragraph at lines 1130--1132
 []\T2A/cmr/m/n/9 Берестецкий В. Б., Лиф-шиц Е. М., Пи-та-ев-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1123
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1135
 []\T2A/cmr/m/n/9 Schwarm F.-W., Schonherr G., Falkner S.,
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 1121--1123
+Underfull \hbox (badness 4429) in paragraph at lines 1133--1135
 \T2A/cmr/m/n/9 Pottschmidt K., Wolff M. T., Becker P. A.,
  []
 
 
-Underfull \hbox (badness 7631) in paragraph at lines 1121--1123
+Underfull \hbox (badness 7631) in paragraph at lines 1133--1135
 \T2A/cmr/m/n/9 Sokolova-Lapa E., Klochkov D., Ferrigno C.,
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 1142--1145
+Underfull \hbox (badness 2790) in paragraph at lines 1154--1158
 []\T2A/cmr/m/n/9 Kuznetsov A. V., Mikheev N. V., \T2A/cmr/m/it/9 Electroweak
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 1165--1176
+[]\T2A/cmr/m/n/9 Blanchet L., Faye G., Journal of Mathematical
  []
 
 [13
@@ -1025,10 +1035,10 @@ Underfull \hbox (badness 2790) in paragraph at lines 1142--1145
 ("C:\Users\a12l\Documents\GitHub\Review\JETP 2025\Shlenev 2025 РїСЂР°РІРєРё.aux
 ") ) 
 Here is how much of TeX's memory you used:
- 6056 strings out of 494045
- 78352 string characters out of 3145973
- 255157 words of memory out of 3000000
- 9124 multiletter control sequences out of 15000+200000
+ 6057 strings out of 494045
+ 78367 string characters out of 3145973
+ 255161 words of memory out of 3000000
+ 9125 multiletter control sequences out of 15000+200000
  34094 words of font info for 84 fonts, out of 3000000 for 9000
  745 hyphenation exceptions out of 8191
  42i,14n,26p,4641b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1056,25 +1066,26 @@ ublic/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/cm-super/sfbi1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/cm-super/sfbx0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm
--super/sfbx1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-su
-per/sfrm0600.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super
-/sfrm0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sf
-rm0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0
-900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfsi1000.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfss0900.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfss1000.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx0900.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti0800.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti0900.pfb>
-Output written on "Shlenev 2025 РїСЂР°РІРєРё.pdf" (13 pages, 900181 bytes).
+/amsfonts/symbols/msam7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/cm-super/sfbi1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/cm-super/sfbx0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+cm-super/sfbx1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-
+super/sfrm0600.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-sup
+er/sfrm0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/
+sfrm0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
+m0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm10
+00.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfsi1000.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfss0900.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfss1000.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx0900.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti0800.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti0900.pfb>
+Output written on "Shlenev 2025 РїСЂР°РІРєРё.pdf" (13 pages, 908889 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
+ 282 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
