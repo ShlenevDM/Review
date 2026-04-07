@@ -1,8 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2022.6.5)  7 APR 2026 10:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2021.10.21)  7 APR 2026 16:25
 entering extended mode
 **Shlenev*2025*РїСЂР°РІРєРё.tex
-("C:\Users\a12l\Documents\GitHub\Review\JETP 2025\Shlenev 2025 РїСЂР°РІРєРё.tex
-"
+
+("C:\Users\РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ\Documents\GitHub\Review\JETP 2025\Shlenev 2
+025 РїСЂР°РІРєРё.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -14,7 +15,7 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-("C:\Users\a12l\Documents\GitHub\Review\JETP 2025\jetp.cls"
+("C:\Users\РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ\Documents\GitHub\Review\JETP 2025\jetp.cls"
 Document Class: jetp 2015/12/20 v5.2 JETP document class
 \JETPCP=\count79
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
@@ -451,8 +452,8 @@ Package: wrapfig 2003/01/31  v 3.6
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-("C:\Users\a12l\Documents\GitHub\Review\JETP 2025\Shlenev 2025 РїСЂР°РІРєРё.aux
-")
+("C:\Users\РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ\Documents\GitHub\Review\JETP 2025\Shlenev 2
+025 РїСЂР°РІРєРё.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
@@ -469,7 +470,8 @@ LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Try loading font information for T2A+cmss on input line 61.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2acmss.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -549,244 +551,275 @@ Underfull \hbox (badness 3009) in paragraph at lines 387--390
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 391--397
+Underfull \hbox (badness 1490) in paragraph at lines 391--400
 []\T2A/cmr/m/n/10 Если усло-вие $\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10  [] \OMS/c
 msy/m/n/10  []$\T2A/cmr/m/n/10 , где
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 421--424
+Underfull \hbox (badness 10000) in paragraph at lines 409--415
+[]\T2A/cmr/m/n/10 С уче-том это-го раз-ло-же-ния квад-рат
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--415
+$\OML/cmm/m/it/10 S$\T2A/cmr/m/n/10 -матричного эле-мен-та, опре-де-ля-ю-щий ве
+-ро-
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 409--415
+\T2A/cmr/m/n/10 ят-ность про-цес-са и необ-хо-ди-мый при рас-че-тах
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 409--415
+\T2A/cmr/m/n/10 вы-чис-ля-е-мых ве-ли-чин, та-ких как ко-эф-фи-ци-ент
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 409--415
+\T2A/cmr/m/n/10 по-гло-ще-ния фо-то-на или се-че-ние рас-се-я-ния фо-
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 409--415
+\T2A/cmr/m/n/10 то-на на элек-троне, мо-жет быть пред-став-лен в
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 429--432
 $\OML/cmm/m/it/10 S[]$ \T2A/cmr/m/n/10 для по-гло-ще-ния фо-то-на, $\OML/cmm/m/
 it/10 e \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 e$\T2A/cmr/m/n/10 , и
  []
 
 
-Overfull \hbox (9.29718pt too wide) in alignment at lines 424--432
+Overfull \hbox (9.29718pt too wide) in alignment at lines 432--440
  [] [] [] [] 
  []
 
 [4]
-Underfull \hbox (badness 3396) in paragraph at lines 564--570
+Underfull \hbox (badness 3396) in paragraph at lines 572--578
 []\T2A/cmr/m/n/10 В ра-бо-тах [31, 32, 42] ис-сле-до-вал-ся про-цесс
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 564--570
+Underfull \hbox (badness 2990) in paragraph at lines 572--578
 $\OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 10[]$ \T2A/cmr/m/n/10 
 Гс, ха-рак-тер-ных для маг-ни-то-сфер
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 564--570
+Underfull \hbox (badness 2922) in paragraph at lines 572--578
 \T2A/cmr/m/n/10 ра-дио-пуль-са-ров и маг-ни-та-ров. При этом се-че-
  []
 
 [5]
 Package epstopdf Info: Source file: <fig1_1.eps>
-(epstopdf)                    date: 2025-10-25 20:57:21
-(epstopdf)                    size: 58834 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 59831 bytes
 (epstopdf)             Output file: <fig1_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:23:58
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 21322 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig1_1-eps-converted-to.pdf
  fig1_1.eps>
-(epstopdf)             \includegraphics on input line 617.
+(epstopdf)             \includegraphics on input line 625.
 Package epstopdf Info: Output file is already uptodate.
  <fig1_1-eps-converted-to.pdf, id=48, 259.97125pt x 184.69pt>
 File: fig1_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig1_1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1_1-eps-converted-to.pdf used on input line 617.
+Package pdftex.def Info: fig1_1-eps-converted-to.pdf used on input line 625.
 (pdftex.def)             Requested size: 237.84842pt x 168.97276pt.
 Package epstopdf Info: Source file: <fig1_2.eps>
-(epstopdf)                    date: 2025-10-25 21:00:16
-(epstopdf)                    size: 57802 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 58795 bytes
 (epstopdf)             Output file: <fig1_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:23:58
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 20863 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig1_2-eps-converted-to.pdf
  fig1_2.eps>
-(epstopdf)             \includegraphics on input line 618.
+(epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig1_2-eps-converted-to.pdf, id=50, 259.97125pt x 184.69pt>
 File: fig1_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig1_2-eps-converted-to.pdf>
-Package pdftex.def Info: fig1_2-eps-converted-to.pdf used on input line 618.
+Package pdftex.def Info: fig1_2-eps-converted-to.pdf used on input line 626.
 (pdftex.def)             Requested size: 237.84842pt x 168.97276pt.
 Package epstopdf Info: Source file: <fig1_3.eps>
-(epstopdf)                    date: 2025-10-25 21:01:03
-(epstopdf)                    size: 54397 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 55356 bytes
 (epstopdf)             Output file: <fig1_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:23:58
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 19437 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig1_3-eps-converted-to.pdf
  fig1_3.eps>
-(epstopdf)             \includegraphics on input line 619.
+(epstopdf)             \includegraphics on input line 627.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig1_3-eps-converted-to.pdf, id=52, 259.97125pt x 184.69pt>
 File: fig1_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig1_3-eps-converted-to.pdf>
-Package pdftex.def Info: fig1_3-eps-converted-to.pdf used on input line 619.
+Package pdftex.def Info: fig1_3-eps-converted-to.pdf used on input line 627.
 (pdftex.def)             Requested size: 237.84842pt x 168.97276pt.
 Package epstopdf Info: Source file: <fig2_1.eps>
-(epstopdf)                    date: 2025-10-25 21:13:09
-(epstopdf)                    size: 49198 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 50056 bytes
 (epstopdf)             Output file: <fig2_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:23:59
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 18414 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig2_1-eps-converted-to.pdf
  fig2_1.eps>
-(epstopdf)             \includegraphics on input line 624.
+(epstopdf)             \includegraphics on input line 632.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig2_1-eps-converted-to.pdf, id=54, 258.9675pt x 183.68625pt>
 File: fig2_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig2_1-eps-converted-to.pdf>
-Package pdftex.def Info: fig2_1-eps-converted-to.pdf used on input line 624.
+Package pdftex.def Info: fig2_1-eps-converted-to.pdf used on input line 632.
 (pdftex.def)             Requested size: 237.84842pt x 168.71309pt.
 Package epstopdf Info: Source file: <fig2_2.eps>
-(epstopdf)                    date: 2025-10-25 21:03:26
-(epstopdf)                    size: 58940 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 59940 bytes
 (epstopdf)             Output file: <fig2_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:23:59
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 21405 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig2_2-eps-converted-to.pdf
  fig2_2.eps>
-(epstopdf)             \includegraphics on input line 625.
+(epstopdf)             \includegraphics on input line 633.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig2_2-eps-converted-to.pdf, id=56, 259.97125pt x 184.69pt>
 File: fig2_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig2_2-eps-converted-to.pdf>
-Package pdftex.def Info: fig2_2-eps-converted-to.pdf used on input line 625.
+Package pdftex.def Info: fig2_2-eps-converted-to.pdf used on input line 633.
 (pdftex.def)             Requested size: 237.84842pt x 168.97276pt.
 Package epstopdf Info: Source file: <fig2_3.eps>
-(epstopdf)                    date: 2025-10-25 21:04:05
-(epstopdf)                    size: 58988 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 59985 bytes
 (epstopdf)             Output file: <fig2_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:24:00
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 22200 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig2_3-eps-converted-to.pdf
  fig2_3.eps>
-(epstopdf)             \includegraphics on input line 626.
+(epstopdf)             \includegraphics on input line 634.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig2_3-eps-converted-to.pdf, id=58, 259.97125pt x 181.67876pt>
 File: fig2_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig2_3-eps-converted-to.pdf>
-Package pdftex.def Info: fig2_3-eps-converted-to.pdf used on input line 626.
+Package pdftex.def Info: fig2_3-eps-converted-to.pdf used on input line 634.
 (pdftex.def)             Requested size: 237.84842pt x 166.21779pt.
 Package epstopdf Info: Source file: <fig3_1.eps>
-(epstopdf)                    date: 2025-10-25 21:06:40
-(epstopdf)                    size: 47749 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 48576 bytes
 (epstopdf)             Output file: <fig3_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:24:00
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 18096 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig3_1-eps-converted-to.pdf
  fig3_1.eps>
-(epstopdf)             \includegraphics on input line 633.
+(epstopdf)             \includegraphics on input line 641.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig3_1-eps-converted-to.pdf, id=60, 258.9675pt x 183.68625pt>
 File: fig3_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig3_1-eps-converted-to.pdf>
-Package pdftex.def Info: fig3_1-eps-converted-to.pdf used on input line 633.
+Package pdftex.def Info: fig3_1-eps-converted-to.pdf used on input line 641.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
 Package epstopdf Info: Source file: <fig3_2.eps>
-(epstopdf)                    date: 2025-10-25 21:13:40
-(epstopdf)                    size: 47675 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 48517 bytes
 (epstopdf)             Output file: <fig3_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:24:00
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 17780 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig3_2-eps-converted-to.pdf
  fig3_2.eps>
-(epstopdf)             \includegraphics on input line 634.
+(epstopdf)             \includegraphics on input line 642.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig3_2-eps-converted-to.pdf, id=62, 258.9675pt x 183.68625pt>
 File: fig3_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig3_2-eps-converted-to.pdf>
-Package pdftex.def Info: fig3_2-eps-converted-to.pdf used on input line 634.
+Package pdftex.def Info: fig3_2-eps-converted-to.pdf used on input line 642.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
 Package epstopdf Info: Source file: <fig3_3.eps>
-(epstopdf)                    date: 2025-10-25 21:14:20
-(epstopdf)                    size: 46806 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 47674 bytes
 (epstopdf)             Output file: <fig3_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:24:01
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 17188 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig3_3-eps-converted-to.pdf
  fig3_3.eps>
-(epstopdf)             \includegraphics on input line 635.
+(epstopdf)             \includegraphics on input line 643.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig3_3-eps-converted-to.pdf, id=64, 258.9675pt x 183.68625pt>
 File: fig3_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig3_3-eps-converted-to.pdf>
-Package pdftex.def Info: fig3_3-eps-converted-to.pdf used on input line 635.
+Package pdftex.def Info: fig3_3-eps-converted-to.pdf used on input line 643.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
 Package epstopdf Info: Source file: <fig4_1.eps>
-(epstopdf)                    date: 2025-10-25 21:15:02
-(epstopdf)                    size: 44805 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 45599 bytes
 (epstopdf)             Output file: <fig4_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:24:01
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 16618 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig4_1-eps-converted-to.pdf
  fig4_1.eps>
-(epstopdf)             \includegraphics on input line 641.
+(epstopdf)             \includegraphics on input line 649.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig4_1-eps-converted-to.pdf, id=66, 258.9675pt x 183.68625pt>
 File: fig4_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig4_1-eps-converted-to.pdf>
-Package pdftex.def Info: fig4_1-eps-converted-to.pdf used on input line 641.
+Package pdftex.def Info: fig4_1-eps-converted-to.pdf used on input line 649.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
 Package epstopdf Info: Source file: <fig4_2.eps>
-(epstopdf)                    date: 2025-10-25 21:15:51
-(epstopdf)                    size: 45116 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 45914 bytes
 (epstopdf)             Output file: <fig4_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:24:01
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 16784 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig4_2-eps-converted-to.pdf
  fig4_2.eps>
-(epstopdf)             \includegraphics on input line 642.
+(epstopdf)             \includegraphics on input line 650.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig4_2-eps-converted-to.pdf, id=68, 258.9675pt x 183.68625pt>
 File: fig4_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig4_2-eps-converted-to.pdf>
-Package pdftex.def Info: fig4_2-eps-converted-to.pdf used on input line 642.
+Package pdftex.def Info: fig4_2-eps-converted-to.pdf used on input line 650.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
 Package epstopdf Info: Source file: <fig4_3.eps>
-(epstopdf)                    date: 2025-10-25 21:28:31
-(epstopdf)                    size: 47294 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 48134 bytes
 (epstopdf)             Output file: <fig4_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 21:29:04
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 17684 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig4_3-eps-converted-to.pdf
  fig4_3.eps>
-(epstopdf)             \includegraphics on input line 643.
+(epstopdf)             \includegraphics on input line 651.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig4_3-eps-converted-to.pdf, id=70, 258.9675pt x 183.68625pt>
 File: fig4_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig4_3-eps-converted-to.pdf>
-Package pdftex.def Info: fig4_3-eps-converted-to.pdf used on input line 643.
+Package pdftex.def Info: fig4_3-eps-converted-to.pdf used on input line 651.
 (pdftex.def)             Requested size: 235.47124pt x 167.0286pt.
 
-Underfull \hbox (badness 1715) in paragraph at lines 648--654
+Underfull \hbox (badness 1715) in paragraph at lines 656--662
 \T2A/cmr/m/n/10 се-я-ния. Уз-кие пи-ки, со-от-вет-ству-ю-щие энер-ги-ям
  []
 
@@ -796,59 +829,62 @@ LaTeX Warning: Text page 6 contains only floats.
 
 Underfull \vbox (badness 1377) has occurred while \output is active []
 
- [6 <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig1_1-eps-converted-to.pd
-f> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig1_2-eps-converted-to.pdf
-> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig1_3-eps-converted-to.pdf>
-]
+ [6 <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Documents/GitHub/Review/JETP 2025/fig1_1
+-eps-converted-to.pdf> <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Documents/GitHub/Revi
+ew/JETP 2025/fig1_2-eps-converted-to.pdf> <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Do
+cuments/GitHub/Review/JETP 2025/fig1_3-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig2_1-eps-converted-to.pd
-f> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig2_2-eps-converted-to.pdf
-> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig2_3-eps-converted-to.pdf>
- <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig3_1-eps-converted-to.pdf> 
-<C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig3_2-eps-converted-to.pdf> <
-C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig3_3-eps-converted-to.pdf>]
+ [7 <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Documents/GitHub/Review/JETP 2025/fig2_1
+-eps-converted-to.pdf> <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Documents/GitHub/Revi
+ew/JETP 2025/fig2_2-eps-converted-to.pdf> <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Do
+cuments/GitHub/Review/JETP 2025/fig2_3-eps-converted-to.pdf> <C:/Users/РџРѕР»СЊ
+Р·РѕРІР°С‚РµР»СЊ/Documents/GitHub/Review/JETP 2025/fig3_1-eps-converted-to.pdf>
+ <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Documents/GitHub/Review/JETP 2025/fig3_2-ep
+s-converted-to.pdf> <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Documents/GitHub/Review/
+JETP 2025/fig3_3-eps-converted-to.pdf>]
 Underfull \vbox (badness 1038) has occurred while \output is active []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 685--690
+Underfull \hbox (badness 4205) in paragraph at lines 693--698
 []\T2A/cmr/m/n/10 Как по-ка-зы-ва-ет чис-лен-ный ана-лиз, в слу-
  []
 
 
-Underfull \hbox (badness 5161) in paragraph at lines 685--690
+Underfull \hbox (badness 5161) in paragraph at lines 693--698
 \T2A/cmr/m/n/10 чае силь-но за-маг-ни-чен-ной, го-ря-чей, зарядово-
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 685--690
+Underfull \hbox (badness 2393) in paragraph at lines 693--698
 \T2A/cmr/m/n/10 элек-тро-на для пер-во-го уров-ня Лан-дау $\OT1/cmr/m/n/10  []$
  \T2A/cmr/m/n/10 ма-
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 696--701
+Underfull \hbox (badness 3746) in paragraph at lines 704--709
 []\T2A/cmr/m/n/10 В пре-де-ле силь-но-го по-ля пар-ци-аль-ные ко-
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 696--701
+Underfull \hbox (badness 5345) in paragraph at lines 704--709
 \T2A/cmr/m/n/10 эф-фи-ци-ен-ты по-гло-ще-ния фо-то-на для ка-на-лов
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 696--701
+Underfull \hbox (badness 1436) in paragraph at lines 704--709
 \T2A/cmr/m/n/10 ши-ри-ны по-гло-ще-ния элек-тро-на в слу-чае, ко-гда
  []
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 696--701
+Underfull \hbox (badness 5260) in paragraph at lines 704--709
 \T2A/cmr/m/n/10 нит-но-го по-ля, мож-но пред-ста-вить сле-ду-ю-щим
  []
 
-[8 <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig4_1-eps-converted-to.pdf
-> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig4_2-eps-converted-to.pdf>
- <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig4_3-eps-converted-to.pdf>]
+[8 <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Documents/GitHub/Review/JETP 2025/fig4_1-
+eps-converted-to.pdf> <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Documents/GitHub/Revie
+w/JETP 2025/fig4_2-eps-converted-to.pdf> <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Doc
+uments/GitHub/Review/JETP 2025/fig4_3-eps-converted-to.pdf>]
 Extra height:0.0pt when 0.0pt
 (2)Left:0.0pt Right:0.0pt Output:0.0pt
 - LAST -
@@ -856,13 +892,13 @@ Left:0.0pt
 Right:0.0pt
 Output:0.0pt
 
-Underfull \hbox (badness 2460) in paragraph at lines 741--745
+Underfull \hbox (badness 2460) in paragraph at lines 749--753
 \T2A/cmr/m/n/10 где $\OML/cmm/m/it/10 J[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT
 1/cmr/m/n/10 )$ \T2A/cmr/m/n/10 -- функ-ция Бес-се-ля це-ло-го ин-дек-са,
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 741--745
+Underfull \hbox (badness 1796) in paragraph at lines 749--753
 []\T2A/cmr/m/n/10 , $\OML/cmm/m/it/10 p[]$ \T2A/cmr/m/n/10 -- кор-ни
  []
 
@@ -873,75 +909,75 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Package epstopdf Info: Source file: <fig5.eps>
-(epstopdf)                    date: 2025-10-25 19:11:06
-(epstopdf)                    size: 51894 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 52770 bytes
 (epstopdf)             Output file: <fig5-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 19:12:36
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 19192 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig5-eps-converted-to.pdf f
 ig5.eps>
-(epstopdf)             \includegraphics on input line 763.
+(epstopdf)             \includegraphics on input line 771.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig5-eps-converted-to.pdf, id=125, 258.9675pt x 154.5775pt>
 File: fig5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig5-eps-converted-to.pdf>
-Package pdftex.def Info: fig5-eps-converted-to.pdf used on input line 763.
+Package pdftex.def Info: fig5-eps-converted-to.pdf used on input line 771.
 (pdftex.def)             Requested size: 209.30777pt x 124.94054pt.
 Package epstopdf Info: Source file: <fig6.eps>
-(epstopdf)                    date: 2025-10-25 19:09:12
-(epstopdf)                    size: 37007 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 37652 bytes
 (epstopdf)             Output file: <fig6-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 19:10:16
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 14549 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig6-eps-converted-to.pdf f
 ig6.eps>
-(epstopdf)             \includegraphics on input line 768.
+(epstopdf)             \includegraphics on input line 776.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig6-eps-converted-to.pdf, id=126, 258.9675pt x 156.585pt>
 File: fig6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig6-eps-converted-to.pdf>
-Package pdftex.def Info: fig6-eps-converted-to.pdf used on input line 768.
+Package pdftex.def Info: fig6-eps-converted-to.pdf used on input line 776.
 (pdftex.def)             Requested size: 209.30777pt x 126.56316pt.
 Package epstopdf Info: Source file: <fig7.eps>
-(epstopdf)                    date: 2025-10-25 19:10:57
-(epstopdf)                    size: 57196 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 58141 bytes
 (epstopdf)             Output file: <fig7-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 19:12:37
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 21086 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig7-eps-converted-to.pdf f
 ig7.eps>
-(epstopdf)             \includegraphics on input line 773.
+(epstopdf)             \includegraphics on input line 781.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig7-eps-converted-to.pdf, id=127, 258.9675pt x 154.5775pt>
 File: fig7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig7-eps-converted-to.pdf>
-Package pdftex.def Info: fig7-eps-converted-to.pdf used on input line 773.
+Package pdftex.def Info: fig7-eps-converted-to.pdf used on input line 781.
 (pdftex.def)             Requested size: 209.30777pt x 124.94054pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <fig8.eps>
-(epstopdf)                    date: 2025-10-25 19:11:00
-(epstopdf)                    size: 34790 bytes
+(epstopdf)                    date: 2026-03-10 14:35:02
+(epstopdf)                    size: 35404 bytes
 (epstopdf)             Output file: <fig8-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-10-25 19:12:37
+(epstopdf)                    date: 2026-03-10 14:35:02
 (epstopdf)                    size: 13799 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig8-eps-converted-to.pdf f
 ig8.eps>
-(epstopdf)             \includegraphics on input line 778.
+(epstopdf)             \includegraphics on input line 786.
 Package epstopdf Info: Output file is already uptodate.
 <fig8-eps-converted-to.pdf, id=128, 258.9675pt x 156.585pt>
 File: fig8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig8-eps-converted-to.pdf>
-Package pdftex.def Info: fig8-eps-converted-to.pdf used on input line 778.
+Package pdftex.def Info: fig8-eps-converted-to.pdf used on input line 786.
 (pdftex.def)             Requested size: 209.30777pt x 126.56316pt.
 
 
@@ -950,140 +986,145 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig5-eps-converted-to.pdf
-> <C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig6-eps-converted-to.pdf> <
-C:/Users/a12l/Documents/GitHub/Review/JETP 2025/fig7-eps-converted-to.pdf> <C:/
-Users/a12l/Documents/GitHub/Review/JETP 2025/fig8-eps-converted-to.pdf>]
-Overfull \hbox (3.36752pt too wide) in alignment at lines 837--845
- [] [] [] [] 
+ [10 <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Documents/GitHub/Review/JETP 2025/fig5-
+eps-converted-to.pdf> <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Documents/GitHub/Revie
+w/JETP 2025/fig6-eps-converted-to.pdf> <C:/Users/РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ/Docum
+ents/GitHub/Review/JETP 2025/fig7-eps-converted-to.pdf> <C:/Users/РџРѕР»СЊР·РѕР
+ІР°С‚РµР»СЊ/Documents/GitHub/Review/JETP 2025/fig8-eps-converted-to.pdf>]
+Underfull \hbox (badness 5985) in paragraph at lines 846--848
+\T2A/cmr/m/n/10 получим асимп-то-ти-че-ское раз-ло-же-ние ин-те-гра-
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 901--903
+Underfull \hbox (badness 1033) in paragraph at lines 869--871
+[]\T2A/cmr/m/n/10 Нетрудно ви-деть, что пер-вый член раз-ло-же-
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 929--931
 []\T2A/cmr/m/n/10 Выражения для $\OMS/cmsy/m/n/10 T[]$ \T2A/cmr/m/n/10 мо-гут б
 ыть по-лу-че-ны
  []
 
 [11]
-Underfull \hbox (badness 1028) in paragraph at lines 999--1000
+Underfull \hbox (badness 1028) in paragraph at lines 1027--1028
 []\T2A/cmr/m/n/9 Trumper J., Pietsch W., Reppin C., Voges W.,
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 1003--1005
+Underfull \hbox (badness 4454) in paragraph at lines 1031--1033
 []\T2A/cmr/m/n/9 Makishima K., Mihara T., Ishida M. et al.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1064
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1092
 []\T2A/cmr/m/n/9 Schonherr G., Wilms J., Kretschmar P.,
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 1077--1079
+Underfull \hbox (badness 1796) in paragraph at lines 1105--1107
 []\T2A/cmr/m/n/9 Wadiasingh Z., Baring M. G., Gonthier P. L.,
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 1086--1088
+Underfull \hbox (badness 1210) in paragraph at lines 1114--1116
 []\T2A/cmr/m/n/9 Gonthier P. L., Harding A. K., Baring M. G.,
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 1114--1117
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1145
 []\T2A/cmr/m/n/9 Chistyakov M. V., Rumyantsev D. A.,
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 1121--1123
+Underfull \hbox (badness 1337) in paragraph at lines 1149--1151
 []\T2A/cmr/m/n/9 Жуковский В. Ч., Ми-до-да-шви-ли П. Г., Эми-
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 1130--1132
+Underfull \hbox (badness 2582) in paragraph at lines 1158--1160
 []\T2A/cmr/m/n/9 Берестецкий В. Б., Лиф-шиц Е. М., Пи-та-ев-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1135
+Underfull \hbox (badness 10000) in paragraph at lines 1161--1163
 []\T2A/cmr/m/n/9 Schwarm F.-W., Schonherr G., Falkner S.,
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 1133--1135
+Underfull \hbox (badness 4429) in paragraph at lines 1161--1163
 \T2A/cmr/m/n/9 Pottschmidt K., Wolff M. T., Becker P. A.,
  []
 
 
-Underfull \hbox (badness 7631) in paragraph at lines 1133--1135
+Underfull \hbox (badness 7631) in paragraph at lines 1161--1163
 \T2A/cmr/m/n/9 Sokolova-Lapa E., Klochkov D., Ferrigno C.,
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 1154--1158
+Underfull \hbox (badness 2790) in paragraph at lines 1182--1186
 []\T2A/cmr/m/n/9 Kuznetsov A. V., Mikheev N. V., \T2A/cmr/m/it/9 Electroweak
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 1165--1176
+Underfull \hbox (badness 1616) in paragraph at lines 1193--1204
 []\T2A/cmr/m/n/9 Blanchet L., Faye G., Journal of Mathematical
  []
 
-[13
-
-]
-("C:\Users\a12l\Documents\GitHub\Review\JETP 2025\Shlenev 2025 РїСЂР°РІРєРё.aux
-") ) 
+[13]
+("C:\Users\РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ\Documents\GitHub\Review\JETP 2025\Shlenev 2
+025 РїСЂР°РІРєРё.aux") ) 
 Here is how much of TeX's memory you used:
- 6057 strings out of 494045
- 78367 string characters out of 3145973
- 255161 words of memory out of 3000000
- 9125 multiletter control sequences out of 15000+200000
+ 6058 strings out of 494045
+ 78561 string characters out of 3146016
+ 255171 words of memory out of 3000000
+ 9126 multiletter control sequences out of 15000+200000
  34094 words of font info for 84 fonts, out of 3000000 for 9000
  745 hyphenation exceptions out of 8191
  42i,14n,26p,4641b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t2a.en
-c}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/symbols/msam10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/symbols/msam7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/cm-super/sfbi1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/cm-super/sfbx0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-cm-super/sfbx1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-
-super/sfrm0600.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-sup
-er/sfrm0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/
-sfrm0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
-m0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm10
-00.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfsi1000.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfss0900.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfss1000.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx0900.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti0800.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti0900.pfb>
-Output written on "Shlenev 2025 РїСЂР°РІРєРё.pdf" (13 pages, 908889 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-s
+uper/cm-super-t2a.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib7.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/cm-super/sfbi1000.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/cm-super/sfbx0900.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/cm-super/sfrm0600.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/cm-super/sfrm0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/cm-super/sfrm0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/cm-super/sfrm0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/cm-super/sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/cm-super/sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/c
+m-super/sfsi1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-s
+uper/sfss0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-supe
+r/sfss1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/s
+fsx0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx
+1440.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti080
+0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfti0900.p
+fb>
+Output written on "Shlenev 2025 РїСЂР°РІРєРё.pdf" (13 pages, 910801 bytes).
 PDF statistics:
  282 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

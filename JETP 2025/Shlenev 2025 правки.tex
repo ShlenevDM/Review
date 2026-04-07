@@ -393,16 +393,24 @@ $E_n''\Gamma^{s''}_n\ll \left|(p+q)^2_{\mprl}-M_n^2\right|$, где
 $E_n''=E_\ell+\omega$ -- энергия виртуального электрона и $(p+q)^2_{\mprl} = 
 (E_\ell + \omega)^2 - (p_z + q_z)^2$, выполняется везде, кроме точки резонанса, 
 то 
-можно использовать приближение узкого резонансного пика. В приближении узкого резонансного пика с учетом последующего интегрирования по импульсам начального электрона представим квадрат модуля знаменателя пропагатора электрона~(\ref{eq:propagator}) в следующем виде (см.~приложение 1):
+можно использовать приближение узкого резонансного пика. В этом приближении с 
+учетом последующего интегрирования по импульсам начального электрона представим 
+квадрат модуля знаменателя пропагатора электрона~(\ref{eq:propagator}) в 
+следующем виде (см.~Приложение~1):
 \begin{eqnarray}
 	\label{gamma_factor}
-	&&\left|\frac{1}{(p+q)^2_{\mprl}-M_n^2-\ii E_n''\Gamma^{s''}_n/2}\right|^2\simeq
+	&&\left|\frac{1}{(p+q)^2_{\mprl}-M_n^2-\ii E_n''\Gamma^{s''}_n/2}\right|^2 =
 	\\
 	&&\nonumber
-	\simeq\frac{2\pi}{E_n''\Gamma_n^{s''}} \delta((p+q)^2_{\mprl}-M_n^2) + \frac{2}{E_n''\Gamma_n^{s''}}{\mathit O}(E_n''\Gamma_n^{s''})
+	=\frac{2\pi}{E_n''\Gamma_n^{s''}} \delta((p+q)^2_{\mprl}-M_n^2) + 
+	\frac{{\mathit O}(E_n''\Gamma_n^{s''})}{E_n''\Gamma_n^{s''}}
 \end{eqnarray}
 
-С учетом этого квадрат $S$-матричного элемента, определяющий вероятность процесса и необходимый при расчетах вычисляемых величин, таких как сечение рассеяния, может быть представлен в факторизованном виде~\cite{Rumyantsev:2017}:
+С учетом этого разложения квадрат\linebreak $S$-матричного элемента, 
+определяющий 
+вероятность процесса и необходимый при расчетах вычисляемых величин, таких как 
+коэффициент поглощения фотона или сечение рассеяния фотона на электроне, может 
+быть представлен в факторизованном виде~\cite{Rumyantsev:2017}:
 %
 \beq
 \label{eq:S2factor1}
@@ -794,64 +802,84 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 \section*{Приложение 1.}
 
 \begin{center}
-	\textbf{Интегрирование узкого резонансного пика}
+	\textbf{Приближение узкого резонансного пика}
 \end{center}
 	
-Рассмотрим интеграл
+Рассмотрим следующий интеграл:
 \begin{equation}\label{eq:Ieps}
-	I(\varepsilon)=\int_{-\infty}^\infty\frac{\varepsilon}{x^2+\varepsilon^2}\varphi(x)dx\, .
+	I(\varepsilon)=\int\limits_{-\infty}^\infty\frac{\varepsilon}{x^2+\varepsilon^2}\varphi(x)dx\,
+	 .
 \end{equation}
 	
-Используя для части подынтегрального выражения в~(\ref{eq:Ieps}) преобразование Фурье
+Используя для части подынтегрального выражения в~(\ref{eq:Ieps}) преобразование 
+Фурье: 
 \begin{equation}
-	\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}\frac{\varepsilon}{x^2+\varepsilon^2} e^{\ii s x}dx=\sqrt{\frac{\pi}{2}} e^{-|s| \varepsilon}\, ,
+	\frac{1}{\sqrt{2\pi}}\int\limits_{-\infty}^{\infty}\frac{\varepsilon}{x^2+\varepsilon^2}
+	 e^{\ii s x}dx=\sqrt{\frac{\pi}{2}} e^{-|s| \varepsilon}\, ,
 \end{equation}
 с учетом равенства Парсеваля получим:
 \begin{equation}\label{eq:Parseval}
-	I(\varepsilon) = \sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty}e^{-|s|\varepsilon} \Phi(s) d\omega\, ,
+	I(\varepsilon) = 
+	\sqrt{\frac{\pi}{2}}\int\limits_{-\infty}^{\infty}e^{-|s|\varepsilon} 
+	\Phi(s) d\omega\, ,
 \end{equation}	
-где $\Phi$ -- Фурье-образ функции $\varphi(x)$.
+где $\Phi(s)$ -- Фурье-образ функции $\varphi(x)$.
 
-При $s\varepsilon\ll1$ ($\varepsilon \ll x$) представим~(\ref{eq:Parseval}) в виде
+При $s\varepsilon\ll1$ ($\varepsilon \ll x$) представим~(\ref{eq:Parseval}) в 
+виде:
 \begin{eqnarray}
 	&&
-	I(\varepsilon) = \sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} \Phi(s) ds
+	I(\varepsilon) = \sqrt{\frac{\pi}{2}}\int\limits_{-\infty}^{\infty} \Phi(s) 
+	ds
 	-
-	\varepsilon\sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} |s|\Phi(s) ds+
+	\varepsilon\sqrt{\frac{\pi}{2}}\int\limits_{-\infty}^{\infty} |s|\Phi(s) ds+
 	\\&&+
 	\nonumber 
-	\frac{\varepsilon^2}{2}\sqrt{\frac{\pi}{2}}\int_{-\infty}^{\infty} s^2\Phi(s) ds + O(\varepsilon^3)\, .
+	\frac{\varepsilon^2}{2}\sqrt{\frac{\pi}{2}}\int\limits_{-\infty}^{\infty} 
+	s^2\Phi(s) ds + O(\varepsilon^3)\, .
 \end{eqnarray}
 
 Переходя обратно в $x$-представление с учетом
 \begin{equation}
-	\frac{\partial^n \varphi(x)}{\partial x^n} = \frac{(-i)^n}{\sqrt{2\pi}} \int_{-\infty}^{\infty} ds s^n \Phi(s) e^{-\ii s x} 
+	\frac{\partial^n \varphi(x)}{\partial x^n} = \frac{(-i)^n}{\sqrt{2\pi}} 
+	\int\limits_{-\infty}^{\infty} ds s^n \Phi(s) e^{-\ii s x}\, ,
 \end{equation}
-получим асимптотическое разложение~(\ref{eq:Ieps}) в виде
-\begin{eqnarray}
-	&&I(\varepsilon) = \pi \varphi(0) + \varepsilon \, P.V.\int_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} dx-
+получим асимптотическое разложение интеграла~(\ref{eq:Ieps}) в виде
+\begin{eqnarray}\label{eq:IntegrSer}
+	&&I(\varepsilon) = \pi \varphi(0) + \varepsilon \, 
+	P.V.\int\limits_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} dx-
 	\\\nonumber
 	&&- \frac{\pi\varepsilon^2}{2} \left.\frac{\partial^2 \varphi(x)}{\partial x^2}\right|_{x=0} + O(\varepsilon^3),
 \end{eqnarray}
-где интеграл вычисляется в смысле главного значения ($P.V.$ -- Principal Value)~\cite{Blanchet:2000}:
-\begin{eqnarray}
-	P.V.&&\int_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} dx 
+где второе слагаемое вычисляется в смысле главного значения ($P.V.$ -- 
+Principal 
+Value)~\cite{Blanchet:2000}:
+\begin{eqnarray}\nonumber
+	P.V.&&\int\limits_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} dx 
 	= 
 	\lim\limits_{\eta\to 0}\left(\int_{|x|\geqslant \eta}\frac{\varphi(x)}{x^2} - \frac{2 \varphi(0)}{\eta}\right) 
 	=
-	\\ \nonumber
+	\\ 
 	=
-	&&\int_{-\infty}^{\infty} \left(\frac{\varphi(x)-\varphi(0)-x \varphi'(0)}{x^2}\right) dx
+	&&\int\limits_{-\infty}^{\infty} \left(\frac{\varphi(x)-\varphi(0)-x 
+	\varphi'(0)}{x^2}\right) dx\, .
 \end{eqnarray}
 
 
-Нетрудно видеть, что первый член разложения соответствует пределу~\cite{Helfand:1959}
+Нетрудно видеть, что первый член разложения~(\ref{eq:IntegrSer}) соответствует 
+пределу~\cite{Helfand:1959}:
 \begin{equation}
 	\delta(x) = \frac{1}{\pi} \lim\limits_{\varepsilon\to 0} \frac{\varepsilon}{x^2+\varepsilon^2}\, .
 \end{equation}
-	Поделив обе части равенства на $\varepsilon$ и положив в полученном выражении $x=(p+q)^2-M_n^2$ и $\varepsilon=E_n''\Gamma_n^{s''}$ придем к~(\ref{gamma_factor}).
 	
-	Отметим, что точка $x=0$ соответствует случаю $(p+q)^2_{\mprl}-M_n^2=0$, т. е. виртуальный электрон садится на массовую поверхность и становится реальным.
+	Поделив обе части разложения~\ref{eq:IntegrSer} на $\varepsilon$ и положив 
+	в полученном 
+	выражении $x=(p+q)^2-M_n^2$ и $\varepsilon=E_n''\Gamma_n^{s''}$, придем 
+	к~(\ref{gamma_factor}).
+	
+	Отметим, что точка $x=0$ соответствует случаю $(p+q)^2_{\mprl}-M_n^2=0$, т. 
+	е. виртуальный электрон выходит на массовую поверхность и 
+	становится реальным.
 
 \section*{Приложение 2.}
 
