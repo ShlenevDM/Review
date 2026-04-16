@@ -807,7 +807,7 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 	
 Рассмотрим следующий интеграл:
 \begin{equation}\label{eq:Ieps}
-	I(\varepsilon)=\int\limits_{-\infty}^\infty\frac{\varepsilon}{x^2+\varepsilon^2}\varphi(x)dx\,
+	I(\varepsilon)=\int\limits_{-\infty}^\infty\frac{\varepsilon}{x^2+\varepsilon^2}\varphi(x) \dd x\,
 	 .
 \end{equation}
 	
@@ -815,13 +815,13 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 Фурье: 
 \begin{equation}
 	\frac{1}{\sqrt{2\pi}}\int\limits_{-\infty}^{\infty}\frac{\varepsilon}{x^2+\varepsilon^2}
-	 e^{\ii s x}dx=\sqrt{\frac{\pi}{2}} e^{-|s| \varepsilon}\, ,
+	 e^{\ii s x} \dd x=\sqrt{\frac{\pi}{2}} e^{-|s| \varepsilon}\, ,
 \end{equation}
 с учетом равенства Парсеваля получим:
 \begin{equation}\label{eq:Parseval}
 	I(\varepsilon) = 
 	\sqrt{\frac{\pi}{2}}\int\limits_{-\infty}^{\infty}e^{-|s|\varepsilon} 
-	\Phi(s) d\omega\, ,
+	\Phi(s) \dd s\, ,
 \end{equation}	
 где $\Phi(s)$ -- Фурье-образ функции $\varphi(x)$.
 
@@ -830,24 +830,24 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 \begin{eqnarray}
 	&&
 	I(\varepsilon) = \sqrt{\frac{\pi}{2}}\int\limits_{-\infty}^{\infty} \Phi(s) 
-	ds
+	\dd s
 	-
-	\varepsilon\sqrt{\frac{\pi}{2}}\int\limits_{-\infty}^{\infty} |s|\Phi(s) ds+
+	\varepsilon\sqrt{\frac{\pi}{2}}\int\limits_{-\infty}^{\infty} |s|\Phi(s) \dd s+
 	\\&&+
 	\nonumber 
 	\frac{\varepsilon^2}{2}\sqrt{\frac{\pi}{2}}\int\limits_{-\infty}^{\infty} 
-	s^2\Phi(s) ds + O(\varepsilon^3)\, .
+	s^2\Phi(s) \dd s + O(\varepsilon^3)\, .
 \end{eqnarray}
 
 Переходя обратно в $x$-представление с учетом
 \begin{equation}
 	\frac{\partial^n \varphi(x)}{\partial x^n} = \frac{(-i)^n}{\sqrt{2\pi}} 
-	\int\limits_{-\infty}^{\infty} ds s^n \Phi(s) e^{-\ii s x}\, ,
+	\int\limits_{-\infty}^{\infty} \dd s s^n \Phi(s) e^{-\ii s x}\, ,
 \end{equation}
 получим асимптотическое разложение интеграла~(\ref{eq:Ieps}) в виде
 \begin{eqnarray}\label{eq:IntegrSer}
 	&&I(\varepsilon) = \pi \varphi(0) + \varepsilon \, 
-	P.V.\int\limits_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} dx-
+	P.V.\int\limits_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} \dd x-
 	\\\nonumber
 	&&- \frac{\pi\varepsilon^2}{2} \left.\frac{\partial^2 \varphi(x)}{\partial x^2}\right|_{x=0} + O(\varepsilon^3),
 \end{eqnarray}
@@ -855,14 +855,14 @@ $p^\alpha_{\sigma\mprl}=(E_\sigma,p_{z\sigma})$.
 Principal 
 Value)~\cite{Blanchet:2000}:
 \begin{eqnarray}\nonumber
-	P.V.&&\int\limits_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} dx 
+	P.V.&&\int\limits_{-\infty}^{\infty} \frac{\varphi(x)}{x^2} \dd x 
 	= 
-	\lim\limits_{\eta\to 0}\left(\int_{|x|\geqslant \eta}\frac{\varphi(x)}{x^2} - \frac{2 \varphi(0)}{\eta}\right) 
+	\lim\limits_{\eta\to 0}\left(\int\limits_{|x|\geqslant \eta}\frac{\varphi(x)}{x^2} \dd x - \frac{2 \varphi(0)}{\eta}\right) 
 	=
 	\\ 
 	=
 	&&\int\limits_{-\infty}^{\infty} \left(\frac{\varphi(x)-\varphi(0)-x 
-	\varphi'(0)}{x^2}\right) dx\, .
+	\varphi'(0)}{x^2}\right) \dd x\, .
 \end{eqnarray}
 
 
@@ -872,7 +872,7 @@ Value)~\cite{Blanchet:2000}:
 	\delta(x) = \frac{1}{\pi} \lim\limits_{\varepsilon\to 0} \frac{\varepsilon}{x^2+\varepsilon^2}\, .
 \end{equation}
 	
-	Поделив обе части разложения~\ref{eq:IntegrSer} на $\varepsilon$ и положив 
+	Поделив обе части разложения~(\ref{eq:IntegrSer}) на $\varepsilon$ и положив 
 	в полученном 
 	выражении $x=(p+q)^2-M_n^2$ и $\varepsilon=E_n''\Gamma_n^{s''}$, придем 
 	к~(\ref{gamma_factor}).
@@ -880,6 +880,8 @@ Value)~\cite{Blanchet:2000}:
 	Отметим, что точка $x=0$ соответствует случаю $(p+q)^2_{\mprl}-M_n^2=0$, т. 
 	е. виртуальный электрон выходит на массовую поверхность и 
 	становится реальным.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section*{Приложение 2.}
 
