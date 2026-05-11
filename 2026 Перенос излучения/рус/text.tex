@@ -94,6 +94,234 @@
 С другой стороны, для численного анализа переноса излучения с учетом резонансного комптоновского процесса также активно используется метод Монте-Карло (см., например~\cite{Yahel:1979,Araya:1999,Nobili:2008,Fernandez:2011,Taverna:2014,Mustukov:2021,Mushtukov:2022}), который является достаточно мощным инструментом для моделирования сложных физических систем. Он заключается в использовании статистических подходов, связанных с генерацией псевдослучайных чисел, но имеет существенный недостаток, вызванный медленной сходимостью результата, поэтому для получения точных ответов требуется большое количество итераций, и, следовательно, более мощное оборудование~\cite{Caflisch:1998, Hall:2009}. Использование данного метода для моделировании поляризованного излучения в цилиндрической геометрии было начато еще в 70-х годах~\cite{Yahel:1979}. Основным преимуществом метода Монте-Карло является возможность с его помощью моделировать сложные физические процессы для случая сложных граничных условий или неоднородных сред. Так, в работе~\cite{Araya:1999} данный метод позволил рассматривать пространственную диффузию фотонов в произвольных геометриях с учетом углового распределения. Рентгеновское излучение, возникающего из-за резонансного комптоновсого рассеяния тепловых фотонов движущимися зарядами, в искривленной магнитосфере с помощью моделирования Монте-Карло изучалось в работе~\cite{Fernandez:2007}. Множественный комптоновский процесс рассматривался в работе \cite{Mushtukov:2022} в сильном магнитном поле, где в качестве результата было показано, что функция распределения фотонов с учетом циклотронных резонансов существенно отличается от равновесного распределения.
 
 Из-за сложного поведения коэффициента поглощения фотона в комптоновском процессе вблизи резонанса задача переноса излучения становится нетривиальной. Одним из упрощений этой задачи является выбор геометрии излучающей области. Представление излучающей поверхности в виде бесконечной плиты является хорошим приближением для анализа излучения поверхности нейтронной звезды~\cite{Meszaros:1983,Harding:1984,Nishimura:2015}. С другой стороны, цилиндрическая геометрия является более подходящей для аккреционной колонки в целом~\cite{Basko:1976}. Согласно работе~\cite{Basko:1976}  под аккреционной колонкой понимается свободно падающее вещество "вмороженное" в линии магнитного поля вблизи полярных шапок и образующее некоторую воронку. Однако спектр, наблюдаемый в области циклотронных частот излучения аккрецирующих рентгеновских пульсаров, имеет более широкий профиль с заниженными значениями, чем рассчитанные с предположением данных геометрий. Поэтому в работе~\cite{Nishimura:2008} была предложена более подходящая модель формирования циклотронных линий, которая заключается в том, что результирующий спектр излучающей области формируется как сумма спектров от различных циклотронных областей, каждая из которых имеет цилиндрическую геометрию со своим постоянным значением плотности, температуры и индукции магнитного поля. Наконец, в работе~\cite{YarkovPhotFE:2023}, используя дельта-функциональное приближение было получено аналитическое решение кинетического уравнения для нахождения функции распределения фотонов двух возможных поляризаций в равновесной нерелятивистской плазме электронов в относительно сильном магнитном поле и с учетом резонанса на виртуальном электроне.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Вероятность комптоновского рассеяния при резонансе на виртуальном электроне}
+
+Для решения рассматриваемой задачи будем использовать лагранжиан взаимодействия электрона, описываемого волновой функцией $\Psi (X)$, с фотоном в поляризационном состоянии $\lambda$, заданным $A^{(\lambda)}_\mu (X)$,  который имеет следующий вид:
+%
+\begin{equation}\label{eq:L}
+	{\cal L}(X) \, = \,- e [\bar \Psi (X) \gamma^{\mu} A^{(\lambda)}_\mu (X) 
+	\Psi(X)] \, ,
+\end{equation}
+%
+\noindent где $V = L_x L_y L_z$ -- нормировочный объем. Волновые функции электрона $\Psi (X)$ в данной работе выбираются как собственные векторы ковариантого оператора~$\mu_z$, который строится следующим образом~\footnote{Обоснование выбора этого метода, предложенного А.А. Соколовым и И.М. Терновым~\cite{Sokolov:1968}, приведено в работе~\cite{Rumyantsev:2017}.}: 
+\begin{equation}\label{eq:muz}
+	\mu_z=m \Sigma_z - i \gamma_0\gamma_5\left[\vec{\Sigma}\times 
+	\vec{P}\right]_z\, ,
+\end{equation}
+%
+\noindent где $\bs\Sigma = - \gamma_0 \bs\gamma \gamma_5$ -- трехмерный оператор спина, $\vec{P} = -i \vec{\nabla} +e \vec{A}$, $A^\mu=\left(0,0,xB,0\right)$ -- 4-вектор потенциала электромагнитного поля в калибровке Ландау.
+
+Уравнение для собственных функций оператора~(\ref{eq:muz}) имеет следующий вид:
+\begin{equation}
+	{\mu}_z \Psi^s_{p,n}(X)=s M_n \Psi^s_{p,n}(X)\, ,
+\end{equation}
+в котором квантовое число $s=\pm 1$ определяет поляризационные состояния электрона в постоянном однородном магнитном поле. 
+Состояние электрона характеризуется энергией $E_n = \sqrt{p_z^2+M_n^2}$ и является бесконечно вырожденным по $p_z$ и дважды вырожденным по $s$, кроме состояния 
+$n=0$, где возможно лишь состояние с $s=-1$. Собственные функции оператора~(\ref{eq:muz}) могут быть представлены следующим образом:
+\begin{eqnarray}
+	\label{eq:psie}
+	\Psi^s_{p,n}(X) = \frac{e^{-\ii(E_{n} X_0 - p_y X_2 - p_z X_3)}\; U^s_{n} (\xi)}
+	{\sqrt{4E_{n}M_n (E_{n} + M_n)(M_n + m) L_y L_z}} \, ,  
+\end{eqnarray}
+где 
+\begin{equation}
+	\xi(X_1)=\sqrt{\beta}\left(X_1+ \frac{p_y}{\beta}\right)\, .
+\end{equation}
+
+Биспиноры  $U^s_{n} (\xi)$ имеют следующий вид:
+
+\beq
+\label{eq:U--}
+&&U^{-}_{n} (\xi) = \left ( 
+\begin{array}{c}
+	-\ii\sqrt{2\beta n} \, p_z V_{n-1} (\xi)\\[2mm]
+	(E_n + M_n)(M_n + m) V_n (\xi)\\[2mm]
+	-\ii\sqrt{2\beta n} (E_n + M_n) V_{n-1} (\xi)\\[2mm]
+	-p_z (M_n + m) V_n (\xi)
+\end{array}
+\right )  ,   
+%
+\\ [3mm]
+\label{eq:U+-}
+&&U^{+}_{n} (\xi) = \left ( 
+\begin{array}{c}
+	(E_n + M_n) (M_n + m) V_{n-1} (\xi)\\[2mm]
+	-\ii\sqrt{2\beta n} \, p_z V_n (\xi)\\[2mm]
+	p_z (M_n + m) V_{n-1} (\xi)\\[2mm]
+	\ii \sqrt{2 \beta n} (E_n + M_n) V_n (\xi)
+\end{array}
+\right )\! .
+\eeq
+
+$V_n(\xi)$ -- нормированные функции гармонического осциллятора, которые 
+следующим образом выражаются через полиномы Эрмита $H_n(\xi)$ \cite{Gradstein:1963}:
+%
+\begin{eqnarray}
+	\label{eq:V_n}
+	V_n (\xi) = \frac{\beta^{1/4}\eee^{-\xi^2/2}}{\sqrt{2^n n! \sqrt{\pi}}} \, H_n(\xi)\, .
+\end{eqnarray}
+
+Волновая функция фотона $A^{(\lambda)}_\mu (X)$ используется в виде плосковолновых решений:
+%
+\begin{eqnarray}
+	\label{eq:j_k}
+	A^{(\lambda)}_\mu (X) = \frac{e^{-\ii(qX)}}{\sqrt{2\omega V}} \, \varepsilon^{(\lambda)}_\mu(q) \, ,
+\end{eqnarray}
+\noindent где  $q^\mu = (\omega, \vec{q})$ -- 4-вектор энергии-импульса и $\varepsilon^{(\lambda)}_\mu(q)$ -- вектор поляризации фотона. В замагниченной плазме с нулевым химическим потенциалом у фотона есть два возможных поляризационных состояния~\footnote{Подробный анализ дисперсионных свойств фотона в замагниченной среде можно найти в работе~\cite{Chistyakov:2009} и цитированных в ней статьях.}, которые определяются следующими векторами поляризации:
+%
+\begin{eqnarray}
+	\ee_\alpha^{(1)}(q) = \frac{(q \varphi)_\alpha}{\sqrt{q_{\mprp}^2}},
+	\qquad
+	\ee_\alpha^{(2)}(q) = \frac{(q \tilde \varphi)_\alpha}
+	{\sqrt{q_{\mprl}^2}} \, ,
+	\label{epsilon}
+\end{eqnarray}
+%
+\noindent где $\varphi_{\mu \nu} =  F_{\mu \nu} /B$ -- обезразмеренный тензор электромагнитного поля и ${\tilde \varphi}_{\mu \nu} = \frac{1}{2}\varepsilon_{\mu \nu \rho \sigma} \varphi_{\rho \sigma}$ -- тензор, дуальный к нему, а также введены обозначения $q_{\mprl}^2 = \omega^2 - q_z^2$ и $q_{\mprp}^2 = q_x^2 + q_y^2$.
+
+${\cal S}$-матричный элемент рассеяния фотона поляризации $\lambda$ на 
+электроне в поляризационном состоянии $s$, находящемся на уровне Ландау $\ell$, 
+с рождением электрона в поляризационном состоянии $s^{\, \prime}$ на уровне 
+Ландау $\ell'$ и фотона поляризации $\lambda'$ с учетом 
+лагранжиана~(\ref{eq:L}) может быть представлен в виде:  
+%
+\beq                          
+\nonumber
+{\cal S}^{s^{\, \prime} s}_{\gamma^{(\lambda)} e \to \gamma^{(\lambda')} e'} 
+&=& - e^2\int \dd^4 X \dd^4 Y A^{(\lambda)}_\mu (X) A^{*(\lambda')}_{\mu'} (Y)
+\times 
+\\[3mm]
+\nonumber
+&\times& 
+\, \left [\bar \Psi^{s'}_{p',\ell'}(Y) \gamma_{\mu'} 
+S (Y,X) 
+\gamma_\mu \Psi^{s}_{p,\ell}(X) \right ]\, +
+\\[3mm]
+\label{eq:S1a}
+&+& (A^{(\lambda)}_\mu, \gamma_\mu \leftrightarrow A^{*(\lambda')}_{\mu'}, \gamma_{\mu'})\, .
+\eeq
+
+Входящий в него пропагатор $S(Y, X)$ удобно рассматривать в виде разложения по уровням Ландау:
+\begin{equation}
+	S(Y, X) = \sum_{n=0}^{\infty}\sum_{s''=\pm 1} S_n^{s''} (Y, X)\, .
+\end{equation}
+
+Вклад в разложение пропагатора от уровня Ландау $n$ и поляризационного состояния $s''$ можно представить следующим образом:
+%
+\begin{eqnarray}
+	\label{eq:propagator}
+	S^{s''}_n (Y, X) && =  \int \frac{\dd p_0 \dd p_y \dd p_z}{(2\pi)^3} \times
+	\\[3mm]
+	\nonumber
+	&& \times \frac{\eee^{- \, \ii \,  p_0 \,(Y_0 - X_0) + 
+			\ii p_y \,(Y_2 - X_2) +  \ii \,  p_z \,(Y_3 - X_3)}}
+	{p_0^2 - p_z^2 - M_n^2 + \ii\, {\cal I}^{s''}_\Sigma (p)} \times
+	\\[3mm]
+	\nonumber
+	&& \times
+	\, \phi^{s''}_{p, n} (Y_1) \bar \phi^{s''}_{p, n} (X_1) \, ,
+\end{eqnarray}
+%
+\noindent где введено обозначение:
+%
+\begin{eqnarray}
+	\phi^{s''}_{p, n} (X_1) =   \frac{U^{s''}_{n} [\xi(X_1)]}
+	{\sqrt{2 M_n (E_{n} + M_n)(M_n + m)}} \, .
+	\label{eq:phi_psi}
+\end{eqnarray}
+
+${\cal I}^{s''}_\Sigma (p)$ в выражении~(\ref{eq:propagator}) является мнимой частью массового оператора электрона. Резонанс на виртуальном фермионе будет наблюдаться, когда в знаменателе пропагатора~(\ref{eq:propagator}) реальная часть обращается в ноль. Тогда виртуальная частица становится реальной, то есть приобретает определенный закон дисперсии. Анализ кинематики показывает, что это возможно только тогда, когда виртуальный фермион занимает один из высших уровней Ландау, $n > 0$. Частица при этом является нестабильной, и время ее жизни, в нерезонансной области предполагающееся бесконечно большим, определяется мнимой частью массового оператора,  ${\cal I}^{s''}_\Sigma (p)$, учет которой становится необходимым. Она может быть получена с помощью оптической теоремы и представлена в следующем виде~\cite{Weldon:1982, Zhukovski:1994}:
+%
+\begin{eqnarray}
+	{\cal I}^{s''}_\Sigma (p) = - \frac{1}{2}\, p_0 \; \Gamma_n^{s''} \, ,
+	\label{eq:I_Sigma}
+\end{eqnarray}
+\noindent где $\Gamma_n^{s''}$ -- полная ширина изменения состояния электрона
+за счет процесса рассеяния фотона на электроне, 
+которую можно выразить через ширину поглощения электрона в процессе $e_n \to \gamma^{(\lambda')
+	e_{\ell'} }$~\cite{Weldon:1983}:
+\begin{eqnarray}
+	\label{Gns}
+	\Gamma_n^{s''} \simeq 
+	\Gamma^{(abs) \, s''}_{e_n  \to \gamma^{(\lambda') e_{\ell'}}} 
+	\left [1+ \eee^{-E_n''/T} \right ]\, ,
+\end{eqnarray}
+%
+\beq
+\label{eq:e_abs}
+&&\Gamma^{(abs) \, s''}_{e_n \to \gamma^{(\lambda')} e_{\ell'}}  = \sum\limits_{\ell' = 
+	0}^{n-1} \;  \sum\limits_{s' = \pm 1} \; \sum\limits_{\lambda' = 1, 2} \; 
+\int \frac{\dd p'_y \dd p'_z  L_y L_z }{(2\pi)^2} \, \times 
+\\
+\nonumber
+&&\times [1 - f_{e}(E^{\, 
+	\prime}_{\ell'})] \frac{\dd^3 q' V}{(2\pi)^3} \, (1 + f_\gamma(\omega')) \;
+\frac{|{\cal S}^{s^{\,\prime} s''}_{ e_n \to \gamma^{(\lambda')} 
+		e_{\ell'}}|^2}{\tau}\, ,
+\eeq 
+где $f_{e}(E^{\, 	\prime}_{\ell'})=(1+\exp [E^{\, \prime}_{\ell'}/T])^{-1}$ -- равновесная функция распределения электронов с 
+температурой $T$ и нулевым химическим потенциалом, $f_\gamma(\omega')=(\exp 
+[\omega'/T]-1)^{-1}$ -- равновесная функция распределения фотонов, $\tau$ -- 
+время взаимодействия.
+
+Квадрат модуля\linebreak ${\cal S}$-матричного элемента, который определяет вероятность процесса и необходим при расчетах вычисляемых величин, таких как коэффициент поглощения фотона или сечение рассеяния фотона на электроне, может быть представлено в следующем виде:
+%
+\begin{eqnarray}
+	\label{S_squared}
+	&&\sum\limits_{s, s' = \pm 1} 
+	\frac{|{\cal S}^{s^{\,\prime} s}_{{\gamma^{(\lambda)} e_\ell \to \gamma^{(\lambda')} e_{\ell'}}}|^2}{\tau} =
+	\\
+	\nonumber
+	&& = \sum\limits_{s, s', s'' = \pm 1} \, e^4
+	\frac{(2\pi)^3 \delta^{(3)}_{0,y,z} (p+q - p^{\, \prime} - q^{\, \prime})}
+	{2\omega L_x 2\omega^{\, \prime} V 2 E_\ell L_y L_z 2 E^{\, \prime}_{\ell^{\, \prime}} L_y L_z} \times
+	\\
+	\nonumber
+	&&\times
+	\left| \sum\limits_{n=0}^{\infty}
+	\int \dd X_1 \dd Y_1 \ee_\mu^{(\lambda)} (q) \, \ee_{\mu'}^{*(\lambda')} (q') \eee^{\ii(Y_1 q'_x - X_1 q_x)}
+	\right.
+	\times
+	\\
+	\nonumber
+	&&\times \frac{\phi_{p', \ell'}^{s'} (Y_1) \gamma_{\mu'} \phi^{s''}_{p+q, n} (Y_1) \bar \phi^{s''}_{p+q, n} (X_1)
+		\gamma_{\mu} \phi_{p, \ell}^{s} (X_1)}
+	{(p+q)^2_{\mprl}-M_n^2-\ii E_n''\Gamma^{s''}_n/2} +
+	\\
+	\nonumber
+	&&+ (q, \lambda, \gamma_\mu \leftrightarrow -q', \lambda',  \gamma_{\mu'})\, \Big|^2 ,
+\end{eqnarray}
+%
+где $E_n''=E_\ell+\omega$ -- энергия виртуального электрона и $(p+q)^2_{\mprl} = 
+(E_\ell + \omega)^2 - (p_z + q_z)^2$.
+
+Для астрофизических приложений полученных результатов удобно 
+использовать коэффициент поглощения фотона -- вероятность перехода фотона в 
+другое состояние за счет тех или иных процессов, который можно представить в виде:
+\begin{eqnarray}
+	\label{eq:photon_abs}
+	&&W_{\gamma^{(\lambda)} e_\ell \to \gamma^{(\lambda')} e_{\ell'}} = 
+	\\[3mm]
+	\nonumber
+	&&=\sum\limits_{\ell, \ell' = 0}^{\infty} \; 
+	\int  \frac{\dd p_y \dd p_z L_y L_z}{(2\pi)^2} \, f_e (E_{\ell}) \, 
+	\dd W_{\gamma^{(\lambda)} e_\ell \to \gamma^{(\lambda')} e_{\ell'}} \, ,
+\end{eqnarray}	
+\begin{eqnarray}
+	\label{dW}
+	&&\dd W_{\gamma^{(\lambda)} e_\ell \to \gamma^{(\lambda')} e_{\ell'}} =  
+	\frac{\dd p'_y \dd p'_z L_y L_z }{(2\pi)^2} [1 - f_e (E_{\ell'})]
+	\times
+	\\
+	\nonumber
+	&&\times  \frac{\dd^3 q' V}{(2\pi)^3}  [1 + f_{\gamma} ({\omega'})] 
+	\sum\limits_{s, s'=\pm 1} 
+	\frac{|{\cal S}^{s^{\,\prime} s}_{{\gamma^{(\lambda)} e_\ell \to 
+				\gamma^{(\lambda')} e_{\ell'}}}|^2}{\tau} 
+	\, .
+\end{eqnarray}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Решение кинетического уравнения вблизи резонанса}
@@ -110,86 +338,86 @@
 \end{aligned}
 \end{equation}
 
-Здесь $\xi= m z$, $x = \cos \theta$, $x' = \cos \theta'$ ($\theta$ и $\theta'$ -- углы между направлениями импульсов начального и конечного фотона и направлением магнитного поля соответственно),   $f^{(\lambda)}_\omega(\xi, x)$ и $f^{(\lambda')}_{\omega'}(\xi, x')$ -- подлежащие определению неравновесные функции распределения начального и конечного фотонов с энергиями $\omega$ и $ \omega'$ соответственно,  $f_E = 1/[\exp(E/T)+1]$ и $f_{E'} = 1/[\exp(E'/T)+1]$ --  равновесные функции распределения начального и конечного электронов с нулевым химическим потенциалом и энергиями начального и конечного электронов $E=\sqrt{p_z^2+M_\ell^2}$ и $E'=\sqrt{p_z^{\prime2}+M_{\ell \prime}^{ 2}}$ c соответствующими уровнями Ландау $\ell$ и $\ell'$, $dW_{\lambda \to \lambda'}$ -- коэффициент поглощения фотона~\cite{Rumyantsev:2017}:
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\beq
-\label{eq:wabs1} 
-&&W_{\gamma^{(1)} e \to \gamma e} = \frac{\alpha \beta}{2 \omega} 
-\sum \limits^{\infty}_{\ell=0}  \sum \limits^{\infty}_{n=n_{0}} \sum \limits_{\epsilon = \pm 1} 
+Здесь $\xi= m z$, $x = \cos \theta$, $x' = \cos \theta'$ ($\theta$ и $\theta'$ -- углы между направлениями импульсов начального и конечного фотона и направлением магнитного поля соответственно),   $f^{(\lambda)}_\omega(\xi, x)$ и $f^{(\lambda')}_{\omega'}(\xi, x')$ -- подлежащие определению неравновесные функции распределения начального и конечного фотонов с энергиями $\omega$ и $ \omega'$ соответственно,  $f_E = 1/[\exp(E/T)+1]$ и $f_{E'} = 1/[\exp(E'/T)+1]$ --  равновесные функции распределения начального и конечного электронов с нулевым химическим потенциалом и энергиями начального и конечного электронов $E=\sqrt{p_z^2+M_\ell^2}$ и $E'=\sqrt{p_z^{\prime2}+M_{\ell \prime}^{ 2}}$ c соответствующими уровнями Ландау $\ell$ и $\ell'$, $dW_{\lambda \to \lambda'}$ -- дифференциальный коэффициент поглощения фотона~(\ref{dW}).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\beq
+%\label{eq:wabs1} 
+%&&W_{\gamma^{(1)} e \to \gamma e} = \frac{\alpha \beta}{2 \omega} 
+%\sum \limits^{\infty}_{\ell=0}  \sum \limits^{\infty}_{n=n_{0}} \sum \limits_{\epsilon = \pm 1} 
+%%\times 
+%%\\
+%%\nonumber
+%%&&\times 
+%\frac{f_{e}(E^{\epsilon}_{\ell}) [1 - f_{e}(E^{\epsilon}_{\ell} + 
+%\omega)]}{\sqrt{(M_n^2-M_{\ell}^2-q^{2}_{\mprl})^2-4 q^{2}_{\mprl}M_{\ell}^2}}
 %\times 
 %\\
 %\nonumber
 %&&\times 
-\frac{f_{e}(E^{\epsilon}_{\ell}) [1 - f_{e}(E^{\epsilon}_{\ell} + 
-\omega)]}{\sqrt{(M_n^2-M_{\ell}^2-q^{2}_{\mprl})^2-4 q^{2}_{\mprl}M_{\ell}^2}}
-\times 
-\\
-\nonumber
-&&\times 
-\bigg \{ [2 \beta (n+\ell) - q^{2}_{\mprl}] (I^2_{n,\ell-1}+I^2_{n-1,\ell}) - 
-%\\
-%\nonumber
-%&& -
-8 \beta \sqrt{\ell n} I_{n,\ell-1} I_{n-1,\ell} \bigg \}   \, ,
-\eeq
-%
-\beq
-\label{eq:wabs2} 
-&&W_{\gamma^{(2)} e \to \gamma e} = \frac{\alpha \beta}{2 \omega} 
-\sum \limits^{\infty}_{\ell=0}  \sum \limits^{\infty}_{n=n_{0}} \sum \limits_{\epsilon = \pm 1} 
+%\bigg \{ [2 \beta (n+\ell) - q^{2}_{\mprl}] (I^2_{n,\ell-1}+I^2_{n-1,\ell}) - 
+%%\\
+%%\nonumber
+%%&& -
+%8 \beta \sqrt{\ell n} I_{n,\ell-1} I_{n-1,\ell} \bigg \}   \, ,
+%\eeq
+%%
+%\beq
+%\label{eq:wabs2} 
+%&&W_{\gamma^{(2)} e \to \gamma e} = \frac{\alpha \beta}{2 \omega} 
+%\sum \limits^{\infty}_{\ell=0}  \sum \limits^{\infty}_{n=n_{0}} \sum \limits_{\epsilon = \pm 1} 
+%%\times 
+%%\\
+%%\nonumber
+%%&&\times 
+%\frac{f_{e}(E^{\epsilon}_{\ell}) [1 - f_{e}(E^{\epsilon}_{\ell} + 
+%\omega)]}{\sqrt{(M_n^2-M_{\ell}^2-q^{2}_{\mprl})^2-4 q^{2}_{\mprl}M_{\ell}^2}}
 %\times 
 %\\
 %\nonumber
 %&&\times 
-\frac{f_{e}(E^{\epsilon}_{\ell}) [1 - f_{e}(E^{\epsilon}_{\ell} + 
-\omega)]}{\sqrt{(M_n^2-M_{\ell}^2-q^{2}_{\mprl})^2-4 q^{2}_{\mprl}M_{\ell}^2}}
-\times 
-\\
-\nonumber
-&&\times 
-\bigg \{ \left [\frac{(2\beta (n-\ell))^2}{q^{2}_{\mprl}} - 2 \beta (n+\ell) - 
-4 m^2 \right ] 
-%\times 
+%\bigg \{ \left [\frac{(2\beta (n-\ell))^2}{q^{2}_{\mprl}} - 2 \beta (n+\ell) - 
+%4 m^2 \right ] 
+%%\times 
+%%\\
+%%\nonumber
+%%&& \times 
+%(I^2_{n,\ell}+I^2_{n-1,\ell-1}) %-
+%%\\
+%%\nonumber
+%%&&
+%-8 \beta \sqrt{\ell n} I_{n,\ell} I_{n-1,\ell-1} \bigg \}   \, ,
+%\eeq
+%где
+%\beq
+%\nonumber
+%&&E^{\epsilon}_{\ell} = \frac{1}{2 q^2_{\mprl}} \, \bigg [\omega \left (M^2_n - M^2_{\ell} - q^2_{\mprl} \right ) + 
 %\\
 %\nonumber
-%&& \times 
-(I^2_{n,\ell}+I^2_{n-1,\ell-1}) %-
-%\\
-%\nonumber
-%&&
--8 \beta \sqrt{\ell n} I_{n,\ell} I_{n-1,\ell-1} \bigg \}   \, ,
-\eeq
-где
-\beq
-\nonumber
-&&E^{\epsilon}_{\ell} = \frac{1}{2 q^2_{\mprl}} \, \bigg [\omega \left (M^2_n - M^2_{\ell} - q^2_{\mprl} \right ) + 
-\\
-\nonumber
-&&+\epsilon q_z 
-\sqrt{\left (M^2_n - M^2_{\ell} - q^2_{\mprl} \right )^2 - 4 q^2_{\mprl} M^2_{\ell}} \, \bigg ] \, ,
-\eeq
+%&&+\epsilon q_z 
+%\sqrt{\left (M^2_n - M^2_{\ell} - q^2_{\mprl} \right )^2 - 4 q^2_{\mprl} M^2_{\ell}} \, \bigg ] \, ,
+%\eeq
+%%
+%\noindent а также введена функция $I_{n, \ell}\equiv I_{n, \ell} \left(\frac{q_\perp^2}{2\beta}\right)$, которая для 
+%$n \geqslant \ell$ имеет следующий вид:
+%%
+%\begin{eqnarray}
+%	\nonumber
+%	&&I_{n, \ell} (x) = \sqrt{\frac{\ell !}{n !}} \; \eee^{-x/2} x^{(n-\ell)/2} L_\ell^{n-\ell} (x) \, ,
+%	\\
+%	&&I_{\ell, n} (x) = (-1)^{n-\ell} I_{n, \ell} (x) \, ,
+%	\label{eq:Inl}
+%\end{eqnarray}
+%\noindent где $L^k_n (x)$ -- обобщенные полиномы Лагерра~\cite{Gradstein:1963}. 
+%Отметим, что функция~(\ref{eq:Inl}) соответствуют функциям ${\Lambda}_{\ell, n} (x)$ в 
+%работах~\cite{Harding:1986,Gonthier:2014}.
 %
-\noindent а также введена функция $I_{n, \ell}\equiv I_{n, \ell} \left(\frac{q_\perp^2}{2\beta}\right)$, которая для 
-$n \geqslant \ell$ имеет следующий вид:
-%
-\begin{eqnarray}
-	\nonumber
-	&&I_{n, \ell} (x) = \sqrt{\frac{\ell !}{n !}} \; \eee^{-x/2} x^{(n-\ell)/2} L_\ell^{n-\ell} (x) \, ,
-	\\
-	&&I_{\ell, n} (x) = (-1)^{n-\ell} I_{n, \ell} (x) \, ,
-	\label{eq:Inl}
-\end{eqnarray}
-\noindent где $L^k_n (x)$ -- обобщенные полиномы Лагерра~\cite{Gradstein:1963}. 
-Отметим, что функция~(\ref{eq:Inl}) соответствуют функциям ${\Lambda}_{\ell, n} (x)$ в 
-работах~\cite{Harding:1986,Gonthier:2014}.
-
- В~(\ref{eq:wabs1}) и~(\ref{eq:wabs2}) 
-суммирование по $n$ ограничено согласно закону сохранения энергии и импульса следующим образом:  
-%
-\beq
-n_0 = \ell + \left [\frac{q^2_{\mprl} + 2 M_\ell \sqrt{q^2_{\mprl}}}{2 \beta} \right ] \, , 
-\eeq
-\noindent где $[x]$ -- целая часть числа $x$.
+% В~(\ref{eq:wabs1}) и~(\ref{eq:wabs2}) 
+%суммирование по $n$ ограничено согласно закону сохранения энергии и импульса следующим образом:  
+%%
+%\beq
+%n_0 = \ell + \left [\frac{q^2_{\mprl} + 2 M_\ell \sqrt{q^2_{\mprl}}}{2 \beta} \right ] \, , 
+%\eeq
+%\noindent где $[x]$ -- целая часть числа $x$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -224,13 +452,13 @@ n_0 = \ell + \left [\frac{q^2_{\mprl} + 2 M_\ell \sqrt{q^2_{\mprl}}}{2 \beta} \r
 		\,  ,
 	\end{aligned}
 \end{equation}
-где
+где функции $\varphi^{\lambda \lambda'}_\omega(x,x')$ с учетом того, что в случае узкого резонансного пика амплитуда комптоновского процесса факторизуется амплитудами одновершинных процессов, могут быть представлены следующим образом:
 \begin{equation}
 	\varphi^{\lambda \lambda'}_\omega(x,x') = 
 	\frac{n_e \omega'}{32 \pi m \omega} \sum_{s''=\pm 1} \int\limits_{0}^{2\pi}\frac{\dd\varphi'}{2\pi} \frac{\left|{\cal M}^{s''}_{e_1\to e_0 \gamma^{(\lambda ')}}\right|^2\left|{\cal M}^{s''}_{ e_0 \gamma^{(\lambda)}\to e_1}\right|^2}
-	{(\omega^2 (1-x^2)+ 2\omega m - 2\beta)^2 + (\Gamma_1^{s''} E_n''/2)^2}
+	{(\omega^2 (1-x^2)+ 2\omega m - 2\beta)^2 + (\Gamma_1^{s''} E_n''/2)^2}\, ,
 \end{equation}
-где амплитуда поглощения фотона может быть представлена в виде~\cite{Rumyantsev:2017}:
+амплитуды одновершинных процессов могут быть представлены в виде~\cite{Rumyantsev:2017}:
 %
 \begin{eqnarray}
 	\label{eq:amplonever} 
@@ -239,9 +467,11 @@ n_0 = \ell + \left [\frac{q^2_{\mprl} + 2 M_\ell \sqrt{q^2_{\mprl}}}{2 \beta} \r
 	\times
 	\nonumber\\[3mm]
 	&&\times 
-	\left [ \frac{q_y+\ii q_x}{\sqrt{q_{\mprp}^2}} \right ]^{n-\ell} {\cal T}^{s'' s}_\lambda \, .
+	\left [ \frac{q_y+\ii q_x}{\sqrt{q_{\mprp}^2}} \right ]^{n-\ell} {\cal T}^{s'' s}_\lambda \, ,
 \end{eqnarray}
-
+\begin{equation}
+	{\cal M}^{s' s''}_{e_n \to \gamma^{(\lambda')} e_{\ell'}} = {\cal M}^{s'' s}_{\gamma^{(\lambda)} e_\ell \to e_n}(q \to q', E_\ell \to E_\ell', \lambda \to \lambda')
+\end{equation}
 Величины ${\cal T}^{s'' s}_\lambda$, входящие в выражение~(\ref{eq:amplonever}), приводятся в Приложении 1.
 
 Из закона сохранения энергии и $z$-компоненты импульса в реакции  $\gamma e \to \gamma e$  найдем:
