@@ -98,7 +98,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Решение кинетического уравнения вблизи резонанса}
 
-Следуя работе~\cite{YarkovPhotFE:2023} рассмотрим  достаточно узкую цилиндрическую колонку с осью, направленной вдоль магнитного поля (магнитное поле $B\lesssim B_e$ направлено вдоль оси~$z$), содержащую равновесную электронную плазму при температуре $T\ll m$. В точке $z=0$ этой колонки поддерживается стационарный поток фотонов с некоторой функцией распределения $f_{0\omega}^{(\lambda)}(x)$, где $\lambda=1,2$ -- поляризационные состояния фотонов. Для упрощения задачи предположим, что магнитное поле внутри колонки постоянно и однородно, а температура не зависит от координат и времени. В этом случае изменением функции распределения в направлении, поперечном к направлению магнитного поля можно пренебречь.
+Следуя работе~\cite{YarkovPhotFE:2023}, рассмотрим  достаточно узкую цилиндрическую колонку с осью, направленной вдоль магнитного поля (магнитное поле $B\lesssim B_e$ направлено вдоль оси~$z$), содержащую равновесную электронную плазму при температуре $T\ll m$. В точке $z=0$ этой колонки поддерживается стационарный поток фотонов с некоторой функцией распределения $f_{0\omega}^{(\lambda)}(x)$, где $\lambda=1,2$ -- поляризационные состояния фотонов в сильно замагниченной плазме~\footnote{Подробный анализ дисперсионных свойств фотона в замагниченной среде можно найти в работе~\cite{Chistyakov:2009} и цитированных в ней статьях.}. Для упрощения задачи предположим, что магнитное поле внутри колонки постоянно и однородно, а температура не зависит от координат и времени. В этом случае изменением функции распределения в направлении, поперечном к направлению магнитного поля можно пренебречь.
 
 В силу нерелятивистского характера движения электронов в системе покоя плазмы, кинетическое уравнение Больцмана с учетом только парциальных процессов рассеяния фотонов на электронах можно записать в виде:
 \begin{equation} 
@@ -110,87 +110,103 @@
 \end{aligned}
 \end{equation}
 
-Здесь $\xi= m z$, $x = \cos \theta$, $x' = \cos \theta'$ ($\theta$ и $\theta'$ -- углы между направлениями импульсов начального и конечного фотона и направлением магнитного поля соответственно),   $f^{(\lambda)}_\omega(\xi, x)$ и $f^{(\lambda')}_{\omega'}(\xi, x')$ -- подлежащие определению неравновесные функции распределения начального и конечного фотонов с энергиями $\omega$ и $ \omega'$ соответственно,  $f_E = 1/[\exp(E/T)+1]$ и $f_{E'} = 1/[\exp(E'/T)+1]$ --  равновесные функции распределения начального и конечного электронов с нулевым химическим потенциалом и энергиями начального и конечного электронов $E=\sqrt{p_z^2+M_\ell^2}$ и $E'=\sqrt{p_z^{\prime2}+M_{\ell \prime}^{ 2}}$ c соответствующими уровнями Ландау $\ell$ и $\ell'$, $dW_{\lambda \to \lambda'}$ -- коэффициент поглощения фотона~\cite{Rumyantsev:2017}:
+Здесь $\xi= m z$, $x = \cos \theta$, $x' = \cos \theta'$ ($\theta$ и $\theta'$ -- углы между направлениями импульсов начального и конечного фотона и направлением магнитного поля соответственно),   $f^{(\lambda)}_\omega(\xi, x)$ и $f^{(\lambda')}_{\omega'}(\xi, x')$ -- подлежащие определению неравновесные функции распределения начального и конечного фотонов с энергиями $\omega$ и $ \omega'$ соответственно,  $f_E = 1/[\exp(E/T)+1]$ и $f_{E'} = 1/[\exp(E'/T)+1]$ --  равновесные функции распределения начального и конечного электронов с нулевым химическим потенциалом и энергиями начального и конечного электронов $E=\sqrt{p_z^2+M_\ell^2}$ и $E'=\sqrt{p_z^{\prime2}+M_{\ell'}^{ 2}}$ c соответствующими уровнями Ландау $\ell$ и $\ell'$, где $M_\ell = \sqrt{m^2 + 2eBn}$ -- эффективная масса электрона, $dW_{\lambda \to \lambda'}$ -- коэффициент поглощения фотона, выраженный через квадрат ${\cal S}$-матричного элемента комптоновского рассеяния:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\beq
-\label{eq:wabs1} 
-&&W_{\gamma^{(1)} e \to \gamma e} = \frac{\alpha \beta}{2 \omega} 
-\sum \limits^{\infty}_{\ell=0}  \sum \limits^{\infty}_{n=n_{0}} \sum \limits_{\epsilon = \pm 1} 
-%\times 
-%\\
-%\nonumber
-%&&\times 
-\frac{f_{e}(E^{\epsilon}_{\ell}) [1 - f_{e}(E^{\epsilon}_{\ell} + 
-\omega)]}{\sqrt{(M_n^2-M_{\ell}^2-q^{2}_{\mprl})^2-4 q^{2}_{\mprl}M_{\ell}^2}}
-\times 
-\\
-\nonumber
-&&\times 
-\bigg \{ [2 \beta (n+\ell) - q^{2}_{\mprl}] (I^2_{n,\ell-1}+I^2_{n-1,\ell}) - 
-%\\
-%\nonumber
-%&& -
-8 \beta \sqrt{\ell n} I_{n,\ell-1} I_{n-1,\ell} \bigg \}   \, ,
-\eeq
+\begin{eqnarray}
+	\label{dW}
+	&&\dd W_{\lambda \to \lambda'} =  
+	\frac{\dd p'_y \dd p'_z L_y L_z }{(2\pi)^2} [1 - f_e (E_{\ell'})]
+	 %\times
+	%\\
+	%\nonumber
+	%&&\times  
+	\frac{\dd^3 q' V}{(2\pi)^3}  [1 + f_{\gamma} ({\omega'})] 
+	\sum\limits_{s, s'=\pm 1} 
+	\frac{|{\cal S}^{s^{\,\prime} s}_{{\gamma^{(\lambda)} e_\ell \to 
+	\gamma^{(\lambda')} e_{\ell'}}}|^2}{\tau} 
+	\, .
+\end{eqnarray}
+%
+Здесь $\Gamma_n^{s''}$ -- полная ширина изменения состояния электрона за счет процесса рассеяния фотона на электроне, 
+которую можно выразить через ширину поглощения электрона в процессе $e_n \to \gamma^{(\lambda')
+e_{\ell'} }$~\cite{Weldon:1983}:
+\begin{eqnarray}
+	\label{Gns}
+	\Gamma_n^{s''} \simeq 
+	\Gamma^{(abs) \, s''}_{e_n  \to \gamma^{(\lambda') e_{\ell'}}} 
+	\left [1+ \eee^{-E_n''/T} \right ]\, ,
+\end{eqnarray}
 %
 \beq
-\label{eq:wabs2} 
-&&W_{\gamma^{(2)} e \to \gamma e} = \frac{\alpha \beta}{2 \omega} 
-\sum \limits^{\infty}_{\ell=0}  \sum \limits^{\infty}_{n=n_{0}} \sum \limits_{\epsilon = \pm 1} 
-%\times 
-%\\
-%\nonumber
-%&&\times 
-\frac{f_{e}(E^{\epsilon}_{\ell}) [1 - f_{e}(E^{\epsilon}_{\ell} + 
-\omega)]}{\sqrt{(M_n^2-M_{\ell}^2-q^{2}_{\mprl})^2-4 q^{2}_{\mprl}M_{\ell}^2}}
-\times 
+\label{eq:e_abs}
+&&\Gamma^{(abs) \, s''}_{e_n \to \gamma^{(\lambda')} e_{\ell'}}  = \sum\limits_{\ell' = 
+	0}^{n-1} \;  \sum\limits_{s' = \pm 1} \; \sum\limits_{\lambda' = 1, 2} \; 
+\int \frac{\dd p'_y \dd p'_z  L_y L_z }{(2\pi)^2} \, \times 
 \\
 \nonumber
-&&\times 
-\bigg \{ \left [\frac{(2\beta (n-\ell))^2}{q^{2}_{\mprl}} - 2 \beta (n+\ell) - 
-4 m^2 \right ] 
-%\times 
-%\\
-%\nonumber
-%&& \times 
-(I^2_{n,\ell}+I^2_{n-1,\ell-1}) %-
-%\\
-%\nonumber
-%&&
--8 \beta \sqrt{\ell n} I_{n,\ell} I_{n-1,\ell-1} \bigg \}   \, ,
-\eeq
-где
+&&\times [1 - f_{e}(E^{\, 
+	\prime}_{\ell'})] \frac{\dd^3 q' V}{(2\pi)^3} \, (1 + f_\gamma(\omega')) \;
+\frac{|{\cal S}^{s^{\,\prime} s''}_{ e_n \to \gamma^{(\lambda')} 
+e_{\ell'}}|^2}{\tau}\, ,
+\eeq 
+%
+где $\tau$ -- время взаимодействия.
+
+В приближении узкого резонансного пика квадрат ${\cal S}$-матричного элемента факторизуется квадратами ${\cal S}$-матричных элементов подпроцессов: ${\cal S}^{s^{\,\prime \prime} s}_{\gamma^{(\lambda)} e_\ell \to e_n}$ для поглощения фотона, $e\gamma \to e$, и ${\cal S}_{e_n \to \gamma^{(\lambda')} e_{\ell'}}$ -- для рождения фотона, $e \to e\gamma$~\cite{Rumyantsev:2026}:
+%
 \beq
-\nonumber
-&&E^{\epsilon}_{\ell} = \frac{1}{2 q^2_{\mprl}} \, \bigg [\omega \left (M^2_n - M^2_{\ell} - q^2_{\mprl} \right ) + 
-\\
-\nonumber
-&&+\epsilon q_z 
-\sqrt{\left (M^2_n - M^2_{\ell} - q^2_{\mprl} \right )^2 - 4 q^2_{\mprl} M^2_{\ell}} \, \bigg ] \, ,
+\label{eq:S2factor1}
+&&\sum\limits_{s, s' = \pm 1} 
+\frac{|{\cal S}^{s^{\,\prime} s}_{{\gamma^{(\lambda)} e_\ell \to \gamma^{(\lambda')} e_{\ell'}}}|^2}{\tau} = 
+%\\
+%\nonumber
+%&& =
+\sum\limits_{s, s', s'' = \pm 1} 
+\sum\limits_{n=0}^{\infty} \;  \int \frac{\dd p^{\, \prime \prime}_y 
+\dd p^{\, \prime \prime}_z}{(2 \pi)^2 \; \Gamma_n^{s''}} 
+%\times
+%\\
+%\nonumber
+%&&\times
+\frac{|{\cal S}^{s^{\,\prime \prime} s}_{\gamma^{(\lambda)} e_\ell \to e_n}|^2}{\tau} \, 
+\frac{|{\cal S}^{s^{\,\prime} s''}_{ e_n \to \gamma^{(\lambda')} e_{\ell'}}|^2}{\tau} \, .
 \eeq
 %
-\noindent а также введена функция $I_{n, \ell}\equiv I_{n, \ell} \left(\frac{q_\perp^2}{2\beta}\right)$, которая для 
-$n \geqslant \ell$ имеет следующий вид:
+${\cal S}$-матричный элемент поглощения фотона выражается через амплитуду процесса, ${\cal M}^{s'' s}_{\gamma^{(\lambda)} e_\ell \to e_n}$, следующим образом:
+\beq
+%\nonumber
+\label{eq:Sjf}                                  
+{\cal S}^{s^{\,\prime \prime} s}_{\gamma^{(\lambda)} e_\ell \to e_n} = 
+\frac{\ii (2\pi)^3 
+	\delta^{(3)}_{0,y,z} (p+q - p^{\, \prime \prime})}
+{\sqrt{2q_0 V 2 E_{\ell} L_y L_z 2 E^{''}_{n} L_y L_z}}\, 
+{\cal M}^{s'' s}_{\gamma^{(\lambda)} e_\ell \to e_n} .
+\eeq
+%
+\noindent Амплитуда поглощения фотона принимает вид~\cite{Rumyantsev:2017}:
 %
 \begin{eqnarray}
-	\nonumber
-	&&I_{n, \ell} (x) = \sqrt{\frac{\ell !}{n !}} \; \eee^{-x/2} x^{(n-\ell)/2} L_\ell^{n-\ell} (x) \, ,
-	\\
-	&&I_{\ell, n} (x) = (-1)^{n-\ell} I_{n, \ell} (x) \, ,
-	\label{eq:Inl}
-\end{eqnarray}
-\noindent где $L^k_n (x)$ -- обобщенные полиномы Лагерра~\cite{Gradstein:1963}. 
-Отметим, что функция~(\ref{eq:Inl}) соответствуют функциям ${\Lambda}_{\ell, n} (x)$ в 
-работах~\cite{Harding:1986,Gonthier:2014}.
+\label{eq:amplonever} 
+&&{\cal M}^{s'' s}_{\gamma^{(\lambda)} e_\ell \to e_n} =  \frac{\exp{[-\ii q_x (p_y + p_y^{\,\prime \prime})/(2\beta)]}}{\sqrt{M_{\ell} M_n (M_{\ell} + m) 
+(M_n + m)}} 
+%\times
+%\nonumber\\[3mm]
+%&&\times 
+\left [ \frac{q_y+\ii q_x}{\sqrt{q_{\mprp}^2}} \right ]^{n-\ell} {\cal T}^{s'' s}_\lambda \, ,
+\end{eqnarray} 
+%
+где введено обозначение $\beta = eB$. Величины ${\cal T}^{s'' s}_\lambda$, входящие в выражение~(\ref{eq:amplonever}), приводятся в Приложении 1.
 
- В~(\ref{eq:wabs1}) и~(\ref{eq:wabs2}) 
-суммирование по $n$ ограничено согласно закону сохранения энергии и импульса следующим образом:  
+${\cal S}$-матричный элемент рождения фотона может быть получен 
+из~(\ref{eq:Sjf}) путем следующих замен:
 %
 \beq
-n_0 = \ell + \left [\frac{q^2_{\mprl} + 2 M_\ell \sqrt{q^2_{\mprl}}}{2 \beta} \right ] \, , 
+&&{\cal S}_{e_n \to \gamma^{(\lambda')} e_{\ell'}}=
+%\\[3mm]
+%\nonumber
+%&&=
+{\cal S}_{\gamma^{(\lambda)} e_\ell \to e_n}(q\to q', E_\ell \to E'_{\ell'}, \lambda \to \lambda') \, .
 \eeq
-\noindent где $[x]$ -- целая часть числа $x$.
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Несмотря на то, что напряженность магнитного поля в данной задаче меньше критического значения $B\lesssim B_e$, начальный и конечный электроны преимущественно будут занимать основной уровень Ландау. Действительно, для параметров среды $B=10^{12}$ Гс и $T=5$ кэВ вклад высших уровней  по отношению к основному:
@@ -228,21 +244,8 @@ n_0 = \ell + \left [\frac{q^2_{\mprl} + 2 M_\ell \sqrt{q^2_{\mprl}}}{2 \beta} \r
 \begin{equation}
 	\varphi^{\lambda \lambda'}_\omega(x,x') = 
 	\frac{n_e \omega'}{32 \pi m \omega} \sum_{s''=\pm 1} \int\limits_{0}^{2\pi}\frac{\dd\varphi'}{2\pi} \frac{\left|{\cal M}^{s''}_{e_1\to e_0 \gamma^{(\lambda ')}}\right|^2\left|{\cal M}^{s''}_{ e_0 \gamma^{(\lambda)}\to e_1}\right|^2}
-	{(\omega^2 (1-x^2)+ 2\omega m - 2\beta)^2 + (\Gamma_1^{s''} E_n''/2)^2}
+	{(\omega^2 (1-x^2)+ 2\omega m - 2\beta)^2 + (\Gamma_1^{s''} E_n''/2)^2}\, .
 \end{equation}
-где амплитуда поглощения фотона может быть представлена в виде~\cite{Rumyantsev:2017}:
-%
-\begin{eqnarray}
-	\label{eq:amplonever} 
-	&&{\cal M}^{s'' s}_{\gamma^{(\lambda)} e_\ell \to e_n} =  \frac{\exp{[-\ii q_x (p_y + p_y^{\,\prime \prime})/(2\beta)]}}{\sqrt{M_{\ell} M_n (M_{\ell} + m) 
-			(M_n + m)}} 
-	\times
-	\nonumber\\[3mm]
-	&&\times 
-	\left [ \frac{q_y+\ii q_x}{\sqrt{q_{\mprp}^2}} \right ]^{n-\ell} {\cal T}^{s'' s}_\lambda \, .
-\end{eqnarray}
-
-Величины ${\cal T}^{s'' s}_\lambda$, входящие в выражение~(\ref{eq:amplonever}), приводятся в Приложении 1.
 
 Из закона сохранения энергии и $z$-компоненты импульса в реакции  $\gamma e \to \gamma e$  найдем:
 \begin{equation}
@@ -679,21 +682,21 @@ f_\omega^{(\lambda)}(z, x) = \frac{1}{2\pi i}\sum_{\ell=0}^{\infty}
 %
 \begin{eqnarray}
 	\label{eq:K1}
-	&&{\cal K}_{1}^{(\lambda)} = \sqrt{\frac{2}{(p\tilde \varphi\tilde \varphi p^{\, \prime \prime}) + 
-			M_\ell M_{n}}} \times 
-	\\
-	\nonumber 
-	&&\times \left \{M_\ell (\varepsilon^{(\lambda)}\tilde \varphi\tilde \varphi p^{\, \prime \prime}) + 
+	&&{\cal K}_{1}^{(\lambda)} = \sqrt{\frac{2}{(p\tilde \varphi\tilde \varphi p^{\, \prime \prime}) + M_\ell M_{n}}} 
+	%\times 
+	%\\
+	%\nonumber 
+	%&&\times 
+	\left \{M_\ell (\varepsilon^{(\lambda)}\tilde \varphi\tilde \varphi p^{\, \prime \prime}) + 
 	M_{n} (\varepsilon^{(\lambda)}\tilde \varphi\tilde \varphi p)  \right \}\, ,
 \end{eqnarray}
 %
 \begin{eqnarray}
-	&&{\cal K}_{2}^{(\lambda)} = \sqrt{\frac{2}{(p\tilde \varphi\tilde \varphi p^{\, \prime \prime}) + 
-			M_\ell M_{n}}} 
-	\times
-	\\
-	\nonumber
-	&&\times
+	&&{\cal K}_{2}^{(\lambda)} = \sqrt{\frac{2}{(p\tilde \varphi\tilde \varphi p^{\, \prime \prime}) + M_\ell M_{n}}} 
+	%\times
+	%\\
+	%\nonumber
+	%&&\times
 	\left \{M_\ell (\varepsilon^{(\lambda)}\widetilde \varphi p^{\, \prime \prime}) + 
 	M_{n} (\varepsilon^{(\lambda)}\widetilde \varphi p)  \right \}\, ,
 	\label{eq:K2}
@@ -715,91 +718,93 @@ f_\omega^{(\lambda)}(z, x) = \frac{1}{2\pi i}\sum_{\ell=0}^{\infty}
 Выражения для ${\cal T}^{s'' s}_\lambda$ могут быть получены из~\cite{Rumyantsev:2017} и представлены в виде:
 %
 \begin{eqnarray}
+	\label{eq:tV--}
 	\nonumber
 	&&{\cal T}^{--}_\lambda  = e [ 2\beta\sqrt{\ell n} {\cal K}_1^{(\lambda)} I_{n-1,\ell-1} +
+	%\\[3mm]
+	%&&+ 
+	(M_\ell + m)(M_n + m) {\cal K}_1^{(\lambda)} I_{n,\ell} -
 	\\[3mm]
-	\label{eq:tV--}
-	&&+ (M_\ell + m)(M_n + m) {\cal K}_1^{(\lambda)} I_{n,\ell} -
-	\\[3mm]
-	\nonumber
-	%transversal
-	&&-\sqrt{2\beta n} (M_\ell + m) {\cal K}_3 \times
-	\\[3mm]
-	\nonumber
-	&&\times\frac{(\varepsilon^{(\lambda)}\varphi\varphi q) - 
+	%\nonumber
+	&&-
+	\sqrt{2\beta n} (M_\ell + m) {\cal K}_3
+	%\times
+	%\\[3mm]
+	%\nonumber
+	%&&
+	\times\frac{(\varepsilon^{(\lambda)}\varphi\varphi q) - 
 		\ii (\varepsilon^{(\lambda)} \varphi q)}{\sqrt{q^2_{\mprp}}} I_{n-1,\ell} -
 	\\[3mm]
 	\nonumber
-	&&- \sqrt{2\beta \ell} (M_n + m) {\cal K}_3 \times
-	\\[3mm]
-	\nonumber
-	&&\times
+	&&- \sqrt{2\beta \ell} (M_n + m) {\cal K}_3 
+	%\times
+	%\\[3mm]
+	%\nonumber
+	%&&\times
 	\frac{(\varepsilon^{(\lambda)}\varphi\varphi q) + \ii (\varepsilon^{(\lambda)}\varphi q)}{\sqrt{q^2_{\mprp}}} I_{n,\ell-1}] \, ,
 \end{eqnarray}
 
 
 
 \begin{eqnarray}
+	\label{eq:tV-+} 
 	\nonumber
 	&&{\cal T}^{-+}_\lambda = \ii e [\sqrt{2\beta n} (M_\ell + m) {\cal K}_2^{(\lambda)} 
-	I_{n-1,\ell-1} - 
-	\\[3mm]\nonumber
-	&&- \sqrt{2\beta \ell} (M_n + m) {\cal K}_2^{(\lambda)} 
-	I_{n,l} +
+	I_{n-1,\ell-1} \sqrt{2\beta \ell} (M_n + m) {\cal K}_2^{(\lambda)} I_{n,l} +
 	\\[3mm]
-	\nonumber
+	%\nonumber
 	%transversal
 	&&+ 2\beta\sqrt{\ell n} {\cal K}_4 
 	\frac{(\varepsilon^{(\lambda)}\varphi\varphi q) - \ii (\varepsilon^{(\lambda)}\varphi q)}{\sqrt{q^2_{\mprp}}} I_{n-1,\ell} -
-	\nonumber\\[3mm]
-	&&- (M_\ell + m)(M_n + m) {\cal K}_4 \times
+	%\nonumber\\[3mm]
+	%&&- 
+	(M_\ell + m)(M_n + m) {\cal K}_4 
+	\times
 	\\[3mm]
 	\nonumber
 	&&\times
-	\frac{(\varepsilon^{(\lambda)}\varphi\varphi q) + \ii (\varepsilon^{(\lambda)}\varphi q)}{\sqrt{q^2_{\mprp}}} I_{n,\ell-1}]  \, ,
-	\nonumber
+	\frac{(\varepsilon^{(\lambda)}\varphi\varphi q) + 
+	\ii (\varepsilon^{(\lambda)}\varphi q)}{\sqrt{q^2_{\mprp}}} I_{n,\ell-1}]  \, ,
 \end{eqnarray}
 
 \begin{eqnarray}
+	\label{eq:tV+-} 
+	\nonumber
 	&&{\cal T}^{+-}_\lambda = -\ii e [\sqrt{2\beta \ell} (M_n + m) {\cal K}_2^{(\lambda)} 
-	I_{n-1,\ell-1} - 
-	\nonumber\\[3mm]
-	&&- \sqrt{2\beta n} (M_\ell + m) {\cal K}_2^{(\lambda)} 
-	I_{n,\ell} +
+	I_{n-1,\ell-1} - \sqrt{2\beta n} (M_\ell + m) {\cal K}_2^{(\lambda)} I_{n,\ell} +
 	\\[3mm]
-	\nonumber
+	%\nonumber
 	%transversal
-	&&+ (M_\ell + m)(M_n + m) {\cal K}_4 \times
+	&&+ (M_\ell + m)(M_n + m) {\cal K}_4 
+	%\times
+	%\\[3mm]
+	%\nonumber
+	%&&\times
+	\frac{(\varepsilon^{(\lambda)}\varphi\varphi q) - \ii (\varepsilon^{(\lambda)}\varphi q)}{\sqrt{q^2_{\mprp}}} I_{n-1,\ell} -
+	%\nonumber\\[3mm]
+	%&&- 
+	2\beta\sqrt{\ell n} {\cal K}_4 
+	\times
 	\\[3mm]
 	\nonumber
 	&&\times
-	\frac{(\varepsilon^{(\lambda)}\varphi\varphi q) - \ii (\varepsilon^{(\lambda)}\varphi q)}{\sqrt{q^2_{\mprp}}} I_{n-1,\ell} -
-	\nonumber\\[3mm]
-	&&- 2\beta\sqrt{\ell n} {\cal K}_4 
 	\frac{(\varepsilon^{(\lambda)}\varphi\varphi q) + \ii (\varepsilon^{(\lambda)}\varphi q)}{\sqrt{q^2_{\mprp}}} I_{n,\ell-1}]  \, ,
 	\nonumber
 \end{eqnarray}
 
 \begin{eqnarray}
+	\label{eq:tV++} 
 	\nonumber
 	&&{\cal T}^{++}_\lambda  = e [2\beta\sqrt{\ell n} {\cal K}_1^{(\lambda)} I_{n,\ell} +
+	(M_\ell + m)(M_n + m) {\cal K}_1^{(\lambda)} I_{n-1,\ell-1} -
 	\\[3mm]
-	\label{eq:tV++} 
-	&&+ (M_\ell + m)(M_n + m) {\cal K}_1^{(\lambda)} I_{n-1,\ell-1} -
-	\\[3mm]
-	\nonumber
+	%\nonumber
 	%transversal
-	&&- \sqrt{2\beta \ell} (M_n + m) {\cal K}_3 \times
-	\\[3mm]
-	\nonumber
-	&&\times
+	&&- \sqrt{2\beta \ell} (M_n + m) {\cal K}_3
 	\frac{(\varepsilon^{(\lambda)}\varphi\varphi q) - \ii (\varepsilon^{(\lambda)}\varphi q)}{\sqrt{q^2_{\mprp}}} I_{n-1,\ell} -
 	\\[3mm]
 	\nonumber
-	&&- \sqrt{2\beta n} (M_\ell + m) {\cal K}_3 \times
-	\\[3mm]
-	\nonumber
-	&&\times
+	&&- \sqrt{2\beta n} (M_\ell + m) {\cal K}_3 
 	\frac{(\varepsilon^{(\lambda)}\varphi\varphi q) + \ii (\varepsilon^{(\lambda)}\varphi q)}{\sqrt{q^2_{\mprp}}} I_{n,\ell-1}] \, .
 \end{eqnarray}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -906,6 +911,10 @@ P. 395–417.
 \bibitem{YarkovPhotFE:2023}
 Ярков A.~A., Румянцев Д.~A. Решение кинетического уравнения с учетом резонанса в комптоновском процессе в замагниченной среде. // Письма в журнал Физика элементарных частиц и атомного ядра. 2023. Т. 20. № 3(248). С. 422--427.
 %
+\bibitem{Chistyakov:2009}
+Chistyakov~M.~V., Rumyantsev~D.~A., 
+   Int.~J.~Mod.~Phys.~A {\bf 24}, 3995 (2009).
+%
 \bibitem{Rumyantsev:2017}
 Румянцев Д. А., Шленев Д. М., Ярков А. А. // ЖЭТФ 152, 483 (2017).
 %
@@ -940,7 +949,7 @@ neutron stars - I. Radiative mechanism for outbursts // Mon. Not.
 Roy. Astron. Soc. 1995. Vol. 275. P. 255–300.
 %
 \bibitem{Rumyantsev:2026}
-Румянцев Д. А., Шленев Д. М., Ярков А. А. // ЖЭТФ ?, ? (2026).
+Rumyantsev D.A., Shlenev D.M., Yarkov A.A. // JETP Vol. 169, No. 6, P. 1--14 (2026).
 %
 \bibitem{Landau:2002}
 Ландау Л. Д., Лифшиц Е. М. Теоретическая физика: ч. 1. Статистическая
