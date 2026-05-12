@@ -1,0 +1,436 @@
+%
+% ****** maiksamp.tex 29.11.2001 ******
+%
+\documentclass[
+aps,%
+12pt,%
+final,%
+notitlepage,%
+oneside,%
+onecolumn,%
+nobibnotes,%
+nofootinbib,% 
+superscriptaddress,%
+noshowpacs,%
+centertags]%
+{revtex4}
+
+%\usepackage{graphicx}
+%\usepackage{epstopdf}
+\bibliographystyle{maik}
+\usepackage{comment}
+\begin{document}
+\selectlanguage{english}
+
+\title{\uppercase{Radiation transfer in a strong magnetic field with resonance effects taken into account}}% ђ §ЎЁҐ­ЁҐ ­  бва®ЄЁ ®бгйҐбвў«пҐвбп Є®¬ ­¤®© \\
+
+\author{\firstname{A.A.}~\surname{Yarkov}}
+% ‡¤Ґбм а §ЎЁҐ­ЁҐ ­  бва®ЄЁ ®бгйҐбвў«пҐвбп  ўв®¬ вЁзҐбЄЁ Ё«Ё Є®¬ ­¤®© \\
+\email{a12l@mail.ru}
+\affiliation{%
+P.G. Demidov Yaroslavl State University Department of Theoretical Physics.
+Russia.
+}%
+\author{\firstname{D.A.}~\surname{Rumyantsev}}
+\email{rda@uniyar.ac.ru}
+\affiliation{%
+P.G. Demidov Yaroslavl State University Department of Theoretical Physics.
+Russia.
+}%
+
+%\author{\firstname{’.~Ђ.}~\surname{’аҐвЁ©-Ђўв®а}}
+%\email{Third.Author@univ.edu}
+%%\noaffiliation % Ґб«Ё г  ўв®а  ¬Ґбв® а Ў®вл ­Ґ гЄ §лў Ґвбп
+%\affiliation{%
+%ЊҐбв® а Ў®вл Ё/Ё«Ё  ¤аҐб ваҐвмҐЈ®  ўв®а 
+%}%
+
+
+%\author{\firstname{—.~Ђ.}~\surname{—ҐвўҐавл©-Ђўв®а}}
+%\email{Fourth.Author@inst.ras.ru}
+%\affiliation{%
+%ЊҐбв® а Ў®вл Ё/Ё«Ё  ¤аҐб зҐвўҐав®Ј®  ўв®а 
+%}%
+
+
+%\date{\today}
+%\today ЇҐз в Ґв cҐЈ®¤­пи­ҐҐ зЁб«®
+
+\begin{abstract}
+The solution of the kinetic equation for finding the distribution function of photons of two possible polarizations in an equilibrium nonrelativistic $e^+e^-$ plasma in a relatively strong magnetic field is considered taking into account resonance on a virtual electron.
+Using the Laplace transform and the expansion of the distribution function in Legendre polynomials, the problem is reduced to a system of differential equations for the coefficients of this expansion. The solution is presented as an integral in the complex plane.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+It is the established fact that the presence of a magnetic field in a wide class of astrophysical objects is a typical situation for the observable universe. The scale of the magnetic induction can vary over a very wide range: from large-scale ($\sim 100$ kpc) intergalactic magnetic field $\sim 10^{-21}$ G \cite{D.Ryu:2012}, to the fields that are realized in the scenario of a rotational supernova explosion $\sim 10^{17}$ G. In this case, objects with a fields scale of the so-called critical value are of particular interest $B_e=m^2/e\approx4.41\cdot10^{13}$ G (The paper uses a natural system of units, where $c=h=k_B=1$, m -- electron mass, $e>0$ -- elementary charge). These include, in particular, isolated neutron stars, which include radio pulsars and the so-called magnetars, which have magnetic fields with induction from $B\sim10^{12}$ G (radio pulsars) to $B\sim4\cdot10^{14}$~G (magnetars). 
+
+An analysis of the emission spectra of radio pulsars and magnetars also indicates the presence of an electron-positron plasma in their magnetospheres with a concentration of the order of the Goldreich-Julian concentration \cite{Goldreich:1969}:
+\begin{equation}
+n_{GJ}\approx 3 \cdot 10^{13} \text{cm}^{-3} \frac{B}{100B_e} \frac{10 c}{P}\, ,
+\end{equation}
+where P -- the rotation period of the neutron star.
+
+It is natural to expect that such extreme
+conditions
+quantum processes, where in a diploma or primary
+state can be raised both electrically
+charged and electrically neutral particles such as electrons and photons.
+
+One such process is Compton scattering, which is currently being actively discussed in the literature and plays a key role in the formation of the spectra of highly magnetized neutron stars (see, for example,~\cite{Suleimanov:2007it,RCh09}).
+In particular, in the paper~\cite{RCh09} the expression for the Compton scattering cross section for the case when the initial and final electrons are at the ground Landau level was obtained taking into account the dispersion and renormalization of the photon wave functions. One of the applications of the obtained results is the solution of the radiation transfer equation in the magnetosphere of neutron stars. A similar problem was considered in the paper~\cite{Mushtukov:2016}, where the transfer equation for further exact solution is given.
+
+In the paper~\cite{Mushtukov:2022} this problem was solved by the Monte Carlo method and spectra were obtained for various temperatures and angles between the direction of the magnetic field and the photon momentum.
+
+On the other hand, there is a unique opportunity to analytically obtain a solution of the kinetic equation in the vicinity of a resonance to find the distribution function of photons of two possible polarizations in an charge symmetric plasma (electron and ions et al.) in a relatively strong magnetic field, taking into account resonance on a virtual electron.
+
+\section{\uppercase{Solution of the kinetic equation near resonance}}
+
+Let us consider a cylindrical column narrow enough that the change in the photon distribution function across this column can be neglected, containing with an axis directed along the magnetic field (the magnetic field $B$ is directed along the $z$ axis) containing an charge symmetric plasma at a temperature $T\ll m$ and strong magnetic field $B\lesssim B_e$ through which a stationary photon stream passes. We will assume that the photon stream entering this column at z = 0 is in equilibrium with the external environment, which has a temperature T.
+In this case, even at a $B\lesssim B_e$ in the nonrelativistic limit, electrons will predominantly occupy the ground Landau level. Indeed, the electron concentration in magnetic field for zero chemical potential $\mu=0$ given by:
+\begin{equation}
+	n_e = \frac{eB}{(2\pi)^2} \left\{ \int_{-\infty}^{\infty}\frac{dp_z}{\exp\left[\frac{1}{T}\sqrt{m^2+p_z^2}\right]+1}+2\sum_{n=1}^{\infty}
+	\int_{-\infty}^{\infty}\frac{dp_z}{\exp\left[\frac{1}{T}\sqrt{M_n^2+p_z^2}\right]+1}\right\}\, ,
+\end{equation}
+where $M_n=\sqrt{m^2+2eBn}$. Comparing the contribution to the concentration of electrons from the ground Landau level at $B= 10^{12}$~G and $T=5$ keV
+\begin{equation}
+	\begin{gathered}
+		\frac{n_e|_{n=1}}{n_e|_{n=0}}\simeq 0.11\, ,\\
+		\frac{n_e|_{n=2}}{n_  e|_{n=0}}\simeq 0.012\, ,
+	\end{gathered}
+\end{equation}
+we can assume that the Landau level of the initial and final electron $\ell=\ell'=0$, and the Landau level of virtual electron $n=1$ when analyzing the photon distribution function near the resonance.
+
+We will assume that the photon stream is described by a nonequilibrium distribution function which depends on the $z$ coordinate, the photon energy $\omega$, and the angle $\theta$ between the direction of the photon momentum and the direction of the magnetic field. In this case, the kinetic equation will have the form:
+\begin{equation} 
+\begin{aligned}\label{Kineq:Gen}
+x\frac{\partial f^{(\lambda)}_\omega(z,x)}{\partial z}&=\sum_{\lambda'=1}^{2} \int dW_{\lambda\to\lambda'}\{f_{E'}(1-f_E)f^{(\lambda')}_{\omega'}(z, x) (1+f_\omega^{(\lambda)}(z, x))-
+\\
+&-f_E (1-f_{E'}) f_\omega^{(\lambda)}(z,x)(1+f_{\omega'}^{(\lambda')}(z, x'))
+%	\}\, .
+\end{aligned}
+\end{equation}
+Here $x = \cos \theta$, $x' = \cos \theta'$ ($\theta$, $\theta'$ -- angle between the direction of the magnetic field and the momenta of the initial and final photons), $\lambda, \lambda'=1,2$ polarization states of photons (Since photons are not in equilibrium with the plasma, their polarization and dispersion properties correspond similarly to those in a pure magnetic field \cite{Shabad:1988,Rum:2009}),  $\vec{n}$ -- unit vector directed along the momentum of the initial photon, $f^{(\lambda)}_\omega(z, x)$ and  $f^{(\lambda')}_{\omega'}(z, x')$ -- distribution functions of initial and final photons with energies $\omega$ and $ \omega'$ respectively, $f_E = 1/[\exp(E/T)+1]$ Ё $f_{E'} = 1/[\exp(E'/T)+1]$ --  equilibrium distribution functions of initial and final electrons, $E=\sqrt{m^2+p_z^2}, E'=\sqrt{m^2+p_z'^2}$~-- energies of initial and final electrons, $dW_{\lambda \to \lambda'}$ -- photon absorption coefficient, which can be obtained from the results of the paper \cite{YarkovJETP:2017,YarkovJoPCS:2020}.
+
+Since a nonrelativistic plasma with temperature $T\ll m$ is considered, the energies of the initial and final photon will be close to each other.
+Expanding the right side of the equation (\ref{Kineq:Gen}) in terms of $\Delta\omega=\omega-\omega'\ll\omega$, where
+\begin{equation}
+\begin{aligned}
+\omega' = \frac{1}{1-x'^2}&\bigg(E+\omega(1-x x')-p_z x'-
+\\		
+-& \sqrt{(E+\omega(1-x x')-p_zx')^2 - 2eB (1-x'^2)}\bigg)\, ,
+\end{aligned}
+\end{equation}
+we can use the technique developed in the papers \cite{Komp,Lubarsk}. Neglecting induced emission, we get:
+\begin{equation}\label{eq:KinSerDeltaw}
+\begin{aligned}
+&x\frac{\partial f^{(\lambda)}(z,x)}{\partial z} =  \sum_{\lambda'=1}^{2} \int_{-\infty}^{\infty}dp_z\int_{-1}^{1}dx'\Phi_\omega^{\lambda\lambda'}(x,x') (f^{(\lambda')}(z,x')-f^{(\lambda)}(z,x)) +
+\\
+&- \frac{\Delta \omega}{T} \sum_{\lambda'=1}^{2} \int_{-\infty}^{\infty}dp_z\int_{-1}^{1}dx'\Phi_\omega^{\lambda\lambda'}(x,x') 
+\left[
+T \frac{\partial f_\omega^{(\lambda')}(z,x')}{\partial \omega} + f_\omega^{(\lambda')}(z,x')
+\right]+
+\\
+&+ \frac{1}{2}\frac{(\Delta \omega)^2}{T^2} \sum_{\lambda'=1}^{2} \int_{-\infty}^{\infty}dp_z\int_{-1}^{1}dx'\Phi_\omega^{\lambda\lambda'}(x,x') 
+\bigg[
+T^2 \frac{\partial^2 f_\omega^{(\lambda')}(z,x')}{\partial \omega^2}+
+\\		
+&+ 2T \frac{\partial f_\omega^{(\lambda')}(z,x')}{\partial \omega^2}+f_\omega^{(\lambda')}(z,x')
+\bigg] 
+\,  ,
+\end{aligned}
+\end{equation}
+where the functions $\Phi_\omega^{\lambda\lambda'}(x,x')$ can be obtained from the result of the paper \cite{YarkovJoPCS:2020}
+\begin{equation}
+\begin{aligned}
+	\Phi^{\lambda\lambda'}_\omega(x,x')=&\frac{eB}{16}\sum_{s^{\prime\prime}=\pm 1}^{}\frac{\omega'}{\omega (2\pi)^3 E}\frac{f_E}{\left|(p_z+\omega x - \omega' x')-\sqrt{(p_z+\omega x - \omega' x')^2+m^2}\right|}\times
+	\\
+	&\times\frac{\left|{\cal M}_{e_0\gamma^\lambda\to e^{s^{\prime\prime}}_1}\right|^2\left|{\cal
+	M}_{e^{s^{\prime\prime}}_1
+	\to\gamma^{\lambda'}e_0}\right|^2}{\left((E+\omega)^2-(p_z+\omega x)^2 -M_1^2\right)^2+
+	\left(\Gamma^{s^{\prime\prime}}_1
+	E_1^{\prime\prime}/2\right)^2}\, .
+	\end{aligned}
+\end{equation}
+Here $E_1^{\prime\prime}=\sqrt{(p_z+wx)^2+M_1}$,$s''$ is the polarization state of an electron (for electrons at the ground Landau level s=-1), $\Gamma^\pm$ is the total absorption width of an electron for two possible polarization states of electrons \cite{KM_Book_2003}
+\begin{equation}
+	\Gamma^{\pm}_1
+	E_1^{\prime\prime}=\frac{e^2(eB)^2}{\pi M_1}{\frac{1}{M_1\pm m}}\int_{0}^{\frac{(M_1-m)^2}{2eB}}dx e^{-x} \frac{1-\frac{M_1^2+m^2}{2eB}x}{\sqrt{x^2-\frac{M_1^2+m^2}{eB}x+1}}\, .
+\end{equation}
+
+The square of the process amplitude $\left|{\cal M}_{e_0\gamma^\lambda\to e^{s^{\prime\prime}}_1}\right|^2$ can be represented as follows \cite{YarkovJETP:2017}
+\begin{equation}\label{eq:Megtoe}
+	\left|{\cal M}_{e\gamma^\lambda\to e^{s''}_1}\right|^2 = \frac{\left|{\cal T} ^{s'' -}_\lambda\right|^2}{4m^2M_1(M_1+m)}\, ,
+\end{equation}
+\begin{equation}
+	\begin{gathered}
+		\left|{\cal T} ^{+ -}_1\right|^2\simeq8e^2  m^2(m+M_1)^2\frac{(E\omega x-p_z \omega)^2}{m(m+M_1)+E\omega-p_z\omega x}\, ,
+		\\
+		\left|{\cal T} ^{- -}_1\right|^2\simeq8 e^2 m^2 2eB   (m (M_1 +m) +E\omega-p_z\omega x)\, ,
+		\\
+		\left|{\cal T} ^{+ -}_2\right|^2\simeq8 m^2\omega^2 e^2  \frac{(m\omega+(m+M_1)(E-p_zx))^2}{m(m+M_1)+E\omega-p_z\omega x} \, ,
+		\\
+	\left|{\cal T} ^{- -}_2\right|^2\simeq8e^2 m^2 \frac{(M_1+m)^4}{2eB}\frac{(E\omega x - p_z\omega )^2}{m(m+M_1)+E\omega-p_z\omega x}\, .
+	\end{gathered}
+\end{equation}
+The amplitude of the process $e^{s^{\prime\prime}}_1
+\to\gamma^{\lambda'}e_0$ can be expressed in terms of (\ref{eq:Megtoe}) as follows
+\begin{equation}
+\left|{\cal
+	M}_{e^{s^{\prime\prime}}_1
+	\to\gamma^{\lambda'}e_0}\right|^2=\left|{\cal M}_{e_0\gamma^\lambda\to e^{s^{\prime\prime}}_1}\right|^2\bigg|_{\omega\to\omega',E\to E', x\to x',p_z\to p'_z}.
+\end{equation}
+
+%$|K_3|^2=2(m M_1 + (p\tilde\Lambda p''))$
+%\\
+%$|K_4|^2=\frac{2 (E\omega x-pz \omega)^2}{m(m+M_1)+E\omega-p_z\omega x}$
+%\\
+%$|(q\tilde{\Phi}K_2)|^2=\frac{2\omega^2}{m(m+M_1)+E\omega-p_z\omega x} (E(1-x) (m+M_1)+\omega)^2$
+%\\
+%$|(q\tilde{\Phi}K_1)|^2=\frac{2}{m(m+M_1)+E\omega-p_z\omega x} (E\omega - p_z\omega x)^2(m+M_1)^2$
+
+Considering the problem near the resonance $\omega=\omega_\text{res}\sim eB/m$ and taking into account that the electron mass is the largest parameter of the problem, the functions can be represented as follows
+\begin{equation}
+\begin{aligned}
+&\varphi_\omega^{11}(x,x')=\int_{-\infty}^{\infty}dp_z\Phi_\omega^{11}(x,x')\simeq \rho \left(\frac{(eB)^2}{m^2}\frac{1}{\Delta^-} +\frac{(\omega - eB/m)^2}{\Delta^+}\right)\, ,
+\\
+&\varphi_\omega^{12}(x,x')=\int_{-\infty}^{\infty}dp_z\Phi_\omega^{12}(x,x')\simeq \rho \omega^2 \left(
+\frac{x'^2}{\Delta^-} + \frac{\omega - eB/m}{2m \Delta^+}
+\right)	\, ,
+\\
+&
+\varphi_\omega^{22}(x,x')=\int_{-\infty}^{\infty}dp_z\Phi_\omega^{22}(x,x')\simeq \rho \frac{\omega^4}{4m^2}
+\left(
+\frac{4m^4x^2 x'^2 }{(eB)^2 \Delta^-} + \frac{1}{\Delta^+}
+\right)\, ,
+\\
+&
+\varphi_\omega^{21}(x,x')=\int_{-\infty}^{\infty}dp_z\Phi_\omega^{21}(x,x')\simeq \rho \omega^2
+\left(
+\frac{x^2}{\Delta^-} + \frac{\omega - eB/m}{2m \Delta^+}
+\right)\, ,
+\end{aligned}
+\end{equation}
+
+\begin{equation}
+\rho = \frac{n_e}{8\pi} e^4 \left(\frac{M_1 + m}{M_1}\right)^2\simeq \frac{n_e}{2\pi}e^4\, ,
+\end{equation}
+\begin{equation}
+\Delta^\pm = (\omega^2(1-x^2)+2 \omega m - 2eB)^2 + \left(\frac{E_n{''} \Gamma^\pm}{2}\right)^2\simeq \left(\frac{E_n{''} \Gamma^\pm}{2}\right)^2 \, .
+\end{equation}
+
+The solution of the equation (\ref{eq:KinSerDeltaw}) can be formally represented as follows 
+
+\begin{equation}\label{FormSol}
+\begin{aligned}
+f_\omega^{(\lambda)}(z,x)&=f_{0\omega} 	e^{-{\cal \chi}_\omega^{(\lambda)}(x)\cdot z} + \frac{1}{x}\int_{0}^{z}dz'\int_{-1}^{1}dx' e^{-{\cal \chi}_\omega^{(\lambda)}(x)\cdot (z-z')}\times
+\\
+&\times\bigg(\varphi_\omega^{\lambda 	\lambda'}(x,x')f_\omega^{(\lambda')}(z',x')- \varphi_\omega^{\lambda 	\lambda'}(x,x')\frac{\Delta \omega}{T}
+\left[
+T \frac{\partial f_\omega^{(\lambda')}(z',x')}{\partial \omega} + f_\omega^{(\lambda')}(z',x')
+\right]+
+\\
+&+ \varphi_\omega^{\lambda 	\lambda'}(x,x')\frac{1}{2}\frac{(\Delta \omega)^2}{T^2}
+\left[
+T^2 \frac{\partial^2 f_\omega^{(\lambda')}(z',x')}{\partial \omega^2} + 2T \frac{\partial f_\omega^{(\lambda')}(z',x')}{\partial \omega}+f_\omega^{(\lambda')}(z',x')
+\right]\bigg)\, ,
+\end{aligned}	
+\end{equation}
+where $f_{0\omega}=[\exp(\omega/T)-1]^{-1}$ is the equilibrium photon distribution function, and
+\begin{equation}
+{\cal \chi}_\omega^{(\lambda)}(x) \equiv \frac{1}{x} \int_{-1}^{1} dx' \left\{\varphi^{\lambda 1}_\omega(x,x')+\varphi^{\lambda 2}_\omega(x,x')\right\}\, .
+\end{equation}
+\begin{comment}
+\begin{equation}
+\begin{aligned}
+&\varphi_\omega^{11}(x,x')\Delta\omega\simeq\rho\frac{(eB)^2}{m^2}\frac{1}{\Delta^-}\Delta\omega\, ,
+\\
+&\varphi_\omega^{12}(x,x')\Delta\omega\simeq\rho \omega^2 \left(
+\frac{x^2}{\Delta^-}\Delta\omega + \frac{1}{2m \Delta^+}(\Delta\omega)^2
+\right)	\, ,
+\\
+&
+\varphi_\omega^{22}(x,x')\Delta\omega\simeq \rho \frac{\omega^4}{4m^2}
+\left(
+\frac{4m^4x^2 x'^2 }{(eB)^2 \Delta^-} + \frac{1}{\Delta^+}
+\right)\Delta\omega\, ,
+\\
+&
+\varphi_\omega^{21}(x,x')\Delta\omega\simeq\rho \omega^2
+\left(
+\frac{x^2}{\Delta^-}\Delta\omega + \frac{1}{2m \Delta^+}(\Delta\omega)^2
+\right)\, ,
+\end{aligned}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+&\varphi_\omega^{11}(x,x')(\Delta\omega)^2\simeq\rho\frac{(eB)^2}{m^2}\frac{1}{\Delta^-}(\Delta\omega)^2\, ,
+\\
+&\varphi_\omega^{12}(x,x')(\Delta\omega)^2\simeq\rho \omega^2 
+\frac{x^2}{\Delta^-}(\Delta\omega)^2	\, ,
+\\
+&
+\varphi_\omega^{22}(x,x')(\Delta\omega)^2\simeq \rho \frac{\omega^4}{4m^2}
+\left(
+\frac{4m^4x^2 x'^2 }{(eB)^2 \Delta^-} + \frac{1}{\Delta^+}
+\right)(\Delta\omega)^2\, ,
+\\
+&
+\varphi_\omega^{21}(x,x')(\Delta\omega)^2\simeq\rho \omega^2
+\frac{x^2}{\Delta^-}(\Delta\omega)^2\, ,
+\end{aligned}
+\end{equation}
+\end{comment}
+	Next, we expand the distribution function of photons in Legendre polynomials ${\cal P}_\ell(x)$ with respect to the variable $x$:
+\begin{equation}\label{eq:fSerLegender}
+f_\omega^{(\lambda)}(z, x) = \sum_{\ell = 0}^{\infty} A_\ell^{(\lambda)}(z,\omega) {\cal P}_\ell(x)\, ,
+\end{equation}
+
+Substituting (\ref{eq:fSerLegender}) into (\ref{FormSol}) and applying the Laplace transform to the resulting expression with respect to the variable $z$, we obtain a system of second-order differential equations with respect to the variable $\omega$
+\begin{equation}\label{eq:SysEqALap}
+\begin{aligned}
+\frac{2}{2 \ell +1} &\overline{A}_\ell^{(\lambda)}(s,\omega) = \int_{-1}^{1} \frac{f_{0\omega}^{(\lambda)}}{s+{\cal \chi}_\omega(x)}{\cal P}_\ell(x)dx+ \sum_{\ell'=0}^{\infty}\int_{-\infty}^{\infty}dx'\int_{-1}^{1}\frac{dx}{x} \frac{P_\ell(x) P_{\ell'}(x')}{s+{\cal \chi}_\omega^{(\lambda)}(x)}\times
+\\
+&\times\Bigg( \varphi_\omega^{\lambda\lambda'}(x,x')\overline{A}_{\ell'}^{(\lambda')}(s,\omega)
+- \varphi_\omega^{\lambda\lambda'}(x,x')\frac{\Delta \omega}{T}
+\left[
+T \frac{\partial \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega} + \overline{A}_{\ell'}^{(\lambda')}(s,\omega)
+\right]+
+\\
+&+ \varphi_\omega^{\lambda\lambda'}(x,x')\frac{1}{2}\frac{(\Delta \omega)^2}{T^2}
+\left[
+T^2 \frac{\partial^2 \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega^2} + 2T \frac{\partial \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega^2}+\overline{A}_{\ell'}^{(\lambda')}(s,\omega)
+\right]\Bigg)\, ,
+\end{aligned}
+\end{equation}
+
+\begin{equation}\label{lapA}
+\overline{A}_{\ell'}^{(\lambda)}(s,\omega)=\int_{0}^{\infty} A^{(\lambda)}_{\ell'}(z,\omega) e^{-sz}dz\, ,
+\end{equation}
+
+The system of equations (\ref{eq:SysEqALap}) solves the problem of finding the photon distribution function. After applying the inverse Laplace transform, the final polarization photon distribution function $\lambda$ can be represented as follows
+\begin{equation}
+f_\omega^{(\lambda)}(z, x) = \frac{1}{2\pi i}\sum_{\ell=0}^{\infty} 
+P_\ell(x)\int_{\sigma-i\infty}^{\sigma + i \infty}ds \cdot e^{sz} \overline{A}^{(\lambda)}_\ell(s,\omega)\, ,
+\end{equation}
+where the integral is calculated in the complex plane along the straight line $\text{Re} \, s = \sigma$
+\section*{Conclusion}
+The solution of the kinetic equation for finding the distribution function of photons of two possible polarizations in an equilibrium nonrelativistic $e^+e^-$ plasma in a relatively strong magnetic field is considered, taking into account resonance on a virtual electron.
+Using the Laplace transform and the expansion of the distribution function in Legendre polynomials, the problem is reduced to a system of differential equations for the coefficients of this expansion. The solution is presented as an integral in the complex plane.
+
+\begin{acknowledgments}
+The paper was funded by RFBR, project number 20-32-90068.
+\end{acknowledgments}
+
+\begin{thebibliography}{99}
+
+\bibitem{D.Ryu:2012}
+\refitem{article}
+D.~Ryu, D.~R.~G.~Schleicher, R.~A.~Treumann, Tsagas~C.~G., L.~M.~Widrow, 
+Space Science Reviews
+\textbf{166}, 1-35, (2012)
+
+
+\bibitem{Goldreich:1969}
+\refitem{article}
+P.~Goldreich,  W.~H.~Julian, Astrophys. J.
+\textbf{157}, 869--880, (1969)
+
+
+\bibitem{Suleimanov:2007it}
+\refitem{article}
+V.~Suleimanov, K.~Werner,
+Astron. Astrophys.
+\textbf{466}, 661--668 (2007)
+
+
+\bibitem{RCh09}
+\refitem{article}
+M.~V.~Chistyakov, D.~A.~Rumyantsev,
+Int. J. Mod. Phys.
+\textbf{24}, 3995--4008 (2009)
+
+
+\bibitem{Mushtukov:2016}
+\refitem{article}
+A.~A.~Mushtukov, D.~I.~Nagirner,
+	J.~Poutanen,
+Phys. Rev.
+\textbf{D93}, 105003, (2016)
+
+
+\bibitem{Mushtukov:2022}
+\refitem{article}
+ A.~A.~Mushtukov, I.~D.~Markozov, V.~F.~Suleimanov, D.~I.~Nagirner, A.~D.~Kaminke, A.~Y.~Potekhin, S.~Portegies Zwart,
+Phys. Rev. D,
+\textbf{105}, 103027, (2022)
+
+\bibitem{Shabad:1988}
+\refitem{article}
+A.~E.~Shabad,
+Tr. Fiz. Inst. Akad. Nauk SSSR. 
+\textbf{192}, P. 5-152, (1988)
+
+\bibitem{Rum:2009}
+\refitem{article}
+M.~V.~Chistyakov, D.~A.~Rumyantsev
+Int. J. Mod. Phys.,
+\textbf{A24}, P. 3995-4008, (2009)
+
+\bibitem{YarkovJETP:2017}
+\refitem{article}
+D. A. Rumyantsev, D. M. Shlenev, A. A. Yarkov, 
+JETP,
+\textbf{125}, 410--419, (2017)
+
+
+\bibitem{YarkovJoPCS:2020}
+\refitem{article}
+ M.~V.~Chistyakov, D.~A.~Rumuyantsev, A.~A.~Yarkov,
+J. Phys.: Conf. Ser.,
+\textbf{1690}, 012015, (2020)
+
+
+\bibitem{Komp}
+\refitem{article}
+ A.~S.~Kompaneets,
+JETP,
+\textbf{4}, 876--885, (1957)
+
+
+\bibitem{Lubarsk}
+\refitem{article}
+Yu.~E.~Lyubarski, 
+Astrophysics,
+\textbf{28}, 106--111, (1988)
+
+
+\bibitem{KM_Book_2003}
+\refitem{book}
+{\it A.~V.~Kuznetsov , N.~V.~Mikheev} // Electroweak processes in external electromagnetic fields
+STMP, 197, (2004)
+
+
+
+\end{thebibliography}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Character code reference %%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                             %
+%     Upper case russian letters (CP866): ЂЃ‚ѓ„…р†‡€‰Љ‹ЊЌЋЏђ‘’“”•–—?™љ›њќћџ   %                                                                       %
+%     Lower case russian letters (CP866):  ЎўЈ¤Ґс¦§Ё©Є«¬­®Їабвгдежзийклмноп   %
+%                     Upper case letters: ABCDEFGHIJKLMNOPQRSTUVWXYZ          %
+%                     Lower case letters: abcdefghijklmnopqrstuvwxyz          %
+%                                   Digits: 0123456789                        %
+% Square, curly, angle braces, parentheses: [] {} <> ()                       %
+%                Backslash, slash, solidus: \ / |                             %
+%       Period, interrogative, exclamation: . ? !                             %
+%                 Comma, colon, semi-colon: , : ;                             %
+%          Underscore, hyphen, equals sign: _ - =                             %
+%             Quotes (left, right, double): ` ' "                             %
+%     Commercial-at, hash, dollar, percent: @ # $ %                           %
+%  Ampersand, asterisk, plus, caret, tilde: & * +   ^                         %
+%                                                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% ****** End of file apssampr.tex ******

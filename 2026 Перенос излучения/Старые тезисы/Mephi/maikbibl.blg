@@ -1,0 +1,28 @@
+This is 8-bit Big BibTeX version 0.99d
+Implementation:  Microsoft(R) C/C++ for Win32
+Release version: 3.71 (31 May 2005)
+
+The 8-bit codepage and sorting file: cp1251.csf
+The top-level auxiliary file: maikbibl.aux
+I couldn't open database file MyLitr.bib.bib
+---line 4 of file maikbibl.aux
+ : \bibdata{MyLitr.bib
+ :                    }
+I'm skipping whatever remains of this command
+The style file: maik.bst
+I found no database files---while reading file maikbibl.aux
+Reallocated glb_str_ptr (elt_size=4) to 10 items from 0.
+Reallocated global_strs (elt_size=1001) to 10 items from 0.
+Reallocated glb_str_end (elt_size=4) to 10 items from 0.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+
+Here's how much of BibTeX's memory you used:
+ Cites:                 0 out of 750
+ Fields:             5000 out of 5000
+ Hash table:        18669 out of 19000
+ Strings:            1158 out of 19000
+ Free string pool:  10049 out of 65000
+ Wizard functions:   3451 out of 6000
+(There were 2 error messages)
