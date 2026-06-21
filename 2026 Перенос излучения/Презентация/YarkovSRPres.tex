@@ -1,0 +1,659 @@
+\documentclass{beamer}
+\usepackage[english,russian]{babel}
+\usepackage[cp1251]{inputenc}
+\usepackage{caption}
+\graphicspath{{fig/}}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{comment}
+\usepackage{pifont}
+\usepackage{setspace}
+\usepackage{blindtext}
+\usepackage{epstopdf}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\ifpdf\usepackage{epstopdf}\fi
+\mode<presentation> {
+	\usetheme{Warsaw}
+	\setbeamertemplate{footline}[page number] 
+	
+	\setbeamertemplate{navigation symbols}{}
+}
+
+\newcommand{\dotto}{\mathrel{\ooalign{\hfil$\to$\hfil\cr\hfil$\colon$\hfil\cr}}}
+% отключить клавиши навигации
+\def\beq{\begin{eqnarray}}
+\def\eeq{\end{eqnarray}}
+\def\ee{\varepsilon}
+\def\lm{\lambda}
+\def\ff{\Lambda}
+\def\tff{\widetilde \Lambda}
+\def\P{{\cal P}}
+\def\mprl{\mbox{\tiny $\|$}}
+\def\mprp{\mbox{\tiny $\bot$}}
+
+\newcommand{\ii}{\mathrm{i}} 
+\newcommand{\dd}{\mathrm{d}} 
+\newcommand{\eee}{\mathrm{e}} 
+
+
+\newcommand{\prp}[1]{#1_{\mbox{\tiny $\bot$}}}
+\newcommand{\pprl}[1]{#1_{\mbox{\tiny $\|$}}}
+\setbeamertemplate{navigation symbols}{}
+% Стиль презентации
+	\usetheme{Warsaw}
+\begin{document}
+	% Стиль презентации
+		\title[]{Решение кинетического уравнения с учетом резонансного комптоновского рассеяния.}  
+
+\author{Шленев Денис Михайлович}
+\institute[] 
+{
+	Ярославский государственный университет им. П.Г. Демидова\\ 
+	\medskip
+}
+\date{???? июля 2026 г.} 
+
+
+	% Создание заглавной страницы
+\titlepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Введение}
+	\begin{center}
+		Две составляющие влияния внешней активной среды:
+	\end{center}
+	\begin{itemize}
+		\item \alert{Модификация амплитуд процессов}
+		
+		Становятся возможными \alert{резонансы} на виртуальном электроне.
+		
+		\begin{itemize}
+			\item Комптоновское рассеяние $e\gamma\to e \gamma$,
+			\item и др.
+		\end{itemize}
+		\item \alert{Модификация дисперсионных свойств частиц -- открытие новых 
+		каналов:}
+		
+		Рождение пары $\gamma \to e^+e^-$\\
+		Поглощение фотона $\gamma e^\pm\to e^\pm$\\
+		Рождение фотона $e^\pm\to e^\pm\gamma$\\
+		и др.
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+	\begin{figure}[h]
+		\centering
+				Уравнение дисперсии
+		$q^2-{\cal P}^{(\lambda)} = 0,\,\, \lambda = 1,2$\\
+		где ${\cal P}^{(\lambda)}$ -- собственные значения поляризационного оператора фотона.
+		
+		\includegraphics[width=0.8\linewidth,clip]{DispFirst2ColOnly2Plasmas.eps}
+			
+		Закон дисперсии фотона 2 моды в сильном магнитном поле и зарядово симметричной плазме.
+		
+
+		\label{fig:dis01}       % Give a unique label
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}\small
+	\begin{columns}
+		\begin{column}{0.49\linewidth}
+			\includegraphics[width=1\linewidth,clip]{Accretion_column.eps}
+		\end{column}
+		\begin{column}{0.55\linewidth}
+			\begin{center}
+				\linespread{0.95}\selectfont
+			Колонка зарядово-симметричной ($\mu=0$) равновесной плазмы электронов (электроны, ионы и др.) при температуре $T\ll m$ и поле $B\lesssim B_e$, направленном вдоль оси z. Внутри колонки $T=\text{const}$ и $B=\text{const}$. Через эту колонку проходит стационарный поток фотонов, испытывающих только комптоновское рассеяние. В таких условиях электроны преимущественно занимают основной уровень Ландау.
+			\end{center}
+		\end{column}
+	\end{columns}
+% Справка
+% Her X-1 r0 = 44m, T_e = 6.25 10^7 К (5.39 кэВ) 
+%%%%%%%%%%%%%%%%%%%%%%%
+%LMC X-4 r0 = 680m, T_e = 5.9 10^7 К (5.08 кэВ)
+%%%%%%%%%%%%%%%%%%%%%%%%
+%Cen X-3 r0 = 730m, T_e = 3.4 10^7 К
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Введение}
+	%\framesubtitle{Постановка задачи}
+		\scriptsize 
+		
+	Баско М.М. и Сюняев Р.А. (1976) -- основы теории аккреционных колонок.
+
+	Непосредственное решение уравнения переноса излучения
+	\begin{itemize}
+				\item[-]  
+			%			X-RAY PULSAR MODELS. I. ANGLE-DEPENDENT CYCLOTRON LINE FORMATION AND COMPTONIZATION 
+			P. M\'esz\'aros, W. Nagel, ApJ, 1985 -- исследование циклотронных особенностей статической аккреционной колонки с однородными магнитными полями, концентрацией и температурой.
+		\item[-]  
+%			FORMATION MECHANISM FOR BROAD AND SHALLOW PROFILES OF CYCLOTRON LINES IN ACCRETING X-RAY PULSARS 
+			Nishimura O. ApJ 2003, 2005, 2008, 2011  -- моделирование спектра излучения областей формирования циклотроннных линий с учетом неоднородного магнитного поля, концентрации и температуры.
+		\item[-] 
+%			THERMAL AND BULK COMPTONIZATION IN ACCRETION-POWERED X-RAY PULSARS	
+			Peter A. Becker, ApJ, 2007, 2012, 2022 -- современные аналитические модели спектра в аккрецирующих рентгеновских пульсаров с учетом как термальной комптонизации, так и в результате столкновений с быстро сжимающимся газом в аккреционном столбе.
+		
+	\end{itemize}
+	Метод Монте-Карло
+		\begin{itemize}		
+		\item[-]
+%		CYCLOTRON LINE FEATURES FROM NEAR-CRITICAL MAGNETIC FIELDS : THE EFFECT OF OPTICAL DEPTH AND PLASMA GEOMETRY
+		R.A. Araya AND A. K. Harding 1999, 2000 -- одни из первых циклотронных линий, сформированных комптоновским рассеянием с учетом конечной ширины и смоделированных с помощью метода Монте-Карло.
+		\item[-]  
+%			A model for cyclotron resonance scattering features
+			G. Sch\"onherr et. al., A\&A, 2007 -- построение модели циклотронных линий с помощью подхода функций Грина для любого предполагаемого источника фотонов.
+%			исследование влияния на форму спектра в области формирования циклотроннных линий для различных значений геометрии, напряженности магнитного поля, оптической толщины и температур. 
+		\item[-] 
+		% Statistical features of multiple Compton scattering in a strong magnetic field
+		Mushtukov, Phys. Rev. D , 2022 -- исследование статистических особенностей множественного комптоновского рассеяния (как термального, так и с учетом скорости падения вещества) поляризованного рентгеновского излучения в сильном магнитном поле.
+	\end{itemize}
+%\end{enumerate}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%	\begin{frame}
+%		\frametitle{Диаграммы Фейнмана}
+%\begin{center}
+%		Комптоновскому рассеянию отвечают две диаграммы Фейнмана:\\
+%		\begin{center}{\hspace*{10mm} $s$-канал \hspace*{25mm} $t$-канал} 
+%		\begin{figure}
+%			\begin{center}
+%				\includegraphics[width=0.6\linewidth]{CDM.jpg} 
+%			\end{center} 
+%		\end{figure}
+%	\end{center}
+%	$p^{\mu}$ и ${p'}^{\mu}$ -- импульсы начального и конечного электрона.\\
+%	$q^{\mu}$ и $q^{'\mu}$ --  импульсы начального и конечного фотонов,
+%	%$P^{\mu} = (p+q)^{\mu}$
+%\centerline{Обозначения} 
+%	
+%       $(ab)_{\perp} = a_x b_x + a_y b_y$, $(ab)_{\parallel} = a_0 b_0 - a_z b_z$,
+%	$(a\varphi b) = a_y b_x - a_x b_y$.
+%	$\varphi_{\alpha \beta} =  F_{\alpha
+%		\beta} /B$ и
+%	${\tilde \varphi}_{\alpha \beta} = \frac{1}{2} \varepsilon_{\alpha \beta
+%		\mu \nu} \varphi_{\mu \nu}$ -- обезразмеренный тензор поля и дуальный тензор соответственно.
+%\end{center}
+%
+%	\end{frame}	
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
+	\begin{frame}{Справка}
+			\scriptsize
+			\centering
+			В обоих работах моделируется область циклотронных линий, а не вся аккреционная колонка целиком -- фотоны с энергиями вне резонанса практически не рассеиваются в электронной плазме, а температура, магнитное поле и концентрация можно считать постоянными.
+			\vspace{2mm}
+	\begin{columns}
+		
+		\begin{column}{0.5\linewidth}
+			Работа A model for cyclotron resonance scattering features Sch\"onherr et. al. A\&A 2007.
+			\begin{itemize}
+				\item[1] Рассматривается область формирования циклотронных линий в геометрии cylinder, slab 1-0, slab 1-1.
+				\item[2] Задача решается с помощью моделирования Монте-Карло:
+					\begin{itemize}
+						\item[а:] Начальные фотоны задаются независимо от поляризации, т.е. спектр усреднен по поляризациям фотона.
+						\item[b:] В геометрии Cylinder предполагается, что фотоны не достигают верхнего или нижнего его края, а выходят через боковые стенки.
+					\end{itemize}
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.5\linewidth}
+			Наша работа
+			\begin{itemize}
+				\item[1] Цилидрическая тонкая колонка в центре которой находится анизотропный источник фотонов.
+				\item[2] Определяется функция распределения фотонов  с помощью одномерного и статического уравнения Больцмана.
+				\item[3] Рассчитывается число фотонов с импульсами в определенном телесном угле.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
+\begin{frame}{Справка}
+	\scriptsize
+	\centering
+	Параметры аккреционных колонок P.A. Becker 2012, 2022:
+	\vspace{2mm}
+	\begin{itemize}
+		\item[1.] Магнитные поля: $B\sim 10^{11}-10^{12}$ Гс.
+		\item[2.] Температура плазмы: $T_e \sim 10^6 - 10^7 $ К (0.5 -- 5 кэВ)
+		\item[3.] Концентрация: $n_e \sim 10^{18} - 10^{22}$ см$^{-2}$ у основания.
+		\item[4.] Радиус $44-730$ м (который также является радиусом горячей точки на поверхности звезды).
+		\item[5.] Высота источника излучения в зависимости от светимости варьируется как $h_s \sim 10^3 - 10^5$ см.
+		\vspace{2mm}
+		
+		Nishimura O., Apj 2011:
+		\item[6.] Размер области с постоянным магнитным полем в дипольном приближении $h_{lfr}\simeq 300 - 100$ м при высотах от 1 до 10 км.
+		% Около поверхности 300 м
+		% 3 км от поверхности 195 м
+		% 10 км от поверхности 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	
+	Функция распределения фотонов будет удовлетворять кинетическому уравнению
+	\vspace{-1mm}
+	\begin{equation}\nonumber
+		\hspace{-8mm}\begin{aligned}\label{Kineq:Gen}
+			x\frac{\partial f^{(\lambda)}_\omega(z,x)}{\partial z}&=\sum_{\lambda'=1}^{2} \int dW_{_{e\gamma^{(\lambda)} \to e\gamma^{(\lambda')} }}\{f_{E'}(1-f_E)f^{(\lambda')}_{\omega'}(z, x') (1+f_\omega^{(\lambda)}(z, x))-
+			\\
+			&-f_E (1-f_{E'}) f_\omega^{(\lambda)}(z,x)(1+f_{\omega'}^{(\lambda')}(z, x'))
+			\}\, .
+		\end{aligned}
+	\end{equation}
+	
+	\hspace{5mm}$x=\cos\theta$,$x'=\cos\theta'$,где $\theta$, $\theta'$ -- угол между магнитным полем и импульсом начального и конечного фотона ,$\lambda, \lambda'=1,2$ -- поляризационные состояния фотонов.
+	
+	\hspace{5mm}$f_\omega^{(\lambda)}, f_{\omega'}^{(\lambda')}$ -- 
+	неравновесные функции распределения конечных и начальных фотонов.
+	
+	\hspace{5mm} $f_E=(\exp[E/T]+1)^{-1}, f_{E'}=(\exp[E'/T]+1)^{-1}$ -- равновесные функции распределения начальных и конечных электронов.
+	
+	\hspace{5mm}$dW_{_{e\gamma^{(\lambda)} \to e\gamma^{(\lambda')} }}$ --  дифференциальный коэффициент поглощения фотона. 
+	
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	 
+	Разложим правую часть кинетического уравнения по 
+	$\Delta\omega=\omega-\omega'\ll\omega$ (А.С. Компанеец, ЖЭТФ, 1956 и 
+	Ю.~Е.~Любарский, Астрофизика, 1988), где 
+	\begin{equation}\nonumber
+	\omega' = \frac{1}{1-x'^2}\bigg(m+\omega(1-x x')	
+	- \sqrt{(m+\omega(1-x x'))^2 - 2eB (1-x'^2)}\bigg)\, .
+	\end{equation}
+		
+		Тогда, пренебрегая индуцированным излучением, получим:
+%	\begin{equation}\nonumber
+%	\begin{aligned}
+%	\omega' = \frac{1}{1-x'^2}\bigg(m+\omega(1-x x')-\sqrt{(m+\omega(1-x x'))^2 - 2eB (1-x'^2)}\bigg)\, ,
+%	\end{aligned}
+%	\end{equation}
+%	где $x=\cos\theta$, $x'=\cos\theta'$. $\theta,\theta'$ - угол между импульсом фотона и магнитным полем.
+	\begin{equation}\label{eq:KinSerDeltaw}\begin{aligned}\nonumber
+	&\frac{\partial f^{(\lambda)}_\omega(z,x)}{\partial z} = \frac{1}{x} \sum_{\lambda'=1}^{2} \int_{-1}^{1}dx'\varphi_\omega^{\lambda\lambda'}(x,x') \bigg(f_\omega^{(\lambda')}(z,x')-f_\omega^{(\lambda)}(z,x)-
+	\\
+	&- \frac{\Delta \omega}{T}
+	\left[
+	T \frac{\partial f_\omega^{(\lambda')}(z,x')}{\partial \omega} + f_\omega^{(\lambda')}(z,x')
+	\right]+
+	\\
+	&+ \frac{1}{2}\frac{(\Delta \omega)^2}{T^2}
+	\left[
+	T^2 \frac{\partial^2 f_\omega^{(\lambda')}(z,x')}{\partial \omega^2} + 2T \frac{\partial f_\omega^{(\lambda')}(z,x')}{\partial \omega}+f_\omega^{(\lambda')}(z,x')
+	\right]\bigg)\, ,
+	\end{aligned}
+	\end{equation}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+	 
+	Рассматривая задачу вблизи резонанса $\omega\simeq\omega_{res}=eB/m$
+	\begin{equation}\nonumber
+	\begin{aligned}
+	\varphi^{\lambda\lambda'}_\omega(x,x') &= \frac{n_e}{32 \pi m \omega} \sum_{s,s',s''=\pm 1}\int_{0}^{2\pi}\frac{d\eta}{2\pi}\times
+	\\
+	&\times\frac{\left|{\cal M}^{s's''}_{e_1\to e_0\gamma^{(\lambda')}}\right|^2\left|{\cal M}^{s''s}_{e_0\gamma^{(\lambda)}\to e_1 }\right|^2}{[\omega^2(1-x^2)+2\omega m - 2eB]^2 + (\Gamma_1^{s''}P_0/2)^2}\times
+	\\
+	&\times \frac{(m+\omega - \omega x x'-\sqrt{m+\omega - \omega x x')^2 - x'^2 2eB}}{\sqrt{(m+\omega - \omega x x')^2 - x'^2 2eB}}
+	\end{aligned}
+	\end{equation}
+	Где $\Gamma_1^{s''}$ -- полная ширина поглощения электронов.
+	\begin{equation}\nonumber
+	E_1''\Gamma_1^{\pm} \simeq \frac{e^2 (eB)^2}{\pi M_1}\frac{1}{M_1\pm m} \int_{0}^{\zeta}dx e^{-x} \frac{1-\zeta x}{\sqrt{x^2-\zeta x+1}}
+	\end{equation}
+	Здесь $M_n=\sqrt{m^2+2\cdot eBn}$ и $\zeta=\frac{M_1^2+m^2}{eB}=2+B_e/B$
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+\begin{frame}
+	 
+	Решение исходного уравнения в случае $f_\omega(0,x)=f_{0\omega}$ можно представить следующем образом:
+	\begin{equation}\label{FormSol}\nonumber
+	\begin{aligned}
+	&f_\omega^{(\lambda)}(z,x)=f_{0\omega} 	e^{-{\cal \chi}_\omega^{(\lambda)}(x)\cdot z} + \frac{1}{x}\int_{0}^{z}dz'\int_{-1}^{1}dx' e^{-{\cal \chi}_\omega^{(\lambda)}(x)\cdot (z-z')}\times 
+	\\
+	&\times \sum_{\lambda'=1}^2\varphi_\omega^{\lambda 	\lambda'}(x,x')\bigg(f_\omega^{(\lambda')}(z,x')- \frac{\Delta \omega}{T}
+	\left[
+	T \frac{\partial f_\omega^{(\lambda')}(z,x')}{\partial \omega} + f_\omega^{(\lambda')}(z,x')
+	\right]+
+	\\
+	&+ \frac{1}{2}\frac{(\Delta \omega)^2}{T^2}
+	\left[
+	T^2 \frac{\partial^2 f_\omega^{(\lambda')}(z,x')}{\partial \omega^2} + 2T \frac{\partial f_\omega^{(\lambda')}(z,x')}{\partial \omega}+f_\omega^{(\lambda')}(z,x')
+	\right]\bigg)\, ,
+	\end{aligned}	
+	\end{equation}
+	где $f_{0\omega}=[\exp(\omega/T)-1]^{-1}$ -- равновесная функция фотонов.
+	
+	\begin{equation}\nonumber
+	{\cal \chi}_\omega^{(\lambda)}(x) \equiv \frac{1}{x} \int_{-1}^{1} dx' \left\{\varphi^{\lambda 1}_\omega(x,x')+\varphi^{\lambda 2}_\omega(x,x')\right\}\, .
+	\end{equation}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\small
+	С другой стороны можно воспользоваться разложением функции распределения по полиномам Лежандра
+	\begin{equation}\nonumber
+		f_\omega^{(\lambda)}(z,x) = \sum_{\ell=0}^{\infty} A_\ell^{(\lambda)}(z,\omega) {\cal P}_\ell(x)\, ,
+	\end{equation}
+	Преобразование Лапласа по переменной $z$ для полученного решения:
+	\begin{equation}\label{eq:SysEqALap}\nonumber
+		\begin{aligned}
+			&\frac{2}{2 \ell +1} \overline{A}_\ell^{(\lambda)}(s,\omega) = \int_{-1}^{1} \frac{f_{0\omega}^{(\lambda)}}{s+{\cal \chi}^{(\lambda)}_\omega(x)}{\cal P}_\ell(x)dx+
+			\\
+			&+ \sum_{\lambda'=1}^{2}\sum_{\ell'=0}^{\infty}\frac{1}{x}\int_{-1}^{1}dx'\int_{-1}^{1}dx \frac{{\cal P}_\ell(x) {\cal P}_{\ell'}(x')}{s+{\cal \chi}_\omega^{(\lambda)}(x)} \varphi_\omega^{\lambda\lambda'}(x,x')\times
+			\\
+			&\times\bigg(\overline{A}_{\ell'}^{(\lambda')}(s,\omega) - \frac{\Delta \omega}{T}
+			\left[
+			T \frac{\partial \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega} + \overline{A}_{\ell'}^{(\lambda')}(s,\omega)
+			\right]+
+			\\
+			&+ \frac{1}{2}\frac{(\Delta \omega)^2}{T^2}
+			\left[
+			T^2 \frac{\partial^2 \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega^2} + 2T \frac{\partial \overline{A}_{\ell'}^{(\lambda')}(s,\omega)}{\partial \omega}+\overline{A}_{\ell'}^{(\lambda')}(s,\omega)
+			\right]\bigg)\, .
+		\end{aligned}
+	\end{equation}
+	где
+	\begin{equation}\label{lapA}\nonumber
+		\overline{A}_{\ell'}^{(\lambda)}(s,\omega)=\int_{0}^{\infty} A^{(\lambda)}_{\ell'}(z,\omega) e^{-sz}dz\, ,
+	\end{equation}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	 
+	Используя обратное преобразование Лапласа, получим функции распределения фотонов для двух возможных состояний поляризации $\lambda = 1,2$:
+	\begin{equation}\nonumber
+		\alert{	f_\omega^{(\lambda)}(z,x) = \frac{1}{2\pi i}\sum_{\ell=0}^{\infty} 
+			{\cal P}_\ell(x)\int_{\sigma-i\infty}^{\sigma + i \infty}ds \cdot e^{sz} \overline{A}^{(\lambda)}_\ell(s,\omega)}
+	\end{equation}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	Удобно использовать томсоновскую оптическую толщу:
+	\begin{equation}\nonumber
+		\tau_T \simeq  \sigma_T n_e z,
+	\end{equation}
+	на масштабах которой $\tau = 10^{-4} - 10^{-3}$ можно считать, что только резонансная область даёт вклад в модификацию спектра излучения.
+	
+	В пределе $\tau \ll \lambda_\text{К}$:
+	\begin{equation}\nonumber
+		f_\omega^{(\lambda)}(z,x)=f_{0\omega} 	e^{-{\cal \chi}_\omega^{(\lambda)}(x)\cdot z},
+	\end{equation}
+	где $\lambda_\text{К}$ -- комптоновская длина волны.
+\end{frame}
+
+\begin{frame}
+	\begin{figure}\centering
+		\includegraphics[width=0.8\linewidth,clip]{FDistX1tau1b005T3keVSum.eps}\hspace{1mm}
+		
+		Функция распределения фотона, усредненная по объему колонки, поляризации фотона, а также по угловому диапазону $x=cos \theta=[0.875, 1)$ при магнитном поле $B=0.05 B_e$ и температуре $T=3$ кэВ, $\tau_{1}=~1~\times 10^{-1}$, что при концентрации $n_e=10^{19} \text{ см}^{-3}$ соответствует $z_1 = z_{\text{max}} \simeq 150$ м . Штриховая линия соответствует результатам, полученным в работе Schonherr:2007, сплошная линия -- дельта-функциональному приближению.
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\begin{figure}\centering
+		\includegraphics[width=0.8\linewidth,clip]{FDistX05tau1b005T3keVSum.eps}\hspace{1mm}
+		
+		Функция распределения фотона, усредненная по объему колонки, поляризации фотона, а также по угловому диапазону $x=cos \theta=[0.5, 0.625)$ при магнитном поле $B=0.05 B_e$ и температуре $T=3$ кэВ, $\tau_{1}=~1~\times 10^{-1}$, что при концентрации $n_e=10^{19} \text{ см}^{-3}$ соответствует $z_1 = z_{\text{max}} \simeq 150$ м . Штриховая линия соответствует результатам, полученным в работе Schonherr:2007, сплошная линия -- дельта-функциональному приближению.
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\begin{figure}\centering
+		\includegraphics[width=0.8\linewidth,clip]{FDistX0tau1b005T3keVSum.eps}\hspace{1mm}
+		
+		Функция распределения фотона, усредненная по объему колонки, поляризации фотона, а также по угловому диапазону $x=cos \theta=(0, 0.125)$ при магнитном поле $B=0.05 B_e$ и температуре $T=3$ кэВ, $\tau_{1}=~1~\times 10^{-1}$, что при концентрации $n_e=10^{19} \text{ см}^{-3}$ соответствует $z_1 = z_{\text{max}} \simeq 150$ м . Штриховая линия соответствует результатам, полученным в работе Schonherr:2007, сплошная линия -- дельта-функциональному приближению.
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\begin{figure}\centering
+		\includegraphics[width=0.8\linewidth,clip]{FDistX1tau2b005T3keVSum.eps}\hspace{1mm}
+		
+		Функция распределения фотона, усредненная по объему колонки, поляризации фотона, а также по угловому диапазону $x=cos \theta=[0.875, 1)$ при магнитном поле $B=0.05 B_e$ и температуре $T=3$ кэВ, $\tau_{2}=~1$, что при концентрации $n_e=10^{19} \text{ см}^{-3}$ соответствует $z_2 = z_{\text{max}} \simeq 1500$ м . Штриховая линия соответствует результатам, полученным в работе Schonherr:2007, сплошная линия -- дельта-функциональному приближению.
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\begin{figure}\centering
+		\includegraphics[width=0.8\linewidth,clip]{FDistX05tau2b005T3keVSum.eps}\hspace{1mm}
+		
+		Функция распределения фотона, усредненная по объему колонки, поляризации фотона, а также по угловому диапазону $x=cos \theta=[0.5, 0.625)$ при магнитном поле $B=0.05 B_e$ и температуре $T=3$ кэВ, $\tau_{2}=~1$, что при концентрации $n_e=10^{19} \text{ см}^{-3}$ соответствует $z_2 = z_{\text{max}} \simeq 1500$ м . Штриховая линия соответствует результатам, полученным в работе Schonherr:2007, сплошная линия -- дельта-функциональному приближению.
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\begin{figure}\centering
+		\includegraphics[width=0.8\linewidth,clip]{FDistX0tau2b005T3keVSum.eps}\hspace{1mm}
+		
+		Функция распределения фотона, усредненная по объему колонки, поляризации фотона, а также по угловому диапазону $x=cos \theta=(0, 0.125)$ при магнитном поле $B=0.05 B_e$ и температуре $T=3$ кэВ, $\tau_{2}=~1$, что при концентрации $n_e=10^{19} \text{ см}^{-3}$ соответствует $z_2 = z_{\text{max}} \simeq 1500$ м . Штриховая линия соответствует результатам, полученным в работе Schonherr:2007, сплошная линия -- дельта-функциональному приближению.
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\begin{figure}\centering
+		\includegraphics[width=0.49\linewidth,clip]{FDistX1tau1b005T3keVMode1.eps}\hspace{1mm}
+		\includegraphics[width=0.49\linewidth,clip]{FDistX05tau1b005T3keVMode1.eps}\\
+		
+		Функция распределения фотона моды 1 при магнитном поле $B=0.05 B_e$ и температуре $T=3$ кэВ,  для углов $\theta = 0$ ($x=0$) и $\theta = \pi/3$ ($x=0.5$) между направлением импульса начального фотона и направлением магнитного поля, $\tau_{1}=~3~\times 10^{-4}$. Штриховая линия соответствует результатам, полученным в работе Schonherr:2007, сплошная линия -- дельта-функциональному приближению. Концентрация электронов -- $n_e \approx 10^{12}\text{ см}^{-3}$.
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\begin{columns}
+	\begin{column}{0.49\linewidth}
+		\includegraphics[width=1\linewidth,clip]{FDistX1tau1b005T3keVMode2.eps} \hspace{1mm}
+		\includegraphics[width=1\linewidth,clip]{FDistX05tau1b005T3keVMode2.eps}
+	\end{column}
+	\begin{column}{0.55\linewidth}
+			\vspace{4mm}
+			\includegraphics[width=1\linewidth,clip]{FDistX0tau1b005T3keVMode2.eps}
+			\begin{center}
+				\linespread{0.95}\selectfont
+				\small Функция распределения фотона моды 2 при  $B=0.05 B_e$ и  $T=3$ кэВ, для углов $\theta = 0$ ($x=0$), $\theta = \pi/3$ ($x=0.5$) и $\theta=\pi/2$ ($x=1$), а также оптической толщи~$\tau_{1}=~3~\times 10^{-4}$. Штриховая линия соответствует результатам, полученным в работе Schonherr:2007, сплошная линия -- дельта-функциональному приближению. Концентрация электронов -- $n_e \approx 10^{12}\text{ см}^{-3}$.
+			\end{center}
+	\end{column}
+\end{columns}
+\centering
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame} 
+\begin{figure}\centering
+	\includegraphics[width=0.49\linewidth,clip]{FDistX1tau2b005T3keVMode1.eps}\hspace{1mm}
+	\includegraphics[width=0.49\linewidth,clip]{FDistX05tau2b005T3keVMode1.eps}\\
+	Функция распределения фотона моды 1 при $B=0.05 B_e$ и $T=3$ кэВ  для углов $\theta = 0$ ($x=0$) и $\theta = \pi/3$ ($x=0.5$) между направлением импульса начального фотона и направлением магнитного поля, а также оптической толщи~$\tau_{2}=~3~\times 10^{-3}$. Штриховая линия соответствует результатам, полученным в работе Schonherr:2007, сплошная линия -- дельта-функциональному приближению. Концентрация электронов -- $n_e \approx 10^{12}\text{ см}^{-3}$.
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame} 
+\begin{columns}
+	\begin{column}{0.49\linewidth}
+		\includegraphics[width=1\linewidth,clip]{FDistX1tau2b005T3keVMode2.eps} \hspace{1mm}
+		\includegraphics[width=1\linewidth,clip]{FDistX05tau2b005T3keVMode2.eps}
+	\end{column}
+	\begin{column}{0.55\linewidth}
+		\vspace{4mm}
+		\includegraphics[width=1\linewidth,clip]{FDistX0tau2b005T3keVMode2.eps}\\
+\begin{center}
+	\linespread{0.95}\selectfont \small Функция распределения фотона моды 2 при $B=0.05 B_e$ и $T=3$ кэВ, для углов $\theta = 0$ ($x=0$), $\theta = \pi/3$ ($x=0.5$) и $\theta=\pi/2$ ($x=1$), а также оптической толщи~$\tau_{2}=~3~\times 10^{-3}$. Штриховая линия соответствует результатам, полученным в работе Schonherr:2007, а сплошная линия -- дельта-функциональному приближению. Концентрация электронов -- $n_e \approx 10^{12}\text{ см}^{-3}$.
+\end{center}
+
+	\end{column}
+\end{columns}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{\small III. Решение кинетического уравнения с 
+	учетом резонансного комптоновского рассеяния.}
+	\begin{center} Численный анализ\end{center}
+	
+	Можно воспользоваться дельта-функциональным приближением функций~$\varphi_\omega^{\lambda\lambda'}(x,x')$, т.е. представить её знаменатель в виде:
+	\begin{equation}\nonumber\label{eq:DeltaMDelta}
+	\begin{aligned}
+		&\frac{1}{[\omega^2(1-x^2)+2\omega m - 2eB]^2 + (\Gamma_1^{s''}P_0/2)^2}\simeq 
+		\\
+		&\simeq\frac{2\pi}{E_n''\Gamma_n^-} \delta(\omega^2(1-x^2)+2 \omega m - 2eB)=\frac{2\pi}{E_n''\Gamma^-}\sum_{\sigma=\pm1}\frac{\delta(x-x_\sigma)}{2 |x_\sigma| \omega^2} \, ,
+	\end{aligned}
+	\end{equation} 
+	где 
+	\begin{equation}\nonumber\label{eq:xi}
+	x_\sigma = \sigma \sqrt{\frac{\omega^2+2\omega m - 2eB}{\omega^2}}\, .
+	\end{equation}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{\scriptsize III. Решение кинетического уравнения с учетом резонансного 
+комптоновского рассеяния.}
+
+В таком случае интегралы:
+\begin{equation}\nonumber\label{eq:Jll}
+J_\ell^{\lambda\lambda'}(s,\omega) =\int_{-1}^{1}\dd x'\int_{-1}^{1}\dd x \frac{1}{x} \frac{{\cal P}_\ell(x)}{s+\chi_\omega^{(\lambda)}(x)} \varphi^{\lambda \lambda '}_\omega(x,x')\, 
+\end{equation}
+
+будут принимать следующий вид
+\begin{equation}\nonumber\label{eq:J110}
+J_\ell^{11}(s,\omega) \simeq\frac{(eB)^2}{\omega^2m^2}\frac{n_e }{2 E_n''\Gamma_n^-}\sum_{\sigma=\pm1}\frac{1}{|x_\sigma|}\frac{{\cal P}_\ell(x_\sigma)}{x_\sigma s+\frac{4n_e}{\pi(E_n''\Gamma_n^-)^2} \left(\frac{(eB)^2}{m^2}+\frac{\omega^2}{3}\right)} \, ,
+\end{equation}
+\begin{equation}\nonumber
+J_\ell^{12}(s,\omega) \simeq \frac{ n_e}{2 E_n\Gamma_n}\sum_{\sigma=\pm1}\frac{1}{|x_\sigma|} \frac{{\cal P}_\ell(x_\sigma)}{s x_\sigma+\frac{4 n_e}{\pi(E_n''\Gamma_n^-)^2} \left(\frac{(eB)^2}{m^2}+\frac{\omega^2}{3}\right)} 
+\, ,
+\end{equation}
+\begin{equation}\nonumber
+J_\ell^{22}(s,\omega) \simeq\frac{ n_e\omega^2}{(eB)^2 2E_n\Gamma_n^-}\sum_{\sigma=\pm1}\sigma \frac{{\cal P}_\ell(x_\sigma)}{s+\frac{4n_e \omega^2 x_\sigma}{\pi(E_n\Gamma_n^-)^2} \left(\frac{\omega^2 m^2}{3(eB)^2 } + 1\right)}
+\, ,
+\end{equation}
+\begin{equation}\nonumber\label{eq:21J210}
+J_\ell^{21}(s,\omega) \simeq\frac{n_e }{2E_n''\Gamma_n^-}\sum_{\sigma=\pm1}\sigma \frac{{\cal P}_\ell(x_\sigma)}{s+\frac{4 n_e\omega^2 x_\sigma}{\pi(E_n\Gamma_n^-)^2} \left(\frac{\omega^2 m^2}{3(eB)^2 } + 1\right)}
+\, .
+\end{equation}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{\small III. Решение кинетического уравнения с учетом резонансного комптоновского рассеяния.}
+	
+	\begin{center} Численный анализ\end{center}
+	Построим спектр для величин магнитного поля $B=10^{12}$~Гс и температуры 
+	$T\simeq11$~кэВ. Для данных параметров возможен циклотронный резонанс на 
+	частоте $\omega\simeq11.5$ кэВ. 
+	
+	Спектральная плотность мощности:
+	\begin{equation}\nonumber\label{eq:PowerSpectra}
+	R_\omega^{(\lambda)}(z, x)=\frac{\omega^3}{4\pi^3} f_\omega^{(\lambda)}(z, x)\, .
+	\end{equation}
+	
+Спектральная плотность мощности излучения черного тела:
+	\begin{equation}\nonumber\label{eq:BlackPowerSpectra}
+	R_0(\omega)=\frac{\omega^3}{4\pi^3} \frac{1}{\exp[\omega/T]-1}\, ,
+	\end{equation}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{\small III. Решение кинетического уравнения с учетом резонансного 
+комптоновского рассеяния.}
+	\begin{center} Численный анализ\end{center}
+		\begin{figure}
+		\includegraphics[scale=0.4]{TransfMode1z5acmxAll.eps}
+		\includegraphics[scale=0.4,clip, trim={3.3cm 0 0 0}]{TransfMode1z10acmxAll.eps}\\
+		\end{figure}
+		Спектральная плотность моды 1 с учетом резонансного комптоновского процесса. Штриховая линия --  спектральная плотность  чернотельного излучения. $a=\frac{4\pi(E_1''\Gamma_1^-)^2}{2 n_e e^4 m^2}\simeq 1.1$ м.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{\small III. Решение кинетического уравнения с учетом резонансного комптоновского рассеяния.}
+	\begin{figure}
+		\includegraphics[scale=0.35]{TransfMode2z5acmx0.eps}
+		\includegraphics[scale=0.35,clip, trim={3.3cm 0 0 0}]{TransfMode2z5acmx30.eps}
+		
+		\includegraphics[scale=0.35]{TransfMode2z5acmx60.eps}
+		\includegraphics[scale=0.35,clip, trim={3.3cm 0 0 0}]{TransfMode2z5acmx90.eps}
+		
+		Спектральная плотность моды 2 с учетом резонансного комптоновского процесса. Штриховая линия --  спектральная плотность  чернотельного излучения. $a=\frac{4\pi(E_1''\Gamma_1^-)^2}{2 n_e e^4 m^2}\simeq 1.1$ м.
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{\small III. Решение кинетического уравнения с учетом резонансного 
+комптоновского рассеяния.}
+	\begin{figure}
+		\includegraphics[scale=0.35]{TransfMode2z10acmx0.eps}
+		\includegraphics[scale=0.35,clip, trim={3.3cm 0 0 0}]{TransfMode2z10acmx30.eps}
+		
+		\includegraphics[scale=0.35]{TransfMode2z10acmx60.eps}
+		\includegraphics[scale=0.35,clip, trim={3.3cm 0 0 0}]{TransfMode2z10acmx90.eps}
+		
+		Спектральная плотность моды 2 с учетом резонансного комптоновского процесса. Штриховая линия --  спектральная плотность  чернотельного излучения. $a=\frac{4\pi(E_1''\Gamma_1^-)^2}{2 n_e e^4 m^2}\simeq 1.1$ м.
+	\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}	
+	\frametitle{Выводы}
+	\begin{itemize}[label=\textbullet]
+		\item Рассмотрено решение кинетического уравнения для нахождения функции распределения фотонов двух возможных поляризаций в равновесной электронной плазме в относительно сильном магнитном поле в приближении холодной плазмы и с учетом резонанса на виртуальном электроне.
+		\item С помощью преобразования Лапласа и разложения функции распределения по полиномам Лежандра задача сведена к системе дифференциальных уравнений.
+		\item Вычислена спектральная плотность мощности $R(z,\theta)$ для различных параметров $z$, $\theta$. Показано, что для моды 1 спектр слабо зависит от угла $\theta$ между импульсом начального фотона и направлением магнитного поля, тогда как для моды 2 в области резонанса получены существенные отличия.
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\begin{equation}\label{eq:SolveFunc2}
+		f_\omega^{(\lambda)}(z, x) = \frac{1}{2\pi i}\sum_{\ell=0}^{\infty} 
+		{\cal P}_\ell(x) \frac{2\rho m}{(E_1''\Gamma_1^-)^2}\int_{\overline{\sigma}_c-i\infty}^{\overline{\sigma}_c + i \infty}d\overline{s} \cdot e^{\overline{s}z/a} \overline{A}^{(\lambda)}_\ell(\overline{s},\omega)\, ,
+	\end{equation}
+	где 
+	\begin{equation}
+		\overline{\sigma}_c= \frac{(E_1''\Gamma_1^-)^2}{2\rho m} \sigma_c\, ,
+	\end{equation}
+	а также
+	введен параметр размерности длины:
+	\begin{equation}
+		a=\frac{(E_1''\Gamma_1^-)^2}{2\rho m^ 2}\, ,
+	\end{equation}
+	который для рассматриваемых магнитных полей и температур имеет значение порядка $a\simeq 1.1$ м.
+	\begin{equation}
+		\rho \simeq \frac{n_e}{4\pi}e^4\, ,
+	\end{equation}
+	\begin{equation}
+		E_1''\Gamma_1^-=\alpha e B (1-e^{-1})
+	\end{equation}
+\end{frame}
+
+\end{document}
