@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.22)  24 JUN 2026 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.22)  30 JUN 2026 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1433,17 +1433,17 @@ to.pdf>
 (epstopdf)                    size: 16333 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX1tau1b005T
 3keVSum-eps-converted-to.pdf fig/FDistX1tau1b005T3keVSum.eps>
-(epstopdf)             \includegraphics on input line 419.
+(epstopdf)             \includegraphics on input line 421.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX1tau1b005T3keVSum-eps-converted-to.pdf, id=158, 415.5525pt x 257.963
 75pt>
 File: fig/FDistX1tau1b005T3keVSum-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/FDistX1tau1b005T3keVSum-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX1tau1b005T3keVSum-eps-converted-to.pdf  used
- on input line 419.
+ on input line 421.
 (pdftex.def)             Requested size: 245.83282pt x 152.60664pt.
 
-Overfull \vbox (0.80399pt too high) detected at line 419
+Overfull \vbox (0.80399pt too high) detected at line 421
  []
 
 [15
@@ -1458,7 +1458,7 @@ Package epstopdf Info: Source file: <fig/FDistX05tau1b005T3keVSum.eps>
 (epstopdf)                    size: 17476 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX05tau1b005
 T3keVSum-eps-converted-to.pdf fig/FDistX05tau1b005T3keVSum.eps>
-(epstopdf)             \includegraphics on input line 428.
+(epstopdf)             \includegraphics on input line 430.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX05tau1b005T3keVSum-eps-converted-to.pdf, id=168, 415.5525pt x 244.91
 5pt>
@@ -1466,10 +1466,10 @@ File: fig/FDistX05tau1b005T3keVSum-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/FDistX05tau1b005T3keVSum-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX05tau1b005T3keVSum-eps-converted-to.pdf  use
-d on input line 428.
+d on input line 430.
 (pdftex.def)             Requested size: 245.83282pt x 144.88724pt.
 
-Overfull \vbox (5.08458pt too high) detected at line 428
+Overfull \vbox (5.08458pt too high) detected at line 430
  []
 
 [16
@@ -1484,14 +1484,14 @@ to.pdf>
 (epstopdf)                    size: 17589 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX0tau1b005T
 3keVSum-eps-converted-to.pdf fig/FDistX0tau1b005T3keVSum.eps>
-(epstopdf)             \includegraphics on input line 440.
+(epstopdf)             \includegraphics on input line 442.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX0tau1b005T3keVSum-eps-converted-to.pdf, id=178, 415.5525pt x 249.933
 75pt>
 File: fig/FDistX0tau1b005T3keVSum-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/FDistX0tau1b005T3keVSum-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX0tau1b005T3keVSum-eps-converted-to.pdf  used
- on input line 440.
+ on input line 442.
 (pdftex.def)             Requested size: 245.83282pt x 147.85625pt.
  [17
 
@@ -1511,7 +1511,7 @@ d-to.pdf>
 (epstopdf)                    size: 17121 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX1tau1b005T
 3keVMode1-eps-converted-to.pdf fig/FDistX1tau1b005T3keVMode1.eps>
-(epstopdf)             \includegraphics on input line 504.
+(epstopdf)             \includegraphics on input line 506.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX1tau1b005T3keVMode1-eps-converted-to.pdf, id=205, 415.5525pt x 249.9
 3375pt>
@@ -1519,7 +1519,7 @@ File: fig/FDistX1tau1b005T3keVMode1-eps-converted-to.pdf Graphic file (type pdf
 )
 <use fig/FDistX1tau1b005T3keVMode1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX1tau1b005T3keVMode1-eps-converted-to.pdf  us
-ed on input line 504.
+ed on input line 506.
 (pdftex.def)             Requested size: 150.57372pt x 90.56339pt.
 Package epstopdf Info: Source file: <fig/FDistX05tau1b005T3keVMode1.eps>
 (epstopdf)                    date: 2026-03-17 11:46:57
@@ -1530,7 +1530,7 @@ ed-to.pdf>
 (epstopdf)                    size: 17799 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX05tau1b005
 T3keVMode1-eps-converted-to.pdf fig/FDistX05tau1b005T3keVMode1.eps>
-(epstopdf)             \includegraphics on input line 504.
+(epstopdf)             \includegraphics on input line 506.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX05tau1b005T3keVMode1-eps-converted-to.pdf, id=207, 415.5525pt x 244.
 915pt>
@@ -1538,7 +1538,7 @@ File: fig/FDistX05tau1b005T3keVMode1-eps-converted-to.pdf Graphic file (type pd
 f)
 <use fig/FDistX05tau1b005T3keVMode1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX05tau1b005T3keVMode1-eps-converted-to.pdf  u
-sed on input line 504.
+sed on input line 506.
 (pdftex.def)             Requested size: 150.57372pt x 88.74483pt.
  [21
 
@@ -1553,7 +1553,7 @@ d-to.pdf>
 (epstopdf)                    size: 17261 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX1tau1b005T
 3keVMode2-eps-converted-to.pdf fig/FDistX1tau1b005T3keVMode2.eps>
-(epstopdf)             \includegraphics on input line 523.
+(epstopdf)             \includegraphics on input line 525.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX1tau1b005T3keVMode2-eps-converted-to.pdf, id=220, 415.5525pt x 249.9
 3375pt>
@@ -1561,7 +1561,7 @@ File: fig/FDistX1tau1b005T3keVMode2-eps-converted-to.pdf Graphic file (type pdf
 )
 <use fig/FDistX1tau1b005T3keVMode2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX1tau1b005T3keVMode2-eps-converted-to.pdf  us
-ed on input line 523.
+ed on input line 525.
 (pdftex.def)             Requested size: 150.57372pt x 90.56339pt.
 Package epstopdf Info: Source file: <fig/FDistX05tau1b005T3keVMode2.eps>
 (epstopdf)                    date: 2026-03-17 11:47:25
@@ -1572,7 +1572,7 @@ ed-to.pdf>
 (epstopdf)                    size: 17839 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX05tau1b005
 T3keVMode2-eps-converted-to.pdf fig/FDistX05tau1b005T3keVMode2.eps>
-(epstopdf)             \includegraphics on input line 523.
+(epstopdf)             \includegraphics on input line 525.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX05tau1b005T3keVMode2-eps-converted-to.pdf, id=222, 415.5525pt x 244.
 915pt>
@@ -1580,7 +1580,7 @@ File: fig/FDistX05tau1b005T3keVMode2-eps-converted-to.pdf Graphic file (type pd
 f)
 <use fig/FDistX05tau1b005T3keVMode2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX05tau1b005T3keVMode2-eps-converted-to.pdf  u
-sed on input line 523.
+sed on input line 525.
 (pdftex.def)             Requested size: 150.57372pt x 88.74483pt.
 Package epstopdf Info: Source file: <fig/FDistX0tau1b005T3keVMode2.eps>
 (epstopdf)                    date: 2026-04-21 10:58:23
@@ -1591,7 +1591,7 @@ d-to.pdf>
 (epstopdf)                    size: 16863 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX0tau1b005T
 3keVMode2-eps-converted-to.pdf fig/FDistX0tau1b005T3keVMode2.eps>
-(epstopdf)             \includegraphics on input line 523.
+(epstopdf)             \includegraphics on input line 525.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX0tau1b005T3keVMode2-eps-converted-to.pdf, id=224, 415.5525pt x 249.9
 3375pt>
@@ -1599,7 +1599,7 @@ File: fig/FDistX0tau1b005T3keVMode2-eps-converted-to.pdf Graphic file (type pdf
 )
 <use fig/FDistX0tau1b005T3keVMode2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX0tau1b005T3keVMode2-eps-converted-to.pdf  us
-ed on input line 523.
+ed on input line 525.
 (pdftex.def)             Requested size: 169.01036pt x 101.64973pt.
  [22
 
@@ -1615,7 +1615,7 @@ d-to.pdf>
 (epstopdf)                    size: 20758 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX1tau2b005T
 3keVMode1-eps-converted-to.pdf fig/FDistX1tau2b005T3keVMode1.eps>
-(epstopdf)             \includegraphics on input line 532.
+(epstopdf)             \includegraphics on input line 534.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX1tau2b005T3keVMode1-eps-converted-to.pdf, id=240, 415.5525pt x 245.9
 1875pt>
@@ -1623,7 +1623,7 @@ File: fig/FDistX1tau2b005T3keVMode1-eps-converted-to.pdf Graphic file (type pdf
 )
 <use fig/FDistX1tau2b005T3keVMode1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX1tau2b005T3keVMode1-eps-converted-to.pdf  us
-ed on input line 532.
+ed on input line 534.
 (pdftex.def)             Requested size: 150.57372pt x 89.10854pt.
 Package epstopdf Info: Source file: <fig/FDistX05tau2b005T3keVMode1.eps>
 (epstopdf)                    date: 2026-03-17 11:59:10
@@ -1634,7 +1634,7 @@ ed-to.pdf>
 (epstopdf)                    size: 21467 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX05tau2b005
 T3keVMode1-eps-converted-to.pdf fig/FDistX05tau2b005T3keVMode1.eps>
-(epstopdf)             \includegraphics on input line 532.
+(epstopdf)             \includegraphics on input line 534.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX05tau2b005T3keVMode1-eps-converted-to.pdf, id=242, 415.5525pt x 240.
 9pt>
@@ -1642,7 +1642,7 @@ File: fig/FDistX05tau2b005T3keVMode1-eps-converted-to.pdf Graphic file (type pd
 f)
 <use fig/FDistX05tau2b005T3keVMode1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX05tau2b005T3keVMode1-eps-converted-to.pdf  u
-sed on input line 532.
+sed on input line 534.
 (pdftex.def)             Requested size: 150.57372pt x 87.29001pt.
  [23
 
@@ -1657,7 +1657,7 @@ d-to.pdf>
 (epstopdf)                    size: 21119 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX1tau2b005T
 3keVMode2-eps-converted-to.pdf fig/FDistX1tau2b005T3keVMode2.eps>
-(epstopdf)             \includegraphics on input line 550.
+(epstopdf)             \includegraphics on input line 552.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX1tau2b005T3keVMode2-eps-converted-to.pdf, id=255, 415.5525pt x 245.9
 1875pt>
@@ -1665,7 +1665,7 @@ File: fig/FDistX1tau2b005T3keVMode2-eps-converted-to.pdf Graphic file (type pdf
 )
 <use fig/FDistX1tau2b005T3keVMode2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX1tau2b005T3keVMode2-eps-converted-to.pdf  us
-ed on input line 550.
+ed on input line 552.
 (pdftex.def)             Requested size: 150.57372pt x 89.10854pt.
 Package epstopdf Info: Source file: <fig/FDistX05tau2b005T3keVMode2.eps>
 (epstopdf)                    date: 2026-03-17 11:59:46
@@ -1676,7 +1676,7 @@ ed-to.pdf>
 (epstopdf)                    size: 21709 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX05tau2b005
 T3keVMode2-eps-converted-to.pdf fig/FDistX05tau2b005T3keVMode2.eps>
-(epstopdf)             \includegraphics on input line 550.
+(epstopdf)             \includegraphics on input line 552.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX05tau2b005T3keVMode2-eps-converted-to.pdf, id=257, 415.5525pt x 240.
 9pt>
@@ -1684,7 +1684,7 @@ File: fig/FDistX05tau2b005T3keVMode2-eps-converted-to.pdf Graphic file (type pd
 f)
 <use fig/FDistX05tau2b005T3keVMode2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX05tau2b005T3keVMode2-eps-converted-to.pdf  u
-sed on input line 550.
+sed on input line 552.
 (pdftex.def)             Requested size: 150.57372pt x 87.29001pt.
 Package epstopdf Info: Source file: <fig/FDistX0tau2b005T3keVMode2.eps>
 (epstopdf)                    date: 2026-04-21 11:05:54
@@ -1695,7 +1695,7 @@ d-to.pdf>
 (epstopdf)                    size: 19039 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX0tau2b005T
 3keVMode2-eps-converted-to.pdf fig/FDistX0tau2b005T3keVMode2.eps>
-(epstopdf)             \includegraphics on input line 550.
+(epstopdf)             \includegraphics on input line 552.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX0tau2b005T3keVMode2-eps-converted-to.pdf, id=259, 415.5525pt x 249.9
 3375pt>
@@ -1703,7 +1703,7 @@ File: fig/FDistX0tau2b005T3keVMode2-eps-converted-to.pdf Graphic file (type pdf
 )
 <use fig/FDistX0tau2b005T3keVMode2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX0tau2b005T3keVMode2-eps-converted-to.pdf  us
-ed on input line 550.
+ed on input line 552.
 (pdftex.def)             Requested size: 169.01036pt x 101.64973pt.
  [24
 
@@ -1719,17 +1719,17 @@ to.pdf>
 (epstopdf)                    size: 17253 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX1tau2b005T
 3keVSum-eps-converted-to.pdf fig/FDistX1tau2b005T3keVSum.eps>
-(epstopdf)             \includegraphics on input line 559.
+(epstopdf)             \includegraphics on input line 561.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX1tau2b005T3keVSum-eps-converted-to.pdf, id=275, 415.5525pt x 250.937
 5pt>
 File: fig/FDistX1tau2b005T3keVSum-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/FDistX1tau2b005T3keVSum-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX1tau2b005T3keVSum-eps-converted-to.pdf  used
- on input line 559.
+ on input line 561.
 (pdftex.def)             Requested size: 245.83282pt x 148.45004pt.
 
-Overfull \vbox (9.6321pt too high) detected at line 559
+Overfull \vbox (9.6321pt too high) detected at line 561
  []
 
 [25
@@ -1744,7 +1744,7 @@ Package epstopdf Info: Source file: <fig/FDistX05tau2b005T3keVSum.eps>
 (epstopdf)                    size: 17385 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX05tau2b005
 T3keVSum-eps-converted-to.pdf fig/FDistX05tau2b005T3keVSum.eps>
-(epstopdf)             \includegraphics on input line 567.
+(epstopdf)             \includegraphics on input line 569.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX05tau2b005T3keVSum-eps-converted-to.pdf, id=286, 415.5525pt x 244.91
 5pt>
@@ -1752,10 +1752,10 @@ File: fig/FDistX05tau2b005T3keVSum-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/FDistX05tau2b005T3keVSum-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX05tau2b005T3keVSum-eps-converted-to.pdf  use
-d on input line 567.
+d on input line 569.
 (pdftex.def)             Requested size: 245.83282pt x 144.88724pt.
 
-Overfull \vbox (6.06929pt too high) detected at line 567
+Overfull \vbox (6.06929pt too high) detected at line 569
  []
 
 [26
@@ -1770,17 +1770,17 @@ to.pdf>
 (epstopdf)                    size: 17739 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig/FDistX0tau2b005T
 3keVSum-eps-converted-to.pdf fig/FDistX0tau2b005T3keVSum.eps>
-(epstopdf)             \includegraphics on input line 578.
+(epstopdf)             \includegraphics on input line 580.
 Package epstopdf Info: Output file is already uptodate.
 <fig/FDistX0tau2b005T3keVSum-eps-converted-to.pdf, id=296, 415.5525pt x 249.933
 75pt>
 File: fig/FDistX0tau2b005T3keVSum-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/FDistX0tau2b005T3keVSum-eps-converted-to.pdf>
 Package pdftex.def Info: fig/FDistX0tau2b005T3keVSum-eps-converted-to.pdf  used
- on input line 578.
+ on input line 580.
 (pdftex.def)             Requested size: 245.83282pt x 147.85625pt.
 
-Overfull \vbox (9.0383pt too high) detected at line 578
+Overfull \vbox (9.0383pt too high) detected at line 580
  []
 
 [27
@@ -1847,7 +1847,7 @@ public/amsfonts/cm/cmsy8.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/a12l/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on YarkovSRPres.pdf (27 pages, 728839 bytes).
+Output written on YarkovSRPres.pdf (27 pages, 729360 bytes).
 PDF statistics:
  894 PDF objects out of 1000 (max. 8388607)
  60 named destinations out of 1000 (max. 500000)
