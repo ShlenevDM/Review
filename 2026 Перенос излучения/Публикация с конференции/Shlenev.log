@@ -1,45 +1,40 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.13)  19 JUL 2026 11:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.7)  31 JUL 2026 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/2026 РџРµСЂРµРЅРѕСЃ РёР·Р»СѓС‡РµРЅРёСЏ/РџСѓ
-Р±Р»РёРєР°С†РёСЏ СЃ РєРѕРЅС„РµСЂРµРЅС†РёРё/Shlenev.tex"
-
-(D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/2026 РџРµСЂРµРЅРѕСЃ РёР·Р»СѓС‡РµРЅРёСЏ/РџСѓР±
-Р»РёРєР°С†РёСЏ СЃ РєРѕРЅС„РµСЂРµРЅС†РёРё/Shlenev.tex
-LaTeX2e <2023-11-01>
-L3 programming layer <2024-01-04>
-
-(D:/РўРµРѕСЂ. С„РёР·РёРєР°/Review/2026 РџРµСЂРµРЅРѕСЃ РёР·Р»СѓС‡РµРЅРёСЏ/РџСѓР±
-Р»РёРєР°С†РёСЏ СЃ РєРѕРЅС„РµСЂРµРЅС†РёРё\pazh2col-win.cls
+**./Shlenev.tex
+(Shlenev.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(pazh2col-win.cls
 Document Class: pazh2col-win 2023-15-12 LaTeX package for emulation of "Pis'ma 
 v Astronomicheskii Zhurnal"
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count187
-\c@section=\count188
-\c@subsection=\count189
-\c@subsubsection=\count190
-\c@paragraph=\count191
-\c@subparagraph=\count192
-\c@figure=\count193
-\c@table=\count194
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
 )
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
-File: t2aenc.def 2022/06/11 v1.0j Cyrillic encoding definition file
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
+File: t2aenc.def 2023/11/07 v1.0k Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\t2aenc.dfu
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/base\t2aenc.dfu
 File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
@@ -240,33 +235,64 @@ File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+FB05 (decimal 64261)
    defining Unicode char U+FB06 (decimal 64262)
 )))
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\cp1251.def
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\cp1251.def
 File: cp1251.def 2022/06/11 v1.0e Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 42.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 43.
+LaTeX Encoding Info:    Ignoring declaration for text command \texteuro (encodi
+ng ?) on input line 45.
 ))
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2023/12/10 v3.99 The Babel package
-\babel@savecnt=\count195
-\U@D=\dimen141
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count283
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2101.
+\U@D=\dimen149
 \l@unhyphenated=\language79
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count196
+\bbl@dirlevel=\count284
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
-df
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-
+english.tex)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/ru\babel-
+russian.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4320.
+
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ld
+f
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -275,159 +301,150 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 )
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/babel-russian\russianb.
-ldf
+Package babel Info: Importing font and identification data for russian
+(babel)             from babel-ru.ini. Reported on input line 4320.
+
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/babel-russian\russianb.l
+df
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
 Language: russian 2020/09/09 1.3k Russian support for the Babel system
 Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
 ))
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/ru\babel
--russian.tex
-Package babel Info: Importing font and identification data for russian
-(babel)             from babel-ru.ini. Reported on input line 11.
-)
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
--english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
-)
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 )
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/abstract\abstract.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/abstract\abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
-\abstitleskip=\skip50
-\absleftindent=\skip51
-\absrightindent=\skip52
-\absparindent=\skip53
-\absparsep=\skip54
+\abstitleskip=\skip51
+\absleftindent=\skip52
+\absrightindent=\skip53
+\absparindent=\skip54
+\absparsep=\skip55
 )
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
 Package: footmisc 2025/05/09 v7.0b a miscellany of footnote facilities
-
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc-2022-
-02-14.sty
-Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
 \FN@temptoken=\toks19
-\footnotemargin=\dimen142
-\@outputbox@depth=\dimen143
-Package footmisc Info: Declaring symbol style bringhurst on input line 699.
-Package footmisc Info: Declaring symbol style chicago on input line 707.
-Package footmisc Info: Declaring symbol style wiley on input line 716.
-Package footmisc Info: Declaring symbol style lamport-robust on input line 727.
+\footnotemargin=\dimen150
+Package footmisc Info: Declaring symbol style bringhurst on input line 549.
+Package footmisc Info: Declaring symbol style chicago on input line 557.
+Package footmisc Info: Declaring symbol style wiley on input line 566.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 577.
 
-Package footmisc Info: Declaring symbol style lamport* on input line 747.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 768
+Package footmisc Info: Declaring symbol style lamport* on input line 597.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 618
 .
-))
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-\caption@tempdima=\dimen144
-\captionmargin=\dimen145
-\caption@leftmargin=\dimen146
-\caption@rightmargin=\dimen147
-\caption@width=\dimen148
-\caption@indent=\dimen149
-\caption@parindent=\dimen150
-\caption@hangindent=\dimen151
+\caption@tempdima=\dimen151
+\captionmargin=\dimen152
+\caption@leftmargin=\dimen153
+\caption@rightmargin=\dimen154
+\caption@width=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count197
-\c@continuedfloat=\count198
+\c@caption@flags=\count285
+\c@continuedfloat=\count286
 )
-\c@affil=\count199
-) (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+\c@affil=\count287
 )
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 106.
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen152
-\Gin@req@width=\dimen153
-) (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+) (C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen154
+\ex@=\dimen161
 )
-\pmbraise@=\dimen155
+\pmbraise@=\dimen162
 )
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+))
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
-12.
+16.
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.s
-ty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.st
+y
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+) (C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
+eys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ))
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
+sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
- (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+ (C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -436,142 +453,143 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )))
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
-Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count266
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count288
 )
-\csq@reset=\count267
-\csq@gtype=\count268
-\csq@glevel=\count269
-\csq@qlevel=\count270
-\csq@maxlvl=\count271
-\csq@tshold=\count272
+\csq@reset=\count289
+\csq@gtype=\count290
+\csq@glevel=\count291
+\csq@qlevel=\count292
+\csq@maxlvl=\count293
+\csq@tshold=\count294
 \csq@ltx@everypar=\toks22
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
-File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
-) (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty
-Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
+)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty
+Package: cuted 2025/12/15 v2.10 Mixing onecolumn and twocolumn modes (ST)
 \At@ViperColsBreak=\toks23
 \preCutedStrip=\toks24
 \postCutedStrip=\toks25
-\cuted@@tempbox@a=\box51
-\cuted@@tempbox@c=\box52
-\cuted@@tempbox@var=\box53
-\hold@viper=\box54
-\@viper=\box55
-\cuted@@varbox@a=\box56
-\cuted@@varbox@c=\box57
-\cuted@@tempdim@spread=\dimen156
-\cuted@@tempdim@a=\dimen157
-\cuted@@tempdim@b=\dimen158
-\ht@hold@viper=\dimen159
-\ht@viper=\dimen160
-\var@@pagediscards@ht=\dimen161
-\stripsep=\skip55
-\viper@penalty=\count273
+\cuted@@tempbox@a=\box53
+\cuted@@tempbox@c=\box54
+\cuted@@tempbox@var=\box55
+\hold@viper=\box56
+\@viper=\box57
+\cuted@@varbox@a=\box58
+\cuted@@varbox@c=\box59
+\cuted@@tempdim@spread=\dimen163
+\cuted@@tempdim@a=\dimen164
+\cuted@@tempdim@b=\dimen165
+\ht@hold@viper=\dimen166
+\ht@viper=\dimen167
+\var@@pagediscards@ht=\dimen168
+\stripsep=\skip56
+\viper@penalty=\count295
+\strip@page@discards=\dimen169
 )
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
-eys2e.sty
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-01-04 L3 programming layer (loader) 
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3ke
+ys2e.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-12-24 L3 programming layer (loader) 
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count274
-\l__pdf_internal_box=\box58
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count296
 ))
-Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count275
-\l__lipsum_a_int=\count276
-\l__lipsum_b_int=\count277
+\g__lipsum_par_int=\count297
+\l__lipsum_a_int=\count298
+\l__lipsum_b_int=\count299
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/nomencl\nomencl.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/nomencl\nomencl.sty
 Package: nomencl 2021/11/10 v5.6 Nomenclature package
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks26
 \XKV@tempa@toks=\toks27
 )
-\XKV@depth=\count278
+\XKV@depth=\count300
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)) (C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.st
-y
-Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2026/02/02 v3.49.2 KOMA-Script package (handling toc-files)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independen
+t basics and keyval usage)
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
-y
-Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hoo
+k.sty
+Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hook
+s)
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
-ok.sty
-Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
-
-
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
 )))
-Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line
- 368.
+ 370.
 )
-\scr@dte@tocline@numberwidth=\skip56
-\scr@dte@tocline@numbox=\box59
+\scr@dte@tocline@numberwidth=\skip57
+\scr@dte@tocline@numbox=\box60
 )
 Package tocbasic Info: setting babel extension for `nlo' on input line 187.
 Package tocbasic Info: setting babel extension for `nls' on input line 188.
-\nomlabelwidth=\dimen162
-\nom@tempdim=\dimen163
-\nomitemsep=\skip57
+\nomlabelwidth=\dimen170
+\nom@tempdim=\dimen171
+\nomitemsep=\skip58
 )
 \@nomenclaturefile=\write3
 \openout3 = `Shlenev.nlo'.
 
 Package nomencl Info: Writing nomenclature file Shlenev.nlo on input line 30.
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen164
-\WF@size=\dimen165
-\c@WF@wrappedlines=\count279
-\WF@box=\box60
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen172
+\WF@size=\dimen173
+\c@WF@wrappedlines=\count301
+\WF@box=\box61
 \WF@everypar=\toks28
 Package: wrapfig 2003/01/31  v 3.6
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-No file Shlenev.aux.
+(Shlenev.aux
+Package babel Info: 'russian' activates 'russian' shorthands.
+(babel)             Reported on input line 5.
+)
 \openout1 = `Shlenev.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
@@ -595,44 +613,44 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
-\scratchdimen=\dimen166
-\scratchbox=\box61
-\nofMPsegments=\count281
-\nofMParguments=\count282
+\scratchcounter=\count302
+\scratchdimen=\dimen174
+\scratchbox=\box62
+\nofMPsegments=\count303
+\nofMParguments=\count304
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count283
-\MPscratchDim=\dimen167
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen175
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks30
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 114
 .
- (C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 114
 .
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
 114.
 
-(C:\Users\allen\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
+(C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{C:/Users/allen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/a
-llen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{C
-:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t
-s1.enc}
+ [1{C:/Users/a12l/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/a1
+2l/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{C:/
+Users/a12l/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.
+enc}
 
 
 ]
@@ -643,201 +661,179 @@ mr/m/n/10.95 = [] \OML/cmm/m/it/10.95 ^^R$\T2A/cmr/m/n/10.95 , $\OML/cmm/m/it/1
  []
 
 
-LaTeX Warning: Reference `Kineq:Gen' on page 2 undefined on input line 159.
+Underfull \hbox (badness 10000) in paragraph at lines 166--170
+\T2A/cmr/m/n/10.95 Пренебрегая ин-ду-ци-ро-ван-ным из-лу-че-ни-
+ []
 
-! Missing delimiter (. inserted).
-<to be read again> 
-                   +
-l.174 ...ega} + f_\omega^{(\lambda')}(z,x')\right+
-                                                  
-? 
 
-Overfull \hbox (81.19092pt too wide) in alignment at lines 170--177
+Underfull \hbox (badness 10000) in paragraph at lines 166--170
+\T2A/cmr/m/n/10.95 ем, по-лу-чим сле-ду-ю-щее ли-ней-ное интегро-
+ []
+
+
+Overfull \hbox (1.67442pt too wide) in alignment at lines 189--198
  [][][] []
  []
 
-Package epstopdf Info: Source file: <fig1exa.eps>
-(epstopdf)                    date: 2023-07-25 14:34:01
-(epstopdf)                    size: 108687 bytes
-(epstopdf)             Output file: <fig1exa-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=fig1exa-eps-converte
-d-to.pdf fig1exa.eps>
-(epstopdf)             \includegraphics on input line 185.
-runsystem(miktex-epstopdf --outfile=fig1exa-eps-converted-to.pdf fig1exa.eps)..
-.executed safely (allowed).
-
-Package epstopdf Info: Result file: <fig1exa-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-07-19 11:33:58
-(epstopdf)                    size: 27257 bytes.
-<fig1exa-eps-converted-to.pdf, id=29, 619.31375pt x 595.22375pt>
-File: fig1exa-eps-converted-to.pdf Graphic file (type pdf)
-<use fig1exa-eps-converted-to.pdf>
-Package pdftex.def Info: fig1exa-eps-converted-to.pdf  used on input line 185.
-(pdftex.def)             Requested size: 248.25029pt x 238.59389pt.
-Package epstopdf Info: Source file: <fig2exa.eps>
-(epstopdf)                    date: 2023-07-25 14:34:01
-(epstopdf)                    size: 66510 bytes
-(epstopdf)             Output file: <fig2exa-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=fig2exa-eps-converte
-d-to.pdf fig2exa.eps>
-(epstopdf)             \includegraphics on input line 194.
-runsystem(miktex-epstopdf --outfile=fig2exa-eps-converted-to.pdf fig2exa.eps)..
-.executed safely (allowed).
-
-Package epstopdf Info: Result file: <fig2exa-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-07-19 11:33:59
-(epstopdf)                    size: 22653 bytes.
-<fig2exa-eps-converted-to.pdf, id=30, 607.26875pt x 384.43625pt>
-File: fig2exa-eps-converted-to.pdf Graphic file (type pdf)
-<use fig2exa-eps-converted-to.pdf>
-Package pdftex.def Info: fig2exa-eps-converted-to.pdf  used on input line 194.
-(pdftex.def)             Requested size: 248.25029pt x 157.15646pt.
-Package epstopdf Info: Source file: <fig3exa.eps>
-(epstopdf)                    date: 2023-07-25 14:34:01
-(epstopdf)                    size: 103730 bytes
-(epstopdf)             Output file: <fig3exa-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=fig3exa-eps-converte
-d-to.pdf fig3exa.eps>
-(epstopdf)             \includegraphics on input line 195.
-runsystem(miktex-epstopdf --outfile=fig3exa-eps-converted-to.pdf fig3exa.eps)..
-.executed safely (allowed).
-
-Package epstopdf Info: Result file: <fig3exa-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-07-19 11:34:00
-(epstopdf)                    size: 18596 bytes.
-<fig3exa-eps-converted-to.pdf, id=31, 604.2575pt x 374.39874pt>
-File: fig3exa-eps-converted-to.pdf Graphic file (type pdf)
-<use fig3exa-eps-converted-to.pdf>
-Package pdftex.def Info: fig3exa-eps-converted-to.pdf  used on input line 195.
-(pdftex.def)             Requested size: 248.25029pt x 153.81297pt.
-Package epstopdf Info: Source file: <fig2exa.eps>
-(epstopdf)                    date: 2023-07-25 14:34:01
-(epstopdf)                    size: 66510 bytes
-(epstopdf)             Output file: <fig2exa-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-07-19 11:33:59
-(epstopdf)                    size: 22653 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=fig2exa-eps-converte
-d-to.pdf fig2exa.eps>
-(epstopdf)             \includegraphics on input line 205.
+Package babel Info: 'russian' activates 'russian' shorthands.
+(babel)             Reported on input line 208.
+[2]
+Package epstopdf Info: Source file: <fig1.eps>
+(epstopdf)                    date: 2026-07-31 11:19:48
+(epstopdf)                    size: 35549 bytes
+(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-07-31 12:05:46
+(epstopdf)                    size: 13600 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=fig1-eps-converted-t
+o.pdf fig1.eps>
+(epstopdf)             \includegraphics on input line 314.
 Package epstopdf Info: Output file is already uptodate.
-File: fig2exa-eps-converted-to.pdf Graphic file (type pdf)
-<use fig2exa-eps-converted-to.pdf>
-Package pdftex.def Info: fig2exa-eps-converted-to.pdf  used on input line 205.
-(pdftex.def)             Requested size: 248.25029pt x 157.15646pt.
-Package epstopdf Info: Source file: <fig3exa.eps>
-(epstopdf)                    date: 2023-07-25 14:34:01
-(epstopdf)                    size: 103730 bytes
-(epstopdf)             Output file: <fig3exa-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-07-19 11:34:00
-(epstopdf)                    size: 18596 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=fig3exa-eps-converte
-d-to.pdf fig3exa.eps>
-(epstopdf)             \includegraphics on input line 206.
+<fig1-eps-converted-to.pdf, id=37, 413.545pt x 272.01625pt>
+File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use fig1-eps-converted-to.pdf>
+Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 314.
+(pdftex.def)             Requested size: 248.25029pt x 163.294pt.
+Package epstopdf Info: Source file: <fig2.eps>
+(epstopdf)                    date: 2026-07-31 11:19:48
+(epstopdf)                    size: 38278 bytes
+(epstopdf)             Output file: <fig2-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-07-31 12:05:47
+(epstopdf)                    size: 14890 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=fig2-eps-converted-t
+o.pdf fig2.eps>
+(epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
-File: fig3exa-eps-converted-to.pdf Graphic file (type pdf)
-<use fig3exa-eps-converted-to.pdf>
-Package pdftex.def Info: fig3exa-eps-converted-to.pdf  used on input line 206.
-(pdftex.def)             Requested size: 248.25029pt x 153.81297pt.
+<fig2-eps-converted-to.pdf, id=38, 413.545pt x 272.01625pt>
+File: fig2-eps-converted-to.pdf Graphic file (type pdf)
+<use fig2-eps-converted-to.pdf>
+Package pdftex.def Info: fig2-eps-converted-to.pdf  used on input line 321.
+(pdftex.def)             Requested size: 248.25029pt x 163.294pt.
+Package epstopdf Info: Source file: <fig3.eps>
+(epstopdf)                    date: 2026-07-31 11:19:48
+(epstopdf)                    size: 38271 bytes
+(epstopdf)             Output file: <fig3-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-07-31 12:05:48
+(epstopdf)                    size: 14787 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=fig3-eps-converted-t
+o.pdf fig3.eps>
+(epstopdf)             \includegraphics on input line 328.
+Package epstopdf Info: Output file is already uptodate.
+<fig3-eps-converted-to.pdf, id=39, 413.545pt x 261.97874pt>
+File: fig3-eps-converted-to.pdf Graphic file (type pdf)
+<use fig3-eps-converted-to.pdf>
+Package pdftex.def Info: fig3-eps-converted-to.pdf  used on input line 328.
+(pdftex.def)             Requested size: 248.25029pt x 157.2684pt.
 
-LaTeX Warning: Reference `fig1' on page 2 undefined on input line 219.
+Underfull \hbox (badness 3068) in paragraph at lines 310--332
+[]\T2A/cmr/m/n/10.95 Спектр на ос-но-ве ана-ли-ти-че-ско-го ре-ше-ния
+ []
 
-
-LaTeX Warning: Reference `fig1a' on page 2 undefined on input line 221.
-
-[2 <./fig1exa-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig2' on page 3 undefined on input line 223.
-
-
-LaTeX Warning: Reference `introduction' on page 3 undefined on input line 239.
-
-
-LaTeX Warning: Reference `PPdot' on page 3 undefined on input line 259.
-
-
-LaTeX Warning: Reference `PPdot' on page 3 undefined on input line 261.
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 263--267
-[]\T2A/cmr/m/n/10.95 Моделирование спек-тра -- слож-ная за-да-ча,
+[3] [4 <./fig1-eps-converted-to.pdf> <./fig2-eps-converted-to.pdf> <./fig3-eps-
+converted-to.pdf>]
+Underfull \hbox (badness 1127) in paragraph at lines 391--392
+[]\T2A/cmr/m/n/10 Арайя, Хар-динг (R.A. Araya, A.K. Harding )
  []
 
 
-LaTeX Warning: Reference `x_g' on page 3 undefined on input line 294.
-
-
-LaTeX Warning: Reference `r_g' on page 3 undefined on input line 294.
-
-
-LaTeX Warning: Reference `section_AA' on page 3 undefined on input line 294.
-
-[3 <./fig2exa-eps-converted-to.pdf> <./fig3exa-eps-converted-to.pdf>]
-Underfull \hbox (badness 1132) in paragraph at lines 363--365
-[]\T2A/cmr/m/n/10 Дойч (A.J. Deutsch), Ann. d'Astrophys. \T2A/cmr/bx/n/10 18\T2
-A/cmr/m/n/10 , 1
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+[]\T2A/cmr/m/n/10 Арайя, Хар-динг (R.A. Araya-G^^Aochez, A.K.
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 375--378
-[]\T2A/cmr/m/n/10 Трюмпер и др. (J. Tr^^Dumper, W. Pietsch, C.
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+[]\T2A/cmr/m/n/10 Беккер, Вольф (P.A. Becker, M.T. Wolff)
  []
 
-[4
 
-] (Shlenev.aux)
+Underfull \hbox (badness 4899) in paragraph at lines 399--400
+[]\T2A/cmr/m/n/10 Беккер и др. (P. A. Becker, D. Klochkov,
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 399--400
+\T2A/cmr/m/n/10 G. Sch^^Donherr, O. Nishimura, C. Ferrigno, I.
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 401--402
+[]\T2A/cmr/m/n/10 Беккер, Вольф (P.A. Becker and M.T. Wolff)
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 403--404
+[]\T2A/cmr/m/n/10 Компанеец А.С. ЖЭТФ \T2A/cmr/bx/n/10 31\T2A/cmr/m/n/10 , 876 
+(1956) [A.S.
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 409--410
+[]\T2A/cmr/m/n/10 Межарос, На-гель (P. M?sz?ros, W. Nagel)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+[]\T2A/cmr/m/n/10 Румянцев и др. (D.A. Rumyantsev1, M.V.
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 430--431
+[]\T2A/cmr/m/n/10 Ярков и Ру-мян-цев (A.A. Yarkov and D.A.
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 432--433
+[]\T2A/cmr/m/n/10 Румянцев Д.А., Шле-нев Д.М., Яр-ков А.А.
+ []
+
+[5] (Shlenev.aux)
  ***********
-LaTeX2e <2023-11-01>
-L3 programming layer <2024-01-04>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 8991 strings out of 474485
- 160500 string characters out of 5743734
- 1947528 words of memory out of 5000000
- 31085 multiletter control sequences out of 15000+600000
- 581737 words of font info for 90 fonts, out of 8000000 for 9000
+ 9174 strings out of 467870
+ 164855 string characters out of 5418840
+ 784322 words of memory out of 5000000
+ 37863 multiletter control sequences out of 15000+600000
+ 652443 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,15n,107p,1289b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/allen/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/allen/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/allen/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/allen/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/all
-en/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Us
-ers/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy9.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/symbols/msam10.pfb><C:/Users/allen/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/allen/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/allen/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/User
-s/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb>
-<C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0
-600.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-sup
-er/sfrm0800.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/cm-super/sfrm0900.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/cm-super/sfrm1000.pfb><C:/Users/allen/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/cm-super/sfrm1095.pfb><C:/Users/allen/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/cm-super/sfsl1095.pfb><C:/Users/allen/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/cm-super/sfti1000.pfb><C:/Users/allen/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/allen
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on Shlenev.pdf (4 pages, 490940 bytes).
+ 110i,15n,107p,2691b,629s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mex10.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/a12l/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/a12l/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/a12l/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/a12l/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/a12l
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
+s/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
+:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy6.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy9.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/a12l/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/a12l/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/a1
+2l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/U
+sers/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pf
+b><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm
+0600.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-sup
+er/sfrm0800.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/cm-super/sfrm0900.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/cm-super/sfrm1000.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/font
+s/type1/public/cm-super/sfrm1095.pfb><C:/Users/a12l/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/cm-super/sfti1000.pfb><C:/Users/a12l/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/a12l/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on Shlenev.pdf (5 pages, 496050 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
