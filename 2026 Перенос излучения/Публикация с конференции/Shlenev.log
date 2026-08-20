@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.7)  31 JUL 2026 13:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.7)  20 AUG 2026 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,39 +645,56 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line
 (C:\Users\a12l\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{C:/Users/a12l/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/a1
-2l/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{C:/
-Users/a12l/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.
-enc}
-
-
-]
-Underfull \hbox (badness 1215) in paragraph at lines 155--158
-\T2A/cmr/m/n/10.95 Здесь вве-де-ны обо-зна-че-ния $\OML/cmm/m/it/10.95 x \OT1/c
-mr/m/n/10.95 = [] \OML/cmm/m/it/10.95 ^^R$\T2A/cmr/m/n/10.95 , $\OML/cmm/m/it/1
-0.95 x[] \OT1/cmr/m/n/10.95 =
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+[]\T2A/cmr/m/n/10.95 Существует несколь-ко ос-нов-ных спо-со-бов
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+\T2A/cmr/m/n/10.95 ре-ше-ния за-да-чи пе-ре-но-са из-лу-че-ния. Один
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 131--132
+[]\T2A/cmr/m/n/10.95 Для ре-ше-ния ки-не-ти-че-ско-го урав-не-ния рас-
+ []
+
+[1{C:/Users/a12l/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/a12
+l/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{C:/U
+sers/a12l/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.e
+nc}
+
+
+]
+Underfull \hbox (badness 1817) in paragraph at lines 141--143
+\T2A/cmr/m/n/10.95 бро-шен. Здесь ин-дек-сы 1 и 2 со-от-вет-ству-ют
+ []
+
+
+Underfull \vbox (badness 3907) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--173
 \T2A/cmr/m/n/10.95 Пренебрегая ин-ду-ци-ро-ван-ным из-лу-че-ни-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
+Underfull \hbox (badness 10000) in paragraph at lines 169--173
 \T2A/cmr/m/n/10.95 ем, по-лу-чим сле-ду-ю-щее ли-ней-ное интегро-
  []
 
-
-Overfull \hbox (1.67442pt too wide) in alignment at lines 189--198
- [][][] []
+Package babel Info: 'russian' activates 'russian' shorthands.
+(babel)             Reported on input line 201.
+[2] [3]
+Underfull \hbox (badness 3068) in paragraph at lines 328--329
+[]\T2A/cmr/m/n/10.95 Спектр на ос-но-ве ана-ли-ти-че-ско-го ре-ше-ния
  []
 
-Package babel Info: 'russian' activates 'russian' shorthands.
-(babel)             Reported on input line 208.
-[2]
+
+Underfull \hbox (badness 1009) in paragraph at lines 328--329
+\T2A/cmr/m/n/10.95 лон-ки и по по-ля-ри-за-ци-ям фо-то-нов, пред-став-
+ []
+
 Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    date: 2026-07-31 11:19:48
 (epstopdf)                    size: 35549 bytes
@@ -686,12 +703,12 @@ Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    size: 13600 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig1-eps-converted-t
 o.pdf fig1.eps>
-(epstopdf)             \includegraphics on input line 314.
+(epstopdf)             \includegraphics on input line 333.
 Package epstopdf Info: Output file is already uptodate.
-<fig1-eps-converted-to.pdf, id=37, 413.545pt x 272.01625pt>
+<fig1-eps-converted-to.pdf, id=39, 413.545pt x 272.01625pt>
 File: fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 314.
+Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 333.
 (pdftex.def)             Requested size: 248.25029pt x 163.294pt.
 Package epstopdf Info: Source file: <fig2.eps>
 (epstopdf)                    date: 2026-07-31 11:19:48
@@ -701,12 +718,12 @@ Package epstopdf Info: Source file: <fig2.eps>
 (epstopdf)                    size: 14890 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig2-eps-converted-t
 o.pdf fig2.eps>
-(epstopdf)             \includegraphics on input line 321.
+(epstopdf)             \includegraphics on input line 341.
 Package epstopdf Info: Output file is already uptodate.
-<fig2-eps-converted-to.pdf, id=38, 413.545pt x 272.01625pt>
+<fig2-eps-converted-to.pdf, id=40, 413.545pt x 272.01625pt>
 File: fig2-eps-converted-to.pdf Graphic file (type pdf)
 <use fig2-eps-converted-to.pdf>
-Package pdftex.def Info: fig2-eps-converted-to.pdf  used on input line 321.
+Package pdftex.def Info: fig2-eps-converted-to.pdf  used on input line 341.
 (pdftex.def)             Requested size: 248.25029pt x 163.294pt.
 Package epstopdf Info: Source file: <fig3.eps>
 (epstopdf)                    date: 2026-07-31 11:19:48
@@ -716,89 +733,82 @@ Package epstopdf Info: Source file: <fig3.eps>
 (epstopdf)                    size: 14787 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig3-eps-converted-t
 o.pdf fig3.eps>
-(epstopdf)             \includegraphics on input line 328.
+(epstopdf)             \includegraphics on input line 349.
 Package epstopdf Info: Output file is already uptodate.
-<fig3-eps-converted-to.pdf, id=39, 413.545pt x 261.97874pt>
+<fig3-eps-converted-to.pdf, id=41, 413.545pt x 261.97874pt>
 File: fig3-eps-converted-to.pdf Graphic file (type pdf)
 <use fig3-eps-converted-to.pdf>
-Package pdftex.def Info: fig3-eps-converted-to.pdf  used on input line 328.
+Package pdftex.def Info: fig3-eps-converted-to.pdf  used on input line 349.
 (pdftex.def)             Requested size: 248.25029pt x 157.2684pt.
-
-Underfull \hbox (badness 3068) in paragraph at lines 310--332
-[]\T2A/cmr/m/n/10.95 Спектр на ос-но-ве ана-ли-ти-че-ско-го ре-ше-ния
- []
-
-[3] [4 <./fig1-eps-converted-to.pdf> <./fig2-eps-converted-to.pdf> <./fig3-eps-
-converted-to.pdf>]
-Underfull \hbox (badness 1127) in paragraph at lines 391--392
-[]\T2A/cmr/m/n/10 Арайя, Хар-динг (R.A. Araya, A.K. Harding )
- []
+[4 <./fig1-eps-converted-to.pdf> <./fig2-eps-converted-to.pdf>]
+Underfull \vbox (badness 5417) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
-[]\T2A/cmr/m/n/10 Арайя, Хар-динг (R.A. Araya-G^^Aochez, A.K.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
-[]\T2A/cmr/m/n/10 Беккер, Вольф (P.A. Becker, M.T. Wolff)
- []
-
-
-Underfull \hbox (badness 4899) in paragraph at lines 399--400
-[]\T2A/cmr/m/n/10 Беккер и др. (P. A. Becker, D. Klochkov,
- []
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 399--400
-\T2A/cmr/m/n/10 G. Sch^^Donherr, O. Nishimura, C. Ferrigno, I.
- []
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 401--402
+Underfull \hbox (badness 1275) in paragraph at lines 413--414
 []\T2A/cmr/m/n/10 Беккер, Вольф (P.A. Becker and M.T. Wolff)
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 403--404
+Underfull \hbox (badness 1005) in paragraph at lines 416--417
+[]\T2A/cmr/m/n/10 Беккер и др. (P. A. Becker, D. Klochkov, G.
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 419--420
+[]\T2A/cmr/m/n/10 Беккер, Вольф (P.A. Becker and M.T. Wolff)
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 422--423
 []\T2A/cmr/m/n/10 Компанеец А.С. ЖЭТФ \T2A/cmr/bx/n/10 31\T2A/cmr/m/n/10 , 876 
 (1956) [A.S.
  []
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 409--410
-[]\T2A/cmr/m/n/10 Межарос, На-гель (P. M?sz?ros, W. Nagel)
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+[]\T2A/cmr/m/n/10 Муштуков и др. (A.A. Mushtukov, V.F.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
-[]\T2A/cmr/m/n/10 Румянцев и др. (D.A. Rumyantsev1, M.V.
+Underfull \hbox (badness 3942) in paragraph at lines 439--440
+\T2A/cmr/m/n/10 Suleimanov, S.S. Tsygankov, and S.P. Zwart)
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 430--431
-[]\T2A/cmr/m/n/10 Ярков и Ру-мян-цев (A.A. Yarkov and D.A.
+Underfull \hbox (badness 3098) in paragraph at lines 445--446
+[]\T2A/cmr/m/n/10 Муштуков, Зварт (A.A. Mushtukov and S.P.
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 432--433
-[]\T2A/cmr/m/n/10 Румянцев Д.А., Шле-нев Д.М., Яр-ков А.А.
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+[]\T2A/cmr/m/n/10 Румянцев и др. (D.A. Rumyantsev, M.V.
  []
 
-[5] (Shlenev.aux)
+
+Underfull \hbox (badness 2197) in paragraph at lines 463--464
+\T2A/cmr/m/n/10 Chistyakov, T.A. Puhov) Phys. At. Nucl. \T2A/cmr/bx/n/10 89\T2A
+/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+[]\T2A/cmr/m/n/10 Ярков, Ру-мян-цев (A.A. Yarkov and D.A.
+ []
+
+[5 <./fig3-eps-converted-to.pdf>] (Shlenev.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9174 strings out of 467870
- 164855 string characters out of 5418840
- 784322 words of memory out of 5000000
- 37863 multiletter control sequences out of 15000+600000
+ 9169 strings out of 467870
+ 164791 string characters out of 5418840
+ 781322 words of memory out of 5000000
+ 37858 multiletter control sequences out of 15000+600000
  652443 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,15n,107p,2691b,629s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,15n,107p,2700b,629s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mex10.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmmi10.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -816,24 +826,23 @@ s/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
 cm/cmsy6.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmsy7.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy9.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/a12l/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/a12l/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/a1
-2l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/U
-sers/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pf
+ype1/public/amsfonts/symbols/msam10.pfb><C:/Users/a12l/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/a12l/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/a12l/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/a1
+2l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/U
+sers/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pf
 b><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm
-0600.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-sup
-er/sfrm0800.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/cm-super/sfrm0900.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/cm-super/sfrm1000.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/font
-s/type1/public/cm-super/sfrm1095.pfb><C:/Users/a12l/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/cm-super/sfti1000.pfb><C:/Users/a12l/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/a12l/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on Shlenev.pdf (5 pages, 496050 bytes).
+0800.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-sup
+er/sfrm0900.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/cm-super/sfrm1000.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/cm-super/sfrm1095.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/font
+s/type1/public/cm-super/sfti1000.pfb><C:/Users/a12l/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/a12l/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on Shlenev.pdf (5 pages, 477622 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
+ 178 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

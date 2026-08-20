@@ -1,0 +1,17 @@
+This is 8-bit Big BibTeX version 0.99d-x4.02 ( 25.12)
+Implementation:  Microsoft(R) C/C++ for Win32
+Release version: 4.02 (16 dec 2023)
+
+The 8-bit codepage and sorting file: cp1251.csf
+The top-level auxiliary file: Shlenev.aux
+I found no \bibdata command---while reading file Shlenev.aux
+I found no \bibstyle command---while reading file Shlenev.aux
+
+Here's how much of BibTeX's memory you used:
+ Cites:                 1 out of 750
+ Fields:                0 out of 5000
+ Hash table:        10001 out of 10000
+ Strings:              85 out of 10000
+ Free string pool:    497 out of 65000
+ Wizard functions:      0 out of 3000
+(There were 2 error messages)
