@@ -313,15 +313,13 @@
 \newblock Vol. 219.
 \newblock P.~L105--L110.
 
-\bibitem{Rum_Q2012}
-\selectlanguageifdefined{english}
-\BibEmph{Rumyantsev~D.~A.} {Resonant electron-positron pairs production in
-  magnetar polar cap}~// {Quarks'2012. Proc. of 17-th Int. Seminar
-  «Quarks'2012», Yaroslavl, Russia, 2012. Ed. by V.A.~Khlebnikov, e.a. Inst.
-  Nucl. Res., Moscow}.
-\newblock Vol.~{2}.
-\newblock 2013.
-\newblock P.~222--228.
+\bibitem{Rum:2013}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~Д.~А.} {Резонансный механизм рождения $e^+e^-$ пар в сильном
+  магнитном поле}~// \BibEmph{Ядерная физика}.
+\newblock {2013}.
+\newblock {\cyr\CYRT.}~{76}, {\cyr\textnumero}~{12}.
+\newblock {\cyr\CYRS.}~{1605--1609}.
 
 \bibitem{Melrose:1983}
 \selectlanguageifdefined{english}
@@ -570,21 +568,14 @@
 \newblock Vol. 121, no.~2.
 \newblock P.~432--464.
 
-\bibitem{Adler:1971}
+\bibitem{RumyantsevDouble:2026}
 \selectlanguageifdefined{english}
-\BibEmph{{Adler}~S.~L.} {Photon splitting and photon dispersion in a strong
-  magnetic field.}~// \BibEmph{Annals of Physics}.
-\newblock 1971.
-\newblock Vol.~67.
-\newblock P.~599--647.
-
-\bibitem{Mushtukov:2016}
-\selectlanguageifdefined{english}
-\BibEmph{Mushtukov~A.~A., Nagirner~D.~I., Poutanen~J.} {Compton scattering
-  S-matrix and cross section in strong magnetic field}~// \BibEmph{Phys. Rev.}
-\newblock 2016.
-\newblock Vol. D93, no.~10.
-\newblock P.~105003.
+\BibEmph{Rumyantsev~D., Chistyakov~M., Puhov~T.} Influence of External Active
+  Medium on the Process of Double Compton Scattering~// \BibEmph{Physics of
+  Atomic Nuclei}.
+\newblock 2026.
+\newblock Vol.~89.
+\newblock P.~234--240.
 
 \bibitem{Potekhin:2004}
 \selectlanguageifdefined{english}
@@ -827,6 +818,14 @@
 \newblock {\cyr\CYRT.} 117, {\cyr\textnumero}~2.
 \newblock {\cyr\CYRS.}~319--325.
 
+\bibitem{Mushtukov:2016}
+\selectlanguageifdefined{english}
+\BibEmph{Mushtukov~A.~A., Nagirner~D.~I., Poutanen~J.} {Compton scattering
+  S-matrix and cross section in strong magnetic field}~// \BibEmph{Phys. Rev.}
+\newblock 2016.
+\newblock Vol. D93, no.~10.
+\newblock P.~105003.
+
 \bibitem{Rumyantsev:2017}
 \selectlanguageifdefined{russian}
 \BibEmph{Румянцев~Д.~А., Шленев~Д.~М., Ярков~А.~А.} {Резонансы в
@@ -835,6 +834,15 @@
 \newblock {2017}.
 \newblock {\cyr\CYRT.} {152}, {\cyr\textnumero}~{3}.
 \newblock {\cyr\CYRS.}~{483--494}.
+
+\bibitem{Rumyantsev:2026}
+\selectlanguageifdefined{russian}
+\BibEmph{Румянцев~Д.~А., Ярков~А.~А., Шленев~Д.~М.} Резонансное комптоновское
+  рассеяние в замагниченной среде~// \BibEmph{Журнал экспериментальной и
+  теоретической физики}.
+\newblock 2026.
+\newblock {\cyr\CYRT.} 169, {\cyr\textnumero}~{6}.
+\newblock {\cyr\CYRS.}~{607--620}.
 
 \bibitem{Weldon:1983}
 \selectlanguageifdefined{english}
@@ -1139,13 +1147,6 @@
 \newblock {\cyr\CYRT.}~{73}, {\cyr\textnumero}~{12}.
 \newblock {\cyr\CYRS.}~{726--730}.
 
-\bibitem{Boyan}
-\selectlanguageifdefined{english}
-\BibEmph{Boyanovsky~D., de~Vega~H.~J., Lee~D.-S. et~al.} Fermion damping in a
-  fermion-scalar plasma~// \BibEmph{Phys. Rev.~D}.
-\newblock 1999.
-\newblock Vol.~59, no. 10, 105001.
-
 \bibitem{Kirzhnits:1987}
 \selectlanguageifdefined{english}
 \BibEmph{Киржниц~Д.~А.} Общие свойства электромагнитных функций отклика~//
@@ -1153,13 +1154,5 @@
 \newblock 1987.
 \newblock Vol. 152, no.~7.
 \newblock P.~399--422.
-
-\bibitem{Landau:2001}
-\selectlanguageifdefined{russian}
-\BibEmph{Ландау~Л.~Д., Лифшиц~Е.~М., Питаевский~Л.~П.} Теоретическая физика: ч.
-  2. Статистическая физика. Теория конденсированного состояния.
-\newblock ФИЗМАТЛИТ, 2001.
-\newblock {\cyr\CYRT.}~IX.
-\newblock 496~{\cyr\cyrs.}
 
 \end{thebibliography}

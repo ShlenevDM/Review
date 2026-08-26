@@ -1,6 +1,6 @@
-This is 8-bit Big BibTeX version 0.99d
+This is 8-bit Big BibTeX version 0.99d-x4.02 ( 25.12)
 Implementation:  Microsoft(R) C/C++ for Win32
-Release version: 3.71 (31 May 2005)
+Release version: 4.02 (16 dec 2023)
 
 The 8-bit codepage and sorting file: cp1251.csf
 The top-level auxiliary file: ResonanceRew2024.aux
@@ -10,9 +10,9 @@ Reallocated global_strs (elt_size=1001) to 10 items from 0.
 Reallocated glb_str_end (elt_size=4) to 10 items from 0.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12089 items from 5000.
+Reallocated field_info (elt_size=4) to 12038 items from 5000.
 Database file #1: Bib.bib
-I was expecting a `,' or a `}'---line 1323 of file Bib.bib
+I was expecting a `,' or a `}'---line 1335 of file Bib.bib
  :  
  :  Серия Естественные и технические науки",
 (Error may have been on previous line)
@@ -21,10 +21,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty journal in Kuznetsov:2013
 
 Here's how much of BibTeX's memory you used:
- Cites:               139 out of 750
- Fields:             7040 out of 12089
- Hash table:        18471 out of 19000
- Strings:            1960 out of 19000
- Free string pool:  32278 out of 65000
+ Cites:               138 out of 750
+ Fields:             6989 out of 12038
+ Hash table:         9425 out of 10000
+ Strings:            1959 out of 10000
+ Free string pool:  32131 out of 65000
  Wizard functions:   3568 out of 6000
 (There was 1 error message)
