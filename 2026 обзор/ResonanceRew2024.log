@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.7)  10 AUG 2026 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.7)  25 AUG 2026 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1042,12 +1042,12 @@ ted-to.pdf> <./image/Chapter_4/AliceDeltaAverageB0039T01Deg85-eps-converted-to.
 pdf>] [31
 
 ]
-Overfull \hbox (6.78558pt too wide) detected at line 560
+Overfull \hbox (6.78558pt too wide) detected at line 562
 [][][][][][]
  []
 
 
-Overfull \hbox (29.38138pt too wide) in paragraph at lines 560--565
+Overfull \hbox (29.38138pt too wide) in paragraph at lines 562--567
 \T2A/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 J[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/1
 4.4 x\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 -- функ-ция Бес-се-ля це-ло-го ин-д
 ек-са, [],
@@ -1063,14 +1063,14 @@ to.pdf>
 (epstopdf)                    size: 17872 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Splo
 t112001-eps-converted-to.pdf image/Chapter_4/Splot112001.eps>
-(epstopdf)             \includegraphics on input line 584.
+(epstopdf)             \includegraphics on input line 586.
 Package epstopdf Info: Output file is already uptodate.
 <image/Chapter_4/Splot112001-eps-converted-to.pdf, id=641, 258.9675pt x 153.573
 75pt>
 File: image/Chapter_4/Splot112001-eps-converted-to.pdf Graphic file (type pdf)
 <use image/Chapter_4/Splot112001-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/Splot112001-eps-converted-to.pdf  used
- on input line 584.
+ on input line 586.
 (pdftex.def)             Requested size: 386.95894pt x 229.50003pt.
 Package epstopdf Info: Source file: <image/Chapter_4/Splot11201.eps>
 (epstopdf)                    date: 2026-06-02 06:54:49
@@ -1081,14 +1081,14 @@ o.pdf>
 (epstopdf)                    size: 14394 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Splo
 t11201-eps-converted-to.pdf image/Chapter_4/Splot11201.eps>
-(epstopdf)             \includegraphics on input line 590.
+(epstopdf)             \includegraphics on input line 592.
 Package epstopdf Info: Output file is already uptodate.
 <image/Chapter_4/Splot11201-eps-converted-to.pdf, id=642, 258.9675pt x 154.5775
 pt>
 File: image/Chapter_4/Splot11201-eps-converted-to.pdf Graphic file (type pdf)
 <use image/Chapter_4/Splot11201-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/Splot11201-eps-converted-to.pdf  used 
-on input line 590.
+on input line 592.
 (pdftex.def)             Requested size: 386.95894pt x 231.00002pt.
 Package epstopdf Info: Source file: <image/Chapter_4/Splot122001.eps>
 (epstopdf)                    date: 2026-06-02 06:54:49
@@ -1099,14 +1099,14 @@ to.pdf>
 (epstopdf)                    size: 15481 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Splo
 t122001-eps-converted-to.pdf image/Chapter_4/Splot122001.eps>
-(epstopdf)             \includegraphics on input line 596.
+(epstopdf)             \includegraphics on input line 598.
 Package epstopdf Info: Output file is already uptodate.
 <image/Chapter_4/Splot122001-eps-converted-to.pdf, id=645, 258.9675pt x 153.573
 75pt>
 File: image/Chapter_4/Splot122001-eps-converted-to.pdf Graphic file (type pdf)
 <use image/Chapter_4/Splot122001-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/Splot122001-eps-converted-to.pdf  used
- on input line 596.
+ on input line 598.
 (pdftex.def)             Requested size: 386.95894pt x 229.50003pt.
 Package epstopdf Info: Source file: <image/Chapter_4/Splot12201.eps>
 (epstopdf)                    date: 2026-06-02 06:54:49
@@ -1117,14 +1117,14 @@ o.pdf>
 (epstopdf)                    size: 13629 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=image/Chapter_4/Splo
 t12201-eps-converted-to.pdf image/Chapter_4/Splot12201.eps>
-(epstopdf)             \includegraphics on input line 602.
+(epstopdf)             \includegraphics on input line 604.
 Package epstopdf Info: Output file is already uptodate.
 <image/Chapter_4/Splot12201-eps-converted-to.pdf, id=648, 258.9675pt x 154.5775
 pt>
 File: image/Chapter_4/Splot12201-eps-converted-to.pdf Graphic file (type pdf)
 <use image/Chapter_4/Splot12201-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_4/Splot12201-eps-converted-to.pdf  used 
-on input line 602.
+on input line 604.
 (pdftex.def)             Requested size: 386.95894pt x 231.00002pt.
  [34 <./image/Chapter_4/Splot112001-eps-converted-to.pdf>] [35 <./image/Chapter
 _4/Splot11201-eps-converted-to.pdf> <./image/Chapter_4/Splot122001-eps-converte
@@ -1253,8 +1253,8 @@ Package pdftex.def Info: image/Chapter_6/CompareDampAndCompton-eps-converted-to
 pareDampAndCompton-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <image/Chapter_6/CompareDampAndCompton2.eps
 >
-(epstopdf)                    date: 2026-06-02 06:54:49
-(epstopdf)                    size: 46461 bytes
+(epstopdf)                    date: 2026-07-14 16:25:58
+(epstopdf)                    size: 58688 bytes
 (epstopdf)             Output file: <image/Chapter_6/CompareDampAndCompton2-eps
 -converted-to.pdf>
 (epstopdf)                    date: 2026-06-02 06:54:49
@@ -1263,15 +1263,22 @@ Package epstopdf Info: Source file: <image/Chapter_6/CompareDampAndCompton2.eps
 areDampAndCompton2-eps-converted-to.pdf image/Chapter_6/CompareDampAndCompton2.
 eps>
 (epstopdf)             \includegraphics on input line 166.
-Package epstopdf Info: Output file is already uptodate.
-<image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf, id=924, 257.96375
-pt x 168.63pt>
+runsystem(miktex-epstopdf --outfile=image/Chapter_6/CompareDampAndCompton2-eps-
+converted-to.pdf image/Chapter_6/CompareDampAndCompton2.eps)...executed safely 
+(allowed).
+
+Package epstopdf Info: Result file: <image/Chapter_6/CompareDampAndCompton2-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2026-08-25 16:27:28
+(epstopdf)                    size: 21520 bytes.
+<image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf, id=924, 259.97125
+pt x 169.63374pt>
 File: image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf>
 Package pdftex.def Info: image/Chapter_6/CompareDampAndCompton2-eps-converted-t
 o.pdf  used on input line 166.
-(pdftex.def)             Requested size: 335.35281pt x 219.21896pt.
+(pdftex.def)             Requested size: 337.96259pt x 220.52382pt.
  [50
 
  <./image/Chapter_6/CompareDampAndCompton2-eps-converted-to.pdf>]) (conclusion.
@@ -1354,7 +1361,7 @@ ers/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb
 074.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-supe
 r/sfti1440.pfb><C:/Users/a12l/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 cm-super/sftt1440.pfb>
-Output written on ResonanceRew2024.pdf (66 pages, 1257884 bytes).
+Output written on ResonanceRew2024.pdf (66 pages, 1262148 bytes).
 PDF statistics:
  1204 PDF objects out of 1440 (max. 8388607)
  322 named destinations out of 1000 (max. 500000)
