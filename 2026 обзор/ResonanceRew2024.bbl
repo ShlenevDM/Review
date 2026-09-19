@@ -577,6 +577,14 @@
 \newblock Vol.~89.
 \newblock P.~234--240.
 
+\bibitem{Mushtukov:2016}
+\selectlanguageifdefined{english}
+\BibEmph{Mushtukov~A.~A., Nagirner~D.~I., Poutanen~J.} {Compton scattering
+  S-matrix and cross section in strong magnetic field}~// \BibEmph{Phys. Rev.}
+\newblock 2016.
+\newblock Vol. D93, no.~10.
+\newblock P.~105003.
+
 \bibitem{Potekhin:2004}
 \selectlanguageifdefined{english}
 \BibEmph{{Potekhin}~A.~Y., {Lai}~D., {Chabrier}~G., {Ho}~W. C.~G.}
@@ -817,14 +825,6 @@
 \newblock 2000.
 \newblock {\cyr\CYRT.} 117, {\cyr\textnumero}~2.
 \newblock {\cyr\CYRS.}~319--325.
-
-\bibitem{Mushtukov:2016}
-\selectlanguageifdefined{english}
-\BibEmph{Mushtukov~A.~A., Nagirner~D.~I., Poutanen~J.} {Compton scattering
-  S-matrix and cross section in strong magnetic field}~// \BibEmph{Phys. Rev.}
-\newblock 2016.
-\newblock Vol. D93, no.~10.
-\newblock P.~105003.
 
 \bibitem{Rumyantsev:2017}
 \selectlanguageifdefined{russian}
