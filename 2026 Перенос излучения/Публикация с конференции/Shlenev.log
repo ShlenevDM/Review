@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.7)  27 AUG 2026 10:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.7)  24 SEP 2026 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -655,6 +655,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
  []
 
 
+Underfull \hbox (badness 3460) in paragraph at lines 124--125
+\T2A/cmr/m/n/10.95 ме-тод Монте-Карло. Од-ни-ми из пер-вых его
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+\T2A/cmr/m/n/10.95 яв-ля-ет-ся до-ста-точ-но мощ-ным ин-стру-мен-том
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 124--125
+\T2A/cmr/m/n/10.95 для мо-де-ли-ро-ва-ния слож-ных фи-зи-че-ских си-
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 124--125
+\T2A/cmr/m/n/10.95 в ли-те-ра-ту-ре от-сут-ству-ет. В дан-ной ра-бо-те
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 124--125
+\T2A/cmr/m/n/10.95 элек-трон-ной плаз-ме при от-но-си-тель-но сла-бом
+ []
+
+
 Underfull \hbox (badness 1210) in paragraph at lines 131--132
 []\T2A/cmr/m/n/10.95 Для ре-ше-ния ки-не-ти-че-ско-го урав-не-ния рас-
  []
@@ -666,6 +691,50 @@ nc}
 
 
 ]
+Underfull \hbox (badness 3668) in paragraph at lines 158--161
+\T2A/cmr/m/n/10.95 где $\OML/cmm/m/it/10.95 ^^R$\T2A/cmr/m/n/10.95 , $\OML/cmm/
+m/it/10.95 ^^R[]$ \T2A/cmr/m/n/10.95 -- уг-лы меж-ду маг-нит-ным по-лем
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 158--161
+\T2A/cmr/m/n/10.95 и им-пуль-са-ми на-чаль-но-го и ко-неч-но-го фо-то-
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 158--161
+\T2A/cmr/m/n/10.95 на со-от-вет-ствен-но, $\OML/cmm/m/it/10.95 f[]; f[]$ \T2A/c
+mr/m/n/10.95 -- нерав-но-вес-ные
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 158--161
+\T2A/cmr/m/n/10.95 функ-ции рас-пре-де-ле-ния на-чаль-ных и ко-неч-
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 158--161
+\T2A/cmr/m/n/10.95 ных и ко-неч-ных элек-тро-нов с энер-ги-я-ми $\OML/cmm/m/it/
+10.95 E$
+ []
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 158--161
+\T2A/cmr/m/n/10.95 и $\OML/cmm/m/it/10.95 E[]$ \T2A/cmr/m/n/10.95 при ну-ле-вом
+ хи-ми-че-ском по-тен-ци-а-ле.
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 162--164
+\T2A/cmr/m/n/10.95 тах (Ком-па-не-ец, 1956) и (Лю-бар-ский, 1988),
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 162--164
+\T2A/cmr/m/n/10.95 раз-ло-жим урав-не-ние (2[]) по ма-ло-му из-ме-не-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 169--173
 \T2A/cmr/m/n/10.95 Пренебрегая ин-ду-ци-ро-ван-ным из-лу-че-ни-
  []
@@ -676,30 +745,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--173
  []
 
 Package babel Info: 'russian' activates 'russian' shorthands.
-(babel)             Reported on input line 192.
+(babel)             Reported on input line 188.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 201--205
-\T2A/cmr/m/n/10.95 где сум-ми-ро-ва-ние про-во-дит-ся по воз-мож-
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 201--205
-\T2A/cmr/m/n/10.95 ным по-ля-ри-за-ци-он-ным со-сто-я-ни-ям элек-тро-на,
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 201--205
-\T2A/cmr/m/n/10.95 элек-тро-на, $\OT1/cmr/m/n/10.95 ^^@[]$ \T2A/cmr/m/n/10.95 -
-- пол-ная ши-ри-на по-гло-ще-ния
- []
-
-
-Underfull \hbox (badness 3260) in paragraph at lines 201--205
-\T2A/cmr/m/n/10.95 элек-тро-на для маг-нит-но-го по-ля без плаз-мы
+Underfull \hbox (badness 1953) in paragraph at lines 207--211
+\T2A/cmr/m/n/10.95 ля-ри-за-ци-он-ным со-сто-я-ни-ям элек-тро-на $\OML/cmm/m/it
+/10.95 ^^X; ^^X[]; ^^X[]$\T2A/cmr/m/n/10.95 ,
  []
 
 [3]
-Underfull \hbox (badness 3068) in paragraph at lines 328--329
+Underfull \hbox (badness 3068) in paragraph at lines 341--342
 []\T2A/cmr/m/n/10.95 Спектр на ос-но-ве ана-ли-ти-че-ско-го ре-ше-ния
  []
 
@@ -711,12 +765,12 @@ Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    size: 13600 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig1-eps-converted-t
 o.pdf fig1.eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)             \includegraphics on input line 346.
 Package epstopdf Info: Output file is already uptodate.
 <fig1-eps-converted-to.pdf, id=40, 413.545pt x 272.01625pt>
 File: fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 333.
+Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 346.
 (pdftex.def)             Requested size: 248.25029pt x 163.294pt.
 Package epstopdf Info: Source file: <fig2.eps>
 (epstopdf)                    date: 2026-07-31 11:19:48
@@ -726,12 +780,12 @@ Package epstopdf Info: Source file: <fig2.eps>
 (epstopdf)                    size: 14890 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig2-eps-converted-t
 o.pdf fig2.eps>
-(epstopdf)             \includegraphics on input line 334.
+(epstopdf)             \includegraphics on input line 347.
 Package epstopdf Info: Output file is already uptodate.
 <fig2-eps-converted-to.pdf, id=41, 413.545pt x 272.01625pt>
 File: fig2-eps-converted-to.pdf Graphic file (type pdf)
 <use fig2-eps-converted-to.pdf>
-Package pdftex.def Info: fig2-eps-converted-to.pdf  used on input line 334.
+Package pdftex.def Info: fig2-eps-converted-to.pdf  used on input line 347.
 (pdftex.def)             Requested size: 248.25029pt x 163.294pt.
 Package epstopdf Info: Source file: <fig3.eps>
 (epstopdf)                    date: 2026-07-31 11:19:48
@@ -741,26 +795,26 @@ Package epstopdf Info: Source file: <fig3.eps>
 (epstopdf)                    size: 14787 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig3-eps-converted-t
 o.pdf fig3.eps>
-(epstopdf)             \includegraphics on input line 335.
+(epstopdf)             \includegraphics on input line 348.
 Package epstopdf Info: Output file is already uptodate.
 <fig3-eps-converted-to.pdf, id=42, 413.545pt x 261.97874pt>
 File: fig3-eps-converted-to.pdf Graphic file (type pdf)
 <use fig3-eps-converted-to.pdf>
-Package pdftex.def Info: fig3-eps-converted-to.pdf  used on input line 335.
+Package pdftex.def Info: fig3-eps-converted-to.pdf  used on input line 348.
 (pdftex.def)             Requested size: 248.25029pt x 157.2684pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
 []\T2A/cmr/bx/n/10 Риc. 1. |\T2A/cmr/m/n/10 Мо-дель спек-тра фо-то-на, усред-не
 н-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
 \T2A/cmr/m/n/10 но-го по уг-ло-вым диа-па-зо-нам (свер-ху вниз)
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 336--336
+Underfull \hbox (badness 1400) in paragraph at lines 349--349
 [] \OML/cmm/m/it/10 ^^R \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 :
 \OT1/cmr/m/n/10 875\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 ; \OT1
 /cmr/m/n/10 [0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/
@@ -770,64 +824,103 @@ n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 625)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 336--336
+Underfull \hbox (badness 1264) in paragraph at lines 349--349
 \T2A/cmr/m/n/10 по-ля-ри-за-ции на-чаль-но-го элек-тро-на при зна-че-ни-ях
  []
 
-[4 <./fig1-eps-converted-to.pdf> <./fig2-eps-converted-to.pdf> <./fig3-eps-conv
-erted-to.pdf>]
-Underfull \hbox (badness 1275) in paragraph at lines 416--417
-[]\T2A/cmr/m/n/10 Беккер, Вольф (P.A. Becker and M.T. Wolff)
+[4] [5 <./fig1-eps-converted-to.pdf> <./fig2-eps-converted-to.pdf> <./fig3-eps-
+converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+\T2A/cmr/m/n/10 ``Cyclotron Line Features from Near-critical
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 419--420
+Underfull \hbox (badness 2302) in paragraph at lines 409--410
+\T2A/cmr/m/n/10 Harding) ``Cyclotron Line Features from Near-
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 415--416
 []\T2A/cmr/m/n/10 Беккер и др. (P. A. Becker, D. Klochkov, G.
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 422--423
-[]\T2A/cmr/m/n/10 Беккер, Вольф (P.A. Becker and M.T. Wolff)
+Underfull \hbox (badness 2818) in paragraph at lines 424--425
+[]\T2A/cmr/m/n/10 Компанеец А.С. ``Об уста-нов-ле-нии теп-ло-во-го
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 425--426
-[]\T2A/cmr/m/n/10 Компанеец А.С. ЖЭТФ \T2A/cmr/bx/n/10 31\T2A/cmr/m/n/10 , 876 
-(1956) [A.S.
+Underfull \hbox (badness 2990) in paragraph at lines 424--425
+\T2A/cmr/m/n/10 рав-но-ве-сия меж-ду кван-та-ми и элек-тро-на-ми''
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
+Underfull \hbox (badness 1490) in paragraph at lines 424--425
+\T2A/cmr/m/n/10 Gas Interactions with Radiation'' JETP \T2A/cmr/bx/n/10 4 \T2A/
+cmr/m/n/10 730
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 []\T2A/cmr/m/n/10 Муштуков и др. (A.A. Mushtukov, V.F.
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 442--443
-\T2A/cmr/m/n/10 Suleimanov, S.S. Tsygankov, and S.P. Zwart)
+Underfull \hbox (badness 3375) in paragraph at lines 439--440
+\T2A/cmr/m/n/10 Suleimanov, S.S. Tsygankov, and S. Portegies
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 448--449
-[]\T2A/cmr/m/n/10 Муштуков, Зварт (A.A. Mushtukov and S.P.
+Underfull \hbox (badness 3942) in paragraph at lines 439--440
+\T2A/cmr/m/n/10 Zwart) ``Spectrum formation in X-ray pulsars
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+Underfull \hbox (badness 2285) in paragraph at lines 439--440
+\T2A/cmr/m/n/10 at very low mass accretion rate: Monte-Carlo
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 442--443
+\T2A/cmr/m/n/10 V.F. Suleimanov et al.) ``Statistical features of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+[]\T2A/cmr/m/n/10 Нисимура (O. Nishimura) ``Superposition of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
 []\T2A/cmr/m/n/10 Румянцев и др. (D.A. Rumyantsev, M.V.
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 466--467
-\T2A/cmr/m/n/10 Chistyakov, T.A. Puhov) Phys. At. Nucl. \T2A/cmr/bx/n/10 89\T2A
-/cmr/m/n/10 ,
+Underfull \hbox (badness 5741) in paragraph at lines 463--464
+\T2A/cmr/m/n/10 Chistyakov, T.A. Puhov) ``Resonant Compton
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
-[]\T2A/cmr/m/n/10 Ярков, Ру-мян-цев (A.A. Yarkov and D.A.
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
+[]\T2A/cmr/m/n/10 Чистяков и др. (M.V. Chistyakov, D.A.
  []
 
-[5] (Shlenev.aux)
+
+Underfull \hbox (badness 4328) in paragraph at lines 469--470
+\T2A/cmr/m/n/10 Rumyantsev, N.S. Stus') ``Photon splitting in
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 478--479
+[]\T2A/cmr/m/n/10 Ярков и Ру-мян-цев (A.A. Yarkov and D.A.
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 478--479
+\T2A/cmr/m/n/10 Rumyantsev) ``Resonant Compton Scattering of
+ []
+
+[6] (Shlenev.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -836,7 +929,7 @@ L3 programming layer <2025-12-24>
 Here is how much of TeX's memory you used:
  9178 strings out of 467870
  164894 string characters out of 5418840
- 780322 words of memory out of 5000000
+ 784322 words of memory out of 5000000
  37862 multiletter control sequences out of 15000+600000
  654299 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -873,9 +966,9 @@ ts/type1/public/cm-super/sfrm1095.pfb><C:/Users/a12l/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/cm-super/sfti1000.pfb><C:/Users/a12l/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/a12l/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on Shlenev.pdf (5 pages, 487679 bytes).
+Output written on Shlenev.pdf (6 pages, 503442 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
+ 186 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
